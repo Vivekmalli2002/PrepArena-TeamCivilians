@@ -1,0 +1,198 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* ---------- Design tokens ---------- */
+:root {
+  --bg: #eef2f7;
+  --bg-glow-1: #8ec5ff;
+  --bg-glow-2: #c4b5fd;
+  --bg-glow-3: #99f6e4;
+  --fg: #0f172a;
+  --muted: #526077;
+  --faint: #8a96aa;
+  --glass: rgb(255 255 255 / 0.62);
+  --glass-strong: rgb(255 255 255 / 0.82);
+  --glass-border: rgb(255 255 255 / 0.75);
+  --hairline: rgb(15 23 42 / 0.08);
+  --shadow: 0 1px 2px rgb(15 23 42 / 0.04), 0 8px 28px -10px rgb(30 41 82 / 0.18);
+
+  --primary: #4338ca;
+  --primary-strong: #3730a3;
+  --primary-soft: rgb(67 56 202 / 0.1);
+  --on-primary: #ffffff;
+
+  --good: #059669;
+  --good-soft: rgb(5 150 105 / 0.12);
+  --bad: #dc2626;
+  --bad-soft: rgb(220 38 38 / 0.1);
+  --warn: #d97706;
+
+  /* CBT palette (TCS-iON style) */
+  --st-answered: #16a34a;
+  --st-notanswered: #dc2626;
+  --st-notvisited: #e2e8f0;
+  --st-notvisited-fg: #334155;
+  --st-marked: #7c3aed;
+
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --bg: #080b16;
+  --bg-glow-1: #1e3a8a;
+  --bg-glow-2: #4c1d95;
+  --bg-glow-3: #134e4a;
+  --fg: #e7ecf5;
+  --muted: #9aa6bd;
+  --faint: #66728a;
+  --glass: rgb(22 28 48 / 0.55);
+  --glass-strong: rgb(24 30 52 / 0.85);
+  --glass-border: rgb(255 255 255 / 0.08);
+  --hairline: rgb(255 255 255 / 0.08);
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 10px 30px -12px rgb(0 0 0 / 0.6);
+
+  --primary: #8b8cf8;
+  --primary-strong: #a5a6ff;
+  --primary-soft: rgb(139 140 248 / 0.16);
+  --on-primary: #0b0d1c;
+
+  --good: #34d399;
+  --good-soft: rgb(52 211 153 / 0.14);
+  --bad: #f87171;
+  --bad-soft: rgb(248 113 113 / 0.14);
+  --warn: #fbbf24;
+
+  --st-answered: #22c55e;
+  --st-notanswered: #ef4444;
+  --st-notvisited: #2a3350;
+  --st-notvisited-fg: #cbd5e1;
+  --st-marked: #8b5cf6;
+
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-glass: var(--glass);
+  --color-glass-strong: var(--glass-strong);
+  --color-glass-border: var(--glass-border);
+  --color-hairline: var(--hairline);
+  --color-primary: var(--primary);
+  --color-primary-strong: var(--primary-strong);
+  --color-primary-soft: var(--primary-soft);
+  --color-on-primary: var(--on-primary);
+  --color-good: var(--good);
+  --color-good-soft: var(--good-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --color-warn: var(--warn);
+  --color-st-answered: var(--st-answered);
+  --color-st-notanswered: var(--st-notanswered);
+  --color-st-notvisited: var(--st-notvisited);
+  --color-st-notvisited-fg: var(--st-notvisited-fg);
+  --color-st-marked: var(--st-marked);
+  --font-sans: "Noto Sans Variable", system-ui, sans-serif;
+  --font-display: "Bricolage Grotesque Variable", "Noto Sans Variable", system-ui, sans-serif;
+  --shadow-glass: var(--shadow);
+}
+
+/* ---------- Base ---------- */
+html {
+  -webkit-tap-highlight-color: transparent;
+  text-size-adjust: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  min-height: 100dvh;
+}
+
+/* Soft aurora behind the glass. Fixed so it costs nothing on scroll. */
+.aurora {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(38rem 28rem at 8% -8%, color-mix(in srgb, var(--bg-glow-1) 55%, transparent), transparent 70%),
+    radial-gradient(34rem 26rem at 105% 10%, color-mix(in srgb, var(--bg-glow-2) 50%, transparent), transparent 70%),
+    radial-gradient(40rem 30rem at 50% 115%, color-mix(in srgb, var(--bg-glow-3) 45%, transparent), transparent 70%),
+    var(--bg);
+}
+
+.glass {
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(18px) saturate(1.4);
+  -webkit-backdrop-filter: blur(18px) saturate(1.4);
+}
+
+.glass-strong {
+  background: var(--glass-strong);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(22px) saturate(1.5);
+  -webkit-backdrop-filter: blur(22px) saturate(1.5);
+}
+
+/* Chrome that sits over scrolling text (CBT bars): frosted but nearly opaque, for legibility. */
+.glass-solid {
+  background: color-mix(in srgb, var(--bg) 97%, transparent);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(22px) saturate(1.5);
+  -webkit-backdrop-filter: blur(22px) saturate(1.5);
+}
+
+.font-display {
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
+  letter-spacing: -0.02em;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+.skeleton {
+  background: linear-gradient(90deg, var(--hairline) 25%, color-mix(in srgb, var(--hairline) 40%, transparent) 50%, var(--hairline) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s linear infinite;
+  border-radius: 0.75rem;
+}
+
+@keyframes shimmer {
+  to {
+    background-position: -200% 0;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
