@@ -1,0 +1,1269 @@
+[
+ {
+  "id": "AIR-001",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Atmospheric chemistry & ozone",
+  "question": "Which of the following are components of NOy species in atmosphere?\nA. HNO₃\nB. ClONO₂\nC. HOONO₂\nD. NO₃\nE. N₂O₅\nChoose the most appropriate answer from the options given below:",
+  "options": [
+   "D and E Only",
+   "A, C and E Only",
+   "A, B and C Only",
+   "A, B, C, D and E"
+  ],
+  "answerIndex": 3,
+  "explanation": "NOy species in the atmosphere refer to various nitrogen oxides and related\ncompounds that collectively represent the reactive nitrogen oxides. These include\nboth nitrogen oxides (NO and NO₂) and more complex species. Components of\nNOy species typically include:\nA. HNO₃ (Nitric acid)\nB. ClONO₂ (Chlorine nitrate)\nC. HOONO₂ (Peroxynitric acid)\nD. NO₃ (Nitrate radical)\nE. N₂O₅ (Dinitrogen pentoxide)\nAll of the above listed compounds are indeed part of the NOy family.\nTherefore, the correct answer is:\n4. A, B, C, D and E\nLet's dive into the different categories of nitrogen oxides: NOx, NOy, and NOz.\nNOx (Nitrogen Oxides):\nNOx is a general term for the primary nitrogen oxides: nitrogen monoxide (NO)\nand nitrogen dioxide (NO₂). These compounds are significant pollutants and play a\ncrucial role in atmospheric chemistry.\nSources: NOx emissions primarily come from combustion processes,\nincluding vehicle engines, power plants, industrial processes, and biomass\nburning.\nEnvironmental Impact: NOx contributes to the formation of ground-level\nozone (smog), acid rain, and fine particulate matter. It also has adverse\neffects on human health, including respiratory problems and lung diseases.\nChemistry:\no NO: Nitrogen monoxide or nitric oxide.\no NO₂: Nitrogen dioxide, a reactive and toxic gas.\nNOy (Reactive Nitrogen Oxides):\nNOy encompasses a broader group of reactive nitrogen compounds, including NO\nand NO₂, as well as their oxidation products and other related species. NOy is often\nused to represent the total reactive nitrogen in the atmosphere.\nComponents: NOy includes NOx (NO and NO₂) plus other reactive\nnitrogen species such as:\no HNO₃ (Nitric acid)\no N₂O₅ (Dinitrogen pentoxide)\no NO₃ (Nitrate radical)\no ClONO₂ (Chlorine nitrate)\no HOONO₂ (Peroxynitric acid)\nRole in Atmosphere: NOy species participate in various chemical reactions\nthat influence atmospheric composition, including the formation of ozone\nand secondary organic aerosols. They also play a role in nitrogen deposition\nto ecosystems.\nNOz (Secondary Nitrogen Oxides):\nNOz refers to the subset of NOy species that are produced from the oxidation of\nNOx, excluding NO and NO₂. It represents the secondary reactive nitrogen\ncompounds formed in the atmosphere.\nComponents: NOz includes species such as:\no HNO₃ (Nitric acid)\no N₂O₅ (Dinitrogen pentoxide)\no NO₃ (Nitrate radical)\no ClONO₂ (Chlorine nitrate)\no HOONO₂ (Peroxynitric acid)\nFormation: NOz species are formed through photochemical reactions and\noxidation processes involving NOx. These reactions typically occur in the\npresence of sunlight and other atmospheric constituents.\nSignificance: NOz species contribute to the formation of secondary\npollutants, such as particulate nitrates, which impact air quality and human\nhealth. They also play a role in long-range transport of reactive nitrogen and\nnitrogen deposition.\nSummary Table\nCategory Description Components\nNOx Primary nitrogen oxides NO, NO₂\nNO, NO₂, HNO₃, N₂O₅, NO₃,\nNOy Total reactive nitrogen oxides\nClONO₂, HOONO₂, etc.\nSecondary nitrogen oxides HNO₃, N₂O₅, NO₃, ClONO₂,\nNOz\n(excluding NO and NO₂) HOONO₂, etc.",
+  "source": "PYQ 2 Sep 2024",
+  "sourcePage": 3,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-002",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Plume dispersion & meteorology",
+  "question": "Match the List-I with List-II\nLIST-I (Conditions)\nA. Inversion below, lapse aloft\nB. Strong lapse condition\nC. Lapse below, Inversion aloft\nD. Weak lapse below; Inversion aloft\nLIST-II (Plume Behavior)\nI. Fumigation\nII. Lofting\nIII. Looping\nIV. Trapping\nChoose the correct answer from the options given below:",
+  "options": [
+   "A-III, B-II, C-I, D-IV",
+   "A-II, B-III, C-I, D-IV",
+   "A-II, B-I, C-III, D-IV",
+   "A-II, B-III, C-IV, D-I"
+  ],
+  "answerIndex": 1,
+  "explanation": "Plume shapes by temperature profile: strong lapse → looping (III); inversion below with lapse aloft → lofting (II); lapse below with inversion aloft → fumigation (I); weak lapse below with inversion aloft → trapping (IV). Hence A-II, B-III, C-I, D-IV (option 2). [Editorial: the source's printed explanation swaps the definitions of lofting and fumigation yet still ends at option 2; the source's own plume diagram (explanation image) shows lofting = inversion below/lapse aloft and fumigation = lapse below/inversion aloft, which supports the key.]",
+  "source": "PYQ 2 Sep 2024",
+  "sourcePage": 6,
+  "sourceKey": "B",
+  "keyCheck": "resolved-by-figure",
+  "flag": "Source explanation text contradicts its own key (swapped lofting/fumigation definitions); key confirmed against the source's plume diagram. Needs editor sign-off.",
+  "explanationImage": [
+   "p0007_3.jpg"
+  ]
+ },
+ {
+  "id": "AIR-003",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Particulate & gaseous control devices",
+  "question": "Which of the following air pollution-control/particle-collection devices uses the force of gravity to aid in collection of particles by exploiting their terminal velocity?",
+  "options": [
+   "Electrostatic precipitators",
+   "Elutriators",
+   "Bag houses",
+   "Super saturators"
+  ],
+  "answerIndex": 1,
+  "explanation": "The air pollution-control/particle-collection device that uses the force of gravity to\naid in the collection of particles by exploiting their terminal velocity is an\nelutriator.\nExplanation:\nElutriators: These devices separate particles based on their terminal\nvelocities using an upward flow of air or gas. Heavier particles with higher\nterminal velocities settle down due to gravity, while lighter particles are\ncarried away by the upward flow.\nElectrostatic Precipitators: Use electrostatic forces to collect particles from\nexhaust gases.\nBag Houses: Use fabric filter bags to capture particles from the air.\nSuper Saturators: Typically refer to processes that involve supersaturation\nconditions for condensation particle counters, not gravity-based separation.\nSo, the correct answer is:\n2. Elutriators\nLet's delve into the details of elutriators, a type of particle-collection device used in\nair pollution control and particle separation processes.\nWhat is an Elutriator?\nAn elutriator is a device that separates particles based on their size, shape, and\ndensity using the principle of terminal velocity and the force of gravity. It leverages\nan upward flow of air or gas to classify particles, causing heavier particles to settle\nand lighter particles to be carried away.\nHow Does an Elutriator Work?\n1. Airflow Introduction:\no An upward flow of air or gas is introduced at the bottom of the\nelutriator chamber. This flow must be precisely controlled to create a\nconsistent velocity gradient.\n2. Particle Inlet:\no Particles are introduced into the chamber where they encounter the\nupward airflow.\n3. Terminal Velocity:\no Each particle has a unique terminal velocity, which is the constant\nspeed a particle reaches when the force of gravity is balanced by the\ndrag force of the air or gas.\n4. Separation:\no Particles with terminal velocities greater than the upward airflow\nvelocity will settle down and be collected at the bottom.\no Particles with terminal velocities lower than the upward airflow\nvelocity will be carried upward with the airflow and collected at the\ntop or in subsequent chambers.\n5. Collection Zones:\no The chamber may be divided into different zones or stages to capture\nparticles of various sizes. Each zone has a different airflow rate,\nallowing finer separation.\nApplications of Elutriators\nAir Pollution Control: Used to remove particulate matter from industrial\nemissions.\nParticle Size Classification: Employed in industries such as\npharmaceuticals, chemicals, and mining to classify particles by size.\nResearch and Laboratory Analysis: Utilized in scientific studies to analyze\nparticle size distributions and aerodynamic properties.\nAdvantages of Elutriators\nSimple Design: Elutriators have a straightforward design with no moving\nparts, making them easy to operate and maintain.\nEffective Separation: Capable of separating particles with high precision\nbased on their terminal velocity.\nVersatility: Can be used for a wide range of particle sizes and densities.\nDisadvantages of Elutriators\nLimited Capacity: Not suitable for handling large volumes of particles.\nAirflow Control: Requires precise control of airflow to ensure accurate\nseparation.",
+  "source": "PYQ 2 Sep 2024",
+  "sourcePage": 9,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-004",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Atmospheric chemistry & ozone",
+  "question": "Choose the correct statements about ozone in stratosphere.\nA. Rate of O₃ production is highest at equator and at about 40 km height.\nB. Maximum O₃ concentration at equator occur at about 25 km as opposed to 40 km height.\nC. At poles, maximum O₃ production occur at altitude even higher than those over equator.\nD. Regions of highest O₃ concentration do not coincide with location of highest rate of O₃ formation\nE. Catalytic destruction of O₃ is more at Artic compared to Antarctica due to more CFCs in northern hemisphere.\nChoose the most appropriate answer from the options given below:",
+  "options": [
+   "A, C and D Only",
+   "B, D and E Only",
+   "A, B, C and D Only",
+   "A, D and E Only"
+  ],
+  "answerIndex": 2,
+  "explanation": "",
+  "source": "PYQ 2 Sep 2024",
+  "sourcePage": 12,
+  "sourceKey": "C",
+  "keyCheck": "source-only",
+  "flag": "No explanation in source; key not cross-checked."
+ },
+ {
+  "id": "AIR-005",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Noise pollution",
+  "question": "Noise coming out during dentists drilling would be an appropriate example of",
+  "options": [
+   "Steady state noise",
+   "Intermittent noise",
+   "Impulse noise",
+   "Impact noise"
+  ],
+  "answerIndex": 1,
+  "explanation": "The noise produced during a dentist's drilling is best categorized as intermittent\nnoise.\nExplanation:\nSteady State Noise: Continuous noise that remains relatively constant over\ntime. Examples include the hum of an air conditioner or a running fan.\nIntermittent Noise: Noise that starts and stops at intervals. The sound from\na dentist's drill fits this category as it is not constant but occurs in bursts,\nstarting and stopping as the dentist operates the drill.\nImpulse Noise: Noise that occurs as a sudden burst or spike, such as a\ngunshot or a balloon popping. This type of noise is short and sharp.\nImpact Noise: Similar to impulse noise, it is caused by collision events, like\nhammering or banging.\nSo, the correct answer is:\n2. Intermittent noise\nSummary Table\nType of Noise Definition Examples Characteristics\nSteady State Air conditioner Blends into background,\nConstant over time\nNoise hum, office noise less noticeable\nIntermittent Dentist's drill, Noticeable, associated\nOccurs at intervals, sporadic\nNoise traffic noise with specific events\nGunshot, balloon Startling, can cause\nImpulse Noise Short bursts, sudden onset\npopping discomfort\nHammering, Varies in intensity,\nImpact Noise Results from collision/impact\ndropping objects physical impacts\nBroadband Contains a wide range of White noise, Soothing, used in sound\nNoise frequencies waterfall sound masking\nNarrowband Confined to a narrow range of Electrical hum, Intrusive, specific\nNoise frequencies tuning fork frequency\nOriginates from environment,\nEnvironmental Birds chirping, Varies widely, impacts\nnatural and human-made\nNoise traffic, construction quality of life\nsources",
+  "source": "PYQ 2 Sep 2024",
+  "sourcePage": 14,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-006",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Greenhouse gases & climate",
+  "question": "Which one of the following is a greenhouse gas and a criteria air pollutant under national ambient air quality standards but is not directly emitted in troposphere?",
+  "options": [
+   "N₂O",
+   "CO₂",
+   "SF₆",
+   "O₃"
+  ],
+  "answerIndex": 3,
+  "explanation": "Explanation:\nOzone (O₃):\no Greenhouse Gas: Ozone is a greenhouse gas, contributing to the\ngreenhouse effect and global warming.\no Criteria Air Pollutant: It is also one of the six criteria air pollutants\nregulated under the National Ambient Air Quality Standards\n(NAAQS) due to its harmful effects on human health and the\nenvironment.\no Not Directly Emitted: Ozone in the troposphere is not directly\nemitted. Instead, it is formed through photochemical reactions\ninvolving precursor pollutants like nitrogen oxides (NOx) and volatile\norganic compounds (VOCs) in the presence of sunlight.\nOther Options:\nN₂O (Nitrous Oxide): A greenhouse gas but not a criteria air pollutant.\nCO₂ (Carbon Dioxide): A greenhouse gas but not a criteria air pollutant\nunder NAAQS.\nSF₆ (Sulfur Hexafluoride): A potent greenhouse gas but not a criteria air\npollutant.\nSo, the correct answer is:\n4. O₃ (Ozone)",
+  "source": "PYQ 2 Sep 2024",
+  "sourcePage": 16,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-007",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Photochemical smog",
+  "question": "The essential conditions for photochemical smog formation in ambient atmosphere are",
+  "options": [
+   "SO₂, water vapor, T>25° C",
+   "Smoke, water vapor, T>25° C",
+   "VOC, SO₂, T>25° C",
+   "NOx, VOC, T>25° C"
+  ],
+  "answerIndex": 3,
+  "explanation": "The essential conditions for photochemical smog formation in the ambient\natmosphere are:\n4. NO, VOC, T > 25°C\nExplanation:\nNO (Nitric Oxide): Nitrogen oxides (NOx), primarily NO and NO₂, are key\nprecursors in the formation of photochemical smog. They are emitted from\nvehicle exhaust, industrial processes, and other combustion sources.\nVOC (Volatile Organic Compounds): VOCs are organic chemicals that\neasily evaporate and enter the atmosphere. They come from sources like\nvehicle exhaust, industrial emissions, and the use of solvents and paints.\nT > 25°C: Higher temperatures, usually above 25°C, provide the necessary\nenergy for the photochemical reactions to occur. Sunlight is a crucial factor,\nas it drives the chemical reactions that lead to the formation of smog.\nPhotochemical smog, also known as \"ozone smog,\" is formed through a complex\nseries of photochemical reactions involving NOx and VOCs in the presence of\nsunlight, leading to the production of ground-level ozone (O₃) and other harmful\npollutants.",
+  "source": "PYQ 2 Sep 2024",
+  "sourcePage": 17,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-008",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Atmospheric chemistry & ozone",
+  "question": "Arrange the following atmospheric species in increasing order of their residence times :\n(A) Formaldehyde\n(B) Hydroxyl radical\n(C) Carbon monoxide\n(D) Nitrous oxide\nChoose the correct answer from the options given below :",
+  "options": [
+   "(B), (A), (C), (D)",
+   "(A), (B), (C), (D)",
+   "(B), (D), (A), (C)",
+   "(D), (B), (A), (C)"
+  ],
+  "answerIndex": 0,
+  "explanation": "To arrange the atmospheric species in increasing order of their residence times, we\nneed to understand their typical lifetimes in the atmosphere:\nHydroxyl radical (OH): Extremely reactive with a very short lifetime,\ntypically on the order of seconds to minutes.\nFormaldehyde (HCHO): Short-lived, with a lifetime ranging from hours to\ndays.\nCarbon monoxide (CO): Moderately reactive, with a lifetime of weeks to\nmonths.\nNitrous oxide (N₂O): Long-lived, with a lifetime of over 100 years.\nArranging in Increasing Order of Residence Times:\n1. Hydroxyl radical (B): Seconds to minutes.\n2. Formaldehyde (A): Hours to days.\n3. Carbon monoxide (C): Weeks to months.\n4. Nitrous oxide (D): Over 100 years.\nTherefore, the correct order is:\n1. (B), (A), (C), (D)",
+  "source": "PYQ 5 Sep 2024",
+  "sourcePage": 19,
+  "sourceKey": "A",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-009",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Noise pollution",
+  "question": "Which of the following indices of noise pollution would be most appropriate for assessing the background noise level at a place?",
+  "options": [
+   "L90",
+   "L50",
+   "Leq",
+   "L10"
+  ],
+  "answerIndex": 0,
+  "explanation": "Let's delve into the various indices of noise pollution and understand each one in\ndetail:\nNoise Pollution Indices\n1. L10\n2. L50\n3. L90\n4. Leq\nDetailed Explanation:\n1. L10\nDefinition: L10 is the noise level that is exceeded 10% of the time during a\nmeasurement period.\nUsage: It is often used to assess higher noise levels, such as those from\ntraffic or other intermittent noise sources.\nSignificance: It indicates the peak noise level that is commonly experienced\nand is useful for understanding the impact of high noise events on the\nenvironment and human health.\n2. L50\nDefinition: L50 represents the noise level that is exceeded 50% of the time\nduring a measurement period.\nUsage: It provides an indication of the median or typical noise level in an\narea.\nSignificance: L50 is useful for giving a general sense of the noise\nenvironment and is less affected by extreme noise events compared to L10.\n3. L90\nDefinition: L90 is the noise level that is exceeded 90% of the time during a\nmeasurement period.\nUsage: It is commonly used to assess background noise levels.\nSignificance: L90 effectively filters out short-term noise peaks and focuses\non the more consistent, underlying noise level, making it ideal for assessing\nbackground noise.\n4. Leq (Equivalent Continuous Sound Level)\nDefinition: Leq is the equivalent continuous sound level over a specified\nperiod. It represents the constant sound level that contains the same acoustic\nenergy as the actual varying sound levels over the measurement period.\nUsage: Leq is widely used to assess overall noise exposure in various\nenvironments, including urban areas, workplaces, and industrial settings.\nSignificance: Leq takes into account all fluctuations in noise levels,\nproviding a comprehensive measure of noise exposure over time.\nExample Scenario\nImagine you are assessing noise pollution in a residential area near a busy road.\nHere's how you might use these indices:\nL10: Measures the noise level exceeded during the loudest moments (e.g.,\nwhen heavy traffic passes).\nL50: Provides a median noise level, giving an idea of the typical noise\nenvironment.\nL90: Focuses on background noise, useful for understanding the baseline\nnoise level when traffic is low or absent.\nLeq: Combines all noise levels over a period to provide an overall\nassessment of noise exposure.\nSummary Table\nIndex Definition Usage Significance\nNoise level exceeded Assessing peak noise Indicates the highest noise\nL10\n10% of the time levels events\nGeneral noise\nNoise level exceeded Provides median noise\nL50 environment\n50% of the time level\nassessment\nNoise level exceeded Assessing background Focuses on consistent,\nL90\n90% of the time noise levels underlying noise\nEquivalent continuous Overall noise exposure Comprehensive measure of\nLeq\nsound level assessment noise exposure",
+  "source": "PYQ 5 Sep 2024",
+  "sourcePage": 21,
+  "sourceKey": "A",
+  "keyCheck": "matches-explanation",
+  "explanationImage": [
+   "p0023_12.png"
+  ]
+ },
+ {
+  "id": "AIR-010",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Atmospheric chemistry & ozone",
+  "question": "Dobson unit is the thickness of Ozone which is expressed in :",
+  "options": [
+   "Tenths of centimetre",
+   "Tenths of millimetre",
+   "Hundredths of millimetre",
+   "Hundredths of centimetre"
+  ],
+  "answerIndex": 2,
+  "explanation": "A Dobson Unit (DU) is a measure of the total amount of ozone in a column of the\natmosphere, and it is defined as the thickness of the ozone layer that would be\nformed if it were compressed to standard temperature and pressure (STP). One\nDobson Unit corresponds to a thickness of:\n3. Hundredths of millimetre\nAverage Dobson Units:\n1. Normal Conditions:\no Average Range: Typically, the total column ozone amount varies between 250 to\n500 Dobson Units (DU).\no Example: In mid-latitude regions, an average ozone column might be around 300\nto 350 DU.\n2. Ozone Hole Conditions:\no Average Range: During the annual occurrence of the ozone hole over Antarctica,\nthe ozone concentration can drop significantly.\no Example: In severe cases, ozone levels can fall below 220 DU, which is used as a\nbenchmark for defining the ozone hole. In the worst instances, it can drop as low\nas 100 DU or even less.",
+  "source": "PYQ 5 Sep 2024",
+  "sourcePage": 24,
+  "sourceKey": "A",
+  "keyCheck": "conflict-trusted-explanation",
+  "flag": "Source key reads A (tenths of centimetre) but the explanation states 'Hundredths of millimetre' (option 3), which is the standard definition (1 DU = 0.01 mm). Answer set from the explanation per spec; confirm.",
+  "explanationImage": [
+   "p0024_13.png"
+  ]
+ },
+ {
+  "id": "AIR-011",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Photochemical smog",
+  "question": "Of the following species, the most likely to be found in reducing smog is :",
+  "options": [
+   "Ozone",
+   "SO₂",
+   "Peroxyacetyl nitrate",
+   "Peroxybenzoyl nitrate"
+  ],
+  "answerIndex": 1,
+  "explanation": "Reducing smog, also known as London-type smog or industrial smog, is\nprimarily associated with sulfur dioxide (SO₂) and particulate matter. It typically\nforms in cool, humid conditions and is linked to the burning of coal and other\nfossil fuels.\nThe species most likely to be found in reducing smog is:\n2. SO₂ (Sulfur Dioxide)",
+  "source": "PYQ 5 Sep 2024",
+  "sourcePage": 25,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-012",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Plume dispersion & meteorology",
+  "question": "In a region where radiation inversions extend beyond the stack height, the emitted plume will be best characterized as:",
+  "options": [
+   "Coning",
+   "Fanning",
+   "Trapping",
+   "Looping"
+  ],
+  "answerIndex": 1,
+  "explanation": "In a region where radiation inversions extend beyond the stack height, the emitted\nplume will be best characterized as:\n2. Fanning\nExplanation:\nFanning: This plume behavior occurs when there is a temperature inversion\nin the atmosphere, causing a stable layer that prevents vertical mixing. The\nemitted pollutants spread horizontally, creating a fanning pattern. This\ntypically happens during radiation inversions, where cool air is trapped near\nthe ground under a layer of warmer air, extending above the stack height.\nHere’s a quick overview of the other plume behaviors for comparison:\nConing: Occurs in neutral stability conditions, where pollutants disperse\nevenly in a cone-shaped pattern.\nTrapping: Happens when there are inversions both above and below the\nemission source, trapping pollutants in a layer.\nLooping: Occurs in highly unstable conditions with strong vertical mixing,\ncausing the plume to loop.",
+  "source": "PYQ 5 Sep 2024",
+  "sourcePage": 26,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-013",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Air quality standards & pollutant types",
+  "question": "For each 10°C rise in temperature, the rate of biological processes roughly increases by:",
+  "options": [
+   "2 times",
+   "3 times",
+   "4 times",
+   "5 times"
+  ],
+  "answerIndex": 0,
+  "explanation": "For each 10°C rise in temperature, the rate of biological processes roughly\nincreases by:\n1. 2 times\nExplanation:\nThis concept is commonly referred to as the Q₁₀ temperature coefficient,\nwhich describes the rate of increase in biological or chemical processes with a\n10°C rise in temperature. For most biological processes, the Q₁₀ value is typically\naround 2, meaning that the rate of these processes doubles with every 10°C\nincrease in temperature.",
+  "source": "PYQ 5 Sep 2024",
+  "sourcePage": 27,
+  "sourceKey": "A",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-014",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Plume dispersion & meteorology",
+  "question": "Which of the following are correct statements ?\n(A) Potential temperature is a conserved quantity for an air parcel under adiabatic condition.\n(B) The air parcel temperature becomes equal to dew point temperature at lifting condensation level.\n(C) The saturation vapour pressure over pure water increases linearly with temperature of water.\n(D) The magnitude of saturated adiabatic lapse rate is always greater than that of dry adiabatic lapse rate.\nChoose the correct answer from the options given below:",
+  "options": [
+   "(A), (B) and (C) Only",
+   "(A) and (B) Only",
+   "(B), (C) and (D) Only",
+   "(A), (B) and (D) Only"
+  ],
+  "answerIndex": 1,
+  "explanation": "Let's evaluate each statement:\n(A) Potential temperature is a conserved quantity for an air parcel under\nadiabatic condition.\nThis statement is true. Potential temperature remains constant for an air\nparcel undergoing adiabatic processes (no heat exchange with the\nenvironment).\n(B) The air parcel temperature becomes equal to dew point temperature at\nlifting condensation level.\nThis statement is true. At the lifting condensation level (LCL), the\ntemperature of the air parcel cools to its dew point temperature, leading to\ncondensation.\n(C) The saturation vapour pressure over pure water increases linearly with\ntemperature of water.\nThis statement is false. The saturation vapour pressure over water increases\nexponentially with temperature, not linearly.\n(D) The magnitude of saturated adiabatic lapse rate is always greater than\nthat of dry adiabatic lapse rate.\nThis statement is false. The saturated adiabatic lapse rate is typically less\nthan the dry adiabatic lapse rate because the release of latent heat during\ncondensation reduces the rate of cooling.\nGiven this analysis, the correct answer is:\n2. (A) and (B) Only",
+  "source": "PYQ 5 Sep 2024",
+  "sourcePage": 28,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-015",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Particulate & gaseous control devices",
+  "question": "Which of the following devices are used for controlling the particulate contaminants present in stack emissions?\n(A) Wet Collectors\n(B) Centrifugal Collectors\n(C) Electrostatic Precipitators\n(D) Baghouse filters\n(E) Fixed bed adsorbers\nChoose the correct answer from the options given below:",
+  "options": [
+   "(A), (B) and (C) Only",
+   "(B), (C) and (D) Only",
+   "(A), (B), (C) and (D) Only",
+   "(A), (B), (C), (D) and (E)"
+  ],
+  "answerIndex": 2,
+  "explanation": "The devices used for controlling particulate contaminants in stack emissions are:\n(A) Wet Collectors (B) Centrifugal Collectors (C) Electrostatic Precipitators (D)\nBaghouse filters\nFixed bed adsorbers (E) are typically used for controlling gaseous contaminants,\nnot particulate matter.\nTherefore, the correct answer is:\n3. (A), (B), (C) and (D) Only",
+  "source": "PYQ 5 Sep 2024",
+  "sourcePage": 30,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation",
+  "explanationImage": [
+   "p0031_14.png",
+   "p0031_15.png",
+   "p0032_16.png"
+  ]
+ },
+ {
+  "id": "AIR-016",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Greenhouse gases & climate",
+  "question": "Identify the conditions which are favourable for the formation of urban heat islands:\n(A) Clear sky\n(B) High albedo over urban areas\n(C) Low evapo-transpiration over urban areas\n(D) High wind speed\nChoose the correct answer from the options given below:",
+  "options": [
+   "(A), (B) and (D) Only",
+   "(A) and (C) Only",
+   "(B) and (C) Only",
+   "(B) and (D) Only"
+  ],
+  "answerIndex": 1,
+  "explanation": "Let's evaluate each condition for the formation of urban heat islands:\n(A) Clear sky: True. Clear skies allow for maximum solar radiation to reach the\nurban surfaces, increasing temperatures.\n(B) High albedo over urban areas: False. High albedo (reflectivity) means\nsurfaces reflect more solar radiation, which would reduce heat absorption and thus\nnot favor urban heat island formation. Typically, urban areas have low albedo.\n(C) Low evapo-transpiration over urban areas: True. Urban areas usually have\nless vegetation and water bodies, leading to lower evapotranspiration, which means\nless cooling.\n(D) High wind speed: False. High wind speeds enhance mixing of air and\ndissipate heat, which is not favorable for urban heat island formation. Low wind\nspeeds are more conducive to heat build-up.\nGiven this analysis, the correct answer is:\n2. (A) and (C) Only",
+  "source": "PYQ 5 Sep 2024",
+  "sourcePage": 33,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-017",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Air quality standards & pollutant types",
+  "question": "Identify Trihalomethanes (THMs) among the following:\n(A) chloroform\n(B) bromodichloromethane\n(C) dibromochloromethane\n(D) bromoform\nChoose the correct answer from the options given below :",
+  "options": [
+   "(A) Only",
+   "(D) Only",
+   "(B) and (C) Only",
+   "(A), (B), (C) and (D)"
+  ],
+  "answerIndex": 3,
+  "explanation": "Trihalomethanes (THMs) are chemical compounds that consist of three halogen\natoms (chlorine, bromine, or iodine) substituted for three of the hydrogen atoms in\nmethane (CH₄). The following compounds are identified as THMs:\n(A) Chloroform (CHCl₃)\n(B) Bromodichloromethane (CHBrCl₂)\n(C) Dibromochloromethane (CHBr₂Cl)\n(D) Bromoform (CHBr₃)\nTherefore, the correct answer is:\n4. (A), (B), (C) and (D)",
+  "source": "PYQ 5 Sep 2024",
+  "sourcePage": 35,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-018",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Particulate & gaseous control devices",
+  "question": "Which of the following are used to control SO₂ emissions from a thermal power plant ?\n(A) Aqueous solutions of sodium and ammonia\n(B) Liquid nitrogen\n(C) Aqueous solutions of calcium and magnesium\n(D) Chlorine\nChoose the correct answer from the options given below :",
+  "options": [
+   "(A) and (B) Only",
+   "(A) Only",
+   "(C) and (D) Only",
+   "(A) and (C) Only"
+  ],
+  "answerIndex": 3,
+  "explanation": "The substances used to control SO₂ emissions from a thermal power plant typically\ninvolve chemical reactions that neutralize the sulfur dioxide. The correct choices\nare:\nAqueous solutions of sodium and ammonia (A)\nAqueous solutions of calcium and magnesium (C)\nBoth options (A) and (C) are commonly used in wet scrubbers and flue gas\ndesulfurization (FGD) systems to remove SO₂ from the emissions by forming\ncompounds like sodium sulfite, sodium bisulfite, calcium sulfite, and calcium\nsulfate.\nTherefore, the correct answer is:\n4. (A) and (C) Only",
+  "source": "PYQ 5 Sep 2024",
+  "sourcePage": 36,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-019",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Noise pollution",
+  "question": "Noise level of 90 dBA exists for 10 minutes and is followed by reduced noise level of 70 dBA for 40 minutes. Calculate the equivalent continuous equal energy level for 50-minute period. Assume 5-minute sampling interval:",
+  "options": [
+   "~32 dBA",
+   "~64 dBA",
+   "~83 dBA",
+   "~160 dBA"
+  ],
+  "answerIndex": 2,
+  "explanation": "Leq = 10·log₁₀[(1/T)·Σ tᵢ·10^(Lᵢ/10)] = 10·log₁₀[(10×10⁹ + 40×10⁷)/50] = 10·log₁₀(2.08×10⁸) ≈ 83.2 dBA, i.e. option 3 (~83 dBA). [Editorial: the source's printed explanation states 86.16 dBA, which is inconsistent with its own key and with this calculation.]",
+  "source": "PYQ Jun 2024 (cancelled paper)",
+  "sourcePage": 38,
+  "sourceKey": "C",
+  "keyCheck": "resolved-by-computation",
+  "flag": "Source explanation gives 86.16 dBA (wrong); key C (~83 dBA) matches the recomputation. Option 4 printed as '-160 dBA' in source (OCR dash) — shown as ~160 dBA; verify against original. Explanation replaced by computed working; needs sign-off.",
+  "explanationImage": [
+   "p0038_18.png"
+  ]
+ },
+ {
+  "id": "AIR-020",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Plume dispersion & meteorology",
+  "question": "What would be the behaviour of smokestack plume under the strong lapse rate condition in which the decrease in temperature vs. altitude is much greater than normal?",
+  "options": [
+   "Trapping",
+   "Fumigation",
+   "Looping",
+   "Conning"
+  ],
+  "answerIndex": 2,
+  "explanation": "Under a strong lapse rate condition where the decrease in temperature with altitude\nis much greater than normal, the behavior of a smokestack plume would be (3)\nLooping. This occurs because the environmental lapse rate exceeds the dry adiabatic\nlapse rate, creating instability and causing the plume to display a looping tendency—\nrising, falling, and then rising again",
+  "source": "PYQ Jun 2024 (cancelled paper)",
+  "sourcePage": 39,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-021",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Plume dispersion & meteorology",
+  "question": "The normal lapse rate of temperature per kilometer is",
+  "options": [
+   "9.6° C",
+   "10.6° C",
+   "6.4° C",
+   "4.6° C"
+  ],
+  "answerIndex": 2,
+  "explanation": "The normal lapse rate of temperature per kilometer is 6.4° C (Option 3). This rate is\ndefined by the International Civil Aviation Organization (ICAO) as an average\ntemperature decrease of 6.50 °C/km from sea level to 11 km in altitude",
+  "source": "PYQ Jun 2024 (cancelled paper)",
+  "sourcePage": 40,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation",
+  "note": "Source option 1 printed '9.6°' without unit letter; shown as 9.6° C."
+ },
+ {
+  "id": "AIR-022",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Particulate & gaseous control devices",
+  "question": "The collection mechanism of a bag filter includes\nA. Sedimentation\nB. Diffusion\nC. Electrostatic Interaction\nD. Interception\nE. Impaction\nChoose the correct answer from the options given below:",
+  "options": [
+   "A, B and D only",
+   "A, B, D and E only",
+   "B, D and E only",
+   "A, B, C, D and E"
+  ],
+  "answerIndex": 2,
+  "explanation": "",
+  "source": "PYQ Jun 2024 (cancelled paper)",
+  "sourcePage": 41,
+  "sourceKey": "C",
+  "keyCheck": "supported-by-figure",
+  "flag": "No explanation text in source; the source figure (diffusion, interception, inertial impaction) is consistent with key C.",
+  "explanationImage": [
+   "p0041_19.png"
+  ]
+ },
+ {
+  "id": "AIR-023",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Atmospheric chemistry & ozone",
+  "question": "Choose the incorrect statement:",
+  "options": [
+   "O₂ undergo photo-dissociation by UV-C radiation in stratosphere",
+   "O₃ undergo photo-dissociation by UV-B radiation in stratosphere",
+   "NO/NO₂ catalytic destruction cycle of ozone in stratosphere is initiated by photochemical of N₂O",
+   "Catalytically active reservoir of Cl in stratosphere are HCl gas and ClONO₂"
+  ],
+  "answerIndex": 2,
+  "explanation": "Let's analyze each statement to identify the incorrect one:\n1. O₂ undergo photo-dissociation by UV-C radiation in the stratosphere:\no Correct. Oxygen molecules (O₂) are photodissociated by UV-C\nradiation (wavelengths less than 240 nm) in the stratosphere, leading\nto the formation of atomic oxygen.\n2. O₃ undergo photo-dissociation by UV-B radiation in the stratosphere:\no Correct. Ozone (O₃) is photodissociated by UV-B radiation\n(wavelengths between 280 and 320 nm) in the stratosphere, resulting\nin the formation of molecular oxygen and atomic oxygen.\n3. NO/NO₂ catalytic destruction cycle of ozone in the stratosphere is\ninitiated by photochemical of N₂O:\no Incorrect. The NO/NO₂ catalytic destruction cycle of ozone is\ninitiated by the photochemical reaction of nitrogen dioxide (NO₂), not\nnitrous oxide (N₂O). N₂O is relatively stable and is transported to the\nstratosphere where it can be photolyzed to form NO, but it does not\ndirectly initiate the catalytic cycle.\n4. Catalytically active reservoirs of Cl in the stratosphere are HCl gas and\nClONO₂:\no Partially Correct. Hydrogen chloride (HCl) and chlorine nitrate\n(ClONO₂) are reservoirs for chlorine in the stratosphere. While they\nare reservoirs, they are generally considered inactive forms that can\nrelease active chlorine under certain conditions.\nGiven this analysis, the incorrect statement is:\n3. NO/NO₂ catalytic destruction cycle of ozone in the stratosphere is\ninitiated by photochemical of N₂O",
+  "source": "PYQ Jun 2024 (cancelled paper)",
+  "sourcePage": 42,
+  "sourceKey": "C",
+  "keyCheck": "conflict-trusted-explanation",
+  "flag": "Source key reads 'C and D'. Explanation identifies option 3 as the incorrect statement (and calls option 4 only 'partially correct'). Single answer set to option 3; confirm against the official key."
+ },
+ {
+  "id": "AIR-024",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Air quality standards & pollutant types",
+  "question": "Which one of the following pollutant is produced while burning hydrogen as fuel?",
+  "options": [
+   "CO₂",
+   "NO₂",
+   "H₂O",
+   "SOx"
+  ],
+  "answerIndex": 1,
+  "explanation": "When hydrogen is burned as fuel, it can produce nitrogen oxides (NOx), including\nnitric oxide (NO) and nitrogen dioxide (NO₂) . These NOx emissions are harmful\nair pollutants. So, the correct answer is (2) NO₂. Unlike the common\nmisconception that hydrogen only produces water, its combustion can indeed result\nin NOx emissions.",
+  "source": "PYQ Jun 2024 (cancelled paper)",
+  "sourcePage": 44,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-025",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Air quality standards & pollutant types",
+  "question": "According to the World Air Quality Report 2023 relied by the Swiss Organization IQ Air, which of the following metropolitan area is listed as the most polluted area?",
+  "options": [
+   "Begusarai",
+   "Bengaluru",
+   "Surat",
+   "Varanasi"
+  ],
+  "answerIndex": 0,
+  "explanation": "The most polluted metropolitan area in 2023, according to the World Air Quality\nReport, was Begusarai in Bihar\nState of Global Air (SoGA) Report, 2024\nIt is released by the Health Effects Institute (HEI), an independent U.S.-\nbased nonprofit research organization, in partnership with UNICEF.\nThe report provides an analysis of data for air quality and health impacts for\ncountries around the world.\nIt defined air pollution as a complex mixture including particles and\ndifferent gases, with sources and compositions varying over space and time.\nHighlights of SoGA Report 2024:\no Air pollution has become the second-leading global risk factor for\ndeath, surpassing tobacco and diabetes and trailing only\nhypertension.\no Among these, non communicable diseases, including heart disease,\nstroke, diabetes, lung cancer, and chronic obstructive pulmonary\ndisease, accounted for nearly 90% of the disease burden from air\npollution.\no Six out of ten deaths worldwide attributed to air\npollution are caused by the tiny PM2.5 particle; the remaining two\npollutants, ozone and household air pollution, account for 38% and\n6% of deaths, respectively.\no Diseases and ailments linked to air pollution claimed 8.1 million\nlives worldwide in 2021, with India accounting for one in four of\nthese deaths.\no India and China together account for 54% of the total global\ndisease burden due to air pollution in 2021. In India, air pollution\naccounted for 21 lakh deaths, and in China, it caused 23 lakh\ndeaths.\no More than 7,00,000 deaths in children under five years were linked\nto air pollution. This represents 15% of all global deaths among\nchildren under five.\no Lower respiratory infections (LRIs) are the leading cause of death for\nchildren under five\no India recorded the highest number of deaths among children under\nfive due to air pollution worldwide in 2021.\no Air pollution in India was responsible for the deaths of 1,69,400\nchildren under the age of five in 2021. This means that around 464\nchildren died every day in India that year due to diseases caused by air\npollution.\no In 2021,nearly 50% (2,37,000 deaths) of all ozone-related\nCOPD (chronic obstructive pulmonary disease) deaths were in\nIndia, followed by China with 1,25,600 deaths and Bangladesh with\n15,000 deaths.",
+  "source": "PYQ Jun 2024 (cancelled paper)",
+  "sourcePage": 46,
+  "sourceKey": "A",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-026",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Greenhouse gases & climate",
+  "question": "Which of the following is a criteria pollutant and a greenhouse gas but is not directly emitted in the ambient atmosphere ?",
+  "options": [
+   "Carbon dioxide",
+   "Nitrous oxide",
+   "Ozone",
+   "Nitrogen dioxide"
+  ],
+  "answerIndex": 2,
+  "explanation": "The criteria pollutant that is also a greenhouse gas but is not directly emitted into the\nambient atmosphere is ozone (O₃) Ozone is a secondary pollutant formed through\nchemical reactions involving precursor pollutants like nitrogen oxides (NOₓ) and\nvolatile organic compounds (VOCs). It contributes to both air quality degradation\nand climate change. Nitrous oxide (N₂O) is also a greenhouse gas, but it is not\nconsidered a criteria pollutant . Carbon dioxide (CO₂) and nitrogen dioxide (NO₂)\nare directly emitted pollutants but are not considered greenhouse gases in the same\nway as ozone or nitrous oxide",
+  "source": "PYQ Jun 2024 (cancelled paper)",
+  "sourcePage": 48,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-027",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Atmospheric chemistry & ozone",
+  "question": "Ozone Depleting Potential (ODP) of any substance/chemical species is defined as the ratio of long term impact on ozone from substance/chemical species to the impact from an equivalent amount of",
+  "options": [
+   "CCl₄",
+   "CFC-11",
+   "CFC-113",
+   "CFC-115"
+  ],
+  "answerIndex": 1,
+  "explanation": "Ozone Depleting Potential (ODP) is a measure of the relative amount of ozone\ndepletion caused by a substance compared to the impact of a reference substance.\nThe reference substance commonly used for calculating ODP is:\n2. CFC-11 (Trichlorofluoromethane)\nExplanation:\nODP is defined as the ratio of the long-term impact on ozone from a\nsubstance/chemical species to the impact from an equivalent amount of CFC-11.\nCFC-11 has an ODP of 1, and other substances are measured relative to this value.\nTherefore, the correct answer is:\n2. CFC-11",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 50,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-028",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Plume dispersion & meteorology",
+  "question": "Gaussian plume model for estimating pollutant concentration from point source considers the following assumptions:\n(A) Concentrations are proportional to emission rate\n(B) Emissions takes place from virtual point\n(C) Pollutant does not undergo chemical transformations\n(D) Three-dimensional axis system of downwind, crosswind and vertical with origin at the ground\n(E) Considers variable wind speed and direction\nChoose the correct answer from the options given below:",
+  "options": [
+   "(A), (D) and (E) Only",
+   "(A), (C) and (D) Only",
+   "(A), (B), (C) and (E) Only",
+   "(A), (B), (C) and (D) Only"
+  ],
+  "answerIndex": 3,
+  "explanation": "Let's evaluate each assumption of the Gaussian plume model for estimating\npollutant concentration from a point source:\n(A) Concentrations are proportional to emission rate:\nThis is true. The model assumes that the concentration of pollutants is\ndirectly proportional to the emission rate.\n(B) Emissions take place from a virtual point:\nThis is true. The model often considers emissions originating from a virtual\npoint source, especially for stacks and chimneys.\n(C) Pollutant does not undergo chemical transformations:\nThis is true. The model assumes that pollutants remain chemically inert\nduring transport, meaning no chemical reactions occur.\n(D) Three-dimensional axis system of downwind, crosswind, and vertical with\norigin at the ground:\nThis is true. The model uses a three-dimensional coordinate system to\ndescribe pollutant dispersion, with axes representing downwind, crosswind,\nand vertical directions, and the origin usually placed at the source or the\nground level.\n(E) Considers variable wind speed and direction:\nThis is false. The Gaussian plume model typically assumes steady-state\nconditions, meaning it does not account for variable wind speeds and\ndirections.\nGiven this analysis, the correct answer is:\n4. (A), (B), (C) and (D) Only",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 51,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-029",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Photochemical smog",
+  "question": "Which one of the following gases undergoes photo dissociation in troposphere?",
+  "options": [
+   "Carbonyl sulfur (COS)",
+   "Nitrous Oxide (N₂O)",
+   "Oxygen (O₂)",
+   "Nitrogen dioxide (NO₂)"
+  ],
+  "answerIndex": 3,
+  "explanation": "Let's dive into the details of photodissociation in the troposphere, particularly\nfocusing on nitrogen dioxide (NO₂).\nPhotodissociation:\nPhotodissociation, also known as photolysis, is a chemical reaction in which a\nchemical compound is broken down by photons. It is a crucial process in\natmospheric chemistry, as it initiates various photochemical reactions.\nNitrogen Dioxide (NO₂) Photodissociation:\nReaction:\nIn the troposphere, nitrogen dioxide (NO₂) undergoes photodissociation when\nexposed to sunlight. The reaction can be represented as:\nNO₂ + hν → NO + O\nHere, \"hv\" represents a photon of light.\nExplanation:\n1. Absorption of Light:\no NO₂ molecules absorb photons from sunlight, especially ultraviolet\n(UV) light.\n2. Breaking of Bonds:\no The energy from the absorbed photons breaks the chemical bonds in\nthe NO₂ molecule, resulting in the formation of nitrogen monoxide\n(NO) and a free oxygen atom (O).\n3. Formation of Ozone (O₃):\no The free oxygen atom (O) can react with molecular oxygen (O₂) to\nform ozone (O₃). This process is a key component of photochemical\nsmog formation.\nO + O₂ → O₃\nImportance in Atmospheric Chemistry:\nPhotochemical Smog:\no Photodissociation of NO₂ is a critical step in the formation of ground-\nlevel ozone and other components of photochemical smog. This type\nof smog is common in urban areas with high vehicle emissions and\nindustrial activities.\nAir Quality and Health:\no Ground-level ozone formed through photodissociation is a major air\npollutant that can cause respiratory problems, eye irritation, and other\nhealth issues. It also affects the environment by damaging crops and\nvegetation.\nOther Gases in the Troposphere:\nCarbonyl Sulfide (COS): Undergoes photodissociation in the stratosphere\nrather than the troposphere.\nNitrous Oxide (N₂O): Mainly photodissociates in the stratosphere, leading\nto the production of nitrogen oxides (NOx) that contribute to ozone\ndepletion.\nOxygen (O₂): Primarily undergoes photodissociation in the stratosphere to\nform ozone through the ozone-oxygen cycle.",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 53,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-030",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Photochemical smog",
+  "question": "Which of the following is not related to incidents of deadly urban smogs?",
+  "options": [
+   "Meuse valley (Belgium), 1930",
+   "Donora (Pennsylvania, USA), 1948",
+   "London (UK), 1952",
+   "Quebec (Canada), 1968"
+  ],
+  "answerIndex": 3,
+  "explanation": "The correct answer is (4) Quebec (Canada), 1968.\nThe other three incidents—Meuse Valley in 1930, Donora in 1948, and London in\n1952—are all well-known cases of deadly urban smog",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 55,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-031",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Greenhouse gases & climate",
+  "question": "Which one of the following species in the atmosphere does NOT cause indirect radiative forcing?",
+  "options": [
+   "Aerosols",
+   "Halocarbons",
+   "Nitric oxide",
+   "Ozone"
+  ],
+  "answerIndex": 3,
+  "explanation": "",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 56,
+  "sourceKey": "D",
+  "keyCheck": "source-only",
+  "flag": "No explanation in source; key not cross-checked."
+ },
+ {
+  "id": "AIR-032",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Air quality standards & pollutant types",
+  "question": "Choose the correct statements:\n(A) Radioactive decay is simplest example of true 1st order reaction\n(B) It is customary to express decomposition rate of radioactive material in terms of half life\n(C) Radioactive decay constant of an element varies significantly over wide environment conditions\n(D) SI unit of radioactivity is curie (Ci)\n(E) β particles are actually electrons and ionising power is much weaker than α particles\nChoose the correct answer from the options given below:",
+  "options": [
+   "(A), (B), (C), (D) and (E) Only",
+   "(A), (C), (D) and (E) Only",
+   "(A), (B) and (E) Only",
+   "(A), (B), (C) and (D) Only"
+  ],
+  "answerIndex": 2,
+  "explanation": "Let's review each statement:\n(A) Radioactive decay is simplest example of true 1st order reaction:\nTrue. Radioactive decay follows first-order kinetics, meaning the rate of\ndecay is directly proportional to the amount of the substance present.\n(B) It is customary to express decomposition rate of radioactive material in\nterms of half-life:\nTrue. The half-life is a common way to express the rate of decay of\nradioactive materials.\n(C) Radioactive decay constant of an element varies significantly over wide\nenvironmental conditions:\nFalse. The decay constant is a fixed property of a radioactive isotope and\ndoes not vary with environmental conditions.\n(D) SI unit of radioactivity is curie (Ci):\nFalse. The SI unit of radioactivity is the becquerel (Bq). The curie (Ci) is an\nolder unit.\n(E) ẞ particles are actually electrons and ionising power is much weaker than\nα particles:\nTrue. Beta particles (ẞ) are high-energy, high-speed electrons or positrons\nemitted by certain types of radioactive nuclei. They have weaker ionizing\npower compared to alpha (α) particles.\nGiven this analysis, the correct answer is:\n3. (A), (B) and (E) Only",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 57,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-033",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Plume dispersion & meteorology",
+  "question": "The upward movement of a parcel of air requires the mechanism, which may affect the ascent of air. Such mechanism is called lifting mechanism and falls into three categories which are:\n(A) The adiabatic lifting is caused due to cooling of a parcel of ascending air.\n(B) The cyclonic lifting is caused due to meeting of two thermally contrasted air masses and subsequent formation of cyclonic front.\n(C) The orographic lifting is caused by orographic barrier where in a horizontally moving air encounters hills or mountains and is forced to rise along the windward slope of the hills.\n(D) The condensation lifting is caused due to decrease of temperature of a parcel of ascending air beyond condensation level.\n(E) The convectional lifting is caused due to warming of surface air due to insolation heating.\nChoose the correct answer from the options given below :",
+  "options": [
+   "(A), (B) and (D) Only",
+   "(B), (C) and (E) Only",
+   "(C), (D) and (E) Only",
+   "(A), (D) and (E) Only"
+  ],
+  "answerIndex": 1,
+  "explanation": "Let's evaluate each statement:\n(A) The adiabatic lifting is caused due to cooling of a parcel of ascending air.\nThis statement is true. Adiabatic lifting refers to the cooling of an air parcel\nas it ascends and expands due to lower pressure.\n(B) The cyclonic lifting is caused due to meeting of two thermally contrasted\nair masses and subsequent formation of cyclonic front.\nThis statement is true. Cyclonic lifting occurs when warm and cold air\nmasses meet, creating a front that forces air to rise.\n(C) The orographic lifting is caused by orographic barrier where in a\nhorizontally moving air encounters hills or mountains and is forced to rise\nalong the windward slope of the hills.\nThis statement is true. Orographic lifting occurs when air is forced to ascend\nover a mountain range or other topographic barrier.\n(D) The condensation lifting is caused due to decrease of temperature of a\nparcel of ascending air beyond condensation level.\nThis statement is false. While condensation can occur when air cools to its\ndew point, it is not typically referred to as a distinct lifting mechanism.\n(E) The convectional lifting is caused due to warming of surface air due to\ninsolation heating.\nThis statement is true. Convectional lifting occurs when the surface air is\nheated by solar radiation, causing it to become buoyant and rise.\nGiven this analysis, the correct answer is:\n2. (B), (C) and (E) Only",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 59,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-034",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Atmospheric chemistry & ozone",
+  "question": "Given below are two statements:\nStatement (I): Special Vortex weather conditions in the lower stratosphere above Antarctica in winter causes denitrification and lead to conversion of inactive chlorine into active chlorine molecules\nStatement (II): HCl and ClONO₂ are two important active chlorine compounds\nIn the light of the above statements, choose the most appropriate answer from the options given below:",
+  "options": [
+   "Both Statement I and Statement II are correct",
+   "Both Statement I and Statement II are incorrect",
+   "Statement I is correct but Statement II is incorrect",
+   "Statement I is incorrect but Statement II is correct"
+  ],
+  "answerIndex": 2,
+  "explanation": "Let's evaluate each statement:\nStatement (I):\nSpecial vortex weather conditions in the lower stratosphere above Antarctica in\nwinter cause denitrification and lead to the conversion of inactive chlorine into\nactive chlorine molecules.\nThis statement is correct. During the Antarctic winter, the formation of a\npolar vortex leads to extremely cold temperatures in the lower stratosphere.\nThese conditions cause the formation of polar stratospheric clouds (PSCs).\nReactions on the surface of PSCs convert reservoir chlorine compounds into\nactive chlorine species, such as Cl₂ and ClONO₂.\nStatement (II):\nHCl and ClONO₂ are two important active chlorine compounds.\nThis statement is incorrect. HCl (hydrochloric acid) and ClONO₂ (chlorine\nnitrate) are reservoir or inactive forms of chlorine. The active forms of\nchlorine, which participate in ozone depletion, include Cl₂ (chlorine gas),\nClO (chlorine monoxide), and HOCl (hypochlorous acid).\nGiven this analysis, the correct answer is:\n3. Statement I is correct but Statement II is incorrect",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 61,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-035",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Greenhouse gases & climate",
+  "question": "Arrange the following Green house gases in their increasing order in terms of the amount of extra warming they produce:\n(A) CO₂\n(B) CH₄\n(C) CFCs\n(D) N₂O\n(E) O₃\nChoose the correct answer from the options given below :",
+  "options": [
+   "(A), (B), (E), (D), (C)",
+   "(A), (B), (E), (C), (D)",
+   "(A), (B), (D), (E), (C)",
+   "(A), (E), (B), (D), (C)"
+  ],
+  "answerIndex": 1,
+  "explanation": "According to NTA\nImportant Sequence :- For Global Warming Potential/Extra warming they Produce\nSF > N O > CFCs > O >CH >CO\n6 2 3 4 2\nAtmospheric lifetime and global warming potential (GWP) relative to CO at different time\nhorizon for various greenhouse gases (more values provided at global warming potential)\nGlobal warming potential\nRadiative\n(GWP) for given time\nChemical Lifetime Efficiency\nGas name horizon\n(years) (Wm−2ppb−1,\nformula\nmolar basis) 500-\n20-yr. 100-yr.\nyr.[7]:\nCarbon dioxide CO 50-200 1.37×10−5 1 1 1\nMethane (fossil) CH 12 5.7×10−4 83 30 10\nMethane (non-fossil) CH 12 5.7×10−4 81 27 7.3\nNitrous oxide N O 109 3×10−3 273 273 130\nCFC-11 CCl F 52 0.29 8321 6226 2093\nCCl F\nCFC-12 2 100 0.32 10800 10200 5200\nHCFC-22 CHClF 12 0.21 5280 1760 549\nHFC-32 CH F 5 0.11 2693 771 220\nHFC-134a CH FCF 14 0.17 4144 1526 436\nTetrafluoromethane CF 50 000 0.09 5301 7380 10587\nHexafluoroethane C F 10 000 0.25 8210 11100 18200\nSulfur hexafluoride SF 3 200 0.57 17500 23500 32600\nNitrogen trifluoride NF 500 0.20 12800 16100 20700",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 63,
+  "sourceKey": "B",
+  "keyCheck": "stem-corrected-per-source-note",
+  "flag": "Source stem says 'decreasing' but the source itself notes 'It should be increasing order'; stem corrected accordingly. Key B matches the source sequence SF₆ > N₂O > CFCs > O₃ > CH₄ > CO₂ read in increasing order."
+ },
+ {
+  "id": "AIR-036",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Air pollution calculations",
+  "question": "Ambient atmosphere have equal concentration of CO₂, SO₂, O₃ and NO₂ in the units of PPM. Which of the gas will have highest concentration in µg/m³ units at same temperature and pressure conditions ?",
+  "options": [
+   "CO₂",
+   "SO₂",
+   "O₃",
+   "NO₂"
+  ],
+  "answerIndex": 1,
+  "explanation": "To determine which gas will have the highest concentration in µg/m³ when their\nconcentrations are equal in parts per million (ppm), we need to consider their\nmolar masses. The gas with the highest molar mass will have the highest\nconcentration in µg/m³, since µg/m³ depends on the mass of the gas molecules.\nHere are the molar masses of the gases:\nCO₂ (Carbon Dioxide): 44 g/mol\nSO₂ (Sulfur Dioxide): 64 g/mol\nO₃ (Ozone): 48 g/mol\nNO₂ (Nitrogen Dioxide): 46 g/mol\nAmong these, SO₂ (Sulfur Dioxide) has the highest molar mass.\nTherefore, the gas with the highest concentration in µg/m³, given equal\nconcentrations in ppm, is:\n2. SO₂ (Sulfur Dioxide)",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 65,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation",
+  "explanationImage": [
+   "p0066_22.png"
+  ]
+ },
+ {
+  "id": "AIR-037",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Atmospheric chemistry & ozone",
+  "question": "Which one of the following gas was not released through volcanoes around 4 billion years ago?",
+  "options": [
+   "Hydrogen",
+   "Nitrogen",
+   "Oxygen",
+   "Carbon dioxide"
+  ],
+  "answerIndex": 2,
+  "explanation": "The gas that was not released through volcanoes around 4 billion years ago is:\n3. Oxygen\nExplanation:\nHydrogen, Nitrogen, and Carbon dioxide: These gases were indeed\nreleased through volcanic activity in the early Earth's history. Volcanic\neruptions contributed significantly to the primordial atmosphere with gases\nlike water vapor (H₂O), carbon dioxide (CO₂), nitrogen (N₂), hydrogen (H₂),\nand various sulfur compounds.\nOxygen: Molecular oxygen (O₂) was not released through volcanic activity.\nIn fact, the early Earth's atmosphere had very little free oxygen. The\nsignificant increase in atmospheric oxygen occurred much later, around 2.4\nbillion years ago, due to the process of photosynthesis carried out by\ncyanobacteria during the Great Oxygenation Event.",
+  "source": "PYQ Jun 2023",
+  "sourcePage": 68,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-038",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Air quality standards & pollutant types",
+  "question": "Which of the following is not applicable to secondary air pollutants?",
+  "options": [
+   "They are important with respect to human health.",
+   "They have undergone chemical/physical transformation in air.",
+   "They include both inorganic and organic species/compound.",
+   "They are non-hazardous air pollutants."
+  ],
+  "answerIndex": 3,
+  "explanation": "The statement that is not applicable to secondary air pollutants is:\n4. They are non-hazardous air pollutants.\nExplanation:\nSecondary air pollutants are formed in the atmosphere through chemical or\nphysical transformations of primary pollutants.\no Examples include ozone (O₃), which forms from the reaction of\nnitrogen oxides (NOx) and volatile organic compounds (VOCs) in the\npresence of sunlight, and sulfuric acid (H₂SO₄), which forms from\nsulfur dioxide (SO₂) reactions.\nHealth Impact: Secondary air pollutants can have significant impacts on\nhuman health, causing respiratory and cardiovascular issues, among other\nhealth effects.\nComposition: They include both inorganic and organic species or\ncompounds, resulting from complex reactions in the atmosphere.\nTherefore, the statement that they are non-hazardous air pollutants is incorrect, as\nsecondary air pollutants can be quite hazardous to health and the environment.",
+  "source": "PYQ Jun 2023",
+  "sourcePage": 69,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-039",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Air quality standards & pollutant types",
+  "question": "Given below are two statements:\nStatement I: Process of incineration that destroys highly toxic and hazardous organic waste differs from municipal solid waste incineration where energy is often produced.\nStatement II: Incineration process cannot be used with waste that have high concentration of water and non-combustible solids.\nIn the light of the above statements, choose the correct answer from the options",
+  "options": [
+   "Both Statement I and Statement II are true",
+   "Both Statement I and Statement II are false",
+   "Statement I is true but Statement II is false",
+   "Statement I is false but Statement II is true"
+  ],
+  "answerIndex": 0,
+  "explanation": "Let's review each statement:\nStatement I:\nThe process of incineration that destroys highly toxic and hazardous organic waste\ndiffers from municipal solid waste incineration where energy is often produced.\nTrue. Incineration of highly toxic and hazardous organic waste is\nspecifically designed to ensure the complete destruction of harmful\ncompounds, often using higher temperatures and additional controls to\nprevent the release of toxic emissions. In contrast, municipal solid waste\nincineration is often designed to recover energy, typically in the form of heat\nor electricity.\nStatement II:\nThe incineration process cannot be used with waste that has a high concentration of\nwater and non-combustible solids.\nTrue. Incineration is less effective for waste with high water content and\nnon-combustible solids because these components do not burn and can\nsignificantly reduce the efficiency and effectiveness of the incineration\nprocess.\nGiven this analysis, the correct answer is:\n1. Both Statement I and Statement II are true",
+  "source": "PYQ Jun 2023",
+  "sourcePage": 71,
+  "sourceKey": "A",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-040",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Noise pollution",
+  "question": "Sound pressure is equal to:",
+  "options": [
+   "Total atmospheric pressure only",
+   "Total Atmospheric Pressure minus Barometric pressure only",
+   "Barometric pressure only",
+   "Sum of total atmospheric pressure and barometric pressure"
+  ],
+  "answerIndex": 1,
+  "explanation": "",
+  "source": "PYQ Jun 2023",
+  "sourcePage": 73,
+  "sourceKey": "B",
+  "keyCheck": "source-only",
+  "flag": "No explanation in source; key not cross-checked."
+ },
+ {
+  "id": "AIR-041",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Atmospheric chemistry & ozone",
+  "question": "Which of the following is a catalytically inactive (or reservoir) molecule containing chlorine in stratosphere?",
+  "options": [
+   "HOCl",
+   "ClO",
+   "ClONO₂",
+   "Cl₂"
+  ],
+  "answerIndex": 2,
+  "explanation": "",
+  "source": "PYQ Jun 2023",
+  "sourcePage": 74,
+  "sourceKey": "C",
+  "keyCheck": "supported-by-figure",
+  "flag": "No explanation text; source figure shows ClONO₂ and HCl as inactive chlorine.",
+  "explanationImage": [
+   "p0075_25.png"
+  ]
+ },
+ {
+  "id": "AIR-042",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Plume dispersion & meteorology",
+  "question": "An air parcel having initial temperature of 15°C rises adiabatically to 2 km height above the surface. What is the final temperature of the parcel?",
+  "options": [
+   "~4.6°C",
+   "~5.6°C",
+   "~-4.6°C",
+   "~-6.4°C"
+  ],
+  "answerIndex": 2,
+  "explanation": "",
+  "source": "PYQ Mar 2023",
+  "sourcePage": 77,
+  "sourceKey": "C",
+  "keyCheck": "solution-in-image",
+  "explanationImage": [
+   "p0077_26.png"
+  ]
+ },
+ {
+  "id": "AIR-043",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Plume dispersion & meteorology",
+  "question": "Behaviour of the plume, when stack is under temperature inversion layer, is termed as",
+  "options": [
+   "Fanning",
+   "Conning",
+   "Fumigation",
+   "Lofting"
+  ],
+  "answerIndex": 2,
+  "explanation": "The behavior of the plume when a stack is under a temperature inversion layer is\ntermed as:\n3. Fumigation\nExplanation:\nTemperature Inversion Layer: This occurs when a layer of warmer air\ntraps cooler air near the ground, preventing the upward movement of air and\npollutants.\nFumigation: In this scenario, the pollutants emitted from the stack are\ntrapped below the inversion layer and are forced to spread horizontally. This\ncan cause high concentrations of pollutants near the ground level.\nOther plume behaviors under different conditions include:\nFanning: Occurs during stable atmospheric conditions where the plume\nspreads horizontally.\nConning: Refers to a vertically dispersed plume, typically under unstable\natmospheric conditions.\nLofting: Happens when the plume rises above an inversion layer and\ndisperses in the upper atmosphere, avoiding the inversion layer.",
+  "source": "PYQ Mar 2023",
+  "sourcePage": 78,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-044",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Noise pollution",
+  "question": "The time between successive peaks or between successive troughs of the sinusoidal sound wave is called",
+  "options": [
+   "Frequency (f)",
+   "Wavelength (λ)",
+   "Period (P)",
+   "Amplitude (A)"
+  ],
+  "answerIndex": 2,
+  "explanation": "The time between successive peaks or between successive troughs of a sinusoidal\nsound wave is called:\n3. Period (P)\nExplanation:\nFrequency (f): The number of cycles (or waves) that pass a given point per\nunit of time, typically measured in Hertz (Hz).\nWavelength (λ): The distance between successive peaks (or troughs) of the\nwave, typically measured in meters.\nPeriod (P): The time it takes for one complete cycle of the wave to pass a\ngiven point, typically measured in seconds. It is the reciprocal of the\nfrequency (P = 1/f).\nAmplitude (A): The maximum displacement or distance moved by a point\non the wave from its equilibrium position, typically measured in units of\npressure or displacement.",
+  "source": "PYQ Mar 2023",
+  "sourcePage": 79,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-045",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Photochemical smog",
+  "question": "Choose the correct statements\nA. VOC, NOx and sunlight are essential for photochemical smog.\nB. Photochemical smog is predominantly formed during the summer season.\nC. NO₂ dissociates by sunlight at 300-400 nm.\nD. Molecular O₂ dissociate by sunlight and provide atomic O for O₃ formation in troposphere.\nE. Tropospheric O₃ concentration is maximum at noon on a given day.\nChoose the correct answer from the options given below:",
+  "options": [
+   "A, D and E only",
+   "A, B, C and E only",
+   "A, B, D and E only",
+   "B, C, D and E only"
+  ],
+  "answerIndex": 1,
+  "explanation": "Let's analyze each statement to determine the correct answer:\nA. VOC, NOx and sunlight are essential for photochemical smog.\nTrue. Volatile Organic Compounds (VOCs), nitrogen oxides (NOx), and\nsunlight are crucial components in the formation of photochemical smog.\nB. Photochemical smog is predominantly formed during the summer season.\nTrue. Photochemical smog is more common in the summer due to higher\ntemperatures and stronger sunlight, which enhance the chemical reactions.\nC. NO2 dissociates by sunlight at 300-400 nm.\nTrue. Nitrogen dioxide (NO₂) dissociates under sunlight in the 300-400 nm\nrange, releasing atomic oxygen which can further react to form ozone (O₃).\nD. Molecular O2 dissociate by sunlight and provide atomic O for O3\nformation in the troposphere.\nFalse. Molecular oxygen (O₂) primarily dissociates in the stratosphere to\nform ozone, not in the troposphere. In the troposphere, ozone formation\nmainly involves the reaction of NO₂ and sunlight.\nE. Tropospheric O3 concentration is maximum at noon on a given day.\nTrue. Tropospheric ozone concentration tends to peak around noon or early\nafternoon when sunlight is strongest.\nGiven this analysis, the correct answer is:\n2. A, B, C and E only",
+  "source": "PYQ Mar 2023",
+  "sourcePage": 81,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-046",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Atmospheric chemistry & ozone",
+  "question": "Choose the correct statement\nA. UV-C breaks down O₂ molecule in the stratosphere.\nB. A 1% decrease in the overhead O₃ in the stratosphere results in 2% increase in UV-B intensity at the ground level.\nC. UV-A is biologically, the least harmful.\nD. UV-B helps in O₃ dissociation in the stratosphere.\nE. Chapman mechanism deals with both, O₃ formation and destruction, in the stratosphere.\nChoose the correct answer from the options given below:",
+  "options": [
+   "A, B, C and D only",
+   "A, C, D and E only",
+   "A, B, C, D and E",
+   "A, B, D and E only"
+  ],
+  "answerIndex": 2,
+  "explanation": "Let's analyze each statement:\nA. UV-C breaks down O₂ molecule in the stratosphere.\nTrue. UV-C radiation (wavelengths less than 280 nm) has enough energy to\nbreak the bond in an O₂ molecule, leading to the formation of two oxygen\natoms.\nB. A 1% decrease in the overhead O₃ in the stratosphere results in 2%\nincrease in UV-B intensity at the ground level.\nTrue. A decrease in stratospheric ozone allows more UV-B radiation to\nreach the ground. The approximation is that for every 1% decrease in ozone,\nthere is about a 2% increase in UV-B intensity.\nC. UV-A is biologically, the least harmful.\nTrue. Among the different types of UV radiation, UV-A (320-400 nm) is the\nleast harmful to biological organisms compared to UV-B and UV-C.\nD. UV-B helps in O₃ dissociation in the stratosphere.\nTrue. The dissociation of ozone is mainly due to UV-C and UV-B radiation.\nE. Chapman mechanism deals with both, O₃ formation and destruction, in the\nstratosphere.\nTrue. The Chapman mechanism describes the processes of ozone formation\nand destruction in the stratosphere, involving UV radiation and various\noxygen species.\nGiven this analysis, the correct answer is:\n2. A, B, C, D and E",
+  "source": "PYQ Mar 2023",
+  "sourcePage": 83,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation",
+  "note": "Source explanation numbers the all-five option as '2'; by content it is option 3, which matches key C."
+ },
+ {
+  "id": "AIR-047",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Air quality standards & pollutant types",
+  "question": "The international stable isotope standard Vienna Peedee Belemnite (VPDB) is used for the following stable isotope systems:\nA. ³⁴S/³²S\nB. ²H/H\nC. ¹⁸O/¹⁶O\nD. ¹⁶N/¹⁵N\nE. ¹³C/¹²C\nChoose the correct answer from the options given below:",
+  "options": [
+   "A and B only",
+   "B and C only",
+   "C and E only",
+   "D and E only"
+  ],
+  "answerIndex": 2,
+  "explanation": "The Vienna Pee Dee Belemnite (VPDB) standard is a reference material used for\nstable isotope measurements of carbon (13C/12C) and oxygen (18O/16O) isotopes.\nIt is named after the original Pee Dee Belemnite (PDB), a Cretaceous marine fossil\nfrom the Pee Dee formation in South Carolina, USA.\nKey Points:\nPurpose: VPDB serves as an internationally recognized standard for\ncomparing isotopic compositions of various samples in geochemistry,\npaleoclimatology, and other fields.\nIsotopes Measured:\no Carbon Isotopes (13C/12C): Used in studies of carbon cycles,\npaleoclimates, and ecological research.\no Oxygen Isotopes (18O/16O): Used to analyze water cycles,\npaleotemperatures, and climatic changes.",
+  "source": "PYQ Mar 2023",
+  "sourcePage": 85,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-048",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Plume dispersion & meteorology",
+  "question": "The variability in height of tropopause is dependent on following factors\nA. Longitude\nB. Latitude\nC. Temperature\nD. Season\nE. Vegetation\nChoose the correct answer from the options given below:",
+  "options": [
+   "A, B and C only",
+   "B, C and D only",
+   "A, C and E only",
+   "A, B, and only"
+  ],
+  "answerIndex": 1,
+  "explanation": "The height of the tropopause, which is the boundary between the troposphere and\nthe stratosphere, varies depending on several key factors. Let's discuss these factors\nin detail:\n1. Latitude\nEquator: The tropopause is higher at the equator, typically around 16 to 18\nkilometers (10 to 11 miles). This is due to the warm temperatures and the\nintense upward convection of air in tropical regions.\nPoles: The tropopause is lower at the poles, generally around 8 to 10\nkilometers (5 to 6 miles). This is because of the colder temperatures and less\nvigorous vertical air movement in polar regions.\nMid-Latitudes: The height of the tropopause in mid-latitude regions is\nintermediate, often around 10 to 12 kilometers (6 to 7.5 miles).\n2. Temperature\nThe temperature profile of the atmosphere affects the height of the\ntropopause.\nHigher Temperatures: In warmer regions, the tropopause is higher because\nwarm air rises more vigorously, pushing the boundary between the\ntroposphere and the stratosphere upwards.\nLower Temperatures: In colder regions, the tropopause is lower because\nthere is less vertical movement of air.\n3. Season\nSummer: During the summer, the tropopause is higher due to increased\nsolar heating, which causes more intense upward convection of air.\nWinter: In winter, the tropopause is lower because of reduced solar heating\nand weaker vertical air movement.",
+  "source": "PYQ Mar 2023",
+  "sourcePage": 86,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation",
+  "note": "Option 4 is printed 'A, B, and only' in the source (a letter is missing); kept as printed. It is not the keyed option."
+ },
+ {
+  "id": "AIR-049",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Air quality standards & pollutant types",
+  "question": "Criteria pollutant under National Ambient Air Quality Standards (NAAQS) are\nA. CO\nB. CO₂\nC. O₃\nD. SO₂\nE. NO₃\nChoose the correct answer from the options given below:",
+  "options": [
+   "A, C, D and E only",
+   "A, C and D only",
+   "A, B and D only",
+   "A, D and E only"
+  ],
+  "answerIndex": 1,
+  "explanation": "The criteria pollutants under the National Ambient Air Quality Standards\n(NAAQS) include:\nCO (Carbon Monoxide)\nO₃ (Ozone)\nSO₂ (Sulfur Dioxide)\nThe correct answer is:\n2. A, C and D only\nExplanation:\nCO (Carbon Monoxide): A criteria pollutant regulated due to its harmful\neffects on human health.\nCO₂ (Carbon Dioxide): Not a criteria pollutant under NAAQS. It is a\ngreenhouse gas but not classified as a criteria pollutant for air quality\nstandards.\nO₃ (Ozone): A criteria pollutant regulated due to its role in smog formation\nand harmful health effects.\nSO₂ (Sulfur Dioxide): A criteria pollutant regulated due to its impact on\nrespiratory health and the environment.\nNO₃ (Nitrate): Not a criteria pollutant under NAAQS.\nCriteria Air Pollutants\nEPA (Environmental Protection Agency), USA has set national air quality\nstandards for sic pollutants known as six criteria pollutants:\n1. Ground-level ozone (O₃)\n2. Carbon monoxide (CO)\n3. Sulfur dioxide (SO₂)\n4. Small particulates PM10 and now PM2.5\n5. Nitrogen dioxide (NO₂)\n6. Lead (Pb).",
+  "source": "PYQ Mar 2023",
+  "sourcePage": 88,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation",
+  "explanationImage": [
+   "p0090_30.jpg"
+  ]
+ },
+ {
+  "id": "AIR-050",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Particulate & gaseous control devices",
+  "question": "Air pollution control techniques used primarily to control particulate matter pollution in ambient atmosphere are\nA. Bag houses\nB. Limestone injection multistage burner (LIMB)\nC. Cyclone collectors\nD. Catalytic converters\nE. Electrostatic precipitators\nChoose the correct answer from the options given below:",
+  "options": [
+   "A, B, D and E only",
+   "C and E only",
+   "A, B, C and E only",
+   "A, C and E only"
+  ],
+  "answerIndex": 3,
+  "explanation": "The air pollution control techniques used primarily to control particulate matter\npollution in the ambient atmosphere are:\nA. Bag houses: These are fabric filter systems that trap particulate matter from the\nair. C. Cyclone collectors: These use centrifugal force to separate particulate\nmatter from the air. E. Electrostatic precipitators: These use electrical charges to\nremove particulate matter from the air stream.\nB. Limestone injection multistage burner (LIMB): This is primarily used for\ncontrolling sulfur dioxide emissions rather than particulate matter. D. Catalytic\nconverters: These are primarily used for controlling gaseous pollutants from\nvehicle exhausts, such as carbon monoxide, hydrocarbons, and nitrogen oxides,\nrather than particulate matter.\nGiven this analysis, the correct answer is:\n4. A, C and E only",
+  "source": "PYQ Mar 2023",
+  "sourcePage": 91,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-051",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Air quality standards & pollutant types",
+  "question": "Primary air pollutants differ from secondary air pollutants as they",
+  "options": [
+   "are present in levels that can be weighed on filter paper.",
+   "are directly emitted from identified sources.",
+   "have undergone chemical transformation in air after release from identified sources.",
+   "are designated as hazardous air pollutants."
+  ],
+  "answerIndex": 1,
+  "explanation": "Primary air pollutants differ from secondary air pollutants in that they:\n2. are directly emitted from identified sources.\nExplanation:\nPrimary Air Pollutants: These are pollutants that are emitted directly from\na source. Examples include carbon monoxide (CO) from vehicle exhausts,\nsulfur dioxide (SO₂) from power plants, and particulate matter from\nindustrial processes.\nSecondary Air Pollutants: These pollutants are not directly emitted but\nform in the atmosphere through chemical or physical transformations of\nprimary pollutants. Examples include ozone (O₃), which forms from the\nreaction of nitrogen oxides (NOx) and volatile organic compounds (VOCs)\nin the presence of sunlight, and sulfuric acid (H₂SO₄), which forms from\nsulfur dioxide (SO₂) reactions.",
+  "source": "PYQ Sep 2022",
+  "sourcePage": 93,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-052",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Air pollution calculations",
+  "question": "What will be the concentration of 40 ppb SO₂ in µg/m³ unit at 25°C?",
+  "options": [
+   "~0.04 µg/m³",
+   "~1047 µg/m³",
+   "~104.7 µg/m³",
+   "~10.47 µg/m³"
+  ],
+  "answerIndex": 2,
+  "explanation": "",
+  "source": "PYQ Sep 2022",
+  "sourcePage": 94,
+  "sourceKey": "C",
+  "keyCheck": "solution-in-image",
+  "explanationImage": [
+   "p0094_31.png"
+  ]
+ },
+ {
+  "id": "AIR-053",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Atmospheric chemistry & ozone",
+  "question": "Given below are two statements\nStatement I: Halons used as fire extinguishers are bromine containing hydrogen free substances and are involved in catalytic destruction of ozone in Stratosphere.\nStatement II: In order to protect ozone layer in stratosphere, use of CFC was globally replaced by HCFC's, HFC's followed by Halons after Kyoto protocol.\nIn light of the above statements, choose the correct answer from the options given below",
+  "options": [
+   "Both Statement I and Statement II are true",
+   "Both Statement I and Statement II are false",
+   "Statement I is true but Statement II is false",
+   "Statement I is false but Statement II is true"
+  ],
+  "answerIndex": 2,
+  "explanation": "Statement I:\nHalons used as fire extinguishers are bromine-containing hydrogen-free\nsubstances and are involved in catalytic destruction of ozone in the\nstratosphere.\nTrue. Halons are indeed bromine-containing compounds, and they do not\ncontain hydrogen. They are effective fire extinguishers but are also potent\nozone-depleting substances. In the stratosphere, bromine atoms released\nfrom halons participate in catalytic cycles that destroy ozone.\nStatement II:\nIn order to protect the ozone layer in the stratosphere, the use of CFCs was\nglobally replaced by HCFCs, HFCs, followed by Halons after the Kyoto\nProtocol.\nFalse. The phase-out of CFCs was addressed by the Montreal Protocol, not\nthe Kyoto Protocol. The Montreal Protocol aimed to protect the ozone layer\nby phasing out the production of numerous substances that are responsible\nfor ozone depletion, including CFCs and halons. HCFCs\n(Hydrochlorofluorocarbons) and HFCs (Hydrofluorocarbons) were\nintroduced as transitional substitutes for CFCs, with HCFCs having a lower\nozone-depleting potential than CFCs, and HFCs having no ozone-depleting\npotential. The Kyoto Protocol, on the other hand, primarily addresses\ngreenhouse gases and climate change.\nGiven this analysis, the correct answer is:\n3. Statement I is true but Statement II is false",
+  "source": "PYQ Sep 2022",
+  "sourcePage": 95,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-054",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Greenhouse gases & climate",
+  "question": "Match List I with List II\nLIST-I (Green House Gas)\nA. CO₂\nB. CH₄\nC. N₂O\nD. CH₃CCl₃\nLIST-II (Global Warming Potential (GWP) in 20 yrs time period)\nI. 360\nII. 50\nIII. 280\nIV. 1\nChoose the correct answer from the options given below:",
+  "options": [
+   "A-II, B-I, C-III, D-IV",
+   "A-I, B-II, C-IV, D-III",
+   "A-III, B-II, C-I, D-IV",
+   "A-IV, B-II, C-III, D-I"
+  ],
+  "answerIndex": 3,
+  "explanation": "CO₂ (Carbon Dioxide): The reference gas with a GWP of 1.\nCH₄ (Methane): Has a GWP of approximately 50 over a 20-year period.\nN₂O (Nitrous Oxide): Has a GWP of approximately 280 over a 20-year\nperiod.\nCH₃CCl₃ (Methyl Chloroform): Has a GWP of approximately 360 over a\n20-year period.\nMatching these to List II:\nA. CO₂ (IV) - 1\nB. CH₄ (II) - 50\nC. N₂O (III) - 280\nD. CH₃CCl₃ (I) - 360\nSo the correct answer is:\n4. A-IV, B-II, C-III, D-I",
+  "source": "PYQ Sep 2022",
+  "sourcePage": 97,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-055",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Air quality standards & pollutant types",
+  "question": "The sum of diffused and direct solar radiation, is called",
+  "options": [
+   "continental solar radiation.",
+   "global solar radiation.",
+   "total solar radiation.",
+   "universal solar radiation."
+  ],
+  "answerIndex": 1,
+  "explanation": "The correct term for the sum of diffused and direct solar radiation is:\n2. global solar radiation\nExplanation:\nDirect Solar Radiation: The sunlight that reaches the Earth's surface\nwithout being scattered or diffused.\nDiffused Solar Radiation: The sunlight that has been scattered by\nmolecules and particles in the atmosphere and reaches the Earth's surface\nindirectly.\nGlobal Solar Radiation: The total amount of solar radiation reaching the\nEarth's surface, which includes both direct and diffused solar radiation.",
+  "source": "PYQ Sep 2022",
+  "sourcePage": 98,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-056",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Particulate & gaseous control devices",
+  "question": "Given below are two statements about Baghouse filter used to control air pollution\nStatement I: Baghouse filters are fabric bag filter which can be repeatedly cleaned and reused. Collection efficiency can be very high (99.9% for all size of particles).\nStatement II: Collection efficiency of baghouse filters decreases as dust collected on filters and lead to decrease in pressure drop which increases airflow or decreases cost of forcing air through filters.\nIn light of the above statements, choose the correct answer from the options given below",
+  "options": [
+   "Both Statement I and Statement II are true",
+   "Both Statement I and Statement II are false",
+   "Statement I is true but Statement II is false",
+   "Statement I is false but Statement II is true"
+  ],
+  "answerIndex": 2,
+  "explanation": "Statement I:\nBaghouse filters are fabric bag filters which can be repeatedly cleaned and\nreused. Collection efficiency can be very high (99.9% for all sizes of particles).\nTrue. Baghouse filters use fabric bags that can be cleaned and reused. They\nare highly efficient, with collection efficiencies of up to 99.9% for particles\nof various sizes.\nStatement II:\nCollection efficiency of baghouse filters decreases as dust collects on filters\nand leads to a decrease in pressure drop which increases airflow or decreases\nthe cost of forcing air through filters.\nFalse. As dust collects on the filters, the collection efficiency typically\nincreases because the dust layer itself acts as an additional filter. However,\nthis also leads to an increase in pressure drop, not a decrease, which makes it\nmore difficult to force air through the filters and can increase operational\ncosts.\nGiven this analysis, the correct answer is:\n3. Statement I is true but Statement II is false",
+  "source": "PYQ Sep 2022",
+  "sourcePage": 99,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-057",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Air quality standards & pollutant types",
+  "question": "National Ambient air quality standards typically include following components",
+  "options": [
+   "Maximum and Minimum pollutant levels, adjustment for co-pollutants",
+   "Abetment strategies, non-attainment penalties",
+   "Ambient temperature, size distribution and relative humidity",
+   "Indicator (Chemical/Chemical class), Averaging time, Pollutant form and level"
+  ],
+  "answerIndex": 3,
+  "explanation": "The correct components typically included in National Ambient Air Quality\nStandards (NAAQS) are:\n4. Indicator (Chemical/Chemical class), Averaging time, Pollutant form\nand level\nExplanation:\nIndicator (Chemical/Chemical class): Specifies the particular pollutant\nbeing measured (e.g., CO, SO₂, PM₂.₅).\nAveraging time: Defines the period over which the pollutant concentration\nis averaged (e.g., 1-hour, 8-hour, annual).\nPollutant form: Describes the specific form of the pollutant being measured\n(e.g., ozone as O₃, particulate matter as PM₁₀ or PM₂.₅).\nPollutant level: Sets the allowable concentration of the pollutant in the\nambient air (e.g., 100 µg/m³).",
+  "source": "PYQ Sep 2022",
+  "sourcePage": 101,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "AIR-058",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Air Pollution",
+  "topic": "Noise pollution",
+  "question": "Given below are two statements\nStatement I: Noise pollution exists in the form of energy and is highly subjective in nature unlike air pollution.\nStatement II: Noise pollution exists irrespective of loudness of sound and causes both physiological and psychological stress among individual or group of individuals.\nIn light of the above statements, choose the correct answer from the options given below",
+  "options": [
+   "Both Statement I and Statement II are true",
+   "Both Statement I and Statement II are false",
+   "Statement I is true but Statement II is false",
+   "Statement I is false but Statement II is true"
+  ],
+  "answerIndex": 2,
+  "explanation": "Let's analyze each statement:\nStatement I:\nNoise pollution exists in the form of energy and is highly subjective in nature\nunlike air pollution.\nTrue. Noise pollution is a form of sound energy that can vary greatly in\nperception from person to person, making it highly subjective. Different\nindividuals might experience the same noise level differently depending on\ntheir sensitivity and context.\nStatement II:\nNoise pollution exists irrespective of the loudness of sound and causes both\nphysiological and psychological stress among individuals or groups of\nindividuals.\nFalse. Noise pollution is typically associated with loud or unwanted sounds.\nWhile it is true that noise pollution can cause both physiological and\npsychological stress, the statement that it exists irrespective of loudness is\ninaccurate. The loudness of sound is a crucial factor in defining noise\npollution.\nGiven this analysis, the correct answer is:\n3. Statement I is true but Statement II is false",
+  "source": "PYQ Sep 2022",
+  "sourcePage": 102,
+  "sourceKey": "A",
+  "keyCheck": "conflict-trusted-explanation",
+  "flag": "Source key reads A (both true) but the explanation concludes option 3 (Statement II false). Answer set from the explanation per spec; confirm against the official key."
+ }
+]

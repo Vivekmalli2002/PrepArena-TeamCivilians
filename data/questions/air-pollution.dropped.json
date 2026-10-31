@@ -1,0 +1,10 @@
+[
+ {
+  "page": 45,
+  "reason": "Item E is printed 'Bi' (probably Br₂ mis-OCR'd). With Br₂ the order by Graham's law would be E, C, D, B, A (option 3), not the keyed option 4; the source explanation treats 'Bi' as bismuth gas. Cannot reconstruct confidently — dropped."
+ },
+ {
+  "page": 70,
+  "reason": "Key C (C<D<B<A, i.e. N₂O<CFCs<CH₄<CO₂) contradicts the source's own sequence (N₂O > CFCs > O₃ > CH₄ > CO₂, which gives A<B<D<C — not among the options) and the GWP table; no option is consistent with the explanation. Dropped."
+ }
+]
