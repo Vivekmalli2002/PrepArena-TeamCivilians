@@ -362,3 +362,18 @@ export function patternMock(
     qids,
   };
 }
+
+/** Retry of the student's open mistakes — practice mode, so every answer is explained. */
+export function mistakeTest(qids: number[], title: string, schemeId: string, max = 50): TestConfig {
+  const picked = [...new Set(qids)].slice(0, max);
+  return {
+    kind: "revision",
+    key: `mistakes:${title}`,
+    title,
+    subtitle: `${picked.length} Q · mistake retry`,
+    mode: "practice",
+    schemeId,
+    durationSec: perQ(picked.length),
+    qids: shuffle(picked),
+  };
+}

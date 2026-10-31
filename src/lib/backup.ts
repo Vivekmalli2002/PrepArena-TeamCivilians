@@ -10,15 +10,18 @@ type Restorable = {
   qstats: Record<string, unknown>;
   bookmarks: number[];
   activeDays: string[];
+  mistakeTags?: Record<number, string>;
+  plan?: unknown;
+  mains?: Record<string, unknown>;
 };
 
 export function makeBackup(state: Restorable) {
-  const { profile, theme, attempts, qstats, bookmarks, activeDays } = state;
+  const { profile, theme, attempts, qstats, bookmarks, activeDays, mistakeTags, plan, mains } = state;
   return {
     kind: BACKUP_KIND,
     version: STORE_VERSION,
     exportedAt: new Date().toISOString(),
-    data: { profile, theme, attempts, qstats, bookmarks, activeDays },
+    data: { profile, theme, attempts, qstats, bookmarks, activeDays, mistakeTags, plan, mains },
   };
 }
 
@@ -47,5 +50,8 @@ export function parseBackup(text: string): Restorable {
     qstats: d.qstats!,
     bookmarks: (d.bookmarks ?? []).filter(Number.isInteger),
     activeDays: (d.activeDays ?? []).filter((x) => typeof x === "string"),
+    mistakeTags: d.mistakeTags && typeof d.mistakeTags === "object" ? d.mistakeTags : {},
+    plan: d.plan ?? null,
+    mains: d.mains && typeof d.mains === "object" ? d.mains : {},
   };
 }

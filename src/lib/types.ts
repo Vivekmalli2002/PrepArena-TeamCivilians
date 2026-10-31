@@ -38,6 +38,8 @@ export interface TestConfig {
   durationSec: number;
   qids: number[];
   topic?: string;
+  /** Answer on a bubble sheet (OMR) beside the printed paper instead of the one-question-at-a-time CBT screen. */
+  omr?: boolean;
 }
 
 /** A test in progress. Kept in its own small store so it can be written every second. */

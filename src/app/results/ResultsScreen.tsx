@@ -278,7 +278,7 @@ function Result({ attempt: a, attempts }: { attempt: Attempt; attempts: Attempt[
                   <img src={q.image} alt="Figure for the question" className="mt-3 max-h-96 w-full rounded-xl border border-hairline bg-white object-contain" />
                 )}
                 <div className="mt-3">
-                  <Options q={q} order={optionOrder(q.options, `${a.id}:${q.id}`)} stateOf={stateOf} disabled />
+                  <Options q={q} order={a.config.omr ? undefined : optionOrder(q.options, `${a.id}:${q.id}`)} stateOf={stateOf} disabled />
                 </div>
                 <div className="mt-3">
                   <Explanation q={q} />

@@ -28,6 +28,7 @@ import { paletteStatus, useApp, useHydrated, useSession } from "@/lib/store";
 import type { PaletteStatus, Question, Session } from "@/lib/types";
 import { Explanation, Options, QuestionText, type OptionState } from "@/components/QuestionView";
 import { Button, ButtonLink, Card, Chip, PageSkeleton, Segmented, Sheet, cx } from "@/components/ui";
+import { OmrConsole } from "./OmrConsole";
 
 export function Player() {
   const hydrated = useHydrated();
@@ -50,6 +51,7 @@ export function Player() {
   if (error) return <Frame><p className="text-bad">{error}</p></Frame>;
   if (!session.started) return <Instructions session={session} />;
   if (!byId) return <Frame><PageSkeleton /></Frame>;
+  if (session.config.omr) return <OmrConsole session={session} byId={byId} />;
   return <Console session={session} byId={byId} />;
 }
 
@@ -84,6 +86,7 @@ function Instructions({ session }: { session: Session }) {
   const cfg = session.config;
   const [mode, setMode] = useState(cfg.mode);
   const [schemeId, setSchemeId] = useState(cfg.schemeId);
+  const [omr, setOmr] = useState(!!cfg.omr);
   const scheme = schemeById(schemeId);
   const n = cfg.qids.length;
   const timed = cfg.durationSec > 0 && mode === "exam";
@@ -130,6 +133,25 @@ function Instructions({ session }: { session: Session }) {
                 : "See right / wrong and the explanation the moment you tap an option."}
             </p>
           </div>
+          {mode === "exam" && (
+            <div>
+              <p className="mb-2 text-sm font-bold">Answer on</p>
+              <Segmented
+                label="Answer style"
+                value={omr ? "omr" : "cbt"}
+                onChange={(v) => setOmr(v === "omr")}
+                options={[
+                  { value: "cbt", label: "CBT screen" },
+                  { value: "omr", label: "OMR sheet" },
+                ]}
+              />
+              <p className="mt-2 text-sm text-muted">
+                {omr
+                  ? "The whole paper on one page and a bubble sheet to fill, like a pen-and-paper exam. Questions keep a fixed option order."
+                  : "One question at a time with a palette, like the online exam."}
+              </p>
+            </div>
+          )}
           <div>
             <p className="mb-2 text-sm font-bold">Marking</p>
             <div className="flex flex-wrap gap-2">
@@ -169,7 +191,7 @@ function Instructions({ session }: { session: Session }) {
           </ul>
         </Card>
 
-        <Button size="lg" className="mt-6 w-full" onClick={() => useSession.getState().begin({ mode, schemeId })}>
+        <Button size="lg" className="mt-6 w-full" onClick={() => useSession.getState().begin({ mode, schemeId, omr: mode === "exam" && omr })}>
           I&apos;m ready — begin <ChevronRight size={18} />
         </Button>
       </motion.div>

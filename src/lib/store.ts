@@ -5,6 +5,7 @@ import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
 import { dayKey, uid } from "./random";
 import { graduate, review } from "./srs";
+import type { MainsEntry, MistakeReason, StudyPlan } from "./extras";
 import type { Attempt, PaletteStatus, QStat, Question, Session, TestConfig } from "./types";
 
 const MAX_ATTEMPTS = 300;
@@ -26,7 +27,16 @@ interface AppState {
   /** Days (YYYY-MM-DD) with at least one finished test — drives the streak. */
   activeDays: string[];
   installPrompt: "pending" | "eligible" | "dismissed";
+  /** Why the student got a question wrong (their own tag, set in the mistake notebook). */
+  mistakeTags: Record<number, MistakeReason>;
+  plan: StudyPlan | null;
+  /** Mains answers written in the answer-writing practice, keyed by question id. */
+  mains: Record<string, MainsEntry>;
 
+  setMistakeTag: (id: number, tag: MistakeReason | null) => void;
+  setPlan: (plan: StudyPlan | null) => void;
+  toggleTask: (key: string) => void;
+  saveMains: (id: string, entry: Partial<MainsEntry> & { text: string }) => void;
   setProfile: (p: Profile) => void;
   setTheme: (t: Theme) => void;
   toggleBookmark: (id: number) => void;
@@ -36,7 +46,7 @@ interface AppState {
   /** "I've learnt this": take the question out of the revision set. */
   clearFromRevision: (id: number) => void;
   /** Replace everything with an imported backup. */
-  restore: (s: Pick<AppState, "profile" | "theme" | "attempts" | "qstats" | "bookmarks" | "activeDays">) => void;
+  restore: (s: Pick<AppState, "profile" | "theme" | "attempts" | "qstats" | "bookmarks" | "activeDays"> & Partial<Pick<AppState, "mistakeTags" | "plan" | "mains">>) => void;
   setInstallPrompt: (s: AppState["installPrompt"]) => void;
   resetAll: () => void;
 }
@@ -49,12 +59,33 @@ const initial = {
   bookmarks: [],
   activeDays: [],
   installPrompt: "pending" as const,
+  mistakeTags: {} as Record<number, MistakeReason>,
+  plan: null as StudyPlan | null,
+  mains: {} as Record<string, MainsEntry>,
 };
 
 export const useApp = create<AppState>()(
   persist(
     (set) => ({
       ...initial,
+      setMistakeTag: (id, tag) =>
+        set((s) => {
+          const next = { ...s.mistakeTags };
+          if (tag) next[id] = tag;
+          else delete next[id];
+          return { mistakeTags: next };
+        }),
+      setPlan: (plan) => set({ plan }),
+      toggleTask: (key) =>
+        set((s) => {
+          if (!s.plan) return s;
+          const done = { ...s.plan.done };
+          if (done[key]) delete done[key];
+          else done[key] = true;
+          return { plan: { ...s.plan, done } };
+        }),
+      saveMains: (id, entry) =>
+        set((s) => ({ mains: { ...s.mains, [id]: { ...s.mains[id], ...entry, updatedAt: Date.now() } } })),
       setProfile: (profile) => set({ profile }),
       setTheme: (theme) => set({ theme }),
       toggleBookmark: (id) =>
@@ -117,7 +148,9 @@ export function migrateApp(state: Record<string, unknown>, from: number) {
 interface SessionState {
   session: Session | null;
   start: (config: TestConfig) => void;
-  begin: (patch?: Partial<Pick<TestConfig, "mode" | "schemeId">>) => void;
+  begin: (patch?: Partial<Pick<TestConfig, "mode" | "schemeId" | "omr">>) => void;
+  /** OMR sheet: fill (or, with null, rub out) the bubble for question `index`. */
+  fill: (index: number, option: number | null) => void;
   tick: (deltaMs: number) => void;
   setPaused: (paused: boolean) => void;
   choose: (option: number) => void;
@@ -172,6 +205,13 @@ export const useSession = create<SessionState>()(
         session: null,
         start: (config) => set({ session: fresh(config) }),
         begin: (p) => update((s) => ({ ...s, started: true, paused: false, config: { ...s.config, ...p } })),
+        fill: (index, option) =>
+          update((s) => ({
+            ...s,
+            responses: patch(s.responses, index, option),
+            drafts: patch(s.drafts, index, option),
+            visited: patch(s.visited, index, true),
+          })),
         tick: (d) =>
           update((s) =>
             !s.started || s.paused
