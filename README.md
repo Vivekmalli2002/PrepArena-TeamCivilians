@@ -106,8 +106,9 @@ Stored attempts keep only question ids, responses and a snapshot of the answer k
 ## Civil chapters, exam-pattern mocks and weightage
 
 - **Chapters.** Civil questions are filed under the chapter list in `data/civil-chapters.json` (from the supplied
-  *Civil Engineering Chapter List*), one subject per heading, chapters in document order. Books keep their own unit as a
-  prior; previous-paper questions are placed by nearest neighbours + keyword rules (`scripts/extract/civil_classify.py`,
+  *Civil Engineering Chapter List*), one subject per heading, chapters in document order. Book questions stay where the YCT index puts them: each YCT heading
+  (`scripts/extract/civil_yct.py`) may only go to the chapters listed for it, keywords pick among those. YCT headings with no chapter
+  in the list (Building Construction, Bridge, Tunnel & Docks) stay under "Other civil" with the YCT heading as sub-topic; previous-paper questions are placed by nearest neighbours + keyword rules (`scripts/extract/civil_classify.py`,
   rules in `civil_rules.py`, written back by `civil_apply.py`). Chapter placement of previous-paper questions is
   automatic (self-test about 68 % chapter / 86 % subject agreement); the original unit or exam is kept as `bookUnit` / sub-topic.
 - **Weightage.** `scripts/extract/civil_weights.py` measures how many questions each subject and chapter had in real

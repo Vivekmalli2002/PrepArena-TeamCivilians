@@ -950,7 +950,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Materials, Workmanship, Inspection and Testing",
+  "topic": "Limit State of Collapse – Compression",
   "question": "What is the anchorage length of a diameter Fe 415 bars in M30 concrete column in compression? Assume σs = 0.75fy",
   "options": [
    "41. 50 d",
@@ -967,7 +967,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "TSPSC Assistant Executive Engineer Exam. 2023",
   "subjectId": "civil-rcc",
-  "unit": 1,
+  "unit": 12,
   "subtopic": "TSPSC Assistant Executive Engineer Exam. 2023",
   "classified": "knn+kw"
  },
@@ -1166,7 +1166,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Diversion Head Works",
+  "topic": "Dams",
   "question": "What will be depth of d/s cutoff wall if maximum static head, length of floor and safe exit gradient is 2.4 m, 21.45 m and 1/5 respectively?",
   "options": [
    "2.56 m",
@@ -1183,7 +1183,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "TSPSC Assistant Executive Engineer Exam. 2023",
   "subjectId": "civil-irr",
-  "unit": 5,
+  "unit": 4,
   "subtopic": "TSPSC Assistant Executive Engineer Exam. 2023",
   "classified": "knn+kw"
  },
@@ -1409,7 +1409,7 @@
    "aee-pcb"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Introduction to Project Management",
+  "topic": "CPM",
   "question": "The critical path for the given network diagram is _____",
   "options": [
    "A-B-C-H",
@@ -1426,7 +1426,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "APPSC Assistant Executive Engineer (Environmental) Exam. 2022",
   "subjectId": "civil-cpm",
-  "unit": 1,
+  "unit": 3,
   "subtopic": "APPSC Assistant Executive Engineer (Environmental) Exam. 2022",
   "classified": "knn+kw"
  },
@@ -1490,7 +1490,7 @@
    "aee-pcb"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Open Channel Flow",
+  "topic": "Dimensional Analysis",
   "question": "The daily flows of a river have 1050 data points, and the number of days the flow being equal to or greater than its class value is 205. Find the percentage probability of the flow magnitude being equaled or exceeded.",
   "options": [
    "0.15",
@@ -1507,7 +1507,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "APPSC Assistant Executive Engineer (Environmental) Exam. 2022",
   "subjectId": "civil-fm",
-  "unit": 14,
+  "unit": 13,
   "subtopic": "APPSC Assistant Executive Engineer (Environmental) Exam. 2022",
   "classified": "knn+kw-weak"
  },
@@ -1652,7 +1652,7 @@
    "aee-pcb"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Solid Waste Management",
+  "topic": "Characteristics of Sewage",
   "question": "As per CPHEEO-2016, the minimum sitting distance of land for sanitary landfill sites shall be _____ away from the centre line of a highway or railway line and water supply wells.",
   "options": [
    "100 m",
@@ -1669,7 +1669,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "APPSC Assistant Executive Engineer (Environmental) Exam. 2022",
   "subjectId": "civil-ee",
-  "unit": 21,
+  "unit": 13,
   "subtopic": "APPSC Assistant Executive Engineer (Environmental) Exam. 2022",
   "classified": "knn+kw"
  },
@@ -2030,7 +2030,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Basic Methods of Structural Analysis",
+  "topic": "Kani's Method",
   "question": "Find the rotation factor for member 'BA' which is required to analyze a continuous beam, as shown in the figure, by using Kani's method",
   "options": [
    "–0.25",
@@ -2047,7 +2047,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "APPSC Assistant Director Exam, 2022",
   "subjectId": "civil-sa",
-  "unit": 4,
+  "unit": 8,
   "subtopic": "APPSC Assistant Director Exam, 2022",
   "classified": "knn+kw"
  },
@@ -2408,7 +2408,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Railway Engineering",
+  "topic": "Highway Geometric Design – Horizontal Curves",
   "question": "The extra widening of pavement at horizontal curves on two lane roads, is NOT required if the radius of curve is greater than",
   "options": [
    "200 m",
@@ -2425,7 +2425,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "APPSC Assistant Director Exam, 2022",
   "subjectId": "civil-tra",
-  "unit": 16,
+  "unit": 6,
   "subtopic": "APPSC Assistant Director Exam, 2022",
   "classified": "knn+kw"
  },
@@ -2570,7 +2570,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Introduction to Structures and Static Indeterminacy",
+  "topic": "Shear Force and Bending Moment",
   "question": "A schematic diagram of a hydraulic braking system is shown in the following figure. If the applied a force of 100 N, the force F available at the brakes is (take specific gravity of the fluid to be 0.8 and units of length as mm).",
   "options": [
    "1.67 kN",
@@ -2586,8 +2586,8 @@
   "keyCheck": "unverified-extract",
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "APPSC Assistant Engineer (Common, Civil/Mech.) Exam, 2022",
-  "subjectId": "civil-sa",
-  "unit": 1,
+  "subjectId": "civil-som",
+  "unit": 3,
   "subtopic": "APPSC Assistant Engineer (Common, Civil/Mech.) Exam, 2022",
   "classified": "knn+kw"
  },
@@ -3002,7 +3002,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Spillways",
+  "topic": "Diversion Head Works",
   "question": "A vertical lock gate is 4 m wide and separates water levels of 2 m and 3m, respectively, as shown in the following figure. The moment about the bottom required to keep the gate stationary is (take specific weight of water as 9790 N/m³ .",
   "options": [
    "104 kN.m",
@@ -3019,7 +3019,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "APPSC Assistant Engineer (Common, Civil/Mech.) Exam, 2022",
   "subjectId": "civil-irr",
-  "unit": 3,
+  "unit": 5,
   "subtopic": "APPSC Assistant Engineer (Common, Civil/Mech.) Exam, 2022",
   "classified": "knn+kw"
  },
@@ -3056,7 +3056,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Flow Through Pipes",
+  "topic": "Flow Through Orifices and Mouthpieces",
   "question": "In reference to the following figure, the total discharge, Q, through the partially submerged orifice is given by (where Cd₁ and Cd₂ represents the coefficients of discharge for the free portion and submerged portion of the orifice, respectively and the breadth of the orifice is b)",
   "options": [
    "2 3/2 3/2 Q= Cd₁ b 2g { H −H₂ } +Cd₂ b ( H₁ −H) 2gH",
@@ -3073,7 +3073,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "APPSC Assistant Engineer (Common, Civil/Mech.) Exam, 2022",
   "subjectId": "civil-fm",
-  "unit": 7,
+  "unit": 10,
   "subtopic": "APPSC Assistant Engineer (Common, Civil/Mech.) Exam, 2022",
   "classified": "knn+kw"
  },
@@ -3083,7 +3083,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Flow Through Orifices and Mouthpieces",
+  "topic": "Flow Over Notches and Weirs",
   "question": "In reference to the following figure, the time to completely empty the vertical cylinderical tank is (where A is the cross-sectional area of the tank, a is the area of orifice and Cd is the coefficient of discharge. 2A ( H 1/2₁)",
   "options": [
    "Cd a 2g 2a ( H 1/2₁)",
@@ -3100,7 +3100,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "APPSC Assistant Engineer (Common, Civil/Mech.) Exam, 2022",
   "subjectId": "civil-fm",
-  "unit": 10,
+  "unit": 11,
   "subtopic": "APPSC Assistant Engineer (Common, Civil/Mech.) Exam, 2022",
   "classified": "knn+kw"
  },
@@ -3642,7 +3642,7 @@
   "subjectId": "civil-fm",
   "unit": 7,
   "subtopic": "TSPSC HMWSSB Manager Exam, 2020",
-  "classified": "knn+kw"
+  "classified": "knn+kw-weak"
  },
  {
   "id": "PYQ-00664",
@@ -3758,7 +3758,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Railway Engineering",
+  "topic": "Complex Stresses and Strains",
   "question": "What is the maximum contact shear stress (F) at the contact point between the wheel and the rail is given by the empirical formula. 3¹  P ²  P ²",
   "options": [
    "4.13  ",
@@ -3774,8 +3774,8 @@
   "keyCheck": "unverified-extract",
   "flag": "Automatic extraction check failed: symbols",
   "bookUnit": "TSPSC HMWSSB Manager Exam, 2020",
-  "subjectId": "civil-tra",
-  "unit": 16,
+  "subjectId": "civil-som",
+  "unit": 2,
   "subtopic": "TSPSC HMWSSB Manager Exam, 2020",
   "classified": "knn+kw"
  },
@@ -3893,7 +3893,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State of Collapse – Compression",
+  "topic": "Materials, Workmanship, Inspection and Testing",
   "question": "Tripod is essential. 116. The formwork which is used for vertical structural member such as columns, RCC walls etc known as",
   "options": [
    "Staging",
@@ -3910,7 +3910,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "TSPSC HMWSSB Manager Exam, 2020",
   "subjectId": "civil-rcc",
-  "unit": 12,
+  "unit": 1,
   "subtopic": "TSPSC HMWSSB Manager Exam, 2020",
   "classified": "knn+kw"
  },
@@ -3920,7 +3920,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theodolite Survey",
+  "topic": "Total Station",
   "question": "Infra-red emitting instrument. 122. A total station can measure",
   "options": [
    "distances electrically only",
@@ -3937,7 +3937,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "TSPSC HMWSSB Manager Exam, 2020",
   "subjectId": "civil-sur",
-  "unit": 4,
+  "unit": 17,
   "subtopic": "TSPSC HMWSSB Manager Exam, 2020",
   "classified": "knn+kw"
  },
@@ -4055,7 +4055,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Fundamental Concepts",
+  "topic": "Photogrammetric Surveying",
   "question": "Establishing accurate control for plane and geodetic surveys covering large area. • Triangulation is a surveying method that measures the angles in a triangle formed by three survey control points. 12. If the focal length of camera is 20 cm and the map distance is 10 cm representing a ground distance of 200 m, then what is the height of the camera above the selected data ?",
   "options": [
    "380 m",
@@ -4072,7 +4072,7 @@
   "flag": "Automatic extraction check failed: merged, stray, symbols",
   "bookUnit": "APPSC Polytechnic Lecturer Exam, 2020",
   "subjectId": "civil-sur",
-  "unit": 1,
+  "unit": 14,
   "subtopic": "APPSC Polytechnic Lecturer Exam, 2020",
   "classified": "knn+kw"
  },
@@ -4298,7 +4298,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Centrifugal Pumps",
+  "topic": "Hydro-Electric Power Plant",
   "question": "Given figure shows the performance curve for a centrifugal pump at various flow. Curve A is for :",
   "options": [
    "Head",
@@ -4315,7 +4315,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "APPSC Polytechnic Lecturer Exam, 2020",
   "subjectId": "civil-hm",
-  "unit": 8,
+  "unit": 2,
   "subtopic": "APPSC Polytechnic Lecturer Exam, 2020",
   "classified": "knn+kw"
  },
@@ -4379,7 +4379,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Properties of Fluids",
+  "topic": "Dimensional Analysis",
   "question": "To model a river, the horizontal scale is 1 : 500 and vertical scale is 1 : 50. Determine model bed slope if prototype bed slope is 0.0003.",
   "options": [
    "0.0003",
@@ -4396,7 +4396,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "APPSC Polytechnic Lecturer Exam, 2020",
   "subjectId": "civil-fm",
-  "unit": 1,
+  "unit": 13,
   "subtopic": "APPSC Polytechnic Lecturer Exam, 2020",
   "classified": "knn+kw"
  },
@@ -4541,7 +4541,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Buoyancy and Metacentric Height",
+  "topic": "Pressure Measurement and Fluid Statics",
   "question": "The depth of the centre of pressure of a vertical rectangular plate of depth 3 m and width 4 m when the water surface coincides with the top of the gate, is :",
   "options": [
    "1 m",
@@ -4558,7 +4558,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "APPSC Deputy Inspector of Survey Exam, 2020",
   "subjectId": "civil-fm",
-  "unit": 3,
+  "unit": 2,
   "subtopic": "APPSC Deputy Inspector of Survey Exam, 2020",
   "classified": "knn+kw"
  },
@@ -4892,7 +4892,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Buoyancy and Metacentric Height",
+  "topic": "Pressure Measurement and Fluid Statics",
   "question": "A rectangular plane surface, 2 m wide and 3 m deep, lies in water in such a way that its plane makes an angle of 30⁰ with the free surface of water. Determine the position of the centre of pressure when the upper edge is 1.5 m below the free water surface.",
   "options": [
    "1.56 m",
@@ -4909,7 +4909,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "APPSC Deputy Inspector of Survey Exam, 2020",
   "subjectId": "civil-fm",
-  "unit": 3,
+  "unit": 2,
   "subtopic": "APPSC Deputy Inspector of Survey Exam, 2020",
   "classified": "knn+kw"
  },
@@ -5054,7 +5054,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Diversion Head Works",
+  "topic": "Design of Unlined Alluvial Canals by Silt Theories",
   "question": "In designing hydraulic structure in alluvial rivers, the equation that is used to calculate the normal depth of scour R for a discharge intensity of q m³ /s/m is TSPSC Assistant Executive Engineer Exam., 2018 19",
   "options": [
    "R = 1.35 (q² /f) 1/3",
@@ -5071,7 +5071,7 @@
   "flag": "Automatic extraction check failed: stray, symbols",
   "bookUnit": "TSPSC Assistant Executive Engineer Exam, 2018",
   "subjectId": "civil-irr",
-  "unit": 5,
+  "unit": 6,
   "subtopic": "TSPSC Assistant Executive Engineer Exam, 2018",
   "classified": "knn+kw"
  },
@@ -5648,7 +5648,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Energy Equation and Its Applications",
+  "topic": "Flow Through Pipes",
   "question": "The velocity in a cross section is non-uniform. In one—dimensional method of analysis, the kinetic energy of fluid per unit weight is",
   "options": [
    "V² /2g",
@@ -5665,7 +5665,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "TSPSC Assistant Executive Engineer (Common, Civil/Mech.) Exam, 2017",
   "subjectId": "civil-fm",
-  "unit": 5,
+  "unit": 7,
   "subtopic": "TSPSC Assistant Executive Engineer (Common, Civil/Mech.) Exam, 2017",
   "classified": "knn+kw"
  },
@@ -5918,7 +5918,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theodolite Survey",
+  "topic": "Levelling",
   "question": "The operation of forming the clear image of the object in the plane of cross hairs is known as",
   "options": [
    "Elimination of parallax",
@@ -5935,7 +5935,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "TSPSCAssistant Executive Engineer Exam., 2017",
   "subjectId": "civil-sur",
-  "unit": 4,
+  "unit": 6,
   "subtopic": "TSPSCAssistant Executive Engineer Exam., 2017",
   "classified": "knn+kw"
  },
@@ -6188,7 +6188,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theory of Simple Bending",
+  "topic": "Shear Stress Distribution in Beams",
   "question": "The shape of the shear stress distribution diagram for a rectangular beam is",
   "options": [
    "Parabola",
@@ -6205,7 +6205,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "APPSC Assistant Executive Engineer (Mains.) Exam, 2016",
   "subjectId": "civil-som",
-  "unit": 5,
+  "unit": 6,
   "subtopic": "APPSC Assistant Executive Engineer (Mains.) Exam, 2016",
   "classified": "knn+kw"
  },
@@ -6296,7 +6296,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Shear Force and Bending Moment",
+  "topic": "Basic Methods of Structural Analysis",
   "question": "The ratio of loads shared by parts 'AB' and 'BC' of the bar shown below is",
   "options": [
    "1 : 1",
@@ -6312,8 +6312,8 @@
   "keyCheck": "unverified-extract",
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "APPSC Assistant Executive Engineer (Mains.) Exam, 2016",
-  "subjectId": "civil-som",
-  "unit": 3,
+  "subjectId": "civil-sa",
+  "unit": 4,
   "subtopic": "APPSC Assistant Executive Engineer (Mains.) Exam, 2016",
   "classified": "knn+kw"
  },
@@ -6431,7 +6431,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Fluid Kinematics",
+  "topic": "Boundary Layer Theory, Drag and Lift",
   "question": "The pressure variation along the radial direction for vortex flow along a horizontal plane is given by",
   "options": [
    "∂ p / ∂ r = ρ v² / r",
@@ -6448,7 +6448,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "APPSC Assistant Executive Engineer (Mains.) Exam, 2016",
   "subjectId": "civil-fm",
-  "unit": 4,
+  "unit": 15,
   "subtopic": "APPSC Assistant Executive Engineer (Mains.) Exam, 2016",
   "classified": "knn+kw"
  },
@@ -6458,7 +6458,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Energy Equation and Its Applications",
+  "topic": "Fluid Kinematics",
   "question": "Relation between shear and pressure gradients in a two dimensional laminar flow under steady and uniform conditions",
   "options": [
    "∂ τ / ∂ x = ∂ p / ∂ x",
@@ -6475,7 +6475,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "APPSC Assistant Executive Engineer (Mains.) Exam, 2016",
   "subjectId": "civil-fm",
-  "unit": 5,
+  "unit": 4,
   "subtopic": "APPSC Assistant Executive Engineer (Mains.) Exam, 2016",
   "classified": "knn+kw"
  },
@@ -6593,7 +6593,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theory of Simple Bending",
+  "topic": "Shear Stress Distribution in Beams",
   "question": "Each layer of the beam is free to expand or contract, independently of the layer, above or below it. 13. In a beam of rectangular cross section, the ratio of the maximum shear stress to the average shear stress is",
   "options": [
    "2.50",
@@ -6610,7 +6610,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "APPSC Assistant Executive Engineer Exam, 2016",
   "subjectId": "civil-som",
-  "unit": 5,
+  "unit": 6,
   "subtopic": "APPSC Assistant Executive Engineer Exam, 2016",
   "classified": "knn+kw"
  },
@@ -6647,7 +6647,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Energy Equation and Its Applications",
+  "topic": "Momentum Equation and Its Applications",
   "question": "Impulse momentum equation gives relationship between force (F), mass (m) and velocity (v) as dm 1 dv",
   "options": [
    "F = v",
@@ -6664,7 +6664,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "APPSC Assistant Executive Engineer Exam, 2016",
   "subjectId": "civil-fm",
-  "unit": 5,
+  "unit": 6,
   "subtopic": "APPSC Assistant Executive Engineer Exam, 2016",
   "classified": "knn+kw"
  },
@@ -7025,7 +7025,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Energy Equation and Its Applications",
+  "topic": "Fluid Kinematics",
   "question": "Continuity equation for a one dimensional flow through uniform cross sectional area is (Where ρ is the mass density of fluid; and u is the velocity component in x direction; and t is time variable) ∂ρ ∂ρ u ∂ρ ∂ρ u",
   "options": [
    "+ = 0",
@@ -7042,7 +7042,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "APPSC Assistant Engineer (Subordinate) Exam, 2016",
   "subjectId": "civil-fm",
-  "unit": 5,
+  "unit": 4,
   "subtopic": "APPSC Assistant Engineer (Subordinate) Exam, 2016",
   "classified": "knn+kw"
  },
@@ -7808,7 +7808,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Index Properties of Soils",
+  "topic": "Limit State – Singly Reinforced Sections",
   "question": "Acoustics of an auditorium is considered to be excellent when its reverberation time is between",
   "options": [
    "0.50 and 1.50 s",
@@ -7824,10 +7824,10 @@
   "keyCheck": "unverified-extract",
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "APPSC Assistant Engineer (Civil, Mains.) Exam, 2016 (P-III)",
-  "subjectId": "civil-geo",
-  "unit": 4,
+  "subjectId": "civil-rcc",
+  "unit": 3,
   "subtopic": "APPSC Assistant Engineer (Civil, Mains.) Exam, 2016 (P-III)",
-  "classified": "knn+kw"
+  "classified": "knn+kw-weak"
  },
  {
   "id": "PYQ-02269",
@@ -7889,7 +7889,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Seepage Pressure and Critical Hydraulic Gradient",
   "question": "A layer of soil having G= 2.67 and e = 0.67 is subjected to an upward head of 1.5 m due to seepage of water. The depth of the soil layer required to provide a factor of safety 2 against piping is",
   "options": [
    "1.5 m",
@@ -7906,7 +7906,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "APPSC Assistant Engineer (Civil, Mains.) Exam, 2016 (P-III)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 8,
   "subtopic": "APPSC Assistant Engineer (Civil, Mains.) Exam, 2016 (P-III)",
   "classified": "knn+kw"
  },
@@ -7943,7 +7943,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Fundamental Concepts",
+  "topic": "Traverse Surveying and Omitted Measurements",
   "question": "If L denotes latitude and D denotes departure, then the direction of closing error is given by −₁  ∑D  −₁  ∑D ",
   "options": [
    "tan  ",
@@ -7960,7 +7960,7 @@
   "flag": "Automatic extraction check failed: symbols",
   "bookUnit": "APPSC Assistant Engineer (Civil, Mains.) Exam, 2016 (P-III)",
   "subjectId": "civil-sur",
-  "unit": 1,
+  "unit": 5,
   "subtopic": "APPSC Assistant Engineer (Civil, Mains.) Exam, 2016 (P-III)",
   "classified": "knn+kw"
  },
@@ -8807,7 +8807,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Slabs",
+  "topic": "Footings",
   "question": "The functionality of a wall, retaining wall and a shear wall in order is ______. i. resist predominantly vertical loads ii. resist lateral loads perpendicular to the plane of wall iii. resist lateral loads in the plane of wall",
   "options": [
    "ii, iii, i",
@@ -8824,7 +8824,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "TSPSC Deputy Engineer Exam, 2015",
   "subjectId": "civil-rcc",
-  "unit": 11,
+  "unit": 13,
   "subtopic": "TSPSC Deputy Engineer Exam, 2015",
   "classified": "knn+kw"
  },
@@ -9212,7 +9212,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Analysis of Trusses (Determinate)",
+  "topic": "Engineering Mechanics",
   "question": "For the force system shown below, the tension T₁ in the rope is",
   "options": [
    "500 N",
@@ -9228,10 +9228,10 @@
   "keyCheck": "unverified-extract",
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "TSPSC Assistant Engineer Exam., 2015",
-  "subjectId": "civil-sa",
-  "unit": 3,
+  "subjectId": "civil-em",
+  "unit": 1,
   "subtopic": "TSPSC Assistant Engineer Exam., 2015",
-  "classified": "knn+kw-weak"
+  "classified": "knn+kw"
  },
  {
   "id": "PYQ-02695",
@@ -9455,7 +9455,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Horizontal Curves",
   "question": "Calculate the rise of crown with respect to edges for a cement concrete road of 10.00 m width and situated in areas of heavy rainfall",
   "options": [
    "0.01 m",
@@ -9472,7 +9472,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "TSPSC Assistant Engineer Exam., 2015",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 6,
   "subtopic": "TSPSC Assistant Engineer Exam., 2015",
   "classified": "knn+kw"
  },
@@ -9806,7 +9806,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Permeability",
+  "topic": "Seepage Analysis",
   "question": "The seepage velocity vs and the Darey's velocity are related as vs v",
   "options": [
    "v =",
@@ -9823,7 +9823,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "APPSC Assistant Executive Engineer (Observers) Exam, 2013",
   "subjectId": "civil-geo",
-  "unit": 6,
+  "unit": 9,
   "subtopic": "APPSC Assistant Executive Engineer (Observers) Exam, 2013",
   "classified": "knn+kw"
  },
@@ -10130,7 +10130,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Simple Stresses and Strains (Elastic Constants and their relationship; Linear and volumetric changes of bodies; Thermal Stresses)",
+  "topic": "Shear Force and Bending Moment",
   "question": "The maximum stress induced in a body if the load 'P' is applied with impact upon an area of cross section 'A' is (Where h = Height through which the load falls, E = Modulus of rigidity, L = Length of the body) P  2AEh ",
   "options": [
    "1+ 1+  A  PL    P  2AEh ",
@@ -10147,7 +10147,7 @@
   "flag": "Automatic extraction check failed: symbols",
   "bookUnit": "APPSC Assistant Engineer Exam, 2013",
   "subjectId": "civil-som",
-  "unit": 1,
+  "unit": 3,
   "subtopic": "APPSC Assistant Engineer Exam, 2013",
   "classified": "knn+kw"
  },
@@ -10346,7 +10346,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Buoyancy and Metacentric Height",
+  "topic": "Pressure Measurement and Fluid Statics",
   "question": "A vertical rectangular plane surface is submerged in water with its top surface and bottom surface at 1.5 m and 6.0 m below the free water surface. The depth of centre of pressure below the free water surface is",
   "options": [
    "40.0 m",
@@ -10363,7 +10363,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "APPSC Assistant Executive Engineer (Common, Civil/Mech.) Exam, 2012 (P-I)",
   "subjectId": "civil-fm",
-  "unit": 3,
+  "unit": 2,
   "subtopic": "APPSC Assistant Executive Engineer (Common, Civil/Mech.) Exam, 2012 (P-I)",
   "classified": "knn+kw"
  },
@@ -10373,7 +10373,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Energy Equation and Its Applications",
+  "topic": "Flow Through Pipes",
   "question": "The total energy represented by the Bernoulli's  v² p  equation  + + z  has the units  2g y ",
   "options": [
    "N-m/m",
@@ -10390,7 +10390,7 @@
   "flag": "Automatic extraction check failed: symbols",
   "bookUnit": "APPSC Assistant Executive Engineer (Common, Civil/Mech.) Exam, 2012 (P-I)",
   "subjectId": "civil-fm",
-  "unit": 5,
+  "unit": 7,
   "subtopic": "APPSC Assistant Executive Engineer (Common, Civil/Mech.) Exam, 2012 (P-I)",
   "classified": "knn+kw"
  },
@@ -10427,7 +10427,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Energy Equation and Its Applications",
+  "topic": "Flow Through Orifices and Mouthpieces",
   "question": "The head loss is more in a",
   "options": [
    "nozzle meter",
@@ -10444,7 +10444,7 @@
   "flag": "Automatic extraction check failed: duplicate",
   "bookUnit": "APPSC Assistant Executive Engineer (Common, Civil/Mech.) Exam, 2012 (P-I)",
   "subjectId": "civil-fm",
-  "unit": 5,
+  "unit": 10,
   "subtopic": "APPSC Assistant Executive Engineer (Common, Civil/Mech.) Exam, 2012 (P-I)",
   "classified": "knn+kw"
  },
@@ -10535,7 +10535,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Kinematic Indeterminacy",
+  "topic": "Basic Methods of Structural Analysis",
   "question": "Figure shows a portal frame with one end f and other hinged. The ratio of the fixed MBA moments due to side sway will be MCD",
   "options": [
    "1.0",
@@ -10552,7 +10552,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "APPSC Assistant Executive Engineer Exam, 2012 (P-II)",
   "subjectId": "civil-sa",
-  "unit": 2,
+  "unit": 4,
   "subtopic": "APPSC Assistant Executive Engineer Exam, 2012 (P-II)",
   "classified": "knn+kw"
  },
@@ -10697,7 +10697,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Slopes and Deflection",
+  "topic": "Columns and Struts",
   "question": "The critical load for a column of length ‘l’ hinged at both ends and having flexural rigidity EI, is given by π² EI π² EI",
   "options": [
    "Pc =₃",
@@ -10714,7 +10714,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "APPSC Assistant Executive Engineer Exam, 2012 (P-II)",
   "subjectId": "civil-som",
-  "unit": 9,
+  "unit": 11,
   "subtopic": "APPSC Assistant Executive Engineer Exam, 2012 (P-II)",
   "classified": "knn+kw"
  },
@@ -10724,7 +10724,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Shear Force and Bending Moment",
+  "topic": "Plastic Theory",
   "question": "In propped cantilever loaded as shown in figure, the plastic hinge will form at",
   "options": [
    "0.414 L from B",
@@ -10740,8 +10740,8 @@
   "keyCheck": "unverified-extract",
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "APPSC Assistant Executive Engineer Exam, 2012 (P-II)",
-  "subjectId": "civil-som",
-  "unit": 3,
+  "subjectId": "civil-sa",
+  "unit": 12,
   "subtopic": "APPSC Assistant Executive Engineer Exam, 2012 (P-II)",
   "classified": "knn+kw"
  },
@@ -11102,7 +11102,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "PERT",
+  "topic": "Introduction to Project Management",
   "question": "Cermets are",
   "options": [
    "metals for high temperature use with ceramic like properties",
@@ -11119,7 +11119,7 @@
   "flag": "Automatic extraction check failed: stem",
   "bookUnit": "APPSC Assistant Engineer (Public Health & Municipal Engineer) Exam, 2012",
   "subjectId": "civil-cpm",
-  "unit": 2,
+  "unit": 1,
   "subtopic": "APPSC Assistant Engineer (Public Health & Municipal Engineer) Exam, 2012",
   "classified": "knn+kw"
  },
@@ -11129,7 +11129,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theory of Simple Bending",
+  "topic": "Slopes and Deflection",
   "question": "For the beam shown is the fig. the elastic curve between the supports B and C will be",
   "options": [
    "circular",
@@ -11146,7 +11146,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "APPSC Assistant Engineer (Public Health & Municipal Engineer) Exam, 2012",
   "subjectId": "civil-som",
-  "unit": 5,
+  "unit": 9,
   "subtopic": "APPSC Assistant Engineer (Public Health & Municipal Engineer) Exam, 2012",
   "classified": "knn+kw"
  },
@@ -11345,7 +11345,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Centre of Gravity and Moment of Inertia",
+  "topic": "Engineering Mechanics",
   "question": "Moment of inertia of a semicircle about its XX- axis is given₃ by₄",
   "options": [
    "0.22 r",
@@ -11361,8 +11361,8 @@
   "keyCheck": "unverified-extract",
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "APPSC Assistant Engineer (Public Health & Municipal Engineer) Exam, 2012",
-  "subjectId": "civil-som",
-  "unit": 4,
+  "subjectId": "civil-em",
+  "unit": 1,
   "subtopic": "APPSC Assistant Engineer (Public Health & Municipal Engineer) Exam, 2012",
   "classified": "knn+kw"
  },
@@ -11480,7 +11480,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Reaction Turbines (Francis and Kaplan Turbines)",
+  "topic": "Hydro-Electric Power Plant",
   "question": "the unit discharge (Qu) and unit speed (Nu) curves for different turbines are shown in the adjacent figure 1. curve A is for",
   "options": [
    "Francis turbine",
@@ -11497,7 +11497,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "TSPSC Assistant Executive Engineer Exam, 2011 (P-I)",
   "subjectId": "civil-hm",
-  "unit": 4,
+  "unit": 2,
   "subtopic": "TSPSC Assistant Executive Engineer Exam, 2011 (P-I)",
   "classified": "knn+kw"
  },
@@ -11507,7 +11507,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Reaction Turbines (Francis and Kaplan Turbines)",
+  "topic": "Hydro-Electric Power Plant",
   "question": "Curve B is Figure 1 is for",
   "options": [
    "Francis turbine",
@@ -11524,7 +11524,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "TSPSC Assistant Executive Engineer Exam, 2011 (P-I)",
   "subjectId": "civil-hm",
-  "unit": 4,
+  "unit": 2,
   "subtopic": "TSPSC Assistant Executive Engineer Exam, 2011 (P-I)",
   "classified": "knn+kw"
  },
@@ -11534,7 +11534,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Reaction Turbines (Francis and Kaplan Turbines)",
+  "topic": "Hydro-Electric Power Plant",
   "question": "Curve C in Figure 1 is for",
   "options": [
    "Francis turbine",
@@ -11551,7 +11551,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "TSPSC Assistant Executive Engineer Exam, 2011 (P-I)",
   "subjectId": "civil-hm",
-  "unit": 4,
+  "unit": 2,
   "subtopic": "TSPSC Assistant Executive Engineer Exam, 2011 (P-I)",
   "classified": "knn+kw"
  },
@@ -11777,7 +11777,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Columns and Struts",
+  "topic": "Centre of Gravity and Moment of Inertia",
   "question": "The meta centric height of a ship is 0.6m and the radius of gyration is 4 m. The time of rolling of a ship is",
   "options": [
    "4.1 s",
@@ -11794,7 +11794,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "TSPSC Assistant Executive Engineer Exam, 2011 (P-I)",
   "subjectId": "civil-som",
-  "unit": 11,
+  "unit": 4,
   "subtopic": "TSPSC Assistant Executive Engineer Exam, 2011 (P-I)",
   "classified": "knn+kw"
  },
@@ -12101,7 +12101,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Sources and Conveyance of Water",
+  "topic": "Distribution System",
   "question": "Cast iron pipe dia specified meter 22. If valuable properties are found during excavation, it becomes the property of",
   "options": [
    "contractor",
@@ -12118,7 +12118,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "TSPSC Assistant Executive Engineer Exam, 2011 (P-II)",
   "subjectId": "civil-ee",
-  "unit": 2,
+  "unit": 9,
   "subtopic": "TSPSC Assistant Executive Engineer Exam, 2011 (P-II)",
   "classified": "knn+kw"
  },
@@ -12209,7 +12209,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Reaction Turbines (Francis and Kaplan Turbines)",
+  "topic": "Hydro-Electric Power Plant",
   "question": "Kaplan turbine is",
   "options": [
    "an impulse turbine",
@@ -12226,7 +12226,7 @@
   "flag": "Automatic extraction check failed: duplicate",
   "bookUnit": "TSPSC Assistant Executive Engineer Exam, 2011 (P-II)",
   "subjectId": "civil-hm",
-  "unit": 4,
+  "unit": 2,
   "subtopic": "TSPSC Assistant Executive Engineer Exam, 2011 (P-II)",
   "classified": "knn+kw"
  },
@@ -12236,7 +12236,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Runoff",
+  "topic": "Hydrographs",
   "question": "The word unit in the unit hydrograph denotes",
   "options": [
    "the unit depth of run off",
@@ -12253,7 +12253,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "TSPSC Assistant Executive Engineer Exam, 2011 (P-II)",
   "subjectId": "civil-hyd",
-  "unit": 6,
+  "unit": 8,
   "subtopic": "TSPSC Assistant Executive Engineer Exam, 2011 (P-II)",
   "classified": "knn+kw"
  },
@@ -12344,7 +12344,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Buoyancy and Metacentric Height",
+  "topic": "Pressure Measurement and Fluid Statics",
   "question": "The depth of the centre of pressure of a vertical rectangular plate of depth 3.0 m and width 4.0 m when the water surface coincides with the top of the gate is",
   "options": [
    "1.0 m",
@@ -12361,7 +12361,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "APPSC Assistant Executive Engineer Exam, 2004 (P-I)",
   "subjectId": "civil-fm",
-  "unit": 3,
+  "unit": 2,
   "subtopic": "APPSC Assistant Executive Engineer Exam, 2004 (P-I)",
   "classified": "knn+kw"
  },
@@ -12371,7 +12371,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Flow Through Pipes",
+  "topic": "Flow Over Notches and Weirs",
   "question": "Low < 30 m Kaplan 37. The ratio of percentage error in the discharge over a rectangular notch, and the percentage error in the measurement of head is",
   "options": [
    "0.50",
@@ -12388,7 +12388,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "APPSC Assistant Executive Engineer Exam, 2004 (P-I)",
   "subjectId": "civil-fm",
-  "unit": 7,
+  "unit": 11,
   "subtopic": "APPSC Assistant Executive Engineer Exam, 2004 (P-I)",
   "classified": "knn+kw"
  },
@@ -12614,7 +12614,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Materials and Testing",
+  "topic": "Traffic Engineering",
   "question": "Under Indian conditions, water bound Macadam roads are considered suitable, if the daily traffic does not exceed",
   "options": [
    "2000 t",
@@ -12631,7 +12631,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "APPSC Assistant Executive Engineer Exam, 2004 (P-II)",
   "subjectId": "civil-tra",
-  "unit": 11,
+  "unit": 14,
   "subtopic": "APPSC Assistant Executive Engineer Exam, 2004 (P-II)",
   "classified": "knn+kw"
  },
@@ -12884,7 +12884,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Shear Force and Bending Moment",
+  "topic": "Plastic Theory",
   "question": "A beam of span l and moment capacity Mp is fixed at one end and simply supported at the other end. The maximum mid-span load the beam can support is",
   "options": [
    "4Mp / l",
@@ -12900,8 +12900,8 @@
   "keyCheck": "unverified-extract",
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "APPSC Assistant Executive Engineer Exam, 2004 (P-II)",
-  "subjectId": "civil-som",
-  "unit": 3,
+  "subjectId": "civil-sa",
+  "unit": 12,
   "subtopic": "APPSC Assistant Executive Engineer Exam, 2004 (P-II)",
   "classified": "knn+kw"
  },
@@ -13370,7 +13370,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Flow Through Pipes",
+  "topic": "Pressure Measurement and Fluid Statics",
   "question": "Water is flowing through two different pipes to which an inverted differential manometer having an oil of specific gravity 0.8 is connected. The pressure in the pipe A is 2m of water. The manometric ridings as shown in figure, the pressure in pipe B, in N/mm² , is",
   "options": [
    "1.896",
@@ -13387,7 +13387,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "APPSC Assistant Executive Engineer Exam, 1993",
   "subjectId": "civil-fm",
-  "unit": 7,
+  "unit": 2,
   "subtopic": "APPSC Assistant Executive Engineer Exam, 1993",
   "classified": "knn+kw"
  },
@@ -13397,7 +13397,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Energy Equation and Its Applications",
+  "topic": "Fluid Kinematics",
   "question": "The pressure₂ at a point in a water is 196.2 kN/m . The velocity at that point is 0.5m and the point is 5 m above the datum. The total head at the point is ............",
   "options": [
    "25.0 m",
@@ -13414,7 +13414,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "APPSC Assistant Executive Engineer Exam, 1993",
   "subjectId": "civil-fm",
-  "unit": 5,
+  "unit": 4,
   "subtopic": "APPSC Assistant Executive Engineer Exam, 1993",
   "classified": "knn+kw"
  },
@@ -13721,7 +13721,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Energy Equation and Its Applications",
+  "topic": "Fluid Kinematics",
   "question": "Which of the following velocity fields does not satisfy conservation of mass for in compressible plane flow?",
   "options": [
    "u = x, v = -y",
@@ -13738,7 +13738,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "APPSC Assistant Executive Engineer Exam, 1992",
   "subjectId": "civil-fm",
-  "unit": 5,
+  "unit": 4,
   "subtopic": "APPSC Assistant Executive Engineer Exam, 1992",
   "classified": "knn+kw"
  },
@@ -13748,7 +13748,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Energy Equation and Its Applications",
+  "topic": "Boundary Layer Theory, Drag and Lift",
   "question": "In forced vortex flow, velocity V and radial distance r are related as",
   "options": [
    "V α r",
@@ -13765,7 +13765,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "APPSC Assistant Executive Engineer Exam, 1992",
   "subjectId": "civil-fm",
-  "unit": 5,
+  "unit": 15,
   "subtopic": "APPSC Assistant Executive Engineer Exam, 1992",
   "classified": "knn+kw"
  },
@@ -13775,7 +13775,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Reaction Turbines (Francis and Kaplan Turbines)",
+  "topic": "Hydro-Electric Power Plant",
   "question": "Unit power under the unit head P P₁ P₂ Punit = ⇒ = H 3/2 H₁ 3/2 H 3/2₂ 600 P₂ = ⇒ P₂ = 429 kW 30 3/2 24 3/2 78. A draft tube is a part of the installation of a",
   "options": [
    "Propeller turbine",
@@ -13792,7 +13792,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "APPSC Assistant Executive Engineer Exam, 1992",
   "subjectId": "civil-hm",
-  "unit": 4,
+  "unit": 2,
   "subtopic": "APPSC Assistant Executive Engineer Exam, 1992",
   "classified": "knn+kw"
  },
@@ -13802,7 +13802,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Reaction Turbines (Francis and Kaplan Turbines)",
+  "topic": "Hydro-Electric Power Plant",
   "question": "Converts proportion of velocity energy rejected from runner into useful pressure energy. • Reactions Turbins are – Kaplan, Francis, Propeller. 79. The function of a governor in a turbine is to",
   "options": [
    "Give maximum overall efficiency",
@@ -13819,7 +13819,7 @@
   "flag": "Automatic extraction check failed: merged, symbols",
   "bookUnit": "APPSC Assistant Executive Engineer Exam, 1992",
   "subjectId": "civil-hm",
-  "unit": 4,
+  "unit": 2,
   "subtopic": "APPSC Assistant Executive Engineer Exam, 1992",
   "classified": "knn+kw"
  },
@@ -13829,7 +13829,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Fluid Kinematics",
+  "topic": "Boundary Layer Theory, Drag and Lift",
   "question": "Unit Power :– P P₁ P₂ Punit = ⇒ = H 3/2 H₁ 3/2 H 3/2₂ 84. The motion that helps in the working of a centrifugal pump is",
   "options": [
    "Radial flow",
@@ -13846,7 +13846,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "APPSC Assistant Executive Engineer Exam, 1992",
   "subjectId": "civil-fm",
-  "unit": 4,
+  "unit": 15,
   "subtopic": "APPSC Assistant Executive Engineer Exam, 1992",
   "classified": "knn+kw"
  },
