@@ -67,6 +67,11 @@ and AEE Paper-II (common to R&B, Irrigation, PR & TW, each with its own Paper-II
 - **Anti-repeat tests:** mocks, topic mocks and custom tests prefer questions the student has not seen (then the longest-unseen), never repeat a
   question inside one test, shuffle question order, and shuffle option order for display only (answers and scoring keep the original option
   index). Options that refer to each other ("All of the above", "1 and 2 only", "(a)-(iii)…") keep their printed order.
+- **Bulk extraction** (`scripts/extract/`): `civil_columns.py` reads the layout-preserved two-column Civil Engineering volumes by finding each
+  page's gutter, then recognises question blocks by their running numbers and validates each one (stem, four distinct options, keyed answer).
+  Items that pass go to `data/questions/civil-vol*.json` (live); items that fail any check go to `data/review/*-flagged.json` with the reasons.
+  Books whose text export has interleaved columns (GS books, APPSC EM book, PYQ book) are written review-only to `data/review/` with the flag
+  `layout-interleaved` and are never published until re-extracted from the original PDFs.
 - Withdrawn questions stay in the topic files so old results can still be reviewed (with a note), but never appear in tests.
 - **Editorial overrides** (`overrides` in corrections.json) rewrite a broken stem or key with a recorded reason;
   the app shows “Revised by Team Civilians” under the explanation.

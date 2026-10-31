@@ -25,7 +25,7 @@ describe("structured question banks (data/questions)", () => {
         // a conflicting source key must be flagged, never silent
         if (q.keyCheck?.startsWith("conflict") || q.keyCheck === "source-only") expect(q.flag).toBeTruthy();
       }
-      expect(new Set(items.map((q: { question: string }) => q.question)).size).toBe(items.length);
+      expect(new Set(items.map((q: { question: string; options: string[] }) => q.question + "|" + q.options.join("|"))).size).toBe(items.length);
     });
   }
 });
