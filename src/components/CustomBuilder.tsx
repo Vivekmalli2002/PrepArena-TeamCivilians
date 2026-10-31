@@ -35,6 +35,8 @@ export function CustomBuilder({
   const [mode, setMode] = useState<Mode>("exam");
   const [schemeId, setSchemeId] = useState(defaultScheme);
   const [weighted, setWeighted] = useState(false);
+  const [how, setHow] = useState<"pooled" | "equal" | "ratio" | "exact">("pooled");
+  const [values, setValues] = useState<Record<string, number>>({});
   const hasWeights = useMemo(() => bank.topics.some((t) => chapterWeight(t.name) != null), [bank]);
 
   const available = useMemo(() => {
@@ -42,7 +44,12 @@ export function CustomBuilder({
     return bank.topics.filter((t) => topics.includes(t.name)).flatMap((t) => t.qids).filter(keep).length;
   }, [bank, topics, pool, qstats, bookmarks]);
 
-  const n = Math.min(count, available);
+  const keepFn = useMemo(() => poolFilter(pool, qstats, bookmarks), [pool, qstats, bookmarks]);
+  const chosen = useMemo(() => bank.topics.filter((t) => topics.includes(t.name)), [bank, topics]);
+  const availOf = (name: string) => (chosen.find((t) => t.name === name)?.qids.filter(keepFn).length ?? 0);
+  const valueOf = (name: string) => values[name] ?? (how === "exact" ? 5 : 1);
+  const exactTotal = chosen.reduce((k, t) => k + Math.min(valueOf(t.name), availOf(t.name)), 0);
+  const n = how === "exact" ? exactTotal : Math.min(count, available);
   const all = topics.length === bank.topics.length;
   const toggle = (t: string) => setTopics((x) => (x.includes(t) ? x.filter((y) => y !== t) : [...x, t]));
 
@@ -92,10 +99,62 @@ export function CustomBuilder({
         </div>
       </Field>
 
+      {topics.length > 0 && (
+        <Field label="How to split the questions" hint={how === "pooled" ? "random from all chosen topics" : `${chosen.length} topic${chosen.length === 1 ? "" : "s"}`}>
+          <Segmented
+            label="Split"
+            value={how}
+            onChange={(v) => setHow(v)}
+            options={[
+              { value: "pooled", label: "Mixed" },
+              { value: "equal", label: "Equal" },
+              { value: "ratio", label: "Ratio" },
+              { value: "exact", label: "Exact" },
+            ]}
+          />
+          <p className="mt-2 text-xs text-muted">
+            {how === "pooled" && "Questions are picked at random across all chosen topics."}
+            {how === "equal" && "The same number of questions from every chosen topic."}
+            {how === "ratio" && "Give each topic a weight, for example 3 : 2 : 1 — the total below is shared in that ratio."}
+            {how === "exact" && "Type how many questions you want from each topic. The total is the sum."}
+          </p>
+          {(how === "ratio" || how === "exact") && (
+            <div className="mt-3 grid max-h-72 gap-2 overflow-y-auto pr-1">
+              {chosen.length > 60 && <p className="text-xs text-muted">Many topics selected — showing the first 60; the rest use the default value. Pick fewer topics to set each one.</p>}
+              {chosen.slice(0, 60).map((t) => {
+                const max = availOf(t.name);
+                return (
+                  <div key={t.name} className="flex items-center gap-3 rounded-2xl border border-hairline p-2.5">
+                    <div className="min-w-0 flex-1">
+                      <div className="truncate text-sm font-semibold">{t.name}</div>
+                      <div className="text-xs text-muted">{max} available</div>
+                    </div>
+                    <input
+                      type="number"
+                      inputMode="numeric"
+                      min={0}
+                      max={how === "exact" ? max : 100}
+                      value={valueOf(t.name)}
+                      onChange={(e) => setValues((x) => ({ ...x, [t.name]: Math.max(0, Math.floor(Number(e.target.value) || 0)) }))}
+                      aria-label={`${how === "ratio" ? "Weight" : "Questions"} for ${t.name}`}
+                      className="h-10 w-20 rounded-xl border border-hairline bg-transparent text-center font-semibold tabular"
+                    />
+                  </div>
+                );
+              })}
+              {how === "exact" && chosen.some((t) => valueOf(t.name) > availOf(t.name)) && (
+                <p className="text-xs text-bad">Some topics have fewer questions than you asked for; you will get what is available.</p>
+              )}
+            </div>
+          )}
+        </Field>
+      )}
+
       <Field label="Questions from">
         <Segmented label="Question pool" value={pool} onChange={setPool} options={POOLS} />
       </Field>
 
+      {how !== "exact" && (
       <Field label="Number of questions" hint={`${available} available`}>
         <div className="flex flex-wrap items-center gap-2">
           <input
@@ -124,6 +183,7 @@ export function CustomBuilder({
           </label>
         )}
       </Field>
+      )}
 
       <div className="grid gap-6 sm:grid-cols-2">
         <Field label="Mode">
@@ -165,7 +225,7 @@ export function CustomBuilder({
         className="w-full"
         disabled={!n}
         onClick={() =>
-          onStart(customTest(bank, { topics, count: n, minutes: timed ? n : 0, mode, schemeId, pool, weight: weighted ? chapterWeight : undefined }, qstats, bookmarks))
+          onStart(customTest(bank, { topics, count: n, minutes: timed ? n : 0, mode, schemeId, pool, weight: weighted && how === "pooled" ? chapterWeight : undefined, split: how === "pooled" ? undefined : { how, values: Object.fromEntries(chosen.map((t) => [t.name, valueOf(t.name)])) } }, qstats, bookmarks))
         }
       >
         <Sparkles size={18} /> {n ? `Build test · ${n} questions` : "No questions match"}

@@ -153,6 +153,8 @@ export interface CustomOptions {
   pool: Pool;
   /** When given, questions are spread across the chosen topics by this weight (e.g. past-paper frequency) instead of pooled. */
   weight?: (topic: string) => number | undefined;
+  /** The student's own split across topics: "ratio" = relative weights, "exact" = that many questions from each topic. */
+  split?: { how: "equal" | "ratio" | "exact"; values: Record<string, number> };
 }
 
 export function poolFilter(pool: Pool, qstats: Record<number, QStat>, bookmarks: number[]) {
@@ -177,7 +179,16 @@ export function customTest(
   const pool = chosen.flatMap((t) => t.qids).filter(keep);
   if (!pool.length) return null;
   let picked: number[];
-  if (o.weight) {
+  if (o.split) {
+    const sp = o.split;
+    const lists = chosen.map((t) => preferFresh(t.qids.filter(keep), qstats));
+    const want = chosen.map((t) => (sp.how === "equal" ? 1 : Math.max(0, sp.values[t.name] ?? 0)));
+    const per =
+      sp.how === "exact"
+        ? want.map((w, i) => Math.min(w, lists[i].length))
+        : allocate(want.some((w) => w > 0) ? want : want.map(() => 1), lists.map((l) => l.length), o.count);
+    picked = lists.flatMap((l, i) => l.slice(0, per[i]));
+  } else if (o.weight) {
     const lists = chosen.map((t) => preferFresh(t.qids.filter(keep), qstats));
     const per = allocate(chosen.map((t) => o.weight!(t.name) ?? 0.5), lists.map((l) => l.length), o.count);
     picked = lists.flatMap((l, i) => l.slice(0, per[i]));
@@ -244,7 +255,29 @@ export interface PatternSectionSpec {
   subjects: string[];
   /** Restrict to these chapters (topic names); default: every topic of the subjects. */
   chapters?: string[];
+  /** Restrict to topics whose name matches this regular expression (case-insensitive). */
+  topicMatch?: string;
+  /** Restrict to these syllabus units of the subject. */
+  units?: number[];
   seats: number;
+}
+
+/** The bank topics a pattern section draws from. */
+export function sectionTopics(bank: LoadedBank, s: PatternSectionSpec) {
+  const rx = s.topicMatch ? new RegExp(s.topicMatch, "i") : null;
+  return bank.topics.filter(
+    (t) =>
+      s.subjects.includes(t.subject) &&
+      (!s.chapters || s.chapters.includes(t.name)) &&
+      (!rx || rx.test(t.name)) &&
+      (!s.units || (t.unit != null && s.units.includes(t.unit))),
+  );
+}
+
+/** Scales a blueprint's seats to `n` questions (largest-remainder rounding, never above what the bank holds). */
+export function scaleSeats(bank: LoadedBank, spec: PatternSpec, n: number): number[] {
+  const caps = spec.sections.map((s) => sectionTopics(bank, s).reduce((k, t) => k + t.qids.length, 0));
+  return allocate(spec.sections.map((s) => s.seats), caps, n);
 }
 
 export interface PatternSpec {
@@ -297,20 +330,25 @@ export function patternMock(
   qstats: Record<number, QStat> = {},
   rand: () => number = Math.random,
 ): TestConfig {
-  const pools = spec.sections.map((s) =>
-    bank.topics.filter((t) => s.subjects.includes(t.subject) && (!s.chapters || s.chapters.includes(t.name))),
-  );
+  const pools = spec.sections.map((s) => sectionTopics(bank, s));
   const cap = pools.map((p) => p.reduce((n, t) => n + t.qids.length, 0));
   const want = spec.sections.reduce((n, s) => n + s.seats, 0);
   const seats = allocate(spec.sections.map((s) => s.seats), cap, want);
   const picks: number[] = [];
+  const used = new Set<number>();
   pools.forEach((topics, i) => {
+    // sections may share topics (e.g. several welfare modules): never take one question twice
+    const lists = topics.map((t) => preferFresh(t.qids, qstats, rand).filter((id) => !used.has(id)));
     const per = allocate(
       topics.map((t) => chapterWeight(t.name) ?? t.qids.length / 100),
-      topics.map((t) => t.qids.length),
+      lists.map((l) => l.length),
       seats[i],
     );
-    topics.forEach((t, j) => picks.push(...preferFresh(t.qids, qstats, rand).slice(0, per[j])));
+    lists.forEach((l, j) => {
+      const take = l.slice(0, per[j]);
+      take.forEach((id) => used.add(id));
+      picks.push(...take);
+    });
   });
   const qids = shuffle([...new Set(picks)], rand);
   return {
@@ -322,5 +360,20 @@ export function patternMock(
     schemeId: spec.schemeId,
     durationSec: spec.minutes * 60,
     qids,
+  };
+}
+
+/** Retry of the student's open mistakes — practice mode, so every answer is explained. */
+export function mistakeTest(qids: number[], title: string, schemeId: string, max = 50): TestConfig {
+  const picked = [...new Set(qids)].slice(0, max);
+  return {
+    kind: "revision",
+    key: `mistakes:${title}`,
+    title,
+    subtitle: `${picked.length} Q · mistake retry`,
+    mode: "practice",
+    schemeId,
+    durationSec: perQ(picked.length),
+    qids: shuffle(picked),
   };
 }
