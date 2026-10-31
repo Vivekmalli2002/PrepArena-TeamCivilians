@@ -61,11 +61,14 @@ def split_page(lines):
         right.append(b.strip())
     return left, right, True
 
-def stream(pages):
+def stream(pages, presplit=False):
     out, flags = [], {}
     for pn, p in enumerate(pages, 1):
         lines = [l for l in p.split("\n") if l.strip()]
-        left, right, ok = split_page(lines)
+        if presplit:
+            left, right, ok = lines, [], True
+        else:
+            left, right, ok = split_page(lines)
         for l in left + right:
             if l:
                 out.append((pn, l))
@@ -73,11 +76,11 @@ def stream(pages):
     return out, flags
 
 def clean(s):
-    return re.sub(r"\s+", " ", s).strip()
+    return re.sub(r"\s+\)", ")", re.sub(r"\s+", " ", s)).strip()
 
-def parse(text, prefix):
+def parse(text, prefix, presplit=False):
     pages = re.split(r"===== PAGE \d+ =====\n", text)[1:]
-    st, gut = stream(pages)
+    st, gut = stream(pages, presplit)
     cands = []
     for i, (pn, line) in enumerate(st):
         m = STARTQ.match(line)
@@ -88,7 +91,7 @@ def parse(text, prefix):
         end = None
         for k2 in range(k + 1, min(k + 80, len(cands))):
             n2 = cands[k2][1]
-            if n + 1 <= n2 <= n + 4 or (n2 <= 3 and n > 8):
+            if n + 1 <= n2 <= n + 4:
                 end = cands[k2][0]
                 break
         seg_lines = [st[i][1][endm:]] + [l for _, l in st[i + 1:(end if end is not None else min(i + 70, len(st)))]]
@@ -199,6 +202,6 @@ def parse(text, prefix):
 
 if __name__ == "__main__":
     text = open(sys.argv[1], encoding="utf8", errors="ignore").read()
-    items, stats = parse(text, sys.argv[3] if len(sys.argv) > 3 else "X")
+    items, stats = parse(text, sys.argv[3] if len(sys.argv) > 3 else "X", presplit=("--presplit" in sys.argv))
     json.dump({"items": items, "stats": stats}, open(sys.argv[2], "w", encoding="utf8"), ensure_ascii=False)
     print(stats)
