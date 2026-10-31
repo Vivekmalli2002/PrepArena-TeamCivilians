@@ -1,0 +1,3962 @@
+[
+ {
+  "id": "ECO200-001",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A lake ecosystem has GPP of 2,400 kJ m⁻² day⁻¹ and producer respiration of 900 kJ m⁻² day⁻¹. Its NPP is:",
+  "options": [
+   "1,500 kJ m⁻² day⁻¹",
+   "2,400 kJ m⁻² day⁻¹",
+   "900 kJ m⁻² day⁻¹",
+   "3,300 kJ m⁻² day⁻¹"
+  ],
+  "answerIndex": 0,
+  "explanation": "NPP = GPP − autotrophic respiration = 2,400 − 900 = 1,500.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 1,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-002",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "At each trophic transfer, 10% of energy is passed on. If producers contain 80,000 kJ, energy available to secondary consumers is:",
+  "options": [
+   "80 kJ",
+   "8,000 kJ",
+   "800 kJ",
+   "8000? No transfer loss"
+  ],
+  "answerIndex": 2,
+  "explanation": "Producer → primary consumer = 8,000; primary → secondary = 800 kJ.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 2,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-003",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Producers store 50,000 kJ. Transfer efficiencies are 12% from producers to herbivores, 15% to secondary consumers, and 10% to tertiary consumers. Energy at tertiary consumers is:",
+  "options": [
+   "1,080 kJ",
+   "900 kJ",
+   "90 kJ",
+   "750 kJ"
+  ],
+  "answerIndex": 2,
+  "explanation": "50,000 × 0.12 × 0.15 × 0.10 = 90 kJ.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 3,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-005",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "An ecosystem has GPP of 1300 g C m⁻² yr⁻¹ and producer respiration of 360 g C m⁻² yr⁻¹. Calculate NPP.",
+  "options": [
+   "1300 g C m⁻² yr⁻¹",
+   "360 g C m⁻² yr⁻¹",
+   "940 g C m⁻² yr⁻¹",
+   "1660 g C m⁻² yr⁻¹"
+  ],
+  "answerIndex": 2,
+  "explanation": "NPP = GPP − R = 1300 − 360 = 940 g C m⁻² yr⁻¹.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 5,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-006",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "With a 10% transfer efficiency at each step, how much of 66,000 kJ stored by producers reaches the third consumer level (three transfers from producers)?",
+  "options": [
+   "6,600.0 kJ",
+   "6.6 kJ",
+   "660.0 kJ",
+   "66.0 kJ"
+  ],
+  "answerIndex": 3,
+  "explanation": "Three transfers: 66,000 × 0.1³ = 66.0 kJ.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 6,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-007",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "If NPP is 1340 g C m⁻² yr⁻¹ and GPP is 2240 g C m⁻² yr⁻¹, producer respiration equals:",
+  "options": [
+   "900 g C m⁻² yr⁻¹",
+   "3580 g C m⁻² yr⁻¹",
+   "2240 g C m⁻² yr⁻¹",
+   "1340 g C m⁻² yr⁻¹"
+  ],
+  "answerIndex": 0,
+  "explanation": "R = GPP − NPP = 2240 − 1340 = 900.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 7,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-010",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Herbivores consume 40% of a plant community's NPP of 1020 kJ m⁻² yr⁻¹. Energy ingested by herbivores is:",
+  "options": [
+   "2550 kJ m⁻² yr⁻¹",
+   "408 kJ m⁻² yr⁻¹",
+   "612 kJ m⁻² yr⁻¹",
+   "1020 kJ m⁻² yr⁻¹"
+  ],
+  "answerIndex": 1,
+  "explanation": "Consumed fraction = 0.40 × 1020 = 408 kJ m⁻² yr⁻¹.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 10,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-013",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A plant stand fixes 3.30 kg C m⁻² yr⁻¹ gross and retains 2.32 kg C m⁻² yr⁻¹ net. Its autotrophic respiration is:",
+  "options": [
+   "2.32 kg C m⁻² yr⁻¹",
+   "3.30 kg C m⁻² yr⁻¹",
+   "5.62 kg C m⁻² yr⁻¹",
+   "0.98 kg C m⁻² yr⁻¹"
+  ],
+  "answerIndex": 3,
+  "explanation": "Respiration = GPP − NPP = 3.30 − 2.32 = 0.98.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 13,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-014",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "If producers fix 20,000 kJ and the producer-to-herbivore transfer efficiency is 12%, how much energy reaches herbivores?",
+  "options": [
+   "2,400 kJ",
+   "1,667 kJ",
+   "17,600 kJ",
+   "24,000 kJ"
+  ],
+  "answerIndex": 0,
+  "explanation": "Energy transferred = 20,000 × 12/100 = 2,400 kJ.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 14,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-015",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "An ecosystem has GPP of 2300 g C m⁻² yr⁻¹ and producer respiration of 460 g C m⁻² yr⁻¹. Calculate NPP.",
+  "options": [
+   "2760 g C m⁻² yr⁻¹",
+   "1840 g C m⁻² yr⁻¹",
+   "460 g C m⁻² yr⁻¹",
+   "2300 g C m⁻² yr⁻¹"
+  ],
+  "answerIndex": 1,
+  "explanation": "NPP = GPP − R = 2300 − 460 = 1840 g C m⁻² yr⁻¹.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 15,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-016",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "With a 10% transfer efficiency at each step, how much of 76,000 kJ stored by producers reaches the third consumer level (three transfers from producers)?",
+  "options": [
+   "7.6 kJ",
+   "76.0 kJ",
+   "7,600.0 kJ",
+   "760.0 kJ"
+  ],
+  "answerIndex": 1,
+  "explanation": "Three transfers: 76,000 × 0.1³ = 76.0 kJ.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 16,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-017",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "If NPP is 1640 g C m⁻² yr⁻¹ and GPP is 3040 g C m⁻² yr⁻¹, producer respiration equals:",
+  "options": [
+   "1640 g C m⁻² yr⁻¹",
+   "3040 g C m⁻² yr⁻¹",
+   "4680 g C m⁻² yr⁻¹",
+   "1400 g C m⁻² yr⁻¹"
+  ],
+  "answerIndex": 3,
+  "explanation": "R = GPP − NPP = 3040 − 1640 = 1400.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 17,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-020",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Herbivores consume 40% of a plant community's NPP of 1220 kJ m⁻² yr⁻¹. Energy ingested by herbivores is:",
+  "options": [
+   "1220 kJ m⁻² yr⁻¹",
+   "3050 kJ m⁻² yr⁻¹",
+   "488 kJ m⁻² yr⁻¹",
+   "732 kJ m⁻² yr⁻¹"
+  ],
+  "answerIndex": 2,
+  "explanation": "Consumed fraction = 0.40 × 1220 = 488 kJ m⁻² yr⁻¹.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 20,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-023",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A plant stand fixes 4.30 kg C m⁻² yr⁻¹ gross and retains 3.12 kg C m⁻² yr⁻¹ net. Its autotrophic respiration is:",
+  "options": [
+   "1.18 kg C m⁻² yr⁻¹",
+   "3.12 kg C m⁻² yr⁻¹",
+   "4.30 kg C m⁻² yr⁻¹",
+   "7.42 kg C m⁻² yr⁻¹"
+  ],
+  "answerIndex": 0,
+  "explanation": "Respiration = GPP − NPP = 4.30 − 3.12 = 1.18.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 23,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-024",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "If producers fix 30,000 kJ and the producer-to-herbivore transfer efficiency is 14%, how much energy reaches herbivores?",
+  "options": [
+   "25,800 kJ",
+   "4,200 kJ",
+   "2,143 kJ",
+   "42,000 kJ"
+  ],
+  "answerIndex": 1,
+  "explanation": "Energy transferred = 30,000 × 14/100 = 4,200 kJ.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 24,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-025",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "An ecosystem has GPP of 3300 g C m⁻² yr⁻¹ and producer respiration of 560 g C m⁻² yr⁻¹. Calculate NPP.",
+  "options": [
+   "2740 g C m⁻² yr⁻¹",
+   "3860 g C m⁻² yr⁻¹",
+   "3300 g C m⁻² yr⁻¹",
+   "560 g C m⁻² yr⁻¹"
+  ],
+  "answerIndex": 0,
+  "explanation": "NPP = GPP − R = 3300 − 560 = 2740 g C m⁻² yr⁻¹.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 25,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-026",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "With a 10% transfer efficiency at each step, how much of 86,000 kJ stored by producers reaches the third consumer level (three transfers from producers)?",
+  "options": [
+   "860.0 kJ",
+   "8.6 kJ",
+   "86.0 kJ",
+   "8,600.0 kJ"
+  ],
+  "answerIndex": 2,
+  "explanation": "Three transfers: 86,000 × 0.1³ = 86.0 kJ.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 26,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-027",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "If NPP is 1940 g C m⁻² yr⁻¹ and GPP is 3840 g C m⁻² yr⁻¹, producer respiration equals:",
+  "options": [
+   "3840 g C m⁻² yr⁻¹",
+   "1900 g C m⁻² yr⁻¹",
+   "5780 g C m⁻² yr⁻¹",
+   "1940 g C m⁻² yr⁻¹"
+  ],
+  "answerIndex": 1,
+  "explanation": "R = GPP − NPP = 3840 − 1940 = 1900.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 27,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-030",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Herbivores consume 40% of a plant community's NPP of 1420 kJ m⁻² yr⁻¹. Energy ingested by herbivores is:",
+  "options": [
+   "852 kJ m⁻² yr⁻¹",
+   "1420 kJ m⁻² yr⁻¹",
+   "568 kJ m⁻² yr⁻¹",
+   "3550 kJ m⁻² yr⁻¹"
+  ],
+  "answerIndex": 2,
+  "explanation": "Consumed fraction = 0.40 × 1420 = 568 kJ m⁻² yr⁻¹.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 30,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-033",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A plant stand fixes 5.30 kg C m⁻² yr⁻¹ gross and retains 3.92 kg C m⁻² yr⁻¹ net. Its autotrophic respiration is:",
+  "options": [
+   "9.22 kg C m⁻² yr⁻¹",
+   "5.30 kg C m⁻² yr⁻¹",
+   "1.38 kg C m⁻² yr⁻¹",
+   "3.92 kg C m⁻² yr⁻¹"
+  ],
+  "answerIndex": 2,
+  "explanation": "Respiration = GPP − NPP = 5.30 − 3.92 = 1.38.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 33,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-035",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "An ecosystem has GPP of 4300 g C m⁻² yr⁻¹ and producer respiration of 660 g C m⁻² yr⁻¹. Calculate NPP.",
+  "options": [
+   "4960 g C m⁻² yr⁻¹",
+   "660 g C m⁻² yr⁻¹",
+   "4300 g C m⁻² yr⁻¹",
+   "3640 g C m⁻² yr⁻¹"
+  ],
+  "answerIndex": 3,
+  "explanation": "NPP = GPP − R = 4300 − 660 = 3640 g C m⁻² yr⁻¹.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 35,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-036",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "With a 10% transfer efficiency at each step, how much of 96,000 kJ stored by producers reaches the third consumer level (three transfers from producers)?",
+  "options": [
+   "96.0 kJ",
+   "960.0 kJ",
+   "9.6 kJ",
+   "9,600.0 kJ"
+  ],
+  "answerIndex": 0,
+  "explanation": "Three transfers: 96,000 × 0.1³ = 96.0 kJ.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 36,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-037",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "If NPP is 2240 g C m⁻² yr⁻¹ and GPP is 4640 g C m⁻² yr⁻¹, producer respiration equals:",
+  "options": [
+   "6880 g C m⁻² yr⁻¹",
+   "2400 g C m⁻² yr⁻¹",
+   "2240 g C m⁻² yr⁻¹",
+   "4640 g C m⁻² yr⁻¹"
+  ],
+  "answerIndex": 1,
+  "explanation": "R = GPP − NPP = 4640 − 2240 = 2400.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 37,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-040",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Herbivores consume 40% of a plant community's NPP of 1620 kJ m⁻² yr⁻¹. Energy ingested by herbivores is:",
+  "options": [
+   "1620 kJ m⁻² yr⁻¹",
+   "648 kJ m⁻² yr⁻¹",
+   "972 kJ m⁻² yr⁻¹",
+   "4050 kJ m⁻² yr⁻¹"
+  ],
+  "answerIndex": 1,
+  "explanation": "Consumed fraction = 0.40 × 1620 = 648 kJ m⁻² yr⁻¹.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 40,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-043",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A plant stand fixes 6.30 kg C m⁻² yr⁻¹ gross and retains 4.72 kg C m⁻² yr⁻¹ net. Its autotrophic respiration is:",
+  "options": [
+   "6.30 kg C m⁻² yr⁻¹",
+   "11.02 kg C m⁻² yr⁻¹",
+   "1.58 kg C m⁻² yr⁻¹",
+   "4.72 kg C m⁻² yr⁻¹"
+  ],
+  "answerIndex": 2,
+  "explanation": "Respiration = GPP − NPP = 6.30 − 4.72 = 1.58.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 43,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-044",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "If producers fix 50,000 kJ and the producer-to-herbivore transfer efficiency is 12%, how much energy reaches herbivores?",
+  "options": [
+   "44,000 kJ",
+   "6,000 kJ",
+   "4,167 kJ",
+   "60,000 kJ"
+  ],
+  "answerIndex": 1,
+  "explanation": "Energy transferred = 50,000 × 12/100 = 6,000 kJ.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 44,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-045",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "An ecosystem has GPP of 5300 g C m⁻² yr⁻¹ and producer respiration of 760 g C m⁻² yr⁻¹. Calculate NPP.",
+  "options": [
+   "6060 g C m⁻² yr⁻¹",
+   "5300 g C m⁻² yr⁻¹",
+   "4540 g C m⁻² yr⁻¹",
+   "760 g C m⁻² yr⁻¹"
+  ],
+  "answerIndex": 2,
+  "explanation": "NPP = GPP − R = 5300 − 760 = 4540 g C m⁻² yr⁻¹.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 45,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-046",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "With a 10% transfer efficiency at each step, how much of 106,000 kJ stored by producers reaches the third consumer level (three transfers from producers)?",
+  "options": [
+   "10,600.0 kJ",
+   "10.6 kJ",
+   "1,060.0 kJ",
+   "106.0 kJ"
+  ],
+  "answerIndex": 3,
+  "explanation": "Three transfers: 106,000 × 0.1³ = 106.0 kJ.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 46,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-047",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "If NPP is 2540 g C m⁻² yr⁻¹ and GPP is 5440 g C m⁻² yr⁻¹, producer respiration equals:",
+  "options": [
+   "5440 g C m⁻² yr⁻¹",
+   "7980 g C m⁻² yr⁻¹",
+   "2540 g C m⁻² yr⁻¹",
+   "2900 g C m⁻² yr⁻¹"
+  ],
+  "answerIndex": 3,
+  "explanation": "R = GPP − NPP = 5440 − 2540 = 2900.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 47,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-050",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Herbivores consume 40% of a plant community's NPP of 1820 kJ m⁻² yr⁻¹. Energy ingested by herbivores is:",
+  "options": [
+   "1092 kJ m⁻² yr⁻¹",
+   "4550 kJ m⁻² yr⁻¹",
+   "1820 kJ m⁻² yr⁻¹",
+   "728 kJ m⁻² yr⁻¹"
+  ],
+  "answerIndex": 3,
+  "explanation": "Consumed fraction = 0.40 × 1820 = 728 kJ m⁻² yr⁻¹.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 50,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-051",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement best distinguishes standing crop from standing state?",
+  "options": [
+   "Both refer only to producer biomass",
+   "Standing crop is biomass at a time; standing state is the amount of inorganic nutrients present at a time",
+   "Standing state is energy stored in consumers",
+   "Standing crop is annual productivity; standing state is annual nutrient uptake"
+  ],
+  "answerIndex": 1,
+  "explanation": "Standing crop measures living material (often biomass); standing state measures the quantity of inorganic nutrients in an ecosystem.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 51,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-052",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about GPP and NPP is correct?",
+  "options": [
+   "NPP is GPP minus autotrophic respiration",
+   "GPP is always lower than NPP",
+   "NPP includes heterotrophic respiration",
+   "NPP is the total solar energy intercepted"
+  ],
+  "answerIndex": 0,
+  "explanation": "NPP = GPP − Ra; heterotrophic respiration is not subtracted in this definition.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 52,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-053",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A food chain is unusually short primarily because:",
+  "options": [
+   "All consumers are ectothermic",
+   "Energy is dissipated at each trophic transfer",
+   "Producers are always less numerous than consumers",
+   "Matter cannot be recycled"
+  ],
+  "answerIndex": 1,
+  "explanation": "Large energy losses as heat and through metabolism constrain the number of trophic levels.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 53,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-054",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which process most directly causes biomagnification?",
+  "options": [
+   "Accumulation of a pollutant within one organism over time",
+   "Rapid biodegradation of a chemical in sediments",
+   "Progressive increase in concentration of persistent, poorly metabolised substances at higher trophic levels",
+   "Dilution of pollutants in water"
+  ],
+  "answerIndex": 2,
+  "explanation": "Biomagnification is trophic-level amplification of persistent contaminants.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 54,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-055",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Bioaccumulation differs from biomagnification because bioaccumulation:",
+  "options": [
+   "Requires a food chain with at least four trophic levels",
+   "Always increases concentration at every higher trophic level",
+   "Occurs only in producers",
+   "Occurs within an organism over time from all exposure routes"
+  ],
+  "answerIndex": 3,
+  "explanation": "Bioaccumulation is organism-level uptake exceeding elimination; biomagnification is increase across trophic levels.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 55,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-056",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which ecological pyramid is necessarily upright in a stable ecosystem?",
+  "options": [
+   "All three",
+   "Pyramid of biomass",
+   "Energy pyramid",
+   "Pyramid of numbers"
+  ],
+  "answerIndex": 2,
+  "explanation": "Energy diminishes at each trophic transfer; biomass and numbers may be inverted.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 56,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-057",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "An inverted biomass pyramid is most characteristic of:",
+  "options": [
+   "Deserts with sparse shrubs",
+   "Aquatic systems dominated by rapidly turning-over phytoplankton",
+   "Mature tropical forests",
+   "Grasslands with large perennial grasses"
+  ],
+  "answerIndex": 1,
+  "explanation": "Phytoplankton have low standing biomass but high productivity and rapid turnover.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 57,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-058",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about detritus food chains is most accurate?",
+  "options": [
+   "They always contain more trophic levels than grazing chains",
+   "They operate only in aquatic ecosystems",
+   "They begin with dead organic matter and are driven by decomposers and detritivores",
+   "They do not contribute to nutrient cycling"
+  ],
+  "answerIndex": 2,
+  "explanation": "Detrital pathways start with dead organic material and are central to decomposition and mineralisation.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 58,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-059",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "The major ecological significance of a keystone species is that it:",
+  "options": [
+   "Has a disproportionately large effect relative to its abundance",
+   "Is always the most abundant species",
+   "Occupies the highest trophic level",
+   "Has the greatest biomass in the community"
+  ],
+  "answerIndex": 0,
+  "explanation": "Keystone impact is disproportionate to abundance or biomass.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 59,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-060",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which is the best example of an ecosystem engineer?",
+  "options": [
+   "A beaver altering stream flow by building dams",
+   "A hawk consuming rodents",
+   "A fungus decomposing leaf litter",
+   "A parasite feeding on a host"
+  ],
+  "answerIndex": 0,
+  "explanation": "Beavers physically modify habitat and resource availability, affecting many species.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 60,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-061",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "In ecological succession, facilitation means that:",
+  "options": [
+   "Late species prevent all early species from surviving",
+   "Early species modify conditions making establishment of later species easier",
+   "Disturbance permanently halts succession",
+   "Species colonise independently of environmental change"
+  ],
+  "answerIndex": 1,
+  "explanation": "Facilitation describes positive modification of the environment by earlier colonists.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 61,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-062",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement correctly describes a sere?",
+  "options": [
+   "A sequence of communities during succession",
+   "A group of organisms with identical niches",
+   "The rate of nutrient cycling",
+   "The final stable biomass of a trophic level"
+  ],
+  "answerIndex": 0,
+  "explanation": "A sere is the sequence of successional stages from pioneer to later communities.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 62,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-063",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Primary succession differs from secondary succession mainly because primary succession:",
+  "options": [
+   "Begins after fire in a forest with soil intact",
+   "Always proceeds faster",
+   "Begins on a surface lacking developed soil",
+   "Occurs only in aquatic habitats"
+  ],
+  "answerIndex": 2,
+  "explanation": "Primary succession begins where soil is absent or essentially undeveloped.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 63,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-064",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which is a likely pioneer group on newly exposed bare rock?",
+  "options": [
+   "Large herbivorous mammals",
+   "Lichens and microbes",
+   "Large canopy trees",
+   "Deep-rooted climax shrubs"
+  ],
+  "answerIndex": 1,
+  "explanation": "Lichens and microbial communities can colonise bare rock and contribute to weathering and soil formation.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 64,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-065",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "The term climax community is best treated as:",
+  "options": [
+   "A universally fixed endpoint independent of climate",
+   "A community with zero species turnover",
+   "A community that cannot be altered by disturbance",
+   "A context-dependent relatively persistent stage under a given disturbance regime"
+  ],
+  "answerIndex": 3,
+  "explanation": "Modern ecology recognises dynamic, disturbance-dependent vegetation states rather than a single immutable endpoint.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 65,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-066",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about ecological niche is correct?",
+  "options": [
+   "Two species can never share any niche dimensions",
+   "It is determined only by trophic position",
+   "It includes the range of conditions and resources under which a species persists and reproduces",
+   "It is synonymous with the physical place occupied"
+  ],
+  "answerIndex": 2,
+  "explanation": "A niche includes abiotic tolerances, resource use and biotic interactions, not merely location.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 66,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-067",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Competitive exclusion is most likely when two species:",
+  "options": [
+   "Occupy completely different niches",
+   "Are separated geographically",
+   "Use non-limiting resources",
+   "Use the same limiting resource in the same way and one has a sustained competitive advantage"
+  ],
+  "answerIndex": 3,
+  "explanation": "Complete niche overlap for a limiting resource can lead to exclusion unless coexistence mechanisms operate.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 67,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-068",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Resource partitioning promotes coexistence by:",
+  "options": [
+   "Making both species occupy identical microhabitats",
+   "Increasing overlap in limiting-resource use",
+   "Reducing direct competition through differentiated resource use",
+   "Eliminating predation"
+  ],
+  "answerIndex": 2,
+  "explanation": "Species can coexist when they use different resources, times or microhabitats.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 68,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-069",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which interaction is correctly classified as mutualism?",
+  "options": [
+   "Both interacting species benefit",
+   "One benefits and the other is unaffected",
+   "One benefits and the other is harmed",
+   "Both are harmed"
+  ],
+  "answerIndex": 0,
+  "explanation": "Mutualism is a +/+ interaction, although dependence can vary.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 69,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-070",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Commensalism is represented by:",
+  "options": [
+   "+/−",
+   "+/+",
+   "−/−",
+   "+/0"
+  ],
+  "answerIndex": 3,
+  "explanation": "One species benefits while the other experiences no significant effect.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 70,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-071",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Amensalism is represented by:",
+  "options": [
+   "−/0",
+   "+/0",
+   "−/−",
+   "+/+"
+  ],
+  "answerIndex": 0,
+  "explanation": "One species is inhibited or harmed while the other is unaffected.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 71,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-072",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about parasitism is most accurate?",
+  "options": [
+   "The host always dies immediately",
+   "Both species benefit",
+   "The parasite benefits while the host is harmed, usually without immediate host death being necessary",
+   "It is identical to predation in all ecological respects"
+  ],
+  "answerIndex": 2,
+  "explanation": "Parasites exploit hosts and commonly depend on them for extended periods.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 72,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-073",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A Type III survivorship curve is characterised by:",
+  "options": [
+   "High mortality early in life followed by greater survival of those reaching adulthood",
+   "Constant mortality at all ages",
+   "Low juvenile mortality and high old-age mortality only",
+   "No mortality until senescence"
+  ],
+  "answerIndex": 0,
+  "explanation": "Type III species produce many offspring, with high early mortality.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 73,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-074",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A Type II survivorship curve indicates:",
+  "options": [
+   "A population with no age structure",
+   "Very high juvenile mortality only",
+   "Mortality only in old age",
+   "Approximately constant mortality risk across age classes"
+  ],
+  "answerIndex": 3,
+  "explanation": "Type II curves show roughly constant per-capita mortality across life.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 74,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-075",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which population parameter directly increases population size?",
+  "options": [
+   "Emigration",
+   "Mortality",
+   "Harvest",
+   "Immigration"
+  ],
+  "answerIndex": 3,
+  "explanation": "Immigration adds individuals; births also increase size.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 75,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-076",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "For a closed population over a time interval, the change in population size is:",
+  "options": [
+   "Immigration minus emigration",
+   "Births minus deaths",
+   "Deaths minus births",
+   "Births plus deaths"
+  ],
+  "answerIndex": 1,
+  "explanation": "With no migration, ∆N = births − deaths.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 76,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-077",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "The intrinsic rate of natural increase r is highest when:",
+  "options": [
+   "Death rate exceeds birth rate",
+   "Per-capita birth rate exceeds per-capita death rate by the greatest amount",
+   "Carrying capacity is zero",
+   "Birth and death rates are equal"
+  ],
+  "answerIndex": 1,
+  "explanation": "In the exponential model, r = b − d.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 77,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-078",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "In logistic growth, population growth rate is maximal when population size is approximately:",
+  "options": [
+   "2K",
+   "Zero",
+   "K",
+   "K/2"
+  ],
+  "answerIndex": 3,
+  "explanation": "For dN/dt = rN(1−N/K), the absolute growth rate peaks at N=K/2.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 78,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-079",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "At carrying capacity K in the logistic model:",
+  "options": [
+   "Net population growth is zero",
+   "All individuals die",
+   "Birth rate must be zero",
+   "The population has no competition"
+  ],
+  "answerIndex": 0,
+  "explanation": "At K, births and deaths balance in the simple logistic model. Assistant Environmental Engineer | Ecosystem Page 32",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 79,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-080",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about density-dependent regulation is correct?",
+  "options": [
+   "It is independent of density by definition",
+   "Its per-capita effect generally changes with population density",
+   "It always causes population extinction",
+   "It includes only volcanic eruptions"
+  ],
+  "answerIndex": 1,
+  "explanation": "Competition, disease and predation can intensify as density rises.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 80,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-081",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A density-independent factor is best illustrated by:",
+  "options": [
+   "Territorial exclusion",
+   "Competition for nesting sites",
+   "Density-related disease transmission",
+   "A severe frost affecting a population regardless of its density"
+  ],
+  "answerIndex": 3,
+  "explanation": "Weather extremes can affect populations irrespective of density.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 81,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-082",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "The realized niche is often narrower than the fundamental niche because of:",
+  "options": [
+   "The species' trophic level alone",
+   "Lack of abiotic conditions",
+   "Biotic interactions such as competition and predation",
+   "Absence of physiological tolerance limits"
+  ],
+  "answerIndex": 2,
+  "explanation": "Biotic interactions restrict where a species actually persists.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 82,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-083",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about ecosystem boundaries is most defensible?",
+  "options": [
+   "They are often defined operationally and may be relatively open to energy and matter flows",
+   "Only natural systems qualify as ecosystems",
+   "Every ecosystem is completely closed to matter",
+   "Boundaries are always identical to political borders"
+  ],
+  "answerIndex": 0,
+  "explanation": "Ecosystem boundaries are analytical choices; fluxes commonly cross them.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 83,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-084",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which process converts atmospheric nitrogen into biologically usable reduced nitrogen?",
+  "options": [
+   "Nitrification",
+   "Denitrification",
+   "Ammonification",
+   "Biological nitrogen fixation"
+  ],
+  "answerIndex": 3,
+  "explanation": "Nitrogenase reduces N to ammonia/ammonium during fixation.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 84,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-085",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Nitrification is the:",
+  "options": [
+   "Reduction of nitrate to nitrogen gas",
+   "Oxidation of ammonium to nitrite and then nitrate",
+   "Conversion of organic nitrogen to ammonium",
+   "Fixation of atmospheric nitrogen"
+  ],
+  "answerIndex": 1,
+  "explanation": "Nitrifying microbes oxidise NH first to NO and then NO.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 85,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-086",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Denitrification generally:",
+  "options": [
+   "Fixes N into organic nitrogen",
+   "Oxidises ammonium to nitrate",
+   "Reduces nitrate/nitrite to gaseous nitrogen forms under low-oxygen conditions",
+   "Releases phosphate from apatite"
+  ],
+  "answerIndex": 2,
+  "explanation": "Denitrifiers use oxidised nitrogen as electron acceptors, returning N to the atmosphere.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 86,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-087",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Ammonification refers to:",
+  "options": [
+   "Conversion of ammonium to nitrate",
+   "Conversion of nitrate to N",
+   "Conversion of organic nitrogen into ammonium",
+   "Conversion of N to ammonia by lightning only"
+  ],
+  "answerIndex": 2,
+  "explanation": "Decomposition/mineralisation releases ammonium from organic nitrogen.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 87,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-088",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which biogeochemical cycle lacks a major gaseous atmospheric reservoir?",
+  "options": [
+   "Oxygen cycle",
+   "Nitrogen cycle",
+   "Phosphorus cycle",
+   "Carbon cycle"
+  ],
+  "answerIndex": 2,
+  "explanation": "Phosphorus is primarily sedimentary, with no major gaseous phase.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 88,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-089",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Eutrophication in freshwater is most commonly accelerated by excess:",
+  "options": [
+   "Sodium chloride loading",
+   "Phosphorus loading",
+   "Silica depletion alone",
+   "Dissolved oxygen loading"
+  ],
+  "answerIndex": 1,
+  "explanation": "Phosphorus is often the limiting nutrient in freshwater; excess input stimulates algal growth.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 89,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-090",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A major consequence of decomposition-driven hypoxia after an algal bloom is:",
+  "options": [
+   "Immediate removal of all nutrients",
+   "High microbial oxygen demand during breakdown of organic matter",
+   "Suppression of all microbial activity",
+   "Permanent increase in dissolved oxygen"
+  ],
+  "answerIndex": 1,
+  "explanation": "Microbial decomposition consumes dissolved oxygen and can cause hypoxia or anoxia.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 90,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-091",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about carbon sequestration is correct?",
+  "options": [
+   "Respiration has no influence on ecosystem carbon stocks",
+   "Long-term storage depends on the balance of carbon inputs, outputs and residence time",
+   "Gross photosynthesis alone determines long-term storage",
+   "All carbon fixed by plants remains stored permanently"
+  ],
+  "answerIndex": 1,
+  "explanation": "Net storage reflects the full carbon budget and persistence of stored pools.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 91,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-092",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A system has NPP of 1,000 g C m⁻² yr⁻¹. If heterotrophic respiration is 700 g C m⁻² yr⁻¹, net ecosystem production (NEP) is:",
+  "options": [
+   "300 g C m⁻² yr⁻¹",
+   "−300 g C m⁻² yr⁻¹",
+   "1,700 g C m⁻² yr⁻¹",
+   "700 g C m⁻² yr⁻¹"
+  ],
+  "answerIndex": 0,
+  "explanation": "NEP = NPP − heterotrophic respiration = 1,000 − 700 = 300.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 92,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-093",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which factor most directly controls decomposition rate in warm, moist, oxygenated soils?",
+  "options": [
+   "Latitude alone",
+   "Standing crop of top predators",
+   "Temperature, moisture, substrate quality and decomposer activity",
+   "The number of trophic levels"
+  ],
+  "answerIndex": 2,
+  "explanation": "Decomposition responds strongly to microclimate, substrate chemistry and decomposer communities.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 93,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-094",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Lignin-rich litter generally decomposes more slowly because:",
+  "options": [
+   "It dissolves instantly in water",
+   "It is always nitrogen-rich",
+   "Its complex, resistant structure is difficult for many decomposers to break down",
+   "It contains no carbon"
+  ],
+  "answerIndex": 2,
+  "explanation": "Lignin is chemically resistant and can slow microbial breakdown.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 94,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-095",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which ecosystem generally has high net primary productivity per unit area?",
+  "options": [
+   "Open ocean",
+   "Hot desert",
+   "Tropical wet forest",
+   "Arctic tundra"
+  ],
+  "answerIndex": 2,
+  "explanation": "Warm, wet tropical forests have high year-round productivity; oceans may have large total production due to area.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 95,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-096",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement best distinguishes productivity from standing biomass?",
+  "options": [
+   "Standing biomass is a rate per year",
+   "Productivity is a rate of biomass/energy generation; standing biomass is a stock at a given time",
+   "Both are stocks measured at one instant",
+   "Productivity is always measured in kilograms only"
+  ],
+  "answerIndex": 1,
+  "explanation": "Productivity has time units; standing biomass is an amount at a time.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 96,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-097",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Ecological efficiency can refer to:",
+  "options": [
+   "The proportion of energy transferred between trophic levels",
+   "The ratio of rainfall to runoff",
+   "The fraction of species that are endemic",
+   "The rate of soil erosion only"
+  ],
+  "answerIndex": 0,
+  "explanation": "Trophic transfer efficiency is energy at one level divided by energy at the preceding level.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 97,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-098",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about the 10% law is scientifically most appropriate?",
+  "options": [
+   "It is a useful approximate rule, not a universal fixed efficiency",
+   "It means 10% of organisms survive",
+   "It applies only to nutrient transfer",
+   "Exactly 10% is transferred in every ecosystem and every link"
+  ],
+  "answerIndex": 0,
+  "explanation": "Actual efficiencies vary with organism type, food quality and ecosystem conditions.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 98,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-099",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Why can a grazing food chain be less conspicuous than a detrital pathway in some forests?",
+  "options": [
+   "Forests lack herbivores",
+   "Energy is recycled from predators to plants",
+   "A large fraction of plant production enters litter and dead organic matter",
+   "Decomposers do not use plant material"
+  ],
+  "answerIndex": 2,
+  "explanation": "Much terrestrial production is channelled through litter and detritus.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 99,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-100",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about ecological resilience is correct?",
+  "options": [
+   "It is identical to resistance in every definition",
+   "It concerns the capacity to absorb disturbance and retain essential structure or function",
+   "It means a system never changes",
+   "It is measured only by species richness"
+  ],
+  "answerIndex": 1,
+  "explanation": "Resilience concerns persistence or recovery of key functions after disturbance.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 100,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-101",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Resistance differs from resilience because resistance refers more to:",
+  "options": [
+   "The number of trophic levels",
+   "The degree of change during disturbance",
+   "The rate of primary production",
+   "The speed of recovery after disturbance"
+  ],
+  "answerIndex": 1,
+  "explanation": "Resistance is the magnitude of immediate response; resilience concerns recovery or persistence.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 101,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-102",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Consider the statements: 1. Energy flow is unidirectional. 2. Nutrients may be recycled. 3. Energy is recycled in the same way as phosphorus. Which are correct?",
+  "options": [
+   "1, 2 and 3",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "answerIndex": 1,
+  "explanation": "Energy flows through ecosystems and is dissipated; nutrients cycle, so statement 3 is false.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 102,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-103",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Assertion (A): The pyramid of energy is always upright. Reason (R): Energy is lost as heat and through metabolic processes at each trophic transfer.",
+  "options": [
+   "A is true, R is false",
+   "Both A and R are true, but R does not explain A",
+   "A is false, R is true",
+   "Both A and R are true, and R correctly explains A"
+  ],
+  "answerIndex": 3,
+  "explanation": "The energy available declines at successive trophic levels because transfer is inefficient.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 103,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-104",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Assertion (A): A biomass pyramid in an aquatic ecosystem can be inverted. Reason (R): Phytoplankton can have high turnover and low standing biomass despite high production.",
+  "options": [
+   "Both A and R are true, but R does not explain A",
+   "Both A and R are true, and R correctly explains A",
+   "A is false, R is true",
+   "A is true, R is false"
+  ],
+  "answerIndex": 1,
+  "explanation": "Rapid phytoplankton turnover allows consumer biomass to exceed producer standing biomass.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 104,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-105",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which pair is incorrectly matched?",
+  "options": [
+   "Denitrification — nitrate to gaseous N",
+   "Nitrification — reduction of nitrate to N",
+   "Ammonification — organic N to ammonium",
+   "Nitrogen fixation — N to ammonia"
+  ],
+  "answerIndex": 1,
+  "explanation": "Nitrification is oxidation of ammonium, not nitrate reduction.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 105,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-106",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Match the term with its description: A. GPP; B. NPP; C. NEP. 1. GPP−Ra; 2. NPP−Rh; 3. Total photosynthetic carbon fixation.",
+  "options": [
+   "A-2, B-3, C-1",
+   "A-1, B-2, C-3",
+   "A-3, B-1, C-2",
+   "A-3, B-2, C-1"
+  ],
+  "answerIndex": 2,
+  "explanation": "GPP is gross fixation; NPP subtracts autotrophic respiration; NEP subtracts heterotrophic respiration from NPP.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 106,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-107",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which of the following can cause an inverted pyramid of numbers?",
+  "options": [
+   "A desert with few shrubs and fewer herbivores",
+   "One large tree supporting many herbivorous insects and parasites",
+   "A pond with abundant phytoplankton",
+   "A grassland with many producers and fewer herbivores"
+  ],
+  "answerIndex": 1,
+  "explanation": "A single large producer can support numerous consumers, inverting numbers.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 107,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-108",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which combination best describes a mature ecosystem's nutrient cycling?",
+  "options": [
+   "Complete absence of nutrient loss",
+   "No decomposition",
+   "Nutrients move only from soil to atmosphere",
+   "Relatively tight internal cycling with losses and external inputs still occurring"
+  ],
+  "answerIndex": 3,
+  "explanation": "Mature ecosystems often conserve nutrients efficiently but remain open systems.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 108,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-109",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which is the correct order of processes in a simplified nitrogen cycle pathway from organic matter to gaseous N?",
+  "options": [
+   "Denitrification → ammonification → fixation",
+   "Fixation → denitrification → nitrification",
+   "Nitrification → fixation → ammonification",
+   "Ammonification → nitrification → denitrification"
+  ],
+  "answerIndex": 3,
+  "explanation": "Organic N mineralises to ammonium, which can be nitrified and then denitrified.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 109,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-110",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about mycorrhizae is most accurate?",
+  "options": [
+   "They fix atmospheric nitrogen in all plant species",
+   "They commonly enhance plant phosphorus and water acquisition in exchange for plant carbon",
+   "They are exclusively pathogenic",
+   "They eliminate plant respiration"
+  ],
+  "answerIndex": 1,
+  "explanation": "Mycorrhizal fungi improve nutrient/water uptake and receive photosynthate.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 110,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-111",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "The ecological term 'ecotone' denotes:",
+  "options": [
+   "The final stage of succession",
+   "A transition zone between adjacent ecological communities",
+   "A nutrient reservoir in bedrock",
+   "A trophic level between herbivores and carnivores"
+  ],
+  "answerIndex": 1,
+  "explanation": "Ecotones are transition zones and may show edge effects.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 111,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-112",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "An edge effect refers to:",
+  "options": [
+   "The reduction of all diversity at every boundary",
+   "Energy transfer from decomposers to producers",
+   "Changes in ecological conditions and species composition near habitat boundaries",
+   "A form of nitrogen fixation"
+  ],
+  "answerIndex": 2,
+  "explanation": "Edges can differ from habitat interiors in microclimate, interactions and species composition.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 112,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-113",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about species richness and evenness is correct?",
+  "options": [
+   "Richness measures biomass; evenness measures productivity",
+   "Evenness is the number of trophic levels",
+   "Richness counts species; evenness describes relative abundance distribution",
+   "Both are identical measures"
+  ],
+  "answerIndex": 2,
+  "explanation": "Diversity indices often combine richness and evenness.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 113,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-114",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A community has 4 species with proportions 0.7, 0.1, 0.1 and 0.1. Compared with a community with equal proportions, it has:",
+  "options": [
+   "Higher evenness",
+   "Lower evenness",
+   "Identical evenness",
+   "Zero richness"
+  ],
+  "answerIndex": 1,
+  "explanation": "Dominance by one species reduces evenness while richness remains four.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 114,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-115",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about the Shannon diversity index H′ is correct?",
+  "options": [
+   "It measures only primary productivity",
+   "It is independent of relative abundance",
+   "It generally increases with both richness and evenness",
+   "It can be calculated without species proportions"
+  ],
+  "answerIndex": 2,
+  "explanation": "Shannon entropy incorporates species proportions and rises as diversity/evenness increase.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 115,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-116",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "The intermediate disturbance hypothesis proposes that diversity may peak at:",
+  "options": [
+   "Intermediate disturbance frequency or intensity",
+   "Only after complete ecosystem destruction",
+   "The maximum possible disturbance",
+   "Zero disturbance in all ecosystems"
+  ],
+  "answerIndex": 0,
+  "explanation": "Intermediate disturbance can prevent competitive exclusion without eliminating too many species.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 116,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-117",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which is an example of bottom-up control?",
+  "options": [
+   "Disease regulates a predator population",
+   "Nutrient supply increases phytoplankton and propagates upward through consumers",
+   "A top predator controls prey density",
+   "Predator removal increases herbivore abundance and reduces plants"
+  ],
+  "answerIndex": 1,
+  "explanation": "Bottom-up control originates with resources or primary production.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 117,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-118",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Top-down trophic cascade is best represented by:",
+  "options": [
+   "Predator increase → herbivore decrease → plant biomass increase",
+   "Nutrient increase → producer increase → herbivore increase",
+   "Decomposer increase → litter decrease only",
+   "Rainfall increase → soil moisture increase"
+  ],
+  "answerIndex": 0,
+  "explanation": "Predators indirectly affect lower trophic levels through prey suppression.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 118,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-119",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about biomagnification is most likely true for methylmercury?",
+  "options": [
+   "It accumulates only in plant roots",
+   "It cannot enter aquatic food webs",
+   "Concentrations can increase in organisms at higher trophic positions",
+   "It is rapidly metabolised and excreted by all fish"
+  ],
+  "answerIndex": 2,
+  "explanation": "Methylmercury is persistent and efficiently transferred through aquatic food webs.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 119,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-120",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A pollutant concentration rises in an individual fish as it ages, but does not increase consistently across trophic levels. This is evidence primarily of:",
+  "options": [
+   "Biodegradation",
+   "Bioaccumulation",
+   "Biostimulation",
+   "Biomagnification"
+  ],
+  "answerIndex": 1,
+  "explanation": "Increase within an individual over time is bioaccumulation. Assistant Environmental Engineer | Ecosystem Page 33",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 120,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-121",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which factor makes a chemical more likely to biomagnify?",
+  "options": [
+   "Immediate microbial mineralisation",
+   "High volatility alone",
+   "Rapid degradation and high water solubility with rapid excretion",
+   "Persistence, bioavailability and affinity for lipid-rich tissues"
+  ],
+  "answerIndex": 3,
+  "explanation": "Persistent, bioavailable, slowly eliminated chemicals can build up and magnify.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 121,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-122",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which is the most defensible statement about ecosystem services?",
+  "options": [
+   "They exclude climate regulation",
+   "They include provisioning, regulating, cultural and supporting or habitat-related functions",
+   "They are independent of biodiversity",
+   "They refer only to marketable timber and crops"
+  ],
+  "answerIndex": 1,
+  "explanation": "Ecosystem services encompass multiple benefits and ecological processes.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 122,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-123",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Wetland removal of nitrate from water is often promoted by:",
+  "options": [
+   "Photosynthesis by fish",
+   "Nitrification alone under fully oxic conditions",
+   "Denitrification in anoxic sediments",
+   "Evaporation of nitrate"
+  ],
+  "answerIndex": 2,
+  "explanation": "Anoxic wetland sediments support denitrifiers that convert nitrate to gaseous nitrogen.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 123,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-124",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about phosphorus limitation is most accurate?",
+  "options": [
+   "It is common in many freshwater systems, but limitation varies with context",
+   "It is caused by atmospheric N",
+   "It can never be altered by human inputs",
+   "It occurs in every ecosystem at all times"
+  ],
+  "answerIndex": 0,
+  "explanation": "Freshwater systems are often P-limited, though co-limitation and other controls occur.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 124,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-125",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "In a lake, thermal stratification can promote bottom-water hypoxia when:",
+  "options": [
+   "Water is completely mixed continuously",
+   "Nutrients are absent",
+   "Surface photosynthesis supplies oxygen directly to deep water at all times",
+   "Organic matter decomposition consumes oxygen and stratification limits replenishment"
+  ],
+  "answerIndex": 3,
+  "explanation": "Stratification reduces vertical oxygen transfer while decomposition continues.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 125,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-126",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about ecological pyramids is correct?",
+  "options": [
+   "Energy pyramids can invert in forests",
+   "All ecological pyramids must be upright",
+   "Pyramids of numbers and biomass may be inverted; energy pyramids cannot",
+   "Biomass pyramids always show energy flow"
+  ],
+  "answerIndex": 2,
+  "explanation": "Only the energy pyramid is necessarily upright.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 126,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-127",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A food web is generally more realistic than a simple food chain because it:",
+  "options": [
+   "Assumes each species has one food source",
+   "Excludes omnivory",
+   "Shows only one linear transfer route",
+   "Represents multiple feeding links and alternative energy pathways"
+  ],
+  "answerIndex": 3,
+  "explanation": "Food webs capture interconnected and often complex feeding relationships.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 127,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-128",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Omnivory complicates trophic-level assignment because an omnivore:",
+  "options": [
+   "Is always a decomposer",
+   "Cannot transfer energy",
+   "Feeds across more than one trophic level",
+   "Consumes only producers"
+  ],
+  "answerIndex": 2,
+  "explanation": "Omnivores consume resources from multiple trophic positions.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 128,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-129",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which organism is most directly a detritivore rather than a decomposer in the strict functional sense?",
+  "options": [
+   "Mould decomposing cellulose externally",
+   "Saprotrophic fungus secreting extracellular enzymes",
+   "Earthworm fragmenting and ingesting litter",
+   "Bacterium mineralising dissolved organic matter"
+  ],
+  "answerIndex": 2,
+  "explanation": "Detritivores ingest and fragment detritus; decomposers often chemically break it down externally.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 129,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-130",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about ecological efficiency is correct?",
+  "options": [
+   "Assimilation efficiency, production efficiency and consumption efficiency describe different steps",
+   "They are interchangeable terms for 10% transfer",
+   "Production efficiency includes unconsumed food",
+   "Consumption efficiency is the fraction of assimilated energy converted to biomass"
+  ],
+  "answerIndex": 0,
+  "explanation": "Consumption, assimilation and production efficiencies have distinct denominators and meanings.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 130,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-131",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which sequence correctly represents energy partitions for an animal consumer?",
+  "options": [
+   "Ingested = production + respiration only",
+   "Ingested energy = assimilated + egested; assimilated = production + respiration",
+   "Assimilated = ingested + egested",
+   "Production = respiration − assimilation"
+  ],
+  "answerIndex": 1,
+  "explanation": "Energy is lost in egestion; assimilated energy is partitioned into production and respiration.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 131,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-132",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about ecological stoichiometry is correct?",
+  "options": [
+   "It concerns only the number of species in a habitat",
+   "It is another name for trophic pyramids",
+   "It excludes nutrient limitation",
+   "It examines how elemental ratios in organisms and resources influence ecological interactions and processes"
+  ],
+  "answerIndex": 3,
+  "explanation": "Ecological stoichiometry links C:N:P balance to growth, food quality and nutrient cycling.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 132,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-133",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A high C:N ratio in plant litter generally tends to:",
+  "options": [
+   "Accelerate nitrogen mineralisation in all conditions",
+   "Convert phosphorus directly to nitrate",
+   "Eliminate microbial demand for nitrogen",
+   "Slow decomposition and promote microbial nitrogen immobilisation"
+  ],
+  "answerIndex": 3,
+  "explanation": "Microbes decomposing carbon-rich, N-poor litter may immobilise available nitrogen.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 133,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-134",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about biological control is correct?",
+  "options": [
+   "Introducing a natural enemy can suppress a pest but may create non-target ecological risks",
+   "It always eliminates the pest permanently",
+   "It is equivalent to pesticide bioaccumulation",
+   "It has no ecological interactions"
+  ],
+  "answerIndex": 0,
+  "explanation": "Biocontrol outcomes depend on specificity, food-web effects and establishment.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 134,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-135",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which ecosystem is most likely to have low annual NPP per unit area?",
+  "options": [
+   "Hot desert",
+   "Tropical rainforest",
+   "Estuary",
+   "Tropical swamp forest"
+  ],
+  "answerIndex": 0,
+  "explanation": "Water limitation constrains desert primary production.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 135,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-136",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Why can estuaries have high productivity?",
+  "options": [
+   "They are always oxygen-saturated at all depths",
+   "Salinity prevents all photosynthesis",
+   "Nutrient inputs, shallow light penetration and mixing can support high primary production",
+   "They have no nutrient input"
+  ],
+  "answerIndex": 2,
+  "explanation": "Estuarine nutrient supply and shallow, dynamic conditions can support high productivity.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 136,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-137",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about ocean productivity is correct?",
+  "options": [
+   "Open ocean has the highest productivity per unit area everywhere",
+   "Ocean productivity is independent of nutrients and light",
+   "Phytoplankton are absent from oligotrophic waters",
+   "Open-ocean productivity per unit area is often low, but total global production is large due to ocean area"
+  ],
+  "answerIndex": 3,
+  "explanation": "Low areal rates over vast areas can yield substantial total production.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 137,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-138",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Upwelling often increases marine productivity because it:",
+  "options": [
+   "Raises salinity until phytoplankton stop growing",
+   "Removes all dissolved nutrients",
+   "Brings nutrient-rich deep water into the sunlit surface layer",
+   "Prevents mixing"
+  ],
+  "answerIndex": 2,
+  "explanation": "Upwelling supplies nitrate, phosphate and other nutrients to the euphotic zone.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 138,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-139",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about the euphotic zone is correct?",
+  "options": [
+   "It contains no phytoplankton",
+   "It is the water layer receiving sufficient light for net photosynthesis",
+   "It is always identical to the thermocline",
+   "It is defined by complete darkness"
+  ],
+  "answerIndex": 1,
+  "explanation": "The euphotic zone is the illuminated layer where photosynthesis can occur.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 139,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-140",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "In a forest ecosystem, a large fraction of net primary production may be allocated to:",
+  "options": [
+   "Woody biomass and roots as well as leaves and reproductive tissues",
+   "Only atmospheric oxygen",
+   "Only animal biomass",
+   "Only edible leaves consumed immediately by herbivores"
+  ],
+  "answerIndex": 0,
+  "explanation": "NPP is partitioned among structural tissues, roots, reproduction and herbivory.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 140,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-141",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which is the strongest reason that gross primary productivity cannot be inferred from standing biomass alone?",
+  "options": [
+   "GPP excludes photosynthesis",
+   "Standing biomass is a stock, whereas GPP is a flux and turnover rates vary",
+   "Biomass is measured only in energy units",
+   "Standing biomass always equals annual GPP"
+  ],
+  "answerIndex": 1,
+  "explanation": "The same biomass stock can arise from very different production and turnover rates.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 141,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-142",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A system with positive NEP is, over the measurement interval, generally:",
+  "options": [
+   "A net carbon sink for the ecosystem-atmosphere exchange, absent other unaccounted fluxes",
+   "At exact carbon equilibrium",
+   "Unable to respire",
+   "A net carbon source by definition"
+  ],
+  "answerIndex": 0,
+  "explanation": "Positive NEP means NPP exceeds heterotrophic respiration, implying net ecosystem carbon accumulation before other lateral/disturbance fluxes.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 142,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-143",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which is an example of a positive feedback in ecosystem change?",
+  "options": [
+   "Higher plant cover reduces erosion",
+   "Predators suppress herbivores",
+   "Warming increases permafrost thaw, releasing greenhouse gases that promote further warming",
+   "Increased shade reduces soil temperature"
+  ],
+  "answerIndex": 2,
+  "explanation": "Thaw-related greenhouse gas release can amplify warming.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 143,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-144",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about alternative stable states is correct?",
+  "options": [
+   "They occur only in laboratory microcosms",
+   "A system may persist in different configurations under similar external conditions, with transitions triggered by disturbance or feedbacks",
+   "They mean that succession does not occur",
+   "Every ecosystem has exactly one inevitable stable state"
+  ],
+  "answerIndex": 1,
+  "explanation": "Feedbacks can maintain contrasting ecosystem states, such as clear and turbid lakes.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 144,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-145",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which process is most likely to increase soil organic carbon over the long term?",
+  "options": [
+   "Increased erosion of topsoil",
+   "Inputs of plant residues exceeding decomposition and export losses",
+   "Higher decomposition than input",
+   "Complete removal of litter"
+  ],
+  "answerIndex": 1,
+  "explanation": "Soil carbon accumulates when inputs exceed respiration, erosion and other losses.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 145,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-146",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about ecological restoration is most accurate?",
+  "options": [
+   "Reference conditions guide goals, but restored systems need not reproduce an exact historical state",
+   "Species introductions are always beneficial",
+   "Restoration always returns an ecosystem to a pristine state",
+   "Hydrology is irrelevant to wetland restoration"
+  ],
+  "answerIndex": 0,
+  "explanation": "Restoration is context-specific and constrained by altered climate, land use and legacies.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 146,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-147",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which factor is especially important in determining whether a disturbed ecosystem undergoes secondary succession?",
+  "options": [
+   "Survival of soil, seed bank, roots and nearby propagule sources",
+   "Complete absence of soil",
+   "Formation of new bedrock",
+   "Elimination of all organic matter"
+  ],
+  "answerIndex": 0,
+  "explanation": "Biological legacies and intact soil enable faster recolonisation.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 147,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-148",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about invasive species is correct?",
+  "options": [
+   "All non-native species inevitably cause ecological harm",
+   "Native species cannot become invasive",
+   "Not every introduced species becomes invasive; impact depends on establishment, spread and ecological effects",
+   "Invasive species are always predators"
+  ],
+  "answerIndex": 2,
+  "explanation": "Invasiveness requires establishment and spread with consequential effects; many introduced species do not become invasive.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 148,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-149",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A species with a broad tolerance range for environmental conditions is described as:",
+  "options": [
+   "Obligate parasite",
+   "Stenotopic",
+   "Eurytopic",
+   "Endemic"
+  ],
+  "answerIndex": 2,
+  "explanation": "Eurytopic species tolerate a broad range; stenotopic species have narrow tolerance.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 149,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-150",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about Liebig's law of the minimum is correct?",
+  "options": [
+   "Growth is constrained by the essential resource in shortest supply relative to demand",
+   "Only sunlight can be limiting",
+   "The most abundant nutrient always limits growth",
+   "All resources contribute equally regardless of availability"
+  ],
+  "answerIndex": 0,
+  "explanation": "The scarcest essential resource relative to organismal requirement can constrain growth.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 150,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-151",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Shelford's law of tolerance emphasises that:",
+  "options": [
+   "Species have unlimited tolerance to temperature",
+   "Biotic interactions are irrelevant",
+   "Both deficiency and excess of an environmental factor can limit species performance",
+   "Only low levels of a factor are harmful"
+  ],
+  "answerIndex": 2,
+  "explanation": "Organisms have minimum, optimum and maximum tolerance limits.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 151,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-152",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "In a simple ecosystem carbon budget, GPP = 2,800, autotrophic respiration = 1,100 and heterotrophic respiration = 1,300 g C m⁻² yr⁻¹. NEP equals:",
+  "options": [
+   "−400 g C m⁻² yr⁻¹",
+   "400 g C m⁻² yr⁻¹",
+   "1,500 g C m⁻² yr⁻¹",
+   "1,700 g C m⁻² yr⁻¹"
+  ],
+  "answerIndex": 1,
+  "explanation": "NPP = 2,800−1,100=1,700; NEP = 1,700−1,300=400.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 152,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-153",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A herbivore ingests 1,000 kJ, egests 300 kJ and respires 500 kJ. Its secondary production is:",
+  "options": [
+   "700 kJ",
+   "800 kJ",
+   "500 kJ",
+   "200 kJ"
+  ],
+  "answerIndex": 3,
+  "explanation": "Assimilated = 1,000−300=700; production = 700−500=200 kJ.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 153,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-154",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A population grows from 200 to 242 individuals in one year in the absence of migration. If exponential growth is assumed, the approximate discrete per-capita growth rate is:",
+  "options": [
+   "0.10 yr⁻¹",
+   "0.21 yr⁻¹",
+   "0.17 yr⁻¹",
+   "0.42 yr⁻¹"
+  ],
+  "answerIndex": 1,
+  "explanation": "(242−200)/200 = 0.21 per year.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 154,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-155",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A logistic population has r = 0.4 yr⁻¹, K = 1,000 and N = 500. Its instantaneous growth rate dN/dt is:",
+  "options": [
+   "200 individuals yr⁻¹",
+   "400 individuals yr⁻¹",
+   "50 individuals yr⁻¹",
+   "100 individuals yr⁻¹"
+  ],
+  "answerIndex": 3,
+  "explanation": "rN(1−N/K)=0.4×500×0.5=100.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 155,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-156",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A producer trophic level stores 20,000 kJ. If 15% reaches herbivores and 8% of herbivore energy reaches carnivores, carnivore energy is:",
+  "options": [
+   "300 kJ",
+   "240 kJ",
+   "1,600 kJ",
+   "24 kJ"
+  ],
+  "answerIndex": 1,
+  "explanation": "20,000×0.15×0.08 = 240 kJ.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 156,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-157",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A plant community's GPP is 3,600 g C m⁻² yr⁻¹ and NPP is 2,160. Autotrophic respiration as a fraction of GPP is:",
+  "options": [
+   "1.67%",
+   "25%",
+   "40%",
+   "60%"
+  ],
+  "answerIndex": 2,
+  "explanation": "Ra=1,440; 1,440/3,600×100=40%.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 157,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-158",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "If a chemical has a bioconcentration factor of 500 L kg⁻¹ and water concentration is 0.004 mg L⁻¹, predicted organism concentration at equilibrium from water exposure alone is:",
+  "options": [
+   "0.002 mg kg⁻¹",
+   "0.5 mg kg⁻¹",
+   "2 mg kg⁻¹",
+   "125 mg kg⁻¹"
+  ],
+  "answerIndex": 2,
+  "explanation": "BCF × water concentration = 500 × 0.004 = 2 mg/kg.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 158,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-159",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A community has 10 species. A diversity measure that is sensitive to dominance by the most abundant species will generally be lower when:",
+  "options": [
+   "All species have equal abundance",
+   "Rare species become more evenly represented",
+   "The abundance distribution becomes more even",
+   "One species accounts for 90% of individuals"
+  ],
+  "answerIndex": 3,
+  "explanation": "Strong dominance reduces evenness and therefore lowers many diversity indices.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 159,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-160",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about the biological pump in oceans is correct?",
+  "options": [
+   "Sinking organic matter transfers carbon from surface waters to the deep ocean",
+   "It prevents all ocean-atmosphere CO exchange",
+   "It is driven exclusively by fish migration",
+   "It transfers only heat and no carbon"
+  ],
+  "answerIndex": 0,
+  "explanation": "Biological production and export of organic matter move carbon to deeper waters. Assistant Environmental Engineer | Ecosystem Page 34",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 160,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-161",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which of the following best explains why energy pyramids use energy per unit area per unit time?",
+  "options": [
+   "It removes the need to identify trophic levels",
+   "It represents the rate of energy transfer or production, not merely a standing stock",
+   "It measures only organism counts",
+   "It is equivalent to biomass at one instant"
+  ],
+  "answerIndex": 1,
+  "explanation": "Energy pyramids represent fluxes over time, avoiding misleading stock-only comparisons.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 161,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-162",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A forest is clear-felled but the soil profile and seed bank remain. The ensuing recovery is best classified as:",
+  "options": [
+   "Secondary succession",
+   "No succession",
+   "Hydrarch succession",
+   "Primary succession"
+  ],
+  "answerIndex": 0,
+  "explanation": "Soil and biological legacies remain, so recovery is secondary succession.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 162,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-163",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A newly formed volcanic island has bare rock and no soil. The likely sequence begins with:",
+  "options": [
+   "A climax community before any colonisation",
+   "A detritus food chain with deep humus",
+   "Weathering and pioneer colonisation followed by soil development",
+   "Mature forest establishment immediately"
+  ],
+  "answerIndex": 2,
+  "explanation": "Bare substrate requires weathering, colonisation and soil formation.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 163,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-164",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about decomposition is incorrect?",
+  "options": [
+   "Decomposition is independent of oxygen availability",
+   "Fragmentation increases surface area",
+   "Leaching removes soluble compounds",
+   "Catabolism releases inorganic nutrients"
+  ],
+  "answerIndex": 0,
+  "explanation": "Oxygen availability strongly affects decomposition pathways and rates.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 164,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-165",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "In a stratified lake, the hypolimnion becomes anoxic. Which process can continue and contribute to nutrient release?",
+  "options": [
+   "Atmospheric gas exchange directly with deep water",
+   "High-light photosynthesis",
+   "Anaerobic microbial decomposition and redox-sensitive sediment reactions",
+   "Aerobic nitrification at high rates throughout"
+  ],
+  "answerIndex": 2,
+  "explanation": "Anaerobic metabolism continues; reducing conditions can release phosphorus from sediments.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 165,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-166",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which is the most likely outcome of adding a large phosphorus load to a P-limited lake?",
+  "options": [
+   "Nitrogen fixation stops instantly",
+   "The lake becomes oligotrophic",
+   "Primary production necessarily falls",
+   "Algal production may rise, followed by increased decomposition and oxygen depletion"
+  ],
+  "answerIndex": 3,
+  "explanation": "Nutrient enrichment can drive eutrophication and subsequent oxygen demand.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 166,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-167",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about trophic cascades is most precise?",
+  "options": [
+   "They are synonymous with nutrient cycling",
+   "Effects of consumers can propagate across multiple trophic levels, sometimes indirectly",
+   "They require exactly four trophic levels",
+   "They occur only in terrestrial ecosystems"
+  ],
+  "answerIndex": 1,
+  "explanation": "Trophic cascades are indirect effects propagated through food-web links.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 167,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-168",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A parasite that changes host behaviour and increases predation risk can influence:",
+  "options": [
+   "Only abiotic nutrient pools",
+   "Energy flow and interaction structure beyond the host-parasite pair",
+   "No other species",
+   "Only host body mass, never food webs"
+  ],
+  "answerIndex": 1,
+  "explanation": "Parasite-mediated changes can alter predation and food-web dynamics.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 168,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-169",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about a functional response is correct?",
+  "options": [
+   "It describes how an individual's consumption rate changes with prey density",
+   "It describes population size against carrying capacity",
+   "It measures decomposition of litter",
+   "It is identical to a survivorship curve"
+  ],
+  "answerIndex": 0,
+  "explanation": "Functional responses describe per-capita feeding rate as prey density changes.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 169,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-170",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A Type II predator functional response is characterised by:",
+  "options": [
+   "Consumption rate declining linearly with prey density",
+   "Consumption rate increasing without limit",
+   "Consumption rate rising with prey density but eventually saturating",
+   "A fixed consumption rate at all prey densities"
+  ],
+  "answerIndex": 2,
+  "explanation": "Handling time imposes a maximum intake rate.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 170,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-171",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about ecological succession after repeated severe disturbance is correct?",
+  "options": [
+   "Disturbance removes environmental filtering",
+   "Disturbance always increases biomass",
+   "Succession must always reach the same climax forest",
+   "The system may remain in an early-successional state if disturbance prevents later stages"
+  ],
+  "answerIndex": 3,
+  "explanation": "Frequent or intense disturbance can maintain early-stage communities.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 171,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-172",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which process is a major pathway of phosphorus loss from terrestrial ecosystems?",
+  "options": [
+   "Methane oxidation",
+   "Volatilisation of phosphate gas",
+   "Denitrification",
+   "Erosion and runoff of phosphate-bearing soil and particles"
+  ],
+  "answerIndex": 3,
+  "explanation": "Phosphorus commonly moves with eroded particles and runoff.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 172,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-173",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which is the best example of nutrient immobilisation?",
+  "options": [
+   "Microbes release ammonium from proteins",
+   "Microbes incorporate inorganic ammonium into their biomass while decomposing carbon-rich litter",
+   "Plants release oxygen during photosynthesis",
+   "Nitrate is reduced to N"
+  ],
+  "answerIndex": 1,
+  "explanation": "Immobilisation transfers inorganic nutrients into microbial organic matter.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 173,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-174",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about carbon-to-nitrogen ratio in litter is generally correct?",
+  "options": [
+   "C:N has no effect on decomposition",
+   "Low C:N always prevents decomposition",
+   "High C:N often indicates lower litter nitrogen availability to decomposers",
+   "C:N is a measure of trophic transfer efficiency"
+  ],
+  "answerIndex": 2,
+  "explanation": "Litter stoichiometry affects microbial nutrient limitation and decomposition.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 174,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-175",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "An ecosystem with high productivity but low standing biomass is possible when:",
+  "options": [
+   "Production is zero",
+   "Biomass turnover is rapid",
+   "All biomass is permanently stored",
+   "Consumers are absent"
+  ],
+  "answerIndex": 1,
+  "explanation": "Rapid growth and consumption can maintain low standing stock despite high flux.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 175,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-176",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which condition favours high primary production in aquatic ecosystems?",
+  "options": [
+   "High turbidity and severe nutrient depletion",
+   "No dissolved inorganic carbon",
+   "Adequate light and nutrient availability in the photic zone",
+   "Permanent darkness"
+  ],
+  "answerIndex": 2,
+  "explanation": "Photosynthesis requires light, nutrients and inorganic carbon.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 176,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-177",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Why is silica important in many marine food webs?",
+  "options": [
+   "It is the main energy source for zooplankton",
+   "It is required by all fish scales",
+   "Diatoms require it to build siliceous frustules",
+   "It replaces nitrogen fixation"
+  ],
+  "answerIndex": 2,
+  "explanation": "Diatoms use dissolved silica to form their cell walls.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 177,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-178",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about ecological footprint is correct?",
+  "options": [
+   "It is the same as a trophic pyramid",
+   "It estimates biologically productive area needed to support resource use and absorb wastes under specified assumptions",
+   "It measures only the number of species",
+   "It directly measures ecosystem resilience"
+  ],
+  "answerIndex": 1,
+  "explanation": "Ecological footprint is an accounting measure of human demand on biocapacity.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 178,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-179",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which process can reduce dissolved oxygen in a receiving water body after wastewater discharge?",
+  "options": [
+   "Nitrate fixation by plants",
+   "Evaporation of dissolved oxygen",
+   "Microbial oxidation of biodegradable organic matter",
+   "Photolysis of water"
+  ],
+  "answerIndex": 2,
+  "explanation": "Biochemical oxidation consumes oxygen, raising biochemical oxygen demand.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 179,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-180",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A high BOD in a stream most directly indicates:",
+  "options": [
+   "High primary productivity necessarily",
+   "High potential oxygen demand from biodegradable organic matter",
+   "Absence of microbes",
+   "High dissolved oxygen concentration"
+  ],
+  "answerIndex": 1,
+  "explanation": "BOD estimates oxygen consumed by microbial degradation of biodegradable matter.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 180,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-181",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about ecological indicators is correct?",
+  "options": [
+   "A bioindicator's response can integrate exposure over time, but interpretation depends on sensitivity and confounders",
+   "Bioindicators remove pollutants from ecosystems",
+   "Indicator species are always keystone species",
+   "Every bioindicator responds only to one pollutant"
+  ],
+  "answerIndex": 0,
+  "explanation": "Biological responses integrate conditions but may be influenced by multiple factors.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 181,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-182",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A species restricted to a small geographic area is termed:",
+  "options": [
+   "Endemic",
+   "Cosmopolitan",
+   "Invasive by definition",
+   "Eurytopic"
+  ],
+  "answerIndex": 0,
+  "explanation": "Endemism describes restriction to a particular region.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 182,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-183",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about island biogeography is correct?",
+  "options": [
+   "All islands have equal richness",
+   "Isolation increases immigration",
+   "Species richness is influenced by island area and isolation through immigration and extinction rates",
+   "Area has no influence on extinction"
+  ],
+  "answerIndex": 2,
+  "explanation": "Larger islands generally have lower extinction rates; less isolated islands receive more immigrants.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 183,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-184",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "In the species-area relationship S = cA, the exponent z describes:",
+  "options": [
+   "The number of trophic levels",
+   "The slope of the log species–log area relationship",
+   "The proportion of endemic species",
+   "The carrying capacity"
+  ],
+  "answerIndex": 1,
+  "explanation": "Taking logs gives log S = log c + z log A; z is the slope.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 184,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-185",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A metapopulation consists of:",
+  "options": [
+   "Only species with no extinction",
+   "A community without immigration",
+   "Spatially separated local populations connected by dispersal",
+   "One completely mixed population"
+  ],
+  "answerIndex": 2,
+  "explanation": "Metapopulations comprise local populations linked by movement, with local extinction and recolonisation.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 185,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-186",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which condition can promote coexistence through the storage effect?",
+  "options": [
+   "Complete absence of environmental variation",
+   "Permanent competitive superiority of one species",
+   "Identical responses to all environmental conditions",
+   "Temporal environmental variation combined with species-specific responses and a persistent life stage or reservoir"
+  ],
+  "answerIndex": 3,
+  "explanation": "The storage effect allows species to benefit from favourable periods while persisting through unfavourable ones.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 186,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-187",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about ecosystem stability is correct?",
+  "options": [
+   "Stability and productivity are identical",
+   "It is adequately described by species richness alone",
+   "A stable ecosystem has no fluctuations",
+   "Stability has multiple dimensions, including resistance, resilience and persistence"
+  ],
+  "answerIndex": 3,
+  "explanation": "Stability is multidimensional and cannot be reduced to a single metric.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 187,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-188",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about a disturbance regime is correct?",
+  "options": [
+   "Disturbance always reduces biodiversity",
+   "Only disturbance intensity matters",
+   "Frequency, intensity, duration, size and timing shape ecological responses",
+   "Disturbance is always anthropogenic"
+  ],
+  "answerIndex": 2,
+  "explanation": "Multiple attributes of disturbance determine its ecological effects.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 188,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-189",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which ecosystem is especially adapted to periodic fire as a natural disturbance?",
+  "options": [
+   "All polar deserts",
+   "All tropical rainforests",
+   "Many savannas and fire-prone grasslands",
+   "All deep lakes"
+  ],
+  "answerIndex": 2,
+  "explanation": "Fire is a characteristic ecological process in many savanna and grassland systems.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 189,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-190",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about ecological succession and soil development is correct?",
+  "options": [
+   "Soil development can alter water and nutrient availability, changing later colonisation opportunities",
+   "Plants do not influence soil formation",
+   "Only animals drive soil development",
+   "Soil properties remain fixed throughout succession"
+  ],
+  "answerIndex": 0,
+  "explanation": "Organic matter accumulation, weathering and biota modify soil through succession.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 190,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-191",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which is a key distinction between habitat and niche?",
+  "options": [
+   "Niche refers only to shelter",
+   "Habitat is where an organism lives; niche describes how it lives and functions in the ecosystem",
+   "Habitat is a species' trophic level; niche is its geographic range only",
+   "They are interchangeable"
+  ],
+  "answerIndex": 1,
+  "explanation": "Habitat is the place; niche encompasses resource use, tolerances and interactions.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 191,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-192",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about density-dependent mortality is correct?",
+  "options": [
+   "It cannot regulate population size",
+   "It may increase with crowding through competition, disease or predation",
+   "It is necessarily constant across densities",
+   "It is caused only by storms"
+  ],
+  "answerIndex": 1,
+  "explanation": "Density-dependent factors can regulate populations by increasing mortality or reducing reproduction as density rises.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 192,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-193",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "A population has b = 0.32 and d = 0.47 per individual per year. Its intrinsic rate r is:",
+  "options": [
+   "0.15 yr⁻¹",
+   "−0.15 yr⁻¹",
+   "0.79 yr⁻¹",
+   "−0.79 yr⁻¹"
+  ],
+  "answerIndex": 1,
+  "explanation": "r = b − d = 0.32 − 0.47 = −0.15.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 193,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-194",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about carrying capacity is most accurate?",
+  "options": [
+   "It is independent of human activity",
+   "It can change over time as resources, habitat and interactions change",
+   "It is always equal to current population size",
+   "It is a fixed species constant"
+  ],
+  "answerIndex": 1,
+  "explanation": "K is an environmental property that can vary with conditions.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 194,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-195",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about r-selected and K-selected strategies is most defensible?",
+  "options": [
+   "They are heuristic ends of a continuum, not rigid categories for all species",
+   "Every species fits exclusively into one of two immutable groups",
+   "K-selected species always have zero juvenile mortality",
+   "r-selected species never compete"
+  ],
+  "answerIndex": 0,
+  "explanation": "Life-history traits vary along continua and depend on ecological context.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 195,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-196",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which of the following is most likely to be a bottom-up effect of nitrogen deposition in a nitrogen-limited grassland?",
+  "options": [
+   "Increased plant production and possible shifts in competitive dominance",
+   "A direct increase in top-predator biomass without food-web mediation",
+   "Immediate elimination of decomposers",
+   "No change in nutrient cycling"
+  ],
+  "answerIndex": 0,
+  "explanation": "Added N can raise production and favour species able to exploit enriched conditions.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 196,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-197",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about nitrogen deposition is correct?",
+  "options": [
+   "It can cause acidification, eutrophication and biodiversity shifts in sensitive ecosystems",
+   "It has no effect on soil chemistry",
+   "It always improves biodiversity",
+   "It adds phosphorus rather than nitrogen"
+  ],
+  "answerIndex": 0,
+  "explanation": "Excess reactive nitrogen can alter nutrient balance, soil acidity and community composition.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 197,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-198",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which pathway returns carbon from organisms to the atmosphere most directly?",
+  "options": [
+   "Nitrification",
+   "Cellular respiration and decomposition",
+   "Phosphorus weathering",
+   "Nitrogen fixation"
+  ],
+  "answerIndex": 1,
+  "explanation": "Respiration by autotrophs, heterotrophs and decomposers releases CO.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 198,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-199",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about methane in wetlands is correct?",
+  "options": [
+   "Methane oxidation produces nitrogen gas",
+   "Wetlands cannot emit greenhouse gases",
+   "Methane is produced only by plants in oxygenated leaves",
+   "Anaerobic decomposition can produce methane, while oxidation near oxic interfaces can consume some methane"
+  ],
+  "answerIndex": 3,
+  "explanation": "Methanogenesis occurs under anoxic conditions; methanotrophs oxidise CH where oxygen is available.",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 199,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "ECO200-200",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which statement about the oxygen cycle is correct?",
+  "options": [
+   "Only animals produce oxygen",
+   "Oxygen has no link to carbon cycling",
+   "Oxygen is never exchanged between atmosphere and water",
+   "Photosynthesis is a major source of molecular oxygen, while respiration and oxidation consume it"
+  ],
+  "answerIndex": 3,
+  "explanation": "Photosynthetic oxygen production and oxidative consumption are coupled to carbon cycling. Assistant Environmental Engineer | Ecosystem Page 35",
+  "source": "AEE Ecosystem — 200 tough MCQs",
+  "sourcePage": 200,
+  "sourceKey": "D",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ }
+]

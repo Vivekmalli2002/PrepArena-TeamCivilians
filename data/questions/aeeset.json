@@ -1,0 +1,772 @@
+[
+ {
+  "id": "AEESET-001",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "In an aquatic ecosystem, the standing crop of phytoplankton is significantly lower than that of zooplankton at any given point in time. Which of the following ecological principles best explains this inverted pyramid of biomass?",
+  "options": [
+   "The ecological efficiency between producers and primary consumers exceeds 100% due to rapid nutrient recycling.",
+   "Phytoplankton possess an extremely high turnover rate, allowing a small standing crop to support a larger biomass of herbivores.",
+   "Zooplankton engage in mixotrophy, supplementing their energy requirements through dissolved organic carbon absorption.",
+   "Respiration losses in secondary producers are negligible compared to gross primary productivity."
+  ],
+  "answerIndex": 1,
+  "explanation": "Phytoplankton have rapid turnover rates; small biomass sustains high zooplankton biomass.",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 1,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-002",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Consider the following statements regarding ecological succession and productivity dynamics: 1. Net Primary Productivity (NPP) is highest in the climax stage of a hydrarch succession because biomass reaches its peak. 2. The ratio of Gross Primary Productivity to total respiration (GPP/R) approaches 1 as an ecosystem transitions to climax. 3. Gross Ecological Efficiency typically declines as succession proceeds from early seral stages to the climax community. Which of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "2 only",
+   "1, 2, and 3"
+  ],
+  "answerIndex": 2,
+  "explanation": "At climax GPP/R = 1. NPP peaks in intermediate seral stages, not climax.",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 2,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-003",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "An ecological study measures energy flow in a temperate forest. Net Primary Productivity (NPP) is calculated at 1,200 kcal m-2 yr-1, and GPP is 2,500 kcal m-2 yr-1. Herbivores ingest 300 kcal m-2 yr-1, assimilate 120 kcal m-2 yr-1, and lose 80 kcal m-2 yr-1 through respiration. What is the Net Production Efficiency (NPE) of the herbivores?",
+  "options": [
+   "10.0%",
+   "33.3%",
+   "40.0%",
+   "66.7%"
+  ],
+  "answerIndex": 1,
+  "explanation": "NPE = (Net Production / Assimilation) × 100 = (40 / 120) × 100 = 33.3%.",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 3,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-004",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Match List I with List II regarding ecosystem metrics: List I (Concept) List II (Definition) A. Standing State 1. Total amount of living organic matter dry weight per unit area. B. Standing Crop 2. Total amount of inorganic nutrients present in non-living environment. C. Ecological Amplitude 3. The range of tolerance of a species to environmental factors. D. Net Community Productivity 4. Rate of organic matter accumulation remaining after ecosystem respiration.",
+  "options": [
+   "A-2, B-1, C-3, D-4",
+   "A-2, B-1, C-4, D-3",
+   "A-1, B-2, C-3, D-4",
+   "A-1, B-2, C-4, D-3"
+  ],
+  "answerIndex": 0,
+  "explanation": "Standing state = inorganic pool; Standing crop = living biomass; Amplitude = tolerance range.",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 4,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-005",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Assertion (A): In a deep oligotrophic lake, the GPP/R ratio is greater than 1, whereas in highly polluted hypertrophic municipal sewage lagoons, the ratio can drop below 1 during peak organic loading. Reason (R): Heterotrophic respiration of imported organic matter can temporarily exceed total autotrophic production, converting the ecosystem to a heterotrophic state.",
+  "options": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+   "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+   "(A) is true, but (R) is false.",
+   "(A) is false, but (R) is true."
+  ],
+  "answerIndex": 0,
+  "explanation": "Heterotrophic respiration of external organic loads depresses GPP/R below 1.",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 5,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-006",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which of the following compounds exhibits the highest potential for biomagnification across an aquatic trophic web due to high lipid solubility, low water solubility, and high chemical persistence?",
+  "options": [
+   "Hexachlorobenzene (HCB) with log Kow = 5.5 and rapid hepatic metabolism.",
+   "Polychlorinated biphenyls (PCBs) with high chlorine substitution (log Kow = 6.8) and low vapor pressure.",
+   "Low-molecular-weight polycyclic aromatic hydrocarbons (PAHs) with log Kow = 3.2.",
+   "Inorganic mercury bound to metallothionein proteins in benthic cytosol."
+  ],
+  "answerIndex": 1,
+  "explanation": "PCBs have high log Kow (6.8), high lipophilicity, and metabolic resistance.",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 6,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-008",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Consider the differences between bioaccumulation and biomagnification. Which of the following assertions is strictly accurate?",
+  "options": [
+   "Bioaccumulation refers exclusively to chemical uptake from water via gills, whereas biomagnification is dietary.",
+   "Bioaccumulation is an intra-organismal process over time, whereas biomagnification is an inter-trophic concentration increase up the food chain.",
+   "Biomagnification occurs only with inorganic heavy metals, whereas bioaccumulation is restricted to synthetic POPs.",
+   "Both terms are synonymous and interchangeable in environmental engineering toxicology."
+  ],
+  "answerIndex": 1,
+  "explanation": "Bioaccumulation occurs over an organism's lifetime; biomagnification amplifies up food chains.",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 8,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-009",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which of the following successional sequences correctly represents a hydrarch succession progressing from open water to a climax forest community?",
+  "options": [
+   "Phytoplankton → Submerged stage → Floating stage → Reed-swamp → Sedge meadow → Woodland → Forest",
+   "Phytoplankton → Floating stage → Submerged stage → Reed-swamp → Woodland → Sedge meadow → Forest",
+   "Submerged stage → Phytoplankton → Reed-swamp → Floating stage → Forest → Sedge meadow",
+   "Phytoplankton → Reed-swamp → Submerged stage → Floating stage → Forest → Woodland"
+  ],
+  "answerIndex": 0,
+  "explanation": "Standard hydrarch sequence: Phytoplankton → Submerged → Floating → Reed → Meadow → Forest.",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 9,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-010",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "In biogeochemical cycling, which of the following reservoirs constitutes the largest active pool of carbon on Earth, buffering atmospheric carbon dioxide fluctuations over centennial timescales?",
+  "options": [
+   "Terrestrial forest & soil carbon",
+   "Deep ocean dissolved inorganic carbon",
+   "Fossil fuel reserves",
+   "Atmospheric carbon dioxide pool"
+  ],
+  "answerIndex": 1,
+  "explanation": "Deep ocean dissolved inorganic carbon (DIC) is the largest active pool (~38,000 Gt C).",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 10,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-011",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Match the biogeochemical cycles with their primary reserve pool characteristics: List I (Cycle) List II (Characteristic Feature) A. Nitrogen Cycle 1. Sedimentary reserve cycle with no significant atmospheric gas phase. B. Phosphorus Cycle 2. Gaseous reserve cycle driven by microbial fixation, nitrification, and denitrification. C. Sulfur Cycle 3. Hybrid cycle involving atmospheric H2S/DMS and sedimentary sulfate deposits.",
+  "options": [
+   "A-2, B-1, C-3",
+   "A-1, B-2, C-3",
+   "A-3, B-1, C-2",
+   "A-2, B-3, C-1"
+  ],
+  "answerIndex": 0,
+  "explanation": "Nitrogen is gaseous (2); Phosphorus is sedimentary (1); Sulfur is hybrid (3).",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 11,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-012",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "An environmental engineer monitors a shallow lake undergoing eutrophication. The ratio of total nitrogen to total phosphorus (TN:TP by weight) drops below 7:1. Which ecological shift is most likely to occur?",
+  "options": [
+   "Massive proliferation of green chlorophyte algae due to nitrogen limitation relief.",
+   "Dominance of nitrogen-fixing cyanobacteria (e.g., Anabaena, Microcystis) outcompeting other phytoplankton.",
+   "Complete collapse of primary producers due to stoichiometric nutrient imbalance.",
+   "Accelerated precipitation of insoluble calcium phosphate complexes."
+  ],
+  "answerIndex": 1,
+  "explanation": "Low TN:TP (<7:1) relieves N-limitation for diazotrophic cyanobacteria capable of N2 fixation.",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 12,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-013",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which of the following ecosystem types exhibits the highest Net Primary Productivity (NPP) per unit area globally?",
+  "options": [
+   "Open ocean pelagic zones",
+   "Temperate deciduous forests",
+   "Tropical rain forests and estuaries",
+   "Boreal coniferous forests (Taiga)"
+  ],
+  "answerIndex": 2,
+  "explanation": "Tropical forests and estuaries have highest unit-area NPP (~2,000 g m-2 yr-1).",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 13,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-014",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Assertion (A): Ecological pyramids of energy are always upright, irrespective of the ecosystem type or trophic structure. Reason (R): According to the Second Law of Thermodynamics, energy is degraded and lost as metabolic heat at each successive trophic transfer.",
+  "options": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+   "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+   "(A) is true, but (R) is false.",
+   "(A) is false, but (R) is true. Assistant Environmental Engineer Exam — Set A Page 2 of 8"
+  ],
+  "answerIndex": 0,
+  "explanation": "Pyramids of energy are upright due to continuous metabolic heat dissipation (2nd Law).",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 14,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-015",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "In ecological energetics, the Lindeman efficiency (trophic transfer efficiency) between trophic level n and trophic level n+1 is defined as the ratio of:",
+  "options": [
+   "Net production at trophic level n+1 to ingestion at trophic level n.",
+   "Assimilation at trophic level n+1 to assimilation at trophic level n.",
+   "Net production at trophic level n+1 to net production at trophic level n.",
+   "Gross primary productivity to total incident solar radiation."
+  ],
+  "answerIndex": 2,
+  "explanation": "Lindeman efficiency = (Net production at level n+1) / (Net production at level n).",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 15,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-016",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which of the following statements concerning ecological resilience and resistance is correct?",
+  "options": [
+   "Resistance refers to the speed with which an ecosystem returns to equilibrium following a severe perturbation.",
+   "Resilience denotes the capacity of an ecosystem to absorb disturbance and reorganize while retaining the same essential function and structure.",
+   "Ecosystems with high species redundancy invariably exhibit low ecological resistance.",
+   "Resistance and resilience are inversely proportional in all known terrestrial biomes."
+  ],
+  "answerIndex": 1,
+  "explanation": "Resilience measures system capacity to absorb impact while maintaining function.",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 16,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-017",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "In a thermally stratified freshwater lake during summer, which zone is characterized by a sharp temperature gradient and rapid density changes, acting as a physical barrier to nutrient mixing?",
+  "options": [
+   "Benthic zone",
+   "Thermocline / Metalimnion",
+   "Photic zone",
+   "Littoral zone"
+  ],
+  "answerIndex": 1,
+  "explanation": "Thermocline/metalimnion features maximum thermal/density gradient preventing vertical mixing.",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 17,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-018",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Consider the following statements regarding nutrient spiraling in lotic (flowing water) ecosystems: 1. Nutrient spiraling length is the vertical distance a nutrient atom travels as it cycles. 2. A shorter spiraling length indicates high ecosystem efficiency and rapid nutrient retention. 3. Stream restoration projects increasing channel sinuosity generally decrease spiraling length. Which of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2, and 3"
+  ],
+  "answerIndex": 1,
+  "explanation": "Spiraling length is downstream distance per cycle; shorter length = tighter retention.",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 18,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-019",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "In an aquatic toxicity bioassay, what does the Bioconcentration Factor (BCF) specifically quantify under steady-state conditions?",
+  "options": [
+   "The ratio of chemical concentration in the organism to its concentration in surrounding water from waterborne exposure only.",
+   "The ratio of chemical concentration in predator tissue to its concentration in dietary food items.",
+   "The total body burden normalized against lipid content.",
+   "The rate constant of elimination divided by the uptake rate constant."
+  ],
+  "answerIndex": 0,
+  "explanation": "BCF is concentration ratio in tissue vs water under purely waterborne exposure.",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 19,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-020",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Match the ecological pyramids with their characteristic ecosystems: List I (Pyramid Type) List II (Ecosystem Example) A. Inverted Pyramid of Biomass 1. Open ocean pelagic ecosystem (Phytoplankton → Zooplankton) B. Upright Pyramid of Number 2. Single tree supporting herbivorous insects and parasites C. Inverted Pyramid of Number 3. Grassland ecosystem (Grass → Rabbits → Foxes)",
+  "options": [
+   "A-1, B-3, C-2",
+   "A-2, B-1, C-3",
+   "A-1, B-2, C-3",
+   "A-3, B-2, C-1"
+  ],
+  "answerIndex": 0,
+  "explanation": "Inverted biomass = ocean (1); Upright number = grassland (3); Inverted number = single tree (2).",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 20,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-021",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "In secondary succession following agricultural field abandonment, which plant functional group typically dominates the early pioneer stage?",
+  "options": [
+   "Late-successional shade-tolerant canopy tree species with heavy seeds.",
+   "r-Selected herbaceous annuals with high dispersal capacity and rapid growth rates.",
+   "Slow-growing mycorrhizal-dependent understory shrubs.",
+   "Obligate climax epiphytes and lianas. Assistant Environmental Engineer Exam — Set A Page 3 of 8"
+  ],
+  "answerIndex": 1,
+  "explanation": "Pioneers in secondary succession are r-selected annuals with fast growth & dispersal.",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 21,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-022",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Assertion (A): The global nitrogen cycle has been profoundly altered by human activity, primarily through the Haber- Bosch process doubling terrestrial nitrogen fixation rates. Reason (R): Molecular nitrogen (N2) is biologically unavailable to primary producers due to its high triple bond energy, requiring specialized nitrogenase enzymes in diazotrophs.",
+  "options": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+   "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+   "(A) is true, but (R) is false.",
+   "(A) is false, but (R) is true."
+  ],
+  "answerIndex": 0,
+  "explanation": "N2 triple bond (945 kJ/mol) requires nitrogenase or industrial Haber-Bosch fixing.",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 22,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-023",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "In the Dark and Light Bottle Method for measuring aquatic primary productivity, what metabolic rate is directly measured from oxygen concentration loss in the dark bottle relative to the initial sample?",
+  "options": [
+   "Gross Primary Productivity",
+   "Net Primary Productivity",
+   "Ecosystem Respiration (R)",
+   "Net Community Productivity"
+  ],
+  "answerIndex": 2,
+  "explanation": "Dark bottle O2 depletion isolates heterotrophic + autotrophic respiration (R).",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 23,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-024",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "If Gross Primary Productivity (GPP) of an ecosystem is 4,500 kJ m-2 yr-1 and autotrophic respiration (Ra) consumes 40% of GPP, what is the Net Primary Productivity (NPP)?",
+  "options": [
+   "1,350 kJ m-2 yr-1",
+   "1,800 kJ m-2 yr-1",
+   "2,700 kJ m-2 yr-1",
+   "4,100 kJ m-2 yr-1"
+  ],
+  "answerIndex": 2,
+  "explanation": "NPP = GPP - Ra = 4,500 - (0.40 × 4,500) = 2,700 kJ m-2 yr-1.",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 24,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-025",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which ecological concept describes the full range of environmental conditions and resources under which a species can persist indefinitely in the absence of interspecific competition?",
+  "options": [
+   "Realized niche",
+   "Fundamental niche",
+   "Eco-morphological space",
+   "Operational niche"
+  ],
+  "answerIndex": 1,
+  "explanation": "Fundamental niche defines conditions where a species exists without biotic competition.",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 25,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-026",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Consider the following statements regarding the phosphorus cycle: 1. Phosphorus lacks a gaseous phase under normal conditions, making atmospheric input negligible. 2. The global phosphorus cycle is heavily controlled by iron, calcium, and aluminum oxide reactions. 3. Eutrophication driven by phosphorus is rapidly reversed in months by stopping external loading. Which of the statements given above are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2, and 3"
+  ],
+  "answerIndex": 0,
+  "explanation": "Phosphorus lacks gas phase. Internal sediment loading delays eutrophication recovery for years.",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 26,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-027",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Match the following terms with their corresponding descriptions: List I (Term) List II (Description) A. Ecotone 1. Gradual change in species composition along an environmental gradient. B. Ecad (Ecophene) 2. Transition zone between two diverse biomes exhibiting strong edge effect. C. Coenocline 3. Morphological variations in a population caused by environmental factors without genetic change.",
+  "options": [
+   "A-2, B-3, C-1",
+   "A-1, B-2, C-3",
+   "A-3, B-1, C-2",
+   "A-2, B-1, C-3"
+  ],
+  "answerIndex": 0,
+  "explanation": "Ecotone = transition zone (2); Ecad = non-genetic variant (3); Coenocline = gradient (1).",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 27,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-028",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "An insect herbivore consumes 1,000 J of plant foliage. 600 J is egested as feces, 300 J is lost in cellular respiration, and 100 J is converted into biomass. What are its Assimilation Efficiency (AE) and Net Production Efficiency (NPE)?",
+  "options": [
+   "AE = 40%, NPE = 10%",
+   "AE = 40%, NPE = 25%",
+   "AE = 60%, NPE = 10%",
+   "AE = 10%, NPE = 40% Assistant Environmental Engineer Exam — Set A Page 4 of 8"
+  ],
+  "answerIndex": 1,
+  "explanation": "Assimilation = 1000 - 600 = 400 J (AE = 40%). NPE = Production/Assimilation = 100/400 = 25%.",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 28,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-029",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Assertion (A): Islands closer to a mainland source pool generally exhibit higher species richness than distant islands of identical area. Reason (R): Immigration rates of colonizing species decline with increasing isolation distance according to the Island Biogeography theory.",
+  "options": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+   "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+   "(A) is true, but (R) is false.",
+   "(A) is false, but (R) is true."
+  ],
+  "answerIndex": 0,
+  "explanation": "Isolation reduces immigration rates, maintaining lower equilibrium species richness.",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 29,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-030",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which microbial transformation in the nitrogen cycle is strictly carried out under anaerobic conditions by denitrifying bacteria using nitrate (NO3-) as a terminal electron acceptor?",
+  "options": [
+   "Ammonia oxidation to nitrite (NH4+ → NO2-)",
+   "Nitrite oxidation to nitrate (NO2- → NO3-)",
+   "Reduction of nitrate to gaseous dinitrogen (NO3- → N2)",
+   "Ammonification of organic proteins (R-NH2 → NH4+)"
+  ],
+  "answerIndex": 2,
+  "explanation": "Denitrification is facultative/obligate anaerobic respiration using NO3- → N2.",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 30,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-031",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "According to Lindeman's 10% energy transfer rule, if primary producers fix 50,000 kcal of energy, how much energy is expected to be available to tertiary carnivores?",
+  "options": [
+   "5,000 kcal",
+   "500 kcal",
+   "50 kcal",
+   "5 kcal"
+  ],
+  "answerIndex": 2,
+  "explanation": "10% law: Producers (50k) → Pri. Cons (5k) → Sec. Cons (500) → Ter. Cons (50 kcal).",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 31,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-032",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Which of the following is an example of an allogenic ecological succession, where abiotic environmental forces drive community replacement rather than biotic interactions?",
+  "options": [
+   "Accumulation of soil humus by pioneer lichens breaking down rock.",
+   "Alteration of stream channel siltation and morphology following catastrophic flooding.",
+   "Shade-tolerant saplings replacing pioneer pines due to light competition.",
+   "Peat accumulation in a bog leading to surface drying and shrub colonization."
+  ],
+  "answerIndex": 1,
+  "explanation": "Allogenic succession is caused by external physical factors like flooding or siltation.",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 32,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-033",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Consider the following statements regarding ecological pyramids: 1. Pyramids of biomass in forest ecosystems are characteristically upright. 2. Pyramids of energy can occasionally be inverted during planktonic spring blooms. 3. Pyramids of number in a single tree hosting herbivorous insects and parasites are inverted. Which of the statements given above are correct?",
+  "options": [
+   "1 and 3 only",
+   "2 and 3 only",
+   "1 only",
+   "1, 2, and 3"
+  ],
+  "answerIndex": 0,
+  "explanation": "Energy pyramids are NEVER inverted (Stmt 2 false). Biomass and number can be inverted.",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 33,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-034",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Match the ecological concepts with their pioneering scientists: List I (Concept) List II (Scientist) A. Ecosystem Concept 1. G. Evelyn Hutchinson B. Ecological Niche (Hypervolume) 2. A.G. Tansley C. Competitive Exclusion Principle 3. G.F. Gause D. Biome Concept 4. F.E. Clements",
+  "options": [
+   "A-2, B-1, C-3, D-4",
+   "A-1, B-2, C-3, D-4",
+   "A-2, B-3, C-1, D-4",
+   "A-4, B-1, C-2, D-3"
+  ],
+  "answerIndex": 2,
+  "explanation": "Ecosystem = Tansley; Niche = Hutchinson; Competitive Exclusion = Gause.",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 34,
+  "sourceKey": "C",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-035",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "An industrial discharge into a river has a BOD5/COD ratio of 0.12. What does this ratio indicate regarding the environmental impact?",
+  "options": [
+   "Wastewater organic matter is easily biodegradable by aquatic microflora.",
+   "The effluent contains high concentrations of recalcitrant, toxic, or synthetic compounds.",
+   "The wastewater is derived from municipal sewage with high protein content.",
+   "Primary productivity in the receiving water body will increase rapidly. Assistant Environmental Engineer Exam — Set A Page 5 of 8"
+  ],
+  "answerIndex": 1,
+  "explanation": "BOD/COD < 0.3 indicates refractory organic pollutants resisting bio-degradation.",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 35,
+  "sourceKey": "B",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ },
+ {
+  "id": "AEESET-036",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Environmental Science & Ecology",
+  "topic": "Ecosystem (AEE practice bank)",
+  "question": "Assertion (A): Cadmium and lead bioaccumulate to hazardous levels in top predators, whereas essential metals like iron do not biomagnify. Reason (R): Essential metals are homeostatically regulated and actively excreted, whereas non-essential xenobiotic metals lack excretory pathways and bind to tissue proteins.",
+  "options": [
+   "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+   "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+   "(A) is true, but (R) is false.",
+   "(A) is false, but (R) is true."
+  ],
+  "answerIndex": 0,
+  "explanation": "Essential metals are regulated homeostatically; non-essential metals bioaccumulate.",
+  "source": "AEE Examination — Ecosystem (Set A)",
+  "sourcePage": 36,
+  "sourceKey": "A",
+  "keyCheck": "source-key",
+  "note": "Third-party practice question with the author's printed key; not an official exam item."
+ }
+]

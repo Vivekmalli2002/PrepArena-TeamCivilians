@@ -78,6 +78,8 @@ def stream(pages, presplit=False):
 def clean(s):
     return re.sub(r"\s+\)", ")", re.sub(r"\s+", " ", s)).strip()
 
+WM = re.compile(r"(?:\b[A-Z][A-Za-z.&' ]{2,40}\s+\d{1,4}\s+)?Powered\s*by\s*TCPDF\s*\(www\.tcpdf\.org\)|\b(?:[A-Z][A-Za-z.&']+\s+){1,5}\d{1,4}\s+YCT\b|\bYCT\b|\bwww\.yct\w*\.com\b", re.I)
+
 def parse(text, prefix, presplit=False):
     pages = re.split(r"===== PAGE \d+ =====\n", text)[1:]
     st, gut = stream(pages, presplit)
@@ -99,6 +101,17 @@ def parse(text, prefix, presplit=False):
         am = ANS.search(seg)
         if am and re.search(r"\(\s*a\s*\)", seg[: am.start()]) and re.search(r"\(\s*b\s*\)", seg[: am.start()]):
             accepted.append(k)
+    # An accepted anchor that sits inside the previous question's stem (numbered statements "1. 2. 3." of a
+    # "Consider the following" question) is dropped: the previous block would otherwise have no answer.
+    kept = []
+    for k in accepted:
+        if kept:
+            pi = cands[kept[-1]][0]
+            between = "\n".join(l for _, l in st[pi:cands[k][0]])
+            if not ANS.search(between):
+                continue
+        kept.append(k)
+    accepted = kept
     blocks = []
     for pos, k in enumerate(accepted):
         i, n, endm = cands[k]
@@ -108,7 +121,7 @@ def parse(text, prefix, presplit=False):
     items, stats = [], Counter()
     for b in blocks:
         flags = []
-        full = "\n".join(b["lines"])
+        full = WM.sub(" ", "\n".join(b["lines"]))
         am = ANS.search(full)
         if not am:
             stats["no_answer"] += 1

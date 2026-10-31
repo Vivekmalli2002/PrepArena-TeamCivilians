@@ -187,7 +187,7 @@ authoredFiles.forEach((f, i) => {
 // stable integer ids from data/questions/_ids.json (append-only). Items whose answer key could not be confirmed
 // (see `keyCheck`) are published as "withdrawn" — kept for review, never shown in tests.
 const DATA = join(root, "data/questions");
-const FILE_SUBJECT = { "air-pollution": "env", "water-pollution": "env", "eia-legislation": "env", energy: "env", "indian-economy": "economy", "original-economy": "economy", "original-history": "history", "original-geography": "geography", "original-polity": "polity", "original-scitech": "scitech", "original-mental": "mental", "gate-es-ga": "mental", "gate-es-tech": "env", "civil-vol1": "civil-core", "civil-vol2": "civil-core" };
+const FILE_SUBJECT = { "air-pollution": "env", "water-pollution": "env", "eia-legislation": "env", energy: "env", "indian-economy": "economy", "original-economy": "economy", "original-history": "history", "original-geography": "geography", "original-polity": "polity", "original-scitech": "scitech", "original-mental": "mental", "gate-es-ga": "mental", "gate-es-tech": "env", "civil-vol1": "civil-core", "civil-vol2": "civil-core", "gs-indian-economy": "economy", "gs-ancient-medieval": "history", "gs-modern-india": "history", "gs-science-tech": "scitech", "gs-geography": "geography", "gs-environment": "env", "gs-civil-pyq": "civil-core", "eco200": "env", "aeeset": "env", "tspsc-g1-current": "current", "tspsc-g1-science": "scitech", "tspsc-g1-env": "env", "tspsc-g1-policies": "polity", "tspsc-g1-society": "society", "tspsc-g1-reasoning": "mental" };
 const TOPIC_UNIT = {
   "Photochemical smog": 4, "Plume dispersion & meteorology": 4, "Particulate & gaseous control devices": 4, "Noise pollution": 4,
   "Air quality standards & pollutant types": 4, "Air pollution calculations": 4, "Atmospheric chemistry & ozone": 6, "Greenhouse gases & climate": 6,
@@ -199,13 +199,15 @@ const TOPIC_UNIT = {
   "Hydropower & renewable energy": 3, "Coal & coalification": 3, "Petroleum & natural gas": 3, "Nuclear energy & radiation": 3, Biofuels: 3, "Energy statistics (India)": 3,
 };
 subjects.set("civil-core", { id: "civil-core", name: "Civil Engineering Core" });
+subjects.set("current", { id: "current", name: "Current Affairs" });
 const HOLD = new Set(["source-only", "conflict-trusted-explanation", "key-overridden-by-science", "time-sensitive", "source-key-as-printed", "auto-flagged"]);
 const idsFile = join(DATA, "_ids.json");
 const idMap = existsSync(idsFile) ? JSON.parse(readFileSync(idsFile, "utf8")) : {};
 let nextId = Math.max(100000, ...Object.values(idMap)) + 1;
 const structured = [];
 const structuredText = [];
-const knownQ = new Set([...corrected, ...authored].map((q) => normQ(q.question)));
+const qKey = (q) => normQ(q.question) + "|" + q.options.map(normO).join("|");
+const knownQ = new Set([...corrected, ...authored].map(qKey));
 let structuredHeld = 0;
 let structuredDup = 0;
 if (existsSync(DATA)) {
@@ -234,11 +236,11 @@ if (existsSync(DATA)) {
       if (HOLD.has(d.keyCheck)) {
         quarantine[q.id] = `Answer key not confirmed (${d.keyCheck}): ${d.flag ?? ""}`.trim();
         structuredHeld++;
-      } else if (knownQ.has(normQ(q.question))) {
-        duplicateOf[q.id] = [...corrected, ...authored, ...structured].find((x) => normQ(x.question) === normQ(q.question)).id;
+      } else if (knownQ.has(qKey(q))) {
+        duplicateOf[q.id] = [...corrected, ...authored, ...structured].find((x) => qKey(x) === qKey(q)).id;
         structuredDup++;
       }
-      knownQ.add(normQ(q.question));
+      knownQ.add(qKey(q));
     }
   }
   validate(structured, "data/questions");
