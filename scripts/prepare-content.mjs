@@ -187,7 +187,7 @@ authoredFiles.forEach((f, i) => {
 // stable integer ids from data/questions/_ids.json (append-only). Items whose answer key could not be confirmed
 // (see `keyCheck`) are published as "withdrawn" — kept for review, never shown in tests.
 const DATA = join(root, "data/questions");
-const FILE_SUBJECT = { "air-pollution": "env", "water-pollution": "env", "eia-legislation": "env", energy: "env", "indian-economy": "economy" };
+const FILE_SUBJECT = { "air-pollution": "env", "water-pollution": "env", "eia-legislation": "env", energy: "env", "indian-economy": "economy", "original-economy": "economy", "original-history": "history", "original-geography": "geography", "original-polity": "polity", "original-scitech": "scitech", "original-mental": "mental" };
 const TOPIC_UNIT = {
   "Photochemical smog": 4, "Plume dispersion & meteorology": 4, "Particulate & gaseous control devices": 4, "Noise pollution": 4,
   "Air quality standards & pollutant types": 4, "Air pollution calculations": 4, "Atmospheric chemistry & ozone": 6, "Greenhouse gases & climate": 6,

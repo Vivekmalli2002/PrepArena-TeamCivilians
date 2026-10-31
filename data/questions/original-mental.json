@@ -1,0 +1,860 @@
+[
+ {
+  "id": "ORG-MEN-001",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Percentages & profit-loss",
+  "question": "What is 25% of 120?",
+  "options": [
+   "30",
+   "32",
+   "26",
+   "42"
+  ],
+  "answerIndex": 0,
+  "explanation": "25% of 120 = 25/100 × 120 = 30.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-002",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Percentages & profit-loss",
+  "question": "What is 45% of 80?",
+  "options": [
+   "36",
+   "34",
+   "38",
+   "44"
+  ],
+  "answerIndex": 0,
+  "explanation": "45% of 80 = 45/100 × 80 = 36.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-003",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Percentages & profit-loss",
+  "question": "What is 75% of 80?",
+  "options": [
+   "62",
+   "58",
+   "68",
+   "60"
+  ],
+  "answerIndex": 3,
+  "explanation": "75% of 80 = 75/100 × 80 = 60.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-004",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Percentages & profit-loss",
+  "question": "What is 20% of 120?",
+  "options": [
+   "20",
+   "24",
+   "36",
+   "26"
+  ],
+  "answerIndex": 1,
+  "explanation": "20% of 120 = 20/100 × 120 = 24.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-005",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Percentages & profit-loss",
+  "question": "An article bought for ₹500 is sold at a profit of 15%. What is the selling price (in ₹)?",
+  "options": [
+   "650",
+   "575",
+   "350",
+   "425"
+  ],
+  "answerIndex": 1,
+  "explanation": "SP = 500 × (100 + 15)/100 = ₹575.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-006",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Percentages & profit-loss",
+  "question": "An article bought for ₹250 is sold at a profit of 10%. What is the selling price (in ₹)?",
+  "options": [
+   "225",
+   "300",
+   "275",
+   "200"
+  ],
+  "answerIndex": 2,
+  "explanation": "SP = 250 × (100 + 10)/100 = ₹275.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-007",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Percentages & profit-loss",
+  "question": "An article bought for ₹800 is sold at a profit of 10%. What is the selling price (in ₹)?",
+  "options": [
+   "880",
+   "960",
+   "640",
+   "720"
+  ],
+  "answerIndex": 0,
+  "explanation": "SP = 800 × (100 + 10)/100 = ₹880.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-008",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Percentages & profit-loss",
+  "question": "A shirt marked at ₹1000 is sold at a discount of 10%. What is the sale price (in ₹)?",
+  "options": [
+   "900",
+   "1100",
+   "1000",
+   "800"
+  ],
+  "answerIndex": 0,
+  "explanation": "Sale price = 1000 × (100 − 10)/100 = ₹900.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-009",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Percentages & profit-loss",
+  "question": "A shirt marked at ₹500 is sold at a discount of 10%. What is the sale price (in ₹)?",
+  "options": [
+   "550",
+   "450",
+   "500",
+   "400"
+  ],
+  "answerIndex": 1,
+  "explanation": "Sale price = 500 × (100 − 10)/100 = ₹450.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-010",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Ratio & proportion",
+  "question": "₹78 is divided between A and B in the ratio 5:8. What is A's share (in ₹)?",
+  "options": [
+   "36",
+   "30",
+   "42",
+   "24"
+  ],
+  "answerIndex": 1,
+  "explanation": "A's share = 78 × 5/(5+8) = ₹30.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-011",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Ratio & proportion",
+  "question": "₹104 is divided between A and B in the ratio 5:8. What is A's share (in ₹)?",
+  "options": [
+   "40",
+   "32",
+   "56",
+   "48"
+  ],
+  "answerIndex": 0,
+  "explanation": "A's share = 104 × 5/(5+8) = ₹40.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-012",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Ratio & proportion",
+  "question": "₹32 is divided between A and B in the ratio 3:5. What is A's share (in ₹)?",
+  "options": [
+   "16",
+   "20",
+   "12",
+   "8"
+  ],
+  "answerIndex": 2,
+  "explanation": "A's share = 32 × 3/(3+5) = ₹12.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-013",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Ratio & proportion",
+  "question": "Two numbers are in the ratio 3:4 and their sum is 42. What is the larger number?",
+  "options": [
+   "18",
+   "30",
+   "24",
+   "36"
+  ],
+  "answerIndex": 2,
+  "explanation": "Parts = 3+4; one part = 6; larger number = 4×6 = 24.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-014",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Ratio & proportion",
+  "question": "Two numbers are in the ratio 3:4 and their sum is 56. What is the larger number?",
+  "options": [
+   "32",
+   "40",
+   "24",
+   "48"
+  ],
+  "answerIndex": 0,
+  "explanation": "Parts = 3+4; one part = 8; larger number = 4×8 = 32.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-015",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Averages",
+  "question": "The average of 6 numbers is 24. If a new number 42 is added, what is the new average?",
+  "options": [
+   "28.07",
+   "25.57",
+   "27.57",
+   "26.57"
+  ],
+  "answerIndex": 3,
+  "explanation": "New average = (6×24 + 42)/7 = 26.57.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-016",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Averages",
+  "question": "The average of 6 numbers is 24. If a new number 36 is added, what is the new average?",
+  "options": [
+   "27.21",
+   "26.71",
+   "24.71",
+   "25.71"
+  ],
+  "answerIndex": 3,
+  "explanation": "New average = (6×24 + 36)/7 = 25.71.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-017",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Averages",
+  "question": "The average of 6 numbers is 18. If a new number 36 is added, what is the new average?",
+  "options": [
+   "19.57",
+   "21.57",
+   "20.57",
+   "22.07"
+  ],
+  "answerIndex": 2,
+  "explanation": "New average = (6×18 + 36)/7 = 20.57.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-018",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Time, speed & distance",
+  "question": "A train travels at 60 km/h for 4 hours. What distance does it cover (in km)?",
+  "options": [
+   "180",
+   "300",
+   "360",
+   "240"
+  ],
+  "answerIndex": 3,
+  "explanation": "Distance = speed × time = 60 × 4 = 240 km.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-019",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Time, speed & distance",
+  "question": "A train travels at 36 km/h for 4 hours. What distance does it cover (in km)?",
+  "options": [
+   "180",
+   "216",
+   "108",
+   "144"
+  ],
+  "answerIndex": 3,
+  "explanation": "Distance = speed × time = 36 × 4 = 144 km.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-020",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Time, speed & distance",
+  "question": "A train travels at 45 km/h for 2 hours. What distance does it cover (in km)?",
+  "options": [
+   "45",
+   "180",
+   "90",
+   "135"
+  ],
+  "answerIndex": 2,
+  "explanation": "Distance = speed × time = 45 × 2 = 90 km.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-021",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Time, speed & distance",
+  "question": "Convert 54 km/h into m/s.",
+  "options": [
+   "20",
+   "17",
+   "12",
+   "15"
+  ],
+  "answerIndex": 3,
+  "explanation": "1 km/h = 5/18 m/s, so 54 km/h = 54×5/18 = 15 m/s.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-022",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Time, speed & distance",
+  "question": "Convert 36 km/h into m/s.",
+  "options": [
+   "15",
+   "12",
+   "10",
+   "7"
+  ],
+  "answerIndex": 2,
+  "explanation": "1 km/h = 5/18 m/s, so 36 km/h = 36×5/18 = 10 m/s.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-023",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Time & work",
+  "question": "A can finish a job in 10 days and B in 15 days. Working together, in how many days will they finish it?",
+  "options": [
+   "6",
+   "8",
+   "5",
+   "7"
+  ],
+  "answerIndex": 0,
+  "explanation": "Combined rate = 1/10 + 1/15; time = 10×15/(10+15) = 6 days.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-024",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Time & work",
+  "question": "A can finish a job in 12 days and B in 24 days. Working together, in how many days will they finish it?",
+  "options": [
+   "8",
+   "7",
+   "9",
+   "10"
+  ],
+  "answerIndex": 0,
+  "explanation": "Combined rate = 1/12 + 1/24; time = 12×24/(12+24) = 8 days.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-025",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Time & work",
+  "question": "A can finish a job in 20 days and B in 30 days. Working together, in how many days will they finish it?",
+  "options": [
+   "12",
+   "13",
+   "14",
+   "11"
+  ],
+  "answerIndex": 0,
+  "explanation": "Combined rate = 1/20 + 1/30; time = 20×30/(20+30) = 12 days.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-026",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Time & work",
+  "question": "A can finish a job in 6 days and B in 12 days. Working together, in how many days will they finish it?",
+  "options": [
+   "4",
+   "5",
+   "3",
+   "6"
+  ],
+  "answerIndex": 0,
+  "explanation": "Combined rate = 1/6 + 1/12; time = 6×12/(6+12) = 4 days.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-027",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Number series",
+  "question": "Find the next number: 7, 13, 19, 25, 31, ?",
+  "options": [
+   "31",
+   "38",
+   "43",
+   "37"
+  ],
+  "answerIndex": 3,
+  "explanation": "Common difference = 6; next = 31 + 6 = 37.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-028",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Number series",
+  "question": "Find the next number: 3, 12, 21, 30, 39, ?",
+  "options": [
+   "48",
+   "39",
+   "57",
+   "49"
+  ],
+  "answerIndex": 0,
+  "explanation": "Common difference = 9; next = 39 + 9 = 48.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-029",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Number series",
+  "question": "Find the next number: 5, 14, 23, 32, 41, ?",
+  "options": [
+   "41",
+   "59",
+   "50",
+   "51"
+  ],
+  "answerIndex": 2,
+  "explanation": "Common difference = 9; next = 41 + 9 = 50.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-030",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Number series",
+  "question": "Find the next number: 2, 4, 8, 16, ?",
+  "options": [
+   "30",
+   "34",
+   "17",
+   "32"
+  ],
+  "answerIndex": 3,
+  "explanation": "Each term is multiplied by 2; next = 16 × 2 = 32.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-031",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Coding-decoding & clocks",
+  "question": "If CAT is coded as DBU (each letter shifted one place forward), how is MAP coded?",
+  "options": [
+   "OBQ",
+   "LZO",
+   "MAQ",
+   "NBQ"
+  ],
+  "answerIndex": 3,
+  "explanation": "Each letter moves one step forward: M→N, A→B, P→Q, so MAP → NBQ.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-032",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Coding-decoding & clocks",
+  "question": "If BOX is coded as CPY (each letter shifted one place forward), how is MAP coded?",
+  "options": [
+   "NBQ",
+   "MAQ",
+   "OBQ",
+   "LZO"
+  ],
+  "answerIndex": 0,
+  "explanation": "Each letter moves one step forward: M→N, A→B, P→Q, so MAP → NBQ.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-033",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Coding-decoding & clocks",
+  "question": "If SUN is coded as TVO (each letter shifted one place forward), how is MAP coded?",
+  "options": [
+   "OBQ",
+   "LZO",
+   "NBQ",
+   "MAQ"
+  ],
+  "answerIndex": 2,
+  "explanation": "Each letter moves one step forward: M→N, A→B, P→Q, so MAP → NBQ.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-034",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Coding-decoding & clocks",
+  "question": "What is the angle between the hour and minute hands of a clock at 3:00?",
+  "options": [
+   "90°",
+   "150°",
+   "60°",
+   "120°"
+  ],
+  "answerIndex": 0,
+  "explanation": "Angle = |30h − 5.5m| = |30×3 − 5.5×0| = 90°.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-035",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Coding-decoding & clocks",
+  "question": "What is the angle between the hour and minute hands of a clock at 6:00?",
+  "options": [
+   "210°",
+   "180°",
+   "240°",
+   "150°"
+  ],
+  "answerIndex": 1,
+  "explanation": "Angle = |30h − 5.5m| = |30×6 − 5.5×0| = 180°.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-036",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Coding-decoding & clocks",
+  "question": "What is the angle between the hour and minute hands of a clock at 9:00?",
+  "options": [
+   "120°",
+   "90°",
+   "150°",
+   "60°"
+  ],
+  "answerIndex": 1,
+  "explanation": "Angle = |30h − 5.5m| = |30×9 − 5.5×0| = 90°.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-037",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Coding-decoding & clocks",
+  "question": "What is the angle between the hour and minute hands of a clock at 4:00?",
+  "options": [
+   "90°",
+   "120°",
+   "150°",
+   "180°"
+  ],
+  "answerIndex": 1,
+  "explanation": "Angle = |30h − 5.5m| = |30×4 − 5.5×0| = 120°.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-038",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Simple & compound interest",
+  "question": "What is the simple interest on ₹2000 at 5% per annum for 4 years (in ₹)?",
+  "options": [
+   "500",
+   "300",
+   "600",
+   "400"
+  ],
+  "answerIndex": 3,
+  "explanation": "SI = P×R×T/100 = 2000×5×4/100 = ₹400.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-MEN-039",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "mental",
+  "topic": "Simple & compound interest",
+  "question": "What is the compound interest on ₹10,000 at 10% per annum for 2 years, compounded annually (in ₹)?",
+  "options": [
+   "2000",
+   "2200",
+   "2300",
+   "2100"
+  ],
+  "answerIndex": 3,
+  "explanation": "Amount = 10000 × (1.1)² = ₹12,100, so CI = ₹2,100.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ }
+]

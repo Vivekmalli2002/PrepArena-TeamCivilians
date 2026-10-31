@@ -1,0 +1,860 @@
+[
+ {
+  "id": "ORG-SCI-001",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Space technology (ISRO)",
+  "question": "The headquarters of ISRO is at",
+  "options": [
+   "Bengaluru",
+   "Thiruvananthapuram",
+   "Sriharikota",
+   "Hyderabad"
+  ],
+  "answerIndex": 0,
+  "explanation": "ISRO is headquartered in Bengaluru.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-002",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Space technology (ISRO)",
+  "question": "India's first satellite, launched in 1975, was",
+  "options": [
+   "Rohini",
+   "INSAT-1A",
+   "Aryabhata",
+   "Bhaskara"
+  ],
+  "answerIndex": 2,
+  "explanation": "Aryabhata was launched on 19 April 1975 with a Soviet rocket.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-003",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Space technology (ISRO)",
+  "question": "Who is regarded as the father of the Indian space programme?",
+  "options": [
+   "Vikram Sarabhai",
+   "A.P.J. Abdul Kalam",
+   "Satish Dhawan",
+   "Homi Bhabha"
+  ],
+  "answerIndex": 0,
+  "explanation": "Vikram Sarabhai founded ISRO's precursor INCOSPAR in 1962.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-004",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Space technology (ISRO)",
+  "question": "Chandrayaan-3 landed near the lunar south polar region in",
+  "options": [
+   "July 2019",
+   "February 2017",
+   "September 2008",
+   "August 2023"
+  ],
+  "answerIndex": 3,
+  "explanation": "The Vikram lander touched down on 23 August 2023.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-005",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Space technology (ISRO)",
+  "question": "India's first Mars mission, the Mars Orbiter Mission, was launched in",
+  "options": [
+   "2017",
+   "2020",
+   "2013",
+   "2008"
+  ],
+  "answerIndex": 2,
+  "explanation": "MOM (Mangalyaan) was launched on 5 November 2013 and entered Mars orbit in September 2014.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-006",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Space technology (ISRO)",
+  "question": "Aditya-L1, India's solar observatory mission, was launched in",
+  "options": [
+   "September 2023",
+   "January 2019",
+   "November 2013",
+   "May 2010"
+  ],
+  "answerIndex": 0,
+  "explanation": "Aditya-L1 launched on 2 September 2023 towards the Sun–Earth L1 point.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-007",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Space technology (ISRO)",
+  "question": "India's satellite navigation system is called",
+  "options": [
+   "NavIC",
+   "Galileo",
+   "GLONASS",
+   "GPS"
+  ],
+  "answerIndex": 0,
+  "explanation": "NavIC (Navigation with Indian Constellation) is India's regional navigation system.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-008",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Space technology (ISRO)",
+  "question": "The launch vehicle PSLV stands for",
+  "options": [
+   "Polar Satellite Launch Vehicle",
+   "Planetary Satellite Launch Vehicle",
+   "Primary Satellite Launch Vehicle",
+   "Powered Space Lift Vehicle"
+  ],
+  "answerIndex": 0,
+  "explanation": "PSLV is ISRO's workhorse launcher.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-009",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Space technology (ISRO)",
+  "question": "Satellites in geostationary orbit orbit at about",
+  "options": [
+   "400 km",
+   "2,000 km",
+   "36,000 km above the equator",
+   "100,000 km"
+  ],
+  "answerIndex": 2,
+  "explanation": "A geostationary orbit is about 35,786 km above the equator.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-010",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Defence & missiles (DRDO)",
+  "question": "The surface-to-surface ballistic missile series developed by DRDO under IGMDP includes",
+  "options": [
+   "Prithvi and Agni",
+   "Patriot",
+   "Scud",
+   "BrahMos only"
+  ],
+  "answerIndex": 0,
+  "explanation": "Prithvi and Agni were developed under the Integrated Guided Missile Development Programme.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-011",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Defence & missiles (DRDO)",
+  "question": "BrahMos is a supersonic cruise missile developed jointly with",
+  "options": [
+   "Russia",
+   "Israel",
+   "USA",
+   "France"
+  ],
+  "answerIndex": 0,
+  "explanation": "BrahMos is a joint venture between DRDO and Russia's NPO Mashinostroyeniya.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-012",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Defence & missiles (DRDO)",
+  "question": "Who is known as the 'Missile Man of India'?",
+  "options": [
+   "C.V. Raman",
+   "Vikram Sarabhai",
+   "Homi Bhabha",
+   "A.P.J. Abdul Kalam"
+  ],
+  "answerIndex": 3,
+  "explanation": "A.P.J. Abdul Kalam led India's missile programmes.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-013",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Nuclear technology",
+  "question": "India's first nuclear power station was at",
+  "options": [
+   "Kudankulam",
+   "Kalpakkam",
+   "Tarapur",
+   "Narora"
+  ],
+  "answerIndex": 2,
+  "explanation": "Tarapur (Maharashtra) was commissioned in 1969.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-014",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Nuclear technology",
+  "question": "Which Indian nuclear research centre is at Trombay?",
+  "options": [
+   "Indira Gandhi Centre for Atomic Research",
+   "Variable Energy Cyclotron Centre",
+   "Raja Ramanna Centre",
+   "Bhabha Atomic Research Centre"
+  ],
+  "answerIndex": 3,
+  "explanation": "BARC is located at Trombay, Mumbai.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-015",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Nuclear technology",
+  "question": "India's second nuclear test series, Pokhran-II, was conducted in",
+  "options": [
+   "1998",
+   "1988",
+   "2003",
+   "1974"
+  ],
+  "answerIndex": 0,
+  "explanation": "Pokhran-II took place in May 1998; the first test (Smiling Buddha) was in 1974.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-016",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Health, nutrition & diseases",
+  "question": "Deficiency of Vitamin C causes",
+  "options": [
+   "Beriberi",
+   "Night blindness",
+   "Scurvy",
+   "Rickets"
+  ],
+  "answerIndex": 2,
+  "explanation": "Scurvy results from vitamin C deficiency.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-017",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Health, nutrition & diseases",
+  "question": "Deficiency of Vitamin D causes",
+  "options": [
+   "Pellagra",
+   "Rickets",
+   "Anaemia",
+   "Scurvy"
+  ],
+  "answerIndex": 1,
+  "explanation": "Vitamin D deficiency causes rickets in children.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-018",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Health, nutrition & diseases",
+  "question": "Deficiency of iodine causes",
+  "options": [
+   "Anaemia",
+   "Rickets",
+   "Goitre",
+   "Scurvy"
+  ],
+  "answerIndex": 2,
+  "explanation": "Iodine deficiency leads to enlargement of the thyroid (goitre).",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-019",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Health, nutrition & diseases",
+  "question": "Malaria is spread by the female",
+  "options": [
+   "Aedes mosquito",
+   "Anopheles mosquito",
+   "Tsetse fly",
+   "Culex mosquito"
+  ],
+  "answerIndex": 1,
+  "explanation": "The Plasmodium parasite is transmitted by the female Anopheles.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-020",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Health, nutrition & diseases",
+  "question": "Dengue is transmitted by the",
+  "options": [
+   "Anopheles mosquito",
+   "Sandfly",
+   "Aedes mosquito",
+   "Housefly"
+  ],
+  "answerIndex": 2,
+  "explanation": "Aedes aegypti transmits dengue.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-021",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Health, nutrition & diseases",
+  "question": "The BCG vaccine protects against",
+  "options": [
+   "Tuberculosis",
+   "Polio",
+   "Hepatitis B",
+   "Typhoid"
+  ],
+  "answerIndex": 0,
+  "explanation": "BCG (Bacillus Calmette–Guérin) is the tuberculosis vaccine.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-022",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Health, nutrition & diseases",
+  "question": "Insulin is secreted by the",
+  "options": [
+   "Kidney",
+   "Thyroid",
+   "Liver",
+   "Pancreas"
+  ],
+  "answerIndex": 3,
+  "explanation": "Beta cells of the islets of Langerhans in the pancreas secrete insulin.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-023",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Health, nutrition & diseases",
+  "question": "The ABO blood group system was discovered by",
+  "options": [
+   "Edward Jenner",
+   "Robert Koch",
+   "Karl Landsteiner",
+   "Louis Pasteur"
+  ],
+  "answerIndex": 2,
+  "explanation": "Landsteiner discovered the ABO blood groups in 1900–01.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-024",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Physics",
+  "question": "The SI unit of force is the",
+  "options": [
+   "Pascal",
+   "Newton",
+   "Joule",
+   "Watt"
+  ],
+  "answerIndex": 1,
+  "explanation": "One newton is the force that gives 1 kg an acceleration of 1 m/s².",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-025",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Physics",
+  "question": "Sound cannot travel through",
+  "options": [
+   "Water",
+   "Steel",
+   "Air",
+   "A vacuum"
+  ],
+  "answerIndex": 3,
+  "explanation": "Sound needs a material medium.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-026",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Physics",
+  "question": "The speed of light in vacuum is approximately",
+  "options": [
+   "3 × 10¹⁰ m/s",
+   "3 × 10⁶ m/s",
+   "3 × 10⁸ m/s",
+   "3 × 10⁴ m/s"
+  ],
+  "answerIndex": 2,
+  "explanation": "c ≈ 3 × 10⁸ m/s.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-027",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Physics",
+  "question": "Ohm's law relates voltage, current and",
+  "options": [
+   "Power",
+   "Resistance",
+   "Frequency",
+   "Capacitance"
+  ],
+  "answerIndex": 1,
+  "explanation": "V = IR.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-028",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Chemistry",
+  "question": "The chemical formula of baking soda is",
+  "options": [
+   "NaOH",
+   "Na₂CO₃",
+   "NaHCO₃",
+   "CaCO₃"
+  ],
+  "answerIndex": 2,
+  "explanation": "Baking soda is sodium bicarbonate.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-029",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Chemistry",
+  "question": "Which gas is called a noble gas?",
+  "options": [
+   "Nitrogen",
+   "Helium",
+   "Hydrogen",
+   "Oxygen"
+  ],
+  "answerIndex": 1,
+  "explanation": "Helium belongs to Group 18.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-030",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Chemistry",
+  "question": "Bleaching powder is chemically",
+  "options": [
+   "Calcium sulphate",
+   "Sodium chloride",
+   "Calcium carbonate",
+   "Calcium oxychloride (CaOCl₂)"
+  ],
+  "answerIndex": 3,
+  "explanation": "Bleaching powder is CaOCl₂, made by passing chlorine over slaked lime.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-031",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Chemistry",
+  "question": "Acid rain is mainly caused by oxides of",
+  "options": [
+   "Calcium and magnesium",
+   "Carbon and hydrogen",
+   "Sulphur and nitrogen",
+   "Argon and neon"
+  ],
+  "answerIndex": 2,
+  "explanation": "SO₂ and NOx form sulphuric and nitric acids in the atmosphere.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-032",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Biology & environment",
+  "question": "The powerhouse of the cell is the",
+  "options": [
+   "Golgi body",
+   "Nucleus",
+   "Ribosome",
+   "Mitochondrion"
+  ],
+  "answerIndex": 3,
+  "explanation": "Mitochondria generate most of the cell's ATP.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-033",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Biology & environment",
+  "question": "The double helix structure of DNA was proposed by",
+  "options": [
+   "Pasteur and Koch",
+   "Mendel and Darwin",
+   "Hershey and Chase",
+   "Watson and Crick"
+  ],
+  "answerIndex": 3,
+  "explanation": "James Watson and Francis Crick proposed it in 1953.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-034",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Biology & environment",
+  "question": "Photosynthesis takes place mainly in the",
+  "options": [
+   "Vacuoles",
+   "Chloroplasts",
+   "Mitochondria",
+   "Lysosomes"
+  ],
+  "answerIndex": 1,
+  "explanation": "Chloroplasts contain chlorophyll for photosynthesis.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-035",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "Biology & environment",
+  "question": "The ozone layer protects life on Earth by absorbing",
+  "options": [
+   "Infrared radiation",
+   "Ultraviolet radiation",
+   "Radio waves",
+   "Visible light"
+  ],
+  "answerIndex": 1,
+  "explanation": "Stratospheric ozone absorbs harmful UV-B and UV-C.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-036",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "ICT & digital India",
+  "question": "Who is credited with inventing the World Wide Web?",
+  "options": [
+   "Vint Cerf",
+   "Tim Berners-Lee",
+   "Steve Jobs",
+   "Bill Gates"
+  ],
+  "answerIndex": 1,
+  "explanation": "Tim Berners-Lee invented the Web in 1989–91 at CERN.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-037",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "ICT & digital India",
+  "question": "One byte is equal to",
+  "options": [
+   "8 bits",
+   "4 bits",
+   "16 bits",
+   "10 bits"
+  ],
+  "answerIndex": 0,
+  "explanation": "A byte consists of eight bits.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-038",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "ICT & digital India",
+  "question": "The authority that issues Aadhaar numbers is the",
+  "options": [
+   "TRAI",
+   "UIDAI",
+   "NPCI",
+   "RBI"
+  ],
+  "answerIndex": 1,
+  "explanation": "The Unique Identification Authority of India issues Aadhaar.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-SCI-039",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "scitech",
+  "topic": "ICT & digital India",
+  "question": "The Digital India programme was launched in",
+  "options": [
+   "2010",
+   "2005",
+   "2015",
+   "2019"
+  ],
+  "answerIndex": 2,
+  "explanation": "Digital India was launched on 1 July 2015.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ }
+]
