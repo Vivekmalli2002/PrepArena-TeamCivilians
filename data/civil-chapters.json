@@ -1,0 +1,960 @@
+[
+ {
+  "n": 1,
+  "name": "Engineering Mechanics",
+  "chapters": [
+   {
+    "name": "Engineering Mechanics",
+    "group": null
+   }
+  ]
+ },
+ {
+  "n": 2,
+  "name": "Strength of Materials",
+  "chapters": [
+   {
+    "name": "Simple Stresses and Strains (Elastic Constants and their relationship; Linear and volumetric changes of bodies; Thermal Stresses)",
+    "group": null
+   },
+   {
+    "name": "Complex Stresses and Strains",
+    "group": null
+   },
+   {
+    "name": "Shear Force and Bending Moment",
+    "group": null
+   },
+   {
+    "name": "Centre of Gravity and Moment of Inertia",
+    "group": null
+   },
+   {
+    "name": "Theory of Simple Bending",
+    "group": null
+   },
+   {
+    "name": "Shear Stress Distribution in Beams",
+    "group": null
+   },
+   {
+    "name": "Torsion",
+    "group": null
+   },
+   {
+    "name": "Springs",
+    "group": null
+   },
+   {
+    "name": "Slopes and Deflection",
+    "group": null
+   },
+   {
+    "name": "Thin Cylinders",
+    "group": null
+   },
+   {
+    "name": "Columns and Struts",
+    "group": null
+   },
+   {
+    "name": "Strain Energy and Resilience",
+    "group": null
+   },
+   {
+    "name": "Propped Beams and Fixed Beams",
+    "group": null
+   },
+   {
+    "name": "Shear Centre and Unsymmetric Bending",
+    "group": null
+   },
+   {
+    "name": "Theories of Failures",
+    "group": null
+   },
+   {
+    "name": "Miscellaneous",
+    "group": null
+   }
+  ]
+ },
+ {
+  "n": 3,
+  "name": "Fluid Mechanics",
+  "chapters": [
+   {
+    "name": "Properties of Fluids",
+    "group": null
+   },
+   {
+    "name": "Pressure Measurement and Fluid Statics",
+    "group": null
+   },
+   {
+    "name": "Buoyancy and Metacentric Height",
+    "group": null
+   },
+   {
+    "name": "Fluid Kinematics",
+    "group": null
+   },
+   {
+    "name": "Energy Equation and Its Applications",
+    "group": null
+   },
+   {
+    "name": "Momentum Equation and Its Applications",
+    "group": null
+   },
+   {
+    "name": "Flow Through Pipes",
+    "group": null
+   },
+   {
+    "name": "Laminar Flow",
+    "group": null
+   },
+   {
+    "name": "Elementary Turbulent Flow",
+    "group": null
+   },
+   {
+    "name": "Flow Through Orifices and Mouthpieces",
+    "group": null
+   },
+   {
+    "name": "Flow Over Notches and Weirs",
+    "group": null
+   },
+   {
+    "name": "Compressible Flow",
+    "group": null
+   },
+   {
+    "name": "Dimensional Analysis",
+    "group": null
+   },
+   {
+    "name": "Open Channel Flow",
+    "group": null
+   },
+   {
+    "name": "Boundary Layer Theory, Drag and Lift",
+    "group": null
+   },
+   {
+    "name": "Miscellaneous",
+    "group": null
+   }
+  ]
+ },
+ {
+  "n": 4,
+  "name": "Hydraulic Machines",
+  "chapters": [
+   {
+    "name": "Introduction to Hydraulic Machines",
+    "group": null
+   },
+   {
+    "name": "Hydro-Electric Power Plant",
+    "group": null
+   },
+   {
+    "name": "Water Turbines (Impulse Turbines)",
+    "group": null
+   },
+   {
+    "name": "Reaction Turbines (Francis and Kaplan Turbines)",
+    "group": null
+   },
+   {
+    "name": "Governing of Turbines",
+    "group": null
+   },
+   {
+    "name": "Specific Speed and Performance of Turbines",
+    "group": null
+   },
+   {
+    "name": "Cavitation in Turbines",
+    "group": null
+   },
+   {
+    "name": "Centrifugal Pumps",
+    "group": null
+   },
+   {
+    "name": "Reciprocating Pumps",
+    "group": null
+   },
+   {
+    "name": "Miscellaneous Pumps",
+    "group": null
+   },
+   {
+    "name": "Hydraulic Directional Control Valves",
+    "group": null
+   },
+   {
+    "name": "Hydraulic Pressure Control Valves",
+    "group": null
+   }
+  ]
+ },
+ {
+  "n": 5,
+  "name": "Building Materials",
+  "chapters": [
+   {
+    "name": "Cement",
+    "group": null
+   },
+   {
+    "name": "Aggregates",
+    "group": null
+   },
+   {
+    "name": "Concrete",
+    "group": null
+   },
+   {
+    "name": "Cement Mortar",
+    "group": null
+   },
+   {
+    "name": "Timber",
+    "group": null
+   },
+   {
+    "name": "Bricks",
+    "group": null
+   },
+   {
+    "name": "Bricks Masonry",
+    "group": null
+   },
+   {
+    "name": "Stones",
+    "group": null
+   },
+   {
+    "name": "Paints",
+    "group": null
+   },
+   {
+    "name": "Tiles",
+    "group": null
+   },
+   {
+    "name": "Miscellaneous",
+    "group": null
+   }
+  ]
+ },
+ {
+  "n": 6,
+  "name": "Structural Analysis",
+  "chapters": [
+   {
+    "name": "Introduction to Structures and Static Indeterminacy",
+    "group": null
+   },
+   {
+    "name": "Kinematic Indeterminacy",
+    "group": null
+   },
+   {
+    "name": "Analysis of Trusses (Determinate)",
+    "group": null
+   },
+   {
+    "name": "Basic Methods of Structural Analysis",
+    "group": null
+   },
+   {
+    "name": "Strain Energy Methods",
+    "group": null
+   },
+   {
+    "name": "Moment Distribution Method",
+    "group": null
+   },
+   {
+    "name": "Slope Deflection Method",
+    "group": null
+   },
+   {
+    "name": "Kani's Method",
+    "group": null
+   },
+   {
+    "name": "Moving Loads and Influence Lines",
+    "group": null
+   },
+   {
+    "name": "Arches and Suspension Bridges",
+    "group": null
+   },
+   {
+    "name": "Matrix Method",
+    "group": null
+   },
+   {
+    "name": "Plastic Theory",
+    "group": null
+   },
+   {
+    "name": "Column Analogy Method",
+    "group": null
+   }
+  ]
+ },
+ {
+  "n": 7,
+  "name": "Reinforced Cement Concrete",
+  "chapters": [
+   {
+    "name": "Materials, Workmanship, Inspection and Testing",
+    "group": null
+   },
+   {
+    "name": "Limit State Design Method – Fundamentals",
+    "group": null
+   },
+   {
+    "name": "Limit State – Singly Reinforced Sections",
+    "group": null
+   },
+   {
+    "name": "Basic Concepts – Working Stress",
+    "group": null
+   },
+   {
+    "name": "Doubly Reinforced Beams – LSM",
+    "group": null
+   },
+   {
+    "name": "Doubly Reinforced Beams – WSM",
+    "group": null
+   },
+   {
+    "name": "Limit State Design – Flanged Beams",
+    "group": null
+   },
+   {
+    "name": "Limit State of Collapse – Shear",
+    "group": null
+   },
+   {
+    "name": "Bond Limit State and Working Stress",
+    "group": null
+   },
+   {
+    "name": "Limit State of Collapse – Torsion",
+    "group": null
+   },
+   {
+    "name": "Slabs",
+    "group": null
+   },
+   {
+    "name": "Limit State of Collapse – Compression",
+    "group": null
+   },
+   {
+    "name": "Footings",
+    "group": null
+   },
+   {
+    "name": "Limit State of Serviceability",
+    "group": null
+   },
+   {
+    "name": "Fundamentals of Prestressed Concrete",
+    "group": null
+   },
+   {
+    "name": "Analysis of Prestressed Concrete Members",
+    "group": null
+   },
+   {
+    "name": "Losses in Prestressed Concrete",
+    "group": null
+   },
+   {
+    "name": "Miscellaneous",
+    "group": null
+   }
+  ]
+ },
+ {
+  "n": 8,
+  "name": "Design of Steel Structures",
+  "chapters": [
+   {
+    "name": "Materials and Specifications",
+    "group": null
+   },
+   {
+    "name": "Riveted and Bolted Connections",
+    "group": null
+   },
+   {
+    "name": "Welded Connections",
+    "group": null
+   },
+   {
+    "name": "Eccentric Connections",
+    "group": null
+   },
+   {
+    "name": "Tension Members",
+    "group": null
+   },
+   {
+    "name": "Compression Members",
+    "group": null
+   },
+   {
+    "name": "Column Bases and Column Splices",
+    "group": null
+   },
+   {
+    "name": "Beams",
+    "group": null
+   },
+   {
+    "name": "Plate Girders",
+    "group": null
+   },
+   {
+    "name": "Gantry Girders",
+    "group": null
+   },
+   {
+    "name": "Roof Trusses",
+    "group": null
+   }
+  ]
+ },
+ {
+  "n": 9,
+  "name": "Construction Planning & Management",
+  "chapters": [
+   {
+    "name": "Introduction to Project Management",
+    "group": null
+   },
+   {
+    "name": "PERT",
+    "group": null
+   },
+   {
+    "name": "CPM",
+    "group": null
+   },
+   {
+    "name": "CPM Cost Analysis",
+    "group": null
+   },
+   {
+    "name": "Valuation",
+    "group": null
+   }
+  ]
+ },
+ {
+  "n": 10,
+  "name": "Geotechnical Engineering",
+  "chapters": [
+   {
+    "name": "Origin of Soils",
+    "group": null
+   },
+   {
+    "name": "Definitions and Properties of Soils",
+    "group": null
+   },
+   {
+    "name": "Soil Structures and Clay Mineralogy",
+    "group": null
+   },
+   {
+    "name": "Index Properties of Soils",
+    "group": null
+   },
+   {
+    "name": "Soil Classification",
+    "group": null
+   },
+   {
+    "name": "Permeability",
+    "group": null
+   },
+   {
+    "name": "Effective Stress",
+    "group": null
+   },
+   {
+    "name": "Seepage Pressure and Critical Hydraulic Gradient",
+    "group": null
+   },
+   {
+    "name": "Seepage Analysis",
+    "group": null
+   },
+   {
+    "name": "Stress Distribution",
+    "group": null
+   },
+   {
+    "name": "Consolidation",
+    "group": null
+   },
+   {
+    "name": "Compaction",
+    "group": null
+   },
+   {
+    "name": "Shear Strength",
+    "group": null
+   },
+   {
+    "name": "Earth Pressure",
+    "group": null
+   },
+   {
+    "name": "Stability of Slopes",
+    "group": null
+   },
+   {
+    "name": "Bearing Capacity",
+    "group": null
+   },
+   {
+    "name": "Pile Foundation",
+    "group": null
+   },
+   {
+    "name": "Soil Exploration",
+    "group": null
+   },
+   {
+    "name": "Sheet Piles",
+    "group": null
+   },
+   {
+    "name": "Foundations in Expansive Soils",
+    "group": null
+   }
+  ]
+ },
+ {
+  "n": 11,
+  "name": "Environmental Engineering",
+  "chapters": [
+   {
+    "name": "Population Forecasting and Water Demands",
+    "group": "Water Supply Engineering"
+   },
+   {
+    "name": "Sources and Conveyance of Water",
+    "group": "Water Supply Engineering"
+   },
+   {
+    "name": "Quality of Water",
+    "group": "Water Supply Engineering"
+   },
+   {
+    "name": "Plain Sedimentation",
+    "group": "Water Supply Engineering"
+   },
+   {
+    "name": "Coagulation",
+    "group": "Water Supply Engineering"
+   },
+   {
+    "name": "Filtration",
+    "group": "Water Supply Engineering"
+   },
+   {
+    "name": "Disinfection",
+    "group": "Water Supply Engineering"
+   },
+   {
+    "name": "Miscellaneous Water Treatment",
+    "group": "Water Supply Engineering"
+   },
+   {
+    "name": "Distribution System",
+    "group": "Water Supply Engineering"
+   },
+   {
+    "name": "Water Supply Arrangements",
+    "group": "Water Supply Engineering"
+   },
+   {
+    "name": "Introduction to Waste Water Engineering and Estimation of DWF & WWF",
+    "group": "Waste Water Engineering"
+   },
+   {
+    "name": "Design of Sewers",
+    "group": "Waste Water Engineering"
+   },
+   {
+    "name": "Characteristics of Sewage",
+    "group": "Waste Water Engineering"
+   },
+   {
+    "name": "Treatment of Sewage",
+    "group": "Waste Water Engineering"
+   },
+   {
+    "name": "Sludge Digestion",
+    "group": "Waste Water Engineering"
+   },
+   {
+    "name": "Septic Tanks",
+    "group": "Waste Water Engineering"
+   },
+   {
+    "name": "Trickling Filters",
+    "group": "Waste Water Engineering"
+   },
+   {
+    "name": "Activated Sludge Process",
+    "group": "Waste Water Engineering"
+   },
+   {
+    "name": "Oxidation Ponds",
+    "group": "Waste Water Engineering"
+   },
+   {
+    "name": "Disposal of Sewage Effluents",
+    "group": "Waste Water Engineering"
+   },
+   {
+    "name": "Solid Waste Management",
+    "group": "Waste Water Engineering"
+   },
+   {
+    "name": "Air Pollution and Control",
+    "group": "Waste Water Engineering"
+   },
+   {
+    "name": "House Drainage Arrangements in Buildings",
+    "group": "Waste Water Engineering"
+   },
+   {
+    "name": "Noise Pollution",
+    "group": "Waste Water Engineering"
+   },
+   {
+    "name": "Environmental Impact Assessments",
+    "group": "Waste Water Engineering"
+   }
+  ]
+ },
+ {
+  "n": 12,
+  "name": "Hydrology",
+  "chapters": [
+   {
+    "name": "Precipitation",
+    "group": null
+   },
+   {
+    "name": "Mean Precipitation Calculation",
+    "group": null
+   },
+   {
+    "name": "Frequency of Point Rainfall and Probability",
+    "group": null
+   },
+   {
+    "name": "Evaporation and Evapotranspiration",
+    "group": null
+   },
+   {
+    "name": "Infiltration",
+    "group": null
+   },
+   {
+    "name": "Runoff",
+    "group": null
+   },
+   {
+    "name": "Catchment and Its Characteristics",
+    "group": null
+   },
+   {
+    "name": "Hydrographs",
+    "group": null
+   },
+   {
+    "name": "Maximum Flood Estimation",
+    "group": null
+   },
+   {
+    "name": "Flood Routing",
+    "group": null
+   },
+   {
+    "name": "Well Hydraulics",
+    "group": null
+   },
+   {
+    "name": "River Gauging",
+    "group": null
+   }
+  ]
+ },
+ {
+  "n": 13,
+  "name": "Irrigation",
+  "chapters": [
+   {
+    "name": "Water Requirements of Crops",
+    "group": null
+   },
+   {
+    "name": "Methods of Irrigation",
+    "group": null
+   },
+   {
+    "name": "Spillways",
+    "group": null
+   },
+   {
+    "name": "Dams",
+    "group": null
+   },
+   {
+    "name": "Diversion Head Works",
+    "group": null
+   },
+   {
+    "name": "Design of Unlined Alluvial Canals by Silt Theories",
+    "group": null
+   },
+   {
+    "name": "Cross Drainage Works",
+    "group": null
+   },
+   {
+    "name": "Canal Regulation Works",
+    "group": null
+   },
+   {
+    "name": "Canals",
+    "group": null
+   },
+   {
+    "name": "Water Logging and Land Drainage",
+    "group": null
+   },
+   {
+    "name": "Quality of Irrigation Water and Sodic Soils",
+    "group": null
+   },
+   {
+    "name": "Power Plants",
+    "group": null
+   }
+  ]
+ },
+ {
+  "n": 14,
+  "name": "Surveying",
+  "chapters": [
+   {
+    "name": "Fundamental Concepts",
+    "group": null
+   },
+   {
+    "name": "Linear Measurements Including Chain Survey",
+    "group": null
+   },
+   {
+    "name": "Compass Survey",
+    "group": null
+   },
+   {
+    "name": "Theodolite Survey",
+    "group": null
+   },
+   {
+    "name": "Traverse Surveying and Omitted Measurements",
+    "group": null
+   },
+   {
+    "name": "Levelling",
+    "group": null
+   },
+   {
+    "name": "Curves",
+    "group": null
+   },
+   {
+    "name": "Tacheometry",
+    "group": null
+   },
+   {
+    "name": "Contours",
+    "group": null
+   },
+   {
+    "name": "Areas and Volumes",
+    "group": null
+   },
+   {
+    "name": "Plane Table Survey",
+    "group": null
+   },
+   {
+    "name": "Field Astronomy",
+    "group": null
+   },
+   {
+    "name": "Global Positioning System",
+    "group": null
+   },
+   {
+    "name": "Photogrammetric Surveying",
+    "group": null
+   },
+   {
+    "name": "Remote Sensing",
+    "group": null
+   },
+   {
+    "name": "Theory of Errors and Adjustments",
+    "group": null
+   },
+   {
+    "name": "Total Station",
+    "group": null
+   }
+  ]
+ },
+ {
+  "n": 15,
+  "name": "Transportation Engineering",
+  "chapters": [
+   {
+    "name": "Highway Development and Planning",
+    "group": null
+   },
+   {
+    "name": "Highway Alignment and Surveys",
+    "group": null
+   },
+   {
+    "name": "Highway Geometric Design – Basic Elements",
+    "group": null
+   },
+   {
+    "name": "Highway Geometric Design – Gradients",
+    "group": null
+   },
+   {
+    "name": "Highway Geometric Design – Sight Distances",
+    "group": null
+   },
+   {
+    "name": "Highway Geometric Design – Horizontal Curves",
+    "group": null
+   },
+   {
+    "name": "Horizontal Curves (Extra Widening)",
+    "group": null
+   },
+   {
+    "name": "Highway Geometric Design – Transition Curves",
+    "group": null
+   },
+   {
+    "name": "Highway Geometric Design – Summit Curves",
+    "group": null
+   },
+   {
+    "name": "Highway Geometric Design – Valley Curves",
+    "group": null
+   },
+   {
+    "name": "Highway Materials and Testing",
+    "group": null
+   },
+   {
+    "name": "Flexible Pavements",
+    "group": null
+   },
+   {
+    "name": "Rigid Pavements",
+    "group": null
+   },
+   {
+    "name": "Traffic Engineering",
+    "group": null
+   },
+   {
+    "name": "Highway Construction and Maintenance",
+    "group": null
+   },
+   {
+    "name": "Railway Engineering",
+    "group": null
+   },
+   {
+    "name": "Airport Engineering",
+    "group": null
+   }
+  ]
+ },
+ {
+  "n": 16,
+  "name": "Geology",
+  "chapters": [
+   {
+    "name": "Geology (only for TGPSC)",
+    "group": null
+   }
+  ]
+ },
+ {
+  "n": 17,
+  "name": "Estimation, Costing & Valuation",
+  "chapters": [
+   {
+    "name": "Types of Estimation",
+    "group": null
+   },
+   {
+    "name": "General Specification of Civil Works",
+    "group": null
+   },
+   {
+    "name": "Estimation of Civil Works",
+    "group": null
+   },
+   {
+    "name": "Schedule of Rates (Lead and Lifts)",
+    "group": null
+   },
+   {
+    "name": "Computation of Earth Work",
+    "group": null
+   },
+   {
+    "name": "Contracts and Tenders",
+    "group": null
+   },
+   {
+    "name": "Valuations",
+    "group": null
+   }
+  ]
+ }
+]
