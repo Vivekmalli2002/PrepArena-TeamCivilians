@@ -112,6 +112,6 @@ export function AppShell({ children }: { children: React.ReactNode }) {
 export function Logo({ size = 30 }: { size?: number }) {
   return (
     // eslint-disable-next-line @next/next/no-img-element
-    <img src="/icons/icon.svg" width={size} height={size} alt="" className="rounded-[9px]" />
+    <img src="/icons/icon-192.png" width={size} height={size} alt="Team Civilians" className="rounded-[9px]" />
   );
 }
