@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import { beforeAll, describe, expect, it } from "vitest";
 import { loadBank, setBankFetcher, type LoadedBank } from "@/lib/bank";
 import { chapterWeight, PATTERNS } from "@/content/patterns";
-import { allocate, customTest, patternMock } from "@/lib/tests";
+import { allocate, customTest, patternMock, scaleSeats } from "@/lib/tests";
 
 setBankFetcher(async (path) => JSON.parse(readFileSync(`public/data/${path}`, "utf8")));
 let bank: LoadedBank;
@@ -73,6 +73,33 @@ describe("exam-pattern mocks", () => {
       const t = customTest(bank, { topics, count: total, minutes: 0, mode: "practice", schemeId: "appsc", pool: "all", weight }, {}, [])!;
       expect(new Set(t.qids).size).toBe(total);
     }
+  });
+});
+
+describe("exam blueprints", () => {
+  it("add up to the question counts of the papers", () => {
+    const want: Record<string, number> = { "g1-p1": 120, "g1-p2": 120, "g2-screening": 150, "g2-mains-1": 150, "g2-mains-2": 150, "aee-pcb-p1": 150, "aee-pcb-p3": 150, "aee-civil-p1": 150, "aee-civil-p2": 150, "aee-civil-p3": 150, "aswo-p1": 150, "aswo-p2": 150, "eo-p1": 150, "eo-p2": 150, draughtsman: 150, "ssc-je-p1": 200, "ssc-je-p2": 300 };
+    for (const [id, n] of Object.entries(want)) {
+      const p = PATTERNS.find((x) => x.id === id)!;
+      expect(p, id).toBeTruthy();
+      expect(p.sections.reduce((k, x) => k + x.seats, 0), id).toBe(n);
+    }
+  });
+  it("scales proportionally to a smaller test and keeps every part represented", () => {
+    const p = PATTERNS.find((x) => x.id === "g2-screening")!;
+    expect(scaleSeats(bank, p, 50).reduce((a, b) => a + b, 0)).toBe(50);
+    expect(scaleSeats(bank, p, 50)).toEqual([10, 10, 10, 10, 10]);
+    const aee = PATTERNS.find((x) => x.id === "aee-civil-p3")!;
+    const seats = scaleSeats(bank, aee, 30);
+    expect(seats.reduce((a, b) => a + b, 0)).toBe(30);
+    expect(seats[0]).toBe(3); // Strength of Materials: 15/150 of 30
+    expect(seats.at(-1)).toBe(1); // Construction Materials & Management: 5/150 of 30
+  });
+  it("the AEE Paper-I bank-backed sections are filled and no question repeats", () => {
+    const p = PATTERNS.find((x) => x.id === "aee-pcb-p1")!;
+    const t = patternMock(bank, p, chapterWeight);
+    expect(new Set(t.qids).size).toBe(t.qids.length);
+    expect(t.qids.length).toBeGreaterThan(140);
   });
 });
 
