@@ -58,7 +58,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Theory of Errors and Adjustments",
-  "question": "For adjusting a geodetic triangle with observed angle A, B and C, with number of observations (n1, n2, n3), of unequal relative weights (w1, w3), the discrepancy (corresponding corrections e1, e2, e3) is distributed to all the angles by inverse weight correction rule, the corrections to be applied using equation. AE Civil Engg. Volume-II Geology",
+  "question": "For adjusting a geodetic triangle with observed angle A, B and C, with number of observations (n1, n2, n3), of unequal relative weights (w1, w3), the discrepancy (corresponding corrections e1, e2, e3) is distributed to all the angles by inverse weight correction rule, the corrections to be applied using equation. Geology",
   "options": [
    "e1:e2:e3 = e/3",
    "e1:e2:e3 = (1/n1)2: (1/n2)2: (1/n3)2",
@@ -1075,7 +1075,7 @@
   "question": "The apparatus required for measuring base line length using rigid bars, is :",
   "options": [
    "Colby apparatus",
-   "Wheeler's base line apparatus AE Civil Engg. Volume-II",
+   "Wheeler's base line apparatus",
    "Both of the above",
    "None of the above"
   ],
@@ -2632,7 +2632,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Compass Survey",
-  "question": "In surveying measurements, the bearings taken in clockwise direction w.r.t. magnetic north are referred as AE Civil Engg. Volume-II",
+  "question": "In surveying measurements, the bearings taken in clockwise direction w.r.t. magnetic north are referred as",
   "options": [
    "Magnetic meridian",
    "True meridian",
@@ -4689,7 +4689,7 @@
   "question": "Refraction error is 1",
   "options": [
    "of curvature error 5 1",
-   "of curvature error 3 AE Civil Engg. Volume-II 1",
+   "of curvature error 3",
    "of curvature error 7 1",
    "of curvature error 4"
   ],
@@ -5183,7 +5183,7 @@
   "question": "In the change point procedure, change point is the point of",
   "options": [
    "the initial position of dumpy level",
-   "the portion of staff where instrument is shifted AE Civil Engg. Volume-II",
+   "the portion of staff where instrument is shifted",
    "the final position of dumpy level",
    "None of the above"
   ],
@@ -5520,7 +5520,7 @@
   "topic": "Levelling",
   "question": "The sensitiveness of a level tube decrease if ..............",
   "options": [
-   "Radius of curvature of its inner surface is increased AE Civil Engg. Volume-II",
+   "Radius of curvature of its inner surface is increased",
    "Diameter of the tube is increased",
    "Length of the vapour bubble is increased",
    "Both viscosity and surface tension are increased"
@@ -7003,7 +7003,7 @@
   "question": "Which of the following is the principle of plane- table as used in surveying?",
   "options": [
    "Parallelism",
-   "Traversing AE Civil Engg. Volume-II",
+   "Traversing",
    "Triangulation",
    "From part of whole"
   ],
@@ -9057,7 +9057,7 @@
   "question": "Which of the following statements is correct?",
   "options": [
    "Closed contours with higher values inwards represent a depression",
-   "The contour lines crossing a valley have higher values on the convex side AE Civil Engg. Volume-II",
+   "The contour lines crossing a valley have higher values on the convex side",
    "Profile levelling is done for determining the contours",
    "The horizontal and vertical scales in a longitudinal section are generally equal"
   ],
@@ -10432,7 +10432,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Tacheometry",
-  "question": "If the focal length of a tacheometer is 20 cm, stadia interval is 2.5 mm and the distance between the vertical axis and the lens is 20 cm, the multiplying constant and additive constant will be respectively : AE Civil Engg. Volume-II",
+  "question": "If the focal length of a tacheometer is 20 cm, stadia interval is 2.5 mm and the distance between the vertical axis and the lens is 20 cm, the multiplying constant and additive constant will be respectively :",
   "options": [
    "100 and 1",
    "100 and 0.4",
@@ -11134,7 +11134,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Theodolite Survey",
-  "question": "Sensitivity of a level tube increases with- (i) An increase in radius of curvature of the bubble tube AE Civil Engg. Volume-II (ii) Smoothness of finish of the inner surface of the bubble tube",
+  "question": "Sensitivity of a level tube increases with- (i) An increase in radius of curvature of the bubble tube (ii) Smoothness of finish of the inner surface of the bubble tube",
   "options": [
    "Only (i) is correct",
    "Only (ii) is correct",
@@ -13136,7 +13136,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Remote Sensing",
-  "question": "Remote sensing of the earth's surface is done by making use of the properties of which types of electromagnetic waves : (i) Emitted (ii) Reflected (iii) Diffracted (iv) Absorbed AE Civil Engg. Volume-II",
+  "question": "Remote sensing of the earth's surface is done by making use of the properties of which types of electromagnetic waves : (i) Emitted (ii) Reflected (iii) Diffracted (iv) Absorbed",
   "options": [
    "(i), (ii), (iii) and (iv)",
    "(i), (ii) and (iii)",
@@ -13240,7 +13240,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Global Positioning System",
-  "question": "Consider the following statements with regard to Global Positioning Systems (GPS): 1. The position of an object can be exactly 975. determined by a single satellite 2. The position the observer (moving person or vehicle) on ground is determined by an orbiting satellite 3. Atomic clocks are fixed in satellites to calculate the positioning of the satellite to aid in determining travel times AE Civil Engg. Volume-II 4. Absolute positioning, where accuracy of 1 cm to 5 cm is needed, depends upon the health of the satellite Which of the above statements are correct?",
+  "question": "Consider the following statements with regard to Global Positioning Systems (GPS): 1. The position of an object can be exactly 975. determined by a single satellite 2. The position the observer (moving person or vehicle) on ground is determined by an orbiting satellite 3. Atomic clocks are fixed in satellites to calculate the positioning of the satellite to aid in determining travel times . Absolute positioning, where accuracy of 1 cm to 5 cm is needed, depends upon the health of the satellite Which of the above statements are correct?",
   "options": [
    "1, 2 and 3 only",
    "1, 2 and 4 only",
@@ -14152,7 +14152,7 @@
   "topic": "Photogrammetric Surveying",
   "question": "The poles of the celestial horizon are called",
   "options": [
-   "Zenith and Nadir AE Civil Engg. Volume-II",
+   "Zenith and Nadir",
    "North and South poles",
    "Perihelion and aphelion",
    "Perigee and apogee"
@@ -15034,7 +15034,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Properties of Fluids",
-  "question": "The tendency of a small drop of fallen water to remain in a spherical form is due to the property of : AE Civil Engg. Volume-II",
+  "question": "The tendency of a small drop of fallen water to remain in a spherical form is due to the property of :",
   "options": [
    "Viscosity",
    "Adhesion",
@@ -16026,7 +16026,7 @@
   "options": [
    "the forces in the two systems are more",
    "the two systems are geometrically similar",
-   "the two systems are kinematically similar AE Civil Engg. Volume-II",
+   "the two systems are kinematically similar",
    "the forces at similar points in the two systems have same ratio throughout the flow field"
   ],
   "answerIndex": 3,
@@ -16258,7 +16258,7 @@
   "topic": "Properties of Fluids",
   "question": "A shock wave which occurs in a supersonic flow represents a region in which",
   "options": [
-   "a zone of silence exists AE Civil Engg. Volume-II",
+   "a zone of silence exists",
    "there is no change in pressure temperature and density",
    "there is sudden change in pressure temperature and density",
    "velocity is zero"
@@ -16545,7 +16545,7 @@
   "question": "At 200C temperature and standard pressure condition, kinematic viscosity of air would be approximately ________times that of water.",
   "options": [
    "20",
-   "8 AE Civil Engg. Volume-II",
+   "8",
    "15",
    "12"
   ],
@@ -16779,7 +16779,7 @@
   "question": "Which one of the following is dimensionless? ∂P D 4 ∂P D3",
   "options": [
    ". 2",
-   ". ∂x µQ ∂x µQ AE Civil Engg. Volume-II ∂P D 4 ∂P µQ",
+   ". ∂x µQ ∂x µQ ∂P D 4 ∂P µQ",
    ".",
    ". ∂x µQ ∂x D 4 ∂P D 4"
   ],
@@ -17481,7 +17481,7 @@
   "question": "A new design of a valve is to be tested if liquid benzene through the valve, which of the following parameters is most important.",
   "options": [
    "Froude No",
-   "Reynolds No AE Civil Engg. Volume-II",
+   "Reynolds No",
    "Mach No",
    "Euler No"
   ],
@@ -18752,7 +18752,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Buoyancy and Metacentric Height",
-  "question": "For a body completely submerged in a fluid, the centre of gravity (G) and centre of buoyancy (O) are known. The body is said to be in stable equilibrium, if AE Civil Engg. Volume-II",
+  "question": "For a body completely submerged in a fluid, the centre of gravity (G) and centre of buoyancy (O) are known. The body is said to be in stable equilibrium, if",
   "options": [
    "O does not coincides with centre of mass of the displaced fluid",
    "G coincides with centre of mass of the displaced fluid",
@@ -19350,7 +19350,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Pressure Measurement and Fluid Statics",
-  "question": "A hydraulic press has a ram of 300 mm diameter and a plunger of 45 mm diameter. When the force applied at the plunger is 50 N, AE Civil Engg. Volume-II 209 the weight lifted by the hydraulic press will be nearly :",
+  "question": "A hydraulic press has a ram of 300 mm diameter and a plunger of 45 mm diameter. When the force applied at the plunger is 50 N, the weight lifted by the hydraulic press will be nearly :",
   "options": [
    "2133 N",
    "2223 N",
@@ -25876,7 +25876,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Open Channel Flow",
-  "question": "The phenomenon occurring in an open channel when a rapidly flowing steam abruptly changes to a slowly flowing stream causing a distinct rise of liquid surface, is- AE Civil Engg. Volume-II",
+  "question": "The phenomenon occurring in an open channel when a rapidly flowing steam abruptly changes to a slowly flowing stream causing a distinct rise of liquid surface, is-",
   "options": [
    "Water hammer",
    "Hydraulic jump",
@@ -28814,7 +28814,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Open Channel Flow",
-  "question": "An irrigation canal has a steady discharge Q at a section where a cross regulation (gate) is provided for control purposes. If the gate of regulator, which is normally fully open, is suddenly lowered down to a half open position AE Civil Engg. Volume-II then a rapidly varied unsteady flow results. In such a case, it would take the form of a",
+  "question": "An irrigation canal has a steady discharge Q at a section where a cross regulation (gate) is provided for control purposes. If the gate of regulator, which is normally fully open, is suddenly lowered down to a half open position then a rapidly varied unsteady flow results. In such a case, it would take the form of a",
   "options": [
    "+ve surge moving u/s and a –ve surge moving d/s",
    "+ve surge moving d/s and a –ve surge moving u/s",
@@ -29726,7 +29726,7 @@
   "topic": "Fluid Kinematics",
   "question": "A flow of fluid has diverging straight and equipotential streamlines. If the flow is steady, the flow",
   "options": [
-   "is a uniform flow with local acceleration AE Civil Engg. Volume-II",
+   "is a uniform flow with local acceleration",
    "has convective normal acceleration",
    "has convective tangential acceleration",
    "has convective normal as well as tangential acceleration"
@@ -31960,7 +31960,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Energy Equation and Its Applications",
-  "question": "Match List I and List II and select the correct Se answer using the codes given below the lists List I List II P. Moment of 1. Equation to find momentum equation energy loss in pipeline having laminar flow. Q. Bernoulli's equation 2. Equation of motion for 1-D steady flow R. Euler's equation 3. Equation based on momentum conservation principle S. Hagen-poiseulle 4. 3-D equation of equation motion based on momentum conservation AE Civil Engg. Volume-II P Q R S",
+  "question": "Match List I and List II and select the correct Se answer using the codes given below the lists List I List II P. Moment of 1. Equation to find momentum equation energy loss in pipeline having laminar flow. Q. Bernoulli's equation 2. Equation of motion for 1-D steady flow R. Euler's equation 3. Equation based on momentum conservation principle S. Hagen-poiseulle 4. 3-D equation of equation motion based on momentum conservation P Q R S",
   "options": [
    "2 3 4 1",
    "3 2 1 4",
@@ -33835,7 +33835,7 @@
   "question": "If Vw and u are the whirl and tangential velocity at the impeller, work done by the impeller per unit weight of water striking per second is",
   "options": [
    "Vwu/g",
-   "Vwu AE Civil Engg. Volume-II",
+   "Vwu",
    "ρQ Vwu",
    "ρQVwVr"
   ],
@@ -35236,7 +35236,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Hydro-Electric Power Plant",
-  "question": "The manometer head (Hm) of a centrifugal pump is given by- AE Civil Engg. Volume-II",
+  "question": "The manometer head (Hm) of a centrifugal pump is given by-",
   "options": [
    "Pressure head at outlet of pump – pressure head at inlet",
    "Total head at inlet × total head at outlet",
@@ -35470,7 +35470,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Hydro-Electric Power Plant",
-  "question": "An earth -retaining structure be subjected to the following lateral earth pressures : 1. Earth pressure of rest 2. Passive earth pressure AE Civil Engg. Volume-II 3. Active earth pressure The correct sequence of the increasing order of the magnitudes of these pressure is :",
+  "question": "An earth -retaining structure be subjected to the following lateral earth pressures : 1. Earth pressure of rest 2. Passive earth pressure . Active earth pressure The correct sequence of the increasing order of the magnitudes of these pressure is :",
   "options": [
    "3 2 1",
    "1 3 2",
@@ -35990,7 +35990,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Hydro-Electric Power Plant",
-  "question": "Francis turbine is a : AE Civil Engg. Volume-II",
+  "question": "Francis turbine is a :",
   "options": [
    "Axial flow impulse turbine",
    "Radial flow reaction turbine",
@@ -36510,7 +36510,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Hydro-Electric Power Plant",
-  "question": "A double-acting reciprocating pump having piston area 0.1 m2 has a stroke 0.30 m long. AE Civil Engg. Volume-II The pump is discharging 2.4 m3 of water per minute at 45 rpm through a height of 10 m. The slip of the pump and power required to drive the pump will be nearly",
+  "question": "A double-acting reciprocating pump having piston area 0.1 m2 has a stroke 0.30 m long. The pump is discharging 2.4 m3 of water per minute at 45 rpm through a height of 10 m. The slip of the pump and power required to drive the pump will be nearly",
   "options": [
    "0.005 m3/s and 4.8 kW",
    "0.003 m3/s and 4.8 kW",
@@ -36617,7 +36617,7 @@
   "question": "Water is to be pumped out of a deep well under a total head of 95 m. A number of identical pumps of design speed 1000 rpm and specific speed 900 rpm with a rated capacity of 150 l / s are available. The number of pumps required will be",
   "options": [
    "1",
-   "3 AE Civil Engg. Volume-II",
+   "3",
    "5",
    "7"
   ],
@@ -38798,7 +38798,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Water Requirements of Crops",
-  "question": "The following data were recorded from an irrigation field. Field capacity = 20% Permanent wilting point = 10% Permissible depletion of available soil moisture = 50% AE Civil Engg. Volume-II Dry unit weight of soil=15,000 N/m3 Effective rainfall = 25mm Based on above data, the net irrigation requirement per metre depth of soil will be",
+  "question": "The following data were recorded from an irrigation field. Field capacity = 20% Permanent wilting point = 10% Permissible depletion of available soil moisture = 50% Dry unit weight of soil=15,000 N/m3 Effective rainfall = 25mm Based on above data, the net irrigation requirement per metre depth of soil will be",
   "options": [
    "25mm",
    "50mm",
@@ -39656,7 +39656,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Water Requirements of Crops",
-  "question": "Consider the following data Root zone depth = 2 m Existing water content = 5% Dry density of soil = 15 kN/m3 Water applied to the soil = 500 m3 AE Civil Engg. Volume-II Water loss due to evaporation and deep percolation = 10% Area of plot = 1000 m2 The field capacity of the soil will be nearly",
+  "question": "Consider the following data Root zone depth = 2 m Existing water content = 5% Dry density of soil = 15 kN/m3 Water applied to the soil = 500 m3 Water loss due to evaporation and deep percolation = 10% Area of plot = 1000 m2 The field capacity of the soil will be nearly",
   "options": [
    "16.8%",
    "17.7%",
@@ -41424,7 +41424,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Design of Unlined Alluvial Canals by Silt Theories",
-  "question": "The permissible tractive force in an erodible channel depends upon which of the following? A. Angle of the repose of the material B. Particle size AE Civil Engg. Volume-II C. Sediment content of water D. Wetted perimeter of channel Which of these statements are correct?",
+  "question": "The permissible tractive force in an erodible channel depends upon which of the following? A. Angle of the repose of the material B. Particle size C. Sediment content of water D. Wetted perimeter of channel Which of these statements are correct?",
   "options": [
    "Only A, B, D",
    "Only A, B, C",
@@ -41739,7 +41739,7 @@
   "question": "Critical Velocity Ratio is defined as the",
   "options": [
    "Ratio of actual mean velocity (V) to the critical velocity (Vo) given by Kennedy formula",
-   "Ratio of critical velocity (Vo) given by Kennedy formula to the actual mean velocity (V) AE Civil Engg. Volume-II",
+   "Ratio of critical velocity (Vo) given by Kennedy formula to the actual mean velocity (V)",
    "Ratio of actual mean velocity (V) to the critical velocity (Vo) given by Lacey formula",
    "Ratio of critical velocity (Vo) given by Lacey formula to the actual mean velocity (V)"
   ],
@@ -42542,7 +42542,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Design of Unlined Alluvial Canals by Silt Theories",
-  "question": "As per the Lacey’s method for design of alluvial channels, identify the TRUE statement Parent from the following : AE Civil Engg. Volume-II",
+  "question": "As per the Lacey’s method for design of alluvial channels, identify the TRUE statement Parent from the following :",
   "options": [
    "Wetted perimeter increases with an increase in design discharge.",
    "Hydraulic radius increases with an increase in slit factor.",
@@ -51798,7 +51798,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Evaporation and Evapotranspiration",
-  "question": "Evapotranspiration is confined to:– AE Civil Engg. Volume-II",
+  "question": "Evapotranspiration is confined to:–",
   "options": [
    "Day light hours only",
    "Night time only",
@@ -52035,7 +52035,7 @@
   "question": "A body of volume 3.0 m3 weighs 2 kN in water. The body's weight in air is",
   "options": [
    "6.0 kN",
-   "20.4 kN AE Civil Engg. Volume-II",
+   "20.4 kN",
    "5.0 kN",
    "31.4 kN"
   ],
@@ -52682,7 +52682,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Infiltration",
-  "question": "Match the items in List-I (Instruments) and List-II (Items to be measured) using the codes below - List-I A. Tipping bucket gauge B. ISI standard Pan C. Lysimeter D. Rainfall simulator List-II 1. Infiltration intesntiy 2. Evapotranspiration 3. Rainfall 4. Evaporation AE Civil Engg. Volume-II The correct code is- Code : A B C D",
+  "question": "Match the items in List-I (Instruments) and List-II (Items to be measured) using the codes below - List-I A. Tipping bucket gauge B. ISI standard Pan C. Lysimeter D. Rainfall simulator List-II 1. Infiltration intesntiy 2. Evapotranspiration 3. Rainfall 4. Evaporation The correct code is- Code : A B C D",
   "options": [
    "3 4 2 1",
    "1 4 2 3",
@@ -53098,7 +53098,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Infiltration",
-  "question": "The rainfalls of 0.8, 1.6, 2.0 and 2.5 cm were recorded in successive 1 - h intervals. If the φindex for the storm was 1.2 cm/h, then the volume of runoff from a basin of 200 km2 is : AE Civil Engg. Volume-II",
+  "question": "The rainfalls of 0.8, 1.6, 2.0 and 2.5 cm were recorded in successive 1 - h intervals. If the φindex for the storm was 1.2 cm/h, then the volume of runoff from a basin of 200 km2 is :",
   "options": [
    "2 Mm3",
    "3 Mm3",
@@ -54476,7 +54476,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Hydrographs",
-  "question": "A hydrograph representing one cm of run-off from a rainfall of some unit duration and specific area distribution in known as AE Civil Engg. Volume-II",
+  "question": "A hydrograph representing one cm of run-off from a rainfall of some unit duration and specific area distribution in known as",
   "options": [
    "unit hydrograph",
    "S-hydrograph",
@@ -55802,7 +55802,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Flood Routing",
-  "question": "Match List-I with List-II and select the correct answer using the codes given below the lists : List-I List-II A. Evapotranspiration 1. Penman method B. Infiltration 2. Snyder's method C. Synthetic unit 3. Muskinghum hydrograph method D. Channel Routing 4. Horton's method AE Civil Engg. Volume-II A B C D",
+  "question": "Match List-I with List-II and select the correct answer using the codes given below the lists : List-I List-II A. Evapotranspiration 1. Penman method B. Infiltration 2. Snyder's method C. Synthetic unit 3. Muskinghum hydrograph method D. Channel Routing 4. Horton's method A B C D",
   "options": [
    "1 4 2 3",
    "3 4 1 2",
@@ -56894,7 +56894,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Flood Routing",
-  "question": "The rain intensity over 54 hectares of land is 50 mm/h, 30% of area consists of roof surfaces with runoff rate as 0.9, 30% is open field with runoff rate of 0.2 and remaining 40% is road 445. network with runoff rate of 0.4. The storm water flow will be nearly AE Civil Engg. Volume-II",
+  "question": "The rain intensity over 54 hectares of land is 50 mm/h, 30% of area consists of roof surfaces with runoff rate as 0.9, 30% is open field with runoff rate of 0.2 and remaining 40% is road 445. network with runoff rate of 0.4. The storm water flow will be nearly",
   "options": [
    "2.6 m3/s",
    "3.7 m3/s 3",
@@ -58922,7 +58922,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Population Forecasting and Water Demands",
-  "question": "For growing towns and cities having fast scope for expansion, the method of forecasting population, mostly applicable, is [RPSC A.En. - 2013] OR AE Civil Engg. Volume-II Which method is accurate for forecasting population for sound and rapidly increasing city? (BPSC AE Paper VI 05.12.2012) OR The suitable method of forecasting population for a young and rapidly increasing city is",
+  "question": "For growing towns and cities having fast scope for expansion, the method of forecasting population, mostly applicable, is [RPSC A.En. - 2013] OR Which method is accurate for forecasting population for sound and rapidly increasing city? (BPSC AE Paper VI 05.12.2012) OR The suitable method of forecasting population for a young and rapidly increasing city is",
   "options": [
    "Incremental increase method",
    "Geometrical increase method",
@@ -59338,7 +59338,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Quality of Water",
-  "question": "Colouration or nuisance condition can occur in water by the presence of iron and manganese in appreciable quantities. This happens when the concentrations are greater than AE Civil Engg. Volume-II",
+  "question": "Colouration or nuisance condition can occur in water by the presence of iron and manganese in appreciable quantities. This happens when the concentrations are greater than",
   "options": [
    "0.3 mg/L Fe and 0.1 mg/L Mn",
    "0.5 mg/L Fe and 0.3 mg/L Mn",
@@ -59991,7 +59991,7 @@
   "question": "Eutrophication of water bodies is caused by",
   "options": [
    "Discharge of toxic substances",
-   "Excessive discharge of nutrients AE Civil Engg. Volume-II",
+   "Excessive discharge of nutrients",
    "Excessive discharge of suspended solids",
    "Excessive discharge of chlorides"
   ],
@@ -60199,7 +60199,7 @@
   "question": "Orthotolidine test is used for determination of",
   "options": [
    "dissolved oxygen",
-   "residual chlorine AE Civil Engg. Volume-II",
+   "residual chlorine",
    "biochemical oxygen demand",
    "None of these"
   ],
@@ -61082,7 +61082,7 @@
   "topic": "Quality of Water",
   "question": "The most important water quality parameter for domestic use of water is:",
   "options": [
-   "Carbonate hardness AE Civil Engg. Volume-II",
+   "Carbonate hardness",
    "Non-carbonate hardness",
    "Coliform group of organisms",
    "Chlorides"
@@ -62617,7 +62617,7 @@
   "question": "The measurement of colour of water is carried At out by means of",
   "options": [
    "Osmoscope",
-   "Tintometre AE Civil Engg. Volume-II",
+   "Tintometre",
    "Nephelometric turbidimetre",
    "Thermometer"
   ],
@@ -63706,7 +63706,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Coagulation",
-  "question": "In water supply, a jar test is performed (1) to obtain the optimal does of coagulant AE Civil Engg. Volume-II (2) to find out the optimal time required for flocculation (3) to find the chlorine content of water The correct statements(s) is/are :",
+  "question": "In water supply, a jar test is performed (1) to obtain the optimal does of coagulant (2) to find out the optimal time required for flocculation (3) to find the chlorine content of water The correct statements(s) is/are :",
   "options": [
    "only 1",
    "only 2",
@@ -63888,7 +63888,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Miscellaneous Water Treatment",
-  "question": "Match List-I with List-II and select the correct answer using the codes given below the Lists- List-I (Type of impurity) A. Bulky floating and suspended matter B. Oil and grease AE Civil Engg. Volume-II C. Suspended solids D. Colloidal and dissolved organic matter List-II (Process used for removal) 1. Floatation tanks 2. Racks and screens 3. Biological growth (slimes) 4. Chemical flocculation Codes : A B C D",
+  "question": "Match List-I with List-II and select the correct answer using the codes given below the Lists- List-I (Type of impurity) A. Bulky floating and suspended matter B. Oil and grease C. Suspended solids D. Colloidal and dissolved organic matter List-II (Process used for removal) 1. Floatation tanks 2. Racks and screens 3. Biological growth (slimes) 4. Chemical flocculation Codes : A B C D",
   "options": [
    "1 2 3 4",
    "1 2 4 3",
@@ -64044,7 +64044,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Miscellaneous Water Treatment",
-  "question": "The various treatment processes in a water treatment plant are listed below 1. Filtration 2. Chlorination 3. Sedimentation 4. Coagulation 5. Flocculation AE Civil Engg. Volume-II 647 The correct sequence of these processes in water treatment is",
+  "question": "The various treatment processes in a water treatment plant are listed below 1. Filtration 2. Chlorination 3. Sedimentation 4. Coagulation 5. Flocculation The correct sequence of these processes in water treatment is",
   "options": [
    "1, 2, 3, 4, 5",
    "4, 5, 3, 1, 2",
@@ -64385,7 +64385,7 @@
   "question": "As compared to lime soda process, the zeolite process :",
   "options": [
    "is bulky",
-   "is costlier AE Civil Engg. Volume-II",
+   "is costlier",
    "leads to large quantity of sludge formation",
    "requires careful and skilled supervision"
   ],
@@ -64723,7 +64723,7 @@
   "question": "For Sedimentation with coagulation the detention period varies from:",
   "options": [
    "1-2 hours",
-   "2-4 hrs. AE Civil Engg. Volume-II",
+   "2-4 hrs.",
    "4-8 hours",
    "8-12 hrs."
   ],
@@ -65502,7 +65502,7 @@
   "topic": "Coagulation",
   "question": "Flocculation is the process of",
   "options": [
-   "Gently mixing the water and coagulant allowing the formation of large particles of floc AE Civil Engg. Volume-II",
+   "Gently mixing the water and coagulant allowing the formation of large particles of floc",
    "Removing relatively large floating and suspended debris",
    "Flow, which is slowed enough so that gravity will cause the floc to settle",
    "Mixture of solids and liquids collected from the settling tank are dewatered and disposed of"
@@ -66100,7 +66100,7 @@
   "topic": "Filtration",
   "question": "As compared to slow sand filters rapid sand filters give",
   "options": [
-   "lower filtration rate and lower efficiency in removal of bacteria AE Civil Engg. Volume-II",
+   "lower filtration rate and lower efficiency in removal of bacteria",
    "lower filtration rate but higher efficiency in removal of bacteria",
    "higher filtration rate but lower efficiency in removal of bacteria",
    "higher filtration rate and higher efficiency in removal of bacteria."
@@ -66282,7 +66282,7 @@
   "topic": "Filtration",
   "question": "Vacuum filters are used for :",
   "options": [
-   "filtration of sewage AE Civil Engg. Volume-II",
+   "filtration of sewage",
    "filtration of sludge",
    "dewatering of sludge",
    "Both filtration of sewage and filtration of sludge"
@@ -67060,7 +67060,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Disinfection",
-  "question": "Look at the following relationship between concentration of free residual chlorine and contact time required for 99% kill (Watson’s Law: C0.86 tp = λ(constant) for different pathogens). AE Civil Engg. Volume-II Pathogen Adeno E. Coxsackie AA type virus 3 coli virus A2 λ 0.098 0.24 6.3 0.110 (constant) Which pathogen has maximum resistance for chlorination?",
+  "question": "Look at the following relationship between concentration of free residual chlorine and contact time required for 99% kill (Watson’s Law: C0.86 tp = λ(constant) for different pathogens). Pathogen Adeno E. Coxsackie AA type virus 3 coli virus A2 λ 0.098 0.24 6.3 0.110 (constant) Which pathogen has maximum resistance for chlorination?",
   "options": [
    "E coil",
    "Adeno virus",
@@ -68052,7 +68052,7 @@
   "options": [
    "Pumping and storage system.",
    "Pumping system",
-   "Gravity system AE Civil Engg. Volume-II",
+   "Gravity system",
    "Dual system"
   ],
   "answerIndex": 2,
@@ -69322,7 +69322,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Introduction to Waste Water Engineering and Estimation of DWF & WWF",
-  "question": "An industry is having a water treatment plant which produces sludge having moisture content of 97%. With the solid content remaining the same the sludge is thickened so that the moisture content now is 94%. If the original quantity of sludge is P, estimate the quantity of thickened sludge ? AE Civil Engg. Volume-II",
+  "question": "An industry is having a water treatment plant which produces sludge having moisture content of 97%. With the solid content remaining the same the sludge is thickened so that the moisture content now is 94%. If the original quantity of sludge is P, estimate the quantity of thickened sludge ?",
   "options": [
    "0.67 P",
    "0.75 P",
@@ -69793,7 +69793,7 @@
   "question": "During preliminary treatment of a sewage",
   "options": [
    "oil and grease are removed from skimming tanks",
-   "floating materials are removed by screening AE Civil Engg. Volume-II",
+   "floating materials are removed by screening",
    "grit and sand are removed by grit chambers",
    "all the above"
   ],
@@ -70209,7 +70209,7 @@
   "question": "If the peak flow rate is 183 cum/d and long- term average flow rate is 100 cum/d, then what is the sustained peaking factor?",
   "options": [
    "0.45",
-   "0.83 AE Civil Engg. Volume-II",
+   "0.83",
    "1.83",
    "2.83"
   ],
@@ -73538,7 +73538,7 @@
   "options": [
    "sedimentation, oxidation and coagulation",
    "dilution, sedimentation and oxidation",
-   "dilution, sedimentation and coagulation AE Civil Engg. Volume-II",
+   "dilution, sedimentation and coagulation",
    "dilution, oxidation and coagulation"
   ],
   "answerIndex": 1,
@@ -73872,7 +73872,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Characteristics of Sewage",
-  "question": "Which of the following are claimed as advantageous in respect of aerobic sludge AE Civil Engg. Volume-II digestion as compared-to anaerobic sludge digestion? 1. Production of well-stabilized sludge with excellent dewatering propensity 2. Greater production of methane 3. Lower BOD concentration in supernatant liquor 4. Lesser operating cost 5. Lesser capital cost Select the correct answer using the code given below-",
+  "question": "Which of the following are claimed as advantageous in respect of aerobic sludge digestion as compared-to anaerobic sludge digestion? 1. Production of well-stabilized sludge with excellent dewatering propensity 2. Greater production of methane 3. Lower BOD concentration in supernatant liquor 4. Lesser operating cost 5. Lesser capital cost Select the correct answer using the code given below-",
   "options": [
    "1, 2 and 4",
    "1, 3 and 5",
@@ -74236,7 +74236,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Characteristics of Sewage",
-  "question": "In order to prevent pollution from landfill operation which of the following provisions are supposed to be made? (i) The storm water drain shall be designed and constructed in such a way that the surface AE Civil Engg. Volume-II runoff water is diverted from the landfilling site and leachates from solid waste locations do not get mixed with the surface runoff water (ii) Non-permeable lining system should be provided at the base and walls of waste disposal area. (iii) Provisions for management of leachates including its collection and treatment shall be made.",
+  "question": "In order to prevent pollution from landfill operation which of the following provisions are supposed to be made? (i) The storm water drain shall be designed and constructed in such a way that the surface runoff water is diverted from the landfilling site and leachates from solid waste locations do not get mixed with the surface runoff water (ii) Non-permeable lining system should be provided at the base and walls of waste disposal area. (iii) Provisions for management of leachates including its collection and treatment shall be made.",
   "options": [
    "Only (i)",
    "Only (ii)",
@@ -74834,7 +74834,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Characteristics of Sewage",
-  "question": "Consider the following statements regarding contact stabilization process: 1. Primary settling tank is not required in some cases. 2. BOD removal occurs in two stages. 3. Aeration volume requirements are approximately 50% of those of a conventional-or tapered aeration plant. 4. Returned sludge is aerated for 30 min to 90 min in sludge aeration tank. Which of the above statements are correct? AE Civil Engg. Volume-II",
+  "question": "Consider the following statements regarding contact stabilization process: 1. Primary settling tank is not required in some cases. 2. BOD removal occurs in two stages. 3. Aeration volume requirements are approximately 50% of those of a conventional-or tapered aeration plant. 4. Returned sludge is aerated for 30 min to 90 min in sludge aeration tank. Which of the above statements are correct?",
   "options": [
    "1, 2, 3 and 4",
    "1 and 4 only",
@@ -77202,7 +77202,7 @@
   "topic": "Treatment of Sewage",
   "question": "At what stage of waste management system can we recycle the waste?",
   "options": [
-   "Waste can be recycled during handling and storage only AE Civil Engg. Volume-II",
+   "Waste can be recycled during handling and storage only",
    "Waste can be recycled during sorting and processing of waste only",
    "Waste can be recycled during collection and transportation only",
    "Waste can be recycled at any stage"
@@ -77460,7 +77460,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Treatment of Sewage",
-  "question": "With passage of time, filled up solid wastes will get stabilized by AE Civil Engg. Volume-II",
+  "question": "With passage of time, filled up solid wastes will get stabilized by",
   "options": [
    "Eutrophication",
    "Decomposition",
@@ -77720,7 +77720,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Septic Tanks",
-  "question": "The recirculation factor in a low rate trickling filter is- AE Civil Engg. Volume-II",
+  "question": "The recirculation factor in a low rate trickling filter is-",
   "options": [
    "0",
    "1",
@@ -78214,7 +78214,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Septic Tanks",
-  "question": "What is the hydraulic retention time in an aeration tank having a volume of 10,000 m3 AE Civil Engg. Volume-II and receiving waste water discharge of 50, 000 m3 per day?",
+  "question": "What is the hydraulic retention time in an aeration tank having a volume of 10,000 m3 and receiving waste water discharge of 50, 000 m3 per day?",
   "options": [
    "1.2 hours",
    "2.4 hours",
@@ -78604,7 +78604,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Air Pollution and Control",
-  "question": "Match List-I (process) with List-II (biological agent) and select the correct answer using codes given below the list: List-I List-II (Process) (Biological agent) A. Oxidation ditch 1. Facultative B. Waste stabilization 2. Anaerobic bacteria pond C. Imhoff tank 3. Aerobic bacteria (suspended culture) d. Rotating biological 4. Aerobic bacteria contractor (RBC) (attached culture) AE Civil Engg. Volume-II Codes: A B C D",
+  "question": "Match List-I (process) with List-II (biological agent) and select the correct answer using codes given below the list: List-I List-II (Process) (Biological agent) A. Oxidation ditch 1. Facultative B. Waste stabilization 2. Anaerobic bacteria pond C. Imhoff tank 3. Aerobic bacteria (suspended culture) d. Rotating biological 4. Aerobic bacteria contractor (RBC) (attached culture) Codes: A B C D",
   "options": [
    "4 1 2 3",
    "3 1 2 4",
@@ -79280,7 +79280,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Air Pollution and Control",
-  "question": "The Argon content in composition of clean, dry and atmospheric air in percentage by volume will be:- AE Civil Engg. Volume-II",
+  "question": "The Argon content in composition of clean, dry and atmospheric air in percentage by volume will be:-",
   "options": [
    "0.93%",
    "0.032%",
@@ -79722,7 +79722,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Air Pollution and Control",
-  "question": "Carbon monoxide concentration of 9 ppm at 20ºC and 1 atm pressure is equivalent to nearly AE Civil Engg. Volume-II",
+  "question": "Carbon monoxide concentration of 9 ppm at 20ºC and 1 atm pressure is equivalent to nearly",
   "options": [
    "1 mg/L",
    "10 mg/L",
@@ -80868,7 +80868,7 @@
   "topic": "Air Pollution and Control",
   "question": "Central Pollution Control board recently labeled which five chemicals as toxic in the manufacturing of crackers and there by prohibited their respective use?",
   "options": [
-   "Antimony, Lithium, Mercury, Arsenic and Lead AE Civil Engg. Volume-II",
+   "Antimony, Lithium, Mercury, Arsenic and Lead",
    "Antimony, Lithium, Chromium, Lead and Nickel",
    "Cadmium, Lead, Nickel, Zinc and Iron",
    "Beryllium, Cadmium, Mercury, Chromium and Nickel"
@@ -81051,7 +81051,7 @@
   "question": "Calculate the theoretical oxygen demand of methane (CH4) in kg O2/kg CH4. Atomic weights : C=12; O= 16; H=1",
   "options": [
    "4.0",
-   "8.0 AE Civil Engg. Volume-II",
+   "8.0",
    "2.0",
    "6.0"
   ],
@@ -81282,7 +81282,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Air Pollution and Control",
-  "question": "Consider the below statements with respect to Air pollution control : A. Dispersion of air pollutants through long chimneys helps in diluting the air pollutants near their source. B. Dispersion of air pollutants through long chimneys, reduce long term undesirable effects on the community as a whole. Identify the correct statement/s. AE Civil Engg. Volume-II",
+  "question": "Consider the below statements with respect to Air pollution control : A. Dispersion of air pollutants through long chimneys helps in diluting the air pollutants near their source. B. Dispersion of air pollutants through long chimneys, reduce long term undesirable effects on the community as a whole. Identify the correct statement/s.",
   "options": [
    "Both statements are true",
    "Statement A is true B is false",
@@ -81649,7 +81649,7 @@
   "question": "If the temperature increases by 14.3 degrees with a 2.1 kilometre increase in altitude, find the lapse rate,",
   "options": [
    "-0.00680C/m",
-   "0.00680C/m AE Civil Engg. Volume-II",
+   "0.00680C/m",
    "6.80C/m",
    "-6.80C/m ∆ temp"
   ],
@@ -82351,7 +82351,7 @@
   "question": "Slow, deep breathing",
   "options": [
    "1 and 2 only",
-   "1 and 3 only AE Civil Engg. Volume-II",
+   "1 and 3 only",
    "2 and 3 only",
    "1, 2 and 3"
   ],
@@ -82845,7 +82845,7 @@
   "question": "Which of the following is NOT an urban road system?",
   "options": [
    "Organic street system",
-   "Concentric and radial street system AE Civil Engg. Volume-II",
+   "Concentric and radial street system",
    "Grid iron system",
    "Polynomial stress"
   ],
@@ -83310,7 +83310,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Highway Geometric Design – Basic Elements",
-  "question": "A car driver, driving in a fog, passes a pedestrian who was walking at the rate of 2 km/h in the same direction. The pedestrian could see the car for 6 minutes and it was visible to him up to a distance of 0.6 km. What was the speed of the car? AE Civil Engg. Volume-II",
+  "question": "A car driver, driving in a fog, passes a pedestrian who was walking at the rate of 2 km/h in the same direction. The pedestrian could see the car for 6 minutes and it was visible to him up to a distance of 0.6 km. What was the speed of the car?",
   "options": [
    "30 km/h",
    "15 km/h",
@@ -83674,7 +83674,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Highway Geometric Design – Basic Elements",
-  "question": "The width of carriageway required will depend on the intensity and volume of traffic anticipated to use the bridge. 1. Except on minor village roads all bridges must provide for at least two lane width 2. The minimum width of carriageway is 4.25 m for one lane bridge AE Civil Engg. Volume-II 3. The minimum width of carriageway is 3.75 m for one lane bridge 4. The minimum width of carriageway is 7.5 m for two lane bridge The incorrect statement is :",
+  "question": "The width of carriageway required will depend on the intensity and volume of traffic anticipated to use the bridge. 1. Except on minor village roads all bridges must provide for at least two lane width 2. The minimum width of carriageway is 4.25 m for one lane bridge . The minimum width of carriageway is 3.75 m for one lane bridge 4. The minimum width of carriageway is 7.5 m for two lane bridge The incorrect statement is :",
   "options": [
    "Only 1",
    "Only 1 and 3",
@@ -87057,7 +87057,7 @@
   "question": "As per IRC, maximum load of axle of a vehicle 356. should not exceed",
   "options": [
    "8165 kg",
-   "9500 kg AE Civil Engg. Volume-II",
+   "9500 kg",
    "800 kg",
    "7500 kg"
   ],
@@ -87496,7 +87496,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Traffic Engineering",
-  "question": "For two major roads with divided carriageway crossing at right angle, a full clover leaf interchange with four indirect ramps is provided. Following statements are made on turning movements of vehicles to all direction from both roads. Identify the correct statement: AE Civil Engg. Volume-II",
+  "question": "For two major roads with divided carriageway crossing at right angle, a full clover leaf interchange with four indirect ramps is provided. Following statements are made on turning movements of vehicles to all direction from both roads. Identify the correct statement:",
   "options": [
    "Merging from left is possible, but diverging to left is not possible",
    "Both merging from left and diverging to left are possible",
@@ -88068,7 +88068,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Traffic Engineering",
-  "question": "Match the design speed recommended for The basic various roads by IRC 86 : 1983 List I List II A. Collector roads 1. 30 kmph B. Local roads 2. 80 kmph C. Arterial roads 3. 60 kmph D. Sub-arterial roads 4. 50 kmph AE Civil Engg. Volume-II A B C D",
+  "question": "Match the design speed recommended for The basic various roads by IRC 86 : 1983 List I List II A. Collector roads 1. 30 kmph B. Local roads 2. 80 kmph C. Arterial roads 3. 60 kmph D. Sub-arterial roads 4. 50 kmph A B C D",
   "options": [
    "2 1 4 3",
    "3 1 2 4",
@@ -88825,7 +88825,7 @@
   "question": "Desire lines are plotted in",
   "options": [
    "traffic volume studies",
-   "speed studies AE Civil Engg. Volume-II",
+   "speed studies",
    "accident studies",
    "origin and destination studies"
   ],
@@ -89397,7 +89397,7 @@
   "question": "During a CBR test, the load sustained by a remoulded soil specimen at 5.0 mm penetration is 60 kg. The CBR value of the soil will be",
   "options": [
    "10.0%",
-   "5.25% AE Civil Engg. Volume-II",
+   "5.25%",
    "2.92%",
    "2.43%"
   ],
@@ -90229,7 +90229,7 @@
   "question": "California Bearing Ratio method of designing flexible pavements is more accurate as it involves",
   "options": [
    "characteristics of soils",
-   "traffic intensities AE Civil Engg. Volume-II",
+   "traffic intensities",
    "character of the road making materials",
    "thickness of the pavement"
   ],
@@ -91217,7 +91217,7 @@
   "question": "What is known as the force per unit area required to penetrate into a soil mass with a circular plunger of 50 mm diameter at a rate of 1.25 mm/minute?",
   "options": [
    "bearing capacity",
-   "modulus of rupture AE Civil Engg. Volume-II",
+   "modulus of rupture",
    "CBR",
    "aggregate crushing value"
   ],
@@ -91399,7 +91399,7 @@
   "question": "Which of the following is an INCORRECT statement with respect to the characteristics and design factors of rigid and flexible pavements?",
   "options": [
    "The lower layers of the flexible pavements face lesser magnitudes of stresses when compared to the pavement surface directly under the wheel load.",
-   "The flexible pavement layers may reflect the non-recoverable as well as recoverable deformations of the lower layers including the subgrade on to the upper layers and also pavement surface AE Civil Engg. Volume-II",
+   "The flexible pavement layers may reflect the non-recoverable as well as recoverable deformations of the lower layers including the subgrade on to the upper layers and also pavement surface",
    "Rigid pavements does not get deformed to the shape of supporting layer below it",
    "The stresses in rigid pavements are analyzed using plastic theory, assuming the pavement is resting over a rigid surface"
   ],
@@ -91604,7 +91604,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Rigid Pavements",
-  "question": "Which of the following is the critical combination of stresses for interior and edge region in cement concrete pavement during summer mid day where Ls = wheel load stress AE Civil Engg. Volume-II 872 Ws = warping stress (or) temperature warping stress Fs = frictional stress (or) sub grade resistant stress",
+  "question": "Which of the following is the critical combination of stresses for interior and edge region in cement concrete pavement during summer mid day where Ls = wheel load stress Ws = warping stress (or) temperature warping stress Fs = frictional stress (or) sub grade resistant stress",
   "options": [
    "Ls – Ws + Fs",
    "Ls + Ws + Fs",
@@ -93662,7 +93662,7 @@
   "options": [
    "The minimum depth of ballast for B.G. section is 20 cm–25 cm",
    "The quantity of stone ballast required for one metre length of track is 0.53 m3 for B.G. section",
-   "For M.G. section the width of ballast is 1.83 m AE Civil Engg. Volume-II",
+   "For M.G. section the width of ballast is 1.83 m",
    "The minimum depth of ballast for N.G. section is 10 cm"
   ],
   "answerIndex": 0,
@@ -93817,7 +93817,7 @@
   "question": "The number of sleepers used for rails varies from, Where 'n' length of rail in 'm'-",
   "options": [
    "(n + 1) to (n + 4)",
-   "(n + 3) to (n + 6) AE Civil Engg. Volume-II",
+   "(n + 3) to (n + 6)",
    "(n + 2) to (n + 7)",
    "(n + 4) to (n + 8)"
   ],
@@ -95340,7 +95340,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Airport, Bridges, Harbour and Tunnel Engineering",
-  "question": "The main forces in a suspension bridge of any type are ............. in the cables and .............. the pillars. AE Civil Engg. Volume-II",
+  "question": "The main forces in a suspension bridge of any type are ............. in the cables and .............. the pillars.",
   "options": [
    "Tension, Compression",
    "Tension, Pull",
@@ -95940,7 +95940,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Airport, Bridges, Harbour and Tunnel Engineering",
-  "question": "Which of the systems are particularly suited for construction of pre-stressed concrete superstructure of long span bridges without the use of staging from below ? AE Civil Engg. Volume-II",
+  "question": "Which of the systems are particularly suited for construction of pre-stressed concrete superstructure of long span bridges without the use of staging from below ?",
   "options": [
    "Segmental",
    "Linear",

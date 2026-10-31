@@ -142,12 +142,59 @@ describe("statement formatting", () => {
     expect(strip(blocks.map((b) => b.text).join(""))).toBe(strip(q));
   });
   it("never loses text on any question in the bank", () => {
-    const strip = (x: string) => x.replace(/\s/g, "");
+    const strip = (x: string) => x.replace(/[\s().:]/g, "");
     for (const q of byId.values()) {
       const blocks = splitStatements(q.question);
       const rebuilt = blocks.map((b) => (b.label ? `${b.label}. ` : "") + b.text).join(" ");
       expect(strip(rebuilt), `id ${q.id}`).toBe(strip(q.question));
     }
+  });
+});
+
+describe("roman, lettered and bracketed statements", () => {
+  const lines = (q: string) => splitStatements(q).map((b) => (b.label ? `${b.label}| ${b.text}` : b.text));
+  it("puts each Roman-numeral statement on its own line and keeps the instruction apart", () => {
+    expect(
+      lines("Consider the following statements about Damodaram Sanjeevaiah: I. He was the first Dalit Chief minister in India. II. He resigned because of the nationalization of Kurnool bus routes. III. The Telangana movement started during his tenure. Identify the incorrect statement(s):"),
+    ).toEqual([
+      "Consider the following statements about Damodaram Sanjeevaiah:",
+      "I| He was the first Dalit Chief minister in India.",
+      "II| He resigned because of the nationalization of Kurnool bus routes.",
+      "III| The Telangana movement started during his tenure.",
+      "Identify the incorrect statement(s):",
+    ]);
+  });
+  it("splits items without a closing instruction (four items)", () => {
+    expect(
+      lines("Which of the following rights are included under the right to equality in the Indian Constitution? I. Equality in employment II. Prohibition of discrimination III. Abolition of titles IV. Protection against unlawful detention"),
+    ).toEqual([
+      "Which of the following rights are included under the right to equality in the Indian Constitution?",
+      "I| Equality in employment",
+      "II| Prohibition of discrimination",
+      "III| Abolition of titles",
+      "IV| Protection against unlawful detention",
+    ]);
+  });
+  it("handles (a) (b), (i) (ii) and A. B. lists and List-I / List-II captions", () => {
+    expect(lines("Match the following. List-I A. Kalibangan B. Lothal List-II 1. Pottery 2. Seal")).toEqual([
+      "Match the following.",
+      "List-I",
+      "A| Kalibangan",
+      "B| Lothal",
+      "List-II",
+      "1| Pottery",
+      "2| Seal",
+    ]);
+    expect(lines("Find the wrong ones: (a) Rig Veda (b) Yajur Veda (c) Atharva")).toEqual([
+      "Find the wrong ones:",
+      "a| Rig Veda",
+      "b| Yajur Veda",
+      "c| Atharva",
+    ]);
+  });
+  it("leaves ordinary sentences alone", () => {
+    expect(splitStatements("Who wrote I. K. Gujral's doctrine? Select the author.")).toHaveLength(1);
+    expect(splitStatements("Article 14 of the Constitution deals with equality.")).toHaveLength(1);
   });
 });
 

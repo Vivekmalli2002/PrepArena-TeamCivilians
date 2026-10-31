@@ -17,7 +17,7 @@ export function QuestionText({ text, className }: { text: string; className?: st
           </p>
         ) : b.kind === "item" ? (
           <div key={i} className="flex gap-2.5">
-            <span className="mt-0.5 grid size-6 shrink-0 place-items-center rounded-lg bg-primary-soft text-xs font-bold text-primary">
+            <span className="mt-0.5 grid h-6 min-w-6 shrink-0 place-items-center rounded-lg bg-primary-soft px-1.5 text-xs font-bold text-primary">
               {b.label}
             </span>
             <span>{b.text}</span>
