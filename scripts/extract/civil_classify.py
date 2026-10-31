@@ -24,7 +24,7 @@ def pick_chapter(n, t, hint=None):
     sc = kw(n, t)
     if not sc: return None, 0
     for c in sc:
-        if c == hint: sc[c] += 3
+        if c == hint: sc[c] += 1.5
     best = max(sc.items(), key=lambda kv: (kv[1], kv[0] == hint))
     return (best[0], best[1]) if best[1] > 0 else (None, 0)
 
@@ -35,7 +35,7 @@ def main(write):
             items.append((f, q))
     lab, unl = [], []
     for f, q in items:
-        n = CR.BOOK_SUBJECT.get(q["topic"])
+        n = CR.BOOK_SUBJECT.get(q.get("bookUnit", q["topic"]))
         (lab if n else unl).append((f, q, n))
     res = {}
     # 1. books: subject from the book, chapter from sub-section prior + keywords
@@ -56,22 +56,22 @@ def main(write):
     vec = TfidfVectorizer(ngram_range=(1, 2), min_df=2, sublinear_tf=True, stop_words="english")
     X = vec.fit_transform([text(q) for q, _ in labelled])
     lab_key = [(r[0], r[1]) for _, r in labelled]
-    allkw = {n: RX[n] for n in RX}
-    def score(vrow_idx, sims, t):
-        w = collections.Counter()
-        for j, sv in zip(vrow_idx, sims): w[lab_key[j]] += sv
-        for n in allkw:
-            for c, k in kw(n, t).items():
-                if k: w[(n, c)] += 0.35 * min(k, 4)
-        return w
     def classify(v, t, skip=None):
         sims = (v @ X.T).toarray()[0]
         if skip is not None: sims[skip] = 0
-        idx = np.argsort(-sims)[:12]
-        w = score(idx, sims[idx], t)
-        if not w: return None, 0.0
-        (best, bw) = w.most_common(1)[0]
-        return best, bw
+        idx = np.argsort(-sims)[:15]
+        vote = collections.Counter()
+        for j in idx: vote[lab_key[j]] += sims[j]
+        subj = collections.Counter()
+        for (n, c), x in vote.items(): subj[n] += x
+        kws = {n: kw(n, t) for n in RX}
+        for n, d in kws.items(): subj[n] += 0.15 * min(sum(1 for k in d.values() if k), 6)
+        if not subj: return None, 0.0
+        n, sw = subj.most_common(1)[0]
+        cs = {c: vote.get((n, c), 0.0) + 0.45 * min(k, 4) for c, k in kws[n].items()}
+        if not cs: return None, 0.0
+        c, cw = max(cs.items(), key=lambda kv: kv[1])
+        return (n, c), sw + 0.0 * cw
     rng = np.random.default_rng(1); sample = rng.choice(len(labelled), 600, replace=False)
     ok_s = ok_c = 0
     for i in sample:
@@ -82,7 +82,7 @@ def main(write):
     V = vec.transform([text(q) for f, q in un])
     for i, (f, q) in enumerate(un):
         best, bw = classify(V[i], text(q))
-        if best is None or bw < 0.35:
+        if best is None or bw < 0.3:
             res[q["id"]] = (0, None, "unmatched"); continue
         res[q["id"]] = (best[0], best[1], "knn+kw" if bw >= 0.9 else "knn+kw-weak")
     cnt = collections.Counter((SLUG.get(v[0], "other"), v[2]) for v in res.values())

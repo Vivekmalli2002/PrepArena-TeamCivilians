@@ -1,6 +1,7 @@
 "use client";
 
 import { Sparkles } from "lucide-react";
+import { chapterWeight } from "@/content/patterns";
 import { useMemo, useState } from "react";
 import type { LoadedBank } from "@/lib/bank";
 import { SCHEMES } from "@/lib/scoring";
@@ -33,6 +34,8 @@ export function CustomBuilder({
   const [timed, setTimed] = useState(true);
   const [mode, setMode] = useState<Mode>("exam");
   const [schemeId, setSchemeId] = useState(defaultScheme);
+  const [weighted, setWeighted] = useState(false);
+  const hasWeights = useMemo(() => bank.topics.some((t) => chapterWeight(t.name) != null), [bank]);
 
   const available = useMemo(() => {
     const keep = poolFilter(pool, qstats, bookmarks);
@@ -46,15 +49,46 @@ export function CustomBuilder({
   return (
     <Card className="mt-5 space-y-6 p-5">
       <Field label="Topics" hint={`${topics.length} selected`}>
-        <div className="flex flex-wrap gap-2">
+        <div className="mb-2 flex flex-wrap gap-2">
           <Chip on={all} onClick={() => setTopics(all ? [] : bank.topics.map((t) => t.name))}>
             All topics
           </Chip>
-          {bank.topics.map((t) => (
-            <Chip key={t.name} on={!all && topics.includes(t.name)} onClick={() => (all ? setTopics([t.name]) : toggle(t.name))}>
-              {t.name}
-            </Chip>
-          ))}
+        </div>
+        <div className="grid gap-2">
+          {bank.subjects.map((sj) => {
+            const own = bank.topics.filter((t) => t.subject === sj.id);
+            if (!own.length) return null;
+            const picked = own.filter((t) => topics.includes(t.name)).length;
+            return (
+              <details key={sj.id} className="rounded-2xl border border-hairline p-3" open={bank.subjects.length === 1}>
+                <summary className="flex cursor-pointer items-center justify-between gap-3 font-semibold">
+                  <span>{sj.name}</span>
+                  <span className="text-xs font-normal text-muted tabular">
+                    {picked}/{own.length} chapters
+                  </span>
+                </summary>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  <Chip
+                    on={picked === own.length}
+                    onClick={() =>
+                      setTopics((x) =>
+                        picked === own.length
+                          ? x.filter((n) => !own.some((t) => t.name === n))
+                          : [...new Set([...x, ...own.map((t) => t.name)])],
+                      )
+                    }
+                  >
+                    Whole subject
+                  </Chip>
+                  {own.map((t) => (
+                    <Chip key={t.name} on={!all && topics.includes(t.name)} onClick={() => (all ? setTopics([t.name]) : toggle(t.name))}>
+                      {t.name} <span className="ml-1 opacity-70 tabular">{t.count}</span>
+                    </Chip>
+                  ))}
+                </div>
+              </details>
+            );
+          })}
         </div>
       </Field>
 
@@ -63,19 +97,32 @@ export function CustomBuilder({
       </Field>
 
       <Field label="Number of questions" hint={`${available} available`}>
-        <div className="flex items-center gap-4">
+        <div className="flex flex-wrap items-center gap-2">
           <input
-            type="range"
-            min={5}
-            max={100}
-            step={5}
+            type="number"
+            inputMode="numeric"
+            min={1}
+            max={available || 1}
             value={count}
-            onChange={(e) => setCount(Number(e.target.value))}
-            className="flex-1 accent-[var(--primary)]"
+            onChange={(e) => setCount(Math.max(1, Math.floor(Number(e.target.value) || 1)))}
+            className="h-11 w-24 rounded-xl border border-hairline bg-transparent text-center font-display text-xl font-bold tabular"
             aria-label="Number of questions"
           />
-          <span className="w-12 text-right font-display text-xl font-bold tabular">{count}</span>
+          {[25, 50, 100, 150].map((v) => (
+            <Chip key={v} on={count === v} onClick={() => setCount(v)}>
+              {v}
+            </Chip>
+          ))}
+          <Chip on={count >= available && available > 0} onClick={() => setCount(Math.max(1, available))}>
+            All {available}
+          </Chip>
         </div>
+        {hasWeights && (
+          <label className="mt-3 flex items-center gap-2 text-sm">
+            <input type="checkbox" checked={weighted} onChange={(e) => setWeighted(e.target.checked)} />
+            Follow exam weightage (more questions from chapters the real papers ask most)
+          </label>
+        )}
       </Field>
 
       <div className="grid gap-6 sm:grid-cols-2">
@@ -118,7 +165,7 @@ export function CustomBuilder({
         className="w-full"
         disabled={!n}
         onClick={() =>
-          onStart(customTest(bank, { topics, count: n, minutes: timed ? n : 0, mode, schemeId, pool }, qstats, bookmarks))
+          onStart(customTest(bank, { topics, count: n, minutes: timed ? n : 0, mode, schemeId, pool, weight: weighted ? chapterWeight : undefined }, qstats, bookmarks))
         }
       >
         <Sparkles size={18} /> {n ? `Build test · ${n} questions` : "No questions match"}

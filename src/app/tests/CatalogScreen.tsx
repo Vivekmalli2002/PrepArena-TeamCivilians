@@ -10,6 +10,7 @@ import { bestByKey, bestByTopic } from "@/lib/selectors";
 import { useApp, useHydrated } from "@/lib/store";
 import { FULL_MOCK, fullMock, subtopicTest, TOPIC_MOCK, topicMock, topicSets, topicSetTest } from "@/lib/tests";
 import { CustomBuilder } from "@/components/CustomBuilder";
+import { PatternMocks } from "@/components/PatternMocks";
 import { ProgressRing } from "@/components/ProgressRing";
 import { useStartTest } from "@/components/useStartTest";
 import { Button, Card, Chip, PageSkeleton, Segmented, SectionTitle, Sheet, cx, enter } from "@/components/ui";
@@ -129,6 +130,7 @@ export function CatalogScreen() {
 
       {tab === "mocks" && (
         <motion.div variants={enter.container} initial="hidden" animate="show">
+          <PatternMocks bank={examBank} examId={examId} onStart={start} />
           <motion.div variants={enter.item}>
             <Card strong className="relative mt-5 overflow-hidden p-5">
               <div className="absolute -right-12 -top-12 size-44 rounded-full bg-primary/20 blur-2xl" />
