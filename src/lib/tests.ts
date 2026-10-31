@@ -10,6 +10,17 @@ export const TOPIC_MOCK = { count: 25, minutes: 25 };
 
 const perQ = (n: number) => n * 60;
 
+/**
+ * Anti-repeat ordering: unseen questions first (shuffled), then the ones answered longest ago.
+ * De-duplicates, so a test can never contain the same question twice.
+ */
+export function preferFresh(ids: readonly number[], qstats: Record<number, QStat> = {}, rand: () => number = Math.random): number[] {
+  const uniq = [...new Set(ids)];
+  const unseen = shuffle(uniq.filter((id) => !qstats[id]), rand);
+  const seen = shuffle(uniq.filter((id) => qstats[id]), rand).sort((a, b) => qstats[a].at - qstats[b].at);
+  return [...unseen, ...seen];
+}
+
 export function topicSets(qids: number[], size = SET_SIZE): number[][] {
   const sets: number[][] = [];
   for (let i = 0; i < qids.length; i += size) sets.push(qids.slice(i, i + size));
@@ -49,8 +60,8 @@ export function subtopicTest(topic: string, subtopic: string, qids: number[], mo
   };
 }
 
-export function topicMock(topic: string, pool: number[], schemeId: string, count = TOPIC_MOCK.count): TestConfig {
-  const qids = shuffle(pool).slice(0, count);
+export function topicMock(topic: string, pool: number[], schemeId: string, count = TOPIC_MOCK.count, qstats: Record<number, QStat> = {}): TestConfig {
+  const qids = shuffle(preferFresh(pool, qstats).slice(0, count));
   return {
     kind: "topic-mock",
     key: `topic-mock:${topic}`,
@@ -65,15 +76,15 @@ export function topicMock(topic: string, pool: number[], schemeId: string, count
 }
 
 /** Picks `n` ids spread across `topics` in proportion to their size (largest remainders). */
-function spread(topics: LoadedBank["topics"], n: number): number[] {
+function spread(topics: LoadedBank["topics"], n: number, qstats: Record<number, QStat> = {}): number[] {
   const total = topics.reduce((k, t) => k + t.qids.length, 0);
   if (!total || n <= 0) return [];
   const quotas = topics.map((t) => ({ t, exact: (t.qids.length / total) * Math.min(n, total) }));
-  const picks = quotas.flatMap((q) => shuffle(q.t.qids).slice(0, Math.floor(q.exact)));
+  const picks = quotas.flatMap((q) => preferFresh(q.t.qids, qstats).slice(0, Math.floor(q.exact)));
   const rest = quotas.sort((x, y) => y.exact - Math.floor(y.exact) - (x.exact - Math.floor(x.exact)));
   for (const q of rest) {
     if (picks.length >= Math.min(n, total)) break;
-    const extra = shuffle(q.t.qids).find((id) => !picks.includes(id));
+    const extra = preferFresh(q.t.qids, qstats).find((id) => !picks.includes(id));
     if (extra != null) picks.push(extra);
   }
   return picks;
@@ -84,7 +95,7 @@ function spread(topics: LoadedBank["topics"], n: number): number[] {
  * screening is 5 × 30). A subject with too few questions hands its unused seats to the others.
  * Within a subject, seats follow topic size.
  */
-export function fullMock(bank: LoadedBank, schemeId: string, count = FULL_MOCK.count, minutes = FULL_MOCK.minutes): TestConfig {
+export function fullMock(bank: LoadedBank, schemeId: string, count = FULL_MOCK.count, minutes = FULL_MOCK.minutes, qstats: Record<number, QStat> = {}): TestConfig {
   const subjects = bank.subjects.map((s) => ({ id: s.id, topics: bank.topics.filter((t) => t.subject === s.id) }));
   const size = (sj: (typeof subjects)[number]) => sj.topics.reduce((k, t) => k + t.qids.length, 0);
   const seats = new Map(subjects.map((sj) => [sj.id, 0]));
@@ -100,7 +111,7 @@ export function fullMock(bank: LoadedBank, schemeId: string, count = FULL_MOCK.c
     }
     open = open.filter((sj) => seats.get(sj.id)! < size(sj));
   }
-  const picks = subjects.flatMap((sj) => spread(sj.topics, seats.get(sj.id)!));
+  const picks = [...new Set(subjects.flatMap((sj) => spread(sj.topics, seats.get(sj.id)!, qstats)))];
   const ids = bank.subjects.map((s) => s.id).sort();
   return {
     kind: "mock",
@@ -162,7 +173,7 @@ export function customTest(
   const keep = poolFilter(o.pool, qstats, bookmarks);
   const pool = bank.topics.filter((t) => o.topics.includes(t.name)).flatMap((t) => t.qids).filter(keep);
   if (!pool.length) return null;
-  const qids = shuffle(pool).slice(0, o.count);
+  const qids = shuffle(preferFresh(pool, qstats).slice(0, o.count));
   return {
     kind: "custom",
     key: `custom:${[...o.topics].sort().join("|")}:${o.pool}`,

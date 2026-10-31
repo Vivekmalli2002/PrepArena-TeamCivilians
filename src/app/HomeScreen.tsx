@@ -191,7 +191,7 @@ function Dashboard() {
                 {FULL_MOCK.count} Q · {FULL_MOCK.minutes} min · real CBT console
               </p>
             </div>
-            <Button size="sm" variant="soft" disabled={!bank} onClick={() => bank && start(fullMock(bank, schemeId))}>
+            <Button size="sm" variant="soft" disabled={!bank} onClick={() => bank && start(fullMock(bank, schemeId, undefined, undefined, qstats))}>
               Start
             </Button>
           </Card>

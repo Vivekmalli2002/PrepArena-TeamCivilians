@@ -1,0 +1,34 @@
+[
+ {
+  "question": 12,
+  "reason": "Hardness 'NOT caused by': the official key (CO\u2083\u00b2\u207b) and the annotator's note (Si\u00b2\u207a) disagree; ambiguous."
+ },
+ {
+  "question": 13,
+  "reason": "Maximum coordination number of Sn\u2074\u207a: only the annotator's tick (6) supports the key; the source's own reference says 4, 6 or 7."
+ },
+ {
+  "question": 33,
+  "reason": "Differential equation value: annotated answer 0.37 has the wrong sign; the correct value is \u22120.37."
+ },
+ {
+  "question": 38,
+  "reason": "CaCO\u2083 solubility with Na\u2082CO\u2083/Na\u2082SO\u2084: key rests on annotator's tick and a disputed ionic-strength argument."
+ },
+ {
+  "question": 52,
+  "reason": "O\u2083 ppbv \u2192 \u00b5g/m\u00b3: depends on molar volume used (24.436 vs 24.465 L); answer not unique."
+ },
+ {
+  "question": 54,
+  "reason": "Mixed-wastewater pH: annotated 2.39; exact value is 2.40."
+ },
+ {
+  "question": 55,
+  "reason": "Isohyetal average depends on a figure that could not be reconstructed reliably."
+ },
+ {
+  "question": "56-57, 61-65",
+  "reason": "Question pages not read in this pass."
+ }
+]

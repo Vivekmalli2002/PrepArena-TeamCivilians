@@ -182,9 +182,74 @@ authoredFiles.forEach((f, i) => {
     authored.push(rest);
   }
 });
-const all = [...corrected, ...authored];
+/* ---------------- 4a-2. structured banks (data/questions/*.json) ---------------- */
+// Questions structured from the source books (see STRUCTURING_SPEC). Ids are strings in the files; they get
+// stable integer ids from data/questions/_ids.json (append-only). Items whose answer key could not be confirmed
+// (see `keyCheck`) are published as "withdrawn" — kept for review, never shown in tests.
+const DATA = join(root, "data/questions");
+const FILE_SUBJECT = { "air-pollution": "env", "water-pollution": "env", "eia-legislation": "env", energy: "env", "indian-economy": "economy", "original-economy": "economy", "original-history": "history", "original-geography": "geography", "original-polity": "polity", "original-scitech": "scitech", "original-mental": "mental", "gate-es-ga": "mental", "gate-es-tech": "env", "civil-vol1": "civil-core", "civil-vol2": "civil-core", "gs-indian-economy": "economy", "gs-ancient-medieval": "history", "gs-modern-india": "history", "gs-science-tech": "scitech", "gs-geography": "geography", "gs-environment": "env", "gs-civil-pyq": "civil-core", "eco200": "env", "aeeset": "env", "tspsc-g1-current": "current", "tspsc-g1-science": "scitech", "tspsc-g1-env": "env", "tspsc-g1-policies": "polity", "tspsc-g1-society": "society", "tspsc-g1-reasoning": "mental", "shyam-g2-history": "history", "shyam-g2-geography": "geography", "shyam-g2-society": "society", "shyam-g2-current": "current", "shyam-g2-mental": "mental", "shyam-g2-polity": "polity", "shyam-g2-economy": "economy", "shyam-g2-scitech": "scitech", "civil-vol1-unverified": "civil-core", "civil-vol2-unverified": "civil-core", "gs-ancient-medieval-unverified": "history", "gs-civil-pyq-unverified": "civil-core", "gs-environment-unverified": "env", "gs-geography-unverified": "geography", "gs-indian-economy-unverified": "economy", "gs-modern-india-unverified": "history", "gs-science-tech-unverified": "scitech" };
+const TOPIC_UNIT = {
+  "Photochemical smog": 4, "Plume dispersion & meteorology": 4, "Particulate & gaseous control devices": 4, "Noise pollution": 4,
+  "Air quality standards & pollutant types": 4, "Air pollution calculations": 4, "Atmospheric chemistry & ozone": 6, "Greenhouse gases & climate": 6,
+  "Water treatment: coagulation & disinfection": 4, "BOD, COD & oxygen demand": 4, "Wastewater treatment": 4, "Water chemistry": 4,
+  "Nutrients & eutrophication": 4, "Membrane processes": 4, "Anaerobic digestion & bioreactors": 5, "Contaminants & standards": 4,
+  "EIA process & clearance": 8, "International conventions & protocols": 7, "Indian environmental legislation": 7,
+  "Environmental policy, principles & institutions": 7, "Environmental management tools & LCA": 8,
+  "GATE ES: Air pollution": 4, "GATE ES: Wastewater engineering": 4, "GATE ES: Water treatment": 4, "GATE ES: Solid waste management": 5, "GATE ES: Sustainable development & LCA": 8, "GATE ES: Environmental chemistry": 4, "GATE ES: Noise pollution": 4, "GATE ES: Nitrogen cycle & microbiology": 1, "GATE ES: Microbiology & biochemistry": 1,
+  "Hydropower & renewable energy": 3, "Coal & coalification": 3, "Petroleum & natural gas": 3, "Nuclear energy & radiation": 3, Biofuels: 3, "Energy statistics (India)": 3,
+};
+subjects.set("civil-core", { id: "civil-core", name: "Civil Engineering Core" });
+subjects.set("current", { id: "current", name: "Current Affairs" });
+const HOLD = new Set(["source-only", "conflict-trusted-explanation", "key-overridden-by-science", "time-sensitive", "source-key-as-printed"]);
+const idsFile = join(DATA, "_ids.json");
+const idMap = existsSync(idsFile) ? JSON.parse(readFileSync(idsFile, "utf8")) : {};
+let nextId = Math.max(100000, ...Object.values(idMap)) + 1;
+const structured = [];
+const structuredText = [];
+const qKey = (q) => normQ(q.question) + "|" + q.options.map(normO).join("|");
+const knownQ = new Set([...corrected, ...authored].map(qKey));
+let structuredHeld = 0;
+let structuredDup = 0;
+if (existsSync(DATA)) {
+  for (const f of readdirSync(DATA).filter((f) => f.endsWith(".json") && !f.endsWith(".dropped.json") && !f.startsWith("_")).sort()) {
+    const slugName = f.replace(/\.json$/, "");
+    const subj = FILE_SUBJECT[slugName];
+    if (!subj) {
+      console.error(`data/questions/${f}: add it to FILE_SUBJECT in scripts/prepare-content.mjs`);
+      process.exit(1);
+    }
+    const text = readFileSync(join(DATA, f), "utf8");
+    structuredText.push(text);
+    for (const d of JSON.parse(text)) {
+      if (!idMap[d.id]) idMap[d.id] = nextId++;
+      const q = {
+        id: idMap[d.id], topic: d.topic, question: d.question, options: d.options, answerIndex: d.answerIndex,
+        explanation: d.explanation ?? "", source: d.source,
+      };
+      if (d.subtopic) q.subtopic = d.subtopic;
+      if (d.explanationImage?.length) q.explanationImage = d.explanationImage.map((x) => `/qimg/${slugName}/${x}`);
+      if (d.keyCheck === "unverified-extract") q.unverified = true;
+      if (d.image) q.image = `/qimg/${slugName}/${d.image}`;
+      if (d.flag && /^(resolved|stem-corrected|supported|solution)/.test(d.keyCheck ?? "")) q.revised = d.flag;
+      structured.push(q);
+      subjectOf.set(q.id, subj);
+      unitOf.set(q.id, TOPIC_UNIT[q.topic] ?? null);
+      if (HOLD.has(d.keyCheck)) {
+        quarantine[q.id] = `Answer key not confirmed (${d.keyCheck}): ${d.flag ?? ""}`.trim();
+        structuredHeld++;
+      } else if (knownQ.has(qKey(q))) {
+        duplicateOf[q.id] = [...corrected, ...authored, ...structured].find((x) => qKey(x) === qKey(q)).id;
+        structuredDup++;
+      }
+      knownQ.add(qKey(q));
+    }
+  }
+  validate(structured, "data/questions");
+  writeFileSync(idsFile, JSON.stringify(idMap, null, 1) + "\n");
+}
+const all = [...corrected, ...authored, ...structured];
 
-const version = createHash("sha256").update(rawText).update(fixText).update(authoredText.join("")).digest("hex").slice(0, 12);
+const version = createHash("sha256").update(rawText).update(fixText).update(authoredText.join("")).update(structuredText.join("")).digest("hex").slice(0, 12);
 const slug = (s) => s.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const byTopic = new Map();
 for (const q of all) {
@@ -229,7 +294,7 @@ console.log(
   `content v${version}: ${raw.length} questions → ${active} active in ${topics.length} topics ` +
     `(${Object.keys(quarantine).length} withdrawn, ${Object.keys(duplicateOf).length} duplicates hidden; ` +
     `${log.stripped.length} cleaned, ${log.droppedOption.length} option-E removed, ${log.renamedTopic.length} re-topiced, ` +
-    `${Object.keys(overrides).length} revised; ${authored.length} authored in ${authoredFiles.length} subject files)`,
+    `${Object.keys(overrides).length} revised; ${authored.length} authored in ${authoredFiles.length} subject files; ${structured.length} structured, ${structuredHeld} held for key review, ${structuredDup} duplicates)`,
 );
 
 if (process.argv.includes("--audit")) writeAudit();

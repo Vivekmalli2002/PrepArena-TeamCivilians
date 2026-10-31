@@ -19,6 +19,7 @@ import { useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import { useQuestions } from "@/lib/bank";
 import { fmtDuration, pct } from "@/lib/format";
+import { optionOrder } from "@/lib/random";
 import { schemeById, scoreAttempt } from "@/lib/scoring";
 import { useApp, useHydrated } from "@/lib/store";
 import { revisionTest } from "@/lib/tests";
@@ -272,8 +273,12 @@ function Result({ attempt: a, attempts }: { attempt: Attempt; attempts: Attempt[
                   </p>
                 )}
                 <QuestionText text={q.question} className="!text-base" />
+                {q.image && (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img src={q.image} alt="Figure for the question" className="mt-3 max-h-96 w-full rounded-xl border border-hairline bg-white object-contain" />
+                )}
                 <div className="mt-3">
-                  <Options q={q} stateOf={stateOf} disabled />
+                  <Options q={q} order={optionOrder(q.options, `${a.id}:${q.id}`)} stateOf={stateOf} disabled />
                 </div>
                 <div className="mt-3">
                   <Explanation q={q} />

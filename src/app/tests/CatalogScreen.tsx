@@ -140,7 +140,7 @@ export function CatalogScreen() {
                 Drawn from all {bank.topics.length} topics in proportion · exam mode · negative marking
               </p>
               <div className="mt-4 flex items-center gap-3">
-                <Button onClick={() => start(fullMock(bank, schemeId))}>
+                <Button onClick={() => start(fullMock(bank, schemeId, undefined, undefined, qstats))}>
                   <Timer size={18} /> Start mock
                 </Button>
                 {(() => {
@@ -164,7 +164,7 @@ export function CatalogScreen() {
                         {n} Q · {n} min{best != null && <> · <b className="text-good">Best {pct(best)}</b></>}
                       </div>
                     </div>
-                    <Button size="sm" variant="soft" onClick={() => start(topicMock(t.name, t.qids, schemeId))}>
+                    <Button size="sm" variant="soft" onClick={() => start(topicMock(t.name, t.qids, schemeId, undefined, qstats))}>
                       Start
                     </Button>
                   </Card>
@@ -208,11 +208,12 @@ function TopicDetail({
   onStart: (c: ReturnType<typeof topicSetTest>) => void;
   schemeId: string;
 }) {
+  const qstats = useApp((s) => s.qstats);
   const sets = topicSets(topic.qids);
   return (
     <div>
       <div className="grid grid-cols-2 gap-3">
-        <Button onClick={() => onStart(topicMock(topic.name, topic.qids, schemeId))}>
+        <Button onClick={() => onStart(topicMock(topic.name, topic.qids, schemeId, undefined, qstats))}>
           <Timer size={17} /> Topic mock
         </Button>
         <Button

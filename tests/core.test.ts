@@ -35,7 +35,10 @@ describe("test builders", () => {
       (n, f) => n + JSON.parse(readFileSync(`content/authored/${f}`, "utf8")).questions.length,
       0,
     );
-    expect(byId.size).toBe(source.length + authored);
+    const structured = readdirSync("data/questions")
+      .filter((f) => f.endsWith(".json") && !f.endsWith(".dropped.json") && !f.startsWith("_"))
+      .reduce((n, f) => n + JSON.parse(readFileSync(`data/questions/${f}`, "utf8")).length, 0);
+    expect(byId.size).toBe(source.length + authored + structured);
     // "Ecosystem" is merged into "Ecology & Ecosystem": 12 source topics remain for Environment.
     expect(new Set(source.map((q) => q.topic === "Ecosystem" ? "Ecology & Ecosystem" : q.topic)).size).toBe(12);
     expect(bank.total).toBe(bank.allActive.length);
@@ -264,5 +267,67 @@ describe("pattern registry", () => {
     expect(SCHEME_SOURCES.group2.status).toBe("brief-only");
     expect(patternRows().length).toBeGreaterThanOrEqual(EXAMS.length);
     expect(commonSubjects().find((s) => s.subjectId === "env")!.exams.length).toBeGreaterThan(3);
+  });
+});
+
+describe("anti-repeat selection and option shuffling", () => {
+  it("prefers unseen, then least-recently seen, and never repeats a question", async () => {
+    const { preferFresh } = await import("@/lib/tests");
+    const stats = { 1: { n: 1, c: 1, last: true, at: 500 }, 2: { n: 1, c: 0, last: false, at: 100 } };
+    const out = preferFresh([1, 2, 3, 4, 3, 1], stats);
+    expect(new Set(out).size).toBe(out.length);
+    expect(out.slice(0, 2).sort()).toEqual([3, 4]); // unseen first
+    expect(out.slice(2)).toEqual([2, 1]); // then oldest answer first
+  });
+
+  it("builds mocks without repeated questions and favours unseen ones", async () => {
+    const m = fullMock(bank, "appsc", 50, 50, {});
+    expect(new Set(m.qids).size).toBe(m.qids.length);
+    const seenFirst = Object.fromEntries(m.qids.map((id) => [id, { n: 1, c: 1, last: true, at: 1 }]));
+    const next = fullMock(bank, "appsc", 50, 50, seenFirst);
+    const overlap = next.qids.filter((id) => seenFirst[id]).length;
+    expect(overlap).toBeLessThan(m.qids.length); // fresh questions are preferred when available
+  });
+
+  it("shuffles independent options deterministically and keeps cross-referencing options in order", async () => {
+    const { canShuffleOptions, optionOrder } = await import("@/lib/random");
+    const plain = ["Delhi", "Mumbai", "Chennai", "Kolkata"];
+    expect(canShuffleOptions(plain)).toBe(true);
+    const a = optionOrder(plain, "s1:7");
+    expect(a).toEqual(optionOrder(plain, "s1:7"));
+    expect([...a].sort()).toEqual([0, 1, 2, 3]);
+    for (const refers of [["1 and 2 only", "2 only", "1 only", "None"], ["All of the above", "A", "B", "C"], ["A, B and C", "B only", "A only", "C only"], ["(a)-(iii)", "(b)", "(c)", "(d)"]]) {
+      expect(canShuffleOptions(refers)).toBe(false);
+      expect(optionOrder(refers, "x")).toEqual([0, 1, 2, 3]);
+    }
+  });
+
+  it("publishes the structured question banks and withholds items with an unconfirmed key", () => {
+    const idx = JSON.parse(readFileSync("public/data/index.json", "utf8"));
+    const topics = idx.topics.filter((t: { subject: string }) => t.subject === "env");
+    expect(topics.some((t: { name: string }) => t.name === "Water treatment: coagulation & disinfection")).toBe(true);
+    const held = JSON.parse(readFileSync("data/questions/air-pollution.json", "utf8")).filter((q: { keyCheck: string }) => q.keyCheck === "source-only");
+    expect(held.length).toBeGreaterThan(0);
+    const ids: Record<string, number> = JSON.parse(readFileSync("data/questions/_ids.json", "utf8"));
+    const live = new Set(idx.topics.flatMap((t: { qids: number[] }) => t.qids));
+    for (const q of held) expect(live.has(ids[q.id])).toBe(false);
+  });
+});
+
+describe("syllabus overlap registers", () => {
+  it("classifies units against a selection and finds unique ones", async () => {
+    const { unitOverlap, uniqueUnits, stageComparison, ownPapers } = await import("@/content/registry");
+    const rows = unitOverlap(["group1", "group2"]);
+    expect(rows.some((r) => r.cls === "common-all")).toBe(true);
+    for (const r of rows) {
+      expect(r.selectedListed.every((e) => ["group1", "group2"].includes(e))).toBe(true);
+      expect(r.cls === "common-all").toBe(r.selectedListed.length === 2);
+    }
+    // an exam's unique units are listed by that exam only
+    for (const e of ["aswo", "eo", "draughtsman", "aee-pcb"] as const) for (const u of uniqueUnits(e)) expect(u.unit.length).toBeGreaterThan(0);
+    expect(ownPapers("eo").map((p) => p.id)).toContain("eo-2");
+    const c = stageComparison("group2")!;
+    expect(c.both.length + c.onlyFirst.length).toBeGreaterThan(0);
+    expect(stageComparison("eo")).toBeNull();
   });
 });

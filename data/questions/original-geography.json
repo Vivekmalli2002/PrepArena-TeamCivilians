@@ -1,0 +1,816 @@
+[
+ {
+  "id": "ORG-GEO-001",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Rivers, dams & water bodies",
+  "question": "Which is the longest river of peninsular India?",
+  "options": [
+   "Krishna",
+   "Mahanadi",
+   "Godavari",
+   "Kaveri"
+  ],
+  "answerIndex": 2,
+  "explanation": "The Godavari (about 1,465 km) is the longest peninsular river, called the 'Dakshin Ganga'.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-002",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Rivers, dams & water bodies",
+  "question": "The Krishna river originates near",
+  "options": [
+   "Mahabaleshwar",
+   "Amarkantak",
+   "Brahmagiri",
+   "Trimbakeshwar"
+  ],
+  "answerIndex": 0,
+  "explanation": "The Krishna rises in the Western Ghats near Mahabaleshwar, Maharashtra.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-003",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Rivers, dams & water bodies",
+  "question": "The Godavari rises at",
+  "options": [
+   "Trimbak (Nashik district)",
+   "Amarkantak",
+   "Talakaveri",
+   "Mahabaleshwar"
+  ],
+  "answerIndex": 0,
+  "explanation": "The Godavari originates at Trimbakeshwar near Nashik in Maharashtra.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-004",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Rivers, dams & water bodies",
+  "question": "The Tungabhadra is a major tributary of which river?",
+  "options": [
+   "Penna",
+   "Godavari",
+   "Krishna",
+   "Kaveri"
+  ],
+  "answerIndex": 2,
+  "explanation": "The Tungabhadra, formed by the Tunga and Bhadra, joins the Krishna.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-005",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Rivers, dams & water bodies",
+  "question": "The Nagarjuna Sagar dam is built across which river?",
+  "options": [
+   "Krishna",
+   "Godavari",
+   "Tungabhadra",
+   "Pranahita"
+  ],
+  "answerIndex": 0,
+  "explanation": "Nagarjuna Sagar, on the Krishna at the Telangana–Andhra border, is among the world's largest masonry dams.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-006",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Rivers, dams & water bodies",
+  "question": "The Prakasam Barrage is located at",
+  "options": [
+   "Guntur",
+   "Nellore",
+   "Vijayawada",
+   "Rajahmundry"
+  ],
+  "answerIndex": 2,
+  "explanation": "The Prakasam Barrage across the Krishna at Vijayawada feeds the Krishna delta canals.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-007",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Rivers, dams & water bodies",
+  "question": "The Dowleswaram (Sir Arthur Cotton) Barrage is on the river",
+  "options": [
+   "Penna",
+   "Godavari",
+   "Vamsadhara",
+   "Krishna"
+  ],
+  "answerIndex": 1,
+  "explanation": "The barrage at Dowleswaram near Rajahmundry feeds the Godavari delta.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-008",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Rivers, dams & water bodies",
+  "question": "Kolleru Lake, a Ramsar wetland, lies between the deltas of which two rivers?",
+  "options": [
+   "Krishna and Penna",
+   "Penna and Kaveri",
+   "Godavari and Mahanadi",
+   "Godavari and Krishna"
+  ],
+  "answerIndex": 3,
+  "explanation": "Kolleru is a large freshwater lake between the Godavari and Krishna deltas.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-009",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Rivers, dams & water bodies",
+  "question": "Pulicat Lake lies on the border of Andhra Pradesh and",
+  "options": [
+   "Odisha",
+   "Karnataka",
+   "Tamil Nadu",
+   "Telangana"
+  ],
+  "answerIndex": 2,
+  "explanation": "Pulicat is the second largest brackish water lagoon in India, shared by Andhra Pradesh and Tamil Nadu.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-010",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Rivers, dams & water bodies",
+  "question": "Which is the largest brackish water lagoon in India?",
+  "options": [
+   "Pulicat Lake",
+   "Sambhar Lake",
+   "Vembanad Lake",
+   "Chilika Lake"
+  ],
+  "answerIndex": 3,
+  "explanation": "Chilika in Odisha is Asia's largest brackish lagoon.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-011",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Rivers, dams & water bodies",
+  "question": "The Polavaram project is being built on which river?",
+  "options": [
+   "Penna",
+   "Krishna",
+   "Vamsadhara",
+   "Godavari"
+  ],
+  "answerIndex": 3,
+  "explanation": "The Polavaram multipurpose project is on the Godavari in West Godavari district.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-012",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Agriculture, soils & resources",
+  "question": "Which soil, formed from basaltic lava, is best suited for cotton?",
+  "options": [
+   "Red soil",
+   "Alluvial soil",
+   "Laterite soil",
+   "Black (regur) soil"
+  ],
+  "answerIndex": 3,
+  "explanation": "Black soil, derived from the Deccan Trap, retains moisture and suits cotton.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-013",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Agriculture, soils & resources",
+  "question": "Which Andhra Pradesh district is famous for chilli production?",
+  "options": [
+   "Srikakulam",
+   "Anantapur",
+   "Chittoor",
+   "Guntur"
+  ],
+  "answerIndex": 3,
+  "explanation": "Guntur is a leading chilli (mirchi) producing and trading centre.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-014",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Agriculture, soils & resources",
+  "question": "The Araku Valley in Andhra Pradesh is known for the cultivation of",
+  "options": [
+   "Rubber",
+   "Tea",
+   "Coffee",
+   "Jute"
+  ],
+  "answerIndex": 2,
+  "explanation": "Araku, in the Eastern Ghats of Visakhapatnam district, is known for its coffee.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-015",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Agriculture, soils & resources",
+  "question": "The Godavari-Krishna delta region is known as the",
+  "options": [
+   "Tea belt",
+   "Spice garden",
+   "Rice bowl of Andhra Pradesh",
+   "Cotton belt"
+  ],
+  "answerIndex": 2,
+  "explanation": "The fertile deltas make coastal Andhra a major rice-producing region.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-016",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Agriculture, soils & resources",
+  "question": "Laterite soils are formed mainly by",
+  "options": [
+   "Volcanic eruption",
+   "Wind erosion",
+   "Deposition by rivers",
+   "Leaching"
+  ],
+  "answerIndex": 3,
+  "explanation": "Heavy rain leaches silica and leaves iron and aluminium oxides, forming laterite.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-017",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Physiography & climate of India",
+  "question": "The tropic of Cancer does NOT pass through which of these states?",
+  "options": [
+   "Madhya Pradesh",
+   "Jharkhand",
+   "Gujarat",
+   "Odisha"
+  ],
+  "answerIndex": 3,
+  "explanation": "The Tropic of Cancer passes through Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-018",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Physiography & climate of India",
+  "question": "The Indian Standard Time meridian is",
+  "options": [
+   "77°E",
+   "82°30′ E",
+   "68°7′ E",
+   "90°E"
+  ],
+  "answerIndex": 1,
+  "explanation": "IST is based on 82°30′E, which passes near Mirzapur, Uttar Pradesh.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-019",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Physiography & climate of India",
+  "question": "Which is the highest peak in India (within Indian territory)?",
+  "options": [
+   "Mount K2",
+   "Anamudi",
+   "Kanchenjunga",
+   "Nanda Devi"
+  ],
+  "answerIndex": 2,
+  "explanation": "Kanchenjunga (8,586 m) on the Sikkim–Nepal border is India's highest peak.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-020",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Physiography & climate of India",
+  "question": "The highest peak of the Western Ghats is",
+  "options": [
+   "Arma Konda",
+   "Doddabetta",
+   "Mahendragiri",
+   "Anamudi"
+  ],
+  "answerIndex": 3,
+  "explanation": "Anamudi (2,695 m) in Kerala is the highest peak in peninsular India.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-021",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Physiography & climate of India",
+  "question": "The Palk Strait separates India from",
+  "options": [
+   "Maldives",
+   "Sri Lanka",
+   "Myanmar",
+   "Bangladesh"
+  ],
+  "answerIndex": 1,
+  "explanation": "The Palk Strait lies between Tamil Nadu and Sri Lanka.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-022",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Physiography & climate of India",
+  "question": "Which place receives the highest annual rainfall in the world (recorded)?",
+  "options": [
+   "Mawsynram",
+   "Shillong",
+   "Cherrapunji",
+   "Aizawl"
+  ],
+  "answerIndex": 0,
+  "explanation": "Mawsynram in Meghalaya records the highest average annual rainfall.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-023",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Physiography & climate of India",
+  "question": "The south-west monsoon normally hits the Kerala coast around",
+  "options": [
+   "1 May",
+   "15 September",
+   "1 June",
+   "15 July"
+  ],
+  "answerIndex": 2,
+  "explanation": "The onset of the south-west monsoon over Kerala is normally around 1 June.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-024",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Physiography & climate of India",
+  "question": "Which Indian state is the largest by area?",
+  "options": [
+   "Maharashtra",
+   "Uttar Pradesh",
+   "Rajasthan",
+   "Madhya Pradesh"
+  ],
+  "answerIndex": 2,
+  "explanation": "Rajasthan (342,239 sq km) is the largest state by area.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-025",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Physiography & climate of India",
+  "question": "Which river is also known as the Tsangpo in Tibet?",
+  "options": [
+   "Brahmaputra",
+   "Indus",
+   "Sutlej",
+   "Ganga"
+  ],
+  "answerIndex": 0,
+  "explanation": "The Brahmaputra is called the Yarlung Tsangpo in Tibet.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-026",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Physiography & climate of India",
+  "question": "The Ganga is known as the Bhagirathi near its source at",
+  "options": [
+   "Kedarnath",
+   "Badrinath",
+   "Yamunotri",
+   "Gangotri"
+  ],
+  "answerIndex": 3,
+  "explanation": "The Bhagirathi rises at Gaumukh (Gangotri glacier) and joins the Alaknanda at Devprayag to form the Ganga.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-027",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Physiography & climate of India",
+  "question": "The Narmada flows towards the west through a",
+  "options": [
+   "Plateau gorge only",
+   "Delta",
+   "Rift valley",
+   "Peneplain"
+  ],
+  "answerIndex": 2,
+  "explanation": "The Narmada and Tapti flow west through rift valleys into the Arabian Sea.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-028",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Andhra Pradesh geography",
+  "question": "The highest peak of Andhra Pradesh is",
+  "options": [
+   "Arma Konda",
+   "Gali Konda",
+   "Anamudi",
+   "Mahendragiri"
+  ],
+  "answerIndex": 0,
+  "explanation": "Arma Konda (Jindhagada) in the Eastern Ghats is the highest peak in Andhra Pradesh.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-029",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Andhra Pradesh geography",
+  "question": "Andhra Pradesh has the second longest coastline among Indian states; the longest belongs to",
+  "options": [
+   "Odisha",
+   "Tamil Nadu",
+   "Gujarat",
+   "Kerala"
+  ],
+  "answerIndex": 2,
+  "explanation": "Gujarat has the longest coastline; Andhra Pradesh (about 974 km) is second.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-030",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Andhra Pradesh geography",
+  "question": "Which major port of Andhra Pradesh is a natural, deep-water harbour?",
+  "options": [
+   "Machilipatnam",
+   "Kakinada",
+   "Krishnapatnam",
+   "Visakhapatnam"
+  ],
+  "answerIndex": 3,
+  "explanation": "Visakhapatnam is a major natural harbour on the east coast.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-031",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Andhra Pradesh geography",
+  "question": "The Seshachalam hills are located in the district of",
+  "options": [
+   "Srikakulam",
+   "Krishna",
+   "Tirupati / Chittoor region",
+   "West Godavari"
+  ],
+  "answerIndex": 2,
+  "explanation": "The Seshachalam range, with Tirumala, is in southern Andhra Pradesh.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-032",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Andhra Pradesh geography",
+  "question": "Coringa Wildlife Sanctuary protects which type of ecosystem?",
+  "options": [
+   "Cold desert",
+   "Alpine meadows",
+   "Mangroves",
+   "Tropical rainforest"
+  ],
+  "answerIndex": 2,
+  "explanation": "Coringa, in East Godavari, has the second largest mangrove forest on India's east coast.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-033",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Andhra Pradesh geography",
+  "question": "The Nagarjunasagar–Srisailam Tiger Reserve is notable for being",
+  "options": [
+   "The only one in the Himalaya",
+   "A marine reserve",
+   "The oldest tiger reserve",
+   "The largest tiger reserve in India by area"
+  ],
+  "answerIndex": 3,
+  "explanation": "NSTR across Andhra Pradesh and Telangana is the largest tiger reserve in India by area.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-034",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Andhra Pradesh geography",
+  "question": "The Papikonda National Park lies along which river?",
+  "options": [
+   "Penna",
+   "Tungabhadra",
+   "Krishna",
+   "Godavari"
+  ],
+  "answerIndex": 3,
+  "explanation": "Papikonda National Park is in the Eastern Ghats around the Godavari gorge.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-035",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Andhra Pradesh geography",
+  "question": "Which region of Andhra Pradesh is generally the driest?",
+  "options": [
+   "North coastal Andhra",
+   "Rayalaseema",
+   "Godavari delta",
+   "Coastal Andhra"
+  ],
+  "answerIndex": 1,
+  "explanation": "Rayalaseema lies in a rain shadow and receives lower rainfall.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-036",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "Andhra Pradesh geography",
+  "question": "The Sriharikota launch centre (SHAR) is on an island between the Bay of Bengal and which lake?",
+  "options": [
+   "Pulicat Lake",
+   "Chilika Lake",
+   "Kolleru Lake",
+   "Vembanad Lake"
+  ],
+  "answerIndex": 0,
+  "explanation": "Sriharikota separates Pulicat Lake from the Bay of Bengal.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-GEO-037",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "geography",
+  "topic": "World & India basics",
+  "question": "Which is the largest state in India by population (Census 2011)?",
+  "options": [
+   "Bihar",
+   "Maharashtra",
+   "West Bengal",
+   "Uttar Pradesh"
+  ],
+  "answerIndex": 3,
+  "explanation": "Uttar Pradesh had the largest population in Census 2011.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ }
+]

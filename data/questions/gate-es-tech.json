@@ -1,0 +1,829 @@
+[
+ {
+  "id": "GATE-ES-Q14",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Microbiology & biochemistry",
+  "question": "Rod shaped bacterial cells are called ______.",
+  "options": [
+   "Bacilli",
+   "Cocci",
+   "Spirilla",
+   "Diplococci"
+  ],
+  "answerIndex": 0,
+  "explanation": "Rod-shaped bacteria are bacilli; cocci are spherical, spirilla spiral, and diplococci are pairs of cocci.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.14",
+  "sourcePage": 14,
+  "sourceKey": "A",
+  "keyCheck": "verified",
+  "explanationImage": [
+   "p0015_23.jpg"
+  ]
+ },
+ {
+  "id": "GATE-ES-Q15",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Microbiology & biochemistry",
+  "question": "Tuberculosis is predominantly caused by ______.",
+  "options": [
+   "Entamoeba histolytica",
+   "Salmonella typhi",
+   "Mycobacterium bovis",
+   "Bacillus cereus"
+  ],
+  "answerIndex": 2,
+  "explanation": "Of the listed organisms only Mycobacterium (M. bovis, a member of the M. tuberculosis complex) causes tuberculosis; E. histolytica causes amoebiasis, S. typhi typhoid and B. cereus food-borne diarrhoea.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.15",
+  "sourcePage": 15,
+  "sourceKey": "C",
+  "keyCheck": "verified",
+  "explanationImage": [
+   "p0016_24.png"
+  ]
+ },
+ {
+  "id": "GATE-ES-Q16",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Nitrogen cycle & microbiology",
+  "question": "Which one of the following conversions belongs to nonsymbiotic nitrogen fixation?",
+  "options": [
+   "Atmospheric nitrogen to ammonia by Rhizobium bacteria in nodules attached to roots of legumes",
+   "Atmospheric nitrogen to ammonia by Azotobacter species",
+   "Nitrate to gaseous nitrogen under anaerobic conditions",
+   "Nitrate to ammonia under aerobic conditions"
+  ],
+  "answerIndex": 1,
+  "explanation": "Azotobacter is a free-living nitrogen fixer (nonsymbiotic). Rhizobium fixation is symbiotic; nitrate to N₂ under anaerobic conditions is denitrification.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.16",
+  "sourcePage": 16,
+  "sourceKey": "B",
+  "keyCheck": "verified"
+ },
+ {
+  "id": "GATE-ES-Q17",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Wastewater engineering",
+  "question": "Crown corrosion of reinforced cement concrete sewer is caused by ______.",
+  "options": [
+   "sulfur oxidizing bacteria",
+   "iron oxidizing bacteria",
+   "denitrifying bacteria",
+   "fermentative bacteria"
+  ],
+  "answerIndex": 0,
+  "explanation": "Sulphate-reducing bacteria generate H₂S in the sewage; the H₂S is oxidised by sulfur-oxidising bacteria on the crown to H₂SO₄, which attacks the concrete to form CaSO₄.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.17",
+  "sourcePage": 17,
+  "sourceKey": "A",
+  "keyCheck": "verified",
+  "explanationImage": [
+   "p0018_28.jpg"
+  ]
+ },
+ {
+  "id": "GATE-ES-Q18",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Water treatment",
+  "question": "The processes of removal of particles in a rapid sand filter with their description is given in the table. (i) Straining — P: removes only particles large enough to get caught in the pores of the filter. (ii) Sedimentation — Q: larger and heavier particles do not follow the fluid streamline around the sand grain and settle on the grain. (iii) Interception — R: particles that follow the streamline but are too large and are caught because they brush up against the sand grains. (iv) Diffusion — S: very small particles experience Brownian motion and may collide with the sand grains by chance. Select the correct match.",
+  "options": [
+   "i-S; ii-P; iii-Q; iv-R",
+   "i-Q; ii-R; iii-S; iv-P",
+   "i-R; ii-S; iii-P; iv-Q",
+   "i-P; ii-Q; iii-R; iv-S"
+  ],
+  "answerIndex": 3,
+  "explanation": "Straining–P, sedimentation–Q, interception–R, diffusion–S.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.18",
+  "sourcePage": 18,
+  "sourceKey": "D",
+  "keyCheck": "verified"
+ },
+ {
+  "id": "GATE-ES-Q19",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Air pollution",
+  "question": "The environmental temperature increases by 6 °C/km with height at a particular location. The stability condition of the atmosphere at the location is ______.",
+  "options": [
+   "stable",
+   "unstable",
+   "inversion",
+   "neutral"
+  ],
+  "answerIndex": 2,
+  "explanation": "Temperature increasing with height is a temperature inversion (a very stable layer); a normal or super-adiabatic lapse involves a decrease with height.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.19",
+  "sourcePage": 19,
+  "sourceKey": "C",
+  "keyCheck": "verified",
+  "explanationImage": [
+   "p0020_31.png"
+  ]
+ },
+ {
+  "id": "GATE-ES-Q20",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Sustainable development & LCA",
+  "question": "As per the United Nations agenda for sustainable development adopted in September 2015, the number of Sustainable Development Goals (SDGs) are ______ and the proposed target year to achieve them is ______.",
+  "options": [
+   "15; 2035",
+   "17; 2030",
+   "20; 2050",
+   "18; 2047"
+  ],
+  "answerIndex": 1,
+  "explanation": "The 2030 Agenda adopted in September 2015 has 17 SDGs with a 2030 target.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.20",
+  "sourcePage": 20,
+  "sourceKey": "B",
+  "keyCheck": "verified",
+  "explanationImage": [
+   "p0021_33.png"
+  ]
+ },
+ {
+  "id": "GATE-ES-Q21",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Air pollution",
+  "question": "Which one of the following is NOT a greenhouse gas?",
+  "options": [
+   "CO₂",
+   "CH₄",
+   "H₂S",
+   "H₂O"
+  ],
+  "answerIndex": 2,
+  "explanation": "CO₂, CH₄ and water vapour are greenhouse gases; H₂S is not.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.21",
+  "sourcePage": 21,
+  "sourceKey": "C",
+  "keyCheck": "verified"
+ },
+ {
+  "id": "GATE-ES-Q22",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Solid waste management",
+  "question": "As per the United Nations Environmental Program (UNEP) guidelines 2004, the maximum size of microplastics is ______.",
+  "options": [
+   "10 mm",
+   "5 mm",
+   "10 µm",
+   "5 µm"
+  ],
+  "answerIndex": 1,
+  "explanation": "Microplastics are plastic particles smaller than 5 mm.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.22",
+  "sourcePage": 22,
+  "sourceKey": "B",
+  "keyCheck": "verified"
+ },
+ {
+  "id": "GATE-ES-Q23",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Solid waste management",
+  "question": "The costliest functional element in an urban centralized Municipal Solid Waste management infrastructure for a typical Indian Tier I city is ______.",
+  "options": [
+   "biological treatment",
+   "collection and transport",
+   "disposal in a sanitary landfill",
+   "thermal treatment"
+  ],
+  "answerIndex": 1,
+  "explanation": "Collection and transport usually account for the largest share (well over half) of MSW management cost.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.23",
+  "sourcePage": 23,
+  "sourceKey": "B",
+  "keyCheck": "verified"
+ },
+ {
+  "id": "GATE-ES-Q24",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Engineering mathematics",
+  "question": "The eigenvalues of the matrix [[4, 3], [3, 4]] are",
+  "options": [
+   "1 and 7",
+   "2 and 4",
+   "1 and 4",
+   "3 and 7"
+  ],
+  "answerIndex": 0,
+  "explanation": "The characteristic equation (4 − λ)² − 9 = 0 gives λ² − 8λ + 7 = 0, so λ = 1 and 7.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.24",
+  "sourcePage": 24,
+  "sourceKey": "A",
+  "keyCheck": "converted-msq",
+  "flag": "Original is multi-select (options 1, 2, 7, 4); converted to a single combination.",
+  "explanationImage": [
+   "p0024_40.jpg"
+  ]
+ },
+ {
+  "id": "GATE-ES-Q25",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Engineering mathematics",
+  "question": "If X is a vector, and A and B are linear operators, then which of the following mathematical relationships are correct? (A) (A+B)X = AX + BX (B) (λA)X = λ(AX) (C) (AB)X = A(BX) (D) (A+B)X = AᵀX + BᵀX",
+  "options": [
+   "A, B and C only",
+   "A and D only",
+   "B, C and D only",
+   "A, B, C and D"
+  ],
+  "answerIndex": 0,
+  "explanation": "Linear operators distribute over addition, commute with scalar multiplication and compose associatively; (D) is false because transposes are not involved.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.25",
+  "sourcePage": 25,
+  "sourceKey": "A",
+  "keyCheck": "converted-msq",
+  "flag": "Original is multi-select; converted to a single combination."
+ },
+ {
+  "id": "GATE-ES-Q26",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Open channel & fluid flow",
+  "question": "In the context of fluid flow, which of the following statements are correct? (A) A streamline is a line, tangent to which at any point gives the direction of the velocity vector. (B) A streakline is the actual path traversed by a given fluid particle in an unsteady flow. (C) Streakline and streamline are the same for a steady flow. (D) Pathline and streamline are the same for a steady flow.",
+  "options": [
+   "A, C and D only",
+   "A and B only",
+   "B, C and D only",
+   "A, B, C and D"
+  ],
+  "answerIndex": 0,
+  "explanation": "(B) describes a pathline, not a streakline. For steady flow, streamlines, pathlines and streaklines coincide.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.26",
+  "sourcePage": 26,
+  "sourceKey": "A",
+  "keyCheck": "converted-msq",
+  "flag": "Original is multi-select; converted to a single combination."
+ },
+ {
+  "id": "GATE-ES-Q27",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Open channel & fluid flow",
+  "question": "In a rectangular open channel, the flow is critical and the flow depth is 2 m. Select the correct statements. (A) Specific energy for the flow is 3.0 m (B) Specific energy for the flow is 2.0 m (C) Froude number is 1.0 (D) Froude number is 1.5",
+  "options": [
+   "A and C only",
+   "B and C only",
+   "A and D only",
+   "B and D only"
+  ],
+  "answerIndex": 0,
+  "explanation": "At critical flow in a rectangular channel Fr = 1 and E = 1.5·y_c = 3.0 m.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.27",
+  "sourcePage": 27,
+  "sourceKey": "A",
+  "keyCheck": "converted-msq",
+  "flag": "Original is multi-select; converted to a single combination."
+ },
+ {
+  "id": "GATE-ES-Q28",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Wastewater engineering",
+  "question": "With respect to particle settling in wastewater treatment systems, which statements are correct? (A) Settling in grit chamber and primary sedimentation tanks are examples of Type-I settling. (B) Settling in primary sedimentation tank and secondary sedimentation tank are examples of Type-II settling. (C) Settling in a grit chamber is an example of Type-I settling, whereas settling in primary sedimentation tank is an example of Type-II settling. (D) Settling in secondary sedimentation tank is an example of Type-III settling, whereas settling in primary sedimentation tank is an example of Type-II settling.",
+  "options": [
+   "C and D only",
+   "A and B only",
+   "A and C only",
+   "B and D only"
+  ],
+  "answerIndex": 0,
+  "explanation": "Grit chambers: Type I (discrete); primary tanks: Type II (flocculent); secondary tanks: Type III (hindered/zone).",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.28",
+  "sourcePage": 28,
+  "sourceKey": "A",
+  "keyCheck": "converted-msq",
+  "flag": "Original is multi-select; converted to a single combination.",
+  "explanationImage": [
+   "p0027_44.jpg"
+  ]
+ },
+ {
+  "id": "GATE-ES-Q29",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Air pollution",
+  "question": "The equipment that can be used to control particulate air pollution in an industrial unit is/are (A) Electrostatic precipitator (B) Cyclone separator (C) Gravity settler (D) Incinerator",
+  "options": [
+   "A, B and C only",
+   "A and D only",
+   "B, C and D only",
+   "A, B, C and D"
+  ],
+  "answerIndex": 0,
+  "explanation": "ESPs, cyclones and gravity settlers remove particulates; an incinerator destroys combustible waste and is not a particulate-control device.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.29",
+  "sourcePage": 29,
+  "sourceKey": "A",
+  "keyCheck": "converted-msq",
+  "flag": "Original is multi-select; converted to a single combination."
+ },
+ {
+  "id": "GATE-ES-Q30",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Air pollution",
+  "question": "Which is/are the secondary air pollutant(s)? (A) O₃ (B) HNO₃ (C) CO₂ (D) H₂SO₄",
+  "options": [
+   "A, B and D only",
+   "A and C only",
+   "B, C and D only",
+   "A, B, C and D"
+  ],
+  "answerIndex": 0,
+  "explanation": "O₃, HNO₃ and H₂SO₄ form in the atmosphere from precursors; CO₂ is emitted directly.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.30",
+  "sourcePage": 30,
+  "sourceKey": "A",
+  "keyCheck": "converted-msq",
+  "flag": "Original is multi-select; converted to a single combination."
+ },
+ {
+  "id": "GATE-ES-Q31",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Solid waste management",
+  "question": "As per the Hazardous Waste (Management and Handling) Rules, 2016, of India, which is/are the characteristic(s) that must be exhibited by a waste to be classified as a 'characteristic' hazardous waste? (A) Ignitability (B) Reactivity (C) Radioactivity (D) Toxicity",
+  "options": [
+   "A, B and D only",
+   "A and C only",
+   "B, C and D only",
+   "A, B, C and D"
+  ],
+  "answerIndex": 0,
+  "explanation": "Characteristic hazardous wastes show ignitability, corrosivity, reactivity or toxicity; radioactivity is regulated separately.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.31",
+  "sourcePage": 31,
+  "sourceKey": "A",
+  "keyCheck": "converted-msq",
+  "flag": "Original is multi-select; converted to a single combination."
+ },
+ {
+  "id": "GATE-ES-Q32",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Engineering mathematics",
+  "question": "f(x) = x³ − 4.5x² − 12x has a local maximum at x = ______ (an integer value) in the range x = −2 to +2.",
+  "options": [
+   "−1",
+   "0",
+   "1",
+   "2"
+  ],
+  "answerIndex": 0,
+  "explanation": "f′(x) = 3x² − 9x − 12 = 3(x − 4)(x + 1) = 0 gives x = −1 (x = 4 is outside the range). f″(−1) = −15 < 0, so x = −1 is a local maximum.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.32",
+  "sourcePage": 32,
+  "sourceKey": "A",
+  "keyCheck": "converted-nat",
+  "flag": "Original is numerical-answer; converted to single-answer with candidate values."
+ },
+ {
+  "id": "GATE-ES-Q34",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Solid waste management",
+  "question": "A municipal solid waste digester generates 1000 kg of methane gas. The volume of the tank needed to store this gas at 30 °C and 3 atmospheric pressure is ______ litres. Use R = 0.082 L·atm/(mol·K); atomic weights C = 12, H = 1.",
+  "options": [
+   "5,17,625 L",
+   "1,72,542 L",
+   "15,52,875 L",
+   "57,514 L"
+  ],
+  "answerIndex": 0,
+  "explanation": "n = 1000 kg / 16 g/mol = 62,500 mol. V = nRT/P = 62,500 × 0.082 × 303 / 3 = 5,17,625 L.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.34",
+  "sourcePage": 34,
+  "sourceKey": "A",
+  "keyCheck": "converted-nat",
+  "flag": "Original is numerical-answer; converted to single-answer with candidate values."
+ },
+ {
+  "id": "GATE-ES-Q35",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Hydrology & groundwater",
+  "question": "A Class-A pan was set up adjacent to a lake. The depth of water in the pan at the beginning of a week was 250 mm. In that week there was a rainfall of 10 mm depth. Water depth in the pan at the end of the week was 240 mm. The pan coefficient is 0.8. The estimated lake evaporation during the week was ______ mm.",
+  "options": [
+   "16",
+   "20",
+   "8",
+   "12.8"
+  ],
+  "answerIndex": 0,
+  "explanation": "Pan evaporation = rainfall + fall in pan level = 10 + (250 − 240) = 20 mm. Lake evaporation = 0.8 × 20 = 16 mm.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.35",
+  "sourcePage": 35,
+  "sourceKey": "A",
+  "keyCheck": "converted-nat",
+  "flag": "Original is numerical-answer; converted to single-answer with candidate values."
+ },
+ {
+  "id": "GATE-ES-Q36",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Engineering mathematics",
+  "question": "A population (with mean µ) follows a normal distribution. Ten samples (N) are drawn at random with mean x̄ and standard deviation S. The table gives confidence limits C(t) of the cumulative probability function of Student's t-distribution (two-tailed test) with degrees of freedom D. For D = 9: C = 0.9 → 1.38, 0.95 → 1.83, 0.975 → 2.26; D = 10: 1.37, 1.81, 2.23; D = 11: 1.36, 1.80, 2.20. Which one of the following expressions is correct for testing the null hypothesis H₀: µ = 0 at 10% significance level?",
+  "options": [
+   "−1.81 < x̄ / (S/√(N−1)) < 1.81",
+   "−1.83 < x̄ / (S/√(N−1)) < 1.83",
+   "−1.37 < x̄ / (S/√(N−1)) < 1.37",
+   "−2.23 < x̄ / (S/√(N−1)) < 2.23"
+  ],
+  "answerIndex": 1,
+  "explanation": "N = 10 gives D = N − 1 = 9. A 10% two-tailed test puts 5% in each tail, so C = 0.95, and the limit is 1.83.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.36",
+  "sourcePage": 36,
+  "sourceKey": "B",
+  "keyCheck": "verified"
+ },
+ {
+  "id": "GATE-ES-Q39",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Reactor kinetics",
+  "question": "Consider second-order kinetics (r_C = −kC²) under steady state. The ratio of the volume of a complete mixed reactor (CMR) to that of a plug flow reactor (PFR) to achieve a 90% reduction in the concentration is ______. Inlet concentrations in both reactors are the same.",
+  "options": [
+   "10.0",
+   "1.0",
+   "0.1",
+   "2.3"
+  ],
+  "answerIndex": 0,
+  "explanation": "CMR: V/Q = (C₀ − C)/(kC²) = 0.9C₀/(k·0.01C₀²) = 90/(kC₀). PFR: V/Q = (1/k)(1/C − 1/C₀) = 9/(kC₀). Ratio = 10.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.39",
+  "sourcePage": 39,
+  "sourceKey": "A",
+  "keyCheck": "resolved-by-computation"
+ },
+ {
+  "id": "GATE-ES-Q40",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Hydrology & groundwater",
+  "question": "Consider two horizontal layers of a confined aquifer. Each layer is isotropic and homogeneous, and flow is parallel to the stratification. The thickness and horizontal hydraulic conductivity of layer-1 are h₁ and K₁, and of layer-2 are h₂ and K₂. The equivalent horizontal hydraulic conductivity Kₓ for the aquifer system is given by ______.",
+  "options": [
+   "Kₓ = (K₁h₁ + K₂h₂)/(h₁ + h₂)",
+   "Kₓ = (K₁ + K₂)/2",
+   "Kₓ = (K₁h₂ + K₂h₁)/(h₁ + h₂)",
+   "Kₓ = √(K₁K₂)"
+  ],
+  "answerIndex": 0,
+  "explanation": "For flow parallel to layers the equivalent conductivity is the thickness-weighted average.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.40",
+  "sourcePage": 40,
+  "sourceKey": "A",
+  "keyCheck": "verified"
+ },
+ {
+  "id": "GATE-ES-Q41",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Air pollution",
+  "question": "A gravity settling chamber of height H and length L is designed to control particulate air pollution. In the chamber, the horizontal velocity of air flow is V_h and the terminal settling velocity of the target particle is V_t. Which one of the following expressions is the correct concept used to calculate the minimum size of the target particle that will be removed with 100% efficiency?",
+  "options": [
+   "V_t / L = V_h / H",
+   "V_h × V_t = L × H",
+   "V_h = V_t × L × H",
+   "V_t / H = V_h / L"
+  ],
+  "answerIndex": 3,
+  "explanation": "The particle must settle the full height H in the residence time L/V_h: H/V_t = L/V_h, i.e. V_t/H = V_h/L.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.41",
+  "sourcePage": 41,
+  "sourceKey": "D",
+  "keyCheck": "verified"
+ },
+ {
+  "id": "GATE-ES-Q43",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Microbiology & biochemistry",
+  "question": "Enzymes with the class of enzymes are listed: (a) Lactate dehydrogenase, (b) Alanine racemase, (c) Lipase, (d) Hexokinase; classes: (i) Isomerases, (ii) Transferases, (iii) Oxidoreductases, (iv) Hydrolases. Select the fully correct match.",
+  "options": [
+   "(a)-(iii); (b)-(i); (c)-(iv); (d)-(ii)",
+   "(a)-(ii); (b)-(iv); (c)-(iii); (d)-(i)",
+   "(a)-(iii); (b)-(ii); (c)-(i); (d)-(iv)",
+   "(a)-(i); (b)-(iii); (c)-(ii); (d)-(iv)"
+  ],
+  "answerIndex": 0,
+  "explanation": "Lactate dehydrogenase – oxidoreductase; alanine racemase – isomerase; lipase – hydrolase; hexokinase – transferase.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.43",
+  "sourcePage": 43,
+  "sourceKey": "A",
+  "keyCheck": "converted-msq",
+  "flag": "Original is multi-select over pairs; converted to a single full-match option."
+ },
+ {
+  "id": "GATE-ES-Q44",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Microbiology & biochemistry",
+  "question": "With reference to disinfection, which of the following statements are CORRECT? (A) Ethanol damages lipid structures in the bacterial cell membrane. (B) Mercuric chloride inactivates cellular enzymes containing sulfhydryl groups. (C) Glutaraldehyde inactivates protein. (D) Isopropyl alcohol cannot be used as a disinfectant.",
+  "options": [
+   "A, B and C only",
+   "A and D only",
+   "B, C and D only",
+   "A, B, C and D"
+  ],
+  "answerIndex": 0,
+  "explanation": "(D) is false: isopropyl alcohol is a widely used disinfectant.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.44",
+  "sourcePage": 44,
+  "sourceKey": "A",
+  "keyCheck": "converted-msq",
+  "flag": "Original is multi-select; converted to a single combination."
+ },
+ {
+  "id": "GATE-ES-Q45",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Microbiology & biochemistry",
+  "question": "Which of the following statements are CORRECT? (A) DNA is composed of nucleotides. (B) Five types of nitrogenous bases occur in DNA. (C) Each phosphate is attached to two deoxyribose units in a single strand of DNA. (D) The ratio of adenine to guanine is always 1:1 in a double stranded DNA.",
+  "options": [
+   "A and C only",
+   "A and B only",
+   "B and D only",
+   "C and D only"
+  ],
+  "answerIndex": 0,
+  "explanation": "DNA has four bases (A, T, G, C); Chargaff's 1:1 ratios are A:T and G:C, not A:G.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.45",
+  "sourcePage": 45,
+  "sourceKey": "A",
+  "keyCheck": "converted-msq",
+  "flag": "Original is multi-select; converted to a single combination."
+ },
+ {
+  "id": "GATE-ES-Q46",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Wastewater engineering",
+  "question": "The Streeter–Phelps oxygen sag equation for a river is based on a few assumptions. Which are correct? (A) At any instant the deoxygenation rate is directly proportional to the amount of oxidizable organic material present. (B) At any instant the deoxygenation rate is inversely proportional to the amount of oxidizable organic material present. (C) The reoxygenation rate is directly proportional to the dissolved oxygen deficit. (D) The reoxygenation rate and deoxygenation rate are directly proportional to the saturation concentration of dissolved oxygen.",
+  "options": [
+   "A and C only",
+   "B and C only",
+   "A and D only",
+   "B and D only"
+  ],
+  "answerIndex": 0,
+  "explanation": "Deoxygenation follows first-order kinetics in remaining BOD, and reaeration is proportional to the DO deficit.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.46",
+  "sourcePage": 46,
+  "sourceKey": "A",
+  "keyCheck": "converted-msq",
+  "flag": "Original is multi-select; converted to a single combination."
+ },
+ {
+  "id": "GATE-ES-Q47",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Open channel & fluid flow",
+  "question": "Water is flowing FULL through a rectangular tunnel of size 3 m (width) × 2 m (height). The average velocity of flow is 1 m/s. The frictional head loss is observed to be 1 m per km. Consider g = 10 m/s². Which statements are correct? (A) Hydraulic radius is 0.6 m (B) Darcy-Weisbach friction factor is 0.048 (C) Hydraulic radius is 2 m (D) Darcy-Weisbach friction factor is 0.024",
+  "options": [
+   "A and B only",
+   "A and D only",
+   "B and C only",
+   "C and D only"
+  ],
+  "answerIndex": 0,
+  "explanation": "Running full: R = A/P = 6/10 = 0.6 m. With D = 4R = 2.4 m, h_f = f·L·V²/(2gD) gives f = 1×2×10×2.4/(1000×1²) = 0.048.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.47",
+  "sourcePage": 47,
+  "sourceKey": "A",
+  "keyCheck": "resolved-by-computation",
+  "flag": "Original is multi-select. The annotated solution in the source used the open-channel perimeter and marked only (B); recomputed here for a full-flowing closed conduit, (A) and (B) are both correct."
+ },
+ {
+  "id": "GATE-ES-Q48",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Sustainable development & LCA",
+  "question": "Based on the ISO 14040 methodology for Life Cycle Assessment, match the terms with the descriptions: (a) Goal and Scope, (b) Functional Unit, (c) Life Cycle Inventory, (d) Impact Assessment; descriptions: (i) based on the product or system, the comparative unit must be carefully defined and be same for all scenarios; (ii) the problem is described and the objective of the study are defined; (iii) evaluates the environmental implications due to the inventorized emissions; (iv) process based approach and input-output approach. Select the fully correct match.",
+  "options": [
+   "(a)-(ii); (b)-(i); (c)-(iv); (d)-(iii)",
+   "(a)-(iii); (b)-(i); (c)-(ii); (d)-(iv)",
+   "(a)-(i); (b)-(ii); (c)-(iii); (d)-(iv)",
+   "(a)-(iv); (b)-(iii); (c)-(i); (d)-(ii)"
+  ],
+  "answerIndex": 0,
+  "explanation": "Goal and scope define the problem and objectives; the functional unit is the common comparison unit; inventory analysis uses process-based and input-output approaches; impact assessment evaluates the inventoried emissions.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.48",
+  "sourcePage": 48,
+  "sourceKey": "A",
+  "keyCheck": "converted-msq",
+  "flag": "Original is multi-select over pairs; converted to a single full-match option."
+ },
+ {
+  "id": "GATE-ES-Q50",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Environmental chemistry",
+  "question": "The pH of a solution containing 0.1 M of acetic acid and 0.05 M of sodium acetate is ______ (rounded off to 2 decimal places). The pKₐ of acetic acid is 4.76.",
+  "options": [
+   "4.46",
+   "5.06",
+   "4.76",
+   "4.16"
+  ],
+  "answerIndex": 0,
+  "explanation": "Henderson–Hasselbalch: pH = pKₐ + log([A⁻]/[HA]) = 4.76 + log(0.05/0.1) = 4.76 − 0.30 = 4.46.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.50",
+  "sourcePage": 50,
+  "sourceKey": "A",
+  "keyCheck": "converted-nat",
+  "flag": "Original is numerical-answer; converted to single-answer with candidate values.",
+  "explanationImage": [
+   "p0042_65.jpg"
+  ]
+ },
+ {
+  "id": "GATE-ES-Q51",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Environmental chemistry",
+  "question": "The ionic strength of a solution containing 0.01 M CaCl₂ and 0.001 M Na₂SO₄ is ______ M (rounded off to 3 decimal places).",
+  "options": [
+   "0.033",
+   "0.066",
+   "0.022",
+   "0.044"
+  ],
+  "answerIndex": 0,
+  "explanation": "I = ½ΣcᵢZᵢ²: Ca²⁺ 0.01×4 = 0.04; Cl⁻ 0.02×1 = 0.02; Na⁺ 0.002×1 = 0.002; SO₄²⁻ 0.001×4 = 0.004. Sum = 0.066, so I = 0.033 M.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.51",
+  "sourcePage": 51,
+  "sourceKey": "A",
+  "keyCheck": "converted-nat",
+  "flag": "Original is numerical-answer; converted to single-answer with candidate values.",
+  "explanationImage": [
+   "p0043_67.jpg"
+  ]
+ },
+ {
+  "id": "GATE-ES-Q53",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Wastewater engineering",
+  "question": "One million litres per day (MLD) of wastewater with a soluble BOD of 200 mg/L is treated in an activated sludge process. The BOD of the treated wastewater is 20 mg/L. The observed yield coefficient of the biological system is 0.35. The daily biomass generation in the system is ______ kg.",
+  "options": [
+   "63",
+   "180",
+   "70",
+   "36"
+  ],
+  "answerIndex": 0,
+  "explanation": "BOD removed = 1×10⁶ L/d × (200 − 20) mg/L = 180 kg/d. Biomass = 0.35 × 180 = 63 kg/d.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.53",
+  "sourcePage": 53,
+  "sourceKey": "A",
+  "keyCheck": "converted-nat",
+  "flag": "Original is numerical-answer; converted to single-answer with candidate values."
+ },
+ {
+  "id": "GATE-ES-Q58",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Noise pollution",
+  "question": "Two sources of noise, adjacent to each other in a room, have sound pressure levels of 30 dB and 40 dB. The combined sound pressure level in the room is ______ dB (rounded off to 2 decimal places).",
+  "options": [
+   "40.41",
+   "70.00",
+   "35.00",
+   "41.77"
+  ],
+  "answerIndex": 0,
+  "explanation": "L = 10·log₁₀(10³ + 10⁴) = 10·log₁₀(11,000) = 40.41 dB.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.58",
+  "sourcePage": 58,
+  "sourceKey": "A",
+  "keyCheck": "resolved-by-computation",
+  "flag": "Original is numerical-answer. The annotated solution in the source stated 40 dB (ignoring the 10 dB difference rule); the exact value is 40.41 dB."
+ },
+ {
+  "id": "GATE-ES-Q59",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Air pollution",
+  "question": "An industrial stack emits 100 g/s of CO. The wind speed is 5 m/s. At 3 km downwind the dispersion coefficients are σ_y = 50 m and σ_z = 25 m. The CO concentration at the centreline of the plume at that distance is ______ mg/m³ (rounded off to 2 decimal places). Use the Gaussian plume model, π = 3.14, and neglect reactions and the ground effect of the plume.",
+  "options": [
+   "2.55",
+   "1.27",
+   "5.10",
+   "25.5"
+  ],
+  "answerIndex": 0,
+  "explanation": "With the plume centreline at the receptor and no ground reflection: C = Q/(2π u σ_y σ_z) = 100/(2×3.14×5×50×25) = 0.002548 g/m³ = 2.55 mg/m³.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.59",
+  "sourcePage": 59,
+  "sourceKey": "A",
+  "keyCheck": "resolved-by-computation",
+  "flag": "Original is numerical-answer. The annotated solution in the source gave 2.52 mg/m³; recomputed with the stated values the result is 2.55 mg/m³."
+ },
+ {
+  "id": "GATE-ES-Q60",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "GATE ES 2024",
+  "topic": "GATE ES: Solid waste management",
+  "question": "Two hypothetical organic waste streams A and B are mixed prior to composting. Waste-A has 2.16% C and 1.20% N. Waste-B has 19.10% C and 0.14% N. The quantity of Waste-B that should be mixed with per kg of Waste-A to achieve the desired C:N ratio of 25 is ______ kg (rounded off to 2 decimal places). Assume both waste streams are completely dry.",
+  "options": [
+   "1.78",
+   "0.92",
+   "2.64",
+   "3.12"
+  ],
+  "answerIndex": 0,
+  "explanation": "Per kg of A: C = 21.6 g, N = 12 g. With x kg of B: (21.6 + 191x)/(12 + 1.4x) = 25 → 156x = 278.4 → x = 1.78 kg.",
+  "source": "GATE ES 2024 (IISc Bengaluru) · Q.60",
+  "sourcePage": 60,
+  "sourceKey": "A",
+  "keyCheck": "converted-nat",
+  "flag": "Original is numerical-answer; converted to single-answer with candidate values."
+ }
+]

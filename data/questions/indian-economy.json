@@ -1,0 +1,447 @@
+[
+ {
+  "id": "ECO-001",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Indian & AP Economy",
+  "topic": "Features of Indian economy",
+  "question": "India's economy is a?",
+  "options": [
+   "Backward economy",
+   "Developed economy",
+   "Developing economy",
+   "Underdeveloped economy"
+  ],
+  "answerIndex": 2,
+  "explanation": "",
+  "source": "Indian Economy & Social Development (GS-6 solved papers) · UPPCS (Pre) G.S. 1995",
+  "sourcePage": 12,
+  "sourceKey": "C",
+  "keyCheck": "source-only",
+  "flag": "Source gives only 'See the explanation of the above question' (no standalone explanation)."
+ },
+ {
+  "id": "ECO-002",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Indian & AP Economy",
+  "topic": "Features of Indian economy",
+  "question": "Which of the following is not a feature of Indian economy?",
+  "options": [
+   "Low working capacity of money",
+   "Low per capita income",
+   "Low rate of capital formation",
+   "Shortage of natural resources"
+  ],
+  "answerIndex": 3,
+  "explanation": "There is no dearth of natural resources in India. India has abundant natural resources.",
+  "source": "Indian Economy & Social Development (GS-6 solved papers) · UPPCS (Mains) Spl. G.S. Ist 2004",
+  "sourcePage": 12,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "ECO-003",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Indian & AP Economy",
+  "topic": "Features of Indian economy",
+  "question": "The specialty of Indian economy is–\nI. The primacy of agriculture\nII. The primacy of industry\nIII. Low per capita income\nIV. Large unemployment\nChoose the correct answer from the code given below:",
+  "options": [
+   "I or II only",
+   "I, II and III only",
+   "II, III and IV only",
+   "I, III and IV only"
+  ],
+  "answerIndex": 3,
+  "explanation": "Characteristics of the Indian economy include low per capita income, inequality in distribution of wealth and income, predominance of agriculture and heavy pressure of population on agriculture, extreme poverty, lack of capital and industrialisation, imperfect markets, and a traditional society.",
+  "source": "Indian Economy & Social Development (GS-6 solved papers) · UP Lower (Pre) Spl. G.S. 2004",
+  "sourcePage": 12,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation",
+  "note": "Option 1 is printed 'I or II only' in the source (probable OCR of 'I & II only'); not the keyed option."
+ },
+ {
+  "id": "ECO-004",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Indian & AP Economy",
+  "topic": "Features of Indian economy",
+  "question": "Some of the yardsticks to define an underdeveloped economy are listed below. Identify the incorrect one:",
+  "options": [
+   "Low capital base and a lower rate of capital formation",
+   "Unexploited natural resources",
+   "Fixing faulty plan objectives",
+   "Very low per capita real income"
+  ],
+  "answerIndex": 2,
+  "explanation": "Underdevelopment is a low level of development characterised by low real per capita income, widespread poverty, a lower level of literacy, under-utilisation of resources and low life expectancy.",
+  "source": "Indian Economy & Social Development (GS-6 solved papers) · Manipur PSC - 2013",
+  "sourcePage": 12,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "ECO-005",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Indian & AP Economy",
+  "topic": "Sectors & capital",
+  "question": "Match the following :\na. Trade\nb. Water Supply\nc. Fisheries\nd. GDP\nwith\nI. Primary Sector\nII. Service Sector\nIII. Central Statistical Organisation\nIV. Industrial Sector\nChoose the correct answer using the codes given below :",
+  "options": [
+   "a-II, b-I, c-IV, d-III",
+   "a-II, b-IV, c-I, d-III",
+   "a-II, b-I, c-III, d-IV",
+   "a-III, b-I, c-IV, d-II"
+  ],
+  "answerIndex": 1,
+  "explanation": "The correct match is: Trade – Service Sector; Water supply – Industrial Sector; Fisheries – Primary Sector; GDP – Central Statistical Organisation.",
+  "source": "Indian Economy & Social Development (GS-6 solved papers) · AP PSC (Pre) 2022",
+  "sourcePage": 12,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "ECO-006",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Indian & AP Economy",
+  "topic": "Sectors & capital",
+  "question": "Which of the following is not an economic activity?",
+  "options": [
+   "Voluntary Social Service",
+   "Farming",
+   "Service",
+   "Transportation"
+  ],
+  "answerIndex": 0,
+  "explanation": "Voluntary social service is not an economic activity as it is a social service and is not compulsory. Farming, service and transportation are economic activities as they return money or something that is sold for money.",
+  "source": "Indian Economy & Social Development (GS-6 solved papers) · UPPCS (Pre)-2023",
+  "sourcePage": 12,
+  "sourceKey": "A",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "ECO-007",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Indian & AP Economy",
+  "topic": "Sectors & capital",
+  "question": "With reference to physical capital in Indian economy, consider the following pairs:\nItems — Category\n1. Farmer's plough — Working capital\n2. Computer — Fixed capital\n3. Yarn used by the weaver — Fixed capital\n4. Petrol — Working capital\nHow many of the above are correctly matched?",
+  "options": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "answerIndex": 1,
+  "explanation": "Correct classification: farmer's plough – fixed capital; computer – fixed capital; yarn used by the weaver – working capital; petrol – working capital. Only pairs 2 and 4 are correctly matched.",
+  "source": "Indian Economy & Social Development (GS-6 solved papers) · UPSC IAS (Pre)-2024",
+  "sourcePage": 12,
+  "sourceKey": "B",
+  "keyCheck": "resolved-by-reference",
+  "flag": "The source's explanation table prints 'Farmer's plough – Working Capital' (a plough is fixed capital); the key (b, only two: pairs 2 and 4) is consistent with the correct classification and with the UPSC 2024 key."
+ },
+ {
+  "id": "ECO-008",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Indian & AP Economy",
+  "topic": "Sectors & capital",
+  "question": "With reference to the sectors of the Indian economy, consider the following pairs:\nEconomic activity — Sector\n1. Storage of agricultural produce — Secondary\n2. Dairy farm — Primary\n3. Mineral exploration — Tertiary\n4. Weaving cloth — Secondary\nHow many of the above are correctly matched?",
+  "options": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "answerIndex": 1,
+  "explanation": "Storage of agricultural produce – tertiary (service) sector; dairy farm – primary sector; mineral exploration – primary sector; weaving cloth – secondary sector. Only pairs 2 and 4 are correct.",
+  "source": "Indian Economy & Social Development (GS-6 solved papers) · UPSC IAS (Pre)-2024",
+  "sourcePage": 13,
+  "sourceKey": "B",
+  "keyCheck": "resolved-by-reference",
+  "flag": "The source's explanation table lists storage of agricultural produce as 'Primary sector'; storage is a tertiary-sector service. The key (only two) holds either way."
+ },
+ {
+  "id": "ECO-009",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Indian & AP Economy",
+  "topic": "Economic development & planning",
+  "question": "The principal reason why national economic planning is still being pursued in spite of embracing a market economy since 1991 is that",
+  "options": [
+   "It is a Constitutional requirement",
+   "the vast quantity of capital already deployed in the public sector needs to be nurtured",
+   "Five-Year Plans can continue to provide a long-term perspective to the economy in market-friendly fashions",
+   "the market economy is mainly confined to industry and commerce and central planning in agriculture is necessary"
+  ],
+  "answerIndex": 3,
+  "explanation": "The market system was adopted through liberalisation and globalisation in 1991, but it is mainly confined to industry and trade. Planning remains necessary for agriculture, the social sector (education, health) and infrastructure, because almost half of India's population depends on agriculture, where the market is more likely to fail.",
+  "source": "Indian Economy & Social Development (GS-6 solved papers) · IAS (Pre) G.S. 1994",
+  "sourcePage": 13,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "ECO-010",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Indian & AP Economy",
+  "topic": "Features of Indian economy",
+  "question": "In India, rural incomes are generally lower than the urban incomes. Which of the following reasons account for this?\n1. A large number of farmers are illiterate and know little about scientific agriculture.\n2. Prices of primary products are lower than those of manufactured products.\n3. While compared to investment in industry, investment in agriculture has been low.\nSelect the correct answer using the codes given below:",
+  "options": [
+   "1, 2 and 3",
+   "1 and 2",
+   "1 and 3",
+   "2 and 3"
+  ],
+  "answerIndex": 0,
+  "explanation": "Rural incomes are lower because many farmers are illiterate and know little about scientific agriculture, prices of primary products are lower than those of manufactured goods, and investment in agriculture has been lower than in industry.",
+  "source": "Indian Economy & Social Development (GS-6 solved papers) · IAS (Pre) G.S. 1996",
+  "sourcePage": 13,
+  "sourceKey": "A",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "ECO-011",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Indian & AP Economy",
+  "topic": "Features of Indian economy",
+  "question": "Whose interests does the Indian model of development protect?",
+  "options": [
+   "Person",
+   "State",
+   "Both person and state",
+   "None of the above"
+  ],
+  "answerIndex": 2,
+  "explanation": "The Indian model of development protects the interests of both the individual and the state, as India adopted the mixed-economy form for its economic development.",
+  "source": "Indian Economy & Social Development (GS-6 solved papers) · UP RO/ARO (Pre) G.S., 2013",
+  "sourcePage": 13,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "ECO-012",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Indian & AP Economy",
+  "topic": "Economic development & planning",
+  "question": "The Gandhian economy is based on the principle of",
+  "options": [
+   "Competition",
+   "Trusteeship",
+   "State Control",
+   "None of the above"
+  ],
+  "answerIndex": 1,
+  "explanation": "The Gandhian economy is based on 'trusteeship', which gives the owning class a chance to reform itself and transforms the capitalist order into an egalitarian one.",
+  "source": "Indian Economy & Social Development (GS-6 solved papers) · Tripura (TPCS) TCS -2019",
+  "sourcePage": 13,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "ECO-013",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Indian & AP Economy",
+  "topic": "Features of Indian economy",
+  "question": "What do you understand by closed economy?",
+  "options": [
+   "Closed export",
+   "Import - export closed",
+   "Closed import",
+   "Controlled capital"
+  ],
+  "answerIndex": 1,
+  "explanation": "A closed economy does not participate in international trade: it neither imports nor exports goods and services. A socialist economy is a typical example, though today almost no economy is completely closed.",
+  "source": "Indian Economy & Social Development (GS-6 solved papers) · UPPCS (Pre.) G.S. 1991",
+  "sourcePage": 13,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "ECO-014",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Indian & AP Economy",
+  "topic": "Features of Indian economy",
+  "question": "Closed Economy is an Economy where -",
+  "options": [
+   "Money supply is completely controlled",
+   "There is deficit financing",
+   "There is export only",
+   "There is neither export nor import"
+  ],
+  "answerIndex": 3,
+  "explanation": "A closed economy has no foreign trade, i.e. neither exports nor imports.",
+  "source": "Indian Economy & Social Development (GS-6 solved papers) · MPPSC (Pre) G.S. Ist 2017",
+  "sourcePage": 13,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "ECO-015",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Indian & AP Economy",
+  "topic": "Features of Indian economy",
+  "question": "A closed economy is an economy in which –",
+  "options": [
+   "only exports take place",
+   "Budget deficit is low",
+   "Only import take place",
+   "There is no foreign trade"
+  ],
+  "answerIndex": 3,
+  "explanation": "A closed economy does not trade with other countries: there are no exports or imports.",
+  "source": "Indian Economy & Social Development (GS-6 solved papers) · Uttarakhand RO/ARO, 2016",
+  "sourcePage": 13,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "ECO-016",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Indian & AP Economy",
+  "topic": "Economic development & planning",
+  "question": "Consider the following statements:\n1. Gross capital formation consists of outlays on additions to the fixed assets of the economy plus gross changes in the level of inventories\n2. Net value added at factor cost is the sum total of all the factor payments\n3. The National Income is the total amount of income accruing to a country from economic and non-economic activities in a year time\n4. In moving from national income to personal income we must subtract the incomes earned but not received and add incomes received but not currently earned\nChoose the correct answer from the options provided below:",
+  "options": [
+   "1 and 3 only",
+   "2 and 3 only",
+   "1 and 4 only",
+   "2 and 4 only"
+  ],
+  "answerIndex": 3,
+  "explanation": "Gross capital formation consists of outlays on additions to fixed assets plus NET changes in inventories, so statement 1 is incorrect. Net value added at factor cost is the sum of all factor payments (statement 2 correct). National income is the value of goods and services produced during a year, not from non-economic activities (statement 3 incorrect). Personal income = national income minus incomes earned but not received plus incomes received but not currently earned (statement 4 correct).",
+  "source": "Indian Economy & Social Development (GS-6 solved papers) · HPPSC (Pre) Exam-2022",
+  "sourcePage": 14,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "ECO-017",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Indian & AP Economy",
+  "topic": "Economic development & planning",
+  "question": "Which of the statements given below is/are correct ?\n(i) GNP is always higher than GDP.\n(ii) If GDP is greater than GNP, then net factor income earned abroad is negative.\nSelect the correct answer using the codes given below.",
+  "options": [
+   "Only (i)",
+   "Only (ii)",
+   "Both (i) and (ii)",
+   "Neither (i) nor (ii)"
+  ],
+  "answerIndex": 1,
+  "explanation": "GNP is higher than GDP only when income earned by domestic firms abroad exceeds that earned by foreign firms in the country, so (i) is incorrect. If GDP exceeds GNP, net factor income from abroad is negative, so (ii) is correct.",
+  "source": "Indian Economy & Social Development (GS-6 solved papers) · Assam PSC (Pre) 2023",
+  "sourcePage": 14,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "ECO-018",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Indian & AP Economy",
+  "topic": "Economic development & planning",
+  "question": "Role of Human Resources in Economic development, which of the following statement/s is/are correct?\n1. Effects of economic development on population growth.\n2. Effects of population growth in economic development.\nSelect the correct answer using the code given below",
+  "options": [
+   "Only 1",
+   "Neither 1 nor 2",
+   "Both 1 and 2",
+   "Only 2"
+  ],
+  "answerIndex": 2,
+  "explanation": "Population growth affects economic development and, in turn, economic development affects population growth (better health care lowers mortality and raises population).",
+  "source": "Indian Economy & Social Development (GS-6 solved papers) · UPPCS (Pre)-2023",
+  "sourcePage": 14,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "ECO-019",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Indian & AP Economy",
+  "topic": "Economic development & planning",
+  "question": "The best index of economic development is",
+  "options": [
+   "growth in national income at current prices",
+   "growth in per capita real income from year to year",
+   "growth in savings ratio",
+   "improvement in balance of payments position"
+  ],
+  "answerIndex": 1,
+  "explanation": "Per capita income (real) is treated as the best index of development: higher per capita income indicates higher economic development.",
+  "source": "Indian Economy & Social Development (GS-6 solved papers) · 67th BPSC (Pre) 2021",
+  "sourcePage": 14,
+  "sourceKey": "B",
+  "keyCheck": "source-key-as-printed",
+  "flag": "The source marks this paper 'Cancelled' and its explanation refers to per-capita GNP; option (e) 'None of the above/More than one of the above' is dropped here. Key b follows the source."
+ },
+ {
+  "id": "ECO-020",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Indian & AP Economy",
+  "topic": "Economic development & planning",
+  "question": "Which of the following statement are true?\n1. GDP is the market value of all final Goods and Services produced within the geographical boundary of a country in a year.\n2. If the GDP of a country is rising, the welfare may not rise as a consequence.\n3. The ratio of nominal GDP to Real GDP is called GDP Deflator.\n4. The ratio of real GDP to nominal GDP is called GDP Deflator.",
+  "options": [
+   "1, 2 and 3 only",
+   "2, 3 and 4 only",
+   "1, 3 and 4 only",
+   "1, 2 and 4 only"
+  ],
+  "answerIndex": 0,
+  "explanation": "GDP measures the market value of final goods and services produced within a country's boundary; it was not designed to measure welfare. The GDP deflator is the ratio of nominal GDP to real GDP (×100), so statements 1, 2 and 3 are correct.",
+  "source": "Indian Economy & Social Development (GS-6 solved papers) · Haryana PSC (Pre) 2022",
+  "sourcePage": 14,
+  "sourceKey": "A",
+  "keyCheck": "matches-explanation"
+ }
+]

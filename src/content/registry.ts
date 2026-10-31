@@ -79,3 +79,84 @@ export function sharedPapers() {
 }
 
 export { notificationFor };
+
+/* ---------------- syllabus overlap (unit level) ---------------- */
+
+export type OverlapClass = "common-all" | "shared-some" | "unique";
+
+export interface UnitOverlap {
+  subjectId: string;
+  subject: string;
+  unit: string;
+  /** Exams (among ALL exams) whose syllabus lists the unit. */
+  listedIn: ExamId[];
+  /** Subset of the selected exams that list it. */
+  selectedListed: ExamId[];
+  cls: OverlapClass;
+}
+
+/**
+ * Classifies every syllabus unit against a selection of exams.
+ * Evidence: catalog.ts, transcribed from the YUDDAM 2027 overlap masters (docs/syllabus/) and the notifications.
+ * "Listed in" means the unit appears in a paper of the exam; whether the depth is identical needs editorial review.
+ */
+export function unitOverlap(selected: ExamId[]): UnitOverlap[] {
+  const sel = new Set(selected);
+  const out: UnitOverlap[] = [];
+  for (const s of Object.values(SUBJECTS)) {
+    for (const u of s.units) {
+      const selectedListed = u.exams.filter((e) => sel.has(e));
+      if (!selectedListed.length) continue;
+      out.push({
+        subjectId: s.id,
+        subject: s.name,
+        unit: u.title,
+        listedIn: u.exams,
+        selectedListed,
+        cls: selectedListed.length === sel.size ? "common-all" : selectedListed.length === 1 ? "unique" : "shared-some",
+      });
+    }
+  }
+  return out;
+}
+
+/** Units listed in exactly one exam of the whole catalogue — that exam's own preparation burden. */
+export function uniqueUnits(examId: ExamId) {
+  return Object.values(SUBJECTS).flatMap((s) =>
+    s.units.filter((u) => u.exams.length === 1 && u.exams[0] === examId).map((u) => ({ subject: s.name, unit: u.title })),
+  );
+}
+
+/** Papers used by exactly one exam (own syllabus text), with their official wording from the notification. */
+export function ownPapers(examId: ExamId) {
+  const exam = EXAMS.find((e) => e.id === examId)!;
+  return exam.papers.map((id) => PAPERS[id]).filter((p) => p && examsSharingPaper(p.id, examId).length === 0);
+}
+
+export const STAGE_PAPERS: Partial<Record<ExamId, { first: { label: string; papers: string[] }; second: { label: string; papers: string[] } }>> = {
+  group1: {
+    first: { label: "Screening (Prelims)", papers: ["g1-prelims-1", "g1-prelims-2"] },
+    second: { label: "Mains", papers: ["g1-mains-1", "g1-mains-2", "g1-mains-3", "g1-mains-4", "g1-mains-5"] },
+  },
+  group2: {
+    first: { label: "Screening (Prelims)", papers: ["g2-screening"] },
+    second: { label: "Mains", papers: ["g2-mains-1", "g2-mains-2"] },
+  },
+};
+
+/** Which subjects appear in both stages, only in the first, or only in the second. */
+export function stageComparison(examId: ExamId) {
+  const st = STAGE_PAPERS[examId];
+  if (!st) return null;
+  const subj = (ids: string[]) => new Set(ids.flatMap((id) => PAPERS[id]?.subjects ?? []));
+  const a = subj(st.first.papers);
+  const b = subj(st.second.papers);
+  const name = (id: string) => SUBJECTS[id]?.name ?? id;
+  return {
+    firstLabel: st.first.label,
+    secondLabel: st.second.label,
+    both: [...a].filter((x) => b.has(x)).map(name),
+    onlyFirst: [...a].filter((x) => !b.has(x)).map(name),
+    onlySecond: [...b].filter((x) => !a.has(x)).map(name),
+  };
+}

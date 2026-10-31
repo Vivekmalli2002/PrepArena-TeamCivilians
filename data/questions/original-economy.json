@@ -1,0 +1,706 @@
+[
+ {
+  "id": "ORG-ECO-001",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "National income & growth",
+  "question": "GNP is equal to GDP plus",
+  "options": [
+   "Net factor income from abroad",
+   "Depreciation",
+   "Subsidies",
+   "Net indirect taxes"
+  ],
+  "answerIndex": 0,
+  "explanation": "GNP = GDP + net factor income from abroad.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-002",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "National income & growth",
+  "question": "Per capita income is obtained by dividing",
+  "options": [
+   "National income by labour force",
+   "Savings by income",
+   "National income by population",
+   "GDP by area"
+  ],
+  "answerIndex": 2,
+  "explanation": "Per capita income = national income / population.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-003",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "National income & growth",
+  "question": "Which sector includes agriculture, forestry and fishing?",
+  "options": [
+   "Tertiary sector",
+   "Quaternary sector",
+   "Secondary sector",
+   "Primary sector"
+  ],
+  "answerIndex": 3,
+  "explanation": "Primary activities extract natural resources.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-004",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "National income & growth",
+  "question": "Which of the following is a measure of income inequality?",
+  "options": [
+   "Gini coefficient",
+   "Consumer Price Index",
+   "Human Development Index",
+   "Wholesale Price Index"
+  ],
+  "answerIndex": 0,
+  "explanation": "The Gini coefficient measures income inequality; 0 is perfect equality and 1 is perfect inequality.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-005",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "National income & growth",
+  "question": "The GDP deflator is the ratio of",
+  "options": [
+   "GDP to population",
+   "Nominal GDP to real GDP (×100)",
+   "Real GDP to nominal GDP",
+   "GDP to imports"
+  ],
+  "answerIndex": 1,
+  "explanation": "GDP deflator = (nominal GDP / real GDP) × 100.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-006",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "Planning & NITI Aayog",
+  "question": "The Planning Commission was replaced by NITI Aayog on",
+  "options": [
+   "26 January 2020",
+   "15 August 1947",
+   "1 April 2012",
+   "1 January 2015"
+  ],
+  "answerIndex": 3,
+  "explanation": "NITI Aayog was formed on 1 January 2015.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-007",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "Planning & NITI Aayog",
+  "question": "The first Five Year Plan (1951–56) was based on the model of",
+  "options": [
+   "Bombay plan",
+   "Gandhian plan",
+   "Mahalanobis",
+   "Harrod–Domar"
+  ],
+  "answerIndex": 3,
+  "explanation": "The first plan emphasised agriculture and used the Harrod-Domar model.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-008",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "Planning & NITI Aayog",
+  "question": "The Second Five Year Plan emphasised",
+  "options": [
+   "Export promotion",
+   "Poverty alleviation",
+   "Agriculture only",
+   "Heavy industry (Mahalanobis model)"
+  ],
+  "answerIndex": 3,
+  "explanation": "The second plan (1956–61) prioritised capital goods and heavy industries.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-009",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "Planning & NITI Aayog",
+  "question": "India adopted the policy of Liberalisation, Privatisation and Globalisation in",
+  "options": [
+   "1991",
+   "1980",
+   "1969",
+   "2001"
+  ],
+  "answerIndex": 0,
+  "explanation": "The 1991 reforms followed a balance-of-payments crisis, under P.V. Narasimha Rao and Manmohan Singh.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-010",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "Money, banking & RBI",
+  "question": "The Reserve Bank of India was established in",
+  "options": [
+   "1969",
+   "1949",
+   "1935",
+   "1947"
+  ],
+  "answerIndex": 2,
+  "explanation": "The RBI began operations on 1 April 1935 and was nationalised in 1949.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-011",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "Money, banking & RBI",
+  "question": "The rate at which the RBI lends short-term funds to commercial banks against securities is the",
+  "options": [
+   "Bank rate only",
+   "Reverse repo rate",
+   "Cash reserve ratio",
+   "Repo rate"
+  ],
+  "answerIndex": 3,
+  "explanation": "The repo rate is the rate at which the RBI lends to banks against government securities.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-012",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "Money, banking & RBI",
+  "question": "The Cash Reserve Ratio (CRR) is the share of deposits that banks must keep",
+  "options": [
+   "In government bonds",
+   "With other banks",
+   "In gold",
+   "With the RBI in cash"
+  ],
+  "answerIndex": 3,
+  "explanation": "CRR is the fraction of net demand and time liabilities kept as cash with the RBI.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-013",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "Money, banking & RBI",
+  "question": "Fourteen major commercial banks were nationalised in",
+  "options": [
+   "1969",
+   "1949",
+   "1991",
+   "1980"
+  ],
+  "answerIndex": 0,
+  "explanation": "Fourteen banks were nationalised in July 1969 and six more in 1980.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-014",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "Money, banking & RBI",
+  "question": "NABARD was established in",
+  "options": [
+   "2005",
+   "1969",
+   "1991",
+   "1982"
+  ],
+  "answerIndex": 3,
+  "explanation": "The National Bank for Agriculture and Rural Development was set up in 1982.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-015",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "Money, banking & RBI",
+  "question": "Which institution regulates the securities market in India?",
+  "options": [
+   "RBI",
+   "SEBI",
+   "IRDAI",
+   "NABARD"
+  ],
+  "answerIndex": 1,
+  "explanation": "The Securities and Exchange Board of India regulates the securities market.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-016",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "Money, banking & RBI",
+  "question": "Inflation is best described as",
+  "options": [
+   "A rise in unemployment",
+   "A fall in money supply",
+   "A sustained rise in the general price level",
+   "A fall in prices"
+  ],
+  "answerIndex": 2,
+  "explanation": "Inflation is a persistent increase in the general price level.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-017",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "Public finance, budget & GST",
+  "question": "GST was implemented in India from",
+  "options": [
+   "1 July 2017",
+   "1 January 2018",
+   "1 April 2019",
+   "1 April 2016"
+  ],
+  "answerIndex": 0,
+  "explanation": "GST came into force on 1 July 2017.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-018",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "Public finance, budget & GST",
+  "question": "Fiscal deficit equals total expenditure minus",
+  "options": [
+   "Total revenue",
+   "Capital receipts",
+   "Tax revenue",
+   "Total receipts excluding borrowings"
+  ],
+  "answerIndex": 3,
+  "explanation": "Fiscal deficit = total expenditure − (revenue receipts + non-debt capital receipts).",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-019",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "Public finance, budget & GST",
+  "question": "The Finance Commission is constituted every",
+  "options": [
+   "Three years",
+   "Five years",
+   "Ten years",
+   "Two years"
+  ],
+  "answerIndex": 1,
+  "explanation": "Article 280 requires a Finance Commission every five years.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-020",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "Public finance, budget & GST",
+  "question": "Which of the following is a direct tax?",
+  "options": [
+   "Customs duty",
+   "Excise duty",
+   "GST",
+   "Income tax"
+  ],
+  "answerIndex": 3,
+  "explanation": "Direct taxes are paid directly by the person on whom they are levied.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-021",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "Public finance, budget & GST",
+  "question": "The Union Budget is presented under which Article?",
+  "options": [
+   "Article 280",
+   "Article 112",
+   "Article 266",
+   "Article 110"
+  ],
+  "answerIndex": 1,
+  "explanation": "Article 112 requires the annual financial statement (Budget) to be laid before Parliament.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-022",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "Agriculture & reforms",
+  "question": "The Green Revolution in India is associated with",
+  "options": [
+   "Verghese Kurien",
+   "M.S. Swaminathan",
+   "Vikram Sarabhai",
+   "C.V. Raman"
+  ],
+  "answerIndex": 1,
+  "explanation": "M.S. Swaminathan led India's Green Revolution with Norman Borlaug's high-yield wheat varieties.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-023",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "Agriculture & reforms",
+  "question": "Operation Flood is associated with",
+  "options": [
+   "Milk production (White Revolution)",
+   "Food grain production",
+   "Oilseed production",
+   "Fish production"
+  ],
+  "answerIndex": 0,
+  "explanation": "Operation Flood, led by Verghese Kurien, expanded dairy cooperatives.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-024",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "Agriculture & reforms",
+  "question": "The Minimum Support Price (MSP) is announced by the",
+  "options": [
+   "NABARD",
+   "Finance Commission",
+   "Government of India on CACP recommendation",
+   "RBI"
+  ],
+  "answerIndex": 2,
+  "explanation": "MSP is announced by the Centre after the Commission for Agricultural Costs and Prices recommends it.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-025",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "Agriculture & reforms",
+  "question": "MGNREGA 2005 guarantees how many days of wage employment per rural household in a year?",
+  "options": [
+   "100 days",
+   "200 days",
+   "150 days",
+   "50 days"
+  ],
+  "answerIndex": 0,
+  "explanation": "MGNREGA guarantees 100 days of unskilled manual work per rural household.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-026",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "AP economy & infrastructure",
+  "question": "Which steel plant is located at Visakhapatnam?",
+  "options": [
+   "Bokaro Steel Plant",
+   "Rourkela Steel Plant",
+   "Bhilai Steel Plant",
+   "Rashtriya Ispat Nigam Limited (Vizag Steel)"
+  ],
+  "answerIndex": 3,
+  "explanation": "RINL, Visakhapatnam Steel Plant, is a coastal integrated steel plant.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-027",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "AP economy & infrastructure",
+  "question": "The Godavari delta region is famous for the cultivation of",
+  "options": [
+   "Jute",
+   "Paddy",
+   "Rubber",
+   "Tea"
+  ],
+  "answerIndex": 1,
+  "explanation": "The fertile Godavari delta is a major paddy-growing area.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-028",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "AP economy & infrastructure",
+  "question": "Which sector contributes the largest share to India's GDP?",
+  "options": [
+   "Industry",
+   "Mining",
+   "Agriculture",
+   "Services sector"
+  ],
+  "answerIndex": 3,
+  "explanation": "The services sector contributes more than half of India's GVA.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-029",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "AP economy & infrastructure",
+  "question": "The Polavaram project was declared a national project under the",
+  "options": [
+   "Finance Commission award",
+   "National Water Policy 2012",
+   "Andhra Pradesh Reorganisation Act, 2014",
+   "Interstate Water Disputes Act"
+  ],
+  "answerIndex": 2,
+  "explanation": "The AP Reorganisation Act 2014 declared Polavaram a national project.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-030",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "Development, poverty & HDI",
+  "question": "The Human Development Index is published by",
+  "options": [
+   "WTO",
+   "World Bank",
+   "UNDP",
+   "IMF"
+  ],
+  "answerIndex": 2,
+  "explanation": "The UNDP publishes the Human Development Report and HDI.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-031",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "Development, poverty & HDI",
+  "question": "The three dimensions of HDI are health, education and",
+  "options": [
+   "Poverty ratio",
+   "Gender parity",
+   "Employment",
+   "Standard of living (income)"
+  ],
+  "answerIndex": 3,
+  "explanation": "HDI combines life expectancy, education and per-capita income.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-ECO-032",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "economy",
+  "topic": "Development, poverty & HDI",
+  "question": "The IMF and the World Bank are known as",
+  "options": [
+   "Bretton Woods institutions",
+   "Geneva bodies",
+   "Brussels bodies",
+   "Marshall institutions"
+  ],
+  "answerIndex": 0,
+  "explanation": "Both were created at the 1944 Bretton Woods conference.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ }
+]

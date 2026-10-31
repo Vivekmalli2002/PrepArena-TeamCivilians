@@ -1,0 +1,2124 @@
+[
+ {
+  "id": "GEOGRAPHY-00058",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Population, cities, transport & states",
+  "question": "How many districts are in India?",
+  "options": [
+   "600",
+   "650",
+   "580",
+   "800 (e) None of the above"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e) : As per the Census 2011 there were total 640 districts in India. As of April 2022, there are total 776 districts.",
+  "source": "Chhattisgarh PSC (Pre) G.S. Ist 2014 · Indian & World Geography GS p.6",
+  "sourcePage": 6,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "GEOGRAPHY-00070",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Population, cities, transport & states",
+  "question": "Which of the following states was founded in the year 1948?",
+  "options": [
+   "West Bengal",
+   "Assam",
+   "Punjab",
+   "Himachal Pradesh"
+  ],
+  "answerIndex": -1,
+  "explanation": "The states with their year of formation as follows :- States of India Year of Foundation West Bengal - in 1956 under State Reorganisation Act Assam - in 1956 under State Reorganisation Act Punjab - November 1, 1966 Himachal Pradesh - January 25,",
+  "source": "UP RO/ARO (M) G.S. 2013 · Indian & World Geography GS p.8",
+  "sourcePage": 8,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-00075",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Population, cities, transport & states",
+  "question": "Delhi is-",
+  "options": [
+   "a state",
+   "a union territory",
+   "an autonomous council",
+   "None of the above"
+  ],
+  "answerIndex": 1,
+  "explanation": "Delhi with its capital New Delhi is a union territory of India. It was made a Union Territory in 1956. Lying in the northern part of the country, Delhi is surrounded by Haryana on all sides except the east,th where it borders with Uttar Pradesh. The 69 Constitutional amendment is a milestone in Delhi's history, as it got a Legislative Assembly with the enactment of the National Capital Territory Act, 1991.",
+  "source": "BPSC (Pre) G.S. 1997-98 · Indian & World Geography GS p.8",
+  "sourcePage": 8,
+  "sourceKey": "B",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: stem"
+ },
+ {
+  "id": "GEOGRAPHY-00145",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Population, cities, transport & states",
+  "question": "Which city of Bihar is surrounded by five hills?",
+  "options": [
+   "Gaya",
+   "Patna",
+   "Bhagalpur",
+   "Bodhgaya (e) None of the above/More than one of the above"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e) : The city of Rajgir of Bihar is surrounded by 5 hills viz. Ratnagiri, Swarngiri, Vaibhavgiri, Vipulgiri/Vipulachal and Udaygiri.",
+  "source": "66th BPSC Re- Exam- 2020 · Indian & World Geography GS p.16",
+  "sourcePage": 16,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "GEOGRAPHY-00228",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Rivers, lakes & drainage",
+  "question": "Match List-I with List-II and select the correct answer from the codes given below: List-I List-II (Place) (Confluence of the rivers) A. Rudra Prayag 1. Bhagirathi – Alakananda B. Nanda Prayag 2. Alakananda – Mandakini C. Karna Prayag 3. Alakananda – Mandakini D. Dev Prayag 4. Vishnu Ganga – Mandakini Code : A B C D A B C D",
+  "options": [
+   "1 3 2 4",
+   "2 4 3 1",
+   "3 2 4 1",
+   "4 1 3 2"
+  ],
+  "answerIndex": -1,
+  "explanation": "The correct match is as follows :- Devprayag - Bhagirathi and Alakananda Rudraprayag - Alakananda and Mandakini (Kali Ganga) Karnaprayag - Alakananda and Pindar Nandaprayag - Alakananda and Nandakini",
+  "source": "UP RO/ARO (Pre) G.S. 2013 UPPCS (Main) G.S. 2016 · Indian & World Geography GS p.25",
+  "sourcePage": 25,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-00282",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Rivers, lakes & drainage",
+  "question": "River Tel is a tributary of which of the following rivers?",
+  "options": [
+   "Bagmati",
+   "Ghaghara",
+   "Gandak",
+   "Kamla (e) None of the above/More than one of the above"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e) Tel is an important tributary of Mahanadi. It flows in state of Odisha.",
+  "source": "BPSC (Pre) G.S. 2016 · Indian & World Geography GS p.30",
+  "sourcePage": 30,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "GEOGRAPHY-00523",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Rivers, lakes & drainage",
+  "question": "Which of the following is a freshwater lake?",
+  "options": [
+   "Chilka",
+   "Sambhar",
+   "Wular",
+   "Loktak (e) None of the above/More than one of the above"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e) : Wular and Loktak lake both are the freshwater lake. Wular is situated in Jammu and Kashmir and Loktak lake is the largest freshwater lake in (Manipur) India.",
+  "source": "67th BPSC Pre Exam- 2022 (08.05.2022) · Indian & World Geography GS p.58",
+  "sourcePage": 58,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "GEOGRAPHY-00537",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Rivers, lakes & drainage",
+  "question": "Which one of the following is an artificial lake?",
+  "options": [
+   "Kodaikanal (Tamil Nadu)",
+   "Kolleru (Andhra Pradesh)",
+   "Nainital (Uttarakhand)",
+   "Renuka (Himachal Pradesh)"
+  ],
+  "answerIndex": -1,
+  "explanation": "–(a) Kodaikanal Lake, also known as Kodai Lake is a manmade lake located in the Kodaikanal city in Dindigul district of Tamil Nadu, India, the most popular tourist attraction in Southern India.",
+  "source": "IAS (Pre)-2018 · Indian & World Geography GS p.59",
+  "sourcePage": 59,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-00604",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "World geography & miscellaneous",
+  "question": "Which of the following is not correctly matched?",
+  "options": [
+   "Shipki La - Himachal Pradesh",
+   "Lipulekh - Uttar Pradesh",
+   "Nathu La - Sikkim",
+   "Zoji La - Kashmir"
+  ],
+  "answerIndex": -1,
+  "explanation": "Lipulekh is a Himalayan pass on the tri- junction between India's Uttarakhand (earlier Uttar Pradesh) State, Tibet region of China and Nepal. When the question was asked Uttarakhand was the part of Uttar Pradesh. So Uttar Pradesh was correct answer. Zojila is not in Kashmir, it is in the Ladakh region (of erstwhile Jammu & Kashmir state) and now a Union territory itself.",
+  "source": "UPPCS (Pre) G.S. 1998 · Indian & World Geography GS p.67",
+  "sourcePage": 67,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-00642",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Soils, agriculture & irrigation",
+  "question": "Mango Shower is-",
+  "options": [
+   "Shower of mangoes",
+   "Dripping of mangoes",
+   "Rain occurs in Bihar and West Bengal during March – April",
+   "Crop of mango"
+  ],
+  "answerIndex": -1,
+  "explanation": "Mango shower are pre-monsoon showers which are a common phenomenon in Kerala and Coastal areas of Karnataka.",
+  "source": "BPSC(Pre.) G.S. 2001-02 · Indian & World Geography GS p.71",
+  "sourcePage": 71,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-00704",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Physical geography & geomorphology",
+  "question": "Palmer index is associated with which of the following natural disaster?",
+  "options": [
+   "Earth quake",
+   "Volcano",
+   "Drought",
+   "Flood (e)"
+  ],
+  "answerIndex": -1,
+  "explanation": "wer not known TNPSC (Pre) 2022 Ans.(c): Palmer index is associated with Drought palmer index generally spans – 10 (dry) to + 10 (wet) palmer Drought severity index is classified under following categories : –4 or less (extreme drought) –3 to –3.9 (severe drought) –2 to 2.9 (Moderate Drought) –119 to 11.9 (Near Normal)",
+  "source": "Indian & World Geography GS · Indian & World Geography GS p.79",
+  "sourcePage": 79,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "GEOGRAPHY-00793",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Climate & oceans",
+  "question": "Soil formation is controlled by the following factors: I. Parent material II. Topography III. Climate IV. Biological activity V. Time Which of the above are active factors?",
+  "options": [
+   "I, II and III",
+   "I and III only",
+   "III and IV only",
+   "I, II, III and IV"
+  ],
+  "answerIndex": -1,
+  "explanation": "Factors responsible for the formation of soils are - 1. Parent material 2. Climate 3. Topography 4. Biological activity",
+  "source": "APPSC (Pre) 2023 · Indian & World Geography GS p.89",
+  "sourcePage": 89,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-00861",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Population, cities, transport & states",
+  "question": "Match important projects in List - I with the area of implementation in List - II and select the correct answer using the code given below: List-I List-II (Multipurpose (Area/ Place of Projects in India) implementation) A. Tungabhadra 1. Lower Narmada Multipurpose Project Valley Gujarat B. The Sardar Sarovar 2. Nalgonda district Project Telangana C. Nagarjuna Sagar 3. Andhra Pradesh Project and Karnataka D. Bhakra Nangal 4. North Western Project and Rajasthan Code : A B C D",
+  "options": [
+   "A B C D",
+   "B C A D",
+   "C A B D",
+   "D B A C"
+  ],
+  "answerIndex": -1,
+  "explanation": "List-I List-II (Multipurpose Projects (Area) in India) Tungabhadra – Andhra Pradesh & Multipurpose Project Karnataka The Sardar Sarovar – Lower Narmada valley Project Nagarjuna Sagar Project – Nalgonda district Telangana Bhakra Nangal Project – Himachal Pradesh",
+  "source": "Odisha PSC (Pre) 2023 · Indian & World Geography GS p.96",
+  "sourcePage": 96,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-00866",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Rivers, lakes & drainage",
+  "question": "Which one of the following is not correctly matched?",
+  "options": [
+   "Mahi Bajaj Sagar Project – Gujarat and Rajasthan",
+   "Chambal Project – Rajasthan and Madhya Pradesh",
+   "Beas Project – Rajasthan, Punjab, Haryana and Himanchal Pradesh",
+   "Indira Gandhi Canal – Rajasthan, Punjab Project and Haryana"
+  ],
+  "answerIndex": -1,
+  "explanation": "Indira Gandhi Canal - Punjab, Haryana, Rajasthan Mahi Bajaj Sagar Project - Rajasthan, Gujarat Beas Project - Punjab, Haryana, Rajasthan and Himachal Pradesh. Chambal project - Madhya Pradesh, Rajasthan Hence, all are correctly matched.",
+  "source": "RAS/RTS (PRE) G.S. 2009 · Indian & World Geography GS p.96",
+  "sourcePage": 96,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-00928",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Rivers, lakes & drainage",
+  "question": "Which one of the following river valley projects benefits more than one state?",
+  "options": [
+   "Chambal Valley Project",
+   "Mayurakshi Project",
+   "Sharavati Project",
+   "Hirakud Project"
+  ],
+  "answerIndex": -1,
+  "explanation": "Chambal project is a joint venture of Rajasthan and Madhya Pradesh state governments. It aims at judicious utilization of the water resources of the river for irrigation, power generation, soil conservation and economic development of the region. Mayurkashi project also benefits more than one state i.e. Jharkhand and West Bengal.",
+  "source": "UPPCS (Pre) G.S. 2007 UP Lower (Pre) 2008 · Indian & World Geography GS p.103",
+  "sourcePage": 103,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-00938",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Rivers, lakes & drainage",
+  "question": "Match List–I with List–II and select the correct answer from the codes given below the lists : List-I (Projects) List-II (Rivers) A. Ukai 1. Godavari B. Jayakwadi 2. Ambi C. Khadakwasla 3. Mutha D. Mayurakshi 4. Tapi Codes: A B C D",
+  "options": [
+   "4 1 2 3",
+   "4 1 3 2",
+   "1 3 4 2",
+   "3 4 2 1"
+  ],
+  "answerIndex": -1,
+  "explanation": "Correct Match— Ukai – Tapi Jayakwadi – Godavari Khadakwasla – Mutha Indian Geography 11 Note:- Panshet dam is built an Ambiriver which is a tributary of Mutha river whereas Mayurakshi project is on Mayurakshi river.",
+  "source": "UPPSC BEO 2019 · Indian & World Geography GS p.104",
+  "sourcePage": 104,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-00966",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Minerals, industry & energy",
+  "question": "Which of the following iron ores is mined in Bailadila?",
+  "options": [
+   "Hematite",
+   "Siderite",
+   "Limonite",
+   "Magnetite (e) None of the above/More than one option"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e) : Bailadila mines are located in Dantewada District of Chhattisgarh .It is famous for high quality Magnetite and Hematite ores of iron. Bailadila mine is the largest mechanized mine in Asia.",
+  "source": "BPSC (Pre)st G.S., 2017 MPPSC (Pre) G.S. I Paper, 2015 Uttarakhand UDA/LDA (M) G.S., 2007 · Indian & World Geography GS p.107",
+  "sourcePage": 107,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "GEOGRAPHY-00981",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Minerals, industry & energy",
+  "question": "Khetri is famous for-",
+  "options": [
+   "Iron ore",
+   "Coal",
+   "Manganese",
+   "Bauxite (e) Copper"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e): Kindly refer the explanation of above question.",
+  "source": "Chhattisgarh PSC (Pre) G.S., 2016 · Indian & World Geography GS p.108",
+  "sourcePage": 108,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "GEOGRAPHY-00990",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Minerals, industry & energy",
+  "question": "Consider the important events of coal minings in India and arrange these in correct chronological order starting from the earliest to the last activity- I. First production of coal in Raniganj . II. Establishment of Coal India Ltd. (CIL) . III. Nationalisation of coal mines . IV. Establishment of Natienal Coal Development Corporation (NCDC) . Select the correct answer using the code given below: Code −−−−",
+  "options": [
+   "III, I, II, IV",
+   "I, III, II, IV",
+   "I, II, III, IV",
+   "I, IV, III, II"
+  ],
+  "answerIndex": -1,
+  "explanation": "Activity Year First Production of coal in Raniganj – 1774 Establishment of coal India Ltd (CIL) – 1975 Nationalisation of coal mines – 1946 National Coal Development – 1963 Corporation (NCDC) Hence the correct Chronology of activity is I, III, IV, II.",
+  "source": "UPPCS RO/ARO (Pre) 2023 (Cancelled) · Indian & World Geography GS p.108",
+  "sourcePage": 108,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-01015",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Minerals, industry & energy",
+  "question": "Correct descending order of following coal producing states in reference to production is?",
+  "options": [
+   "Chhattisgarh, Jharkhand, Odisha, Maharashtra",
+   "Odisha, Jharkhand, Chhattisgarh Maharashtra",
+   "Jharkhand, Chhattisgarh, Maharashtra, Odisha",
+   "Jharkhand, Odisha, Chhattisgarh, Maharashtra"
+  ],
+  "answerIndex": -1,
+  "explanation": "According to Mineral Year Book 2019. The largest coal producing states are Chhattisgarh (22.2%), Odisha (19.8%), Jharkhand (18.5%), Madhya Pradesh (16.3%), Telangana (8.9%), Maharashtra (6.8%).",
+  "source": "UPPCS (Mains) G.S. 2016 UPPCS (Mains) Spl. G.S. 1st Paper-2008 · Indian & World Geography GS p.112",
+  "sourcePage": 112,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-01049",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Physical geography & geomorphology",
+  "question": "In which one of the following minerals, India leads in production in the world?",
+  "options": [
+   "Sheet mica",
+   "Copper",
+   "Gypsum",
+   "Iron ore (e) None of the above/More than one of the above"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e) Currently China is largest producer of mica therefore correct answer would be (e).",
+  "source": "64th BPSC (Pre)-2018 · Indian & World Geography GS p.115",
+  "sourcePage": 115,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "GEOGRAPHY-01075",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Physical geography & geomorphology",
+  "question": "With reference to the mineral production in Bihar, consider the following statements: 1. Rohtas has the highest deposit of Pyrites. 2. Limestone is found in Kaimur (Bhabhua), Munger (Monghyr) and Rohtas districts. 3. Gold deposits are found in Jamui districts. Which of the statements given above is/are correct?",
+  "options": [
+   "3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "More than one of the above (e) None of the above"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e): Rohtas has the highest deposit of pyrites. Statement. (1) is correct. Limestone is found in Kaimur (Bhabhua), Munger (Monghyr) and Rohtas district. Statement (2) is correct gold deposits are found in Jamui district. Statement (3) is correct. But, none of the above option is marked correctly Hence, the correct answer is option (e).",
+  "source": "(1) 68th BPSC 2022 · Indian & World Geography GS p.118",
+  "sourcePage": 118,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "GEOGRAPHY-01086",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "World geography & miscellaneous",
+  "question": "Dolomite deposits have been found in:",
+  "options": [
+   "Odisha, Bengal, Bihar, Maharashtra",
+   "Odisha, Bengal, Bihar, Tamil Nadu",
+   "Odisha, Bengal, Bihar, Jharkhand",
+   "Odisha, Bengal, Bihar, Chhattisgarh"
+  ],
+  "answerIndex": -1,
+  "explanation": "All the states given in the question have reserves of dolomite. Odisha is the largest producer of dolomite and account for 29% of the total production of dolomite in India. (cid:1) Chhattisgarh produces about 28% dolomite in India. (cid:1) Andhra Pradesh produces about 20%, Karnataka about 7% and Jharkhand about 6.8%. Dolomite is found in Munger and Rohtas district of Bihar and Jalpaiguri district of West Bengal.",
+  "source": "J & K PSC 2021 Paper-(I) · Indian & World Geography GS p.119",
+  "sourcePage": 119,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-01119",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Minerals, industry & energy",
+  "question": "Which of the following is not correctly matched?",
+  "options": [
+   "Gold - Kolar",
+   "Coal - Jharia",
+   "Iron-ore - Guntur",
+   "Diamonds - Panna"
+  ],
+  "answerIndex": -1,
+  "explanation": "None of the given options is incorrect as Gold is found in Kolar mines in Karnatka, Coal is found in Jharia in Jharkhand, Iron ore is found in small quantity in Guntur district of Andhra Pradesh, and Diamond is naturally found in Panna district of Madhya Pradesh.",
+  "source": "UPPSC RO/ARO Mains 2017 · Indian & World Geography GS p.123",
+  "sourcePage": 123,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-01163",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Population, cities, transport & states",
+  "question": "The most Gypsum producing state of India is—",
+  "options": [
+   "Bihar",
+   "Jharkhand",
+   "Chhattisgarh",
+   "Karnataka (e) Rajasthanst"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e): Kindly refer the explanation of above question.",
+  "source": "Chhattisgarh PSC (Pre) I G.S., 2013 · Indian & World Geography GS p.127",
+  "sourcePage": 127,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "GEOGRAPHY-01174",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Minerals, industry & energy",
+  "question": "Consider the following statements: (1) Nuclear energy contributes about 10% of the total electricity generation in India. (2) India has 22 nuclear reactors in 7 power plants. (3) Nuclear energy is the fifth largest source of electricity in India. (4) The upcoming nuclear power plant at Gorakhpur village pertain to Uttar Pradesh. Choose the correct answer from the options given below:",
+  "options": [
+   "(1) and (2) only",
+   "(2) and (4) only",
+   "(2) and (3) only",
+   "(3) and (4) only"
+  ],
+  "answerIndex": -1,
+  "explanation": "● According to recent data of ministry of power Nuclear energy contributes 1.6% in total Installed generation capacity. Hence option (1) is incorrect. ● India has 23 nuclear reactors in 7 power plants hence statement (2) is false. ● Nuclear energy is the 5th largest source of electricity in India Hence statement (3) is correct. ● The upcoming nuclear power plant at Gorakhpur village pertain to Haryana. So option (4) is false. Note– Commission accept option (c) as answer but in present scenario no option is correct.",
+  "source": "Himachal PSC (Pre) 2023 · Indian & World Geography GS p.129",
+  "sourcePage": 129,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-01192",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "World geography & miscellaneous",
+  "question": "Match the List-I with List-II and select the correct answer from the codes given below— List-I List-II A. Kota 1. Uttar Pradesh B. Tarapur 2. Gujarat C. Kakrapar 3. Maharashtra D. Narora 4. Rajasthan Codes: A B C D A B C D",
+  "options": [
+   "1 2 3 4",
+   "4 3 2 1",
+   "3 2 1 4",
+   "3 2 1 4"
+  ],
+  "answerIndex": 1,
+  "explanation": "The correct match is as follows – Atomic Power Plant State Narora UP Kakrapara Gujarat Tarapur Maharashtra Kota Rajasthan",
+  "source": "UPPCS (Pre.) G.S. 1999 · Indian & World Geography GS p.131",
+  "sourcePage": 131,
+  "sourceKey": "B",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "GEOGRAPHY-01240",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Rivers, lakes & drainage",
+  "question": "Consider the following statements and select the correct answer from the codes given below : 1. Rihand Dam is on a tributary of the Sone river 2. Hirakud Dam is on Mahanadi river 3. Tungabhadra project is a joint venture of Andhra Pradesh and Karnataka 4. Maithon Dam is on Barakar river, a tributary of Damodar river Codes:",
+  "options": [
+   "1, 2 and 3 are correct",
+   "1, 2 and 3 are correct",
+   "1, 3 and 4 are correct",
+   "1, 2, and 4 are correct"
+  ],
+  "answerIndex": -1,
+  "explanation": "Rihand dam is on river Rihand which is a tributary of Son River. Its reservoir is known as Govind Ballabh Pant Sagar and it is India's largest artificial lake. It is located in Uttar Pradesh. Hirakud dam is on river Mahanadi in Odisha. Tungabhadra project is a joint venture of the Governments of Karnataka and Andhra Pradesh. Maithon Dam is on Barakar river which is tributary of Damodar river. Hence all options are correct.",
+  "source": "UPPSC RO/ARO (Re-exam) 2016 · Indian & World Geography GS p.136",
+  "sourcePage": 136,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "GEOGRAPHY-01258",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Population, cities, transport & states",
+  "question": "Match the List-I with List-II and select the correct answer using the codes given below the lists— List-I List-II (State) (Place in established thermal power capacity) A. Gujarat 1. First B. Maharashtra 2. Second C. Uttar Pradesh 3. Third D. West Bengal 4. Fourth Codes: A B C D A B C D",
+  "options": [
+   "4 3 2 1",
+   "2 1 4 3",
+   "3 4 1 2",
+   "1 2 4 3"
+  ],
+  "answerIndex": -1,
+  "explanation": "The correct matching of established thermal power generation capacity with respective states is as follows: State Established Thermal Power Capacity Maharashtra First (27063 M.W.) Uttar Pradesh Second (25222 M.W.) Gujarat Third (23643 M.W.) West Bengal Fourth (14277 M.W.) Note : Data given is upto 31/12/2021.",
+  "source": "UPPCS (Main) Spl. G.S. Ist Paper 2008 · Indian & World Geography GS p.138",
+  "sourcePage": 138,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-01310",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Minerals, industry & energy",
+  "question": "Which of the following is in Private sector— 1. Bongaigaon refinery 2. Mangalore refinery 3. Haldia refinery 4. Essar oil Ltd Codes:",
+  "options": [
+   "1 & 2",
+   "2 & 3",
+   "2 & 4",
+   "1 & 4"
+  ],
+  "answerIndex": -1,
+  "explanation": "At present there are 23 oil refineries in the country, out of which 18 are in public sector, two in joint sector and three in private sector. The private sector refineries are Jamnagar Refinery (for export), Jamnagar Refinery (for domestic market) and Vadinar Refinery when the question was asked Manglore refinery was a joint Venture (Acquired by ONGC in 2003) and Essar oil was in private sector.",
+  "source": "UPPCS (Pre.) G.S. 1998 · Indian & World Geography GS p.144",
+  "sourcePage": 144,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-01330",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Climate & oceans",
+  "question": "The correct order of energy sources power plants of India is-",
+  "options": [
+   "Thermal > Hydro > Nuclear > Wind",
+   "Thermal > Nuclear > Hydro > Wind",
+   "Hydro > Nuclear > Thermal > Wind",
+   "Nuclear > Hydro > Wind > Thermal"
+  ],
+  "answerIndex": -1,
+  "explanation": "As per the latest data the correct order is thermal > Renewable > Hydro > Nuclear.",
+  "source": "UPUDA/LDA (Pre) 2010 UP RO/ARO (M) G.S. 2014 · Indian & World Geography GS p.146",
+  "sourcePage": 146,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-01409",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Population, cities, transport & states",
+  "question": "With reference to National Highways of India, which of the following statements is/are correct? (i) Among the Indian States, Maharashtra occupies the top position in terms of the total length of National Highways. (ii) NH 42 lies between Srinagar and National Highway of the country. (iii) NH 27 is the longest East -West National Highway connecting Porbandar and Silchar. Select the correct answer using the codes given below.",
+  "options": [
+   "Only (i)",
+   "Only (i) and (iii)",
+   "Only (i) and (iii)",
+   "(i), (ii) and (iii)"
+  ],
+  "answerIndex": 0,
+  "explanation": "• Maharashtra with total 17,749 km of National highways occupies the top position in terms of the total length of National Highways so statement (I) is correct. • NH 42 runs in states of Andhra Pradesh and Tamil Nadu & does not pass from Srinagar hence statement II is incorrect. • NH 27 connects Porbandar to Silchar but it is not the longest National Highway. Longest National Highway is NH-44.",
+  "source": "Assam PSC (Pre) 2022 · Indian & World Geography GS p.154",
+  "sourcePage": 154,
+  "sourceKey": "A",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "GEOGRAPHY-01440",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Population, cities, transport & states",
+  "question": "Find the mismatched answer about the Indian Railway Zones.",
+  "options": [
+   "Southern - Chennai",
+   "Central - Jaipur",
+   "Northern - New Delhi",
+   "Eastern - Kolkata (e)"
+  ],
+  "answerIndex": -1,
+  "explanation": "wer not known TNPSC (Pre) 2022 Ans. (b) The correct match is as follows :- Railway zone – Headquarter Southern – Chennai Central – Mumbai Northern – New Delhi Eastern – Kolkata",
+  "source": "Indian & World Geography GS · Indian & World Geography GS p.157",
+  "sourcePage": 157,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "GEOGRAPHY-01521",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "World geography & miscellaneous",
+  "question": "When was the Sagarmala project implemented in India?",
+  "options": [
+   "March",
+   "March",
+   "March",
+   "Dec. 2015 (e) None of these"
+  ],
+  "answerIndex": 2,
+  "explanation": "The Sagarmala Project is the flagship programme of ministry of shipping to promote port led development in country for harnessing, India's 7500 km long coastline, through 14500 km of potentially navigable waterways and strategic location on key international maritime trade routes. It was implemented in India in March, 2014. D. Air transport & other Transport",
+  "source": "Chhattisgarh PSC (Pre) G.S. 2017 · Indian & World Geography GS p.166",
+  "sourcePage": 166,
+  "sourceKey": "C",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "GEOGRAPHY-01531",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "World geography & miscellaneous",
+  "question": "Match the following with respcct to the occurrence of races in List -II to the type of Races in List - I. List-I List-II Races Area of Existence A. The Turko-Iranian 1. Odisha and Assam B. The Indo-Aryan 2. Odisha and Assam C. The Scytho-Dravidian 3. West India (Gujarat to Karnataka) D. The Mongolo 4. North Western Dravidian Frontier Agency Code : A B C D",
+  "options": [
+   "4 1 3 2",
+   "1 4 2 3",
+   "1 3 2 4",
+   "4 2 3 1"
+  ],
+  "answerIndex": -1,
+  "explanation": "The correct match is as follows :- (Races) (Areas of existence) The Turko Iranian – Odisha and Assam The Indo-Aryan – North Western Frontier Agency The Scytho Dravinian – Madhya Pradesh Maharashtra The Mongolo Dravidian – West India (Gujarat to Karnataka) Indian Geography 17 Human Races",
+  "source": "Odisha PSC (Pre) 2023 · Indian & World Geography GS p.167",
+  "sourcePage": 167,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-01538",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "World geography & miscellaneous",
+  "question": "Match the following : (A) Garo 1. Assam (B) Kuki 2. Mizoram (C) Todas 3. Tamilnadu (D) Miri 4. Arunachal Pradesh (A) (B) (C) (D)",
+  "options": [
+   "2 4 1 3",
+   "1 2 4 3",
+   "1 2 3 4",
+   "2 4 3 1 (e)"
+  ],
+  "answerIndex": -1,
+  "explanation": "wer not known TNPSC (Pre) 2022 Ans. (c) : The correct match is as follows :- Tribe State Garo – Assam Kuki – Mizoram Todas – Tamil Nadu Miri – Arunanchal Pradesh",
+  "source": "Indian & World Geography GS · Indian & World Geography GS p.168",
+  "sourcePage": 168,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "GEOGRAPHY-01545",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Population, cities, transport & states",
+  "question": "Which two of the following are correctly matched? Tribe State 1. Keria – Odisha 2. Kuki – Uttar Pradesh 3. Yanadi – Rajasthan 4. Paliyan – Tamil Nadu Select the correct answer from the code given below: Code:",
+  "options": [
+   "3 and 4",
+   "1 and 4",
+   "2 and 3",
+   "1 and 2"
+  ],
+  "answerIndex": -1,
+  "explanation": "Kuki is an ethnic group of North-Eastern India and Yanadi is a tribal group in Andhra Pradesh. Paliyan tribes belongs to Tamil Nadu. Hence only Pair 4 is correctly matched. There is no tribes keria, it is kharia found in Odisha. Keria is a village located in Madhya Pradesh.",
+  "source": "UPPCS Pre 2022 · Indian & World Geography GS p.168",
+  "sourcePage": 168,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-01548",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Population, cities, transport & states",
+  "question": "The Tribes of 'Lepcha' and 'HO' are commonly found in which part of India?",
+  "options": [
+   "Central India",
+   "North-East India",
+   "South India",
+   "West India Indian Geography"
+  ],
+  "answerIndex": -1,
+  "explanation": "Lepcha is a tribe of Himalayan range live at the North-East corner of India. They largely reside at Meghalaya, Arunachal Pradesh, Bhutan, Sikkim and Darjeeling. Lepchas are Mongoloid tribe. Their language is an admixture of Nepalese and Sikkim languages, which is very familiar with Indo-Chinese language. They themselves call \"Rong\". The 'Ho' is a Kolarian tribe belonging to the same stock of Munda and Kol. They mainly inhabit the interiors of Mayurbhanj and Keonjhar districts of Odisha. They are settled agriculturists. Besides, they also depend on food gathering and seasonal forest collections, animal domestication, hunting and fishing to supplement their livelihood. But in the official answer key of Uttarakhand Commission, the answer is given as option (a).",
+  "source": "UK RO-ARO (Pre.) 2021 · Indian & World Geography GS p.169",
+  "sourcePage": 169,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-01592",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "World geography & miscellaneous",
+  "question": "Which of the following is not correctly matched?",
+  "options": [
+   "Angami - Nagaland",
+   "Birhor - Jharkhand",
+   "Khasi - Meghalaya",
+   "Toda - Tamil Nadu"
+  ],
+  "answerIndex": -1,
+  "explanation": "The correct match is as follows- Angami - Nagaland Birhor - Jharkhand Khasi - Meghalaya Toda - Tamil Nadu Hence all the given options are correct.",
+  "source": "UPPCS (Pre) G.S. 2004 · Indian & World Geography GS p.174",
+  "sourcePage": 174,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-01638",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Soils, agriculture & irrigation",
+  "question": "Choose the correct sequence of the states of India, according to ascending order of rice production in the year 2018-19.",
+  "options": [
+   "Punjab, Uttar Pradesh, Rajasthan, Haryana, Madhya Predesh",
+   "Uttar Pradesh, Punjab, Haryana, Madhya Pradesh, Rajasthan",
+   "Rajasthan, Haryana, Madhya Pradesh, Punjab, Uttar Pradesh",
+   "Punjab, Rajasthan, Haryana, Madhya Pradesh, Uttar Pradesh (e) None of the above/More than one of the above"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e): As per economic survey of India (2021-22) the largest producer of rice in India are-West Bengal, Uttar Pradesh and Punjab",
+  "source": "66th BPSC Re- Exam- 2020 · Indian & World Geography GS p.178",
+  "sourcePage": 178,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "GEOGRAPHY-01661",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Climate & oceans",
+  "question": "Which of the following statements is/are correct? I. The sugar industry was initially located in Uttar Pradesh. II. The low yield of sugarcane, short crushing seasons, unsatisfactory location of industries created problems in producing sugar. Code −−−− (b) Neither I nor II",
+  "options": [],
+  "answerIndex": 2,
+  "explanation": "The sugar industry was initially located in North India. However continental climate, low yield of sugarcane, short crushing seasons created problems in producing sugar.",
+  "source": "Indian & World Geography GS · Indian & World Geography GS p.181",
+  "sourcePage": 181,
+  "sourceKey": "C",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "GEOGRAPHY-01670",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Population, cities, transport & states",
+  "question": "First three states of India in production of sugar are-",
+  "options": [
+   "Bihar, Uttar Pradesh, Maharashtra",
+   "Uttar Pradesh, Tamil Nadu, Maharashtra",
+   "Bihar, Maharashtra, Karnataka",
+   "Bihar, Uttar Pradesh, Andhra Pradesh"
+  ],
+  "answerIndex": -1,
+  "explanation": "When the question was asked, top three states in production of sugar ware- 1-Uttar Pradesh 2-Maharashtra 3-Karnataka At present Uttar Pradesh is largest sugarcane producing state followed by Maharashtra, Karnataka, Tamil Nadu and Andhra Pradesh.",
+  "source": "UPPCS (Pre) G.S. 1999 · Indian & World Geography GS p.182",
+  "sourcePage": 182,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-01674",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Rivers, lakes & drainage",
+  "question": "In India, most of the just mills are located in:",
+  "options": [
+   "Damodar basin",
+   "Subarnarekha basin",
+   "Brahmaputra basin",
+   "Brahmaputra basin"
+  ],
+  "answerIndex": 2,
+  "explanation": "The West-Bengal is known for it's Jute Cultivation, hence, most of Jute mills are located in Hugli basin.",
+  "source": "APPSC (Pre) 2023 · Indian & World Geography GS p.182",
+  "sourcePage": 182,
+  "sourceKey": "C",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "GEOGRAPHY-01730",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Climate & oceans",
+  "question": "India is an agricultural country, where most of the population is directly or indirectly involved in this sector. Regarding agriculture in India, which one of the following statements is/are not correct? A. Bajra is a Kharif crop, which requires 25°-31°Ctemperature and 40-50cm rainfall. B. Cotton is categorized into groups Three long-staple, medium staple and short-staple. C. Currently, India accounts for about 50% of the world's total jute production. D. India is the second-largest producer of silk and the largest Consumer of silk in the world. Select the correct answer using the codes given below:",
+  "options": [
+   "B and D",
+   "Only C",
+   "A and B",
+   "Only D"
+  ],
+  "answerIndex": -1,
+  "explanation": "Bajra which is Kharif crop requires temperature of about 20ºC to 30ºC and rainfall of about 40 to 50 cm. Cotton fibres may be classified roughly into three large groups based on staple length, the first group includes large staples second group includes medium staple cotton and third group includes short staple coarse cottons. India accounts for about 75% of total world's production of Jute. India is second largest producer with 36,582 Metric tonnes production in 2023. Also India is largest consumer of silk. Thus, statement I, II and III are correct. None of the option is correct.",
+  "source": "Odisha PSC (Pre) 2023 · Indian & World Geography GS p.187",
+  "sourcePage": 187,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-01749",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Soils, agriculture & irrigation",
+  "question": "Which of the following pairs of crops and its main producing state is not correct?",
+  "options": [
+   "Rice - West Bengal",
+   "Wheat - Uttar Pradesh",
+   "Cotton - Gujarat",
+   "Rye/Mustard - Rajasthan (e) None of these"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e) : The correct match is as follows – Crop Major producing state Rice W. Bengal Wheat Uttar Pradesh Cotton Gujarat Rye/Mustard Rajasthan",
+  "source": "Chhattisgarh PCS (Pre) G.S. 2017 · Indian & World Geography GS p.189",
+  "sourcePage": 189,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "GEOGRAPHY-01758",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Soils, agriculture & irrigation",
+  "question": "Which of the following is correctly matched in reference to the state and their major crops?",
+  "options": [
+   "Kerala - Tapioca",
+   "Maharashtra - Cotton",
+   "West Bengal - Jute",
+   "Gujarat - Groundnut Select the correct answer using the codes given below- Code: (a) 1, 2 & 3 (b) 1, 2 & 4 (c) 1, 3 &4 (d) 2, 3 & 4 Indian Geography"
+  ],
+  "answerIndex": -1,
+  "explanation": "The correct match is as follows – (States) (Major Crops) Kerala - Tapioca Maharashtra - Cotton W. Bengal - Jute Gujarat - Groundnut According to present data (2020-21), all option is right.",
+  "source": "IAS (Pre) G.S. 1996 · Indian & World Geography GS p.190",
+  "sourcePage": 190,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "GEOGRAPHY-01771",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Rivers, lakes & drainage",
+  "question": "In which of the following state is black pepper and Cardamom produced?",
+  "options": [],
+  "answerIndex": 3,
+  "explanation": "Black pepper and cardamom are produced in Kerala. Kerala produced 90% black pepper of India and largest producer of Cardamom is Karnataka.",
+  "source": "Indian & World Geography GS · Indian & World Geography GS p.191",
+  "sourcePage": 191,
+  "sourceKey": "D",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "GEOGRAPHY-01836",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Soils, agriculture & irrigation",
+  "question": "High yielding variety of seeds, used in green revolution requires-",
+  "options": [
+   "Less fertillizer and less water",
+   "More fertilizer and more water",
+   "Less fertilizer and more water",
+   "More fertilizer and more water"
+  ],
+  "answerIndex": 3,
+  "explanation": "During the period of green revolution High yielding variety of seeds is used. Due to this production of food grain increased but HYV seeds consumed more fertilizer and more water.",
+  "source": "UPPCS (Pre)G.S. 2003 · Indian & World Geography GS p.199",
+  "sourcePage": 199,
+  "sourceKey": "D",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "GEOGRAPHY-01855",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Population, cities, transport & states",
+  "question": "Dandakaranya region is located in state of___.",
+  "options": [
+   "Odisha",
+   "Chhattisgarh",
+   "Andhra Pradesh",
+   "Telangana (e) None of the above/More than one of the above"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e): Dandakaranya region includes parts of Chhattisgarh, Odisha, Telangana and Andhra Pradesh. It is a physical region of East-Central India.",
+  "source": "66th BPSC Re- Exam- 2020 · Indian & World Geography GS p.201",
+  "sourcePage": 201,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "GEOGRAPHY-01926",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Physical geography & geomorphology",
+  "question": "Consider the following statements about the Big Bang Theory and choose the correct option from the codes given below:",
+  "options": [
+   "It established the fact that the earth's crust moved to fit itself into its orbit.",
+   "The universe is a result of the explosion that happened approximately 18000 million years ago. World Geography 21 EOGRAPHY se and Solar System",
+   "The matter that was thrown out of this explosion condensed into lumps called galaxies.",
+   "The Continents gradually drifted to where they are now located. Codes: A. a and b are correct B. only b is correct C. b and c are correct D. a, b and c are correct"
+  ],
+  "answerIndex": -1,
+  "explanation": "The Big Bang theory is about origin of Universe. It is the idea that the universe began as just a single point, of speck then expanded and stretched to grow as large as it is right now—and it is still stretching. • The universe is a result of the explosion that happened approximately 13.8 billion years ago. • The matter that was thrown out of this explosion condensed into lumps called galaxies. • The Big Bang Theory does not explain the interior of the earth or the continental drift. Therefore only statement c is correct however the commission has considered option c as the correct answer to the question.",
+  "source": "Manipur PSC-2013 · Indian & World Geography GS p.210",
+  "sourcePage": 210,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-01961",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Population, cities, transport & states",
+  "question": "Substance present in the core of the Sun are-",
+  "options": [
+   "In solid, liquid and gas states",
+   "Only in liquid state",
+   "Only in gaseous state World Geography",
+   "In both liquid and gaseous state"
+  ],
+  "answerIndex": -1,
+  "explanation": "Substances present in the core of the Sun are either in ath gaseous state or in the Plasma state. Plasma is the 4 state of matter after solid, liquid and gas. As₀ per NASA, the surface temperature of the Sun is 5500 C. So none of the given option is correct.",
+  "source": "UPPCS (Pre) G.S. 2001 · Indian & World Geography GS p.214",
+  "sourcePage": 214,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-02021",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "World geography & miscellaneous",
+  "question": "The ring of Jupiter is-",
+  "options": [
+   "Made by silicate",
+   "Do not exist",
+   "Very dense and opaque",
+   "All of the above"
+  ],
+  "answerIndex": -1,
+  "explanation": "Jupiter's ring system was the third to be discovered in the solar system, after those of Saturn and Uranus. It was first observed in 1979 by the Voyager 1 space probe. Jupiter ring system or Jovian ring system is composed of 4 main components. 1- Halo Ring 2- Main Ring 3- Amalthea Gossamer Ring 4- Thebe Gossamer Ring So none of the given options are correct in the question.",
+  "source": "UPPCS (Main) G.S. I Paper 2004 · Indian & World Geography GS p.220",
+  "sourcePage": 220,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-02026",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "World geography & miscellaneous",
+  "question": "Saturn is-",
+  "options": [
+   "Colder than Pluto",
+   "Colder than Neptune",
+   "Warmer than Neptune",
+   "Warmer than Jupiter"
+  ],
+  "answerIndex": 2,
+  "explanation": "The total no of planets revolving around Sun are 8. There order is in this way: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune. Generally, the closer the planet to the Sun, the hotter it will be. According to the question Saturn will be warmer than Neptune because its distance from Sun is less than that of Neptune.",
+  "source": "MPPSC (Pre) G.S., 2010 · Indian & World Geography GS p.220",
+  "sourcePage": 220,
+  "sourceKey": "C",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: stem"
+ },
+ {
+  "id": "GEOGRAPHY-02032",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Physical geography & geomorphology",
+  "question": "The distance of the moon from the Earth is-",
+  "options": [
+   "364 thousands km",
+   "300 thousands km",
+   "446 thousands km",
+   "350 thousands km"
+  ],
+  "answerIndex": -1,
+  "explanation": "Moon is the only satellite of earth at the distance of 3,84,365 km. Though the most appropriate option will be (a).",
+  "source": "UP Lower (Pre) 2008 · Indian & World Geography GS p.221",
+  "sourcePage": 221,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-02051",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "World geography & miscellaneous",
+  "question": "Match the list-I with the list-II and select the correct answer using the option given below - List-I List-II (Special feature) (Planet name)",
+  "options": [
+   "The smallest planet 1. Mercury in the solar system",
+   "The largest planet in 2. Venus the solar system",
+   "Planet in the solar 3. Jupiter system second to the Sun",
+   "The nearest planet from 4. Pluto the Sun. 5. Saturn Codes: A B C D A B C D (a) 2 3 5 1 (b) 3 5 1 2 (c) 4 1 2 3 (d) 4 3 2 1 World Geography"
+  ],
+  "answerIndex": -1,
+  "explanation": "The correct match is as follows :- List-I List-II Smallest planet of Solar Mercury system Largest planet in the Solar Jupiter system Planet in the Solar system Venus second to the Sun Nearest planet from the Sun Mercury",
+  "source": "(IAS (Pre) G.S. 1998) · Indian & World Geography GS p.223",
+  "sourcePage": 223,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "GEOGRAPHY-02068",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Physical geography & geomorphology",
+  "question": "What is the distance covered by the earth per minute while revolving on its axis approximately?",
+  "options": [
+   "49 km.",
+   "59 km.",
+   "69 km.",
+   "79 km."
+  ],
+  "answerIndex": -1,
+  "explanation": "At equator the circumference of the Earth is 40,075 km. Earth completes this distance in 24 hours on its rotational axis. So the rotational speed of earth is 40,075 km in 24hour, ( approx 1670 km/hr). On this basis the rotational speed of earth per minute is 1670km/60min =27.83km/ min. So none of the given options is correct.",
+  "source": "BPSC (Pre.) G.S. 2002 · Indian & World Geography GS p.225",
+  "sourcePage": 225,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-02166",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Physical geography & geomorphology",
+  "question": "What are the evidences in favour of the continental drift theory. Select the correct option.",
+  "options": [
+   "Jigsaw fit",
+   "Trans-current faults",
+   "Fossils in different area",
+   "Convection in mantle"
+  ],
+  "answerIndex": -1,
+  "explanation": "wer option: (a) a and d (b) b and d (c) a and c (d) a and b MPSC 2019 Ans. (c) The evidence for continental drift included the fit of the continent (Zig-Saw fit) the distribution of ancient fossils, rocks and mountain ranges and the location of ancient climate zones.",
+  "source": "Indian & World Geography GS · Indian & World Geography GS p.237",
+  "sourcePage": 237,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-02186",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "World geography & miscellaneous",
+  "question": "Which of the following is not a part of the Middle East?",
+  "options": [
+   "Jordan and Israel",
+   "Lebanon and Israel",
+   "Syria and Lebanon",
+   "Jordan and Turkey"
+  ],
+  "answerIndex": -1,
+  "explanation": "The countries included in the Middle East are Bahrain, Cyprus, Egypt, Iran, Iraq, Israel, Jordan, Kuwait, Lebanon, Oman, Palestine, Qatar, Saudi Arabia, the Syrian Arab Republic, Turkey, the United Arab Emirates and Yemen. Hence, none of the following options seem to be correct.",
+  "source": "UPPSC RO ARO (Mains) 2021 · Indian & World Geography GS p.238",
+  "sourcePage": 238,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-02206",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Population, cities, transport & states",
+  "question": "Zambia does not Share border with-",
+  "options": [
+   "Namibia",
+   "Tanzania",
+   "Angola",
+   "Botswana"
+  ],
+  "answerIndex": -1,
+  "explanation": "Zambia is a landlocked country of Africa, whose Capital is Lusaka. It is bordered by Democratic Republic of Congo (DRC) to the North, Tanzania to the north-east, Malawi to the east, Mozambique, Zimbabwe and Botswana in South, Namibia in South West and Angola to the West. It is actually Zambezi river which separates embankments of both countries and they eem to be apart. The 135 meter long (443 foot) boundary between Botswana and Zambia is the shortest land boundary in the world.",
+  "source": "UP RO/ARO (M) 2013 · Indian & World Geography GS p.240",
+  "sourcePage": 240,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-02244",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "World geography & miscellaneous",
+  "question": "Which of the following countries is landlocked? 1. Armenia 2. Montenegro 3. Botswana 4. Ethiopia Choose the correct answer from the code given below: Code :",
+  "options": [
+   "1 and 3 only",
+   "2 and 3 only",
+   "2 and 4 only",
+   "1, 2 and 3 only"
+  ],
+  "answerIndex": -1,
+  "explanation": "(i) Armenia, a landlocked country in Asia. (ii) Botswana, a landlocked country in Southern Africa (iii) Montenegro is a Balkan country with rugged mountains, and narrow strip of beaches along its Adriatic coastline. (iv) Ethiopia in the horn of Africa is a rugged landlocked country split by the Great Rift Valley.",
+  "source": "UPPCS RO-ARO (Mains) 2016 · Indian & World Geography GS p.244",
+  "sourcePage": 244,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-02311",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Climate & oceans",
+  "question": "Which of the following countries does not have a land border with the Dead Sea?",
+  "options": [
+   "Lebanon",
+   "Jordan",
+   "Israel",
+   "Palestine (e) None of the above/More than one of the above"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e): Dead sea is located between Israel and Jordon in the Southwestern Asia. This is the lowest point on earth. Lebanon and Palestine do not border with this sea.",
+  "source": "67th BPSC Pre Exam- 2022 (08.05.2022) · Indian & World Geography GS p.253",
+  "sourcePage": 253,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "GEOGRAPHY-02316",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Population, cities, transport & states",
+  "question": "Which of the following countries share borders with Moldova? 1. Ukraine 2. Romania 3. Belarus Select the correct answer using the code given below: Code :",
+  "options": [],
+  "answerIndex": 0,
+  "explanation": "Moldova shares its border with Ukraine and Romania while the border of Belarus does not meet Moldova. The capital of Moldova is Chisinau, capital of Ukraine is Kiev (Kyiv), and the capital of Romania is Bucharest.",
+  "source": "Indian & World Geography GS · Indian & World Geography GS p.253",
+  "sourcePage": 253,
+  "sourceKey": "A",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "GEOGRAPHY-02377",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Physical geography & geomorphology",
+  "question": "Igneous rocks do not contain fossils. 30. What is marble?",
+  "options": [
+   "Sedimentary rock",
+   "Sedimentary rock",
+   "Metamorphic rock",
+   "Igneous rock"
+  ],
+  "answerIndex": 2,
+  "explanation": "Marble is a metamorphic Rock composed of recrystallized carbonate minerals, most commonly calcite or dolomite. Metamorphic Rock arise from the transformation of existing rock type in a process called Metamorphism which means 'change in form'. The original rock is subjected to high temperature and pressure causing profound physical or chemical change.",
+  "source": "UPPCS (Pre.) G.S. 1991 · Indian & World Geography GS p.260",
+  "sourcePage": 260,
+  "sourceKey": "C",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: merged, options"
+ },
+ {
+  "id": "GEOGRAPHY-02382",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Physical geography & geomorphology",
+  "question": "The age of ancient rock formations is measured by –",
+  "options": [],
+  "answerIndex": 3,
+  "explanation": "The age of ancient rock groups is measured by uranium lead method. While C-14 or carbon dating method is used to determine the age of an object containing organic material. Potassium-argon method is used to measure time of origin of rock.",
+  "source": "Indian & World Geography GS · Indian & World Geography GS p.261",
+  "sourcePage": 261,
+  "sourceKey": "D",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "GEOGRAPHY-02398",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Physical geography & geomorphology",
+  "question": "Assertion [A] : The desert region of India can be divided into two parts- \"The great desert\" and \"the little desert\". Reason [R] : Between these two deserts lies a zone consisting of rocky land and cut up by limestone ridges.",
+  "options": [
+   "[A] is true but [R] is false",
+   "Both [A] and [R] are true, and [R] is the correct explanation of [A]",
+   "[A] is false, [R] is true",
+   "Both [A] and [R] are true, but [R] is not the correct explanation of [A] (e)"
+  ],
+  "answerIndex": -1,
+  "explanation": "wer not known TNPSC (Pre) 2022 Ans.(b): The desert region of India can be divided into two parts. The great deserts and little desert. The great desert extends from the edge of Rann of Kutch beyond the Luni river Northward. The little desert extends from the Luni between Jaisalmer and Jodhpur upto north west Between great and little deserts lies a zone of absolutely sterile country, consisting of rocky land cut up by limestone ridge. Hence option (b) is correct answer. A. The Mountain",
+  "source": "Indian & World Geography GS · Indian & World Geography GS p.263",
+  "sourcePage": 263,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "GEOGRAPHY-02431",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Physical geography & geomorphology",
+  "question": "Arrange the following mountain ranges of the world in descending order of their length and select the correct answer from the codes given below– (i) Andes (ii) Great dividing range (iii) Himalaya (iv) Rocky Code :",
+  "options": [
+   "(i), (iii), (iv), (ii)",
+   "(i), (iv), (iii), (ii)",
+   "(iv), (i), (ii), (iii)",
+   "(iv), (iii), (i), (ii)"
+  ],
+  "answerIndex": -1,
+  "explanation": "The Andes is the longest (8900 km) range in the world followed by Rocky (4800 km), Great dividing range (3500) and Himalaya (2500 km).",
+  "source": "UPPCS Spl, (Pre) G.S. 2008 · Indian & World Geography GS p.266",
+  "sourcePage": 266,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-02438",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Physical geography & geomorphology",
+  "question": "Which of the following is not an example of a Block mountain?",
+  "options": [
+   "Vosges Mountain",
+   "Western Ghats Mountain",
+   "Salt Range",
+   "Sierra Nevada"
+  ],
+  "answerIndex": -1,
+  "explanation": "Block Mountains are formed as the result of damage caused by the tensile and compressive forces caused by endogenous forces from the Earth's interior, also known as fault-block mountains. Block mountains are formed when the crust of earth sinks on both sides of two parallel faults. The uplifted blocks are termed as horst and the lowered blocks are called graben. Block mountain region. The Vosges mountain of France and the Black Forest of Germany, which borders the Rhine Rift valley fault in Europe, Salt Range in Pakistan, Sierra Nevada Mountains in California (USA) are the example of block mountain. In India, the Satpura and Vindhya Mountains and Western Ghats are the example of block mountains.",
+  "source": "OPSC (OCS) Pre 2021 Paper-I · Indian & World Geography GS p.267",
+  "sourcePage": 267,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-02498",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Physical geography & geomorphology",
+  "question": "The intrusive volcanic landform formed when lava cools in the shape of a saucer plate is called as",
+  "options": [
+   "Laccolith",
+   "Crater",
+   "Sills",
+   "Dykes"
+  ],
+  "answerIndex": -1,
+  "explanation": "The intrusive volcanic landform lopolith is formed when lava cools in the shape of a saucer plate. Laccolith is characterized by a dome-like shape as they are typically flat on the bottom and rounded or dome shaped on the top. Crater is an approximately circular depression in the ground caused by volcanic activity. Sills or sheets are flat intrusion of volcanic eruption that forms between pre-existing layers of rocks. The thick horizontal deposits are called sills and thin horizontal deposits are called sheets. Dykes are solidified perpendicularly in inner sedimentary rocks.",
+  "source": "J & K PSC (Pre) 2018 · Indian & World Geography GS p.274",
+  "sourcePage": 274,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-02540",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Physical geography & geomorphology",
+  "question": "Consider the following statements : Assertion (A) : The circum-Pacific belt is the most vulnerable zone of a tsunami. Reason (R) : This belt is most active tectonically and generates world's major earthquakes. Select the correct answer using the code given below : Code :",
+  "options": [],
+  "answerIndex": 0,
+  "explanation": "The circum-Pacific belt is the most vulnerable zone of a tsunami. This belt is most active tectonically and generates world's major earthquakes.",
+  "source": "Indian & World Geography GS · Indian & World Geography GS p.278",
+  "sourcePage": 278,
+  "sourceKey": "A",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "GEOGRAPHY-02692",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Physical geography & geomorphology",
+  "question": "Consider the following statements: (1) When the earth, the moon and the sun are in the straight line, the sun enhances its gravitational pull on the moon, creating a condition of higher tides and lower low tides known as spring tides. (2) When the sun and the moon are at right angle to the earth, the sun partially counteracts the pull of the moon, producing lower high tides and higher low tides typical of neap tide. (3) A solar eclipse occurs when the sun passes between the earth and the moon. (4) Lunar eclipse occurs when the earth passes between the sun and the moon. Which of the given statement above is/are correct?",
+  "options": [
+   "1 and 2",
+   "3 and 4",
+   "3 only",
+   "4 only"
+  ],
+  "answerIndex": -1,
+  "explanation": "When the Earth, the Moon and the Sun are in the straight line, the sun enhances its gravitational pull on the moon, creating a condition of higher high tides and lower low tides known as spring tides. Hence, statement (1) is correct. World Geography 30 When the sun and the moon are at right angle to the earth, the sun partially counteracts the pull of the moon, producing lower high tides and higher low tides typical of neap tide. Hence, statement (2) is correct. Sometimes, when the Moon orbits Earth, the Moon moves between the Sun and the Earth. When this happens, Moon blocks the light of the Sun from reaching the Earth this is called Solar Eclipse. Hence, statement (3) is incorrect. Lunar eclipse occurs when the earth passes between the sun and the moon. Hence, statement (4) is correct.",
+  "source": "J & K PSC 2021 Paper-(I) · Indian & World Geography GS p.296",
+  "sourcePage": 296,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-02718",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Climate & oceans",
+  "question": "Gulf stream (Warm) SOUTH ATLANTIC OCEAN CURRENT 1. Brazillian Current. (Warm) 2. Falkland Current ( Cold) 3. South Atlantic Current. ( Cold) 4. Benguela Current. ( Cold) South Atlantic Oceanic Current 23. Which one of the following is a cold current of the South Atlantic Ocean?",
+  "options": [
+   "Canary current",
+   "Benguela current",
+   "Agulhas current",
+   "Brazil current"
+  ],
+  "answerIndex": -1,
+  "explanation": "₍ b) Agulhas warm current - Southwestern Indian Ocean, and Brazil warm stream - On the eastern side of Brazil are the streams flowing into the South Atlantic Ocean. Benguela current is cold current that flows northward in South Atlantic ocean along the west coast of southern Africa. Though canary current is also a cold current but it flows in North Atlantic ocean. C. Pacific Oceanic Current",
+  "source": "UPPCS (Pre) G.S. 2005 · Indian & World Geography GS p.299",
+  "sourcePage": 299,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: merged, no-key"
+ },
+ {
+  "id": "GEOGRAPHY-02776",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Physical geography & geomorphology",
+  "question": "Match list 1 with List 2 and select the correct answer by using codes given below: List-I List-II Country Territory A. Australia 1. Mortinique B. Denmark 2. Santa Cruz C. France 3. Greenland D. Spain 4. Christmas Island Codes : A B C D A B C D",
+  "options": [
+   "1 2 3 4",
+   "4 3 2 1",
+   "1 3 2 4",
+   "2 1 4 3"
+  ],
+  "answerIndex": -1,
+  "explanation": "The correct match is as follows :- Country Territory Australia - Christmas Island Denmark - Greenland France - Martinique Spain- Santa Cruz So correct option should be 4,3,1,2. World Geography",
+  "source": "UPPCS (Pre.) G.S. 2000 · Indian & World Geography GS p.307",
+  "sourcePage": 307,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-02782",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Physical geography & geomorphology",
+  "question": "Which one of the following islands is located in the south Indian Ocean?",
+  "options": [
+   "Chagos",
+   "Maldives",
+   "Mauritius",
+   "Seychelles"
+  ],
+  "answerIndex": -1,
+  "explanation": "The Chagos Islands is located at 4⁰ 54' southern latitude and 7⁰ 39' east longitude, the Seychelles Islands are located at 4⁰ -10⁰ southern latitude and Mauritius at 20⁰ southern latitude in Indian Ocean. In this way many islands are located in the southern Indian Ocean. Among given Island the Southern most is Mauritius.",
+  "source": "UPPCS (Main) Spl. G.S. 2004 · Indian & World Geography GS p.308",
+  "sourcePage": 308,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-02962",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Climate & oceans",
+  "question": "What is Roaring forties, furious fifties and screaming sixties?",
+  "options": [
+   "Storm",
+   "Westerly winds in the Southern Hemisphere",
+   "Western winds in the Northern Hemisphere",
+   "Pacific Ocean Currents"
+  ],
+  "answerIndex": -1,
+  "explanation": "o (b) : Due to absence of Terrestrial area between 40 –60° latitudes in the Southern Hemisphere, there is no obstruction in the blowing path of the winds. Passing through the vast seas spanning between these latitudes, the speed of the winds remain same, both in summer and winter. Due to the intense speed, these winds are known by names like Roaring forties, furious fifties and screaming sixties, according to the latitudes. These names are given by sailors.",
+  "source": "MPPSC (Pre) G.S. Ist Paper 2015 RAS/RTS (Pre) G.S. 1993 · Indian & World Geography GS p.329",
+  "sourcePage": 329,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-02977",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Climate & oceans",
+  "question": "The wind 'Harmattan' which blows over West Africa into the Gulf of Guinea does not have which of the following features?",
+  "options": [
+   "It is dry and cool wind",
+   "It is characterised by dusty north-easterly trade wind",
+   "It also blows in East Sahara region",
+   "It blows from North East or East during winter season"
+  ],
+  "answerIndex": -1,
+  "explanation": "All the given statements are correct about Harmattan. it is a dry-cool dust-laden wind, however in the afternoon its temperature can soar to as high as 30ºC. Therefore in afternoon it acts as warm winds.",
+  "source": "UPPSC ACF-RFO Main I Paper 2019 · Indian & World Geography GS p.331",
+  "sourcePage": 331,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-02979",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Physical geography & geomorphology",
+  "question": "Match the pairs of column A and column B: Column A Column B (Local Winds) (Regions where they are found)",
+  "options": [
+   "Chinook I. Alps mountain in Europe",
+   "Foehn II. From south Europe to Mediterranean sea",
+   "Loo III. Plain area of North India",
+   "Mistral IV. Rocky mountain in North America"
+  ],
+  "answerIndex": -1,
+  "explanation": "wer Options: (A) (B) (C) (D) (a) IV I III II (b) III II I IV (c) II III IV I (d) I IV II III MPSC 2019 Ans. (a) : The correct match is as follows :- Chinook - Rocky mountain in North America Foehn - Alps mountain in Europe Loo - Plain area of North India Mistral - From south Europe to Mediterranean sea",
+  "source": "Indian & World Geography GS · Indian & World Geography GS p.332",
+  "sourcePage": 332,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-02989",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Population, cities, transport & states",
+  "question": "Consider the following statements about the \"Roaring Forties\". I. They blow uninterrupted in the Northern and Southern Hemisphere. II. They blow with great strength and constancy. III. Their direction is generally from North-West to East in the Southern Hemisphere. IV. Overcast skies, rain and raw weather are generally associated with them. Which of these statements are correct?",
+  "options": [
+   "I, II and III",
+   "II, III and IV",
+   "I, II and IV",
+   "I, II and IV"
+  ],
+  "answerIndex": 1,
+  "explanation": "Roaring forties is a permanent westerly wind that blows between 40ºS and 50ºS latitude. It is slow over landmass. The statements about the 'Roaring Forties' – they blow with great strength and constancy, their direction is generally from North-West to East in the Southern Hemisphere and overcast skies, rain and raw weather are generally associated with them are correct statements.",
+  "source": "Kerala (KAS) PSC-2020 · Indian & World Geography GS p.333",
+  "sourcePage": 333,
+  "sourceKey": "B",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "GEOGRAPHY-02994",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "World geography & miscellaneous",
+  "question": "Clear nights are cooler than cloudy nights –",
+  "options": [],
+  "answerIndex": 1,
+  "explanation": "In cloudy nights, the Earth's radiation is reflected back from the clouds and returns to Earth and the atmosphere remains warm, whereas on clear nights, radiation and the heat of the Earth gets emitted and goes into space and the nights become cool.",
+  "source": "Indian & World Geography GS · Indian & World Geography GS p.334",
+  "sourcePage": 334,
+  "sourceKey": "B",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "GEOGRAPHY-03008",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Climate & oceans",
+  "question": "The tropical cyclone winds blow into the Northern Hemisphere in ______direction.",
+  "options": [
+   "Clockwise",
+   "Straight",
+   "Anticlockwise",
+   "Circular (e)"
+  ],
+  "answerIndex": -1,
+  "explanation": "wer not known TNPSC (Pre) 2022 Ans.(c): The tropical cyclone winds blow into the northern Hemisphere in anticlockwise direction and in clockwise direction in Southern Hemisphere.",
+  "source": "Indian & World Geography GS · Indian & World Geography GS p.336",
+  "sourcePage": 336,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "GEOGRAPHY-03033",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Climate & oceans",
+  "question": "Combine the following with the given below – List-I List-II (Plant) (Climate region) (A) Megatherm 1. Tundra region (B) Mesotherm 2. Equatorial region (C) Microtherm 3. Tropical region (D) Hekistotherm 4. Temperate region Codes : A B C D A B C D",
+  "options": [
+   "1 2 3 4",
+   "1 3 2 4",
+   "3 4 2 1",
+   "2 3 4 1"
+  ],
+  "answerIndex": -1,
+  "explanation": "The correct match is as follows :- LIST I LIST II Megatherm Tropical region Mesotherm Mediterranean region Microtherm Steppe climate (Temperate) Hekistotherm Tundra region",
+  "source": "Uttrakhand RO/ARO, 2016 · Indian & World Geography GS p.339",
+  "sourcePage": 339,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-03207",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Minerals, industry & energy",
+  "question": "Three leading producers of the iron ore in the world are–",
+  "options": [
+   "Austria, China, United states of America",
+   "China, Russia, Australia",
+   "Russia, United states of America, China",
+   "United states of America, China, Australia"
+  ],
+  "answerIndex": -1,
+  "explanation": "Iron ore production countries (according to data from World Mineral Production, 2016-2020), respectively - First - Australia 918 million tonne Second - China 845 million tonnes Third - Brazil 388 million tonnes Fourth - India 204 million tonnes (Approx)",
+  "source": "UPPCS (Pre.) G.S. 1997 · Indian & World Geography GS p.361",
+  "sourcePage": 361,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-03244",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Population, cities, transport & states",
+  "question": "Arrange the following countries in descending order of their gold production and select the correct answer from the codes given below— (i) Australia (ii) China (iii) South Africa (iv) United States of America Codes:",
+  "options": [
+   "(i), (ii), (iii), (iv)",
+   "(iii), (iv), (i), (ii)",
+   "(iv), (iii), (ii), (i)",
+   "(ii), (iv), (i), (iii)"
+  ],
+  "answerIndex": -1,
+  "explanation": "According to the present Indian Mineral Book, 2019, the descending order of gold production of the top five countries of the world is as follows - Country Production (in tonnes, 2022) 1. China, 2. Australia,",
+  "source": "UPPCS Spl, (Pre) G.S. 2008 · Indian & World Geography GS p.365",
+  "sourcePage": 365,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-03248",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Minerals, industry & energy",
+  "question": "Which of the following is not correctly matched?",
+  "options": [
+   "Bolivia – Tin",
+   "Brazil – Iron ore",
+   "Mexico – Silver",
+   "Peru – Gold"
+  ],
+  "answerIndex": -1,
+  "explanation": "All four of the above options are correctly matched. Following are the major producing countries of the above mentioned minerals in the world - Tin – China, Indonesia, Peru, Bolivia, Brazil etc. Iron Ore - Australia, Brazil, China, India etc. Silver - Mexico, Peru, China etc. Gold - China, Russia, Australia, USA, Canada, Peru, South Africa etc. Note-Presently Peru has the first place in Silver reserve.",
+  "source": "UP RO/ARO (Pre) 2013 · Indian & World Geography GS p.365",
+  "sourcePage": 365,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-03249",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Minerals, industry & energy",
+  "question": "Which of the following is not correctly matched?",
+  "options": [
+   "Bolivia - Tin",
+   "Brazil - Iron ore",
+   "Mexico - Silver",
+   "Peru - Saltpetre"
+  ],
+  "answerIndex": -1,
+  "explanation": "Peru is a major producer of Saltpetre and Bolivia is a major producer of Tin. Similarly Brazil's main mineral is Iron ore and Mexico is known for silver production, therefore none of the options is wrong.",
+  "source": "UP UDA/LDA Spl. (Pre) 2010 · Indian & World Geography GS p.365",
+  "sourcePage": 365,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-03302",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Minerals, industry & energy",
+  "question": "T 1. Following are the regions of Iron and Steel industry in the world: I. The Atlantic coast region : The United States II. The Ural region : Russia III. The Ruhr region : Eastern Europe IV. The North-eastern and Central parts: The United Kingdom Which of the above are correctly matched?",
+  "options": [
+   "I, II and III",
+   "I, II and IV",
+   "I, II and IV",
+   "I, II, III and IV"
+  ],
+  "answerIndex": 1,
+  "explanation": "The correct match is as follows - Iron and Steel Region Industry The Atlantic Coast - The United States region The Ural region - Russia The Ruhr region - Western Europe The North-eastern - The United Kingdom and central parts",
+  "source": "APPSC (Pre) 2023 · Indian & World Geography GS p.372",
+  "sourcePage": 372,
+  "sourceKey": "B",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "GEOGRAPHY-03335",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "World geography & miscellaneous",
+  "question": "Which one of the following is not correctly matched?",
+  "options": [],
+  "answerIndex": -1,
+  "explanation": "han - Iron and Steel (d) Yokohama - Ship Building RPSC (RAS) (PRE.) 2021 Ans. (b): The correct match is as follows :- (Region) (Industry) Detroit – Automobile Gornaya Shoria – Coal Anshan – Iron and Steel Yokohama – Ship Building",
+  "source": "Indian & World Geography GS · Indian & World Geography GS p.376",
+  "sourcePage": 376,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "GEOGRAPHY-03339",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Population, cities, transport & states",
+  "question": "Which of the following statements is true about human races? (i) The races is a group of people with more or less permanent distinguishing characteristics World Geography 38 aces and Languages (ii) Human races are classified in 7 blood groups (iii) The races are identified and classified based on skin colour, stature, shape of head, face, nose, eye, type of hair and blood group",
+  "options": [
+   "(i) and (iii) only",
+   "(i) and (ii) only",
+   "(i) only",
+   "(ii) and (iii) only (e)"
+  ],
+  "answerIndex": -1,
+  "explanation": "wer not known TNPSC (Pre) 2022 Ans. (d): Statement (II) and (III) are correct. The races are identified and classified based on skin colour, stature, shape of head, face, nose, eye, type of hair and blood group. Human races are classified in 7 blood groups.",
+  "source": "Indian & World Geography GS · Indian & World Geography GS p.377",
+  "sourcePage": 377,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "GEOGRAPHY-03346",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "World geography & miscellaneous",
+  "question": "Which of the following pair is correctly matched? 1. Eskimo : Canada 2. Oraon : Norway 3. Lapps : South Africa 4. Gond : Sri Lanka Code :",
+  "options": [
+   "1 and 2",
+   "2 and 3",
+   "3 and 4",
+   "1 and 4"
+  ],
+  "answerIndex": -1,
+  "explanation": "Eskimo-Canada, Oraon-India, Laps- Scandinavian nations, Gond are the primitive species found in India. So no option is correct.",
+  "source": "U.P.P.C.S. (Pre) G.S., 2003 · Indian & World Geography GS p.378",
+  "sourcePage": 378,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-03348",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "World geography & miscellaneous",
+  "question": "The father of Human Geography is ______.",
+  "options": [
+   "Herodotus",
+   "Hecataeus",
+   "Vidal-de-la-Blache",
+   "Brunhes"
+  ],
+  "answerIndex": -1,
+  "explanation": "Carl Ritter is considered as \"the father of human geography\" because of his pioneering work inth developing the discipline of human geography in 19 century, his emphasis on the study of the relationship between human societies and the natural environment, and his development of the concept of regional World Geography 38 geography. Vidal-da-la- Blache is known as father of modern French geography. However the Maharastra Public service commission has considered option (a) the correct answer to the question.",
+  "source": "Maharashtra PSC 2022 · Indian & World Geography GS p.378",
+  "sourcePage": 378,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-03352",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Soils, agriculture & irrigation",
+  "question": "One of the following pairs is a mismatch find it.",
+  "options": [
+   "Masai-Central Eastern Africa",
+   "Sakai-Malaysia",
+   "Bedouin-Arabian Peninsula",
+   "Kirghiz-Central Asia (e) None of the above/More than one of the above"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e): Masai are ethnic group inhabiting Kenya and Tanzania (central Eastern Africa), Sakai is an indigenous ethnic group of Malay Peninsula (Malaysia), Bedouin are Arabian ethnic group and Kirgiz are Turkic speaking people of Central Asia.",
+  "source": "66th BPSC Re- Exam- 2020 · Indian & World Geography GS p.379",
+  "sourcePage": 379,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "GEOGRAPHY-03358",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "World geography & miscellaneous",
+  "question": "Which community group is known as Achua?",
+  "options": [],
+  "answerIndex": 1,
+  "explanation": "The Wochua (singular Achua) was the endonym of a pygmy people of the forests of the Democratic Republic of the Congo, south of the Welle (Uele) River. They were first described in the Western world in 1880–1883 by Wilhelm Junker.",
+  "source": "Indian & World Geography GS · Indian & World Geography GS p.379",
+  "sourcePage": 379,
+  "sourceKey": "B",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "GEOGRAPHY-03394",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "World geography & miscellaneous",
+  "question": "Which of the following is not correctly matched?",
+  "options": [
+   "Ainu - Japan",
+   "Maasai - Kenya",
+   "Bushmen - South Africa",
+   "Papuans - New Guinea"
+  ],
+  "answerIndex": -1,
+  "explanation": "All the options given in the question are correctly matched.",
+  "source": "U.P.P.C.S. (Pre) G.S., 2002 · Indian & World Geography GS p.383",
+  "sourcePage": 383,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "GEOGRAPHY-03441",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "Physical geography & geomorphology",
+  "question": "Why is the Himalayan region poor in mineral resources?",
+  "options": [
+   "Displacement of rock strata has disturbed the arrangement of rocks and made it complex",
+   "It is made up of crystalline rock",
+   "The terrain makes exploitation of minerals difficult",
+   "The climatic conditions are not suitable for exploitation of minerals (e)"
+  ],
+  "answerIndex": -1,
+  "explanation": "wer not known TNPSC (Pre) 2022 Ans.(a): Himalayan region is poor in mineral resources because displacement of rock strata has disturbed the arrangement of rocks and made it complex.",
+  "source": "Indian & World Geography GS · Indian & World Geography GS p.389",
+  "sourcePage": 389,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "GEOGRAPHY-03463",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Geography",
+  "topic": "World geography & miscellaneous",
+  "question": "The Elephant pass is located in -",
+  "options": [
+   "Bhutan",
+   "India",
+   "Bangladesh",
+   "Nepal"
+  ],
+  "answerIndex": -1,
+  "explanation": "Elephant Pass is located in the Jaffna peninsula of Sri Lanka.",
+  "source": "UPPCS (Main) G.S. Ist Paper 2008 · Indian & World Geography GS p.392",
+  "sourcePage": 392,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ }
+]

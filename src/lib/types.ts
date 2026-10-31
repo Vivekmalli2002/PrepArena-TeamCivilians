@@ -14,6 +14,12 @@ export interface Question {
   note?: string;
   /** Why the question was editorially revised (see content/corrections.json). */
   revised?: string;
+  /** Auto-extracted from a source book and not yet proof-read; the key comes from the source as printed. */
+  unverified?: boolean;
+  /** Figures that belong to the explanation (public URLs). */
+  explanationImage?: string[];
+  /** Figure the question itself refers to (public URL). */
+  image?: string;
 }
 
 export type Mode = "practice" | "exam";

@@ -1,0 +1,882 @@
+[
+ {
+  "id": "ORG-POL-001",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Making of the Constitution & Preamble",
+  "question": "Who was the Chairman of the Drafting Committee of the Constituent Assembly?",
+  "options": [
+   "Rajendra Prasad",
+   "B.R. Ambedkar",
+   "Jawaharlal Nehru",
+   "Sardar Patel"
+  ],
+  "answerIndex": 1,
+  "explanation": "Dr B.R. Ambedkar chaired the Drafting Committee; Rajendra Prasad presided over the Assembly.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-002",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Making of the Constitution & Preamble",
+  "question": "The Constituent Assembly held its first meeting on",
+  "options": [
+   "15 August 1947",
+   "9 December 1946",
+   "26 November 1949",
+   "26 January 1950"
+  ],
+  "answerIndex": 1,
+  "explanation": "The Constituent Assembly first met on 9 December 1946 with Sachchidananda Sinha as temporary chairman.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-003",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Making of the Constitution & Preamble",
+  "question": "The Constitution of India was adopted on",
+  "options": [
+   "9 December 1946",
+   "26 November 1949",
+   "26 January 1950",
+   "15 August 1947"
+  ],
+  "answerIndex": 1,
+  "explanation": "It was adopted on 26 November 1949 and came into force on 26 January 1950.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-004",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Making of the Constitution & Preamble",
+  "question": "Which Amendment added the words 'Socialist', 'Secular' and 'Integrity' to the Preamble?",
+  "options": [
+   "44th Amendment",
+   "52nd Amendment",
+   "42nd Amendment",
+   "73rd Amendment"
+  ],
+  "answerIndex": 2,
+  "explanation": "The 42nd Amendment Act, 1976 inserted these words.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-005",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Making of the Constitution & Preamble",
+  "question": "The idea of the Directive Principles of State Policy was borrowed from the Constitution of",
+  "options": [
+   "USA",
+   "Australia",
+   "Canada",
+   "Ireland"
+  ],
+  "answerIndex": 3,
+  "explanation": "The DPSP were inspired by the Irish Constitution.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-006",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Making of the Constitution & Preamble",
+  "question": "The concept of the Concurrent List was borrowed from",
+  "options": [
+   "Canada",
+   "Australia",
+   "Germany",
+   "Britain"
+  ],
+  "answerIndex": 1,
+  "explanation": "The Concurrent List comes from the Australian Constitution.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-007",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Making of the Constitution & Preamble",
+  "question": "How many Schedules does the Constitution of India currently have?",
+  "options": [
+   "12",
+   "8",
+   "10",
+   "14"
+  ],
+  "answerIndex": 0,
+  "explanation": "The Constitution has 12 Schedules (the 9th, 10th, 11th and 12th were added later).",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-008",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Fundamental rights, DPSP & duties",
+  "question": "Right to Equality is guaranteed under which Articles?",
+  "options": [
+   "Articles 25–28",
+   "Articles 14–18",
+   "Articles 19–22",
+   "Articles 23–24"
+  ],
+  "answerIndex": 1,
+  "explanation": "Articles 14 to 18 cover the Right to Equality.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-009",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Fundamental rights, DPSP & duties",
+  "question": "Article 21 of the Constitution guarantees",
+  "options": [
+   "Right to property",
+   "Right to vote",
+   "Protection of life and personal liberty",
+   "Freedom of speech"
+  ],
+  "answerIndex": 2,
+  "explanation": "Article 21: no person shall be deprived of life or personal liberty except by procedure established by law.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-010",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Fundamental rights, DPSP & duties",
+  "question": "The Right to Education for children aged 6–14 was made a Fundamental Right by which Amendment?",
+  "options": [
+   "73rd Amendment",
+   "42nd Amendment",
+   "86th Amendment",
+   "61st Amendment"
+  ],
+  "answerIndex": 2,
+  "explanation": "The 86th Amendment Act, 2002 inserted Article 21A.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-011",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Fundamental rights, DPSP & duties",
+  "question": "Which Article was described by Dr Ambedkar as the 'heart and soul' of the Constitution?",
+  "options": [
+   "Article 226",
+   "Article 14",
+   "Article 32",
+   "Article 21"
+  ],
+  "answerIndex": 2,
+  "explanation": "Article 32 (Right to Constitutional Remedies) was so described by Ambedkar.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-012",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Fundamental rights, DPSP & duties",
+  "question": "The writ of 'Habeas Corpus' means",
+  "options": [
+   "To forbid",
+   "We command",
+   "By what authority",
+   "To have the body (produce the detained person)"
+  ],
+  "answerIndex": 3,
+  "explanation": "Habeas corpus is issued to secure the release of a person unlawfully detained.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-013",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Fundamental rights, DPSP & duties",
+  "question": "The writ of 'Quo Warranto' is issued to enquire into",
+  "options": [
+   "Jurisdiction of a lower court",
+   "Failure to perform a public duty",
+   "Illegal detention",
+   "By what authority a person holds a public office"
+  ],
+  "answerIndex": 3,
+  "explanation": "Quo warranto challenges a person's right to hold a public office.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-014",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Fundamental rights, DPSP & duties",
+  "question": "Fundamental Duties were added to the Constitution on the recommendation of the",
+  "options": [
+   "Mandal Commission",
+   "Balwant Rai Mehta Committee",
+   "Swaran Singh Committee",
+   "Sarkaria Commission"
+  ],
+  "answerIndex": 2,
+  "explanation": "The 42nd Amendment (1976) added Part IVA (Article 51A) on the Swaran Singh Committee's recommendation.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-015",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Fundamental rights, DPSP & duties",
+  "question": "The Directive Principles of State Policy are contained in which Part of the Constitution?",
+  "options": [
+   "Part IV",
+   "Part V",
+   "Part VI",
+   "Part III"
+  ],
+  "answerIndex": 0,
+  "explanation": "Part IV (Articles 36–51) contains the DPSP.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-016",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Union & State governments",
+  "question": "The President of India is elected by",
+  "options": [
+   "Rajya Sabha only",
+   "Lok Sabha only",
+   "Direct vote of the people",
+   "An electoral college"
+  ],
+  "answerIndex": 3,
+  "explanation": "The President is elected by elected members of Parliament and State Legislative Assemblies (and UTs of Delhi and Puducherry).",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-017",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Union & State governments",
+  "question": "The minimum age to be elected President of India is",
+  "options": [
+   "40 years",
+   "25 years",
+   "35 years",
+   "30 years"
+  ],
+  "answerIndex": 2,
+  "explanation": "A candidate must be at least 35 years old.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-018",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Union & State governments",
+  "question": "The Vice-President of India is the ex-officio Chairman of the",
+  "options": [
+   "Rajya Sabha",
+   "Supreme Court",
+   "Lok Sabha",
+   "Planning body"
+  ],
+  "answerIndex": 0,
+  "explanation": "The Vice-President presides over the Rajya Sabha as its ex-officio Chairman.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-019",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Union & State governments",
+  "question": "The maximum strength of the Rajya Sabha is",
+  "options": [
+   "300",
+   "250",
+   "245",
+   "238"
+  ],
+  "answerIndex": 1,
+  "explanation": "Article 80 provides a maximum of 250 members (238 elected + 12 nominated).",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-020",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Union & State governments",
+  "question": "A Money Bill can be introduced only in the",
+  "options": [
+   "Lok Sabha",
+   "Either House",
+   "Rajya Sabha",
+   "Joint sitting"
+  ],
+  "answerIndex": 0,
+  "explanation": "Money Bills (Article 110) originate only in the Lok Sabha.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-021",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Union & State governments",
+  "question": "Who appoints the Governor of a State?",
+  "options": [
+   "The Chief Minister",
+   "The Prime Minister",
+   "The President",
+   "The Chief Justice"
+  ],
+  "answerIndex": 2,
+  "explanation": "The Governor is appointed by the President (Article 155).",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-022",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Union & State governments",
+  "question": "Which Article empowers the High Courts to issue writs?",
+  "options": [
+   "Article 136",
+   "Article 142",
+   "Article 226",
+   "Article 32"
+  ],
+  "answerIndex": 2,
+  "explanation": "Article 226 gives High Courts power to issue writs for fundamental rights and other purposes.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-023",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Union & State governments",
+  "question": "National Emergency is declared under which Article?",
+  "options": [
+   "Article 352",
+   "Article 356",
+   "Article 370",
+   "Article 360"
+  ],
+  "answerIndex": 0,
+  "explanation": "Article 352 deals with national emergency; 356 with President's Rule; 360 with financial emergency.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-024",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Union & State governments",
+  "question": "President's Rule in a State is imposed under",
+  "options": [
+   "Article 356",
+   "Article 352",
+   "Article 365",
+   "Article 360"
+  ],
+  "answerIndex": 0,
+  "explanation": "Article 356 provides for failure of constitutional machinery in a State.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-025",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Amendments & basic structure",
+  "question": "The procedure for amendment of the Constitution is laid down in",
+  "options": [
+   "Article 32",
+   "Article 356",
+   "Article 13",
+   "Article 368"
+  ],
+  "answerIndex": 3,
+  "explanation": "Article 368 in Part XX deals with the power and procedure to amend the Constitution.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-026",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Amendments & basic structure",
+  "question": "The 'basic structure' doctrine was laid down in",
+  "options": [
+   "Kesavananda Bharati case (1973)",
+   "Golaknath case (1967)",
+   "Minerva Mills case (1980)",
+   "Maneka Gandhi case (1978)"
+  ],
+  "answerIndex": 0,
+  "explanation": "The Supreme Court held in Kesavananda Bharati that Parliament cannot alter the basic structure.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-027",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Amendments & basic structure",
+  "question": "The Goods and Services Tax was introduced by which Constitutional Amendment?",
+  "options": [
+   "73rd Amendment",
+   "86th Amendment",
+   "91st Amendment",
+   "101st Amendment"
+  ],
+  "answerIndex": 3,
+  "explanation": "The 101st Amendment Act, 2016 introduced GST (Article 279A).",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-028",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Amendments & basic structure",
+  "question": "The voting age was reduced from 21 to 18 years by which Amendment?",
+  "options": [
+   "61st Amendment",
+   "52nd Amendment",
+   "44th Amendment",
+   "42nd Amendment"
+  ],
+  "answerIndex": 0,
+  "explanation": "The 61st Amendment Act, 1988 lowered the voting age to 18.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-029",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Amendments & basic structure",
+  "question": "The anti-defection law is contained in which Schedule?",
+  "options": [
+   "Tenth Schedule",
+   "Ninth Schedule",
+   "Eleventh Schedule",
+   "Eighth Schedule"
+  ],
+  "answerIndex": 0,
+  "explanation": "The 52nd Amendment (1985) added the Tenth Schedule.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-030",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Amendments & basic structure",
+  "question": "The Right to Property was removed from the list of Fundamental Rights by the",
+  "options": [
+   "44th Amendment",
+   "42nd Amendment",
+   "25th Amendment",
+   "61st Amendment"
+  ],
+  "answerIndex": 0,
+  "explanation": "The 44th Amendment (1978) repealed Article 31 and made property a legal right under Article 300A.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-031",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Local government (Panchayat & municipalities)",
+  "question": "The 73rd Constitutional Amendment relates to",
+  "options": [
+   "Panchayati Raj institutions",
+   "Municipalities",
+   "Cooperative societies",
+   "Fundamental duties"
+  ],
+  "answerIndex": 0,
+  "explanation": "The 73rd Amendment Act, 1992 added Part IX on Panchayats.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-032",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Local government (Panchayat & municipalities)",
+  "question": "The 74th Constitutional Amendment relates to",
+  "options": [
+   "The Finance Commission",
+   "Urban local bodies (Municipalities)",
+   "Panchayats",
+   "The Election Commission"
+  ],
+  "answerIndex": 1,
+  "explanation": "The 74th Amendment Act, 1992 added Part IXA on Municipalities.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-033",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Local government (Panchayat & municipalities)",
+  "question": "Which committee recommended the three-tier Panchayati Raj system?",
+  "options": [
+   "Sarkaria Commission",
+   "Rajamannar Committee",
+   "Balwant Rai Mehta Committee",
+   "Ashok Mehta Committee"
+  ],
+  "answerIndex": 2,
+  "explanation": "The 1957 Balwant Rai Mehta Committee recommended three tiers; Ashok Mehta (1977) recommended two.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-034",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Local government (Panchayat & municipalities)",
+  "question": "Which Article provides for State Election Commissions for local bodies?",
+  "options": [
+   "Article 280",
+   "Article 315",
+   "Article 243K",
+   "Article 324"
+  ],
+  "answerIndex": 2,
+  "explanation": "Article 243K provides for the State Election Commission for Panchayats (and 243ZA for municipalities).",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-035",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Constitutional bodies & statutes",
+  "question": "The Election Commission of India is established under",
+  "options": [
+   "Article 315",
+   "Article 148",
+   "Article 324",
+   "Article 280"
+  ],
+  "answerIndex": 2,
+  "explanation": "Article 324 vests superintendence of elections in the Election Commission.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-036",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Constitutional bodies & statutes",
+  "question": "The Finance Commission is constituted under",
+  "options": [
+   "Article 324",
+   "Article 76",
+   "Article 280",
+   "Article 148"
+  ],
+  "answerIndex": 2,
+  "explanation": "The Finance Commission is constituted every five years under Article 280.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-037",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Constitutional bodies & statutes",
+  "question": "The Comptroller and Auditor General of India is appointed under",
+  "options": [
+   "Article 148",
+   "Article 124",
+   "Article 315",
+   "Article 76"
+  ],
+  "answerIndex": 0,
+  "explanation": "Article 148 provides for the CAG, appointed by the President.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-038",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Constitutional bodies & statutes",
+  "question": "The Attorney General of India is appointed under",
+  "options": [
+   "Article 165",
+   "Article 124",
+   "Article 148",
+   "Article 76"
+  ],
+  "answerIndex": 3,
+  "explanation": "Article 76 provides for the Attorney General of India.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-039",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Constitutional bodies & statutes",
+  "question": "The Right to Information Act was enacted in",
+  "options": [
+   "2010",
+   "2013",
+   "1998",
+   "2005"
+  ],
+  "answerIndex": 3,
+  "explanation": "The RTI Act, 2005 provides citizens access to information held by public authorities.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-POL-040",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "polity",
+  "topic": "Constitutional bodies & statutes",
+  "question": "The Lokpal and Lokayuktas Act was passed in",
+  "options": [
+   "2016",
+   "2008",
+   "2005",
+   "2013"
+  ],
+  "answerIndex": 3,
+  "explanation": "The Lokpal and Lokayuktas Act, 2013 established the Lokpal at the Centre.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ }
+]

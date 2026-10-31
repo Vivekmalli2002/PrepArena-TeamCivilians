@@ -1,0 +1,1623 @@
+[
+ {
+  "id": "SCIENCE-00014",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Physics: mechanics, heat & sound",
+  "question": "Unit of force is-",
+  "options": [
+   "Faraday",
+   "Fermi",
+   "Newton",
+   "Rutherford"
+  ],
+  "answerIndex": -1,
+  "explanation": "₂ (c): The SI unit of force is the Newton (or kg. m/s). Force is the product of mass and acceleration and it is a vector quantity. While Faraday is the unit of the charge, Fermi is the unit of length (1 Fermi = 10 –15 m) and Rutherford is the unit of radioactivity.",
+  "source": "MPPSC (Pre) GS 1990 · General Science & Technology GS p.2",
+  "sourcePage": 2,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "SCIENCE-00052",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "General science & miscellaneous",
+  "question": "1 Picogram₋₆ is equal to-₋₉",
+  "options": [
+   "10₋₁₂ gram",
+   "10₋₁₂ gram",
+   "10 gram",
+   "10 gram"
+  ],
+  "answerIndex": 2,
+  "explanation": "1 Picogram= 10⁻¹² gram. 1 Microgram=10⁻⁶ gram. 1 Nanogram=10⁻⁹ gram",
+  "source": "BPSC (Pre) 1997-98 · General Science & Technology GS p.6",
+  "sourcePage": 6,
+  "sourceKey": "C",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "SCIENCE-00112",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Physics: mechanics, heat & sound",
+  "question": "Kinetic Energy",
+  "options": [
+   "1 only",
+   "1 and 2 only",
+   "2 only",
+   "2 and 3 only (e)"
+  ],
+  "answerIndex": -1,
+  "explanation": "wer not known TNPSC (Pre) 2022 Ans. (a) : When a ball is projected upwards then its potential energy increases while kinetic energy decreases continuously. At the highest point, it's kinetic energy is zero and potential energy is maximum.",
+  "source": "General Science & Technology GS · General Science & Technology GS p.12",
+  "sourcePage": 12,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-00156",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Physics: mechanics, heat & sound",
+  "question": "Which is the correct equation for finding the acceleration? Physics 2 v − u",
+  "options": [
+   "a =",
+   "a = u + vt t v + u v + u",
+   "a =",
+   "a = t 2"
+  ],
+  "answerIndex": 0,
+  "explanation": "Acceleration is defined as rate of change of velocity with respect to time. That means where   v =finalvelocity  changeinvelocity v−u   Acceleration(a) = = time t u = initialvelocity   t = time ",
+  "source": "BPSC (Pre) G.S. 2002 · General Science & Technology GS p.17",
+  "sourcePage": 17,
+  "sourceKey": "A",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options, stray"
+ },
+ {
+  "id": "SCIENCE-00265",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Physics: mechanics, heat & sound",
+  "question": "Sound above what level (decibels) is considered hazardous noise pollution?",
+  "options": [
+   "30 dB",
+   "100 dB",
+   "80 dB",
+   "120 dB"
+  ],
+  "answerIndex": -1,
+  "explanation": "(c) Noise pollution is a physical form of pollution which affects the receiver directly. It is caused when loud disturbing sound are produced from a source and spread into atmosphere. Noise pollution occurs when the sound has a value of 80dB. Hence hazardous noise pollution occurs above 80 dB.",
+  "source": "RAS/RTS (Pre) G.S. 2012 UPPCS (Mains) G.S. IInd Paper 2008 · General Science & Technology GS p.29",
+  "sourcePage": 29,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "SCIENCE-00315",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Physics: mechanics, heat & sound",
+  "question": "Gravitational waves were seen for the first time in",
+  "options": [
+   "September",
+   "September",
+   "August",
+   "October"
+  ],
+  "answerIndex": 1,
+  "explanation": "In September, 2015, scientists detected gravitational waves for the very first time. They used a very sensitive instrument called LIGO (Laser Interferometer Gravitational-Wave Observatory). These first gravitational waves were generated when two black holes crashed into one another. The collision happened 1.3 billion years ago.",
+  "source": "UPPCS (Mains) G.S. IInd 2017 · General Science & Technology GS p.35",
+  "sourcePage": 35,
+  "sourceKey": "B",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "SCIENCE-00396",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Physics: mechanics, heat & sound",
+  "question": "Which of the following is/are true about Doppler effect? (1) Doppler effect in light is symmetric (2) Doppler effect in sound is symmetric (3) Doppler effect in light is asymmetric (4) Doppler effect in sound is asymmetric",
+  "options": [
+   "(1) and (2) are correct",
+   "(1) and (4) are correct",
+   "(3) and (4) are correct",
+   "(2) and (3) are correct (e)"
+  ],
+  "answerIndex": -1,
+  "explanation": "wer not known TNPSC (Pre) 2022 Physics 5 Ans. (b) : Doppler effects refers to the change in wave frequency during the relative motion between a wave source and it's observer. Doppler effects works on both light and sound objects. The Doppler effect in sound is asymmetric because sound is a mechanical wave and to travel it require a medium while Doppler effect in light is symmetric because the light do not need a medium to travel.",
+  "source": "General Science & Technology GS · General Science & Technology GS p.44",
+  "sourcePage": 44,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-00398",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Physics: mechanics, heat & sound",
+  "question": "Quantum nature of light is not supported by the phenomenon of",
+  "options": [
+   "Compton effect",
+   "Photoelectric effect",
+   "Emission and Absorption Spectrum",
+   "Interference of light waves (e)"
+  ],
+  "answerIndex": -1,
+  "explanation": "wer not known TNPSC (Pre) 2022 Ans. (d) : The quantum theory of light was given by Einstein, which describes matter and light to consists of minute particles that have properties of waves associated with them. Light consists of particles known as photons and matter are made up of particles called protons, electrons and neutrons. The interference phenomenon, does not support quantum nature of light because in interference phenomenon light behaves like a wave not as a matter.",
+  "source": "General Science & Technology GS · General Science & Technology GS p.44",
+  "sourcePage": 44,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-00427",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Physics: mechanics, heat & sound",
+  "question": "Choose the correct statement.",
+  "options": [
+   "Wavelength of red light is less than violet light",
+   "Wavelength of red light is more than violet light",
+   "Wavelength of violet light is less than green light",
+   "Wavelength of violet light is more than green light (e) None of the above/More than one of the above"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e) Wavelength of different colours are given below- Colour Wave length Red 6470 Å -7800 Å Orange 5850 Å -6470 Å Yellow 5750 Å -5850 Å Green 4912 Å -5750 Å Blue 4240 Å -4912 Å Violet 3900 Å -4240 Å Hence wavelength of red colour is more than violet colour and also wavelength of violet is less than green light.",
+  "source": "64th BPSC (Pre)-2018 · General Science & Technology GS p.47",
+  "sourcePage": 47,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-00577",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Physics: mechanics, heat & sound",
+  "question": "One bulb is connected to a 220 V generator. Current is 0.5 A. Power of bulb is-",
+  "options": [
+   "110 W",
+   "110 W",
+   "440 W",
+   "220 W (e) None of the above Physics 7"
+  ],
+  "answerIndex": 0,
+  "explanation": "We know that Power (P) = V(Voltage) × I (Current) Then, P = 220× 0.5=110W",
+  "source": "Chhatisgarh PCS (Pre) 2016-17 · General Science & Technology GS p.65",
+  "sourcePage": 65,
+  "sourceKey": "A",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "SCIENCE-00649",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "General science & miscellaneous",
+  "question": "Which of the following characteristics of science is not true? (i) It is guided by natural law (ii) It is testable against the observable world (iii) It's conclusions are permanent (iv) It is falsifiable",
+  "options": [
+   "(ii), (iii) and (iv) only",
+   "(iii) and (iv) only",
+   "(iii) only",
+   "(iv) only (e)"
+  ],
+  "answerIndex": -1,
+  "explanation": "wer not known TNPSC (Pre) 2022 Ans. (c) : Science is a discipline that investigates the phenomena that occurs in the real world. The core features of science are - It is guided by natural law, it is testable against the observable world, it is falsifiable, it's conclusions are not permanent.",
+  "source": "General Science & Technology GS · General Science & Technology GS p.74",
+  "sourcePage": 74,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-00650",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "General science & miscellaneous",
+  "question": "Which is the one considered to be more important to study the History of science is",
+  "options": [
+   "Antiquarian curiosity",
+   "Logical reasoning",
+   "Scientific knowledge",
+   "Conjunction with philosophy (e)"
+  ],
+  "answerIndex": -1,
+  "explanation": "wer not known TNPSC (Pre) 2022 Ans. (a) : Antiquarian curiosity is considered to be more important to study the History of science. Physics 8 Miscellaneous",
+  "source": "General Science & Technology GS · General Science & Technology GS p.74",
+  "sourcePage": 74,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-00711",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Chemistry",
+  "question": "Physical and Chemical Changes 1. Detect the odd one",
+  "options": [
+   "Setting of cement",
+   "Burning of coal",
+   "Ripening of fruit",
+   "More than one of the above (e) None of the above"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e): All the mentioned changes are chemical changes. So there is no difference. Hence, the correct answer is option (e).",
+  "source": "68th BPSC 2022 · General Science & Technology GS p.81",
+  "sourcePage": 81,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-00739",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Physics: light, electricity & magnetism",
+  "question": "Isotopes of an element differ in:",
+  "options": [
+   "The number of protons",
+   "The mass number",
+   "The number of electrons",
+   "The atomic number (e) None of the above/More than one of the above Chemistry 9"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e) : Isotopes are defined as the atoms of the same element having the same atomic number but different mass number. The number of protons in all the atoms of a particular element is same, therefore to have different mass numbers; isotopes should contain different number of neutrons. It is evident that difference between the isotopes is due to presence of different number of neutrons present in the nucleus.",
+  "source": "67th BPSC Pre-2022 (Cancelled) · General Science & Technology GS p.84",
+  "sourcePage": 84,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-00773",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Physics: light, electricity & magnetism",
+  "question": "Which one of the statements is correct for Li- ion batteries?",
+  "options": [
+   "While the battery is discharging, the anode releases lithium ion to the cathode",
+   "While the battery is discharging, the cathode releases lithium ion to the anode",
+   "While the battery is charging, the anode releases lithium ion to the cathode",
+   "While the battery is charging, the cathode doesn't releases lithium ion to the anode (e)"
+  ],
+  "answerIndex": -1,
+  "explanation": "wer not known TNPSC (Pre) 2022 Ans. (a) : When Li-ion battery is discharged it provide an electric current, during discharging anode releases lithium ions to the cathode and generates flow of electrons from one side to other.",
+  "source": "General Science & Technology GS · General Science & Technology GS p.88",
+  "sourcePage": 88,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-00774",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Chemistry",
+  "question": "Chemical Bonding/Chemical Reaction (i) Chemical Bonding 1. Which of the following is correct for the shapes of NH₃ and BF₃ ?",
+  "options": [
+   "NH₃ – Pyramidal and BF₃ – Pyramidal",
+   "NH₃ – Planar and BF₃ – Pyramidal",
+   "NH₃ – Planar and BF₃ – Pyramidal",
+   "NH₃ – Pyramidal and BF₃ – Planar"
+  ],
+  "answerIndex": 3,
+  "explanation": "The shapes of NH₃ is Pryramidal while the shape of BF₃ is Planar.",
+  "source": "MH PSC (Pre) 2023 · General Science & Technology GS p.88",
+  "sourcePage": 88,
+  "sourceKey": "D",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "SCIENCE-00787",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Chemistry",
+  "question": "Match the List I with List II: List I List II (Hydrated Salt) (Uses)",
+  "options": [
+   "FeSO₄ . 7H₂ O 1. Textile Industry",
+   "Na₂ CO₄ . 10H₂ O 2. Laboratory Reagent",
+   "CuSO₄ . 5H₂ O 3. Making of Mohr's Salt",
+   "ZnSO₄ . 7H₂ O 4. Fungicide (e) BaCl₄ . 2H₂ O 5. Manufacturing of Glass (a) (b) (c) (d) (e) (a) 5 3 4 1 2 (b) 4 5 3 1 2 (c) 3 5 4 1 2 (d) 5 4 1 3 2 (e)"
+  ],
+  "answerIndex": -1,
+  "explanation": "wer not known TNPSC (Pre) 2022 Ans. (c) : The correct match is as follows :- FeSO4.7H2O - Making of Mohr's Salt (Green Vitriol) Na₂ CO₃ .10H₂ O Manufacturing of glass (Washing Soda) - CuSO₄ .5H₂ O - Fungicide (Blue Vitriol) ZnSO₄ .7H₂ O - Textile Industry (Barium Chloride dihydrate) (Barium Chloride - Laboratory Readent dihydrate)",
+  "source": "General Science & Technology GS · General Science & Technology GS p.89",
+  "sourcePage": 89,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-00788",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Chemistry",
+  "question": "Which is the stronger acid than phenol due to the presence of three same electron with drawing groups (i) O-Toluic Acid (ii) Benzoic acid (iii) Salicylic Acid (iv) Picric Acid",
+  "options": [
+   "(iii) only",
+   "(i) only",
+   "(ii) and (iv) only",
+   "(iv) only (e)"
+  ],
+  "answerIndex": -1,
+  "explanation": "wer not known TNPSC (Pre) 2022 Ans. (c) : Benzoic acid and Picric acid (Also called 2, 4, 6- tri nitro phenol) is more stronger acid than phenol, because both contains three electron withdrawing nitro group on 2, 4, 6 position of carbon atoms.",
+  "source": "General Science & Technology GS · General Science & Technology GS p.90",
+  "sourcePage": 90,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-00809",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Chemistry",
+  "question": "Which of the following has pH value 7?",
+  "options": [
+   "Pure water",
+   "Neutral solution",
+   "Basic solution",
+   "Acidic solution (e) None of the above/More than one of the above"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e) Kindly refer the explanation of the above question.",
+  "source": "64th BPSC (Pre)-2018 · General Science & Technology GS p.92",
+  "sourcePage": 92,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-00816",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Chemistry",
+  "question": "A solution turns red litmus to blue; pH value of solution is:-",
+  "options": [
+   "7",
+   "1",
+   "5",
+   "6.5 (e) None of the above"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e) Solutions having pH value more than 7 are basic in nature and they turn red litmus to blue while solutions having pH value less than 7 are acidic in nature and turns blue litmus to red.",
+  "source": "Chhattisgarh PSC (Pre) I G.S., 2014 · General Science & Technology GS p.92",
+  "sourcePage": 92,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-00844",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Chemistry",
+  "question": "Which of the following is not a type of element?",
+  "options": [
+   "Metals",
+   "Nonmetals",
+   "Gases",
+   "Metalloids (e) None of the above/More than one of the above"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e) An element is a substance that cannot be broken down into any other substance. Every element is made up of its own type of atom. This is why the chemical elements are all very different from each other. Everything in the universe contains the atoms of at least one or more elements. The periodic table lists all the known elements and groups together those with similar properties. Here all the options represent categories of elements therefore option (e) will be more appropriate answer. Chemistry",
+  "source": "65th BPSC (Pre)-2019 · General Science & Technology GS p.95",
+  "sourcePage": 95,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-00871",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Chemistry",
+  "question": "Urea is-",
+  "options": [
+   "A nitrogen containing organic compound",
+   "A nitrogen containing inorganic compound",
+   "A plant hormone",
+   "An Endergonic compound"
+  ],
+  "answerIndex": 0,
+  "explanation": "Urea, also called as carbamide, is a nitrogenous organic compound containing a carbonyl group attached to two amine groups with osmotic diuretic activity. Urea is the most important nitrogenous fertiliser in the country because of its high nitrogen content (46%).",
+  "source": "UPPCS (Pre) G.S.-Ist 2017 · General Science & Technology GS p.98",
+  "sourcePage": 98,
+  "sourceKey": "A",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: stem"
+ },
+ {
+  "id": "SCIENCE-00885",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Physics: light, electricity & magnetism",
+  "question": "Which of the following statement about diamonds and graphite is true?",
+  "options": [
+   "They have same crystal structure",
+   "They have same degree of hardness",
+   "They have same electrical conductivity",
+   "More than one of the above (e) None of the above"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e): Diamond and Graphite, both are known as the allotrope of Carbon, but neither their crystalline structure nor their hardness are same. Carbon in diamond form 3-dimensianal tetrahedron rings in a plane, diamond is one of the hardest material while graphite is very soft. Similarly, diamond is poor conductor of electricity whereas graphites are used in the manufacture of electrodes of carbon employed in the electrolytic cells as it is an excellent conductor of electricity- Hence none of the answer is correct.",
+  "source": "68th BPSC 2022 · General Science & Technology GS p.99",
+  "sourcePage": 99,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-00905",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Chemistry",
+  "question": "Carbon is found in which of the following?",
+  "options": [],
+  "answerIndex": 0,
+  "explanation": "Lignite is a low grade brown coal which is soft with high moisture content. The lignite reserves are found in Neyveli in Tamil Nadu and are used for generation of electricity.",
+  "source": "General Science & Technology GS · General Science & Technology GS p.100",
+  "sourcePage": 100,
+  "sourceKey": "A",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "SCIENCE-00906",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Human body, health & diseases",
+  "question": "Which of the following air pollutants can affect blood stream leading to death?",
+  "options": [],
+  "answerIndex": 3,
+  "explanation": "Carbon monoxide is a colourless, odourless and almost water insoluble gas. The highly poisonous nature of CO arises because of its ability to form a complex which is about 300 times more stable than the oxygen hemoglobin complex. This prevents hemoglobin in the red blood corpuscles from carrying oxygen round the body and ultimately in death.",
+  "source": "General Science & Technology GS · General Science & Technology GS p.101",
+  "sourcePage": 101,
+  "sourceKey": "D",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "SCIENCE-01060",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Chemistry",
+  "question": "Liquid Petroleum Gas is mainly a mixture of-",
+  "options": [
+   "Methane and ethane",
+   "n-butane and iso-butane",
+   "Propane and methane",
+   "Ethane and butane Chemistry"
+  ],
+  "answerIndex": -1,
+  "explanation": "LPG is composed of hydrocarbons containing three or four carbon atoms. The normal components of LPG are propane (C₃ H₈) and Butane (C₄ H₁₀).",
+  "source": "Sikkim PSC (Pre) 2022 · General Science & Technology GS p.114",
+  "sourcePage": 114,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "SCIENCE-01067",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Chemistry",
+  "question": "LPG used as domestic fuel mainly contains",
+  "options": [
+   "Methane",
+   "Propane",
+   "Ethylene",
+   "Butane (e) None of the above/More than one of the above"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e) Kindly refer the explanation of above question.",
+  "source": "BPSC (Pre) G.S. 2016 · General Science & Technology GS p.115",
+  "sourcePage": 115,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-01069",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Chemistry",
+  "question": "What is main component of Liquefied petroleum gas (LPG)?",
+  "options": [
+   "Methane",
+   "Ethane",
+   "Propane",
+   "Butane (e) None of the above/more than one of the above"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e) Kindly refer the explanation of above question.",
+  "source": "Chhattisgarh PSC (Pre) G.S. 2004 - 05 UP RO/ARO (M) 2013 RAS/RTS(Pre) G.S. 1992 · General Science & Technology GS p.115",
+  "sourcePage": 115,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-01102",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "General science & miscellaneous",
+  "question": "C.N.G. is-",
+  "options": [
+   "Compressed Natural Gas",
+   "Cynogen Natural Gas",
+   "Condensed Natural Gas",
+   "Controlled Natural Gas"
+  ],
+  "answerIndex": 0,
+  "explanation": "",
+  "source": "UPPCS (Pre) 2015 · General Science & Technology GS p.118",
+  "sourcePage": 118,
+  "sourceKey": "A",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: stem"
+ },
+ {
+  "id": "SCIENCE-01143",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "General science & miscellaneous",
+  "question": "Which one of the following explosives does not contain nitroglycerine as an essential constituent?",
+  "options": [],
+  "answerIndex": 3,
+  "explanation": "Among the given options, amatol is a mixture of ammonium nitrate and trinitrotoluene (T.N.T.) and it is used in grenades. Rest of the explosive contains nitroglycerine. Chemistry 12 (iii) Polymers",
+  "source": "General Science & Technology GS · General Science & Technology GS p.121",
+  "sourcePage": 121,
+  "sourceKey": "D",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "SCIENCE-01161",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Chemistry",
+  "question": "Which of the following is not a polymer?",
+  "options": [],
+  "answerIndex": 0,
+  "explanation": "Among the given options, ghee is not a polymer. Ghee is a complex lipid of glycerides, free fatty acids, phospholipids, vitamins, hydrocarbons and carotenoids.",
+  "source": "General Science & Technology GS · General Science & Technology GS p.123",
+  "sourcePage": 123,
+  "sourceKey": "A",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "SCIENCE-01210",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Chemistry",
+  "question": "Which among the following is/are wrong about a fertilizer? (i) Fertilizer must be insoluble in water (ii) It should maintain the pH of 10 to 13 (iii) It should not be poisonous to plants",
+  "options": [
+   "Only (iii)",
+   "(i), and (ii)",
+   "(i), (ii), (iii)",
+   "Only (ii) (e)"
+  ],
+  "answerIndex": -1,
+  "explanation": "wer not known TNPSC (Pre) 2022 Ans. (b) : Fertilisers are organic or inorganic substance, natural or artificial supplying one or more of the chemical elements/nutrients required for plant growth, fertilizer must be solube in water and it should maintain the pH between 6.5 to 7.5. Hence, option (b) and (c) are incorrect.",
+  "source": "General Science & Technology GS · General Science & Technology GS p.127",
+  "sourcePage": 127,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-01244",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "General science & miscellaneous",
+  "question": "LPG is a mixture of",
+  "options": [
+   "C₆ H₁₂ + C₆ H₆",
+   "C₄ H₁₀ + C₃ H₈",
+   "C₂ H₄ + C₂ H₂",
+   "C₂ H₄ + CH₄ (e)"
+  ],
+  "answerIndex": -1,
+  "explanation": "wer not known TNPSC (Pre) 2022 Ans. (b) : LPG is mixture of Propane (C₃ H₈) and butane (C₄ H₁₀).",
+  "source": "General Science & Technology GS · General Science & Technology GS p.131",
+  "sourcePage": 131,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-01286",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "General science & miscellaneous",
+  "question": "Which one of the following materials is strongest?",
+  "options": [],
+  "answerIndex": 3,
+  "explanation": "",
+  "source": "General Science & Technology GS · General Science & Technology GS p.135",
+  "sourcePage": 135,
+  "sourceKey": "D",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "SCIENCE-01349",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Chemistry",
+  "question": "Polluted gas coming out from vehicles is-",
+  "options": [
+   "Carbon dioxide",
+   "Carbon monoxide",
+   "Marsh gas",
+   "Nitrogen oxide"
+  ],
+  "answerIndex": -1,
+  "explanation": "Passenger vehicles are a major pollution contributor, producing significant amounts of nitrogen oxides, carbon monoxide and other pollutants. Carbon dioxide (CO₂) is the main component in the engine exhaust gases creating a green house effect in the atmosphere.",
+  "source": "BPSC(Pre) 2000 · General Science & Technology GS p.141",
+  "sourcePage": 141,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "SCIENCE-01359",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "General science & miscellaneous",
+  "question": "Monosodium glutamate (MSG) in food is used as ___.",
+  "options": [
+   "Colour enhancer",
+   "Flavour Enhancer",
+   "Preserver",
+   "Emulsifier"
+  ],
+  "answerIndex": -1,
+  "explanation": "Monosodium Glutamate (MSG) is a flavor enhancer commonly added to Chinese foods, canned vegetables, soups and processed meats. It also acts as a preservative in some cases. Hence both options (b) and (c) are correct. MPPSC had considered both options as correct answer. Note- The questions has been modified by the commission as there are two correct answer in the given options.",
+  "source": "MPPCS (Pre) 2020 · General Science & Technology GS p.142",
+  "sourcePage": 142,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "SCIENCE-01367",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Chemistry",
+  "question": "The main component of greenhouse gases is",
+  "options": [
+   "Carbon dioxide",
+   "Methane",
+   "Nitrous oxide",
+   "Ozone (e) None of the above/More than one of the above"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e) Greenhouse gases are carbon dioxide, methane, water vapour, nitrous oxide, CFCs (Chlorofluorocarbons) and ozone.",
+  "source": "65th BPSC (Pre)-2019 · General Science & Technology GS p.143",
+  "sourcePage": 143,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-01444",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Biology: cell, genetics & botany",
+  "question": "List I",
+  "options": [
+   "Gerontology",
+   "Palaeontology",
+   "Otology",
+   "Cytology List II 1. The study of old age, its phenomena and diseases 2. The study of cells, especially their formation, structure and functions 3. The study of the ear and its diseases 4. The study of fossils Code: (a) (b) (c) (d) (A) (2) (1) (4) (3) (B) (1) (4) (3) (2) (C) (1) (2) (3) (4) (D) (4) (3) (1) (2)"
+  ],
+  "answerIndex": 1,
+  "explanation": "The correct match is as follows :- Gerontology → The study of old age, its phenomena and diseases Palaeontology → The study of fossils Otology → The study of ear and its disease Cytology → The study of cells especially their formation, structure and functions.",
+  "source": "Manipur PSC - 2013 · General Science & Technology GS p.151",
+  "sourcePage": 151,
+  "sourceKey": "B",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options, stem"
+ },
+ {
+  "id": "SCIENCE-01494",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Chemistry",
+  "question": "The enzyme involved in unwinding of DNA is",
+  "options": [
+   "Telomerase",
+   "Helicase",
+   "Polymerase",
+   "Ligase (e)"
+  ],
+  "answerIndex": -1,
+  "explanation": "wer not known TNPSC (Pre) 2022 Ans. (c) : Helicases are a class of enzymes, which is vital to all organisms. Their main function is to unwinding of DNA.",
+  "source": "General Science & Technology GS · General Science & Technology GS p.157",
+  "sourcePage": 157,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-01523",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Biology: cell, genetics & botany",
+  "question": "Enzyme is-",
+  "options": [
+   "Fats",
+   "R.N.A",
+   "Protein",
+   "None of the above"
+  ],
+  "answerIndex": 2,
+  "explanation": "",
+  "source": "Jharkhand PSC (Pre.) G.S. II 2013 · General Science & Technology GS p.160",
+  "sourcePage": 160,
+  "sourceKey": "C",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: stem"
+ },
+ {
+  "id": "SCIENCE-01557",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Biology: cell, genetics & botany",
+  "question": "Gene is :",
+  "options": [
+   "A segment of DNA",
+   "A segment of DNA and histone",
+   "A segment of DNA, RNA and histone",
+   "All of the above"
+  ],
+  "answerIndex": 0,
+  "explanation": "Gene is the part of DNA that contain genetic code. Danish botanist Wilhelm Johannsen coined the term 'gene' to describe the Mendelian units of heredity. He also made the distinction between the outward appearance of an individual (phenotype) and its genetic traits (genotype).",
+  "source": "Uttarakhand PSC (Pre) G.S. 2016 · General Science & Technology GS p.164",
+  "sourcePage": 164,
+  "sourceKey": "A",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: stem"
+ },
+ {
+  "id": "SCIENCE-01580",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Biology: cell, genetics & botany",
+  "question": "Match the following:",
+  "options": [
+   "Polyethyleneglycol 1. Herbicide",
+   "Bt Toxin 2. Stress Tolerance",
+   "Glyphosate 3. insecticide",
+   "Proline 4. Cell Fusion (a) (b) (c) (d) (a) 3 4 1 2 (b) 2 1 4 3 (c) 4 1 3 2 (d) 4 3 1 2 (e)"
+  ],
+  "answerIndex": -1,
+  "explanation": "wer not known TNPSC (Pre) 2022 Ans. (d) : The correct match is as follows :- Polyethyleneglycol - Cell Fusion Bt Toxin - insecticide Glyphosate - Herbicide Proline - Stress Tolerance",
+  "source": "General Science & Technology GS · General Science & Technology GS p.167",
+  "sourcePage": 167,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-02065",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "General science & miscellaneous",
+  "question": "The mineral released with human sweat is-",
+  "options": [
+   "Sulfur",
+   "Iron",
+   "Magnesium",
+   "Zinc (e) None of the above / More than one of the above"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e) : Sweat is produced by the skin in the form of liquid to regulate the body temperature. It is the part of the excretory function of the skin and is important to maintain the homeostasis. Sweat is made up of several chemicals mainly consists of water, minerals, lactate, and urea. On average, the mineral composition is: - Sodium (0.9 gram/l) - Potassium (0.2 g/l) - Calcium (0.015 g/l) - Magnesium (0.0013 g/l) Trace metals that the body excretes in sweat include: • Zinc (0.4 milligrams/liter) • Copper (0.3–0.8 mg/l) • Iron (1 mg/l) • Chromium (0.1 mg/l) • Nickel (0.05 mg/l) • Lead (0.05 mg/l)",
+  "source": "BPSC (Pre) G.S. 2017-18 · General Science & Technology GS p.228",
+  "sourcePage": 228,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-02164",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Physics: mechanics, heat & sound",
+  "question": "Which of the following pairs is not correctly matched?",
+  "options": [
+   "Vitamin B₁ – Orange",
+   "Vitamin D – Cod-Liver oil",
+   "Vitamin E – Wheat germ oil",
+   "Vitamin K – Alfalfa (e) None of these Biology"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e): Foods containing high in Thiamine (Vitamin B1) are pork, fish, seeds, nuts, beans, green peas, tofu, brown rice, squash, asparagus, oranges and seafood. All the above options are correctly matched because sunlight and cod- liver oil are main source of Vitamin D and orange contains Vitamin C and B. Vitamin K is present in Alfalfa grass and wheat germ oil contains Vitamin E.",
+  "source": "BPSC (Pre) G.S. 2016 · General Science & Technology GS p.239",
+  "sourcePage": 239,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-02230",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "General science & miscellaneous",
+  "question": "In which year Japanese encephalitis is appeared?",
+  "options": [
+   "1976",
+   "1977",
+   "1986",
+   "1987"
+  ],
+  "answerIndex": -1,
+  "explanation": "Japanese encephalitis is a fatal disease caused by the Flevivirus. In this disease, the virus carriers are mosquitoes which infect humans and animals. This disease makes its foot in Asia especially in the agricultural regions. The first case of Japanese encephalitis viral disease was documented in 1871 in Japan. Biology",
+  "source": "UPPCS (Main) Spl. G.S. IInd , 2004 · General Science & Technology GS p.247",
+  "sourcePage": 247,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "SCIENCE-02238",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Biology: cell, genetics & botany",
+  "question": "Which of the following statements is/are correct? Viruses can infect - 1. bacteria 2. fungi 3. plants Biology 25 Select the correct answer using the codes given below.",
+  "options": [
+   "1 and 2 only",
+   "3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "answerIndex": 3,
+  "explanation": "Viruses can infect all types of life forms, from animals and plants to microorganisms, including bacteria and fungi. Viruses are infectious agents with both living and non-living characteristics.",
+  "source": "(IAS (Pre.) GS Ist Paper, 2016) · General Science & Technology GS p.248",
+  "sourcePage": 248,
+  "sourceKey": "D",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "SCIENCE-02335",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Human body, health & diseases",
+  "question": "Match List I with List II List-I List-II (Vitamin/Mineral) (Symptoms) (A) Iron (i) Weak muscles (B) Iodine (ii) Anaemia (C) Calcium (iii) Mental disability in Children (D) Vitamin B1 (iv) Tooth decay Choose the correct answer from the options given below: (A) (B) (C) (D)",
+  "options": [
+   "(ii) (iii) (iv) (i)",
+   "(ii) (iv) (iii) (i)",
+   "(ii) (iv) (iii) (i)",
+   "(ii) (iii) (i) (iv)"
+  ],
+  "answerIndex": 0,
+  "explanation": "The correct match is as follows :- (Vitamin/Mineral) (Symptoms) Iron - Anaemia Iodine - Mental disability in Child Calcium - Tooth decay Vitamin B1 - Weak muscles",
+  "source": "Himachal PSC (Pre) 2023 · General Science & Technology GS p.261",
+  "sourcePage": 261,
+  "sourceKey": "A",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "SCIENCE-02357",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Human body, health & diseases",
+  "question": "Which of the following disease is caused due to deficiency of protein?",
+  "options": [
+   "Meningitis",
+   "Ringworm",
+   "Goitre",
+   "Itching"
+  ],
+  "answerIndex": -1,
+  "explanation": "Kwashiorkor is a type of severe malnutrition that is most common in children. It occurs due to a lack of protein in the diet, which affects the balance and distribution of fluids in the body and often leads to a swollen belly. goitre is caused due to deficiency of Iodine. Ringworm is a pathogenic disease. It is caused due to fungal infection. Meningitis is viral disease but also can be caused by bacteria, and fungi-also.",
+  "source": "Uttarakhand P.C.S. (M) 2010-11 · General Science & Technology GS p.264",
+  "sourcePage": 264,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "SCIENCE-02359",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "General science & miscellaneous",
+  "question": "Lathyrism is caused by excessive consumption of_____.",
+  "options": [],
+  "answerIndex": 0,
+  "explanation": "Lathyrism is a disease caused by eating Lathyrus seeds of species of Lathyrus (the grass pea), mainly L. sativus (the chickling pea or Kesari), L. cicera (flat-podded vetch) and L. clymenum (Spanish vetchling). Beta-oxalyl-amino-L-alanine acid (BOAA), an excitatory neurotoxin and glutamate agonist, has been identified as the constituent of the chickling responsible for the disease. BOAA appears to exert its effects through mitochondrial toxicity.",
+  "source": "General Science & Technology GS · General Science & Technology GS p.264",
+  "sourcePage": 264,
+  "sourceKey": "A",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "SCIENCE-02411",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Human body, health & diseases",
+  "question": "Asprin is:",
+  "options": [
+   "Antibiotics",
+   "Antipyretic",
+   "Sedative",
+   "None of the above"
+  ],
+  "answerIndex": 1,
+  "explanation": "Aspirin is an antipyretic medicine used to treat fever, headache, body pain, and arthritis. Drugs such as aspirin, crocin, sulfadrug, hypnotics etc. are obtained in an artificial or synthesized manner. Medicines that neutralize bacteria are called antibiotics. Pencillin is the first antibiotic drug invented by Alexander Fleming. Biology",
+  "source": "BPSC (Pre) 1995 · General Science & Technology GS p.270",
+  "sourcePage": 270,
+  "sourceKey": "B",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: stem"
+ },
+ {
+  "id": "SCIENCE-02434",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Chemistry",
+  "question": "Which of the following radio isotopes is used in the treatment of blood cancer [leukemia]?",
+  "options": [
+   "Iodine-131",
+   "Sodium-24",
+   "Phosphorus-32",
+   "Cobalt-60 (e) None of the above/More than one of the above"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e) : Phosphorus-32 radio isotope is used in the treatment of blood cancer [leukemia] while Cobalt-60 is used in the treatment of cancer. Iodine-131 is used to diagnose and treat thyroid disease and Sodium-24 is used to detect blood clots in the transport system. However, BPSC has considered both Phosphorus-32 and Cobalt-60 as correct answer due to controversial status.",
+  "source": "BPSC (Pre) G.S. 2016 · General Science & Technology GS p.273",
+  "sourcePage": 273,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-02496",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Biology: cell, genetics & botany",
+  "question": "Match List-I with List-II and select the correct answer using the codes given below: List-I List-II (Disease) (Organism) A. Malaria 1. Fungi B. Poliomyelitis 2. Bacteria C. Tuberculosis 3. Virus D. Ringworm 4. Protozoan Code : A B C D A B C D",
+  "options": [
+   "4 3 2 1",
+   "4 3 2 1",
+   "3 4 1 2",
+   "3 4 2 1"
+  ],
+  "answerIndex": 0,
+  "explanation": "The correct match of list-I with list-II is as follows: List-I (Diseases) List-II (Organisms) Malaria Protozoa Poliomyelitis Virus Tuberculosis Bacteria Ringworm Fungi",
+  "source": "(IAS (Pre) G.S. 1998) · General Science & Technology GS p.282",
+  "sourcePage": 282,
+  "sourceKey": "A",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "SCIENCE-02521",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "General science & miscellaneous",
+  "question": "Biological resurfacing is a recent surgical technique used to treat problems of –",
+  "options": [
+   "Knee joints",
+   "Ankle joints",
+   "Hip joints",
+   "Vertebral joints"
+  ],
+  "answerIndex": -1,
+  "explanation": "Biological resurfacing is a modern surgical technique used to treat problems of knee joints including ankle joints, hip joints and vertebral joints. Cartilage cells can be harvested from a patient, cloned and reproduced in a lab, and then reinserted into the patient's knee joint. In a younger patient, the cells have a greater chance of success than in older patients. Generally, cartilage replacement works best in patients with limited areas of cartilage damage, often caused by sports or other injuries. Note:- This question has been deleted from evaluation by UPPSC.",
+  "source": "UPPCS (Pre) GS, 2014 · General Science & Technology GS p.286",
+  "sourcePage": 286,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "SCIENCE-02556",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Chemistry",
+  "question": "Mesothelioma, is caused by toxicity of -",
+  "options": [
+   "Arsenic",
+   "Lead",
+   "Mercury",
+   "Carbon monoxide"
+  ],
+  "answerIndex": -1,
+  "explanation": "Mesothelioma is caused by asbestos exposure. When asbestos fibers are inhaled or ingested they cause scarring and inflammation which can lead to Mesothelioma.",
+  "source": "Tripura PSC (NCS) Pre-2017 · General Science & Technology GS p.290",
+  "sourcePage": 290,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "SCIENCE-02558",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "General science & miscellaneous",
+  "question": "Visionary defect 'short-sightedness' is known as name of:",
+  "options": [
+   "Hypermetropia",
+   "Presbyopia",
+   "Glucoma",
+   "Cataract (e) None of the above /more than one of the above"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e) : Short-sightedness is a kind of eye disease commonly known by the name Myopia. A myopic person has clear vision when looking at objects close to them, but distant objects will appear blurred. It is corrected by using the glasses of concave lens.",
+  "source": "65th BPSC Re-Exam (Pre) 2019 · General Science & Technology GS p.291",
+  "sourcePage": 291,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-02587",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Biology: cell, genetics & botany",
+  "question": "Which of the following does not have any enzyme in its cells?",
+  "options": [
+   "Lichen",
+   "Virus",
+   "Algae",
+   "Bacteria (e) None of the above/More than one of the above"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e) Lichen, Algae and Bacteria all have enzymes but viruses generally behave as dead particle when it is outside the living cells so most of the viruses lacks enzymes but some viruses as that of retro viruses contain enzyme.",
+  "source": "65th BPSC (Pre)-2019 · General Science & Technology GS p.294",
+  "sourcePage": 294,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-02674",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Biology: cell, genetics & botany",
+  "question": "The first step in the seed germination is imbibition of water which induce the",
+  "options": [
+   "Stimulation of plumule",
+   "Breaking dormancy",
+   "Growth of radicle",
+   "Resumes metabolic activities (e)"
+  ],
+  "answerIndex": -1,
+  "explanation": "wer not known TNPSC (Pre) 2022 Ans. (c) The first step in seed germination is imbibition of water which induce the growth of radicle. The radicle is the first part of a seeding (a growing plant embryo) to emerge from the seed during the process of germination.",
+  "source": "General Science & Technology GS · General Science & Technology GS p.303",
+  "sourcePage": 303,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-02724",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Physics: mechanics, heat & sound",
+  "question": "In Photosynthesis-",
+  "options": [
+   "Solar energy converts into heat energy",
+   "Solar energy converts into kinetic energy",
+   "Solar energy converts into potential energy",
+   "Light energy converts into mechanical energy (e) None of the above"
+  ],
+  "answerIndex": -1,
+  "explanation": "(e) Kindly refer the explanation of above question.",
+  "source": "Chattisgarh PCS (Pre) 2017-18 · General Science & Technology GS p.309",
+  "sourcePage": 309,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-02795",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Biology: cell, genetics & botany",
+  "question": "Silk is a",
+  "options": [
+   "Synthetic product",
+   "Animal product",
+   "Plant product",
+   "Man-made product"
+  ],
+  "answerIndex": 1,
+  "explanation": "Silk is a natural fiber made by the silkworm cocoon. The practice of growing silkworms for silk production is called Sericulture. The silk that is made by the silkworm is made up of two main proteins called as sericin and fibroin.",
+  "source": "OPSC (OCS) Pre-2020 Paper-I · General Science & Technology GS p.316",
+  "sourcePage": 316,
+  "sourceKey": "B",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: stem"
+ },
+ {
+  "id": "SCIENCE-02829",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Human body, health & diseases",
+  "question": "The process of establishment of an organism in a new habitat is known as",
+  "options": [
+   "Ecesis",
+   "Migration",
+   "Immigration",
+   "Coaction (e)"
+  ],
+  "answerIndex": -1,
+  "explanation": "wer not known TNPSC (Pre) 2022 Ans. (a) : The process of successful establishment of a species in the bare area is known as Ecesis.",
+  "source": "General Science & Technology GS · General Science & Technology GS p.321",
+  "sourcePage": 321,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-02872",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Human body, health & diseases",
+  "question": "Even though an animal is fed with carbohydrate- rich diet, its blood sugar concentration tends to remain constant. This is on account of the fact that in the case of an animal",
+  "options": [],
+  "answerIndex": 1,
+  "explanation": "Even though an animal is fed with carbohydrate-rich diet, its blood sugar concentration tends to remain constant. The pancreas is a gland situated in our body. It produces 2 types of hormones, insulin and glucagon. Both are secreted in the islets of Langerhans in the pancreas. Insulin, secreted by beta cells of islets of langerhans, helps in absorbing glucose from the blood, and thus maintain the blood sugar level. Similarly, glucagon, secreted by alpha cells of islets of langerhans, helps liver release glucose in the blood, and thus achieve normal blood Sugar levels. Biology",
+  "source": "General Science & Technology GS · General Science & Technology GS p.327",
+  "sourcePage": 327,
+  "sourceKey": "B",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: options"
+ },
+ {
+  "id": "SCIENCE-02879",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Biology: cell, genetics & botany",
+  "question": "2, 4-D is–",
+  "options": [
+   "An insecticide",
+   "An explosive",
+   "A fungicide",
+   "A herbicide Biology"
+  ],
+  "answerIndex": 3,
+  "explanation": "2,4-D is a herbicide that is widely used as a household weed-killer, agricultural herbicide and aquatic herbicide. It is a widely-used herbicide that affects plant cell growth and division. It affects primarily broad-leaf plants.",
+  "source": "UPPCS (Pre) G.S. 1999 · General Science & Technology GS p.328",
+  "sourcePage": 328,
+  "sourceKey": "D",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: stem"
+ },
+ {
+  "id": "SCIENCE-03087",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Space, defence & technology",
+  "question": "The following table lists the names of missiles with indigenous technology along with their objectives. Match each missile with its objective. Missile Objective",
+  "options": [
+   "Prithvi-I 1. Surface to Surface",
+   "Akash 2. Ocean to Earth or Earth to Ocean",
+   "Agni 3 3. Ocean to Surface",
+   "Dhanush 4. Surface to Air Codes: (a) a-1, b-2, c-3, d-4 (b) a-1, b-3, c-4, d-2 (c) a-2, b-4, c-3, d-1 (d) a-3, b-1, c-2, d-4"
+  ],
+  "answerIndex": -1,
+  "explanation": "Missile Objective Prithvi-I Ocean to Earth or Earth to Ocean Akash Surface to Air Agni 3 Surface to Surface Dhanush Ocean to surface",
+  "source": "TPPSC Group-II Pre-2016 Paper-I · General Science & Technology GS p.356",
+  "sourcePage": 356,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key, options"
+ },
+ {
+  "id": "SCIENCE-03169",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "General science & miscellaneous",
+  "question": "Mouse is",
+  "options": [
+   "Memory",
+   "CPU",
+   "Input device",
+   "Output device"
+  ],
+  "answerIndex": 2,
+  "explanation": "A computer mouse (plural mice or mouses) is a hand-held pointing device that detects two- dimensional motion relative to a surface. This motion is typically translated into the motion of a pointer on a display, which allows a smooth control of the graphical user interface of a computer. Credit of invention of the computer mouse goes to an American engineer Douglas Carl Engelbart.",
+  "source": "Uttarakhand UDA/LDA (Pre) 2006 · General Science & Technology GS p.365",
+  "sourcePage": 365,
+  "sourceKey": "C",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: stem"
+ },
+ {
+  "id": "SCIENCE-03195",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "General science & miscellaneous",
+  "question": "ROM is a-",
+  "options": [
+   "Volatile memory",
+   "Non- volatile memory",
+   "Secondary memory",
+   "None of the above"
+  ],
+  "answerIndex": 1,
+  "explanation": "Read-only memory (ROM) is a type of non- volatile memory used in computers and other electronic devices. Data stored in ROM cannot be electronically modified after the manufacture of the memory device. ROM is the permanent memory in computer and this can be used for reading only.",
+  "source": "Uttarakhand Lower (Pre) 2016 · General Science & Technology GS p.368",
+  "sourcePage": 368,
+  "sourceKey": "B",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: stem"
+ },
+ {
+  "id": "SCIENCE-03248",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Physics: mechanics, heat & sound",
+  "question": "LAN means",
+  "options": [
+   "Large Asia Network",
+   "Local Area Network",
+   "Logical Area Network",
+   "None of the above"
+  ],
+  "answerIndex": 1,
+  "explanation": "A local-area network (LAN) is a computer network that spans in a relatively small area. Most often, a LAN is confined to a single room, building or group of buildings, however, one LAN can be connected to other LAN over any distance via telephone lines and radio waves.",
+  "source": "Uttarakhand UDA/LDA (M) 2007 · General Science & Technology GS p.374",
+  "sourcePage": 374,
+  "sourceKey": "B",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: stem"
+ },
+ {
+  "id": "SCIENCE-03341",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Physics: light, electricity & magnetism",
+  "question": "CPU means",
+  "options": [
+   "Control processing unit",
+   "Central processing unit",
+   "Current processing unit",
+   "None of the above"
+  ],
+  "answerIndex": 1,
+  "explanation": "CPU is the abbreviation for Central Processing Unit. Sometimes refers to simply as the central processor, but more commonly called a processor, the CPU is the brains of the computer where most calculations takes place.",
+  "source": "Uttarakhand Lower (Pre) 2011 · General Science & Technology GS p.383",
+  "sourcePage": 383,
+  "sourceKey": "B",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: stem"
+ },
+ {
+  "id": "SCIENCE-03343",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Space, defence & technology",
+  "question": "IRC means",
+  "options": [
+   "Internet real communication",
+   "Internet relay chat",
+   "Internet real time chat",
+   "None of the above"
+  ],
+  "answerIndex": 1,
+  "explanation": "IRC (Internet Relay Chat) is a Protocol for real time text messaging between Internet connected computers created in 1988. It is mainly used for group discussion in chat rooms between two users, data transfer and various server-side and client side commands.",
+  "source": "Uttarakhand UDA/LDA (M) 2007 · General Science & Technology GS p.383",
+  "sourcePage": 383,
+  "sourceKey": "B",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: stem"
+ },
+ {
+  "id": "SCIENCE-03369",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Physics: mechanics, heat & sound",
+  "question": "When the alarm of your smart phone rings in the morning, you wake up and tap it to stop the alarm which causes your geyser to be switched on automatically. The smart mirror in your bathroom shows the day's weather and also indicates the level of water in your Science Technology 39 overhead tank. After you take some groceries from your refrigerator for making breakfast, it recognises the shortage of stock in it and places an order for the supply of fresh grocery items. When you step out of your house and lock the door, all lights, fans, geysers and AC machines get switched off automatically. On your way to office, your car warns you about traffic congestion ahead and suggests an alternative route, and if you are late for a meeting, it sends a- message to your office accordingly. In the context of emerging communication technologies, which one of the following term\" best applies to the above scenario?",
+  "options": [
+   "Border Gateway Protocol",
+   "Internet of Things",
+   "Internet Protocol",
+   "Virtual Private Network"
+  ],
+  "answerIndex": -1,
+  "explanation": "–(b) Internet of things refers to the interconnection via the Internet of computing devices embedded in everyday objects enabling them to send and receive data. Internet of Things include connected security systems, thermostats, cars, electronic appliances, lights in household and commercial environments, alarm clocks, speaker systems, vending machines and more.",
+  "source": "UPSC IAS (Pre) G.S. 2018 · General Science & Technology GS p.387",
+  "sourcePage": 387,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: long-stem, no-key"
+ },
+ {
+  "id": "SCIENCE-03455",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Biology: cell, genetics & botany",
+  "question": "Which one of the following approaches comes under the category of biotechnology?",
+  "options": [
+   "Use of living organisms or substances obtained from them in industrial processes",
+   "Modernizing the commercial industries to produce products for use in biological research",
+   "Use of modern technology to investigate biological disorders",
+   "Use of industrial technology to increase the biosphere"
+  ],
+  "answerIndex": -1,
+  "explanation": "(a) Biotechnology is the broad area of biology, involving living systems and organisms to develop or make products, or \"any technological application that uses biological systems, living organisms, or derivatives thereof, to make or modify products or processes for specific use\".",
+  "source": "(IAS (Pre) G.S. 1993) · General Science & Technology GS p.401",
+  "sourcePage": 401,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "SCIENCE-03469",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "Physics: light, electricity & magnetism",
+  "question": "What is the application of Somatic Cell Nuclear Transfer Technology?",
+  "options": [
+   "Production of biolarvicides",
+   "Manufacture of biodegradable plastics",
+   "Reproductive cloning of animals",
+   "Production of organisms free of diseases"
+  ],
+  "answerIndex": -1,
+  "explanation": "–(c) Reproductive cloning of animals is application of Somatic Cell Nuclear Transfer Technology. In genetics and developmental biology, somatic cell nuclear transfer (SCNT) is a laboratory technique for creating an ovum with a donor nucleus. The nucleus of the somatic cell is then inserted into the enucleated egg cell. After being inserted into the egg, the somatic cell nucleus is reprogrammed by the host cell.",
+  "source": "IAS (Pre) G.S.-Ist 2017 · General Science & Technology GS p.403",
+  "sourcePage": 403,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ },
+ {
+  "id": "SCIENCE-03470",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "Science & Technology",
+  "topic": "General science & miscellaneous",
+  "question": "Which of the following is a bio-technological process?",
+  "options": [
+   "Curdling of milk in the stomach",
+   "Preparation of yoghurt or curd",
+   "Making of pickle",
+   "None of the above"
+  ],
+  "answerIndex": -1,
+  "explanation": "–(b) Biotechnology is the broad area of biology, involving living systems and organisms to develop or make products, or \"any technological application that uses biological systems, living organisms, or derivatives thereof, to make or modify products or processes for specific use\". Preparation of yoghurt is biotechnology process.",
+  "source": "Uttarakhand RO/ARO (M) G.S. 2016 · General Science & Technology GS p.403",
+  "sourcePage": 403,
+  "sourceKey": "?",
+  "keyCheck": "auto-flagged",
+  "flag": "Automatic extraction check failed: no-key"
+ }
+]

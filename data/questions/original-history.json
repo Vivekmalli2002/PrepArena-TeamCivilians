@@ -1,0 +1,970 @@
+[
+ {
+  "id": "ORG-HIS-001",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: ancient & early medieval dynasties",
+  "question": "Gautamiputra Satakarni, who defeated the Shakas, belonged to which dynasty?",
+  "options": [
+   "Vishnukundina",
+   "Satavahana",
+   "Ikshvaku",
+   "Pallava"
+  ],
+  "answerIndex": 1,
+  "explanation": "Gautamiputra Satakarni (c. 1st–2nd century CE) was the greatest Satavahana ruler; he defeated the Shaka (Western Kshatrapa) ruler Nahapana.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-002",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: ancient & early medieval dynasties",
+  "question": "Nagarjunakonda in Andhra Pradesh is associated with which ancient dynasty?",
+  "options": [
+   "Ikshvakus",
+   "Eastern Chalukyas",
+   "Satavahanas",
+   "Pallavas"
+  ],
+  "answerIndex": 0,
+  "explanation": "The Ikshvakus ruled the Krishna valley after the Satavahanas, with their capital at Vijayapuri (Nagarjunakonda), a major Buddhist centre.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-003",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: ancient & early medieval dynasties",
+  "question": "Who founded the Eastern Chalukya dynasty of Vengi?",
+  "options": [
+   "Pulakeshin II",
+   "Rajaraja Narendra",
+   "Mangi Yuvaraja",
+   "Kubja Vishnuvardhana"
+  ],
+  "answerIndex": 3,
+  "explanation": "Kubja Vishnuvardhana, the brother of Pulakeshin II, was appointed governor of Vengi and founded the Eastern Chalukya line.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-004",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: ancient & early medieval dynasties",
+  "question": "Which Eastern Chalukya ruler is associated with the beginning of the Telugu Mahabharata under the poet Nannaya?",
+  "options": [
+   "Vimaladitya",
+   "Rajaraja Narendra",
+   "Amma II",
+   "Kubja Vishnuvardhana"
+  ],
+  "answerIndex": 1,
+  "explanation": "Nannaya, the Adikavi, began the Andhra Mahabharatam at the court of Rajaraja Narendra (Rajahmundry).",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-005",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: ancient & early medieval dynasties",
+  "question": "Which Pallava capital city was an important centre of learning in South India?",
+  "options": [
+   "Warangal",
+   "Vengi",
+   "Kanchipuram",
+   "Dharanikota"
+  ],
+  "answerIndex": 2,
+  "explanation": "The Pallavas ruled from Kanchipuram (Kanchi), which became a major seat of Sanskrit and Tamil learning.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-006",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: ancient & early medieval dynasties",
+  "question": "The ancient Buddhist stupa at Amaravati lies on the banks of which river?",
+  "options": [
+   "Krishna",
+   "Penna",
+   "Tungabhadra",
+   "Godavari"
+  ],
+  "answerIndex": 0,
+  "explanation": "Amaravati (ancient Dhanyakataka) is on the Krishna river in Guntur district and was a major Satavahana-era Buddhist centre.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-007",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: Kakatiyas, Reddys & Vijayanagara",
+  "question": "Who was the famous Kakatiya queen who ruled from Orugallu (Warangal)?",
+  "options": [
+   "Rudramadevi",
+   "Gundamba",
+   "Rani Rudrama Reddy",
+   "Mallamma"
+  ],
+  "answerIndex": 0,
+  "explanation": "Rudramadevi (r. c. 1262–1289) succeeded her father Ganapati Deva and ruled the Kakatiya kingdom as a male-titled sovereign.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-008",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: Kakatiyas, Reddys & Vijayanagara",
+  "question": "Which port was developed under the Kakatiya king Ganapati Deva for overseas trade?",
+  "options": [
+   "Machilipatnam",
+   "Kakinada",
+   "Motupalli",
+   "Visakhapatnam"
+  ],
+  "answerIndex": 2,
+  "explanation": "Ganapati Deva issued the Motupalli Abhayasasanam, guaranteeing safe trade for merchants at Motupalli port.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-009",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: Kakatiyas, Reddys & Vijayanagara",
+  "question": "Who composed the Telugu epic Andhra Maha Bhagavatam?",
+  "options": [
+   "Tikkana",
+   "Bammera Pothana",
+   "Srinatha",
+   "Errana"
+  ],
+  "answerIndex": 1,
+  "explanation": "Pothana (15th century) composed the Andhra Maha Bhagavatam, a landmark of Telugu literature.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-010",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: Kakatiyas, Reddys & Vijayanagara",
+  "question": "Who founded the Reddy kingdom of Kondaveedu in the 14th century?",
+  "options": [
+   "Anavota Reddy",
+   "Prolaya Vema Reddy",
+   "Kumaragiri Reddy",
+   "Allada Reddy"
+  ],
+  "answerIndex": 1,
+  "explanation": "Prolaya Vema Reddy founded the Reddy kingdom in coastal Andhra after the fall of the Kakatiyas.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-011",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: Kakatiyas, Reddys & Vijayanagara",
+  "question": "Which Vijayanagara ruler wrote the Telugu work Amuktamalyada?",
+  "options": [
+   "Achyutadevaraya",
+   "Sadasiva Raya",
+   "Krishnadevaraya",
+   "Harihara I"
+  ],
+  "answerIndex": 2,
+  "explanation": "Krishnadevaraya (r. 1509–1529), known as Andhra Bhoja, composed Amuktamalyada in Telugu.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-012",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: Kakatiyas, Reddys & Vijayanagara",
+  "question": "The eight great poets at Krishnadevaraya's court were known as the",
+  "options": [
+   "Panchakavyas",
+   "Ashtadiggajas",
+   "Navaratnas",
+   "Kavitrayam"
+  ],
+  "answerIndex": 1,
+  "explanation": "Krishnadevaraya's court poets, including Allasani Peddana, were called the Ashtadiggajas.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-013",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: Kakatiyas, Reddys & Vijayanagara",
+  "question": "The Vijayanagara empire suffered a decisive defeat in which battle?",
+  "options": [
+   "Battle of Buxar (1764)",
+   "Battle of Talikota (1565)",
+   "Battle of Tarain (1192)",
+   "Battle of Panipat (1526)"
+  ],
+  "answerIndex": 1,
+  "explanation": "A confederacy of Deccan sultanates defeated Rama Raya at Talikota in 1565, leading to the fall of Vijayanagara.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-014",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: Kakatiyas, Reddys & Vijayanagara",
+  "question": "Who founded the city of Hyderabad in 1591?",
+  "options": [
+   "Sultan Quli Qutb-ul-Mulk",
+   "Ibrahim Quli Qutb Shah",
+   "Abul Hasan Tana Shah",
+   "Muhammad Quli Qutb Shah"
+  ],
+  "answerIndex": 3,
+  "explanation": "Muhammad Quli Qutb Shah founded Hyderabad (originally Bhagyanagar) and built the Charminar in 1591.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-015",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: Kakatiyas, Reddys & Vijayanagara",
+  "question": "The Qutb Shahi dynasty had its capital first at which fort before Hyderabad?",
+  "options": [
+   "Bidar",
+   "Golconda",
+   "Warangal",
+   "Gulbarga"
+  ],
+  "answerIndex": 1,
+  "explanation": "The Qutb Shahis (1518–1687) first ruled from Golconda Fort.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-016",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: colonial period & freedom movement",
+  "question": "Where did the English establish their first factory in Andhra in 1611?",
+  "options": [
+   "Visakhapatnam",
+   "Pulicat",
+   "Nizampatnam",
+   "Machilipatnam (Masulipatnam)"
+  ],
+  "answerIndex": 3,
+  "explanation": "The English East India Company set up its first Andhra factory at Masulipatnam in 1611.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-017",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: colonial period & freedom movement",
+  "question": "The Dutch established their first settlement on the Coromandel coast at",
+  "options": [
+   "Yanam",
+   "Pulicat",
+   "Machilipatnam",
+   "Armagon"
+  ],
+  "answerIndex": 1,
+  "explanation": "The Dutch settled at Pulicat in 1609–10 and built Fort Geldria there.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-018",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: colonial period & freedom movement",
+  "question": "Which place in the Andhra region was a French settlement?",
+  "options": [
+   "Chirala",
+   "Nellore",
+   "Yanam",
+   "Pulicat"
+  ],
+  "answerIndex": 2,
+  "explanation": "Yanam, at the mouth of the Godavari, was a French possession until 1954.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-019",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: colonial period & freedom movement",
+  "question": "The Northern Circars were obtained by the East India Company in 1765 through a farman from",
+  "options": [
+   "Shah Alam II",
+   "Siraj-ud-Daulah",
+   "Nizam Ali Khan",
+   "Aurangzeb"
+  ],
+  "answerIndex": 0,
+  "explanation": "Robert Clive obtained the grant of the Northern Circars from the Mughal emperor Shah Alam II in 1765.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-020",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: colonial period & freedom movement",
+  "question": "Alluri Sitarama Raju is associated with which revolt?",
+  "options": [
+   "Santhal Rebellion",
+   "Indigo Revolt",
+   "Moplah Rebellion",
+   "Rampa Rebellion (1922–24)"
+  ],
+  "answerIndex": 3,
+  "explanation": "Alluri Sitarama Raju led the tribal Rampa Rebellion in the Godavari agency area against British forest laws.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-021",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: colonial period & freedom movement",
+  "question": "Which Andhra leader is known as 'Andhra Kesari'?",
+  "options": [
+   "Potti Sriramulu",
+   "Tanguturi Prakasam",
+   "Pattabhi Sitaramayya",
+   "Konda Venkatappayya"
+  ],
+  "answerIndex": 1,
+  "explanation": "Tanguturi Prakasam, nicknamed Andhra Kesari, later became the first Chief Minister of Andhra State.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-022",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: Andhra movement & state formation",
+  "question": "Who fasted unto death in 1952 demanding a separate Andhra State?",
+  "options": [
+   "Potti Sriramulu",
+   "Tanguturi Prakasam",
+   "Bezawada Gopala Reddy",
+   "Neelam Sanjiva Reddy"
+  ],
+  "answerIndex": 0,
+  "explanation": "Potti Sriramulu died on 15 December 1952 after a 58-day fast, which led to the creation of Andhra State.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-023",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: Andhra movement & state formation",
+  "question": "Andhra State was formed on",
+  "options": [
+   "26 January 1950",
+   "1 November 1956",
+   "2 June 2014",
+   "1 October 1953"
+  ],
+  "answerIndex": 3,
+  "explanation": "Andhra State, carved from the Madras Presidency, came into being on 1 October 1953 with Kurnool as capital.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-024",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: Andhra movement & state formation",
+  "question": "What was the first capital of Andhra State (1953)?",
+  "options": [
+   "Vijayawada",
+   "Guntur",
+   "Kurnool",
+   "Hyderabad"
+  ],
+  "answerIndex": 2,
+  "explanation": "Kurnool served as the capital of Andhra State until the formation of Andhra Pradesh in 1956.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-025",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: Andhra movement & state formation",
+  "question": "Andhra Pradesh was formed by merging Andhra State with the Telangana region on",
+  "options": [
+   "1 October 1953",
+   "15 August 1947",
+   "1 November 1956",
+   "26 January 1956"
+  ],
+  "answerIndex": 2,
+  "explanation": "Following the States Reorganisation Act 1956, Andhra Pradesh came into existence on 1 November 1956.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-026",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: Andhra movement & state formation",
+  "question": "The 1956 understanding between Andhra and Telangana leaders on safeguards for Telangana is known as the",
+  "options": [
+   "Pact of Poona",
+   "Lucknow Pact",
+   "Gentlemen's Agreement",
+   "Sri Bagh Pact"
+  ],
+  "answerIndex": 2,
+  "explanation": "The Gentlemen's Agreement of 1956 gave assurances on administration, jobs and education for Telangana.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-027",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: Andhra movement & state formation",
+  "question": "Which commission recommended the reorganisation of states on linguistic lines in 1955?",
+  "options": [
+   "Kothari Commission",
+   "States Reorganisation Commission (Fazl Ali)",
+   "Simon Commission",
+   "Sarkaria Commission"
+  ],
+  "answerIndex": 1,
+  "explanation": "The SRC headed by Fazl Ali submitted its report in 1955, leading to the States Reorganisation Act, 1956.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-028",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "AP: Andhra movement & state formation",
+  "question": "Telangana became a separate state on",
+  "options": [
+   "1 April 2014",
+   "2 June 2014",
+   "1 November 2013",
+   "15 August 2014"
+  ],
+  "answerIndex": 1,
+  "explanation": "The Andhra Pradesh Reorganisation Act, 2014 created Telangana, effective 2 June 2014.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-029",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "Indian history: ancient",
+  "question": "The dockyard at Lothal belongs to which civilisation?",
+  "options": [
+   "Indus Valley Civilisation",
+   "Gupta empire",
+   "Mauryan empire",
+   "Vedic culture"
+  ],
+  "answerIndex": 0,
+  "explanation": "Lothal in Gujarat is a Harappan port town with a dockyard.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-030",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "Indian history: ancient",
+  "question": "The Kalinga War, which changed Ashoka, took place in",
+  "options": [
+   "322 BCE",
+   "261 BCE",
+   "78 CE",
+   "185 BCE"
+  ],
+  "answerIndex": 1,
+  "explanation": "Ashoka conquered Kalinga in about 261 BCE and then embraced Buddhism.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-031",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "Indian history: ancient",
+  "question": "Which Gupta ruler is called the 'Napoleon of India'?",
+  "options": [
+   "Chandragupta I",
+   "Skandagupta",
+   "Kumaragupta",
+   "Samudragupta"
+  ],
+  "answerIndex": 3,
+  "explanation": "Vincent Smith described Samudragupta as the Napoleon of India for his military conquests.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "D",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-032",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "Indian history: ancient",
+  "question": "Which Chinese pilgrim visited India during the reign of Harsha?",
+  "options": [
+   "Hiuen Tsang",
+   "Fa-Hien",
+   "I-Tsing",
+   "Marco Polo"
+  ],
+  "answerIndex": 0,
+  "explanation": "Hiuen Tsang visited India in the 7th century during Harsha's reign; Fa-Hien came in Chandragupta II's time.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-033",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "Indian history: medieval",
+  "question": "The First Battle of Panipat (1526) was fought between Babur and",
+  "options": [
+   "Hemu",
+   "Ibrahim Lodi",
+   "Rana Sanga",
+   "Sher Shah"
+  ],
+  "answerIndex": 1,
+  "explanation": "Babur defeated Ibrahim Lodi at Panipat in 1526 and founded the Mughal empire.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-034",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "Indian history: medieval",
+  "question": "Which ruler introduced the Din-i-Ilahi?",
+  "options": [
+   "Shah Jahan",
+   "Aurangzeb",
+   "Akbar",
+   "Jahangir"
+  ],
+  "answerIndex": 2,
+  "explanation": "Akbar promulgated the Din-i-Ilahi in 1582.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-035",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "Indian history: medieval",
+  "question": "Who built the Grand Trunk Road's early route from Sonargaon to Peshawar (rebuilding the ancient road)?",
+  "options": [
+   "Akbar",
+   "Alauddin Khalji",
+   "Sher Shah Suri",
+   "Muhammad bin Tughluq"
+  ],
+  "answerIndex": 2,
+  "explanation": "Sher Shah Suri rebuilt and extended the Sadak-e-Azam, later called the Grand Trunk Road.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-036",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "Indian history: medieval",
+  "question": "Shivaji was crowned Chhatrapati at Raigad in",
+  "options": [
+   "1674",
+   "1707",
+   "1761",
+   "1627"
+  ],
+  "answerIndex": 0,
+  "explanation": "Shivaji's coronation took place on 6 June 1674 at Raigad.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-037",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "Indian history: modern",
+  "question": "The Battle of Plassey was fought in",
+  "options": [
+   "1799",
+   "1764",
+   "1757",
+   "1857"
+  ],
+  "answerIndex": 2,
+  "explanation": "Robert Clive defeated Siraj-ud-Daulah at Plassey in 1757.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-038",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "Indian history: modern",
+  "question": "The Indian National Congress was founded in 1885 with the help of",
+  "options": [
+   "A.O. Hume",
+   "Dadabhai Naoroji",
+   "Surendranath Banerjee",
+   "Bal Gangadhar Tilak"
+  ],
+  "answerIndex": 0,
+  "explanation": "Allan Octavian Hume helped found the INC; W.C. Bonnerjee presided over the first session.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-039",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "Indian history: modern",
+  "question": "The Partition of Bengal was announced by Lord Curzon in",
+  "options": [
+   "1892",
+   "1911",
+   "1905",
+   "1919"
+  ],
+  "answerIndex": 2,
+  "explanation": "Curzon partitioned Bengal in 1905; it was annulled in 1911.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-040",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "Indian history: modern",
+  "question": "The Jallianwala Bagh massacre occurred in",
+  "options": [
+   "1919",
+   "1914",
+   "1930",
+   "1922"
+  ],
+  "answerIndex": 0,
+  "explanation": "General Dyer's troops fired on a gathering at Amritsar on 13 April 1919.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-041",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "Indian history: modern",
+  "question": "Gandhi began the Dandi March (Salt Satyagraha) in",
+  "options": [
+   "1942",
+   "1930",
+   "1920",
+   "1932"
+  ],
+  "answerIndex": 1,
+  "explanation": "The Dandi March began on 12 March 1930 and launched the Civil Disobedience Movement.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-042",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "Indian history: modern",
+  "question": "The Poona Pact (1932) was signed between Gandhi and",
+  "options": [
+   "M.A. Jinnah",
+   "B.R. Ambedkar",
+   "Sardar Patel",
+   "Jawaharlal Nehru"
+  ],
+  "answerIndex": 1,
+  "explanation": "The Poona Pact settled reserved seats for the Depressed Classes within the general electorate.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "B",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-043",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "Indian history: modern",
+  "question": "The Quit India Movement was launched in",
+  "options": [
+   "August 1942",
+   "September 1939",
+   "March 1930",
+   "January 1947"
+  ],
+  "answerIndex": 0,
+  "explanation": "Gandhi gave the 'Do or Die' call at Gowalia Tank, Bombay, on 8 August 1942.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "A",
+  "keyCheck": "original"
+ },
+ {
+  "id": "ORG-HIS-044",
+  "exam": [
+   "group2",
+   "group1"
+  ],
+  "subject": "history",
+  "topic": "Indian history: modern",
+  "question": "The Cabinet Mission arrived in India in",
+  "options": [
+   "1944",
+   "1942",
+   "1946",
+   "1947"
+  ],
+  "answerIndex": 2,
+  "explanation": "The Cabinet Mission of 1946 proposed a three-tier federal plan.",
+  "source": "Team Civilians original",
+  "sourcePage": 0,
+  "sourceKey": "C",
+  "keyCheck": "original"
+ }
+]

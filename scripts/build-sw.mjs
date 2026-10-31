@@ -29,6 +29,8 @@ const assets = files.filter(
     // Font subsets load by unicode-range; precache Latin only, others are cached on first use.
     !(/\.woff2$/.test(f) && !/-latin-wght/.test(f)) &&
     !f.includes("_not-found") &&
+    !f.startsWith("/data/q/") && // question files are large; each topic is fetched on demand and cached on first use
+
     f !== "/favicon.ico",
 );
 
