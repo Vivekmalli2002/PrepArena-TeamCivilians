@@ -313,3 +313,21 @@ describe("anti-repeat selection and option shuffling", () => {
     for (const q of held) expect(live.has(ids[q.id])).toBe(false);
   });
 });
+
+describe("syllabus overlap registers", () => {
+  it("classifies units against a selection and finds unique ones", async () => {
+    const { unitOverlap, uniqueUnits, stageComparison, ownPapers } = await import("@/content/registry");
+    const rows = unitOverlap(["group1", "group2"]);
+    expect(rows.some((r) => r.cls === "common-all")).toBe(true);
+    for (const r of rows) {
+      expect(r.selectedListed.every((e) => ["group1", "group2"].includes(e))).toBe(true);
+      expect(r.cls === "common-all").toBe(r.selectedListed.length === 2);
+    }
+    // an exam's unique units are listed by that exam only
+    for (const e of ["aswo", "eo", "draughtsman", "aee-pcb"] as const) for (const u of uniqueUnits(e)) expect(u.unit.length).toBeGreaterThan(0);
+    expect(ownPapers("eo").map((p) => p.id)).toContain("eo-2");
+    const c = stageComparison("group2")!;
+    expect(c.both.length + c.onlyFirst.length).toBeGreaterThan(0);
+    expect(stageComparison("eo")).toBeNull();
+  });
+});

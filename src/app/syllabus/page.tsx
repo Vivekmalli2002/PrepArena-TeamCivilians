@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { EXAMS, PAPERS } from "@/content/catalog";
-import { commonSubjects, patternRows, sharedPapers, VERIFICATION_LABEL } from "@/content/registry";
+import { commonSubjects, ownPapers, patternRows, sharedPapers, stageComparison, uniqueUnits, VERIFICATION_LABEL } from "@/content/registry";
+import { OverlapExplorer } from "./OverlapExplorer";
 
 export const metadata: Metadata = {
   title: "Syllabus & overlap",
@@ -64,6 +65,47 @@ export default function Page() {
           </table>
         </div>
         <p className="mt-2 text-xs text-faint">Hover a dot for the paper that carries the subject. Subject↔paper mapping: src/content/catalog.ts.</p>
+      </section>
+
+      <OverlapExplorer />
+
+      <section className="glass rounded-3xl p-4 sm:p-5">
+        <h2 className="font-display text-lg font-bold">Prelims vs Mains</h2>
+        <div className="mt-3 space-y-4 text-sm">
+          {(["group1", "group2"] as const).map((id) => {
+            const c = stageComparison(id)!;
+            return (
+              <div key={id}>
+                <p className="font-semibold">{short(id)}</p>
+                <p className="text-muted">In both {c.firstLabel} and {c.secondLabel}: {c.both.join(", ") || "—"}</p>
+                <p className="text-muted">Only {c.firstLabel}: {c.onlyFirst.join(", ") || "—"}</p>
+                <p className="text-muted">Only {c.secondLabel}: {c.onlySecond.join(", ") || "—"}</p>
+              </div>
+            );
+          })}
+          <p className="text-xs text-faint">
+            Group-1 Mains is descriptive (essay and answer writing); the Group-2 Mains scheme in the 2026 brief notification is objective (150 questions per paper).
+            Completing a topic for Prelims does not complete its Mains depth.
+          </p>
+        </div>
+      </section>
+
+      <section className="glass rounded-3xl p-4 sm:p-5">
+        <h2 className="font-display text-lg font-bold">What is unique to each exam</h2>
+        <p className="mt-1 text-sm text-muted">Syllabus units that no other exam lists, and papers used by that exam alone.</p>
+        <div className="mt-3 space-y-4 text-sm">
+          {EXAMS.map((e) => {
+            const units = uniqueUnits(e.id);
+            const papers = ownPapers(e.id);
+            return (
+              <div key={e.id}>
+                <p className="font-semibold">{e.short}</p>
+                <p className="text-muted">Own papers: {papers.map((p) => p.name).join(" · ") || "—"}</p>
+                <p className="text-muted">Unique units: {units.map((u) => u.unit).join("; ") || "none beyond its own papers"}</p>
+              </div>
+            );
+          })}
+        </div>
       </section>
 
       <section className="glass rounded-3xl p-4 sm:p-5">

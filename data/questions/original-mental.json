@@ -315,15 +315,15 @@
   ],
   "subject": "mental",
   "topic": "Averages",
-  "question": "The average of 6 numbers is 24. If a new number 42 is added, what is the new average?",
+  "question": "The average of 6 numbers is 24. If a new number 45 is added, what is the new average?",
   "options": [
-   "28.07",
-   "25.57",
-   "27.57",
-   "26.57"
+   "26",
+   "29",
+   "28",
+   "27"
   ],
   "answerIndex": 3,
-  "explanation": "New average = (6×24 + 42)/7 = 26.57.",
+  "explanation": "New average = (6×24 + 45)/7 = 27.",
   "source": "Team Civilians original",
   "sourcePage": 0,
   "sourceKey": "D",
@@ -337,18 +337,18 @@
   ],
   "subject": "mental",
   "topic": "Averages",
-  "question": "The average of 6 numbers is 24. If a new number 36 is added, what is the new average?",
+  "question": "The average of 6 numbers is 24. If a new number 38 is added, what is the new average?",
   "options": [
-   "27.21",
-   "26.71",
-   "24.71",
-   "25.71"
+   "26",
+   "28",
+   "27",
+   "25"
   ],
-  "answerIndex": 3,
-  "explanation": "New average = (6×24 + 36)/7 = 25.71.",
+  "answerIndex": 0,
+  "explanation": "New average = (6×24 + 38)/7 = 26.",
   "source": "Team Civilians original",
   "sourcePage": 0,
-  "sourceKey": "D",
+  "sourceKey": "A",
   "keyCheck": "original"
  },
  {
@@ -359,15 +359,15 @@
   ],
   "subject": "mental",
   "topic": "Averages",
-  "question": "The average of 6 numbers is 18. If a new number 36 is added, what is the new average?",
+  "question": "The average of 6 numbers is 18. If a new number 39 is added, what is the new average?",
   "options": [
-   "19.57",
-   "21.57",
-   "20.57",
-   "22.07"
+   "20",
+   "23",
+   "21",
+   "22"
   ],
   "answerIndex": 2,
-  "explanation": "New average = (6×18 + 36)/7 = 20.57.",
+  "explanation": "New average = (6×18 + 39)/7 = 21.",
   "source": "Team Civilians original",
   "sourcePage": 0,
   "sourceKey": "C",

@@ -46,9 +46,10 @@ for _ in range(2):
 # averages
 for _ in range(3):
     n = R.choice([5, 6, 8]); avg = R.choice([12, 15, 18, 24, 30])
-    x = avg + R.choice([6, 12, 18]) * 1
+    m = avg + R.choice([1, 2, 3])
+    x = m * (n + 1) - n * avg
     new = Fraction(n * avg + x, n + 1)
-    add(AV, f"The average of {n} numbers is {avg}. If a new number {x} is added, what is the new average?", fmt(new), near(new, [1, -1, Fraction(3, 2)]), f"New average = ({n}×{avg} + {x})/{n+1} = {fmt(new)}.")
+    add(AV, f"The average of {n} numbers is {avg}. If a new number {x} is added, what is the new average?", fmt(new), near(new, [1, -1, 2]), f"New average = ({n}×{avg} + {x})/{n+1} = {fmt(new)}.")
 # speed
 for _ in range(3):
     s = R.choice([36, 45, 54, 60, 72]); t = R.choice([2, 3, 4, 5])
