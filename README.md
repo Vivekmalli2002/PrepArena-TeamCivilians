@@ -1,5 +1,7 @@
 # Team Civilians — APPSC CBT practice (Phase 1)
 
+**Live:** https://prep-arena-team-civilians-zo64.vercel.app/ (Vercel Hobby · auto-deploys from `main`)
+
 An installable, offline-first practice PWA for Andhra Pradesh government-exam (APPSC) aspirants.
 Phase 1 is fully client-side: no backend, no login. Each student's progress lives in their browser.
 The original build brief is in [`docs/BRIEF.md`](docs/BRIEF.md).
@@ -14,8 +16,9 @@ npm run build      # static export to out/ + service worker (out/sw.js)
 npm run content:audit   # regenerates docs/content-audit.md
 ```
 
-**Deploy (free):** import the repo in Vercel. The framework preset is detected; no settings are needed.
-The export is plain static files, so any static host also works.
+**Deploy (free):** the repo is connected to Vercel (Hobby plan); every push to `main` redeploys.
+Vercel Hobby is for non-commercial use — before charging for premium (Phase 2), move to Cloudflare Pages
+(free, commercial use allowed: build `npm run build`, output `out`) or upgrade to Vercel Pro.
 
 ## What's in Phase 1
 
