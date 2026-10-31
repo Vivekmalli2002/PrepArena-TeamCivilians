@@ -120,6 +120,7 @@ export function Explanation({ q, verdict }: { q: Question; verdict?: "correct" |
         <img key={src} src={src} alt="Figure from the explanation" loading="lazy" className="mt-3 max-h-80 w-full rounded-xl border border-hairline bg-white object-contain" />
       ))}
       <p className="mt-3 text-xs text-muted">Source: {q.source}</p>
+      {q.unverified && <p className="mt-1 text-xs text-muted">Unverified: auto-extracted from the source book and not yet proof-read. Report if the key or text looks wrong.</p>}
       {q.revised && <p className="mt-1 text-xs text-muted">Revised by Team Civilians: {q.revised}</p>}
     </motion.div>
   );

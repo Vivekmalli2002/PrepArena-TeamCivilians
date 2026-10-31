@@ -187,7 +187,7 @@ authoredFiles.forEach((f, i) => {
 // stable integer ids from data/questions/_ids.json (append-only). Items whose answer key could not be confirmed
 // (see `keyCheck`) are published as "withdrawn" — kept for review, never shown in tests.
 const DATA = join(root, "data/questions");
-const FILE_SUBJECT = { "air-pollution": "env", "water-pollution": "env", "eia-legislation": "env", energy: "env", "indian-economy": "economy", "original-economy": "economy", "original-history": "history", "original-geography": "geography", "original-polity": "polity", "original-scitech": "scitech", "original-mental": "mental", "gate-es-ga": "mental", "gate-es-tech": "env", "civil-vol1": "civil-core", "civil-vol2": "civil-core", "gs-indian-economy": "economy", "gs-ancient-medieval": "history", "gs-modern-india": "history", "gs-science-tech": "scitech", "gs-geography": "geography", "gs-environment": "env", "gs-civil-pyq": "civil-core", "eco200": "env", "aeeset": "env", "tspsc-g1-current": "current", "tspsc-g1-science": "scitech", "tspsc-g1-env": "env", "tspsc-g1-policies": "polity", "tspsc-g1-society": "society", "tspsc-g1-reasoning": "mental", "shyam-g2-history": "history", "shyam-g2-geography": "geography", "shyam-g2-society": "society", "shyam-g2-current": "current", "shyam-g2-mental": "mental", "shyam-g2-polity": "polity", "shyam-g2-economy": "economy", "shyam-g2-scitech": "scitech" };
+const FILE_SUBJECT = { "air-pollution": "env", "water-pollution": "env", "eia-legislation": "env", energy: "env", "indian-economy": "economy", "original-economy": "economy", "original-history": "history", "original-geography": "geography", "original-polity": "polity", "original-scitech": "scitech", "original-mental": "mental", "gate-es-ga": "mental", "gate-es-tech": "env", "civil-vol1": "civil-core", "civil-vol2": "civil-core", "gs-indian-economy": "economy", "gs-ancient-medieval": "history", "gs-modern-india": "history", "gs-science-tech": "scitech", "gs-geography": "geography", "gs-environment": "env", "gs-civil-pyq": "civil-core", "eco200": "env", "aeeset": "env", "tspsc-g1-current": "current", "tspsc-g1-science": "scitech", "tspsc-g1-env": "env", "tspsc-g1-policies": "polity", "tspsc-g1-society": "society", "tspsc-g1-reasoning": "mental", "shyam-g2-history": "history", "shyam-g2-geography": "geography", "shyam-g2-society": "society", "shyam-g2-current": "current", "shyam-g2-mental": "mental", "shyam-g2-polity": "polity", "shyam-g2-economy": "economy", "shyam-g2-scitech": "scitech", "civil-vol1-unverified": "civil-core", "civil-vol2-unverified": "civil-core", "gs-ancient-medieval-unverified": "history", "gs-civil-pyq-unverified": "civil-core", "gs-environment-unverified": "env", "gs-geography-unverified": "geography", "gs-indian-economy-unverified": "economy", "gs-modern-india-unverified": "history", "gs-science-tech-unverified": "scitech" };
 const TOPIC_UNIT = {
   "Photochemical smog": 4, "Plume dispersion & meteorology": 4, "Particulate & gaseous control devices": 4, "Noise pollution": 4,
   "Air quality standards & pollutant types": 4, "Air pollution calculations": 4, "Atmospheric chemistry & ozone": 6, "Greenhouse gases & climate": 6,
@@ -200,7 +200,7 @@ const TOPIC_UNIT = {
 };
 subjects.set("civil-core", { id: "civil-core", name: "Civil Engineering Core" });
 subjects.set("current", { id: "current", name: "Current Affairs" });
-const HOLD = new Set(["source-only", "conflict-trusted-explanation", "key-overridden-by-science", "time-sensitive", "source-key-as-printed", "auto-flagged"]);
+const HOLD = new Set(["source-only", "conflict-trusted-explanation", "key-overridden-by-science", "time-sensitive", "source-key-as-printed"]);
 const idsFile = join(DATA, "_ids.json");
 const idMap = existsSync(idsFile) ? JSON.parse(readFileSync(idsFile, "utf8")) : {};
 let nextId = Math.max(100000, ...Object.values(idMap)) + 1;
@@ -228,6 +228,7 @@ if (existsSync(DATA)) {
       };
       if (d.subtopic) q.subtopic = d.subtopic;
       if (d.explanationImage?.length) q.explanationImage = d.explanationImage.map((x) => `/qimg/${slugName}/${x}`);
+      if (d.keyCheck === "unverified-extract") q.unverified = true;
       if (d.image) q.image = `/qimg/${slugName}/${d.image}`;
       if (d.flag && /^(resolved|stem-corrected|supported|solution)/.test(d.keyCheck ?? "")) q.revised = d.flag;
       structured.push(q);
