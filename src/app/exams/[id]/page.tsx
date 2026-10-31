@@ -85,28 +85,24 @@ export default async function Page(props: PageProps<"/exams/[id]">) {
       )}
 
       <Section title="Posts & pay">
-        <div className="-mx-1 overflow-x-auto">
-          <table className="w-full min-w-[480px] text-left text-sm">
-            <thead className="text-xs uppercase tracking-wider text-faint">
-              <tr>
-                <th className="px-1 py-2 font-bold">Post</th>
-                <th className="px-1 py-2 text-right font-bold">Vacancies</th>
-                <th className="px-1 py-2 text-right font-bold">Pay scale (₹)</th>
-                {n.posts.some((p) => p.age) && <th className="px-1 py-2 text-right font-bold">Age</th>}
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-[var(--hairline)]">
-              {n.posts.map((p) => (
-                <tr key={p.name}>
-                  <td className="px-1 py-2">{p.name}</td>
-                  <td className="px-1 py-2 text-right font-semibold tabular">{p.vacancies}</td>
-                  <td className="px-1 py-2 text-right tabular text-muted">{p.pay}</td>
-                  {n.posts.some((q) => q.age) && <td className="px-1 py-2 text-right tabular text-muted">{p.age ?? "—"}</td>}
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        {/* A stacked list rather than a table, so vacancies and pay stay visible on phones. */}
+        <ul className="divide-y divide-[var(--hairline)]">
+          {n.posts.map((p) => (
+            <li key={p.name} className="flex items-start gap-3 py-2.5">
+              <div className="min-w-0 flex-1">
+                <div className="text-sm font-medium leading-snug">{p.name}</div>
+                <div className="mt-0.5 text-xs text-muted">
+                  ₹{p.pay}
+                  {p.age && <> · Age {p.age}</>}
+                </div>
+              </div>
+              <div className="shrink-0 text-right">
+                <div className="font-display text-lg font-bold leading-none tabular">{p.vacancies}</div>
+                <div className="text-[11px] text-muted">posts</div>
+              </div>
+            </li>
+          ))}
+        </ul>
       </Section>
 
       <Section title="Eligibility">
@@ -141,33 +137,25 @@ export default async function Page(props: PageProps<"/exams/[id]">) {
             <div key={s.name}>
               <h3 className="font-semibold">{s.name}</h3>
               <p className="text-xs text-muted">{s.mode}</p>
-              <div className="-mx-1 mt-2 overflow-x-auto">
-                <table className="w-full min-w-[440px] text-left text-sm">
-                  <thead className="text-xs uppercase tracking-wider text-faint">
-                    <tr>
-                      <th className="px-1 py-1.5 font-bold">Paper</th>
-                      <th className="px-1 py-1.5 font-bold">Subject</th>
-                      <th className="px-1 py-1.5 text-right font-bold">Qs</th>
-                      <th className="px-1 py-1.5 text-right font-bold">Min</th>
-                      <th className="px-1 py-1.5 text-right font-bold">Marks</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-[var(--hairline)]">
-                    {s.papers.map((p) => (
-                      <tr key={p.paper + p.subject}>
-                        <td className="px-1 py-2 font-semibold">{p.paper}</td>
-                        <td className="px-1 py-2">
-                          {p.subject}
-                          {p.note && <span className="ml-1 text-xs text-muted">({p.note})</span>}
-                        </td>
-                        <td className="px-1 py-2 text-right tabular">{p.questions ?? "—"}</td>
-                        <td className="px-1 py-2 text-right tabular">{p.minutes || "—"}</td>
-                        <td className="px-1 py-2 text-right font-semibold tabular">{p.marks}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
+              <ul className="mt-2 divide-y divide-[var(--hairline)]">
+                {s.papers.map((p) => (
+                  <li key={p.paper + p.subject} className="flex items-start gap-3 py-2">
+                    <div className="min-w-0 flex-1">
+                      <div className="text-sm leading-snug">
+                        <b>{p.paper}</b> · {p.subject}
+                        {p.note && <span className="ml-1 text-xs text-muted">({p.note})</span>}
+                      </div>
+                      <div className="mt-0.5 text-xs text-muted">
+                        {[p.questions && `${p.questions} questions`, p.minutes && `${p.minutes} min`].filter(Boolean).join(" · ")}
+                      </div>
+                    </div>
+                    <div className="shrink-0 text-right">
+                      <div className="font-display text-lg font-bold leading-none tabular">{p.marks}</div>
+                      <div className="text-[11px] text-muted">marks</div>
+                    </div>
+                  </li>
+                ))}
+              </ul>
               {s.note && <p className="mt-1.5 text-xs text-muted">{s.note}</p>}
             </div>
           ))}

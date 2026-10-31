@@ -30,8 +30,9 @@ export function AppShell({ children }: { children: React.ReactNode }) {
 
   return (
     <div className="mx-auto flex min-h-dvh w-full max-w-5xl flex-col">
-      <header className="sticky top-0 z-30 px-4 pt-[max(0.75rem,env(safe-area-inset-top))] sm:px-6">
-        <div className="glass flex h-14 items-center gap-2 rounded-2xl pl-3 pr-1.5">
+      {/* The band behind the bar fades out the page so scrolled text never shows through or above it. */}
+      <header className="sticky top-0 z-30 bg-[linear-gradient(to_bottom,var(--bg)_75%,transparent)] px-4 pb-2 pt-[max(0.75rem,env(safe-area-inset-top))] sm:px-6">
+        <div className="glass-solid flex h-14 items-center gap-2 rounded-2xl pl-3 pr-1.5">
           <Link href="/" className="flex items-center gap-2.5" aria-label="Team Civilians home">
             <Logo />
             <span className="font-display text-[17px] font-extrabold tracking-tight">Team Civilians</span>
@@ -67,16 +68,16 @@ export function AppShell({ children }: { children: React.ReactNode }) {
         </div>
       </header>
 
-      <main className="flex-1 px-4 pb-28 pt-5 sm:px-6 sm:pb-12">{children}</main>
+      <main className="flex-1 px-4 pb-28 pt-3 sm:px-6 sm:pb-12">{children}</main>
 
       <nav
         aria-label="Main"
         className={cx(
-          "fixed inset-x-0 bottom-0 z-30 px-3 pb-[max(0.6rem,env(safe-area-inset-bottom))] sm:hidden",
+          "fixed inset-x-0 bottom-0 z-30 bg-[linear-gradient(to_top,var(--bg)_55%,transparent)] px-3 pb-[max(0.6rem,env(safe-area-inset-bottom))] pt-3 sm:hidden",
           !showNav && "hidden",
         )}
       >
-        <div className="glass-strong mx-auto grid h-16 max-w-md grid-cols-5 rounded-[22px] px-1">
+        <div className="glass-solid mx-auto grid h-16 max-w-md grid-cols-5 rounded-[22px] px-1">
           {NAV.map((n) => {
             const on = isActive(path, n.href);
             const Icon = n.icon;

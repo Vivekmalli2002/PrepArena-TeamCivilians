@@ -282,7 +282,7 @@ function Console({ session, byId }: { session: Session; byId: Map<number, Questi
   return (
     <div className="flex min-h-dvh flex-col">
       {/* Top bar */}
-      <header className="sticky top-0 z-30 px-3 pt-[max(0.5rem,env(safe-area-inset-top))] sm:px-5">
+      <header className="sticky top-0 z-30 bg-[linear-gradient(to_bottom,var(--bg)_75%,transparent)] px-3 pb-2 pt-[max(0.5rem,env(safe-area-inset-top))] sm:px-5">
         <div className="glass-solid mx-auto flex h-14 max-w-6xl items-center gap-2 rounded-2xl px-2">
           <button
             onClick={() => S().setPaused(true)}
@@ -389,7 +389,7 @@ function Console({ session, byId }: { session: Session; byId: Map<number, Questi
       </div>
 
       {/* Action bar */}
-      <div className="fixed inset-x-0 bottom-0 z-30 px-3 pb-[max(0.6rem,env(safe-area-inset-bottom))] sm:px-5 lg:static lg:pb-6">
+      <div className="fixed inset-x-0 bottom-0 z-30 bg-[linear-gradient(to_top,var(--bg)_60%,transparent)] px-3 pb-[max(0.6rem,env(safe-area-inset-bottom))] pt-3 sm:px-5 lg:static lg:bg-none lg:pb-6">
         <div className="glass-solid mx-auto max-w-6xl rounded-[22px] p-2">
           {practice ? (
             <div className="grid grid-cols-[auto_1fr_auto] gap-2">
