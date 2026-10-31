@@ -6,6 +6,7 @@ keyword check inside the chosen subject. Questions that match nothing go to the 
 import json, re, sys, collections, glob
 sys.path.insert(0, __file__.rsplit("/", 1)[0])
 import civil_rules as CR
+import civil_yct as YCT
 from sklearn.feature_extraction.text import TfidfVectorizer
 import numpy as np
 
@@ -35,22 +36,30 @@ def main(write):
             items.append((f, q))
     lab, unl = [], []
     for f, q in items:
-        n = CR.BOOK_SUBJECT.get(q.get("bookUnit", q["topic"]))
-        (lab if n else unl).append((f, q, n))
+        (lab if f.startswith("civil-vol") else unl).append((f, q, 1))
     res = {}
-    # 1. books: subject from the book, chapter from sub-section prior + keywords
+    # 1. books: the YCT index decides the subject and the set of chapters a heading may belong to;
+    #    keywords choose among them (first listed = default)
+    NAMES = {n: set(v) for n, v in CH.items()}
     for f, q, n in lab:
         t = text(q)
-        sub = q.get("subtopic")
-        hint = CR.SUBTOPIC_HINT.get(sub)
-        if n == 14:  # surveying + geology volume
-            g, gs = pick_chapter(16, t)
-            s14, ss = pick_chapter(14, t, hint)
-            if gs >= 2 and gs > ss: res[q["id"]] = (16, CH[16][0], "book+kw"); continue
-        c, sc = pick_chapter(n, t, hint if hint in CH[n] else None)
-        if c is None:
-            c = hint if hint in CH[n] else ("Miscellaneous" if "Miscellaneous" in CH[n] else None)
-        res[q["id"]] = (n, c, "book+kw" if c else "book") if c else (n, None, "book")
+        bu = q.get("bookUnit", q["topic"]); sub = q.get("subtopic")
+        n0, cands = YCT.lookup(bu, sub)
+        if cands == "unknown" or n0 is None:
+            res[q["id"]] = (0, None, "yct-other"); continue
+        if cands is None:
+            res[q["id"]] = (0, None, "yct-other"); continue
+        opts = []
+        for x in cands:
+            nn, nm = (int(x.split(":")[0]), x.split(":", 1)[1]) if x[:3].split(":")[0].isdigit() and ":" in x[:3] else (n0, x)
+            opts.append((nn, nm))
+        best, bs = opts[0], -1.0
+        for i, (nn, nm) in enumerate(opts):
+            rx = RX.get(nn, {}).get(nm)
+            score = len({m.group(0).lower() for m in rx.finditer(t)}) if rx else 0
+            score += 0.5 if i == 0 else 0
+            if score > bs: best, bs = (nn, nm), score
+        res[q["id"]] = (best[0], best[1], "yct")
     # unlabelled by book topic (Building Construction, "Civil Engineering", PYQ) -> neighbours
     labelled = [(q, res[q["id"]]) for f, q, n in lab if q["id"] in res and res[q["id"]][1]]
     vec = TfidfVectorizer(ngram_range=(1, 2), min_df=2, sublinear_tf=True, stop_words="english")
