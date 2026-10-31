@@ -2,7 +2,7 @@
     python3 -I scripts/extract/shyam_parse.py <lines.json>... --out <raw.json>"""
 import json, re, sys
 
-QN = re.compile(r"^(\d{1,3})\.$")
+QN = re.compile(r"^(\d{1,3})(\.{0,3})$")
 OPT = re.compile(r"^\(([1-4])\)$")
 NEWLINE = re.compile(r"^(\(?[a-dA-D]\)|\(?[ivxIVX]+\)|\(?[A-E]\)|[1-9]\)|List|Statement|Assertion|Reason|Column|Directions?|Note)", re.I)
 
@@ -14,7 +14,7 @@ def flatten(files):
     return pages
 
 def build(pages):
-    qs, cur, test, sect, sect_title, expect, in_test = [], None, 0, "", "", 1, False
+    qs, cur, test, sect, sect_title, expect, in_test, test_seq = [], None, 0, "", "", 1, False, 0
     log = []
     def close():
         nonlocal cur
@@ -24,9 +24,18 @@ def build(pages):
         if pg["test"]:
             close(); test = pg["test"]; in_test = False; expect = 1; sect = ""; sect_title = ""
         for ln in pg["lines"]:
-            w = ln["w"]; first = w[0][0]
+            w = ln["w"]
+            if ln["x"] < 55 and len(w) > 2 and re.fullmatch(r"\d{1,2}", w[0][0]) and re.fullmatch(r"\d{1,2}", w[1][0]):
+                j = 2
+                while j < len(w) and re.fullmatch(r"\.+", w[j][0]): j += 1
+                w = [[w[0][0] + w[1][0] + ("." if j > 2 else ""), 0]] + w[j:]
+                if len(w) > 2 and re.fullmatch(r"\d{1,2}", w[-2][0]) and re.fullmatch(r"\d{1,2}", w[-1][0]): w = w[:-2]
+            first = w[0][0]
             if first.upper().startswith("SECTION-"):
-                close(); sect = first.split("-")[-1].upper()[:1]; sect_title = ""; in_test = True
+                close(); sect = first.split("-")[-1].upper()[:1]; sect_title = ""
+                if sect == "A" and in_test and expect > 1:
+                    test_seq += 1; test += 1; expect = 1
+                in_test = True
                 continue
             if not in_test: continue
             m = QN.match(first)
@@ -34,14 +43,15 @@ def build(pages):
                 n = int(m.group(1))
                 if n == expect:
                     close()
-                    if w[-1][0] == first: w = w[:-1]
+                    if w[-1][0].rstrip(".") == first.rstrip("."): w = w[:-1]
                     cur = {"test": test, "n": n, "sect": sect, "title": sect_title.strip(), "lines": [], "page": pg["p"]}
                     cur["lines"].append(w[1:]); expect = n + 1
                     continue
                 log.append(("odd-number", test, n, expect, pg["p"]))
             if cur is None:
-                if sect and ln["x"] > 80 and not sect_title.strip() or (sect and ln["x"] > 80 and len(sect_title) < 60 and len(w) < 9 and w[0][0].isupper() and " ".join(t for t, _ in w).isupper()):
-                    sect_title += " " + " ".join(t for t, _ in w)
+                tx = " ".join(t for t, _ in w if t.isascii())
+                if sect and not sect_title and re.fullmatch(r"[A-Z][A-Z ,&]{5,}", tx.strip()):
+                    sect_title = tx.strip()
                 continue
             cur["lines"].append(w)
     close()
