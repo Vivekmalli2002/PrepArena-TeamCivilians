@@ -151,6 +151,8 @@ export interface CustomOptions {
   mode: Mode;
   schemeId: string;
   pool: Pool;
+  /** When given, questions are spread across the chosen topics by this weight (e.g. past-paper frequency) instead of pooled. */
+  weight?: (topic: string) => number | undefined;
 }
 
 export function poolFilter(pool: Pool, qstats: Record<number, QStat>, bookmarks: number[]) {
@@ -171,9 +173,16 @@ export function customTest(
   bookmarks: number[],
 ): TestConfig | null {
   const keep = poolFilter(o.pool, qstats, bookmarks);
-  const pool = bank.topics.filter((t) => o.topics.includes(t.name)).flatMap((t) => t.qids).filter(keep);
+  const chosen = bank.topics.filter((t) => o.topics.includes(t.name));
+  const pool = chosen.flatMap((t) => t.qids).filter(keep);
   if (!pool.length) return null;
-  const qids = shuffle(preferFresh(pool, qstats).slice(0, o.count));
+  let picked: number[];
+  if (o.weight) {
+    const lists = chosen.map((t) => preferFresh(t.qids.filter(keep), qstats));
+    const per = allocate(chosen.map((t) => o.weight!(t.name) ?? 0.5), lists.map((l) => l.length), o.count);
+    picked = lists.flatMap((l, i) => l.slice(0, per[i]));
+  } else picked = preferFresh(pool, qstats).slice(0, o.count);
+  const qids = shuffle([...new Set(picked)]);
   return {
     kind: "custom",
     key: `custom:${[...o.topics].sort().join("|")}:${o.pool}`,
@@ -225,5 +234,93 @@ export function revisionTest(qids: number[], title: string, schemeId: string): T
     schemeId,
     durationSec: perQ(picked.length),
     qids: picked,
+  };
+}
+
+/* ---------------- exam-pattern mocks ---------------- */
+
+export interface PatternSectionSpec {
+  label: string;
+  subjects: string[];
+  /** Restrict to these chapters (topic names); default: every topic of the subjects. */
+  chapters?: string[];
+  seats: number;
+}
+
+export interface PatternSpec {
+  id: string;
+  title: string;
+  minutes: number;
+  schemeId: string;
+  sections: PatternSectionSpec[];
+}
+
+/** Largest-remainder split of `total` seats by weight, never giving an item more than its cap. */
+export function allocate(weights: number[], caps: number[], total: number): number[] {
+  const out = weights.map(() => 0);
+  let left = Math.min(total, caps.reduce((a, b) => a + b, 0));
+  let open = weights.map((_, i) => i).filter((i) => caps[i] > 0);
+  while (left > 0 && open.length) {
+    const sum = open.reduce((s, i) => s + Math.max(weights[i], 1e-9), 0);
+    const exact = open.map((i) => ({ i, x: (Math.max(weights[i], 1e-9) / sum) * left }));
+    let given = 0;
+    for (const e of exact) {
+      const add = Math.min(Math.floor(e.x), caps[e.i] - out[e.i]);
+      out[e.i] += add;
+      given += add;
+    }
+    let rest = left - given;
+    for (const e of exact.sort((a, b) => b.x - Math.floor(b.x) - (a.x - Math.floor(a.x)))) {
+      if (rest <= 0) break;
+      if (out[e.i] < caps[e.i]) {
+        out[e.i] += 1;
+        rest -= 1;
+        given += 1;
+      }
+    }
+    left -= given;
+    open = open.filter((i) => out[i] < caps[i]);
+    if (given === 0) break;
+  }
+  return out;
+}
+
+/**
+ * Builds a mock that follows a paper's real section pattern. Seats per chapter inside a section follow
+ * `chapterWeight` (past-paper frequency) when given, otherwise chapter size. Sections that lack questions
+ * hand their unused seats to the other sections, so the paper still has the requested length.
+ */
+export function patternMock(
+  bank: LoadedBank,
+  spec: PatternSpec,
+  chapterWeight: (topic: string) => number | undefined,
+  qstats: Record<number, QStat> = {},
+  rand: () => number = Math.random,
+): TestConfig {
+  const pools = spec.sections.map((s) =>
+    bank.topics.filter((t) => s.subjects.includes(t.subject) && (!s.chapters || s.chapters.includes(t.name))),
+  );
+  const cap = pools.map((p) => p.reduce((n, t) => n + t.qids.length, 0));
+  const want = spec.sections.reduce((n, s) => n + s.seats, 0);
+  const seats = allocate(spec.sections.map((s) => s.seats), cap, want);
+  const picks: number[] = [];
+  pools.forEach((topics, i) => {
+    const per = allocate(
+      topics.map((t) => chapterWeight(t.name) ?? t.qids.length / 100),
+      topics.map((t) => t.qids.length),
+      seats[i],
+    );
+    topics.forEach((t, j) => picks.push(...preferFresh(t.qids, qstats, rand).slice(0, per[j])));
+  });
+  const qids = shuffle([...new Set(picks)], rand);
+  return {
+    kind: "mock",
+    key: `pattern:${spec.id}:${qids.length}`,
+    title: spec.title,
+    subtitle: `${qids.length} Q · ${spec.minutes} min · exam pattern`,
+    mode: "exam",
+    schemeId: spec.schemeId,
+    durationSec: spec.minutes * 60,
+    qids,
   };
 }

@@ -1,0 +1,372 @@
+{
+ "basis": "2364 classified questions from 19 past AEE (civil) papers",
+ "papers": {
+  "TSPSC Assistant Executive Engineer Exam. 2023": 139,
+  "TSPSC Assistant Executive Engineer Exam, 2018": 141,
+  "TSPSC Assistant Executive Engineer (Common, Civil/Mech.) Exam, 2017": 134,
+  "TSPSCAssistant Executive Engineer Exam., 2017": 140,
+  "APPSC Assistant Executive Engineer (Mains.) Exam, 2016": 131,
+  "APPSC Assistant Executive Engineer Exam, 2016": 97,
+  "TSPSC Assistant Executive Engineer Exam, 2015": 146,
+  "APPSC Assistant Executive Engineer (Observers) Exam, 2013": 127,
+  "APPSC Assistant Executive Engineer (Common, Civil/Mech.) Exam, 2012 (P-I)": 116,
+  "APPSC Assistant Executive Engineer Exam, 2012 (P-II)": 131,
+  "TSPSC Assistant Executive Engineer Exam, 2011 (P-I)": 123,
+  "TSPSC Assistant Executive Engineer Exam, 2011 (P-II)": 136,
+  "APPSC Assistant Executive Engineer Exam, 2004 (P-I)": 143,
+  "APPSC Assistant Executive Engineer Exam, 2004 (P-II)": 146,
+  "APPSC Assistant Executive Engineer Exam, 2003": 143,
+  "APPSC Assistant Executive Engineer Exam, 1993": 95,
+  "APPSC Assistant Executive Engineer Exam, 1992": 95,
+  "APPSC Assistant Executive Engineer Exam, 1987": 98,
+  "APPSC Assistant Executive Engineer Exam, 1984": 83
+ },
+ "subjects": {
+  "civil-em": {
+   "name": "Engineering Mechanics",
+   "questions": 14,
+   "share": 0.0059,
+   "chapters": {
+    "Engineering Mechanics": 14,
+    "Miscellaneous": 0
+   }
+  },
+  "civil-som": {
+   "name": "Strength of Materials",
+   "questions": 576,
+   "share": 0.2437,
+   "chapters": {
+    "Simple Stresses and Strains (Elastic Constants and their relationship; Linear and volumetric changes of bodies; Thermal Stresses)": 118,
+    "Complex Stresses and Strains": 63,
+    "Shear Force and Bending Moment": 130,
+    "Centre of Gravity and Moment of Inertia": 7,
+    "Theory of Simple Bending": 55,
+    "Shear Stress Distribution in Beams": 12,
+    "Torsion": 56,
+    "Springs": 3,
+    "Slopes and Deflection": 51,
+    "Thin Cylinders": 11,
+    "Columns and Struts": 54,
+    "Strain Energy and Resilience": 4,
+    "Propped Beams and Fixed Beams": 12,
+    "Shear Centre and Unsymmetric Bending": 0,
+    "Theories of Failures": 0,
+    "Miscellaneous": 0
+   }
+  },
+  "civil-fm": {
+   "name": "Fluid Mechanics",
+   "questions": 491,
+   "share": 0.2077,
+   "chapters": {
+    "Properties of Fluids": 61,
+    "Pressure Measurement and Fluid Statics": 58,
+    "Buoyancy and Metacentric Height": 23,
+    "Fluid Kinematics": 47,
+    "Energy Equation and Its Applications": 18,
+    "Momentum Equation and Its Applications": 2,
+    "Flow Through Pipes": 129,
+    "Laminar Flow": 12,
+    "Elementary Turbulent Flow": 7,
+    "Flow Through Orifices and Mouthpieces": 15,
+    "Flow Over Notches and Weirs": 26,
+    "Compressible Flow": 7,
+    "Dimensional Analysis": 17,
+    "Open Channel Flow": 49,
+    "Boundary Layer Theory, Drag and Lift": 20,
+    "Miscellaneous": 0
+   }
+  },
+  "civil-hm": {
+   "name": "Hydraulic Machines",
+   "questions": 172,
+   "share": 0.0728,
+   "chapters": {
+    "Introduction to Hydraulic Machines": 1,
+    "Hydro-Electric Power Plant": 72,
+    "Water Turbines (Impulse Turbines)": 17,
+    "Reaction Turbines (Francis and Kaplan Turbines)": 15,
+    "Governing of Turbines": 0,
+    "Specific Speed and Performance of Turbines": 14,
+    "Cavitation in Turbines": 2,
+    "Centrifugal Pumps": 49,
+    "Reciprocating Pumps": 0,
+    "Miscellaneous Pumps": 1,
+    "Hydraulic Directional Control Valves": 0,
+    "Hydraulic Pressure Control Valves": 1,
+    "Miscellaneous": 0
+   }
+  },
+  "civil-bm": {
+   "name": "Building Materials",
+   "questions": 127,
+   "share": 0.0537,
+   "chapters": {
+    "Cement": 30,
+    "Aggregates": 7,
+    "Concrete": 33,
+    "Cement Mortar": 9,
+    "Timber": 14,
+    "Bricks": 18,
+    "Bricks Masonry": 1,
+    "Stones": 10,
+    "Paints": 2,
+    "Tiles": 0,
+    "Miscellaneous": 3
+   }
+  },
+  "civil-sa": {
+   "name": "Structural Analysis",
+   "questions": 96,
+   "share": 0.0406,
+   "chapters": {
+    "Introduction to Structures and Static Indeterminacy": 23,
+    "Kinematic Indeterminacy": 0,
+    "Analysis of Trusses (Determinate)": 4,
+    "Basic Methods of Structural Analysis": 39,
+    "Strain Energy Methods": 0,
+    "Moment Distribution Method": 4,
+    "Slope Deflection Method": 2,
+    "Kani's Method": 1,
+    "Moving Loads and Influence Lines": 6,
+    "Arches and Suspension Bridges": 7,
+    "Matrix Method": 0,
+    "Plastic Theory": 10,
+    "Column Analogy Method": 0,
+    "Miscellaneous": 0
+   }
+  },
+  "civil-rcc": {
+   "name": "Reinforced Cement Concrete",
+   "questions": 124,
+   "share": 0.0525,
+   "chapters": {
+    "Materials, Workmanship, Inspection and Testing": 32,
+    "Limit State Design Method – Fundamentals": 6,
+    "Limit State – Singly Reinforced Sections": 10,
+    "Basic Concepts – Working Stress": 9,
+    "Doubly Reinforced Beams – LSM": 0,
+    "Doubly Reinforced Beams – WSM": 1,
+    "Limit State Design – Flanged Beams": 3,
+    "Limit State of Collapse – Shear": 2,
+    "Bond Limit State and Working Stress": 7,
+    "Limit State of Collapse – Torsion": 1,
+    "Slabs": 11,
+    "Limit State of Collapse – Compression": 23,
+    "Footings": 4,
+    "Limit State of Serviceability": 2,
+    "Fundamentals of Prestressed Concrete": 11,
+    "Analysis of Prestressed Concrete Members": 0,
+    "Losses in Prestressed Concrete": 0,
+    "Miscellaneous": 2
+   }
+  },
+  "civil-ss": {
+   "name": "Design of Steel Structures",
+   "questions": 65,
+   "share": 0.0275,
+   "chapters": {
+    "Materials and Specifications": 0,
+    "Riveted and Bolted Connections": 16,
+    "Welded Connections": 8,
+    "Eccentric Connections": 0,
+    "Tension Members": 2,
+    "Compression Members": 12,
+    "Column Bases and Column Splices": 1,
+    "Beams": 8,
+    "Plate Girders": 10,
+    "Gantry Girders": 3,
+    "Roof Trusses": 5,
+    "Miscellaneous": 0
+   }
+  },
+  "civil-cpm": {
+   "name": "Construction Planning & Management",
+   "questions": 44,
+   "share": 0.0186,
+   "chapters": {
+    "Introduction to Project Management": 17,
+    "PERT": 9,
+    "CPM": 14,
+    "CPM Cost Analysis": 1,
+    "Valuation": 3,
+    "Miscellaneous": 0
+   }
+  },
+  "civil-geo": {
+   "name": "Geotechnical Engineering",
+   "questions": 166,
+   "share": 0.0702,
+   "chapters": {
+    "Origin of Soils": 5,
+    "Definitions and Properties of Soils": 20,
+    "Soil Structures and Clay Mineralogy": 0,
+    "Index Properties of Soils": 19,
+    "Soil Classification": 10,
+    "Permeability": 14,
+    "Effective Stress": 4,
+    "Seepage Pressure and Critical Hydraulic Gradient": 2,
+    "Seepage Analysis": 3,
+    "Stress Distribution": 7,
+    "Consolidation": 14,
+    "Compaction": 8,
+    "Shear Strength": 12,
+    "Earth Pressure": 15,
+    "Stability of Slopes": 0,
+    "Bearing Capacity": 20,
+    "Pile Foundation": 11,
+    "Soil Exploration": 2,
+    "Sheet Piles": 0,
+    "Foundations in Expansive Soils": 0,
+    "Miscellaneous": 0
+   }
+  },
+  "civil-ee": {
+   "name": "Environmental Engineering",
+   "questions": 133,
+   "share": 0.0563,
+   "chapters": {
+    "Population Forecasting and Water Demands": 7,
+    "Sources and Conveyance of Water": 2,
+    "Quality of Water": 33,
+    "Plain Sedimentation": 13,
+    "Coagulation": 0,
+    "Filtration": 4,
+    "Disinfection": 4,
+    "Miscellaneous Water Treatment": 2,
+    "Distribution System": 8,
+    "Water Supply Arrangements": 0,
+    "Introduction to Waste Water Engineering and Estimation of DWF & WWF": 2,
+    "Design of Sewers": 4,
+    "Characteristics of Sewage": 20,
+    "Treatment of Sewage": 15,
+    "Sludge Digestion": 4,
+    "Septic Tanks": 3,
+    "Trickling Filters": 0,
+    "Activated Sludge Process": 1,
+    "Oxidation Ponds": 0,
+    "Disposal of Sewage Effluents": 1,
+    "Solid Waste Management": 0,
+    "Air Pollution and Control": 7,
+    "House Drainage Arrangements in Buildings": 1,
+    "Noise Pollution": 2,
+    "Environmental Impact Assessments": 0,
+    "Miscellaneous": 0
+   }
+  },
+  "civil-hyd": {
+   "name": "Hydrology",
+   "questions": 73,
+   "share": 0.0309,
+   "chapters": {
+    "Precipitation": 14,
+    "Mean Precipitation Calculation": 3,
+    "Frequency of Point Rainfall and Probability": 4,
+    "Evaporation and Evapotranspiration": 0,
+    "Infiltration": 1,
+    "Runoff": 15,
+    "Catchment and Its Characteristics": 3,
+    "Hydrographs": 15,
+    "Maximum Flood Estimation": 4,
+    "Flood Routing": 2,
+    "Well Hydraulics": 12,
+    "River Gauging": 0,
+    "Miscellaneous": 0
+   }
+  },
+  "civil-irr": {
+   "name": "Irrigation",
+   "questions": 82,
+   "share": 0.0347,
+   "chapters": {
+    "Water Requirements of Crops": 18,
+    "Methods of Irrigation": 4,
+    "Spillways": 5,
+    "Dams": 19,
+    "Diversion Head Works": 4,
+    "Design of Unlined Alluvial Canals by Silt Theories": 14,
+    "Cross Drainage Works": 11,
+    "Canal Regulation Works": 3,
+    "Canals": 4,
+    "Water Logging and Land Drainage": 0,
+    "Quality of Irrigation Water and Sodic Soils": 0,
+    "Power Plants": 0,
+    "Miscellaneous": 0
+   }
+  },
+  "civil-sur": {
+   "name": "Surveying",
+   "questions": 77,
+   "share": 0.0326,
+   "chapters": {
+    "Fundamental Concepts": 10,
+    "Linear Measurements Including Chain Survey": 9,
+    "Compass Survey": 11,
+    "Theodolite Survey": 8,
+    "Traverse Surveying and Omitted Measurements": 0,
+    "Levelling": 10,
+    "Curves": 4,
+    "Tacheometry": 2,
+    "Contours": 5,
+    "Areas and Volumes": 3,
+    "Plane Table Survey": 6,
+    "Field Astronomy": 0,
+    "Global Positioning System": 1,
+    "Photogrammetric Surveying": 4,
+    "Remote Sensing": 2,
+    "Theory of Errors and Adjustments": 1,
+    "Total Station": 1,
+    "Miscellaneous": 0
+   }
+  },
+  "civil-tra": {
+   "name": "Transportation Engineering",
+   "questions": 99,
+   "share": 0.0419,
+   "chapters": {
+    "Highway Development and Planning": 1,
+    "Highway Alignment and Surveys": 0,
+    "Highway Geometric Design – Basic Elements": 6,
+    "Highway Geometric Design – Gradients": 4,
+    "Highway Geometric Design – Sight Distances": 3,
+    "Highway Geometric Design – Horizontal Curves": 9,
+    "Horizontal Curves (Extra Widening)": 2,
+    "Highway Geometric Design – Transition Curves": 1,
+    "Highway Geometric Design – Summit Curves": 2,
+    "Highway Geometric Design – Valley Curves": 0,
+    "Highway Materials and Testing": 9,
+    "Flexible Pavements": 9,
+    "Rigid Pavements": 5,
+    "Traffic Engineering": 22,
+    "Highway Construction and Maintenance": 2,
+    "Railway Engineering": 19,
+    "Airport Engineering": 5,
+    "Miscellaneous": 0
+   }
+  },
+  "civil-gel": {
+   "name": "Geology",
+   "questions": 0,
+   "share": 0.0,
+   "chapters": {
+    "Geology (only for TGPSC)": 0,
+    "Miscellaneous": 0
+   }
+  },
+  "civil-est": {
+   "name": "Estimation, Costing & Valuation",
+   "questions": 25,
+   "share": 0.0106,
+   "chapters": {
+    "Types of Estimation": 3,
+    "General Specification of Civil Works": 1,
+    "Estimation of Civil Works": 7,
+    "Schedule of Rates (Lead and Lifts)": 0,
+    "Computation of Earth Work": 0,
+    "Contracts and Tenders": 6,
+    "Valuations": 8,
+    "Miscellaneous": 0
+   }
+  }
+ }
+}

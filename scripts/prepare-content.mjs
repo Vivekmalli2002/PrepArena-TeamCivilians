@@ -187,7 +187,7 @@ authoredFiles.forEach((f, i) => {
 // stable integer ids from data/questions/_ids.json (append-only). Items whose answer key could not be confirmed
 // (see `keyCheck`) are published as "withdrawn" — kept for review, never shown in tests.
 const DATA = join(root, "data/questions");
-const FILE_SUBJECT = { "air-pollution": "env", "water-pollution": "env", "eia-legislation": "env", energy: "env", "indian-economy": "economy", "original-economy": "economy", "original-history": "history", "original-geography": "geography", "original-polity": "polity", "original-scitech": "scitech", "original-mental": "mental", "gate-es-ga": "mental", "gate-es-tech": "env", "civil-vol1": "civil-core", "civil-vol2": "civil-core", "gs-indian-economy": "economy", "gs-ancient-medieval": "history", "gs-modern-india": "history", "gs-science-tech": "scitech", "gs-geography": "geography", "gs-environment": "env", "gs-civil-pyq": "civil-core", "eco200": "env", "aeeset": "env", "tspsc-g1-current": "current", "tspsc-g1-science": "scitech", "tspsc-g1-env": "env", "tspsc-g1-policies": "polity", "tspsc-g1-society": "society", "tspsc-g1-reasoning": "mental", "shyam-g2-history": "history", "shyam-g2-geography": "geography", "shyam-g2-society": "society", "shyam-g2-current": "current", "shyam-g2-mental": "mental", "shyam-g2-polity": "polity", "shyam-g2-economy": "economy", "shyam-g2-scitech": "scitech", "civil-vol1-unverified": "civil-core", "civil-vol2-unverified": "civil-core", "gs-ancient-medieval-unverified": "history", "gs-civil-pyq-unverified": "civil-core", "gs-environment-unverified": "env", "gs-geography-unverified": "geography", "gs-indian-economy-unverified": "economy", "gs-modern-india-unverified": "history", "gs-science-tech-unverified": "scitech" };
+const FILE_SUBJECT = { "air-pollution": "env", "water-pollution": "env", "eia-legislation": "env", energy: "env", "indian-economy": "economy", "original-economy": "economy", "original-history": "history", "original-geography": "geography", "original-polity": "polity", "original-scitech": "scitech", "original-mental": "mental", "gate-es-ga": "mental", "gate-es-tech": "env", "civil-vol1": "civil-other", "civil-vol2": "civil-other", "gs-indian-economy": "economy", "gs-ancient-medieval": "history", "gs-modern-india": "history", "gs-science-tech": "scitech", "gs-geography": "geography", "gs-environment": "env", "gs-civil-pyq": "civil-other", "eco200": "env", "aeeset": "env", "tspsc-g1-current": "current", "tspsc-g1-science": "scitech", "tspsc-g1-env": "env", "tspsc-g1-policies": "polity", "tspsc-g1-society": "society", "tspsc-g1-reasoning": "mental", "shyam-g2-history": "history", "shyam-g2-geography": "geography", "shyam-g2-society": "society", "shyam-g2-current": "current", "shyam-g2-mental": "mental", "shyam-g2-polity": "polity", "shyam-g2-economy": "economy", "shyam-g2-scitech": "scitech", "civil-vol1-unverified": "civil-other", "civil-vol2-unverified": "civil-other", "gs-ancient-medieval-unverified": "history", "gs-civil-pyq-unverified": "civil-other", "gs-environment-unverified": "env", "gs-geography-unverified": "geography", "gs-indian-economy-unverified": "economy", "gs-modern-india-unverified": "history", "gs-science-tech-unverified": "scitech" };
 const TOPIC_UNIT = {
   "Photochemical smog": 4, "Plume dispersion & meteorology": 4, "Particulate & gaseous control devices": 4, "Noise pollution": 4,
   "Air quality standards & pollutant types": 4, "Air pollution calculations": 4, "Atmospheric chemistry & ozone": 6, "Greenhouse gases & climate": 6,
@@ -198,7 +198,24 @@ const TOPIC_UNIT = {
   "GATE ES: Air pollution": 4, "GATE ES: Wastewater engineering": 4, "GATE ES: Water treatment": 4, "GATE ES: Solid waste management": 5, "GATE ES: Sustainable development & LCA": 8, "GATE ES: Environmental chemistry": 4, "GATE ES: Noise pollution": 4, "GATE ES: Nitrogen cycle & microbiology": 1, "GATE ES: Microbiology & biochemistry": 1,
   "Hydropower & renewable energy": 3, "Coal & coalification": 3, "Petroleum & natural gas": 3, "Nuclear energy & radiation": 3, Biofuels: 3, "Energy statistics (India)": 3,
 };
-subjects.set("civil-core", { id: "civil-core", name: "Civil Engineering Core" });
+subjects.set("civil-em", { id: "civil-em", name: "Engineering Mechanics" });
+subjects.set("civil-som", { id: "civil-som", name: "Strength of Materials" });
+subjects.set("civil-fm", { id: "civil-fm", name: "Fluid Mechanics" });
+subjects.set("civil-hm", { id: "civil-hm", name: "Hydraulic Machines" });
+subjects.set("civil-bm", { id: "civil-bm", name: "Building Materials" });
+subjects.set("civil-sa", { id: "civil-sa", name: "Structural Analysis" });
+subjects.set("civil-rcc", { id: "civil-rcc", name: "Reinforced Cement Concrete" });
+subjects.set("civil-ss", { id: "civil-ss", name: "Design of Steel Structures" });
+subjects.set("civil-cpm", { id: "civil-cpm", name: "Construction Planning & Management" });
+subjects.set("civil-geo", { id: "civil-geo", name: "Geotechnical Engineering" });
+subjects.set("civil-ee", { id: "civil-ee", name: "Environmental Engineering" });
+subjects.set("civil-hyd", { id: "civil-hyd", name: "Hydrology" });
+subjects.set("civil-irr", { id: "civil-irr", name: "Irrigation" });
+subjects.set("civil-sur", { id: "civil-sur", name: "Surveying" });
+subjects.set("civil-tra", { id: "civil-tra", name: "Transportation Engineering" });
+subjects.set("civil-gel", { id: "civil-gel", name: "Geology" });
+subjects.set("civil-est", { id: "civil-est", name: "Estimation, Costing & Valuation" });
+subjects.set("civil-other", { id: "civil-other", name: "Other Civil & General (not in chapter list)" });
 subjects.set("current", { id: "current", name: "Current Affairs" });
 const HOLD = new Set(["source-only", "conflict-trusted-explanation", "key-overridden-by-science", "time-sensitive", "source-key-as-printed"]);
 const idsFile = join(DATA, "_ids.json");
@@ -232,8 +249,8 @@ if (existsSync(DATA)) {
       if (d.image) q.image = `/qimg/${slugName}/${d.image}`;
       if (d.flag && /^(resolved|stem-corrected|supported|solution)/.test(d.keyCheck ?? "")) q.revised = d.flag;
       structured.push(q);
-      subjectOf.set(q.id, subj);
-      unitOf.set(q.id, TOPIC_UNIT[q.topic] ?? null);
+      subjectOf.set(q.id, d.subjectId ?? subj);
+      unitOf.set(q.id, Number.isInteger(d.unit) ? d.unit : (TOPIC_UNIT[q.topic] ?? null));
       if (HOLD.has(d.keyCheck)) {
         quarantine[q.id] = `Answer key not confirmed (${d.keyCheck}): ${d.flag ?? ""}`.trim();
         structuredHeld++;
@@ -284,6 +301,9 @@ for (const [key, qs] of [...byTopic].sort((a, b) => b[1].length - a[1].length)) 
     })),
   });
 }
+// Chapters follow the syllabus order inside each subject (unit = chapter number); other topics keep size order.
+const subjectRank = new Map([...new Set(topics.map((t) => t.subject))].map((id, i) => [id, i]));
+topics.sort((a, b) => subjectRank.get(a.subject) - subjectRank.get(b.subject) || (a.unit ?? 1e6) - (b.unit ?? 1e6));
 const active = topics.reduce((n, t) => n + t.qids.length, 0);
 const subjectList = [...subjects.values()].map((s) => ({
   ...s,
