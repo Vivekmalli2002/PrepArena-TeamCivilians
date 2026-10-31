@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "vitest run",
+    "test": "node scripts/prepare-content.mjs && vitest run",
     "content": "node scripts/prepare-content.mjs",
     "content:audit": "node scripts/prepare-content.mjs --audit",
     "prebuild": "node scripts/prepare-content.mjs",

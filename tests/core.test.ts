@@ -1,15 +1,24 @@
 import { readFileSync } from "node:fs";
-import { beforeEach, describe, expect, it } from "vitest";
-import { index } from "@/lib/bank";
+import { beforeAll, beforeEach, describe, expect, it } from "vitest";
+import { loadBank, loadQuestions, setBankFetcher, type LoadedBank } from "@/lib/bank";
 import { splitStatements } from "@/lib/format";
 import { dayKey } from "@/lib/random";
 import { schemeById, scoreResponses } from "@/lib/scoring";
-import { currentStreak, paletteStatus, useApp, useSession } from "@/lib/store";
+import { INTERVAL_DAYS, inRevision, isDue, review } from "@/lib/srs";
+import { currentStreak, migrateApp, paletteStatus, useApp, useSession } from "@/lib/store";
 import { dailyQuiz, fullMock, topicSets, topicSetTest } from "@/lib/tests";
-import type { Bank } from "@/lib/types";
+import type { Question } from "@/lib/types";
 
-const raw = JSON.parse(readFileSync("content/team-civilians-questions.json", "utf8"));
-const bank = index({ version: "t", ...raw } as Bank);
+// Reads what `npm run content` published to public/data (the test script runs it first).
+setBankFetcher(async (path) => JSON.parse(readFileSync(`public/data/${path}`, "utf8")));
+const source: Question[] = JSON.parse(readFileSync("content/team-civilians-questions.json", "utf8")).questions;
+const fixes = JSON.parse(readFileSync("content/corrections.json", "utf8"));
+let bank: LoadedBank;
+let byId: Map<number, Question>;
+beforeAll(async () => {
+  bank = await loadBank();
+  byId = await loadQuestions(bank.topics.flatMap((t) => t.all));
+});
 
 describe("scoring", () => {
   it("applies negative marking per scheme", () => {
@@ -21,18 +30,22 @@ describe("scoring", () => {
 });
 
 describe("test builders", () => {
-  it("derives 13 topics covering every question", () => {
-    expect(bank.topics).toHaveLength(13);
-    expect(bank.topics.reduce((n, t) => n + t.count, 0)).toBe(1193);
+  it("publishes every source question, with live ones split by topic", () => {
+    expect(byId.size).toBe(source.length);
+    expect(bank.topics).toHaveLength(12); // "Ecosystem" merged into "Ecology & Ecosystem"
+    expect(bank.total).toBe(bank.allActive.length);
+    expect(new Set(bank.allActive).size).toBe(bank.total);
   });
   it("splits topics into sets without tiny stubs", () => {
     const sets = topicSets(Array.from({ length: 52 }, (_, i) => i));
+    expect(topicSets(bank.topics[0].qids).flat()).toEqual(bank.topics[0].qids);
     expect(sets.map((s) => s.length)).toEqual([25, 27]);
   });
   it("full mock has 50 unique questions spread across topics", () => {
     const m = fullMock(bank, "appsc");
     expect(new Set(m.qids).size).toBe(50);
-    expect(new Set(m.qids.map((id) => bank.byId.get(id)!.topic)).size).toBeGreaterThan(8);
+    expect(new Set(m.qids.map((id) => byId.get(id)!.topic)).size).toBeGreaterThan(8);
+    expect(m.qids.every(bank.isActive)).toBe(true);
   });
   it("daily quiz is deterministic per day", () => {
     expect(dailyQuiz(bank, "2026-10-30", "appsc").qids).toEqual(dailyQuiz(bank, "2026-10-30", "appsc").qids);
@@ -75,11 +88,11 @@ describe("CBT session (exam mode)", () => {
   });
 
   it("submit records an attempt and per-question stats", () => {
-    const q1 = bank.byId.get(1)!;
+    const q1 = byId.get(1)!;
     useSession.getState().choose(q1.answerIndex);
     useSession.getState().saveNext();
     useSession.getState().tick(5000);
-    const id = useSession.getState().submit(bank)!;
+    const id = useSession.getState().submit(byId)!;
     const app = useApp.getState();
     expect(app.attempts.at(-1)!.id).toBe(id);
     expect(app.qstats[1]).toMatchObject({ n: 1, c: 1, last: true });
@@ -109,7 +122,7 @@ describe("streak", () => {
 
 describe("statement formatting", () => {
   it("splits numbered statements and keeps every character of the text", () => {
-    const q = bank.byId.get(1)!.question;
+    const q = byId.get(1)!.question;
     const blocks = splitStatements(q);
     expect(blocks.filter((b) => b.kind === "item").map((b) => b.label)).toEqual(["1", "2", "3"]);
     expect(blocks.at(-1)!.text).toMatch(/^How many/);
@@ -118,7 +131,7 @@ describe("statement formatting", () => {
   });
   it("never loses text on any question in the bank", () => {
     const strip = (x: string) => x.replace(/\s/g, "");
-    for (const q of bank.questions) {
+    for (const q of byId.values()) {
       const blocks = splitStatements(q.question);
       const rebuilt = blocks.map((b) => (b.label ? `${b.label}. ` : "") + b.text).join(" ");
       expect(strip(rebuilt), `id ${q.id}`).toBe(strip(q.question));
@@ -133,5 +146,68 @@ describe("labelled statements", () => {
     );
     expect(b.map((x) => x.kind)).toEqual(["text", "item", "item", "text"]);
     expect(b[2].text).toBe("Statement-II : Hydrogen is abundant.");
+  });
+});
+
+describe("content corrections", () => {
+  const live = () => bank.allActive.map((id) => byId.get(id)!);
+  it("never changes a keyed answer (beyond stripping watermarks)", () => {
+    for (const src of source) {
+      const out = byId.get(src.id)!;
+      const strip = (x: string) => x.replace(/\s*\b\d{0,3}\s*YCT\b/g, "").replace(/\s+/g, " ").trim();
+      expect(strip(out.options[out.answerIndex]), `id ${src.id}`).toBe(strip(src.options[src.answerIndex]));
+    }
+  });
+  it("keeps withdrawn questions out of every live pool", () => {
+    for (const id of Object.keys(fixes.quarantine).map(Number)) {
+      expect(bank.isActive(id)).toBe(false);
+      expect(byId.get(id)!.status).toBe("withdrawn");
+    }
+  });
+  it("leaves no watermark or 'Question not attempted' option in live questions", () => {
+    for (const q of live()) {
+      expect([q.question, ...q.options, q.explanation, q.source].join(" ")).not.toMatch(/\bYCT\b|TCPDF/);
+      expect(q.options.some((o) => /question not attempt/i.test(o))).toBe(false);
+    }
+  });
+});
+
+describe("spaced repetition", () => {
+  const DAY = 86_400_000;
+  it("enters on a wrong answer and graduates after five right answers", () => {
+    let s = review({ n: 1, c: 0, last: false, at: 0 }, false, 0);
+    expect(s.box).toBe(0);
+    expect(isDue(s, 0)).toBe(true);
+    for (let i = 1; i < INTERVAL_DAYS.length; i++) {
+      s = review(s, true, 0);
+      expect(s.box).toBe(i);
+      expect(s.due).toBe(INTERVAL_DAYS[i] * DAY);
+      expect(isDue(s, 0)).toBe(false);
+    }
+    s = review(s, true, 0);
+    expect(inRevision(s)).toBe(false);
+  });
+  it("a right answer outside the revision set changes nothing", () => {
+    expect(inRevision(review({ n: 1, c: 1, last: true, at: 0 }, true, 0))).toBe(false);
+  });
+  it("tests feed the revision set", () => {
+    useApp.getState().resetAll();
+    useSession.getState().start(topicSetTest("Pollution", 0, [1], "practice", "appsc"));
+    useSession.getState().begin();
+    useSession.getState().choose((byId.get(1)!.answerIndex + 1) % byId.get(1)!.options.length);
+    useSession.getState().submit(byId);
+    expect(useApp.getState().qstats[1].box).toBe(0);
+  });
+});
+
+describe("storage migration v1 → v2", () => {
+  it("moves wrong answers into the revision set and remaps retired exams", () => {
+    const out = migrateApp(
+      { profile: { name: "", examId: "allied", createdAt: 1 }, qstats: { 5: { n: 1, c: 0, last: false, at: 9 }, 6: { n: 1, c: 1, last: true, at: 9 } } },
+      1,
+    ) as { profile: { examId: string }; qstats: Record<number, { box?: number; due?: number }> };
+    expect(out.profile.examId).toBe("aswo");
+    expect(out.qstats[5]).toMatchObject({ box: 0, due: 9 });
+    expect(out.qstats[6].box).toBeUndefined();
   });
 });

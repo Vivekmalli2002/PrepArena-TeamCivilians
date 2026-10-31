@@ -1,5 +1,6 @@
 import type { LoadedBank } from "./bank";
 import { hashString, mulberry32, shuffle } from "./random";
+import { inRevision } from "./srs";
 import type { Mode, QStat, TestConfig } from "./types";
 
 export const SET_SIZE = 25;
@@ -65,7 +66,7 @@ export function topicMock(topic: string, pool: number[], schemeId: string, count
 
 /** Full mock drawn proportionally from every topic, so it mirrors the paper's spread. */
 export function fullMock(bank: LoadedBank, schemeId: string, count = FULL_MOCK.count, minutes = FULL_MOCK.minutes): TestConfig {
-  const total = bank.questions.length;
+  const total = bank.total;
   const picks: number[] = [];
   const quotas = bank.topics.map((t) => ({ t, exact: (t.count / total) * count }));
   quotas.forEach((q) => picks.push(...shuffle(q.t.qids).slice(0, Math.floor(q.exact))));
@@ -93,10 +94,7 @@ export function fullMock(bank: LoadedBank, schemeId: string, count = FULL_MOCK.c
 /** Same 10 questions for every student on a given day. */
 export function dailyQuiz(bank: LoadedBank, day: string, schemeId: string): TestConfig {
   const rand = mulberry32(hashString(`tc-daily:${day}`));
-  const qids = shuffle(
-    bank.questions.map((q) => q.id),
-    rand,
-  ).slice(0, DAILY_SIZE);
+  const qids = shuffle(bank.allActive, rand).slice(0, DAILY_SIZE);
   return {
     kind: "daily",
     key: `daily:${day}`,
@@ -109,7 +107,7 @@ export function dailyQuiz(bank: LoadedBank, day: string, schemeId: string): Test
   };
 }
 
-export type Pool = "all" | "unseen" | "wrong" | "bookmarked";
+export type Pool = "all" | "unseen" | "revision" | "bookmarked";
 
 export interface CustomOptions {
   topics: string[];
@@ -125,7 +123,7 @@ export function poolFilter(pool: Pool, qstats: Record<number, QStat>, bookmarks:
   return (id: number) => {
     const s = qstats[id];
     if (pool === "unseen") return !s;
-    if (pool === "wrong") return !!s && !s.last;
+    if (pool === "revision") return inRevision(s);
     if (pool === "bookmarked") return marks.has(id);
     return true;
   };
@@ -163,9 +161,9 @@ export function weakAreaTest(
   count = 15,
 ): TestConfig {
   const t = bank.topics.find((x) => x.name === topic)!;
-  const wrong = shuffle(t.qids.filter((id) => qstats[id] && !qstats[id].last));
+  const wrong = shuffle(t.qids.filter((id) => inRevision(qstats[id])));
   const unseen = shuffle(t.qids.filter((id) => !qstats[id]));
-  const rest = shuffle(t.qids.filter((id) => qstats[id]?.last));
+  const rest = shuffle(t.qids.filter((id) => qstats[id] && !inRevision(qstats[id])));
   const qids = [...wrong, ...unseen, ...rest].slice(0, count);
   return {
     kind: "custom",
@@ -180,8 +178,9 @@ export function weakAreaTest(
   };
 }
 
+/** Keeps the given order (callers put due/most-urgent first) and caps at 25. */
 export function revisionTest(qids: number[], title: string, schemeId: string): TestConfig {
-  const picked = shuffle(qids).slice(0, 25);
+  const picked = qids.slice(0, 25);
   return {
     kind: "revision",
     key: `revision:${title}`,

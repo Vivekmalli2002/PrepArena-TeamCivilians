@@ -1,0 +1,64 @@
+{
+  "$comment": "Editorial corrections applied on top of team-civilians-questions.json at build time. The source file is never modified. Remove an id from `quarantine` once it is fixed in the source. See docs/content-audit.md for the before/after report.",
+  "stripPatterns": [
+    {
+      "pattern": "\\s*\\b\\d{1,3}\\s*YCT\\b",
+      "why": "Publisher page-number watermark (e.g. \"2 YCT\")"
+    },
+    {
+      "pattern": "\\s*\\bYCT\\b",
+      "why": "Publisher watermark"
+    },
+    {
+      "pattern": "\\s*Powered by TCPDF \\(www\\.tcpdf\\.org\\)",
+      "why": "PDF generator footer"
+    }
+  ],
+  "dropOptionsMatching": {
+    "pattern": "^question not attempt",
+    "why": "Option E copied from OMR-style papers; never the keyed answer and not part of the APPSC CBT"
+  },
+  "topicAliases": {
+    "Ecosystem": "Ecology & Ecosystem"
+  },
+  "quarantine": {
+    "33": "Duplicate of #82 with a different answer key — verify which key is right",
+    "82": "Duplicate of #33 with a different answer key — verify which key is right",
+    "175": "Duplicate of #261 with a different answer key — verify which key is right",
+    "261": "Duplicate of #175 with a different answer key — verify which key is right",
+    "268": "Duplicate of #1144 with a different answer key — verify which key is right",
+    "1144": "Duplicate of #268 with a different answer key — verify which key is right",
+    "441": "Question text replaced by explanation fragment (\": The correct match is as follows\")",
+    "861": "Question text replaced by explanation fragment; options merged with list codes",
+    "1193": "Question text replaced by explanation fragment; last option contains another question",
+    "1151": "List-I/List-II missing and options merged (\"4 2 1 3 c) 1 3 2 4\")",
+    "1038": "Keyed option D is identical to option A — two correct answers",
+    "461": "Stem and statement 1 subject missing (\"It is a technique…\" — what is?)",
+    "1156": "Stem missing before the numbered statements",
+    "124": "Stem truncated (\"obtained by\")",
+    "133": "Stem truncated (\"called-\")",
+    "411": "Stem truncated (\"Knee- Syndrome”?\")",
+    "417": "Stem truncated (\"it will eventually lead to except-\")",
+    "453": "Stem truncated (\"industrial effluents of\")",
+    "458": "Stem truncated (\"indicator plant?\")",
+    "466": "Stem truncated (\"environment by\")",
+    "703": "Stem truncated (\"following rays in the atmosphere?\")",
+    "709": "Stem truncated (\"destroyed by which of the following?\")",
+    "749": "Stem truncated (\"generational sensibility in respect of use of\")",
+    "762": "Stem truncated (starts at \"adopted by the UNDP…\")",
+    "764": "Stem truncated (\"mark is given to a product which is\")",
+    "767": "Stem truncated (\"to be achieved by:\")",
+    "779": "Stem truncated (starts at \"adopted by all United Nations Member States…\")",
+    "1122": "Stem truncated (starts at \"cover as an area more than one hectares…\")",
+    "1125": "Stem truncated (\"States of India?\")",
+    "1131": "Stem truncated (starts at \"how many states/union territories…\")",
+    "1140": "Stem truncated (\"of the following is not a category of forest?\")",
+    "1147": "Stem truncated (starts at \"having long roots and sharp thorns…\")",
+    "1160": "Stem truncated (\"India?\")",
+    "1162": "Stem truncated (\"total geographical area is about-\")",
+    "1174": "Stem truncated (\"the largest area in India?\")",
+    "1175": "Stem truncated (\"classified as sub-tropical?\")",
+    "1176": "Stem truncated (starts at \"which of the following is the most appropriate sequence…\")",
+    "706": "Stem truncated (starts at \"rays. Which of the following harms the ozone layer?\")"
+  }
+}

@@ -9,12 +9,9 @@ export interface Question {
   answerIndex: number;
   explanation: string;
   source: string;
-}
-
-export interface Bank {
-  version: string;
-  meta: { name: string; subject: string; count: number; note?: string };
-  questions: Question[];
+  /** Set by the content pipeline for questions kept only so old results can be reviewed. */
+  status?: "withdrawn" | "duplicate";
+  note?: string;
 }
 
 export type Mode = "practice" | "exam";
@@ -77,6 +74,10 @@ export interface QStat {
   last: boolean;
   /** last answered at (ms) */
   at: number;
+  /** Spaced-repetition box (0–4) while in the revision set; null/absent otherwise. */
+  box?: number | null;
+  /** When the next revision is due (ms). */
+  due?: number;
 }
 
 export type PaletteStatus = "notVisited" | "notAnswered" | "answered" | "marked" | "answeredMarked";

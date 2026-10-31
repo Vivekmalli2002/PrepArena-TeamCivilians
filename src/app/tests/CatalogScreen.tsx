@@ -42,7 +42,7 @@ export function CatalogScreen() {
       {dialog}
       <h1 className="font-display text-[28px] font-extrabold sm:text-4xl">Tests</h1>
       <p className="mt-1 text-sm text-muted">
-        {bank.meta.subject} · {bank.questions.length} questions
+        {bank.subject.name} · {bank.total} questions
       </p>
 
       <Segmented

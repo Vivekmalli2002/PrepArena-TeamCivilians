@@ -1,146 +1,252 @@
-// Validates the question bank and publishes it to public/data for the app.
-// Hard schema errors fail the build; quality warnings go to docs/content-audit.md
-// (run with --audit). Question text, options and keys are never modified here.
+// Validates the question bank, applies content/corrections.json, removes exact duplicates and
+// publishes it to public/data as a small index plus one file per topic.
+// Hard schema errors fail the build. `--audit` also writes docs/content-audit.md.
+// The source file is never modified; every change is driven by corrections.json and reported.
 import { createHash } from "node:crypto";
-import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const SRC = join(root, "content/team-civilians-questions.json");
-const OUT = join(root, "public/data/questions.json");
+const FIX = join(root, "content/corrections.json");
+const OUT = join(root, "public/data");
+const SUBJECT = { id: "env", name: "Environmental Science & Ecology" };
+// Keep in sync with ENV_TOPIC_UNITS in src/content/catalog.ts (syllabus unit per topic).
+const UNITS = {
+  "Ecology & Ecosystem": 1,
+  "Biodiversity & Conservation": 2,
+  "Sanctuary / Biosphere Reserve": 2,
+  Forest: 2,
+  "Non-conventional Energy Sources": 3,
+  Pollution: 4,
+  "Climate Change & Green House Gases": 6,
+  "Ozone Layer": 6,
+  "Environment Legislation & Conventions": 7,
+  "Environment Conservation": 8,
+  "Sustainable Development": 8,
+};
 
-const raw = readFileSync(SRC, "utf8");
-const bank = JSON.parse(raw);
-const qs = bank.questions;
+const rawText = readFileSync(SRC, "utf8");
+const fixText = readFileSync(FIX, "utf8");
+const bank = JSON.parse(rawText);
+const fixes = JSON.parse(fixText);
+const raw = bank.questions;
 
-const errors = [];
-const ids = new Set();
-for (const q of qs) {
-  const where = `id ${q.id}`;
-  if (!Number.isInteger(q.id)) errors.push(`${where}: id must be an integer`);
-  if (ids.has(q.id)) errors.push(`${where}: duplicate id`);
-  ids.add(q.id);
-  for (const k of ["topic", "question", "explanation", "source"]) {
-    if (typeof q[k] !== "string") errors.push(`${where}: ${k} must be a string`);
+/* ---------------- 1. schema validation (fails the build) ---------------- */
+function validate(qs, label) {
+  const errors = [];
+  const ids = new Set();
+  for (const q of qs) {
+    const where = `${label} id ${q.id}`;
+    if (!Number.isInteger(q.id)) errors.push(`${where}: id must be an integer`);
+    if (ids.has(q.id)) errors.push(`${where}: duplicate id`);
+    ids.add(q.id);
+    for (const k of ["topic", "question", "explanation", "source"]) {
+      if (typeof q[k] !== "string") errors.push(`${where}: ${k} must be a string`);
+    }
+    if (!q.question?.trim()) errors.push(`${where}: empty question`);
+    if (!Array.isArray(q.options) || q.options.length < 2 || q.options.length > 5) {
+      errors.push(`${where}: options must have 2–5 entries`);
+    } else if (!Number.isInteger(q.answerIndex) || q.answerIndex < 0 || q.answerIndex >= q.options.length) {
+      errors.push(`${where}: answerIndex ${q.answerIndex} out of range`);
+    }
+    if (q.subtopic != null && typeof q.subtopic !== "string") errors.push(`${where}: subtopic must be a string`);
   }
-  if (!q.question?.trim()) errors.push(`${where}: empty question`);
-  if (!Array.isArray(q.options) || q.options.length < 2 || q.options.length > 5) {
-    errors.push(`${where}: options must have 2–5 entries`);
-  } else if (!Number.isInteger(q.answerIndex) || q.answerIndex < 0 || q.answerIndex >= q.options.length) {
-    errors.push(`${where}: answerIndex ${q.answerIndex} out of range`);
+  if (errors.length) {
+    console.error(`Content validation failed (${errors.length}):\n` + errors.join("\n"));
+    process.exit(1);
   }
-  if (q.subtopic != null && typeof q.subtopic !== "string") errors.push(`${where}: subtopic must be a string`);
 }
-if (errors.length) {
-  console.error(`Content validation failed (${errors.length}):\n` + errors.join("\n"));
+validate(raw, "source");
+for (const id of Object.keys(fixes.quarantine)) {
+  if (!raw.some((q) => q.id === Number(id))) {
+    console.error(`corrections.json: quarantined id ${id} does not exist`);
+    process.exit(1);
+  }
+}
+
+/* ---------------- 2. corrections ---------------- */
+const strips = fixes.stripPatterns.map((p) => ({ re: new RegExp(p.pattern, "g"), why: p.why }));
+const dropRe = new RegExp(fixes.dropOptionsMatching.pattern, "i");
+const log = { stripped: [], droppedOption: [], renamedTopic: [] };
+
+const clean = (s) => {
+  let out = s;
+  for (const { re } of strips) out = out.replace(re, "");
+  return out.replace(/\s{2,}/g, " ").trim();
+};
+
+const corrected = raw.map((q) => {
+  const c = { ...q, options: [...q.options] };
+  const before = JSON.stringify([q.question, q.options, q.explanation, q.source]);
+  c.question = clean(c.question);
+  c.options = c.options.map(clean);
+  c.explanation = clean(c.explanation);
+  c.source = clean(c.source).replace(/^\|\s*|\s*\|$/g, "").trim();
+  if (JSON.stringify([c.question, c.options, c.explanation, c.source]) !== before) log.stripped.push(q.id);
+
+  // Drop "Question not attempted" — only when it is not the keyed answer, re-indexing the key.
+  const drop = c.options.map((o, i) => (dropRe.test(o) && i !== c.answerIndex ? i : -1)).filter((i) => i >= 0);
+  if (drop.length) {
+    c.answerIndex -= drop.filter((i) => i < c.answerIndex).length;
+    c.options = c.options.filter((_, i) => !drop.includes(i));
+    log.droppedOption.push(q.id);
+  }
+
+  const alias = fixes.topicAliases[c.topic];
+  if (alias) {
+    c.topic = alias;
+    log.renamedTopic.push(q.id);
+  }
+  return c;
+});
+validate(corrected, "corrected");
+// The keyed answer text must survive corrections unchanged (apart from stripped watermarks).
+for (let i = 0; i < raw.length; i++) {
+  if (clean(raw[i].options[raw[i].answerIndex]) !== corrected[i].options[corrected[i].answerIndex]) {
+    console.error(`Correction changed the keyed answer of id ${raw[i].id}`);
+    process.exit(1);
+  }
+}
+
+/* ---------------- 3. exact duplicates ---------------- */
+const normQ = (s) => s.toLowerCase().replace(/\W/g, "");
+// Options keep separators so "II I III IV" ≠ "I II III IV".
+const normO = (s) => s.toLowerCase().replace(/[’']/g, "'").replace(/\s+/g, " ").replace(/[.\s]+$/, "").trim();
+const dupKey = (q) => normQ(q.question) + "|" + q.options.map(normO).join("|");
+const groups = new Map();
+for (const q of corrected) groups.set(dupKey(q), [...(groups.get(dupKey(q)) ?? []), q]);
+const quarantine = Object.fromEntries(Object.entries(fixes.quarantine).map(([k, v]) => [Number(k), v]));
+const duplicateOf = {};
+const conflicts = [];
+for (const g of groups.values()) {
+  if (g.length < 2) continue;
+  const keys = new Set(g.map((q) => q.answerIndex));
+  if (keys.size > 1) {
+    conflicts.push(g.map((q) => q.id));
+    continue;
+  }
+  const keep = g.filter((q) => !quarantine[q.id]).sort((a, b) => a.id - b.id)[0];
+  for (const q of g) if (keep && q.id !== keep.id && !quarantine[q.id]) duplicateOf[q.id] = keep.id;
+}
+const unhandled = conflicts.filter((g) => g.some((id) => !quarantine[id]));
+if (unhandled.length) {
+  console.error("Duplicates with conflicting keys must be quarantined in corrections.json:", unhandled);
   process.exit(1);
 }
 
-const version = createHash("sha256").update(raw).digest("hex").slice(0, 12);
-mkdirSync(dirname(OUT), { recursive: true });
-writeFileSync(OUT, JSON.stringify({ version, meta: bank.meta, questions: qs }));
-console.log(`content: ${qs.length} questions validated → public/data/questions.json (v${version})`);
+/* ---------------- 4. publish: index + one file per topic ---------------- */
+const version = createHash("sha256").update(rawText).update(fixText).digest("hex").slice(0, 12);
+const slug = (s) => s.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const byTopic = new Map();
+for (const q of corrected) byTopic.set(q.topic, [...(byTopic.get(q.topic) ?? []), q]);
+
+rmSync(OUT, { recursive: true, force: true });
+mkdirSync(join(OUT, "q"), { recursive: true });
+const topics = [];
+for (const [name, qs] of [...byTopic].sort((a, b) => b[1].length - a[1].length)) {
+  const out = qs.map((q) => {
+    if (quarantine[q.id]) return { ...q, status: "withdrawn", note: quarantine[q.id] };
+    if (duplicateOf[q.id]) return { ...q, status: "duplicate", note: `Same as #${duplicateOf[q.id]}` };
+    return q;
+  });
+  const body = JSON.stringify(out);
+  const file = `q/${slug(name)}.${createHash("sha256").update(body).digest("hex").slice(0, 10)}.json`;
+  writeFileSync(join(OUT, file), body);
+  topics.push({
+    name,
+    subject: SUBJECT.id,
+    unit: UNITS[name] ?? null,
+    file,
+    qids: out.filter((q) => !q.status).map((q) => q.id),
+    all: out.map((q) => q.id),
+    subtopics: [...new Set(out.filter((q) => !q.status && q.subtopic).map((q) => q.subtopic))].map((s) => ({
+      name: s,
+      qids: out.filter((q) => !q.status && q.subtopic === s).map((q) => q.id),
+    })),
+  });
+}
+const active = topics.reduce((n, t) => n + t.qids.length, 0);
+writeFileSync(join(OUT, "index.json"), JSON.stringify({ version, subject: SUBJECT, meta: bank.meta, total: active, topics }));
+console.log(
+  `content v${version}: ${raw.length} questions → ${active} active in ${topics.length} topics ` +
+    `(${Object.keys(quarantine).length} withdrawn, ${Object.keys(duplicateOf).length} duplicates hidden; ` +
+    `${log.stripped.length} cleaned, ${log.droppedOption.length} option-E removed, ${log.renamedTopic.length} re-topiced)`,
+);
 
 if (process.argv.includes("--audit")) writeAudit();
 
+/* ---------------- 5. audit report ---------------- */
 function writeAudit() {
-  const norm = (s) => s.toLowerCase().replace(/\W/g, "");
-  const groups = new Map();
-  for (const q of qs) {
-    const k = norm(q.question);
-    groups.set(k, [...(groups.get(k) ?? []), q]);
-  }
-  const dups = [...groups.values()].filter((g) => g.length > 1);
-  const answerText = (q) => norm(q.options[q.answerIndex]);
-  const conflicting = dups.filter((g) => new Set(g.map(answerText)).size > 1);
-  const notAttempted = qs.filter((q) => q.options.some((o) => /question not attempt/i.test(o)));
-  const odd = qs.filter((q) => q.options.length < 4);
-  const embeddedOption = qs.filter((q) => q.options.some((o) => /\s[a-e]\)\s/.test(o)));
-  const artefact = qs.filter((q) => /\bYCT\b/.test([q.question, ...q.options, q.explanation, q.source].join(" ")));
-  const truncated = qs.filter(
-    (q) => /^[a-z]/.test(q.question.trim()) || (/(^|\s)2\.\s/.test(q.question) && /(^|\s)3\.\s/.test(q.question) && !/(^|\s)1\.\s?\S/.test(q.question)),
-  );
-  const dupOptions = qs.filter((q) => new Set(q.options.map(norm)).size < q.options.length);
-  const badSource = qs.filter((q) => !/\d{4}/.test(q.source));
-  const topics = Object.entries(
-    qs.reduce((m, q) => ((m[q.topic] = (m[q.topic] ?? 0) + 1), m), {}),
-  ).sort((a, b) => b[1] - a[1]);
+  const pipe = (s) => s.replace(/\|/g, "/");
+  const truncated = (qs) =>
+    qs.filter(
+      (q) =>
+        /^[a-z:]/.test(q.question.trim()) ||
+        (/(^|\s)2\.\s/.test(q.question) && /(^|\s)3\.\s/.test(q.question) && !/(^|\s)1\.\s?\S/.test(q.question)),
+    );
+  const dupOptions = (qs) => qs.filter((q) => new Set(q.options.map(normO)).size < q.options.length);
+  const merged = (qs) => qs.filter((q) => q.options.some((o) => /\s[a-e]\)\s\S/.test(o)));
+  const short = (qs) => qs.filter((q) => q.options.length < 4);
+  const watermark = (qs) => qs.filter((q) => /\bYCT\b|TCPDF/.test([q.question, ...q.options, q.explanation, q.source].join(" ")));
+  const noYear = (qs) => qs.filter((q) => !/\d{4}/.test(q.source));
+  const notAttempted = (qs) => qs.filter((q) => q.options.some((o) => dropRe.test(o)));
+  const live = corrected.filter((q) => !quarantine[q.id] && !duplicateOf[q.id]);
+  const dupCount = [...groups.values()].filter((g) => g.length > 1).length;
 
-  const row = (q) =>
-    `| ${q.id} | ${q.topic} | ${q.source} | ${q.options[q.answerIndex].replace(/\|/g, "/")} |`;
+  const row = (label, a, b) => `| ${label} | ${a} | ${b} |`;
   const lines = [
     "# Content audit",
     "",
-    `Generated by \`npm run content:audit\` from \`content/team-civilians-questions.json\` (v${version}).`,
-    "Nothing below has been changed in the data — these are items for an editor to review.",
+    `Generated by \`npm run content:audit\` (content v${version}). Source: \`content/team-civilians-questions.json\` (never modified).`,
+    "Corrections come from `content/corrections.json` and are applied at build time.",
     "",
-    `- Questions: **${qs.length}** across **${topics.length}** topics`,
-    `- Exact-duplicate question texts: **${dups.length}** groups`,
-    `- …of which the answer keys **disagree**: **${conflicting.length}** groups (highest priority)`,
-    `- Questions with fewer than 4 options: **${odd.length}**`,
-    `- Options that look like several options merged together: **${embeddedOption.length}**`,
-    `- Questions carrying a "Question not attempted" option: **${notAttempted.length}**`,
-    `- Text containing a leftover publisher watermark ("YCT"): **${artefact.length}**`,
-    `- Questions that look truncated (start mid-sentence, or statements begin at "2."): **${truncated.length}**`,
-    `- Questions with two identical options: **${dupOptions.length}**`,
-    `- Sources with no year (possibly mis-parsed): **${badSource.length}**`,
+    `**${raw.length}** source questions → **${active}** live in tests · **${Object.keys(quarantine).length}** withdrawn for editing · **${Object.keys(duplicateOf).length}** exact duplicates hidden.`,
     "",
-    "## Topics",
+    "## Before → after",
     "",
-    "| Topic | Questions |",
+    "| Check | Source | Live in tests |",
+    "|---|---|---|",
+    row("Publisher watermark (\"YCT\") / PDF footer", watermark(raw).length, watermark(live).length),
+    row("Duplicate groups (same question **and** options)", dupCount, 0),
+    row("…of which the answer keys disagree", conflicts.length, 0),
+    row("Stem looks truncated", truncated(raw).length, truncated(live).length),
+    row("Two identical options", dupOptions(raw).length, dupOptions(live).length),
+    row("Options merged together", merged(raw).length, merged(live).length),
+    row("\"Question not attempted\" option", notAttempted(raw).length, notAttempted(live).length),
+    row("Fewer than 4 options", short(raw).length, short(live).length),
+    row("Source with no year", noYear(raw).length, noYear(live).length),
+    "",
+    "## Automatic corrections",
+    "",
+    `- **Watermarks stripped** from ${log.stripped.length} questions: ${strips.map((s) => s.why).join("; ")}.`,
+    `- **Option E \"Question not attempted\" removed** from ${log.droppedOption.length}: ${log.droppedOption.join(", ")} (never the keyed answer).`,
+    `- **Topic merged** for ${log.renamedTopic.length}: ${Object.entries(fixes.topicAliases).map(([a, b]) => `\`${a}\` → \`${b}\``).join(", ")}.`,
+    "- The build fails if any correction would change a keyed answer.",
+    "",
+    "## Withdrawn for editing (excluded from tests and flashcards)",
+    "",
+    "Remove an id from `quarantine` in `content/corrections.json` once the source is fixed.",
+    "",
+    "| id | reason |",
     "|---|---|",
-    ...topics.map(([t, n]) => `| ${t} | ${n} |`),
+    ...Object.entries(quarantine).map(([id, why]) => `| ${id} | ${pipe(why)} |`),
     "",
-    "Note: `Ecosystem` and `Ecology & Ecosystem` look like the same chapter split in two.",
+    "## Hidden duplicates (the lowest id is kept)",
     "",
-    "## 1. Duplicates with conflicting answer keys",
+    Object.entries(duplicateOf).map(([id, keep]) => `${id} → ${keep}`).join(", ") || "—",
     "",
-    "Same question text, different keyed answer. One of each group is likely wrong.",
+    "## Still live — worth a look",
     "",
-    ...conflicting.flatMap((g) => ["| id | topic | source | keyed answer |", "|---|---|---|---|", ...g.map(row), ""]),
-    "## 2. Malformed / short option lists",
+    "Answerable but imperfect, so they stay in tests:",
     "",
-    "| id | options |",
+    "| id | issue |",
     "|---|---|",
-    ...[...new Set([...odd, ...embeddedOption])].map(
-      (q) => `| ${q.id} | ${q.options.map((o) => o.replace(/\|/g, "/")).join(" · ")} |`,
-    ),
-    "",
-    "## 3. Publisher watermark leftovers (\"YCT\")",
-    "",
-    artefact.map((q) => q.id).join(", "),
-    "",
-    "## 3b. Possibly truncated question stems",
-    "",
-    "| id | starts with |",
-    "|---|---|",
-    ...truncated.map((q) => `| ${q.id} | ${q.question.slice(0, 70).replace(/\|/g, "/")}… |`),
-    "",
-    "## 3c. Identical options within a question",
-    "",
-    "| id | options |",
-    "|---|---|",
-    ...dupOptions.map((q) => `| ${q.id} | ${q.options.map((o) => o.replace(/\|/g, "/")).join(" · ")} |`),
-    "",
-    "## 4. Sources with no year",
-    "",
-    "| id | source |",
-    "|---|---|",
-    ...badSource.map((q) => `| ${q.id} | ${q.source} |`),
-    "",
-    "## 5. Duplicates with matching answers (safe to merge later)",
-    "",
-    dups
-      .filter((g) => !conflicting.includes(g))
-      .map((g) => g.map((q) => q.id).join(" = "))
-      .join(", "),
-    "",
-    "## 6. \"Question not attempted\" options",
-    "",
-    "Carried over from the source papers (some PSCs add it as option E). It is never the keyed answer.",
-    "",
-    notAttempted.map((q) => q.id).join(", "),
+    ...dupOptions(live).map((q) => `| ${q.id} | Two identical options (neither is the key): ${q.options.map(pipe).join(" · ")} |`),
+    ...short(live).map((q) => `| ${q.id} | Only ${q.options.length} options: ${q.options.map(pipe).join(" · ")} |`),
+    ...truncated(live).map((q) => `| ${q.id} | Possibly truncated: ${pipe(q.question.slice(0, 60))}… |`),
+    ...noYear(live).map((q) => `| ${q.id} | Source looks mis-parsed: ${pipe(q.source)} |`),
     "",
   ];
   mkdirSync(join(root, "docs"), { recursive: true });

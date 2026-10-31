@@ -14,6 +14,7 @@ import { dayKey } from "@/lib/random";
 import { scoreAttempt } from "@/lib/scoring";
 import { currentStreak, useApp, useHydrated, useSession } from "@/lib/store";
 import { weakAreaTest } from "@/lib/tests";
+import { BackupCard } from "@/components/BackupCard";
 import { useStartTest } from "@/components/useStartTest";
 import { Button, ButtonLink, Card, PageSkeleton, SectionTitle, Sheet, Skeleton, cx, enter } from "@/components/ui";
 
@@ -66,6 +67,9 @@ export function ProgressScreen() {
             Take a test
           </ButtonLink>
         </Card>
+        <div className="mt-4">
+          <BackupCard />
+        </div>
       </div>
     );
 
@@ -84,7 +88,7 @@ export function ProgressScreen() {
         <Tile
           icon={<Layers size={18} />}
           tone="text-primary"
-          label={`of ${bank.questions.length} practised`}
+          label={`of ${bank.total} practised`}
           value={String(seen)}
         />
         <Tile icon={<Flame size={18} />} tone="text-orange-500" label="Day streak" value={String(streak)} />
@@ -251,6 +255,9 @@ export function ProgressScreen() {
             })}
         </Card>
       </motion.div>
+
+      <SectionTitle>Your data</SectionTitle>
+      <BackupCard />
 
       <div className="mt-10 text-center">
         <button onClick={() => setResetOpen(true)} className="text-sm font-semibold text-muted hover:text-bad">

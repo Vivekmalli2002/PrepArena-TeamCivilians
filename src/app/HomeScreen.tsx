@@ -9,20 +9,23 @@ import {
   GraduationCap,
   Layers,
   Play,
+  RotateCcw,
   Target,
   Timer,
   Trophy,
 } from "lucide-react";
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { examById, subjectsForExam } from "@/content/catalog";
+import { examById } from "@/content/catalog";
 import { useBank } from "@/lib/bank";
 import { fmtClock, pct } from "@/lib/format";
 import { dayKey } from "@/lib/random";
 import { scoreAttempt } from "@/lib/scoring";
+import { isDue } from "@/lib/srs";
 import { currentStreak, useApp, useHydrated, useSession } from "@/lib/store";
 import { dailyQuiz, fullMock, FULL_MOCK, topicSets, topicSetTest } from "@/lib/tests";
 import { ExamPicker } from "@/components/ExamPicker";
+import { PapersSection } from "@/components/PapersSection";
 import { Onboarding } from "@/components/Onboarding";
 import { ProgressRing } from "@/components/ProgressRing";
 import { useStartTest } from "@/components/useStartTest";
@@ -52,7 +55,6 @@ function Dashboard() {
   const [examOpen, setExamOpen] = useState(false);
 
   const exam = examById(profile.examId);
-  const subjects = subjectsForExam(profile.examId);
   const schemeId = exam?.schemeId ?? "appsc";
   const today = dayKey();
   const dailyDone = attempts.find((a) => a.config.key === `daily:${today}`);
@@ -79,6 +81,9 @@ function Dashboard() {
     const i = idx === -1 ? 0 : idx;
     return { topic, i, set: sets[i], total: sets.length };
   }, [bank, attempts, qstats]);
+
+  const [now] = useState(() => Date.now());
+  const dueCount = useMemo(() => Object.values(qstats).filter((s) => isDue(s, now)).length, [qstats, now]);
 
   const inProgress = session?.started ? session : null;
   const answered = inProgress?.responses.filter((r) => r != null).length ?? 0;
@@ -193,6 +198,23 @@ function Dashboard() {
         </motion.div>
       </div>
 
+      {dueCount > 0 && (
+        <motion.div variants={enter.item} className="mt-3">
+          <Link href="/learn">
+            <Card className="flex items-center gap-4 p-4 transition hover:-translate-y-0.5">
+              <div className="grid size-12 shrink-0 place-items-center rounded-2xl bg-bad-soft text-bad">
+                <RotateCcw size={22} />
+              </div>
+              <div className="min-w-0 flex-1">
+                <h3 className="font-display font-bold">{dueCount} due for revision</h3>
+                <p className="text-sm text-muted">Questions you missed, back on schedule — a few minutes now saves marks later.</p>
+              </div>
+              <ChevronRight size={18} className="text-muted" />
+            </Card>
+          </Link>
+        </motion.div>
+      )}
+
       {/* Quick stats */}
       <SectionTitle
         action={
@@ -213,48 +235,20 @@ function Dashboard() {
           value={stats.tests ? pct(stats.accuracy) : "—"}
         />
         <Card className="flex items-center gap-3 p-4">
-          <ProgressRing value={bank ? stats.seen / bank.questions.length : 0} size={44} stroke={5}>
+          <ProgressRing value={bank ? stats.seen / bank.total : 0} size={44} stroke={5}>
             <Layers size={15} className="text-primary" />
           </ProgressRing>
           <div>
             <div className="font-display text-xl font-bold tabular">{stats.seen}</div>
-            <div className="text-xs text-muted">of {bank?.questions.length ?? "…"} practised</div>
+            <div className="text-xs text-muted">of {bank?.total ?? "…"} practised</div>
           </div>
         </Card>
       </motion.div>
 
-      {/* Subjects for this exam */}
-      <SectionTitle>Subjects for {exam?.short}</SectionTitle>
-      <motion.div variants={enter.item} className="grid gap-3 sm:grid-cols-2">
-        {subjects
-          .filter((s) => s.hasContent)
-          .map((s) => (
-            <Link key={s.id} href="/tests">
-              <Card className="flex items-center gap-3 p-4 transition hover:-translate-y-0.5">
-                <div className="min-w-0 flex-1">
-                  <div className="font-semibold">{s.name}</div>
-                  <div className="text-sm text-muted">
-                    {bank ? `${bank.questions.length} questions · ${bank.topics.length} topics` : "Loading…"}
-                  </div>
-                </div>
-                <ChevronRight size={18} className="text-muted" />
-              </Card>
-            </Link>
-          ))}
-        {subjects.some((s) => !s.hasContent) && (
-          <Card className="p-4">
-            <div className="text-sm font-semibold text-muted">Coming soon</div>
-            <div className="mt-2 flex flex-wrap gap-1.5">
-              {subjects
-                .filter((s) => !s.hasContent)
-                .map((s) => (
-                  <span key={s.id} className="rounded-full border border-hairline px-2.5 py-1 text-xs text-muted">
-                    {s.name}
-                  </span>
-                ))}
-            </div>
-          </Card>
-        )}
+      {/* Papers for this exam */}
+      <SectionTitle>Your papers · {exam?.short}</SectionTitle>
+      <motion.div variants={enter.item}>
+        <PapersSection examId={profile.examId} questionCount={bank?.total} />
       </motion.div>
 
       <Sheet open={examOpen} onClose={() => setExamOpen(false)} title="Target exam">

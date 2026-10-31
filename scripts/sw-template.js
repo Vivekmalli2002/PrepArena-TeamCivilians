@@ -67,9 +67,14 @@ self.addEventListener("fetch", (event) => {
 
   if (request.mode === "navigate") {
     event.respondWith(networkFirst(request, routeFor(url.pathname) ?? undefined));
-  } else if (url.pathname === "/data/questions.json") {
+  } else if (url.pathname === "/data/index.json") {
+    // Small index: serve instantly, refresh in the background so content fixes arrive.
     event.respondWith(staleWhileRevalidate(request));
-  } else if (url.pathname.startsWith("/_next/static/") || url.pathname.startsWith("/icons/")) {
+  } else if (
+    url.pathname.startsWith("/_next/static/") ||
+    url.pathname.startsWith("/icons/") ||
+    url.pathname.startsWith("/data/q/") // content-hashed topic files
+  ) {
     event.respondWith(cacheFirst(request));
   } else if (url.pathname.endsWith(".txt")) {
     // RSC payloads for client-side navigation; the ?_rsc cache-buster varies per request.

@@ -3,9 +3,9 @@
 import { useSyncExternalStore } from "react";
 import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
-import type { LoadedBank } from "./bank";
 import { dayKey, uid } from "./random";
-import type { Attempt, PaletteStatus, QStat, Session, TestConfig } from "./types";
+import { graduate, review } from "./srs";
+import type { Attempt, PaletteStatus, QStat, Question, Session, TestConfig } from "./types";
 
 const MAX_ATTEMPTS = 300;
 
@@ -31,8 +31,12 @@ interface AppState {
   setTheme: (t: Theme) => void;
   toggleBookmark: (id: number) => void;
   addAttempt: (a: Attempt) => void;
-  /** Flashcard "got it": drop the question from the revision set without counting it as a test answer. */
+  /** Flashcard self-grading: moves the question through the revision boxes without counting it as a test answer. */
+  rateCard: (id: number, knewIt: boolean) => void;
+  /** "I've learnt this": take the question out of the revision set. */
   clearFromRevision: (id: number) => void;
+  /** Replace everything with an imported backup. */
+  restore: (s: Pick<AppState, "profile" | "theme" | "attempts" | "qstats" | "bookmarks" | "activeDays">) => void;
   setInstallPrompt: (s: AppState["installPrompt"]) => void;
   resetAll: () => void;
 }
@@ -65,7 +69,7 @@ export const useApp = create<AppState>()(
             if (r == null) return;
             const prev = qstats[id] ?? { n: 0, c: 0, last: false, at: 0 };
             const ok = r === a.key[i];
-            qstats[id] = { n: prev.n + 1, c: prev.c + (ok ? 1 : 0), last: ok, at: a.finishedAt };
+            qstats[id] = review({ ...prev, n: prev.n + 1, c: prev.c + (ok ? 1 : 0), last: ok, at: a.finishedAt }, ok, a.finishedAt);
           });
           const day = dayKey(new Date(a.finishedAt));
           return {
@@ -74,14 +78,38 @@ export const useApp = create<AppState>()(
             activeDays: s.activeDays.includes(day) ? s.activeDays : [...s.activeDays, day],
           };
         }),
+      rateCard: (id, knewIt) =>
+        set((s) => {
+          const prev = s.qstats[id] ?? { n: 0, c: 0, last: knewIt, at: Date.now() };
+          return { qstats: { ...s.qstats, [id]: review(prev, knewIt, Date.now()) } };
+        }),
       clearFromRevision: (id) =>
-        set((s) => (s.qstats[id] ? { qstats: { ...s.qstats, [id]: { ...s.qstats[id], last: true } } } : s)),
+        set((s) => (s.qstats[id] ? { qstats: { ...s.qstats, [id]: graduate(s.qstats[id]) } } : s)),
+      restore: (data) => set({ ...initial, ...data, installPrompt: "dismissed" }),
       setInstallPrompt: (installPrompt) => set({ installPrompt }),
       resetAll: () => set({ ...initial }),
     }),
-    { name: "tc-app", version: 1, storage: createJSONStorage(() => localStorage) },
+    {
+      name: "tc-app",
+      version: 2,
+      storage: createJSONStorage(() => localStorage),
+      migrate: (persisted, from) => migrateApp(persisted as Record<string, unknown>, from) as unknown as AppState,
+    },
   ),
 );
+
+/** v1 → v2: wrong answers enter the spaced-repetition revision set; retired exam ids are remapped. */
+export function migrateApp(state: Record<string, unknown>, from: number) {
+  const s = { ...state };
+  if (from < 2) {
+    const qstats = { ...((s.qstats as Record<number, QStat>) ?? {}) };
+    for (const [id, q] of Object.entries(qstats)) if (!q.last) qstats[Number(id)] = { ...q, box: 0, due: q.at };
+    s.qstats = qstats;
+    const profile = s.profile as Profile | null;
+    if (profile?.examId === "allied") s.profile = { ...profile, examId: "aswo" };
+  }
+  return s;
+}
 
 /* ------------------------------------------------------------------ */
 /* Live test session — its own key, because it is written every second. */
@@ -100,7 +128,7 @@ interface SessionState {
   restart: () => void;
   discard: () => void;
   /** Turns the session into an Attempt, records it, and returns its id. */
-  submit: (bank: LoadedBank) => string | null;
+  submit: (byId: Map<number, Question>) => string | null;
 }
 
 function fresh(config: TestConfig): Session {
@@ -187,7 +215,7 @@ export const useSession = create<SessionState>()(
           ),
         restart: () => update((s) => ({ ...fresh(s.config), started: true })),
         discard: () => set({ session: null }),
-        submit: (bank) => {
+        submit: (byId) => {
           const s = get().session;
           if (!s) return null;
           // In exam mode an unsaved selection on the open question is not evaluated, as in the CBT.
@@ -199,8 +227,8 @@ export const useSession = create<SessionState>()(
             marked: s.marked,
             qTimeMs: s.qTimeMs.map(Math.round),
             elapsedMs: Math.round(s.elapsedMs),
-            key: s.config.qids.map((id) => bank.byId.get(id)?.answerIndex ?? -1),
-            topics: s.config.qids.map((id) => bank.byId.get(id)?.topic ?? ""),
+            key: s.config.qids.map((id) => byId.get(id)?.answerIndex ?? -1),
+            topics: s.config.qids.map((id) => byId.get(id)?.topic ?? ""),
           };
           useApp.getState().addAttempt(attempt);
           set({ session: null });

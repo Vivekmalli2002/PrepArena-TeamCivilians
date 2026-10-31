@@ -12,7 +12,7 @@ import { Button, Card, Chip, Segmented } from "./ui";
 const POOLS: { value: Pool; label: string }[] = [
   { value: "all", label: "All" },
   { value: "unseen", label: "Unseen" },
-  { value: "wrong", label: "Wrong" },
+  { value: "revision", label: "Revise" },
   { value: "bookmarked", label: "Saved" },
 ];
 

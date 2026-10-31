@@ -17,7 +17,7 @@ import {
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
-import { useBank } from "@/lib/bank";
+import { useQuestions } from "@/lib/bank";
 import { fmtDuration, pct } from "@/lib/format";
 import { schemeById, scoreAttempt } from "@/lib/scoring";
 import { useApp, useHydrated } from "@/lib/store";
@@ -58,7 +58,7 @@ function verdictOf(a: Attempt, i: number) {
 }
 
 function Result({ attempt: a, attempts }: { attempt: Attempt; attempts: Attempt[] }) {
-  const { bank } = useBank();
+  const { byId } = useQuestions(a.config.qids);
   const bookmarks = useApp((s) => s.bookmarks);
   const installPrompt = useApp((s) => s.installPrompt);
   const { start, dialog } = useStartTest();
@@ -229,11 +229,11 @@ function Result({ attempt: a, attempts }: { attempt: Attempt; attempts: Attempt[
       </div>
 
       <div className="mt-4 space-y-4">
-        {!bank && <div className="skeleton h-64 rounded-3xl" />}
-        {bank &&
+        {!byId && <div className="skeleton h-64 rounded-3xl" />}
+        {byId &&
           shown.map((i) => {
             const qid = a.config.qids[i];
-            const q = bank.byId.get(qid);
+            const q = byId.get(qid);
             if (!q) return null;
             const v = verdictOf(a, i);
             const r = a.responses[i];
@@ -266,6 +266,11 @@ function Result({ attempt: a, attempts }: { attempt: Attempt; attempts: Attempt[
                     {marked ? <BookmarkCheck size={19} /> : <Bookmark size={19} />}
                   </button>
                 </div>
+                {q.status === "withdrawn" && (
+                  <p className="mb-3 rounded-xl bg-warn/10 px-3 py-2 text-sm text-warn">
+                    Withdrawn for correction: {q.note}. It no longer appears in tests.
+                  </p>
+                )}
                 <QuestionText text={q.question} className="!text-base" />
                 <div className="mt-3">
                   <Options q={q} stateOf={stateOf} disabled />
@@ -276,7 +281,7 @@ function Result({ attempt: a, attempts }: { attempt: Attempt; attempts: Attempt[
               </Card>
             );
           })}
-        {bank && !shown.length && <p className="py-8 text-center text-muted">Nothing here.</p>}
+        {byId && !shown.length && <p className="py-8 text-center text-muted">Nothing here.</p>}
       </div>
       <p className="mt-8 text-center text-sm">
         <Link href="/progress" className="font-semibold text-primary">

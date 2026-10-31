@@ -20,18 +20,18 @@ import {
 } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { useBank, type LoadedBank } from "@/lib/bank";
+import { useQuestions } from "@/lib/bank";
 import { fmtClock } from "@/lib/format";
 import { SCHEMES, schemeById } from "@/lib/scoring";
 import { paletteStatus, useApp, useHydrated, useSession } from "@/lib/store";
-import type { PaletteStatus, Session } from "@/lib/types";
+import type { PaletteStatus, Question, Session } from "@/lib/types";
 import { Explanation, Options, QuestionText, type OptionState } from "@/components/QuestionView";
 import { Button, ButtonLink, Card, Chip, PageSkeleton, Segmented, Sheet, cx } from "@/components/ui";
 
 export function Player() {
   const hydrated = useHydrated();
   const session = useSession((s) => s.session);
-  const { bank, error } = useBank();
+  const { byId, error } = useQuestions(session?.config.qids ?? null);
 
   if (!hydrated) return <Frame><PageSkeleton /></Frame>;
   if (!session)
@@ -47,9 +47,9 @@ export function Player() {
       </Frame>
     );
   if (error) return <Frame><p className="text-bad">{error}</p></Frame>;
-  if (!bank) return <Frame><PageSkeleton /></Frame>;
   if (!session.started) return <Instructions session={session} />;
-  return <Console session={session} bank={bank} />;
+  if (!byId) return <Frame><PageSkeleton /></Frame>;
+  return <Console session={session} byId={byId} />;
 }
 
 function Frame({ children }: { children: React.ReactNode }) {
@@ -179,7 +179,7 @@ function Instructions({ session }: { session: Session }) {
 /* ------------------------------------------------------------------ */
 /* The exam console. */
 
-function Console({ session, bank }: { session: Session; bank: LoadedBank }) {
+function Console({ session, byId }: { session: Session; byId: Map<number, Question> }) {
   const router = useRouter();
   const S = useSession.getState;
   const bookmarks = useApp((s) => s.bookmarks);
@@ -190,7 +190,7 @@ function Console({ session, bank }: { session: Session; bank: LoadedBank }) {
   const cfg = session.config;
   const n = cfg.qids.length;
   const i = session.current;
-  const q = bank.byId.get(cfg.qids[i])!;
+  const q = byId.get(cfg.qids[i])!;
   const practice = cfg.mode === "practice";
   // Practice is self-paced (count-up clock); only exam mode counts down and auto-submits.
   const timed = cfg.durationSec > 0 && !practice;
@@ -201,7 +201,7 @@ function Console({ session, bank }: { session: Session; bank: LoadedBank }) {
   const bookmarked = bookmarks.includes(q.id);
 
   const finish = () => {
-    const id = S().submit(bank);
+    const id = S().submit(byId);
     if (id) router.replace(`/results?id=${id}`);
   };
 
