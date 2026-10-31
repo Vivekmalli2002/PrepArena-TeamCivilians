@@ -76,6 +76,26 @@ describe("exam-pattern mocks", () => {
   });
 });
 
+describe("custom test split across topics", () => {
+  const geo = () => bank.topics.filter((t) => t.subject === "civil-geo" && t.qids.length >= 30).slice(0, 3);
+  it("follows a ratio and caps at what a topic holds", () => {
+    const ts = geo();
+    const values = { [ts[0].name]: 3, [ts[1].name]: 2, [ts[2].name]: 1 };
+    const t = customTest(bank, { topics: ts.map((x) => x.name), count: 30, minutes: 30, mode: "practice", schemeId: "appsc", pool: "all", split: { how: "ratio", values } }, {}, [])!;
+    const of = (n: string) => t.qids.filter((id) => bank.topicOf.get(id)!.name === n).length;
+    expect([of(ts[0].name), of(ts[1].name), of(ts[2].name)]).toEqual([15, 10, 5]);
+  });
+  it("gives exactly the typed number from each topic, and equal shares", () => {
+    const ts = geo();
+    const values = { [ts[0].name]: 7, [ts[1].name]: 0, [ts[2].name]: 4 };
+    const t = customTest(bank, { topics: ts.map((x) => x.name), count: 0, minutes: 0, mode: "practice", schemeId: "appsc", pool: "all", split: { how: "exact", values } }, {}, [])!;
+    expect(t.qids).toHaveLength(11);
+    const e = customTest(bank, { topics: ts.map((x) => x.name), count: 9, minutes: 9, mode: "practice", schemeId: "appsc", pool: "all", split: { how: "equal", values: {} } }, {}, [])!;
+    expect(e.qids).toHaveLength(9);
+    expect(new Set(e.qids.map((id) => bank.topicOf.get(id)!.name)).size).toBe(3);
+  });
+});
+
 describe("weightage from past papers", () => {
   it("is measured on real papers and sums to the questions counted", () => {
     const w = JSON.parse(readFileSync("src/content/civilWeights.json", "utf8"));
