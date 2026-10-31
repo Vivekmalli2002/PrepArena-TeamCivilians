@@ -273,6 +273,10 @@ function Result({ attempt: a, attempts }: { attempt: Attempt; attempts: Attempt[
                   </p>
                 )}
                 <QuestionText text={q.question} className="!text-base" />
+                {q.image && (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img src={q.image} alt="Figure for the question" className="mt-3 max-h-96 w-full rounded-xl border border-hairline bg-white object-contain" />
+                )}
                 <div className="mt-3">
                   <Options q={q} order={optionOrder(q.options, `${a.id}:${q.id}`)} stateOf={stateOf} disabled />
                 </div>

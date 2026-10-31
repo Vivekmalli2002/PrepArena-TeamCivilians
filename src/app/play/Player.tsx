@@ -375,6 +375,10 @@ function Console({ session, byId }: { session: Session; byId: Map<number, Questi
             >
               <Card strong className="p-4 sm:p-6">
                 <QuestionText text={q.question} />
+                {q.image && (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img src={q.image} alt="Figure for the question" className="mt-3 max-h-96 w-full rounded-xl border border-hairline bg-white object-contain" />
+                )}
               </Card>
               <div className="mt-4">
                 <Options q={q} order={order} stateOf={stateOf} onChoose={(o) => S().choose(o)} disabled={revealed} />
