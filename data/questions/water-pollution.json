@@ -1,0 +1,763 @@
+[
+ {
+  "id": "WAT-001",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Water treatment: coagulation & disinfection",
+  "question": "Chlorination is most common disinfection process in swimming pools. Which of the chemical causes respiratory and eye irritation around swimming pools immediately after disinfection process?",
+  "options": [
+   "Hypochlorous acid",
+   "Chlorine gas",
+   "Chloramines",
+   "Chlorine dioxide gas"
+  ],
+  "answerIndex": 2,
+  "explanation": "1. Chlorine in Pools:\nWhen chlorine is added to pool water, it typically forms hypochlorous acid\n(HOCl) and hypochlorite ions (OCl-). Both of these compounds are effective\ndisinfectants, killing bacteria and other pathogens to keep the pool safe for\nswimmers.\n2. Formation of Chloramines:\nChloramines are formed when chlorine reacts with nitrogen-containing\ncompounds, which are commonly introduced into the pool from swimmers'\nsweat, urine, skin cells, and other organic matter.\nThe reaction between chlorine and these compounds produces different\ntypes of chloramines, including monochloramine (NH2Cl), dichloramine\n(NHCl2), and trichloramine (NCl3).\n3. Chloramines and Irritation:\nMonochloramine and dichloramine can cause a mild level of irritation, but\ntrichloramine is particularly notorious for causing significant respiratory\nand eye irritation.\nTrichloramine is volatile, meaning it can easily become airborne and be\ninhaled, leading to irritation of the mucous membranes in the eyes, nose, and\nthroat.",
+  "source": "PYQ 2 Sep 2024",
+  "sourcePage": 3,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "WAT-002",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "BOD, COD & oxygen demand",
+  "question": "Which of the following statements are correct?\nA. BOD curve in lake water follows 1st order kinetic\nB. Ultimate BOD increases in direct proportion to concentration of degradable organic matter\nC. Oxygen depletion in lake water is related to both ultimate BOD and the rate constant (R)\nD. Numerical value of BOD rate constant does not depend on water temperature\nE. Numerical value of BOD rate constant does not depend on nature of the waste\nChoose the most appropriate answer from the options given below:",
+  "options": [
+   "A, B and D Only",
+   "B, C, D and E Only",
+   "A, B and C Only",
+   "A, B, C and D Only"
+  ],
+  "answerIndex": 2,
+  "explanation": "Let's analyze each statement to determine which are correct:\nA. BOD curve in lake water follows 1st order kinetic:\nThis statement is correct. The Biochemical Oxygen Demand (BOD) curve\ntypically follows first-order kinetics, meaning the rate of oxygen\nconsumption is proportional to the amount of degradable organic matter\nremaining.\nB. Ultimate BOD increases in direct proportion to concentration of\ndegradable organic matter:\nThis statement is also correct. The ultimate BOD (L) is directly proportional\nto the concentration of degradable organic matter present in the water.\nC. Oxygen depletion in lake water is related to both ultimate BOD and the\nrate constant (R):\nThis statement is correct. Oxygen depletion is influenced by both the\nultimate BOD and the rate constant (k), which together determine the rate at\nwhich oxygen is consumed.\nD. Numerical value of BOD rate constant does not depend on water\ntemperature:\nThis statement is incorrect. The BOD rate constant (k) is temperature-\ndependent and typically increases with increasing temperature.\nE. Numerical value of BOD rate constant does not depend on nature of the\nwaste:\nThis statement is also incorrect. The BOD rate constant (k) does depend on\nthe nature of the waste, as different organic materials have varying rates of\nbiodegradation.\nSo, the correct answers are: A, B, and C.",
+  "source": "PYQ 2 Sep 2024",
+  "sourcePage": 4,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "WAT-003",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Water chemistry",
+  "question": "Which of the following statements are correct?\nA. Arsenic is used in wood preservative.\nB. CrO₄²⁻ is water soluble.\nC. Arsenic is not a metal.\nD. Fe(III) is more soluble compared to Fe(II) in pure water.\nE. PbS and PbCO₃ are highly insoluble in water.\nChoose the most appropriate answer from the options given below:",
+  "options": [
+   "A and C Only",
+   "B, C, D and E Only",
+   "C and D Only",
+   "A, B, C and E Only"
+  ],
+  "answerIndex": 3,
+  "explanation": "Let's evaluate each statement:\nA. Arsenic is used in wood preservative:\nCorrect. Arsenic has been used in wood preservatives, notably in compounds\nsuch as chromated copper arsenate (CCA).\nB. CrO₄²⁻ (chromate ion) is water soluble:\nCorrect. Chromate salts are generally water-soluble.\nC. Arsenic is not a metal:\nCorrect. Arsenic is a metalloid, which means it has properties of both metals\nand non-metals.\nD. Fe³⁺ (Ferric iron) is more soluble compared to Fe²⁺ (Ferrous iron) in pure\nwater:\nIncorrect. Fe²⁺ (Ferrous iron) is generally more soluble in water compared to\nFe³⁺ (Ferric iron).\nE. PbS (Lead sulfide) and PbCO₃ (Lead carbonate) are highly insoluble in\nwater:\nCorrect. Both PbS and PbCO₃ are highly insoluble in water.\nBased on this analysis, the correct answer is: 4. A, B, C and E Only.\nFe²⁺ (Ferrous iron) is generally more soluble in water compared to Fe³⁺ (Ferric\niron) due to several factors related to their chemical properties:\n1. Charge and Ionic Size:\no Fe²⁺ has a +2 charge, whereas Fe³⁺ has a +3 charge. The higher charge\ndensity on Fe³⁺ leads to a stronger attraction to other negatively\ncharged species, making it more likely to form insoluble compounds.\n2. Hydrolysis and Precipitation:\no Fe³⁺ tends to undergo hydrolysis in water, forming Fe(OH)₃, which is\nhighly insoluble and precipitates out of the solution. Fe²⁺, on the other\nhand, forms Fe(OH)₂, which is relatively more soluble in water.\n3. Redox Chemistry:\no Fe²⁺ is more stable under reducing conditions, while Fe³⁺ is more\nstable under oxidizing conditions. In natural water systems, the\npresence of reducing agents can keep Fe²⁺ in solution, while Fe³⁺ is\nmore prone to precipitation.\n4. Complexation:\no Fe²⁺ can form soluble complexes with various ligands in water, such\nas chloride or sulfate ions, which enhances its solubility. Fe³⁺ also\nforms complexes, but these are often less soluble due to the higher\ncharge and tendency to hydrolyze.",
+  "source": "PYQ 2 Sep 2024",
+  "sourcePage": 6,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "WAT-004",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Wastewater treatment",
+  "question": "Identify the correct sequence of the following units in the sewage treatment scheme of a liquid stream:\n(A) Trickling filter\n(B) Primary settling tank\n(C) Grit chamber\n(D) Screen chamber\n(E) Secondary settling tank\nChoose the correct answer from the options given below:",
+  "options": [
+   "(D), (A), (B), (C), (E)",
+   "(D), (C), (B), (A), (E)",
+   "(C), (A), (D), (B), (E)",
+   "(A), (E), (D), (C), (B)"
+  ],
+  "answerIndex": 1,
+  "explanation": "To identify the correct sequence of units in the sewage treatment scheme for the\nliquid stream, let us review the typical steps involved:\n1. Screen chamber: Removes large debris and solid particles from sewage.\n2. Grit chamber: Removes heavier inorganic particles (like sand and gravel).\n3. Primary settling tank: Allows heavier organic solids to settle out of the\nliquid.\n4. Trickling filter: Provides biological treatment by allowing microorganisms\nto break down organic matter.\n5. Secondary settling tank: Removes suspended biological solids after the\ntrickling filter.\nBased on this typical sequence, the correct answer is:\n(2) (D), (C), (B), (A), (Ε)",
+  "source": "PYQ 5 Sep 2024",
+  "sourcePage": 9,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "WAT-005",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Membrane processes",
+  "question": "Arrange the following membrane processes in order of decreasing pore size :\n(A) Nanofiltration\n(B) Microfiltration\n(C) Ultrafiltration\n(D) Hyperfiltration\nChoose the correct answer from the options given below:",
+  "options": [
+   "(B), (C), (A), (D)",
+   "(A), (B), (C), (D)",
+   "(D), (A), (B), (C)",
+   "(C), (A), (B), (D)"
+  ],
+  "answerIndex": 0,
+  "explanation": "",
+  "source": "PYQ 5 Sep 2024",
+  "sourcePage": 11,
+  "sourceKey": "A",
+  "keyCheck": "supported-by-figure",
+  "flag": "No explanation text; the source table (MF 0.1–10 µm > UF 0.01–0.1 > NF 0.001–0.01 > hyperfiltration/RO) supports the key.",
+  "explanationImage": [
+   "p0011_4.png"
+  ]
+ },
+ {
+  "id": "WAT-006",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Water chemistry",
+  "question": "Which of the following DO NOT contribute to hardness of water ?\n(A) K⁺\n(B) Na⁺\n(C) Ca²⁺\n(D) Mg²⁺\n(E) Fe³⁺\nChoose the correct answer from the options given below :",
+  "options": [
+   "(A) and (B) Only",
+   "(C) and (D) Only",
+   "(B), (C) and (D) Only",
+   "(A), (B) and (E) Only"
+  ],
+  "answerIndex": 0,
+  "explanation": "",
+  "source": "PYQ 5 Sep 2024",
+  "sourcePage": 12,
+  "sourceKey": "A",
+  "keyCheck": "supported-by-figure",
+  "flag": "No explanation text; source table shows K⁺ and Na⁺ contribute none, Fe³⁺ moderate.",
+  "explanationImage": [
+   "p0012_5.png"
+  ]
+ },
+ {
+  "id": "WAT-007",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Water chemistry",
+  "question": "Match List - I with List - II.\nLIST-I (Water Contaminants)\nA. Mn²⁺\nB. Ca²⁺ and HCO₃⁻\nC. Trihalomethanes\nD. Mg²⁺\nLIST-II (Preferred Removal Method)\nI. Activated Carbon\nII. Raise pH by adding Na₂CO₃\nIII. Addition of lime\nIV. Oxidation\nChoose the correct answer from the options given below :",
+  "options": [
+   "(A)-(IV), (B)-(III), (C)-(I), (D)-(II)",
+   "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+   "(A)-(II), (B)-(III), (C)-(IV), (D)-(I)",
+   "(A)-(IV), (B)-(I), (C)-(II), (D)-(III)"
+  ],
+  "answerIndex": 0,
+  "explanation": "Let's match the water contaminants with their preferred removal methods:\nA. Mn²⁺ (Manganese) - IV. Oxidation: Manganese is typically removed from\nwater by oxidation, which converts soluble Mn²⁺ to insoluble MnO₂, which can\nthen be filtered out.\nB. Ca²⁺ and HCO₃⁻ (Calcium and Bicarbonate) - III. Addition of lime: This\nprocess is commonly used in water softening, where the addition of lime\n(Ca(OH)₂) helps to precipitate calcium carbonate (CaCO₃) and remove hardness.\nC. Trihalomethanes - I. Activated Carbon: Trihalomethanes (THMs) are\nremoved using activated carbon adsorption, which effectively traps these\ncompounds on its surface.\nD. Mg²⁺ (Magnesium) - II. Raise pH by adding Na₂CO₃: Magnesium hardness\ncan be reduced by raising the pH with sodium carbonate (Na₂CO₃), leading to the\nprecipitation of magnesium carbonate (MgCO₃).\nBased on this matching, the correct answer is:\n(1) (A)-(IV), (B)-(III), (C)-(I), (D)-(II)",
+  "source": "PYQ 5 Sep 2024",
+  "sourcePage": 13,
+  "sourceKey": "A",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "WAT-008",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Anaerobic digestion & bioreactors",
+  "question": "The volume of sludge in the digester divided by the volume of digested sludge withdrawn each day in an anaerobic process is known as:",
+  "options": [
+   "hydraulic retention time",
+   "solid retention time",
+   "total volatiles",
+   "slurry density"
+  ],
+  "answerIndex": 0,
+  "explanation": "The term you are looking for is hydraulic retention time (HRT).\nHydraulic retention time refers to the length of time that liquid (or sludge) remains\nin the digester, calculated as the volume of sludge in the digester divided by the\nvolume of digested sludge withdrawn each day. It is a critical parameter in the\ndesign and operation of anaerobic digesters as it influences the efficiency of the\ndigestion process.\nLet's dive into the details of the hydraulic retention time (HRT) in an anaerobic\ndigestion process:\nHydraulic Retention Time (HRT)\nDefinition: Hydraulic retention time (HRT) is the average time that liquid (or\nsludge) spends in a digester. It's a crucial parameter in anaerobic digestion because\nit affects the extent of the treatment process and the efficiency of biogas\nproduction.\nCalculation:\nAnaerobic Digestion Process\nAnaerobic digestion is a series of biological processes in which microorganisms\nbreak down organic matter in the absence of oxygen, producing biogas (mainly\nmethane and carbon dioxide) and digestate (a nutrient-rich substance). The process\noccurs in several stages:\n1. Hydrolysis:\no Complex organic matter (carbohydrates, proteins, and fats) is broken\ndown into simpler soluble compounds (sugars, amino acids, and fatty\nacids) by hydrolytic bacteria.\n2. Acidogenesis:\no Hydrolyzed compounds are converted into volatile fatty acids,\nhydrogen, and carbon dioxide by acidogenic bacteria.\n3. Acetogenesis:\no Volatile fatty acids are further broken down into acetic acid, hydrogen,\nand carbon dioxide by acetogenic bacteria.\n4. Methanogenesis:\no Methanogenic bacteria convert acetic acid, hydrogen, and carbon\ndioxide into methane and water. This stage is crucial for biogas\nproduction.\nRole of HRT in Anaerobic Digestion\nHRT is vital for ensuring that the microbial populations have sufficient time to\nbreak down the organic matter and produce biogas. The HRT affects several\nfactors:\n1. Efficiency:\no Longer HRT allows for more complete degradation of organic matter,\nresulting in higher biogas yield and better-quality digestate.\n2. Microbial Activity:\no Different microbial groups thrive at different stages of the digestion\nprocess. Adequate HRT ensures a balanced microbial ecosystem\nwithin the digester.\n3. Process Stability:\no Maintaining an appropriate HRT helps prevent process instability and\nissues such as acidification, which can inhibit methanogenesis and\nreduce biogas production.\n4. Volume of Digester:\no HRT influences the required volume of the digester. Shorter HRTs\nrequire larger volumes to achieve the same level of treatment as\nlonger HRTs.",
+  "source": "PYQ 5 Sep 2024",
+  "sourcePage": 14,
+  "sourceKey": "A",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "WAT-009",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Water treatment: coagulation & disinfection",
+  "question": "Which of the following is NOT a design parameter in flocculent settling ?",
+  "options": [
+   "Surface over flow rate",
+   "Depth of tank",
+   "Hydraulic retention time",
+   "Chemical coagulant dose"
+  ],
+  "answerIndex": 3,
+  "explanation": "In the context of flocculent settling, the design parameters typically include surface\noverflow rate, depth of tank, and hydraulic retention time. These parameters\ninfluence the settling behavior and the design of the sedimentation tank.\nHowever, the chemical coagulant dose is not a design parameter for the settling\nprocess itself. Instead, it is a parameter related to the chemical treatment process\nthat precedes or accompanies settling.\nTherefore, the correct answer is:\n(4) Chemical coagulant dose",
+  "source": "PYQ 5 Sep 2024",
+  "sourcePage": 17,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "WAT-010",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "BOD, COD & oxygen demand",
+  "question": "Identify the correct decreasing order of magnitude for Theoretical Oxygen Demand (ThOD), ultimate and 5-day Biochemical Oxygen Demand (BOD and BOD₅) and Chemical Oxygen Demand (COD) :\n(A) BOD₅\n(B) BOD (ultimate)\n(C) COD\n(D) ThOD\nChoose the correct answer from the options given below :",
+  "options": [
+   "(A), (B), (C), (D)",
+   "(D), (B), (C), (A)",
+   "(D), (B), (A), (C)",
+   "(D), (C), (B), (A)"
+  ],
+  "answerIndex": 3,
+  "explanation": "To determine the correct order, let's understand each parameter:\n1. Theoretical Oxygen Demand (ThOD):\nRepresents the maximum amount of oxygen required to completely oxidize\nthe organic and inorganic compounds in a sample to carbon dioxide and\nwater.\nTypically the highest value since it assumes complete oxidation.\n2. Chemical Oxygen Demand (COD):\nMeasures the total quantity of oxygen required to oxidize all organic\nmaterial into carbon dioxide and water using a strong chemical oxidant.\nUsually slightly less than ThOD because not all compounds may be oxidized\ncompletely in a chemical process.\n3. Ultimate Biochemical Oxygen Demand (BOD):\nRepresents the total amount of oxygen consumed by microorganisms during\nthe complete decomposition of organic matter in a sample.\nUsually lower than COD since it only measures the biodegradable portion of\norganic matter.\n4. 5-day Biochemical Oxygen Demand (BOD5):\nMeasures the amount of oxygen consumed by microorganisms during the\nfirst five days of decomposition.\nAlways lower than ultimate BOD because it only accounts for the initial\nperiod of biodegradation.\nGiven this understanding, the correct decreasing order of magnitude is:\n(4) (D), (C), (B), (A)\nThis means: ThOD > COD > BOD > BOD5.",
+  "source": "PYQ 5 Sep 2024",
+  "sourcePage": 18,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation",
+  "note": "Source prints the 'BOD' item (B) without 'ultimate'; the stem says 'ultimate and 5-day BOD', so (B) is ultimate BOD."
+ },
+ {
+  "id": "WAT-011",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Contaminants & standards",
+  "question": "The current recommended limit for perfluorooctanoic acid (PFOA), a commonly found PFAS (per-and polyfluoroalkyl substance), in drinking water as set by the US Environmental Protection Agency (EPA) is:",
+  "options": [
+   "4 parts per trillion (ppt)",
+   "20 parts per trillion (ppt)",
+   "70 parts per trillion (ppt)",
+   "100 parts per trillion (ppt)"
+  ],
+  "answerIndex": 0,
+  "explanation": "The current recommended limit for perfluorooctanoic acid (PFOA) in drinking\nwater, as set by the US Environmental Protection Agency (EPA), is 4 parts per\ntrillion (ppt).\nSo, the correct answer is:\n(1) 4 parts per trillion (ppt)",
+  "source": "PYQ 5 Sep 2024",
+  "sourcePage": 20,
+  "sourceKey": "A",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "WAT-012",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Water treatment: coagulation & disinfection",
+  "question": "Identify the coagulant aids :\n(A) Clay\n(B) Activated Silica\n(C) Polymers\n(D) Aluminium Sulfate\n(E) Ferric Sulfate\nChoose the correct answer from the options given below :",
+  "options": [
+   "(A) and (B) Only",
+   "(C), (D) and (E) Only",
+   "(A), (B) and (C) Only",
+   "(D) and (E) Only"
+  ],
+  "answerIndex": 2,
+  "explanation": "Let's identify the coagulant aids from the given options:\nCoagulant Aids:\nClay (A): Often used as a coagulant aid to enhance the flocculation process.\nActivated Silica (B): A common coagulant aid that improves the formation\nof flocs.\nPolymers (C): Frequently used as coagulant aids to increase floc size and\nimprove settling.\nPrimary Coagulants:\nAluminium Sulfate (D): A primary coagulant used to destabilize colloidal\nparticles.\nFerric Sulfate (E): Another primary coagulant used for similar purposes as\naluminium sulfate.\nGiven this information, the correct answer, indicating the substances that are\ncoagulant aids, is:\n(3) (A), (B) and (C) Only",
+  "source": "PYQ 5 Sep 2024",
+  "sourcePage": 21,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "WAT-013",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Contaminants & standards",
+  "question": "Which of the following is true for reductive dechlorination ?\n(A) It is also called dehalorespiration.\n(B) It is an aerobic process.\n(C) Hydrogen can be used as an alternate electron acceptor.\n(D) Halogenated organic compounds function as electron acceptor.\n(E) It is an environmentally insignificant process.\nChoose the correct answer from the options given below :",
+  "options": [
+   "(B) and (C) Only",
+   "(A) and (D) Only",
+   "(A) and (B) Only",
+   "(C) and (E) Only"
+  ],
+  "answerIndex": 1,
+  "explanation": "Let us analyze each statement to determine which ones are true for reductive\ndechlorination:\nA. It is also called dehalorespiration:\nTrue. Reductive dechlorination is also known as dehalorespiration. It is a\nprocess where certain bacteria use halogenated organic compounds as\nelectron acceptors.\nB. It is an aerobic process:\nFalse. Reductive dechlorination is an anaerobic process, meaning it occurs in\nthe absence of oxygen.\nC. Hydrogen can be used as an alternate electron acceptor:\nFalse. Hydrogen is actually used as an electron donor in reductive\ndechlorination, not as an electron acceptor.\nD. Halogenated organic compounds function as electron acceptor:\nTrue. In reductive dechlorination, halogenated organic compounds (e.g.,\nchlorinated solvents) function as electron acceptors.\nE. It is an environmentally insignificant process:\nFalse. Reductive dechlorination is environmentally significant as it is used\nfor the bioremediation of contaminated sites.\nGiven this analysis, the correct answer is:\n(2) (A) and (D) Only\nReductive Dechlorination: An Overview\nReductive dechlorination is a critical biochemical process used in the\nbiodegradation of halogenated organic compounds, particularly chlorinated\nsolvents. It's an anaerobic process, meaning it occurs in environments devoid of\noxygen. Let's break down the process in detail:\nKey Concepts\n1. Dehalorespiration:\no Also known as reductive dechlorination, this process involves certain\nanaerobic bacteria using halogenated organic compounds as electron\nacceptors during respiration.\no These bacteria gain energy by reducing these compounds, typically by\nremoving chlorine atoms and replacing them with hydrogen atoms.\n2. Electron Donors and Acceptors:\no Electron Donors: Compounds like hydrogen, organic acids, and\nalcohols are used as electron donors in the process.\no Electron Acceptors: Halogenated organic compounds, such as\ntetrachloroethene (PCE) and trichloroethene (TCE), function as\nelectron acceptors.\nMechanism of Reductive Dechlorination\n1. Initial Step:\no The process starts with the reduction of highly chlorinated\ncompounds, such as PCE, into less chlorinated intermediates through\nthe sequential removal of chlorine atoms.\no Each dechlorination step involves the transfer of electrons from the\nelectron donor to the halogenated compound.\n2. Intermediate Compounds:\no The sequential reduction of PCE yields intermediates such as\ntrichloroethene (TCE), dichloroethene (DCE), and vinyl chloride\n(VC).\n3. Complete Dechlorination:\no The final product of complete reductive dechlorination is typically\nethene, a non-toxic compound, or other harmless end-products.\no Here’s a simplified reaction sequence:\nPCE (C₂Cl₄) → TCE (C₂HCl₃) → DCE (C₂H₂Cl₂) → VC\n▪\n(C₂H₃Cl) → Ethene (C₂H₄)\nEnvironmental Significance\n1. Bioremediation:\no Reductive dechlorination is an essential process for the\nbioremediation of contaminated environments. It is used to clean up\nsites contaminated with chlorinated solvents, which are common\nindustrial pollutants.\n2. Sustainable Approach:\no This process offers a sustainable and cost-effective method for the\ndegradation of hazardous compounds without generating harmful by-\nproducts.\n3. Microbial Community:\no The process relies on specific microbial communities, often including\nmembers of the genera Dehalococcoides, Desulfitobacterium, and\nDehalobacter.\no These microorganisms possess specialized enzymes called reductive\ndehalogenases, which facilitate the dechlorination reaction.\nChallenges and Considerations\n1. Environmental Conditions:\no The efficiency of reductive dechlorination is influenced by\nenvironmental factors such as pH, temperature, and the presence of\nother electron acceptors (e.g., nitrate, sulfate) that may compete with\nthe halogenated compounds.\n2. Intermediate Toxicity:\no Some intermediates, like vinyl chloride, are more toxic than the parent\ncompounds, necessitating careful management and monitoring of the\nbiodegradation process.\nSummary Table\nResulting\nStage Process\nCompound\nInitial Step Reduction of PCE TCE\nIntermediate Step Further reduction DCE\nComplete Sequential removal of chlorine\nVC\nDechlorination atoms\nFinal Product Complete reduction Ethene\nIn summary, reductive dechlorination is a critical anaerobic process for the\nbiodegradation of chlorinated organic compounds, playing a vital role in\nenvironmental remediation and sustainable waste management.",
+  "source": "PYQ 5 Sep 2024",
+  "sourcePage": 23,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "WAT-014",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Nutrients & eutrophication",
+  "question": "Choose the incorrect statement",
+  "options": [
+   "Water bodies with extensive algal bloom have as high pH as 10",
+   "Removal of CO₂ by photosynthesis by algae is responsible for high pH",
+   "In dark hours, algae in water bodies increases pH of water",
+   "Water bodies with algal bloom experiences diurnal variation in pH"
+  ],
+  "answerIndex": 2,
+  "explanation": "Let's analyze each statement:\n(1) Water bodies with extensive algal bloom have as high pH as 10:\nCorrect. Algal blooms can cause the pH of water bodies to rise significantly,\nsometimes reaching as high as 10 due to the removal of CO₂ through\nphotosynthesis.\n(2) Removal of CO₂ by photosynthesis by algae is responsible for high pH:\nCorrect. During photosynthesis, algae remove CO₂ from the water, which\nreduces the concentration of carbonic acid and raises the pH.\n(3) In dark hours, algae in water bodies increases pH of water:\nIncorrect. During dark hours, algae respire instead of photosynthesizing,\nwhich means they consume oxygen and produce CO₂, leading to a decrease\nin pH.\n(4) Water bodies with algal bloom experiences diurnal variation in pH:\nCorrect. Water bodies with algal blooms typically experience diurnal\nvariations in pH, with higher pH levels during the day when photosynthesis\noccurs and lower pH levels at night when respiration occurs.\nGiven this analysis, the incorrect statement is:\n(3) In dark hours, algae in water bodies increases pH of water",
+  "source": "PYQ Jun 2024 (cancelled paper)",
+  "sourcePage": 28,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "WAT-015",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Water treatment: coagulation & disinfection",
+  "question": "Which of the following is not applied/used for disinfection of water?",
+  "options": [
+   "Hypochlorous acid",
+   "Chlorine dioxide",
+   "Ozone",
+   "Perchlorate"
+  ],
+  "answerIndex": 3,
+  "explanation": "Perchlorate is not used for disinfection of water.\nHypochlorous acid, chlorine dioxide, and ozone are commonly used disinfectants\nfor treating water. They effectively kill or inactivate harmful microorganisms,\nensuring that water is safe for consumption.\nTherefore, the correct answer is:\n(4) Perchlorate",
+  "source": "PYQ Jun 2024 (cancelled paper)",
+  "sourcePage": 29,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "WAT-016",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Nutrients & eutrophication",
+  "question": "Which of the phosphorus species will dominantly exist in the pH range of 3-7 in natural waters ?",
+  "options": [
+   "Insoluble Fe/Al phosphate",
+   "H₂PO₄⁻",
+   "HPO₄²⁻",
+   "Insoluble Ca phosphate"
+  ],
+  "answerIndex": 1,
+  "explanation": "In natural waters, the dominant phosphorus species present in the pH range of 3-7\nis H₂PO₄⁻ (dihydrogen phosphate ion).\nHere's why:\nH₂PO₄⁻ (Dihydrogen phosphate ion): In the pH range of 3-7, H₂PO₄⁻ is the\npredominant species. At lower pH values, it can coexist with H₃PO₄\n(phosphoric acid), but within this range, H₂PO₄⁻ is more dominant.\nHPO₄²⁻ (Hydrogen phosphate ion): This species becomes more prevalent\nat higher pH levels, generally above 7.\nInsoluble Fe/Al phosphate and Insoluble Ca phosphate: These species are\nnot dominant in dissolved form within the pH range of 3-7. They tend to\nprecipitate out of solution at certain pH levels but do not represent the\nprimary dissolved phosphorus species in this pH range.\nSo, the correct answer is: (2) H₂PO₄⁻",
+  "source": "PYQ Jun 2024 (cancelled paper)",
+  "sourcePage": 30,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation",
+  "explanationImage": [
+   "p0031_10.png"
+  ]
+ },
+ {
+  "id": "WAT-017",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Water chemistry",
+  "question": "Choose the incorrect statement:",
+  "options": [
+   "O₂ dissolved in surface water does not react chemically with water molecules",
+   "Carbon dioxide is insoluble in boiling water",
+   "Removal of CO₂ increases pH of water and changes alkalinity from carbonate to hydroxide",
+   "Addition of CO₂ in water increases CaCO₃ formation and precipitation"
+  ],
+  "answerIndex": 1,
+  "explanation": "Let's evaluate each statement:\n(1) O₂ dissolved in surface water does not react chemically with water\nmolecules:\nCorrect. Dissolved oxygen (O₂) in water does not chemically react with water\nmolecules (H₂O).\n(2) Carbon dioxide is insoluble in boiling water:\nIncorrect. Carbon dioxide is less soluble in boiling water compared to cold\nwater, but it is not completely insoluble. Some amount of CO₂ can still\ndissolve in boiling water.\n(3) Removal of CO₂ increases pH of water and changes alkalinity from\ncarbonate to hydroxide:\nCorrect. Removing CO₂ from water reduces carbonic acid, thereby increasing\nthe pH and shifting the alkalinity balance towards hydroxide ions.\n(4) Addition of CO₂ in water increases CaCO₃ formation and precipitation:\nCorrect. Addition of CO₂ can lead to the formation of carbonic acid, which in\nturn reacts with calcium ions to form calcium carbonate (CaCO₃) and causes\nits precipitation.\nGiven this analysis, the incorrect statement is:\n(2) Carbon dioxide is insoluble in boiling water",
+  "source": "PYQ Jun 2024 (cancelled paper)",
+  "sourcePage": 32,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation",
+  "flag": "Option 3 and 4 are chemically debatable in the source (CO₂ removal shifts alkalinity from bicarbonate→carbonate→hydroxide; added CO₂ dissolves rather than precipitates CaCO₃). Key B (CO₂ is not insoluble in boiling water) is the intended single clearly-false statement; confirm."
+ },
+ {
+  "id": "WAT-018",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Water treatment: coagulation & disinfection",
+  "question": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R).\nAssertion (A): Chlorine dioxide has certain advantages over free chlorine and hypochlorite in water disinfection.\nReason (R): Chlorine dioxide is an unstable gas and does not combine with ammonia or other natural organics to produce chloramines or chloroform.\nIn the light of the above statements, choose the most appropriate answer from the options given below:",
+  "options": [
+   "Both (A) and (R) are correct and (R) is the correct explanation of (A)",
+   "Both (A) and (R) are correct but (R) is not the correct explanation of (A)",
+   "(A) is correct but (R) is not correct",
+   "(A) is not correct but (R) is correct"
+  ],
+  "answerIndex": 0,
+  "explanation": "Let's analyze the Assertion (A) and Reason (R) statements:\nAssertion (A): Chlorine dioxide has certain advantages over free chlorine and\nhypochlorite in water disinfection.\nCorrect. Chlorine dioxide is known to be effective in water disinfection\nwith several advantages, such as a broad spectrum of microbial inactivation,\nfewer harmful by-products, and better performance in the presence of\norganic matter.\nReason (R): Chlorine dioxide is an unstable gas and does not combine with\nammonia or other natural organics to produce chloramines or chloroform.\nCorrect. Chlorine dioxide is indeed an unstable gas and does not react with\nammonia or natural organics to form chloramines or chloroform, unlike free\nchlorine or hypochlorite.\nGiven the analysis, both the Assertion (A) and the Reason (R) are correct, and the\nReason (R) provides the correct explanation for Assertion (A).\nSo, the most appropriate answer is:\n(1) Both (A) and (R) are correct and (R) is the correct explanation of (A)",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 34,
+  "sourceKey": "A",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "WAT-019",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Nutrients & eutrophication",
+  "question": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R).\nAssertion (A): Marl deposits are common in lakes/ponds having high amounts of Ca²⁺ and excessive algal growth\nReason (R): Removal of carbon dioxide through algal action tend to cause a shift in the form of alkalinity from bicarbonate to carbonate and from carbonate to hydroxide.\nIn the light of the above statements, choose the most appropriate answer from the options given below:",
+  "options": [
+   "Both (A) and (R) are correct and (R) is the correct explanation of (A)",
+   "Both (A) and (R) are correct but (R) is not the correct explanation of (A)",
+   "(A) is correct but (R) is not correct",
+   "(A) is not correct but (R) is correct"
+  ],
+  "answerIndex": 0,
+  "explanation": "Let us analyze the Assertion (A) and the Reason (R) statements:\nAssertion (A): Marl deposits are common in lakes/ponds having high amounts of\nCa²⁺ and excessive algal growth.\nCorrect. Marl deposits, which are primarily composed of calcium carbonate\n(CaCO₃), often form in water bodies with high calcium concentrations and\nsignificant algal growth.\nReason (R): Removal of carbon dioxide through algal action tends to cause a shift\nin the form of alkalinity from bicarbonate to carbonate and from carbonate to\nhydroxide.\nCorrect. When algae remove carbon dioxide during photosynthesis, it\nreduces the concentration of carbonic acid, causing the pH to rise. This shift\nin pH changes the form of alkalinity from bicarbonate (HCO₃⁻) to carbonate\n(CO₃²⁻) and, at even higher pH, to hydroxide (OH⁻).\nGiven this analysis, both Assertion (A) and Reason (R) are correct, and Reason (R)\nprovides a valid explanation for Assertion (A).\nTherefore, the most appropriate answer is:\n(1) Both (A) and (R) are correct and (R) is the correct explanation of (A)",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 36,
+  "sourceKey": "A",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "WAT-020",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Nutrients & eutrophication",
+  "question": "Which of the following bacteria preferentially accumulate phosphorous from water and are used in microbial phosphorous removal process.",
+  "options": [
+   "Achromobacter",
+   "Serratia",
+   "Acinetobacter",
+   "Nitrobacter"
+  ],
+  "answerIndex": 2,
+  "explanation": "The bacteria that preferentially accumulate phosphorus from water and are used in\nmicrobial phosphorus removal processes are known as polyphosphate-\naccumulating organisms (PAOs). Among the options provided, Acinetobacter is\nknown to be a PAO and is commonly used in enhanced biological phosphorus\nremoval (EBPR) processes.\nSo, the correct answer is:\n(3) Acinetobacter\nHere's an overview of the bacteria involved in the removal of phosphorous,\nchloride, and other impurities:\nPhosphorous Removal\nPhosphorous removal is primarily achieved through the action of Phosphate-\nAccumulating Organisms (PAOs). These bacteria, such as Candidatus\nAccumulibacter phosphatis and Candidatus Competibacter phosphatis, uptake\nand store phosphorus in the form of intracellular polyphosphates under specific\nanaerobic and aerobic conditions1. This process is known as Enhanced Biological\nPhosphorus Removal (EBPR).\nChloride Removal\nChloride removal can be facilitated by sulphate-reducing bacteria (SRB) and\ndenitrifying bacteria (DB). These bacteria can convert chloride ions into less\nharmful compounds through anaerobic dechlorination processes3. Additionally,\nhalophilic bacteria (salt-loving bacteria) are being explored for their potential to\nmetabolize chloride ions under specific conditions.\nOther Impurities\nVarious bacteria are involved in the removal of other impurities from wastewater:\nNitrifying bacteria (e.g., Nitrosomonas and Nitrobacter) convert\nammonia into nitrite and nitrate, which can then be further processed by\ndenitrifying bacteria to remove nitrogen compounds.\nSulfur-oxidizing bacteria (e.g., Thiobacillus) convert sulfides into sulfates,\naiding in the removal of sulfur compounds.\nFermentative bacteria break down complex organic compounds into\nsimpler substances, aiding in the degradation of organic pollutants.\nThese bacteria work together in wastewater treatment plants to remove various\nimpurities and ensure the treated water is safe for discharge or reuse.",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 38,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation",
+  "note": "Source prints options in the order (2),(1),(3),(4); restored to numeric order."
+ },
+ {
+  "id": "WAT-021",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "BOD, COD & oxygen demand",
+  "question": "Choose the correct statements :\n(A) The BOD test is an indirect measurement of organic matter present in water\n(B) Rate at which DO is consumed is directly proportional to biodegradable organic matter present at time 't'.\n(C) Standard BOD curve follows zero order kinetics\n(D) For one type of waste having defined BOD rate constant, ratio of ultimate BOD and BOD₅ is constant\n(E) Waste having same BOD₅ and different rate constant can have different ultimate BOD\nChoose the correct answer from the options given below :",
+  "options": [
+   "(B), (C), (D) and (E) Only",
+   "(A), (B), (C) and (D) Only",
+   "(A), (B), (D) and (E) Only",
+   "(A), (B), (C) and (E) Only"
+  ],
+  "answerIndex": 2,
+  "explanation": "Let's analyze each statement:\n(A): The BOD test is an indirect measurement of organic matter present in water.\nCorrect. BOD (Biochemical Oxygen Demand) measures the amount of\noxygen consumed by microorganisms to decompose organic matter in water.\nIt indirectly indicates the organic matter present.\n(B): Rate at which DO is consumed is directly proportional to biodegradable\norganic matter present at time 't'.\nCorrect. The rate of dissolved oxygen (DO) consumption is directly related\nto the concentration of biodegradable organic matter.\n(C): Standard BOD curve follows zero order kinetics.\nIncorrect. The BOD curve typically follows first-order kinetics, not zero-\norder. The rate of oxygen consumption decreases over time as the organic\nmatter is degraded.\n(D): For one type of waste having defined BOD rate constant, the ratio of ultimate\nBOD and BOD₅ is constant.\nCorrect. For a specific type of waste with a defined rate constant, the ratio\nof ultimate BOD (BOD₅) to BOD at any time is constant.\n(E): Waste having same BOD, and different rate constant can have different\nultimate BOD.\nCorrect. Wastes with the same initial BOD can have different ultimate BOD\nif they have different degradation rate constants.\nBased on this analysis, the correct answer is:\n(3) (A), (B), (D) and (E) Only",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 40,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation",
+  "note": "Source prints 'BOD,' in (E); read as BOD₅ (consistent with the explanation)."
+ },
+ {
+  "id": "WAT-022",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Water treatment: coagulation & disinfection",
+  "question": "Which of the following is NOT a characteristic property of coagulant used during water treatment process?",
+  "options": [
+   "Non toxic nature",
+   "Reduce surface charge on colloids and restrict repulsion among them",
+   "Soluble in neutral pH range",
+   "Trivalent cations are preferred over di and monovalent cations"
+  ],
+  "answerIndex": 2,
+  "explanation": "Let's analyze each statement:\n(1) Non-toxic nature:\nCoagulants used in water treatment must be non-toxic to ensure they do not\nharm human health or the environment.\n(2) Reduce surface charge on colloids and restrict repulsion among them:\nThis is a fundamental property of coagulants. They work by reducing the\nsurface charge on colloids, which helps to neutralize repulsive forces and\nallows particles to come together and form larger flocs.\n(3) Soluble in neutral pH range:\nWhile some coagulants are soluble in a neutral pH range, this is not a\nuniversal requirement. Coagulants can be effective across a range of pH\nlevels, and their solubility may vary.\n(4) Trivalent cations are preferred over di and monovalent cations:\nTrivalent cations (e.g., Al³⁺, Fe³⁺) are generally preferred over di- and\nmonovalent cations because they are more effective in neutralizing the\ncharge on colloidal particles and forming larger, more stable flocs.\nGiven this analysis, the statement that is NOT a characteristic property of\ncoagulants used during the water treatment process is:\n(3) Soluble in neutral pH range",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 42,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "WAT-023",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Anaerobic digestion & bioreactors",
+  "question": "Arrange the following phase of bioreactions as they occur from first to last in a bioreactor.\n(A) Acidogenesis\n(B) Methanogenesis\n(C) Maturation Phase\n(D) Transitional Phase\n(E) Aerobic biodegradation Phase\nChoose the correct answer from the options given below :",
+  "options": [
+   "(E), (A), (D), (B), (C)",
+   "(E), (D), (A), (B), (C)",
+   "(A), (B), (D), (E), (C)",
+   "(E), (A), (B), (D), (C)"
+  ],
+  "answerIndex": 1,
+  "explanation": "To arrange the phases of bioreactions as they occur from first to last in a bioreactor,\nlet's consider the typical sequence of microbial processes involved in\nbiodegradation and anaerobic digestion:\n1. Aerobic Biodegradation Phase (E): This phase involves the breakdown of\norganic matter in the presence of oxygen. It typically occurs at the beginning\nof the process where aerobic microbes are active.\n2. Transitional Phase (D): This phase represents a transition from the\nproduction of organic acids to the next step of the anaerobic digestion\nprocess, where intermediate compounds are further broken down.\n3. Acidogenesis (A): In this phase, anaerobic bacteria convert complex organic\nmatter into simpler organic acids, hydrogen, and carbon dioxide. This is one\nof the first steps in anaerobic digestion.\n4. Methanogenesis (B): In this phase, methanogenic archaea convert the\nintermediate products, such as acetic acid and hydrogen, into methane and\ncarbon dioxide. This is a crucial step in producing biogas.\n5. Maturation Phase (C): This final phase involves the stabilization and\nmaturation of the digested sludge. It ensures that the end-products are safe\nand suitable for disposal or use as fertilizer.\nSo, the correct order is: (E), (D), (A), (B), (C)",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 43,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "WAT-024",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Water chemistry",
+  "question": "Which of the following are common water vapour collection materials used for water vapour removal from ambient air?\n(A) Calcium sulphate\n(B) Silica gel\n(C) Sulfuric acid\n(D) Activated Alumina\n(E) Anhydrous Magnesium Perchlorate\nChoose the correct answer from the options given below :",
+  "options": [
+   "(A), (B) and (D) Only",
+   "(A), (B) and (E) Only",
+   "(A), (B), (C), (D) and (E)",
+   "(A), (B), (D) and (E) Only"
+  ],
+  "answerIndex": 2,
+  "explanation": "Common materials used for water vapor removal from ambient air include:\nCalcium sulfate (A): Also known as Drierite, it is widely used as a\ndesiccant to remove moisture from gases and air.\nSilica gel (B): A popular desiccant that effectively adsorbs water vapor from\nthe air.\nSulfuric acid (C): Used in some applications to absorb water vapor due to\nits high hygroscopic nature.\nActivated Alumina (D): A porous material that is commonly used as a\ndesiccant to adsorb water vapor.\nAnhydrous Magnesium Perchlorate (E): Known as Dehydrite, it is used as\na drying agent to remove water vapor from gases.\nGiven these points, the correct answer is:\n(3) (A), (B), (C), (D) and (E)",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 45,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "WAT-025",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Nutrients & eutrophication",
+  "question": "Given below are two statements:\nStatement I: Phosphorus cycle begins when phosphorous compounds leach from rocks and minerals over long period of time.\nStatement II: Phosphorus is mainly taken up by producer organism in the organic form.\nIn the light of the above statements, choose the correct answer from the options given below:",
+  "options": [
+   "Both Statement I and Statement II are true",
+   "Both Statement I and Statement II are false",
+   "Statement I is true but Statement II is false",
+   "Statement I is false but Statement II is true"
+  ],
+  "answerIndex": 2,
+  "explanation": "Let's analyze each statement:\nStatement I: Phosphorus cycle begins when phosphorous compounds leach from\nrocks and minerals over long period of time.\nTrue. The phosphorus cycle does indeed begin with the weathering of rocks\nand minerals, which releases phosphate ions into the soil and water over\nlong periods.\nStatement II: Phosphorus is mainly taken up by producer organisms in the organic\nform.\nFalse. Phosphorus is primarily taken up by producer organisms (such as\nplants and algae) in the inorganic form as phosphate ions (PO₄³⁻), not in the\norganic form.\nGiven this analysis, the correct answer is:\n(3) Statement I is true but Statement II is false",
+  "source": "PYQ Jun 2023",
+  "sourcePage": 47,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "WAT-026",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Nutrients & eutrophication",
+  "question": "Choose the correct statement (s)\nA. P occurs naturally in rocks and released in water by weathering.\nB. P exist as orthophosphate and organically bound phosphate in water.\nC. Dissolved inorganic P is also referred as soluble reactive phosphorus.\nD. P is limiting nutrient in aquatic system.\nE. It is difficult to differentiate between Zooplankton-P, bacterial-P, algae-P and inorganic P.\nChoose the most appropriate answer from the options given below:",
+  "options": [
+   "A, B, D and E only",
+   "A, B, C and D only",
+   "A, B, C, D and E only",
+   "B, C and D only"
+  ],
+  "answerIndex": 2,
+  "explanation": "Let's evaluate each statement:\nA. Phosphorus occurs naturally in rocks and is released in water by\nweathering:\nCorrect. Phosphorus is indeed found in rocks and minerals and is released\ninto water bodies through the process of weathering.\nB. Phosphorus exists as orthophosphate and organically bound phosphate in\nwater:\nCorrect. In water, phosphorus can exist in the form of orthophosphate\n(inorganic phosphate) as well as organically bound phosphate.\nC. Dissolved inorganic phosphorus is also referred to as soluble reactive\nphosphorus:\nCorrect. Dissolved inorganic phosphorus, particularly in the form of\northophosphate, is commonly referred to as soluble reactive phosphorus\n(SRP) because it is readily available for biological uptake.\nD. Phosphorus is a limiting nutrient in aquatic systems:\nCorrect. Phosphorus is often the limiting nutrient in freshwater systems,\nmeaning its availability can constrain the growth of algae and other aquatic\nplants.\nE. It is difficult to differentiate between Zooplankton-P, bacterial-P, algae-P,\nand inorganic P:\nCorrect. Differentiating between the different forms of phosphorus\n(zooplankton-P, bacterial-P, algae-P, and inorganic P) can be challenging due\nto their similar chemical properties and interactions in the aquatic\nenvironment.\nGiven this analysis, the correct answer is:\n(3) A, B, C, D and E",
+  "source": "PYQ Jun 2023",
+  "sourcePage": 48,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "WAT-027",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "BOD, COD & oxygen demand",
+  "question": "Standard Bio-chemical oxygen demand test is performed in 300 ml BOD bottle at",
+  "options": [
+   "25°C after 5 days",
+   "15°C after 5 days",
+   "20°C after 5 days",
+   "ambient temperature after 5 days"
+  ],
+  "answerIndex": 2,
+  "explanation": "The standard Biochemical Oxygen Demand (BOD) test is typically performed at\n20°C after 5 days in a 300 ml BOD bottle. This temperature and duration are\nchosen to standardize the test conditions and ensure comparability of results.\nTherefore, the correct answer is:\n(3) 20°C after 5 days",
+  "source": "PYQ Jun 2023",
+  "sourcePage": 50,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "WAT-028",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Water chemistry",
+  "question": "Calculate hardness in units of mg/l as CaCO₃ of a ground water sample having Ca²⁺ ion concentration of 100 mg/l.",
+  "options": [
+   "~5",
+   "~250",
+   "~5000",
+   "~200"
+  ],
+  "answerIndex": 1,
+  "explanation": "",
+  "source": "PYQ Mar 2023",
+  "sourcePage": 52,
+  "sourceKey": "B",
+  "keyCheck": "solution-in-image",
+  "explanationImage": [
+   "p0052_12.png"
+  ]
+ },
+ {
+  "id": "WAT-029",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Water treatment: coagulation & disinfection",
+  "question": "Choose the correct statements\nA. Temperature has a effect in disinfection treatment of water.\nB. pH controls the amount of HOCl and OCl⁻ in water.\nC. Cl₂ gas used for disinfection forms HCl as a product in water.\nD. Disinfection action is because of HOCl formed and not due to Cl₂ gas.\nE. Combined chlorine exist in water due to combination of HOCl with NH₃ and organic compounds.\nChoose the correct answer from the options given below:",
+  "options": [
+   "A, C and E only",
+   "B, C and D only",
+   "A, B, C, D and E",
+   "A, B, C and D only"
+  ],
+  "answerIndex": 2,
+  "explanation": "Let's evaluate each statement:\nA. Temperature has an effect in disinfection treatment of water:\nCorrect. Temperature can influence the effectiveness of disinfection\nprocesses. Higher temperatures generally enhance the disinfection rate.\nB. pH controls the amount of HOCI and OCI⁻ in water:\nCorrect. The pH of the water determines the ratio of hypochlorous acid\n(HOCl) to hypochlorite ion (OCl⁻). At lower pH, HOCl is predominant,\nwhile at higher pH, OCl⁻ is predominant.\nC. Cl₂ gas used for disinfection forms HCl as a product in water:\nCorrect. When chlorine gas (Cl₂) is added to water, it reacts to form\nhypochlorous acid (HOCl) and hydrochloric acid (HCl).\nD. Disinfection action is because of HOCl formed and not due to Cl₂ gas:\nCorrect. The primary disinfecting agent in chlorination is hypochlorous acid\n(HOCl), which is formed when chlorine gas dissolves in water. HOCl is\nmore effective than Cl₂ gas itself in disinfection.\nE. Combined chlorine exists in water due to the combination of HOCl with\nNH₃ and organic compounds:\nCorrect. Combined chlorine (chloramines) is formed when HOCl reacts\nwith ammonia (NH₃) and organic nitrogen compounds. Chloramines are\nused as disinfectants, though they are less effective than free chlorine.\nGiven this analysis, the correct answer is:\n(3) A, B, C, D and E",
+  "source": "PYQ Mar 2023",
+  "sourcePage": 53,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "WAT-030",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Nutrients & eutrophication",
+  "question": "Choose the correct statements\nA. Increase in temperature reduces DO in lake water.\nB. Agricultural run-off introduces turbidity in lake water.\nC. Sewage discharge increases both DO and BOD in lake water.\nD. Enrichment of nutrients speed-up the aging of lakes.\nE. Atmospheric exchange and photosynthesis introduces DO in lake water.\nChoose the correct answer from the options given below:",
+  "options": [
+   "A, C and D only",
+   "B, C, D and E only",
+   "A, B, C, D and E",
+   "A, B, D and E only"
+  ],
+  "answerIndex": 3,
+  "explanation": "Let's evaluate each statement:\nA. Increase in temperature reduces DO in lake water:\nCorrect. Higher temperatures decrease the solubility of oxygen in water,\nthereby reducing dissolved oxygen (DO) levels.\nB. Agricultural run-off introduces turbidity in lake water:\nCorrect. Agricultural runoff often contains soil particles and other materials\nthat increase turbidity in the water.\nC. Sewage discharge increases both DO and BOD in lake water:\nIncorrect. Sewage discharge typically increases BOD (Biochemical Oxygen\nDemand) but decreases DO because the organic matter in sewage consumes\noxygen during decomposition.\nD. Enrichment of nutrients speed-up the aging of lakes:\nCorrect. Nutrient enrichment, or eutrophication, accelerates the aging\nprocess of lakes by promoting excessive growth of algae and other aquatic\nplants.\nE. Atmospheric exchange and photosynthesis introduce DO in lake water:\nCorrect. Both atmospheric exchange and photosynthesis by aquatic plants\nand algae add dissolved oxygen to the water.\nGiven this analysis, the correct answer is:\n(4) A, B, D and E only",
+  "source": "PYQ Mar 2023",
+  "sourcePage": 55,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "WAT-031",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Nutrients & eutrophication",
+  "question": "Given below are two statements:\nStatement I: Soluble phosphorus is referred to as soluble reactive phosphorus and is a limiting nutrient in aquatic systems.\nStatement II: Speed of phosphorus movement between biotic and abiotic components, makes it difficult to differentiate between Zooplankton-P, bacterial-P, algae-P or even inorganic-P.\nIn light of the above statements, choose the most appropriate answer from the options given below:",
+  "options": [
+   "Both Statement I and Statement II are correct",
+   "Both Statement I and Statement II are incorrect",
+   "Statement I is correct but Statement II is incorrect",
+   "Statement I is incorrect but Statement II is correct"
+  ],
+  "answerIndex": 0,
+  "explanation": "Let's analyze each statement:\nStatement I: Soluble phosphorus is referred to as soluble reactive phosphorus and\nis a limiting nutrient in aquatic systems.\nCorrect. Soluble reactive phosphorus (SRP) is the form of phosphorus that\nis readily available for biological uptake and is often a limiting nutrient in\naquatic ecosystems, controlling the growth of algae and other aquatic plants.\nStatement II: Speed of phosphorus movement between biotic and abiotic\ncomponents makes it difficult to differentiate between Zooplankton-P, bacterial-P,\nalgae-P, or even inorganic-P.\nCorrect. The rapid cycling of phosphorus between various biotic (living)\nand abiotic (non-living) components in aquatic systems can indeed make it\nchallenging to distinguish between different forms of phosphorus, such as\nthose associated with zooplankton, bacteria, algae, and inorganic\nphosphorus.\nGiven this analysis, the most appropriate answer is:\n1. Both Statement I and Statement II are correct",
+  "source": "PYQ Mar 2023",
+  "sourcePage": 57,
+  "sourceKey": "A",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "WAT-032",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Membrane processes",
+  "question": "Choose the correct sequence of filtration processes used for sequential removal of particles from coarser (1 µm) to finer grain sizes.\nA. Microfiltration\nB. Ultrafiltration\nC. Nanofiltration\nD. Reverse Osmosis\nChoose the correct answer from the options given below",
+  "options": [
+   "D, C, B, A",
+   "A, B, C, D",
+   "D, C, A, B",
+   "A, B, D, C"
+  ],
+  "answerIndex": 1,
+  "explanation": "",
+  "source": "PYQ Sep 2022",
+  "sourcePage": 60,
+  "sourceKey": "B",
+  "keyCheck": "supported-by-figure",
+  "flag": "No explanation text; the source table (MF 0.1–1 µm, UF 0.01–0.1, NF 0.001–0.01, RO 0.0001) supports the key.",
+  "explanationImage": [
+   "p0060_13.png"
+  ]
+ },
+ {
+  "id": "WAT-033",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "Contaminants & standards",
+  "question": "Given below are two statements, one is labelled as Assertion A and the other is labelled as Reason R.\nAssertion A: Active ingredient in most pesticides are organic chlorine compounds.\nReason R: Organo chlorines have low solubility in water, high solubility in hydrocarbon like environment and have relatively high toxicity to insects and low toxicity to humans.\nIn light of the above statements, choose the correct answer from the options given below",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is NOT the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answerIndex": 3,
+  "explanation": "Let's analyze both statements:\nAssertion A: Active ingredients in most pesticides are organic chlorine\ncompounds.\nFalse. While some pesticides, particularly older ones, contain\norganochlorine compounds (such as DDT and chlordane), many modern\npesticides use different active ingredients that are not organochlorines.\nReason R: Organochlorines have low solubility in water, high solubility in\nhydrocarbon-like environments, and have relatively high toxicity to insects and\nlow toxicity to humans.\nTrue. Organochlorines are characterized by their low water solubility, high\nsolubility in organic solvents, and they are known for their effectiveness\nagainst insects. However, their toxicity to humans and wildlife, along with\nenvironmental persistence, has led to their restriction and phase-out in many\ncountries.\nGiven this analysis, the correct answer is:",
+  "source": "PYQ Sep 2022",
+  "sourcePage": 61,
+  "sourceKey": "A",
+  "keyCheck": "conflict-trusted-explanation",
+  "flag": "Source key reads A, but the explanation judges Assertion A false and Reason R true (option 4); its closing line is cut off in the source. Answer set from the explanation per spec; confirm."
+ },
+ {
+  "id": "WAT-034",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "BOD, COD & oxygen demand",
+  "question": "BOD test is commonly used to\nA. determine amount of oxygen required for biological treatment of organic matter present in waste water.\nB. determine size of waste water treatment facility.\nC. assess efficiency of treatment process.\nD. determine compliance with wastewater discharge limits.\nChoose the correct answer from the options given below:",
+  "options": [
+   "D only",
+   "A, B and C only",
+   "B, C and D only",
+   "A, B, C and D"
+  ],
+  "answerIndex": 3,
+  "explanation": "The Biochemical Oxygen Demand (BOD) test is a widely used method for\nassessing the level of organic pollution in water and has several important\napplications in wastewater management. Let's evaluate each statement:\nA. Determine amount of oxygen required for biological treatment of organic\nmatter present in wastewater:\nCorrect. BOD measures the amount of oxygen required by microorganisms\nto break down organic matter in the water, which is essential for designing\nbiological treatment processes.\nB. Determine size of wastewater treatment facility:\nCorrect. BOD data is used to estimate the organic load in wastewater,\nhelping in the design and sizing of treatment facilities to handle the required\ncapacity.\nC. Assess efficiency of treatment process:\nCorrect. BOD tests are performed before and after treatment to evaluate the\neffectiveness of the treatment process in reducing organic pollutants.\nD. Determine compliance with wastewater discharge limits:\nCorrect. Regulatory agencies often set discharge limits for BOD levels, and\ntesting ensures compliance with these standards to protect water quality.\nGiven this analysis, the correct answer is:\n4. A, B, C and D",
+  "source": "PYQ Sep 2022",
+  "sourcePage": 63,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "WAT-035",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "Water Pollution",
+  "topic": "BOD, COD & oxygen demand",
+  "question": "What will be BOD₅ for a wastewater sample when 21 ml of sample is diluted to 300 ml in BOD bottle to determine dissolved oxygen.\n[Given: Initial DO₁ = 10 mg/l ; Five days later DO₅ = 5 mg/l]",
+  "options": [
+   "~5 mg/l",
+   "~25 mg/l",
+   "~71.4 mg/l",
+   "~75 mg/l"
+  ],
+  "answerIndex": 2,
+  "explanation": "",
+  "source": "PYQ Sep 2022",
+  "sourcePage": 65,
+  "sourceKey": "C",
+  "keyCheck": "solution-in-image",
+  "explanationImage": [
+   "p0065_14.png"
+  ]
+ }
+]

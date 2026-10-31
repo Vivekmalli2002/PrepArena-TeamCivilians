@@ -1,0 +1,1112 @@
+[
+ {
+  "id": "EIA-001",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "International conventions & protocols",
+  "question": "Which of the following protocols are linked to convention on Biological Diversity?\nA. Cartagena\nB. Kigali\nC. Nagoya\nD. Rotterdam\nE. UN-REDD\nChoose the most appropriate answer from the options given below:",
+  "options": [
+   "A and C Only",
+   "B and D Only",
+   "C and E Only",
+   "A and D Only"
+  ],
+  "answerIndex": 0,
+  "explanation": "The Cartagena Protocol on Biosafety and the Nagoya Protocol on Access and\nBenefit-Sharing are linked to the Convention on Biological Diversity.\nSo, the most appropriate answer is:\n1. A and C Only\nLet us delve deeper into these protocols:\n1. Cartagena Protocol on Biosafety\nThe Cartagena Protocol on Biosafety is an international agreement which aims to\nensure the safe handling, transport, and use of living modified organisms (LMOs)\nresulting from modern biotechnology. It focuses particularly on movements across\nborders. Adopted in 2000 as a supplementary agreement to the Convention on\nBiological Diversity (CBD), it emphasizes the precautionary approach. Its key\nfeature is the Advance Informed Agreement (AIA) procedure, which requires\nexporters to provide detailed information to importing countries, ensuring they can\nmake informed decisions.\n2. Nagoya Protocol on Access and Benefit-Sharing\nThe Nagoya Protocol, adopted in 2010, is another supplementary agreement to the\nCBD. It deals with access to genetic resources and the fair and equitable sharing of\nbenefits arising from their utilization. This protocol aims to create greater legal\ncertainty and transparency for both providers and users of genetic resources. It\nestablishes more predictable conditions for access to genetic resources and helps to\nensure benefit-sharing when genetic resources leave the contracting party\nproviding them.\nWhy Not the Other Options?\nKigali Amendment: This relates to the Montreal Protocol on Substances\nthat Deplete the Ozone Layer, not the CBD.\nRotterdam Convention: It deals with the Prior Informed Consent (PIC)\nprocedure for certain hazardous chemicals and pesticides in international\ntrade.\nUN-REDD Programme: This is the United Nations Collaborative\nProgramme on Reducing Emissions from Deforestation and Forest\nDegradation in developing countries, unrelated to the CBD.\nSo, when it comes to protocols linked to the Convention on Biological Diversity,\nthe correct answers are Cartagena and Nagoya.",
+  "source": "PYQ 2 Sep 2024",
+  "sourcePage": 3,
+  "sourceKey": "A",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-002",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "EIA process & clearance",
+  "question": "\"The formalized systematic and comprehensive process of evaluating the environment impacts of a policy, programme plan as its alternatives as well as using the findings in publicly accountable decision making\" refers to",
+  "options": [
+   "Comprehensive Impact Assessment (CIA)",
+   "Environmental Impact Assessment (EIA)",
+   "Interpreted Impact Assessment",
+   "Strategic Environmental Assessment"
+  ],
+  "answerIndex": 3,
+  "explanation": "The process you're referring to is called Strategic Environmental Assessment\n(SEA). This is a comprehensive and systematic method used to evaluate the\nenvironmental impacts of proposed policies, plans, and programs, as well as their\nalternatives. It aims to ensure that environmental considerations are integrated into\ndecision-making processes in a way that is publicly accountable.\nSo, the correct answer is:\n4. Strategic Environmental Assessment\nLet us delve deeper into the concept of Strategic Environmental Assessment\n(SEA).\nStrategic Environmental Assessment (SEA)\nDefinition: SEA is a formalized, systematic, and comprehensive process used to\nevaluate the environmental impacts of proposed policies, plans, and programs, as\nwell as their alternatives. The primary goal is to integrate environmental\nconsiderations into higher-level decision-making processes and ensure that these\nconsiderations are publicly accountable.\nKey Elements of SEA\n1. Scope and Objectives: SEA typically focuses on a broad range of\nenvironmental issues at a policy, plan, or program level, rather than\nindividual projects.\n2. Alternatives Evaluation: One of the critical components of SEA is the\nevaluation of different alternatives. This involves considering various\noptions and their potential environmental impacts, helping decision-makers\nchoose the most sustainable and least harmful alternative.\n3. Public Participation: SEA involves stakeholders and the public in the\ndecision-making process. This ensures that the views and concerns of those\naffected by the policy, plan, or program are considered.\n4. Integrated Approach: Unlike Environmental Impact Assessment (EIA),\nwhich is usually project-specific, SEA is more strategic and integrates\nenvironmental, social, and economic considerations into policy, plan, and\nprogram development.\n5. Decision-Making: The findings from the SEA process are used to inform\nand improve decision-making. This ensures that the decisions are\nenvironmentally sound and socially equitable.\nBenefits of SEA\nSustainability: By considering environmental impacts at the strategic level,\nSEA promotes sustainable development.\nInformed Decisions: It provides a systematic approach to identifying\nenvironmental impacts early in the planning process, leading to more\ninformed decisions.\nTransparency: Involving the public and stakeholders enhances transparency\nand accountability in the decision-making process.\nConflict Prevention: Identifying potential environmental issues early can\nhelp prevent conflicts and reduce the risk of costly mistakes.\nComparison with Environmental Impact Assessment (EIA)\nWhile SEA and EIA both aim to assess environmental impacts, they differ in scope\nand application:\nSEA is applied to policies, plans, and programs at a strategic level, focusing\non broader issues and alternatives.\nEIA is applied to specific projects, such as the construction of a dam or\nhighway, assessing the direct environmental impacts of that project.\nConclusion\nStrategic Environmental Assessment is a crucial tool for ensuring that\nenvironmental considerations are integrated into the early stages of policy, plan,\nand program development. By doing so, it promotes sustainable development,\ntransparency, and informed decision-making.",
+  "source": "PYQ 2 Sep 2024",
+  "sourcePage": 5,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-003",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "EIA process & clearance",
+  "question": "Arrange the following steps in order of execution of Environmental Impact Assessment (EIA) process.\nA. Analysis\nB. Decision Making\nC. EIA Reporting\nD. Mitigation\nE. Review\nChoose the most appropriate answer from the options given below:",
+  "options": [
+   "E, D, A, B, C",
+   "C, A, D, B, E",
+   "A, D, C, E, B",
+   "A, C, B, E, D"
+  ],
+  "answerIndex": 2,
+  "explanation": "The correct order of steps in the Environmental Impact Assessment (EIA) process\nis:\n1. Analysis: This involves gathering and analyzing data on the potential\nenvironmental impacts of the proposed project.\n2. Mitigation: Identifying measures to avoid, reduce, or offset the adverse\nimpacts of the project.\n3. EIA Reporting: Preparing the Environmental Impact Statement (EIS) or\nEIA report, which documents the findings of the analysis and the proposed\nmitigation measures.\n4. Review: The EIA report is reviewed by the relevant authorities and the\npublic to ensure its adequacy and accuracy.\n5. Decision Making: Based on the review, a decision is made on whether to\napprove, modify, or reject the project.\nTherefore, the correct answer is:\n3. A, D, C, E, B",
+  "source": "PYQ 2 Sep 2024",
+  "sourcePage": 8,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-004",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "Environmental management tools & LCA",
+  "question": "Match the List-I with List-II\nLIST-I (ISO series)\nA. ISO 14030\nB. ISO 14040\nC. ISO 14050\nD. ISO 14090\nLIST-II (Standards)\nI. Life Cycle Assessment\nII. Green Bonds\nIII. Principles, requirements and guidelines\nIV. Vocabulary terms and definitions",
+  "options": [
+   "A-II, B-I, C-IV, D-III",
+   "A-III, B-I, C-IV, D-II",
+   "A-II, B-IV, C-I, D-III",
+   "A-I, B-III, C-IV, D-II"
+  ],
+  "answerIndex": 0,
+  "explanation": "",
+  "source": "PYQ 2 Sep 2024",
+  "sourcePage": 10,
+  "sourceKey": "A",
+  "keyCheck": "source-only",
+  "flag": "No explanation text in source; key not cross-checked. Image on the following source page may be an explanation figure (not viewed)."
+ },
+ {
+  "id": "EIA-005",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "Indian environmental legislation",
+  "question": "People's Biodiversity Register (PBR) as per Biological Diversity Act 2002, is one of the main functions of",
+  "options": [
+   "Biodiversity Management Committee (BMC)",
+   "State Biodiversity Board (SBB)",
+   "National Biodiversity Authority (NBA)",
+   "Village and Urban Local Bodies (V/ULB)"
+  ],
+  "answerIndex": 0,
+  "explanation": "The People's Biodiversity Register (PBR), as per the Biological Diversity Act,\n2002, is one of the main functions of the Biodiversity Management Committee\n(BMC).\nSo, the correct answer is:\n1. Biodiversity Management Committee (BMC)",
+  "source": "PYQ 2 Sep 2024",
+  "sourcePage": 12,
+  "sourceKey": "A",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-006",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "Environmental policy, principles & institutions",
+  "question": "Which of the following is the most recent contribution of India having the global impact?",
+  "options": [
+   "Coalition for Disaster Resilient Infrastructure (CDRI)",
+   "International Big Cat Alliance (IBCA)",
+   "International Solar Alliance (ISA)",
+   "Mission LiFE"
+  ],
+  "answerIndex": 1,
+  "explanation": "",
+  "source": "PYQ 2 Sep 2024",
+  "sourcePage": 13,
+  "sourceKey": "B",
+  "keyCheck": "source-only",
+  "flag": "No explanation text in source; key not cross-checked. Consistent with launch dates (ISA 2015, CDRI 2019, Mission LiFE 2022, IBCA 2023)."
+ },
+ {
+  "id": "EIA-007",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "EIA process & clearance",
+  "question": "Which of the following categories of projects necessarily have to carry out EIA studies along with the 'Public Hearing' as per the MoEFCC, Government of India?\nA. Category A\nB. Category B\nC. Category B1\nD. Category B2\nE. Category A1\nChoose the most appropriate answer from the options given below:",
+  "options": [
+   "A and B Only",
+   "A and C Only",
+   "A, B and D Only",
+   "C, D and E Only"
+  ],
+  "answerIndex": 1,
+  "explanation": "The categories of projects that necessarily have to carry out Environmental Impact\nAssessment (EIA) studies along with the 'Public Hearing' as per the Ministry of\nEnvironment, Forest and Climate Change (MoEFCC), Government of India, are:\nCategory A\nCategory B1\nSo, the correct answer is:\n3. A and C",
+  "source": "PYQ 2 Sep 2024",
+  "sourcePage": 14,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation",
+  "note": "Source explanation's closing line says '3. A and C'; by option position A and C is option 2, which matches the key."
+ },
+ {
+  "id": "EIA-008",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "Environmental policy, principles & institutions",
+  "question": "The concept of Nature Based Solution (NBS) is encouraged by-",
+  "options": [
+   "International Geosphere Biosphere Programme (IGBP)",
+   "Pilot Analysis of Global Ecosystem (PAGE)",
+   "International Union for Conservation of Nature (IUCN)",
+   "International Human Dimensions Programme and Global Environmental Change (IHDP)"
+  ],
+  "answerIndex": 2,
+  "explanation": "The concept of Nature-Based Solutions (NBS) is encouraged by the International\nUnion for Conservation of Nature (IUCN)\nNature-Based Solutions (NBS)\nDefinition: Nature-Based Solutions (NBS) refer to the sustainable management\nand use of nature to tackle socio-environmental challenges such as climate change,\nwater security, food security, human health, and disaster risk management. NBS\naim to enhance and work with natural processes to improve resilience and mitigate\nthe impacts of these challenges.\nEncouragement by IUCN\nThe concept of Nature-Based Solutions is strongly encouraged by the\nInternational Union for Conservation of Nature (IUCN). The IUCN is a global\nauthority on the status of the natural world and the measures needed to safeguard\nit. They have been at the forefront of promoting NBS as a key approach to\naddressing global challenges.\nKey Principles of NBS\n1. Sustainability: NBS should promote sustainability by integrating\necological, social, and economic benefits.\n2. Biodiversity Conservation: NBS should support biodiversity conservation\nand ecosystem restoration.\n3. Inclusivity: NBS should involve and benefit local communities and\nstakeholders.\n4. Adaptability: NBS should be adaptable to changing environmental and\nsocio-economic conditions.\nExamples of NBS\n1. Restoration of Wetlands: Wetlands can act as natural water filters, reducing\npollution and providing habitat for biodiversity. Restoring wetlands can also\nhelp mitigate flooding.\n2. Urban Green Spaces: Planting trees and creating green spaces in urban\nareas can reduce heat island effects, improve air quality, and provide\nrecreational spaces for communities.\n3. Mangrove Restoration: Mangroves protect coastlines from erosion, provide\nhabitat for marine life, and capture significant amounts of carbon dioxide.\n4. Agroforestry: Integrating trees and shrubs into agricultural landscapes can\nimprove soil health, increase biodiversity, and enhance agricultural\nproductivity.",
+  "source": "PYQ 2 Sep 2024",
+  "sourcePage": 15,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-009",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "EIA process & clearance",
+  "question": "Which of the following is portal by MoEFCC, Government of India to automate the process of Environmental Clearance?",
+  "options": [
+   "EIACP",
+   "ENVIS",
+   "e Green watch",
+   "PARIVESH"
+  ],
+  "answerIndex": 3,
+  "explanation": "PARIVESH: Portal for Environmental Clearance\nPARIVESH stands for Proactive and Responsive facilitation by Interactive and\nVirtuous Environmental Single-window Hub. It is a web-based, role-based\nworkflow application developed by the Ministry of Environment, Forest and\nClimate Change (MoEFCC), Government of India, in collaboration with the\nNational Informatics Centre (NIC)2.\nKey Features of PARIVESH\n1. Online Submission: Proponents can submit proposals for Environment,\nForest, Wildlife, and Coastal Regulation Zone (CRZ) clearances online.\n2. Monitoring and Tracking: The portal allows for the online monitoring and\ntracking of proposals at each stage of the workflow.\n3. Role-Based Access: Different roles are assigned to various stakeholders,\nincluding project proponents, state processing authorities, and central\nprocessing authorities.\n4. Status Updates: Users can view the status of their proposals at each stage of\nthe approval process.\n5. User Manuals and Forms: The portal provides user manuals and updated\nforms to assist users in the submission process.\n6. Know Your Approval (KYA): A new functionality that allows users to\ncheck the status of their approvals.\n7. Helpdesk Support: A toll-free helpdesk number is available for technical\nsupport and assistance.\nBenefits of PARIVESH\nEfficiency: Automates the entire process of proposal submission and\napproval, reducing processing time and improving efficiency.\nTransparency: Provides real-time status updates and tracking, ensuring\ntransparency in the approval process.\nAccessibility: Makes it easier for proponents to apply for clearances and for\nauthorities to process and monitor proposals.\nUser-Friendly: Designed to be user-friendly with comprehensive user\nmanuals and support.\nPARIVESH is a significant step towards streamlining the environmental clearance\nprocess in India, promoting transparency, and ensuring timely approvals for\nprojects.",
+  "source": "PYQ 2 Sep 2024",
+  "sourcePage": 17,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-010",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "EIA process & clearance",
+  "question": "Which of the following states that \"EIA as a national instrument shall be undertaken for the proposed activities that are likely to have significant adverse impact on the environment and are subject to a decision of a competent national authority\"",
+  "options": [
+   "Principle 17 of Rio Declaration (1992)",
+   "Article 14 of Convention on Biological Diversity (1993)",
+   "Article 10 of Environment (Protection) Act (1986)",
+   "Principle 18 of United State Environment Policy Act (1969)"
+  ],
+  "answerIndex": 0,
+  "explanation": "The statement that \"Environmental Impact Assessment (EIA) as a national\ninstrument shall be undertaken for the proposed activities that are likely to have\nsignificant adverse impact on the environment and are subject to a decision of a\ncompetent national authority\" is stated in Principle 17 of the Rio Declaration\n(1992).\nSo, the correct answer is:\n1. Principle 17 of Rio Declaration (1992)\nHere's a table summarizing the principles of the Rio Declaration on Environment\nand Development, adopted in 1992:\nPrinciple Description\nHuman beings are at the center of concerns for sustainable\nPrinciple\ndevelopment. They are entitled to a healthy and productive life in\nharmony with nature.\nStates have the sovereign right to exploit their own resources pursuant\nPrinciple\nto their own environmental and developmental policies, and the\nresponsibility to ensure that activities within their jurisdiction do not\nPrinciple Description\ncause damage to the environment of other States or areas beyond\nnational jurisdiction.\nThe right to development must be fulfilled so as to equitably meet\nPrinciple\ndevelopmental and environmental needs of present and future\ngenerations.\nIn order to achieve sustainable development, environmental protection\nPrinciple\nshall constitute an integral part of the development process and cannot\nbe considered in isolation from it.\nAll states and all people shall cooperate in the essential task of\nPrinciple eradicating poverty as an indispensable requirement for sustainable\n5 development, in order to decrease the disparities in standards of living\nand better meet the needs of the majority of the people of the world.\nThe special situation and needs of developing countries, particularly\nthe least developed and those most environmentally vulnerable, shall\nPrinciple\nbe given special priority. International actions in the field of\nenvironment and development should also address the interests and\nneeds of all countries.\nStates shall cooperate in a spirit of global partnership to conserve,\nprotect and restore the health and integrity of the Earth’s ecosystem.\nPrinciple Developed countries acknowledge the responsibility that they bear in\n7 the international pursuit of sustainable development in view of the\npressures their societies place on the global environment and of the\ntechnologies and financial resources they command.\nTo achieve sustainable development and a higher quality of life for all\nPrinciple people, States should reduce and eliminate unsustainable patterns of\n8 production and consumption and promote appropriate demographic\npolicies.\nStates should cooperate to strengthen endogenous capacity-building for\nPrinciple\nsustainable development by improving scientific understanding through\nexchanges of scientific and technological knowledge, and by enhancing\nPrinciple Description\nthe development, adaptation, diffusion, and transfer of technologies,\nincluding new and innovative technologies.\nPrinciple Environmental issues are best handled with the participation of all\n10 concerned citizens, at the relevant level.\nStates shall enact effective environmental legislation. Environmental\nPrinciple\nstandards, management objectives, and priorities should reflect the\nenvironmental and developmental context to which they apply.\nStates should cooperate to promote a supportive and open international\nPrinciple economic system that would lead to economic growth and sustainable\n12 development in all countries, to better address the problems of\nenvironmental degradation.\nPrinciple States shall develop national law regarding liability and compensation\n13 for the victims of pollution and other environmental damage.\nStates should effectively cooperate to discourage or prevent the\nPrinciple relocation and transfer to other States of any activities and substances\n14 that cause severe environmental degradation or are found to be harmful\nto human health.\nPrinciple In order to protect the environment, the precautionary approach shall be\n15 widely applied by States according to their capabilities.\nNational authorities should endeavor to promote the internalization of\nenvironmental costs and the use of economic instruments, taking into\nPrinciple\naccount the approach that the polluter should, in principle, bear the cost\nof pollution, with due regard to the public interest and without\ndistorting international trade and investment.\nEnvironmental Impact Assessment (EIA) as a national instrument shall\nPrinciple\nbe undertaken for proposed activities that are likely to have a\nsignificant adverse impact on the environment.\nPrinciple\nStates shall immediately notify other States of any natural disasters or\nother emergencies that are likely to produce sudden harmful effects on\nPrinciple Description\nthe environment of those States. Every effort shall be made by the\ninternational community to help States so afflicted.\nStates shall provide prior and timely notification and relevant\nPrinciple information to potentially affected States on activities that may have a\n19 significant adverse transboundary environmental effect and shall\nconsult with those States at an early stage and in good faith.\nWomen have a vital role in environmental management and\nPrinciple\ndevelopment. Their full participation is therefore essential to achieve\nsustainable development.\nThe creativity, ideals, and courage of the youth of the world should be\nPrinciple\nmobilized to forge a global partnership in order to achieve sustainable\ndevelopment and ensure a better future for all.\nIndigenous people and their communities, and other local communities,\nPrinciple\nhave a vital role in environmental management and development\nbecause of their knowledge and traditional practices.\nPrinciple The environment and natural resources of people under oppression,\n23 domination, and occupation shall be protected.\nWarfare is inherently destructive of sustainable development. States\nPrinciple shall therefore respect international law providing protection for the\n24 environment in times of armed conflict and cooperate in its further\ndevelopment, as necessary.\nPrinciple Peace, development, and environmental protection are interdependent\n25 and indivisible.\nStates shall resolve all their environmental disputes peacefully and by\nPrinciple\nappropriate means in accordance with the Charter of the United\nNations.\nPrinciple\nStates and people shall cooperate in good faith and in a spirit of\npartnership in the fulfillment of the principles embodied in this\nPrinciple Description\nDeclaration and in the further development of international law in the\nfield of sustainable development.\nThe Environment (Protection) Act, 1986 consists of 26 sections. Here's a brief\nsummary of each section:\nSection Description\nSection 1 Short title, extent, and commencement\nSection 2 Definitions\nPower of Central Government to take measures to protect and improve\nSection 3\nthe environment\nSection 4 Appointment of officers and their powers and functions\nSection 5 Power to give directions\nSection\nAppeal to National Green Tribunal\n5A\nSection 6 Rules to regulate environmental pollution\nPersons carrying on industry, operations, etc., not to allow emission or\nSection 7\ndischarge of environmental pollutants in excess of the standards\nPersons handling hazardous substances to comply with procedural\nSection 8\nsafeguards\nSection 9 Powers of entry and inspection\nSection Sample and procedure to be followed in connection with the powers of\n10 entry and inspection\nSection\nEnvironmental laboratories\nSection Description\nSection\nGovernment Analysts\nSection\nReports of Government Analysts\nSection\nOffences by companies\nSection\nPenalty for contravention of section 7 or section 14\n14A\nSection\nPenalty for contravention of sections 9, 10, and 11\n14B\nSection\nCognizance of offences\nSection\nPenalty for contravention by companies\n15A\nSection\nPenalty for contravention by Government Departments\n15B\nSection\nAdjudicating officer\n15C\nSection\nAppeal\n15D\nSection\nEnvironmental Protection Fund\nSection\nAccounts and audit of Fund\n16A\nSection\nInformation, reports, or returns\nSection Description\nSection Authority constituted under Section 3 to be public authority under RTI\n18 Act\nSection\nBar of jurisdiction\nSection\nPower to delegate\nSection\nEffect of other laws\nSection\nPower to make rules\nSection\nRules made under this Act to be laid before Parliament",
+  "source": "PYQ 2 Sep 2024",
+  "sourcePage": 19,
+  "sourceKey": "A",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-011",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "Environmental policy, principles & institutions",
+  "question": "Which of the following is NOT linked to Biodiversity loss and ecosystem services?",
+  "options": [
+   "Intergovernmental Science-Policy platform for Biodiversity and Ecosystem Services (IPBES)",
+   "Commission on Ecosystem Management (CEM)",
+   "Millennium Ecosystem Assessment (MEA)",
+   "The Economics of Ecosystem and Biodiversity (TEEB)"
+  ],
+  "answerIndex": 1,
+  "explanation": "Option Description\nIPBES assesses the state of biodiversity and ecosystem\nIntergovernmental Science-\nservices, providing policymakers with scientific information to\nPolicy Platform for\nmake informed decisions. It aims to bridge the gap between\nBiodiversity and Ecosystem\nscience and policy to promote conservation and sustainable\nServices (IPBES)\nuse of biodiversity.\nPart of the International Union for Conservation of Nature\nCommission on Ecosystem (IUCN), CEM focuses on promoting ecosystem-based\nManagement (CEM) approaches to the management of land, water, and living\nresources.\nThe MEA was a global initiative that assessed the\nconsequences of ecosystem change for human well-being. It\nMillennium Ecosystem provided a scientific basis for actions needed to enhance the\nAssessment (MEA) conservation and sustainable use of ecosystems and their\nservices. The MEA highlighted the linkages between\necosystems and human well-being.\nTEEB is a global initiative focused on recognizing,\ndemonstrating, and capturing the value of ecosystem services\nThe Economics of Ecosystems\nand biodiversity. It aims to mainstream the economic benefits\nand Biodiversity (TEEB)\nof biodiversity into decision-making at all levels, promoting\nsustainable management of natural resources.",
+  "source": "PYQ 2 Sep 2024",
+  "sourcePage": 26,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-012",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "International conventions & protocols",
+  "question": "Arrange the following conventions in correct chronological order :\n(A) Ramsar\n(B) CITES\n(C) BONN\n(D) BASEL\nChoose the correct answer from the options given below :",
+  "options": [
+   "(A), (B), (C), (D)",
+   "(B), (C), (D), (A)",
+   "(C), (D), (B), (A)",
+   "(D), (C), (B), (A)"
+  ],
+  "answerIndex": 0,
+  "explanation": "To arrange the conventions in the correct chronological order, let's look at the years\nwhen each convention was established:\nRamsar Convention (Convention on Wetlands) - 1971\nCITES (Convention on International Trade in Endangered Species of Wild\nFauna and Flora) - 1973\nBONN Convention (Convention on the Conservation of Migratory Species\nof Wild Animals) - 1979\nBASEL Convention (Convention on the Control of Transboundary\nMovements of Hazardous Wastes and Their Disposal) - 1989\nSo, the correct answer is:\n1. (A), (B), (C), (D)",
+  "source": "PYQ 5 Sep 2024",
+  "sourcePage": 28,
+  "sourceKey": "A",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-013",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "EIA process & clearance",
+  "question": "Identify the correct statements about Strategic Environmental Assessment (SEA):\n(A) This is a part of Environmental Impact Assessment (EIA).\n(B) It is a systematic process for evaluating the environmental consequences of the proposed policy, plan and programme.\n(C) It is useful in formulation of environmentally sound programme and for decision making.\n(D) SEA should be undertaken by proponents of policy, plan and programme.\nChoose the correct answer from the options given below :",
+  "options": [
+   "(A), (B), (E) Only",
+   "(B), (C), (D) Only",
+   "(A), (C), (D) Only",
+   "(A), (B) Only"
+  ],
+  "answerIndex": 1,
+  "explanation": "Let's evaluate each statement about Strategic Environmental Assessment (SEA):\n(A) This is a part of Environmental Impact Assessment (EIA).\nIncorrect: SEA and EIA are related but separate processes. SEA is applied\nto policies, plans, and programs, while EIA is project-specific.\n(B) It is a systematic process for evaluating the environmental consequences of the\nproposed policy, plan and programme.\nCorrect: SEA is indeed a systematic process for evaluating the\nenvironmental consequences of policies, plans, and programs.\n(C) It is useful in formulation of environmentally sound programme and for\ndecision making.\nCorrect: SEA helps in formulating environmentally sound programs and\naids in decision-making.\n(D) SEA should be undertaken by proponents of policy, plan and programme.\nCorrect: SEA should be conducted by those who propose the policy, plan, or\nprogram to ensure environmental considerations are integrated from the\nbeginning.\nGiven this evaluation, the correct answer is:\n2. (B), (C), (D) Only",
+  "source": "PYQ 5 Sep 2024",
+  "sourcePage": 29,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation",
+  "note": "Option 1 is printed '(A), (B), (E) Only' in the source (there is no statement E); kept as printed. It is not the keyed option."
+ },
+ {
+  "id": "EIA-014",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "International conventions & protocols",
+  "question": "Match List - I with List - II.\nLIST-I (Protocol)\nA. Nagoya\nB. Cartagena\nC. Kyoto\nD. Montreal\nLIST-II (Features)\nI. Procedures for Living Modified Organisms intended to be introduced into the environment\nII. Access and Benefit Sharing of genetic resources\nIII. Reduction in the production of the CFCs\nIV. Control of Green house gases emissions\nChoose the correct answer from the options given below:",
+  "options": [
+   "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+   "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+   "(A)-(II), (B)-(I), (C)-(IV), (D)-(III)",
+   "(A)-(I), (B)-(III), (C)-(II), (D)-(IV)"
+  ],
+  "answerIndex": 2,
+  "explanation": "Let's match the protocols with their respective features:\nNagoya Protocol: Access and Benefit Sharing of genetic resources.\nCartagena Protocol: Procedures for Living Modified Organisms intended\nto be introduced into the environment.\nKyoto Protocol: Control of Greenhouse gases emissions.\nMontreal Protocol: Reduction in the production of CFCs\n(Chlorofluorocarbons).\nTherefore, the correct answer is:\n3. (A)-(II), (B)-(I), (C)-(IV), (D)-(III)",
+  "source": "PYQ 5 Sep 2024",
+  "sourcePage": 31,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-015",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "Indian environmental legislation",
+  "question": "Under the Wild Life Protection Act 1972, Vermin are wild animals specified in:",
+  "options": [
+   "Schedule I",
+   "Schedule II",
+   "Schedule IV",
+   "Schedule V"
+  ],
+  "answerIndex": 3,
+  "explanation": "Under the Wild Life (Protection) Act, 1972, vermin are wild animals listed in Schedule V (common crows, fruit bats, rats and mice), which may be hunted. Schedule I and Part II of Schedule II carry the highest protection; Schedules III and IV cover protected species with lesser penalties.",
+  "source": "PYQ 5 Sep 2024",
+  "sourcePage": 32,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation",
+  "note": "Source explanation is mixed with unrelated study-note text; only relevant content kept in the explanation."
+ },
+ {
+  "id": "EIA-016",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "Indian environmental legislation",
+  "question": "The recently enacted Wild Life (Protection) Amendment Act, 2022 aligns itself with which of the following conventions?",
+  "options": [
+   "CBD: Convention on Biological Diversity",
+   "CITES: Convention on International Trade in Endangered Species of Wild Fauna and Flora",
+   "CMS: Convention on the Conservation of Migratory Species of Wild Animals",
+   "TRAFFIC: Trade Records Analysis of Flora and Fauna in Commerce"
+  ],
+  "answerIndex": 1,
+  "explanation": "Recently, the Rajya Sabha passed the Wild Life (Protection) Amendment Bill,\n2022 which seeks to give effect to India's obligations under the Convention on\nInternational Trade on Endangered Species of Wild Fauna and Flora\n('CITES').\nWhat is the Objective of Bill?\nProtection of Endangered Species: Bill seeks to enhance punishment\n▪\nfor illegal Wildlife trade .\nBetter Management of Protected Areas: It provides for certain\n▪\npermitted activities like grazing or movement of\nlivestock and Bonafide use of drinking and household water by local\ncommunities.\nProtection of Forest Lands: It is so critical because it equally\n▪\ninculcates in itself the protection of rights of the people who have\nbeen residing there since ages.",
+  "source": "PYQ Jun 2024 (cancelled paper)",
+  "sourcePage": 38,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-017",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "International conventions & protocols",
+  "question": "Which of the following are listed as main objective of Convention on Biological Diversity (CBD), 1993?\nA. Conservation of biological diversity\nB. Establishing more predictable conditions for access to genetic resources\nC. Fair and equitable sharing of the benefits arising out of the utilization of genetic resources\nD. Protect biological diversity from the potential risks posed by living modified organisms resulting from modern biotechnology\nE. Sustainable use of the components of biological diversity\nChoose the most appropriate answer from the options given below:",
+  "options": [
+   "A, B, C only",
+   "A, C, E only",
+   "B, C, E only",
+   "C, D, E only"
+  ],
+  "answerIndex": 1,
+  "explanation": "The main objectives of the Convention on Biological Diversity (CBD), 1993 are:\nA. Conservation of biological diversity E. Sustainable use of the components of\nbiological diversity C. Fair and equitable sharing of the benefits arising out of the\nutilization of genetic resources\nOptions B and D are not listed as main objectives of the CBD",
+  "source": "PYQ Jun 2024 (cancelled paper)",
+  "sourcePage": 39,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-018",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "Indian environmental legislation",
+  "question": "Which of the following is not part of National Biological Diversity Act 2002?",
+  "options": [
+   "Biodiversity Management Committee (BMC)",
+   "National Biodiversity Authority (NBA)",
+   "Peoples Biodiversity Register (PBR)",
+   "Traditional Knowledge Digital Library (TKDL)"
+  ],
+  "answerIndex": 3,
+  "explanation": "The Traditional Knowledge Digital Library (TKDL) is not part of the National\nBiological Diversity Act 2002. The other three components—Biodiversity\nManagement Committee (BMC), National Biodiversity Authority (NBA),\nand Peoples Biodiversity Register (PBR)—are integral to the Act.",
+  "source": "PYQ Jun 2024 (cancelled paper)",
+  "sourcePage": 40,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-019",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "EIA process & clearance",
+  "question": "Which of the following is a portal maintained by the Ministry of Environment Forest and Climate Change (MoEFCC) to automate the process of Environmental Clearance (EC) bringing down the overall time taken in grant of clearance as per the provision of the Environmental Impact Assessment (EIA) ?",
+  "options": [
+   "ANTHRA",
+   "CHINTAN",
+   "DISHA",
+   "PARIVESH"
+  ],
+  "answerIndex": 3,
+  "explanation": "The portal maintained by the Ministry of Environment, Forest and Climate Change\n(MoEFCC) for automating the process of Environmental Clearance (EC) is\ncalled PARIVESH. It streamlines the entire EC process, from application\nsubmission to clearance grant.",
+  "source": "PYQ Jun 2024 (cancelled paper)",
+  "sourcePage": 41,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-020",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "Environmental management tools & LCA",
+  "question": "Match List - I with List - II.\nList - I\nA. ISO 14010\nB. ISO 14020\nC. ISO 14030\nD. ISO 14040\nList - II\nI. Environmental Performance Evaluation\nII. Life Cycle Assessment\nIII. Environmental Labelling\nIV. Environmental Auditing\nChoose the correct answer from the options given below:",
+  "options": [
+   "A-IV, B-III, C-I, D-II",
+   "A-II, B-I, C-I, D-IV",
+   "A-IV, B-I, C-III, D-II",
+   "A-I, B-IV, C-II, D-III"
+  ],
+  "answerIndex": 0,
+  "explanation": "ISO 14010 series: environmental auditing (IV); ISO 14020 series: environmental labelling (III); ISO 14030 series: environmental performance evaluation (I); ISO 14040 series: life cycle assessment (II). Hence A-IV, B-III, C-I, D-II (option 1). [Editorial: the source explanation mislabels the standards but still ends at option 1.]",
+  "source": "PYQ Jun 2024 (cancelled paper)",
+  "sourcePage": 42,
+  "sourceKey": "A",
+  "keyCheck": "resolved-by-reference",
+  "flag": "Source explanation text mislabels ISO 14010/14020/14030; key A is correct by the ISO series definitions. Option 2 is printed 'A-II, B-I, C-I, D-IV' in the source (OCR); kept as printed. Explanation rewritten; needs sign-off."
+ },
+ {
+  "id": "EIA-021",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "EIA process & clearance",
+  "question": "Which of the following step refers to the process to determine detailed and comprehensive Term of Reference (ToR) addressing all relevant environmental concerns for the preparation of a Environmental Impact Assessment (EIA) Report in respect of project and activity for which Environmental Clearance (EC) is sought?",
+  "options": [
+   "Appraisal",
+   "Public Consultation",
+   "Scoping",
+   "Screening"
+  ],
+  "answerIndex": 2,
+  "explanation": "The step that refers to the process of determining detailed and comprehensive\nTerms of Reference (ToR) addressing all relevant environmental concerns for the\npreparation of an Environmental Impact Assessment (EIA) Report is Scoping.\nSo, the correct answer is:\n3. Scoping",
+  "source": "PYQ Jun 2024 (cancelled paper)",
+  "sourcePage": 43,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-022",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "Environmental policy, principles & institutions",
+  "question": "Arrange the following policies related to environmental in chronological order (from the first to the latest)\nA. National Agriculture Policy\nB. National Clean Air Programme\nC. National Environmental Policy\nD. National Forest Policy\nE. National Water Policy\nChoose the correct answer from the options given below:",
+  "options": [
+   "E, D, A, B, C",
+   "D, A, E, C, B",
+   "D, E, A, C, B",
+   "A, E, D, B, C"
+  ],
+  "answerIndex": 1,
+  "explanation": "Let’s arrange these environmental policies in chronological order:\n1. National Forest Policy (D): The National Forest Policy was formulated in\n1988, emphasizing sustainable forest management and conservation.\n2. National Agriculture Policy (A): The National Agriculture Policy was\nintroduced in 2000, focusing on agricultural development and resource\nutilization.\n3. National Water Policy (E): The National Water Policy was established in\n2002, addressing water resource management and conservation.\n4. National Environmental Policy ©: The National Environmental Policy,\nenacted in 2006, outlines principles for environmental protection and\nsustainable development.\n5. National Clean Air Programme (B): The National Clean Air Programme,\nlaunched in January 2019, aims to reduce air pollution by 20-30% by 2024.\nTherefore, the correct order is D, A, E, C, B (option 2).",
+  "source": "PYQ Jun 2024 (cancelled paper)",
+  "sourcePage": 44,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-023",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "International conventions & protocols",
+  "question": "Match List - I with List - II.\nList - I (Convention)\nA. Basel Convention\nB. Bonn Convention\nC. Stockholm Convention\nD. Vienna Convention\nList - II (Environmental Issue)\nI. Persistent Organic Pollutants (POPs)\nII. Protection of Ozone Layer\nIII. Conservation of Migratory Species of Wild Animals\nIV. Control of transboundary movements of Hazardous Wastes and their Disposal\nChoose the correct answer from the options given below:",
+  "options": [
+   "A-IV, B-I, C-III, D-II",
+   "A-IV, B-II, C-III, D-I",
+   "A-IV, B-III, C-I, D-II",
+   "A-II, B-I, C-III, D-IV"
+  ],
+  "answerIndex": 2,
+  "explanation": "Let's match the conventions with their corresponding environmental issues:\nBasel Convention: Control of transboundary movements of hazardous wastes\nand their disposal.\nBonn Convention: Conservation of migratory species of wild animals.\nStockholm Convention: Persistent Organic Pollutants (POPs).\nVienna Convention: Protection of ozone layer.\nTherefore, the correct answer is:\n3. (A-IV, B-III, C-I, D-II)",
+  "source": "PYQ Jun 2024 (cancelled paper)",
+  "sourcePage": 45,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-024",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "International conventions & protocols",
+  "question": "Which of the following countries hosted the United Nations Climate Change Conference referred as Conference of the Parties (CoP), held in the framework of the United Nations Framework Convention on Climate Change (UNFCCC) for the maximum times?",
+  "options": [
+   "Denmark",
+   "Germany",
+   "South Africa",
+   "Sweden"
+  ],
+  "answerIndex": 1,
+  "explanation": "Among the options, Germany has hosted UNFCCC COP sessions most often: COP1 (Berlin, 1995) and COP23 (Bonn, 2017). Denmark (COP15, Copenhagen 2009) and South Africa (COP17, Durban 2011) hosted once; Sweden has not hosted a COP.",
+  "source": "PYQ Jun 2024 (cancelled paper)",
+  "sourcePage": 46,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation",
+  "note": "Among the options Germany has hosted COP sessions most often (COP1 Berlin 1995; COP23 Bonn 2017)."
+ },
+ {
+  "id": "EIA-025",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "Environmental management tools & LCA",
+  "question": "Which of the following are project/product based tools in Environmental Management ?\n(A) Cleaner Production\n(B) Design for Environment\n(C) Life Cycle Assessment\n(D) Risk Assessment\n(E) Technology Assessment\nChoose the correct answer from the options given below :",
+  "options": [
+   "(A), (B), (C) Only",
+   "(B), (C), (D) Only",
+   "(C), (D), (E) Only",
+   "(A), (C), (E) Only"
+  ],
+  "answerIndex": 1,
+  "explanation": "",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 51,
+  "sourceKey": "B",
+  "keyCheck": "source-only",
+  "flag": "No explanation text in source; key not cross-checked."
+ },
+ {
+  "id": "EIA-026",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "Indian environmental legislation",
+  "question": "As per the Biological Diversity (Amendment) Act 2023, the \"Farmer's variety\" means a variety which:\n(A) has originated and persisted under cultivation or was specifically used for the purpose of cultivation\n(B) was developed, grown and exchanged informally among farmers.\n(C) has been traditionally cultivated and evolved by the farmers in their field\n(D) is a wild relative or landrace of a variety about which the farmers possess the common knowledge\n(E) was grown by ancient farmers and their successors\nChoose the correct answer from the options given below :",
+  "options": [
+   "(A), (B) Only",
+   "(B), (C) Only",
+   "(C), (D) Only",
+   "(D), (E) Only"
+  ],
+  "answerIndex": 2,
+  "explanation": "",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 52,
+  "sourceKey": "C",
+  "keyCheck": "source-only",
+  "flag": "No explanation text in source; key not cross-checked. Matches the statutory wording (traditionally cultivated and evolved by farmers; or a wild relative/landrace about which farmers have common knowledge)."
+ },
+ {
+  "id": "EIA-027",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "EIA process & clearance",
+  "question": "Leopold interaction-matrix used in Environmental Impact Assessment (EIA) includes:",
+  "options": [
+   "Adaptation and Mitigation",
+   "Benefits and Detriments",
+   "Losses and Damages",
+   "Magnitude and Importance"
+  ],
+  "answerIndex": 3,
+  "explanation": "The Leopold interaction-matrix used in Environmental Impact Assessment (EIA)\nincludes Magnitude and Importance.\nSo, the correct answer is:\n4. Magnitude and Importance\nLeopold Interaction-Matrix in Environmental Impact Assessment (EIA)\nThe Leopold Matrix is a tool developed by Luna Leopold and colleagues in 1971\nto evaluate the environmental impact of various projects. It is widely used in\nEnvironmental Impact Assessment (EIA) due to its systematic and comprehensive\napproach.\nStructure of the Leopold Matrix\nThe Leopold Matrix is a two-dimensional grid that lists project actions along one\naxis and environmental factors along the other. Each cell in the matrix represents a\npotential interaction between a specific project action and an environmental factor.\nThe matrix typically includes:\n100 project actions: These actions can range from land clearing,\nconstruction, and operation of facilities to the disposal of wastes.\n88 environmental factors: These factors encompass a wide range of\nbiophysical, ecological, social, and economic elements that might be\naffected by the project.\nKey Components\n1. Project Actions:\nActions that involve direct physical changes to the environment (e.g.,\nexcavation, construction).\nOperational actions that may have indirect environmental impacts (e.g.,\nemissions, waste discharge).\n2. Environmental Factors:\nPhysical and chemical aspects (e.g., air quality, water quality, soil stability).\nBiological aspects (e.g., flora, fauna, habitat).\nSocial and economic aspects (e.g., public health, cultural heritage,\neconomy).\nEvaluation Criteria\nMagnitude: This represents the scale or extent of the impact, ranging from minor\nto major. Importance: This represents the significance of the impact, considering\nfactors such as the sensitivity of the affected environment and the value placed on\nit by society.\nEach cell in the matrix is assigned two values:\n1. Magnitude of impact: On a scale from 1 (least impact) to 10 (most impact).\n2. Importance of impact: Also on a scale from 1 to 10.\nBy filling in these values for each interaction, the matrix provides a clear and\ndetailed assessment of the environmental impacts associated with the project.\nExample of a Leopold Matrix\nHere is a simplified example to illustrate the concept:\nEnvironmental Land Waste\nConstruction Operation\nFactors Clearing Disposal\nAir Quality 7, 6 8, 7 6, 5 5, 4\nWater Quality 6, 5 7, 6 5, 4 8, 7\nSoil Stability 9, 8 8, 7 4, 3 6, 5\nFlora and Fauna 8, 7 9, 8 7, 6 5, 4\nPublic Health 5, 4 6, 5 8, 7 7, 6\nAdvantages of the Leopold Matrix\nSystematic Approach: Provides a structured method to identify and\nevaluate environmental impacts.\nComprehensive: Covers a wide range of project actions and environmental\nfactors.\nVisual Representation: Offers a clear visual representation of the\ninteractions and their significance.\nLimitations of the Leopold Matrix\nComplexity: Can be complex and time-consuming to complete for large\nprojects with many actions and factors.\nSubjectivity: The assignment of magnitude and importance values can be\nsubjective and may vary among evaluators.",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 53,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-028",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "International conventions & protocols",
+  "question": "Which of the following Summit/Convention is known to be the first to aim at 20 percent cut in the emission of CO₂ by 2005 AD but the developed countries backed out from the agreement on the pretext of non-availability of reliable data of emission of GHGs?",
+  "options": [
+   "World Climate Summit (Geneva), 1979",
+   "Rio Summit (Brazil), 1992",
+   "Toronto Summit (Canada), 1988",
+   "Vienna Convention (Austria), 1985"
+  ],
+  "answerIndex": 2,
+  "explanation": "The correct answer is:\n3. Toronto Summit (Canada), 1988\nThe Toronto Summit in 1988 was the first international meeting to aim for a 20\npercent cut in CO2 emissions by 2005. However, developed countries backed out\nof the agreement, citing the non-availability of reliable data on greenhouse gas\nemissions",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 56,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-029",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "EIA process & clearance",
+  "question": "Arrange the following scoping methods used in EIA, in the order of advancement:\n(A) Analogs\n(B) Matrices\n(C) Checklists\n(D) Overlays\n(E) Networks\nChoose the correct answer from the options given below :",
+  "options": [
+   "(C), (E), (B), (A), (D)",
+   "(C), (B), (E), (D), (A)",
+   "(B), (C), (E), (A), (D)",
+   "(C), (D), (E), (A), (B)"
+  ],
+  "answerIndex": 1,
+  "explanation": "To arrange the scoping methods used in Environmental Impact Assessment (EIA)\nin the order of advancement, we need to consider the evolution and complexity of\nthese methods:\nChecklists: Simple, early method to identify potential impacts.\nMatrices: More advanced than checklists, showing interactions between\nproject activities and environmental components.\nNetworks: Further advancement, showing more complex relationships and\npathways of impacts.\nOverlays: Use of geographical data layers to identify potential impacts\nvisually.\nAnalogs: Comparatively newer method, using similar projects as references\nto predict impacts.\nTherefore, the correct answer is:\n2. (C), (B), (E), (D), (A)",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 57,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-030",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "Environmental management tools & LCA",
+  "question": "Which of the following are part of life cycle assessment (LCA) of a product?\n(A) Raw materials\n(B) Product manufacturing\n(C) Packaging and distribution\n(D) Disposal of the product\n(E) Product use\nChoose the correct answer from the options given below:",
+  "options": [
+   "(B), (C) and (D) Only",
+   "(A), (B), (C) and (D) Only",
+   "(B), (C), (D) and (E) Only",
+   "(A), (B), (C), (D) and (E)"
+  ],
+  "answerIndex": 3,
+  "explanation": "Life Cycle Assessment (LCA) is a systematic process to evaluate the\nenvironmental impacts of a product throughout its entire life cycle, from raw\nmaterials to disposal. The stages included in an LCA are:\n(A) Raw materials (B) Product manufacturing (C) Packaging and distribution (D)\nDisposal of the product (E) Product use\nTherefore, the correct answer is:\n4. (A), (B), (C), (D), and (E)",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 58,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-031",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "Indian environmental legislation",
+  "question": "Which of the following Articles of the Constitution of India refers to protection and improvement of environment and safeguarding of forests and wildlife?",
+  "options": [
+   "39 A",
+   "43 A",
+   "48 A",
+   "51 A"
+  ],
+  "answerIndex": 2,
+  "explanation": "The Articles of the Constitution of India that refer to the protection and\nimprovement of the environment and safeguarding of forests and wildlife are\nArticle 48A and Article 51A(g).\nArticle 48A: \"The State shall endeavour to protect and improve the\nenvironment and to safeguard the forests and wildlife of the country.\"\nArticle 51A(g): \"It shall be the duty of every citizen of India to protect and\nimprove the natural environment including forests, lakes, rivers, and\nwildlife, and to have compassion for living creatures.\"\nGiven the options provided, the correct answer is:\n3. Article 48A",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 59,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-032",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "EIA process & clearance",
+  "question": "Which of the following is not used for elimination of the non-feasible set of alternative in multi attribute decision making ?",
+  "options": [
+   "Compromise programming",
+   "Conjunctive Screening",
+   "Compensatory screening",
+   "Lexicographic screening"
+  ],
+  "answerIndex": 0,
+  "explanation": "In multi-attribute decision-making, different techniques are used for evaluating and\neliminating alternatives based on various attributes. Among the options provided,\nCompromise Programming is not primarily used for the elimination of non-\nfeasible alternatives. Instead, it is a method used to find a solution that represents\nthe best compromise among multiple conflicting criteria.\nSo, the correct answer is:\n1. Compromise programming",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 60,
+  "sourceKey": "A",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-033",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "EIA process & clearance",
+  "question": "Given below are two statements:\nStatement (I): Strategic Environmental Assessment (SEA) helps to build a desirable future, it is not an attempt to know the future.\nStatement (II): Environmental Impact Assessment (EIA) is performed through the preparation and development of Policies, Plans, Programs and projects.\nIn the light of the above statements, choose the most appropriate answer from the options given below :",
+  "options": [
+   "Both Statement I and Statement II are correct",
+   "Both Statement I and Statement II are incorrect",
+   "Statement I is correct but Statement II is incorrect",
+   "Statement I is incorrect but Statement II is correct"
+  ],
+  "answerIndex": 2,
+  "explanation": "Let's analyze both statements:\nStatement (I): Strategic Environmental Assessment (SEA) helps to build a\ndesirable future, it is not an attempt to know the future.\nCorrect: SEA is a proactive process that aims to integrate environmental\nconsiderations into policies, plans, and programs to promote sustainable\ndevelopment, focusing on creating a desirable future rather than predicting\nit.\nStatement (II): Environmental Impact Assessment (EIA) is performed through the\npreparation and development of Policies, Plans, Programs, and projects.\nIncorrect: EIA is project-specific and focuses on assessing the\nenvironmental impacts of individual projects rather than policies, plans, and\nprograms. SEA is the process used for the broader scope of policies, plans,\nand programs.\nGiven this analysis, the most appropriate answer is:\n3. Statement I is correct but Statement II is incorrect",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 61,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-034",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "Environmental policy, principles & institutions",
+  "question": "In April 2016, the UN General Assembly has proclaimed the UN decade of ______ to 2025.",
+  "options": [
+   "action on nutrition",
+   "millets",
+   "plastic free world",
+   "fisheries and aquaculture"
+  ],
+  "answerIndex": 0,
+  "explanation": "In April 2016, the UN General Assembly proclaimed the UN Decade of Action on\nNutrition to 2025.\nSo, the correct answer is:\n1. action on nutrition\nHere's a table listing some of the decades proclaimed by the United Nations:\nDecade Focus Area Years\n2016–\nUN Decade of Action on Nutrition Action on nutrition\n2025\nUnited Nations Decade of Ecosystem Ecosystem 2021–\nRestoration restoration 2030\nUnited Nations Decade of Action on 2021–\nBiodiversity\nBiodiversity 2030\nUnited Nations Decade of Action on 2010–\nDesertification\nDesertification 2020\nUnited Nations Decade of Action on 2021–\nBiodiversity\nBiodiversity 2030\nDecade Focus Area Years\nUnited Nations Decade of Action on Sustainable energy 2014–\nSustainable Energy for All for all 2024\nUnited Nations Decade of Action on 2010–\nDesertification\nDesertification 2020",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 62,
+  "sourceKey": "A",
+  "keyCheck": "matches-explanation",
+  "note": "The blank in the stem is added; the source prints 'UN decade of to 2025'."
+ },
+ {
+  "id": "EIA-035",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "EIA process & clearance",
+  "question": "Environmental Scientists and resource managers should adopt which of the following study (design) for documenting present state of the environment to establish future changes resulting from unforeseen events?",
+  "options": [
+   "Baseline studies",
+   "Irregular Monitoring",
+   "Regular Monitoring",
+   "Targeted studies"
+  ],
+  "answerIndex": 0,
+  "explanation": "To document the present state of the environment and establish future changes\nresulting from unforeseen events, Baseline studies (1) is generally the most\neffective approach\n1. Baseline Studies: These are essential for establishing the current state of the\nenvironment. They provide a comprehensive snapshot of conditions at a\nspecific point in time, which serves as a reference for future comparisons.\nIrregular Monitoring (2) might miss critical changes due to its sporadic nature,\nand Targeted Studies (4) focus on specific aspects rather than the overall state,\nwhich might not provide a complete picture.",
+  "source": "PYQ Dec 2023",
+  "sourcePage": 64,
+  "sourceKey": "A",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-036",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "Environmental management tools & LCA",
+  "question": "Life cycle assessment of a product includes:\nA. Raw material extraction\nB. Product manufacturing\nC. Product remanufacture\nD. Packaging and distribution\nE. Product disposal\nChoose the most appropriate answer from the options given below",
+  "options": [
+   "B and D only",
+   "B, D and E only",
+   "A, B and E only",
+   "A, B, C, D and E only"
+  ],
+  "answerIndex": 3,
+  "explanation": "The most appropriate answer for a comprehensive life cycle assessment (LCA) of a\nproduct, which includes all the stages from raw material extraction to product\ndisposal, is:\n4. A, B, C, D and E only\nA thorough LCA considers:\nRaw material extraction (A): Sourcing the raw materials needed for the\nproduct.\nProduct manufacturing (B): The process of converting raw materials into\nthe final product.\nProduct remanufacture (C): Reusing, refurbishing, or remanufacturing\nparts or products to extend their lifecycle.\nPackaging and distribution (D): The packaging of the product and its\ntransportation to the market.\nProduct disposal (E): The end-of-life stage, which includes disposal,\nrecycling, or waste management.\nBy covering all these stages, an LCA can provide a complete picture of the\nenvironmental impact of a product throughout its life.",
+  "source": "PYQ Jun 2023",
+  "sourcePage": 66,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-037",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "Environmental policy, principles & institutions",
+  "question": "Match List I with List II\nLIST-I\nA. Disaster Management Act\nB. Kyoto Protocol\nC. Montreal Protocol\nD. National Action Plan on climate change\nLIST-II\nI. 1987\nII. 2008\nIII. 2005\nIV. 1997\nChoose the correct answer from the options given below:",
+  "options": [
+   "A-I, B-II, C-III, D-IV",
+   "A-II, B-III, C-IV, D-I",
+   "A-III, B-IV, C-I, D-II",
+   "A-IV, B-III, C-II, D-I"
+  ],
+  "answerIndex": 2,
+  "explanation": "Let's match the items from List-I with the correct years from List-II:\nA. Disaster Management Act - 2005 (III) B. Kyoto Protocol - 1997 (IV) C.\nMontreal Protocol - 1987 (I) D. National Action Plan on climate change - 2008 (II)\nSo, the correct answer is:\n3. A-III, B-IV, C-I, D-II",
+  "source": "PYQ Jun 2023",
+  "sourcePage": 68,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-038",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "Indian environmental legislation",
+  "question": "Match List I with List II\nLIST-I (Acts)\nA. Biological Diversity Act\nB. Environmental (Protection) Act\nC. Indian forest Act (Revised)\nD. Wildlife Protection Act\nLIST-II\nI. 1972\nII. 1982\nIII. 1986\nIV. 2002\nChoose the correct answer from the options given below:",
+  "options": [
+   "A-IV, B-III, C-I, D-II",
+   "A-IV, B-II, C-I, D-III",
+   "A-IV, B-III, C-II, D-I",
+   "A-III, B-IV, C-II, D-I"
+  ],
+  "answerIndex": 2,
+  "explanation": "Let us match the items from List-I with the correct years from List-II:\nA. Biological Diversity Act - 2002 (IV)\nB. Environmental (Protection) Act - 1986 (III)\nC. Indian Forest Act (Revised) - 1982 (II)\nD. Wildlife Protection Act - 1972 (I)\nSo, the correct answer is:\n3. A-IV, B-III, C-II, D-I",
+  "source": "PYQ Jun 2023",
+  "sourcePage": 69,
+  "sourceKey": "C",
+  "keyCheck": "source-key-as-printed",
+  "flag": "Keyed 'Indian Forest Act (Revised) – 1982' is the source's pairing; the principal Indian Forest Act dates from 1927 (the 1982 item refers to a revised bill). Confirm intent."
+ },
+ {
+  "id": "EIA-039",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "EIA process & clearance",
+  "question": "\"The formalized, systematic and comprehensive process of evaluating the environmental impacts of a policy, programme, plan or its alternatives as well as using the findings in publicly accountable decision making is called:",
+  "options": [
+   "Environmental Impact Assessment (EIA)",
+   "Integrated Impact Assessment (IIA)",
+   "Ecological Impact Assessment (ECIA)",
+   "Strategic Environmental Impact Assessment (SEIA)"
+  ],
+  "answerIndex": 3,
+  "explanation": "The correct answer is:\n4. Strategic Environmental Impact Assessment (SEIA)\nStrategic Environmental Impact Assessment (SEIA) is the formalized, systematic,\nand comprehensive process of evaluating the environmental impacts of a policy,\nprogramme, or plan, as well as its alternatives. It also involves using the findings in\na way that is publicly accountable in decision-making processes.",
+  "source": "PYQ Jun 2023",
+  "sourcePage": 70,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation",
+  "note": "The standard term is Strategic Environmental Assessment (SEA); option 4 is the closest listed."
+ },
+ {
+  "id": "EIA-040",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "Indian environmental legislation",
+  "question": "The notification of Environmental Impact Assessment under the provision of Environmental (Protection) Act, 1986 was carried out for",
+  "options": [
+   "River valley projects.",
+   "Development projects.",
+   "Tourism Projects.",
+   "Municipal Waste Management."
+  ],
+  "answerIndex": 1,
+  "explanation": "",
+  "source": "PYQ Mar 2023",
+  "sourcePage": 72,
+  "sourceKey": "B",
+  "keyCheck": "source-only",
+  "flag": "No explanation text in source; key not cross-checked."
+ },
+ {
+  "id": "EIA-041",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "Environmental policy, principles & institutions",
+  "question": "Which of the following inter-governmental conferences recommended Environmental Education to cater to all ages and socio-professional groups in the population?",
+  "options": [
+   "Stockholm (1972)",
+   "Tbilisi (1977)",
+   "Rio de Janeiro (1992)",
+   "Berlin (1995)"
+  ],
+  "answerIndex": 1,
+  "explanation": "The inter-governmental conference that recommended Environmental Education to\ncater to all ages and socio-professional groups in the population was the Tbilisi\nConference (1977)",
+  "source": "PYQ Mar 2023",
+  "sourcePage": 72,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-042",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "Indian environmental legislation",
+  "question": "Which one of the following fundamental duties makes sure that every citizen of India protects and improves the natural environment including forests, lakes, rivers and wildlife, and has compassion for living creatures?",
+  "options": [
+   "51A (c)",
+   "51A (e)",
+   "51A (g)",
+   "51A (i)"
+  ],
+  "answerIndex": 2,
+  "explanation": "",
+  "source": "PYQ Mar 2023",
+  "sourcePage": 73,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-043",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "Environmental management tools & LCA",
+  "question": "Which one of the following is NOT a product-based tool of environmental preventive management?",
+  "options": [
+   "Cleaner production",
+   "Eco - Labeling",
+   "Industrial Ecology",
+   "Life cycle assessment"
+  ],
+  "answerIndex": 0,
+  "explanation": "",
+  "source": "PYQ Mar 2023",
+  "sourcePage": 73,
+  "sourceKey": "A",
+  "keyCheck": "source-only",
+  "flag": "No explanation text in source; key not cross-checked."
+ },
+ {
+  "id": "EIA-044",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "Indian environmental legislation",
+  "question": "Which of the following are NOT objectives of the Environment (Protection) Act, 1986?\nA. Prevention of hazards to all living creatures (plants, animals and human) and property\nB. Conservation of the natural heritage\nC. Check on soil erosion and denudation in catchment areas in rivers, lakes and reservoirs\nD. Maintenance of a harmonious relationship between humans and their environment\nE. Increase in productivity of forests to meet the natural needs\nChoose the correct answer from the options given below:",
+  "options": [
+   "A, B and D only",
+   "B, C and E only",
+   "B, C and D only",
+   "C, D and E only"
+  ],
+  "answerIndex": 1,
+  "explanation": "The objectives of the Environment (Protection) Act, 1986 primarily focus on\nprotecting and improving the environment, as well as preventing hazards to all\nforms of life and property.\nGiven the provided options, the correct answer is:\n2. B, C and E only\nHere’s a brief explanation:\nB. Conservation of the natural heritage: While important, this is not\nexplicitly stated as an objective of the Act.\nC. Check on soil erosion and denudation in catchment areas in rivers,\nlakes and reservoirs: This specific objective is generally covered under the\nscope of other environmental acts and regulations.\nE. Increase in productivity of forests to meet natural needs: This\nobjective falls under the ambit of the Forest Conservation Act and related\npolicies, rather than the Environment (Protection) Act itself.\nThe Environment (Protection) Act, 1986 is broad in scope, focusing on\nenvironmental protection and the prevention of hazards, but it does not specifically\naddress all these points.",
+  "source": "PYQ Mar 2023",
+  "sourcePage": 74,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-045",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "International conventions & protocols",
+  "question": "Choose the correct statements\nA. Basel convention was on transboundary movement of toxic waste.\nB. Kyoto protocol was on banning of production of CFCs.\nC. Montreal protocol was on controlling Global warming.\nD. Earth Summit in the year 2002 was held in Johannesburg.\nE. Convention on Biodiversity (CBD) was held in the year 1995.\nChoose the correct answer from the options given below:",
+  "options": [
+   "A, B, C and E only",
+   "A, B and C only",
+   "A and D only",
+   "B, C, D and E only"
+  ],
+  "answerIndex": 2,
+  "explanation": "Let's review the statements one by one:\nA. Basel Convention: This was indeed on the control of transboundary movements\nof hazardous wastes and their disposal. B. Kyoto Protocol: This was on reducing\ngreenhouse gas emissions, not specifically on banning CFCs. C. Montreal\nProtocol: This was specifically on substances that deplete the ozone layer,\nincluding CFCs. D. Earth Summit in 2002: This was indeed held in\nJohannesburg. E. Convention on Biodiversity (CBD): The CBD was actually held\nin 1992, not 1995.\nHence, the correct answer is:\n3. A and D only",
+  "source": "PYQ Mar 2023",
+  "sourcePage": 76,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-046",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "EIA process & clearance",
+  "question": "Following are the common procedural steps in ecological impact analysis process. Arrange them from the first to the last step.\nA. Focussing\nB. Impact Assessment\nC. Impact Evaluation\nD. Impact Mitigation\nE. Scoping\nChoose the correct answer from the options given below:",
+  "options": [
+   "A, E, C, B, D",
+   "E, A, B, D, C",
+   "E, B, C, D, A",
+   "A, B, C, D, E"
+  ],
+  "answerIndex": 1,
+  "explanation": "",
+  "source": "PYQ Mar 2023",
+  "sourcePage": 77,
+  "sourceKey": "B",
+  "keyCheck": "source-only",
+  "flag": "No explanation text in source; key not cross-checked."
+ },
+ {
+  "id": "EIA-047",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "International conventions & protocols",
+  "question": "Which of the following is related to 'MARRAKESH ACCORDS'?",
+  "options": [
+   "The Earth Summit (1992)",
+   "Berlin Mandate (1995)",
+   "Geneva Convention (1996)",
+   "Kyoto Protocol (1997)"
+  ],
+  "answerIndex": 3,
+  "explanation": "4. Kyoto Protocol (1997)\nThe Marrakesh Accords were adopted in 2001 during the 7th Conference of the\nParties (COP7) to the United Nations Framework Convention on Climate Change\n(UNFCCC) and provided detailed rules for implementing the Kyoto Protoco",
+  "source": "PYQ Mar 2023",
+  "sourcePage": 78,
+  "sourceKey": "D",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-048",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "Indian environmental legislation",
+  "question": "Which section of Environmental (Protection) Act, 1986 deals with offences by companies?",
+  "options": [
+   "Section 13",
+   "Section 14",
+   "Section 16",
+   "Section 18"
+  ],
+  "answerIndex": 2,
+  "explanation": "Section 16 of the Environment (Protection) Act, 1986 deals with offences by companies (every person in charge of the company's business at the time is deemed guilty unless they prove lack of knowledge or due diligence).",
+  "source": "PYQ Sep 2022",
+  "sourcePage": 80,
+  "sourceKey": "C",
+  "keyCheck": "resolved-by-statute",
+  "flag": "Source explanation for this item is unrelated study-note text containing a section table that does not match the Act; replaced with a one-line statement of Section 16. Needs sign-off.",
+  "note": "Source options read 'Article 13/14/16/18'; the Act has sections, so 'Section' is used."
+ },
+ {
+  "id": "EIA-049",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "International conventions & protocols",
+  "question": "Which one of the following is correctly matched pair?",
+  "options": [
+   "Biodiversity Conservation - Basel Convention",
+   "Global Warming - Montreal Protocol",
+   "Climate Change - Kyoto Protocol",
+   "Groundwater Pollution - Ramsar Convention"
+  ],
+  "answerIndex": 2,
+  "explanation": "The correctly matched pair is:\n3. Climate Change - Kyoto Protocol\nHere’s a brief explanation for each pair:\nBiodiversity Conservation - Basel Convention: Incorrect. The Basel\nConvention deals with the control of transboundary movements of hazardous\nwastes and their disposal.\nGlobal Warming - Montreal Protocol: Incorrect. The Montreal Protocol\nfocuses on substances that deplete the ozone layer, not directly on global\nwarming.\nClimate Change - Kyoto Protocol: Correct. The Kyoto Protocol specifically\naddresses the reduction of greenhouse gas emissions to combat climate\nchange.\nGroundwater Pollution - Ramsar Convention: Incorrect. The Ramsar\nConvention is focused on the conservation and sustainable use of wetlands,\nnot specifically on groundwater pollution.",
+  "source": "PYQ Sep 2022",
+  "sourcePage": 84,
+  "sourceKey": "C",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-050",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "Indian environmental legislation",
+  "question": "Which among the following is the first major Environmental Protection act to be promulgated in India ?",
+  "options": [
+   "Biological Diversity Act",
+   "Environmental Protection Act",
+   "Forest Conservation Act",
+   "Wildlife Protection Act"
+  ],
+  "answerIndex": 3,
+  "explanation": "",
+  "source": "PYQ Sep 2022",
+  "sourcePage": 85,
+  "sourceKey": "D",
+  "keyCheck": "source-only",
+  "flag": "No explanation text in source; key not cross-checked. Wild Life (Protection) Act 1972 predates the Forest (Conservation) Act 1980 and the EP Act 1986."
+ },
+ {
+  "id": "EIA-051",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "Indian environmental legislation",
+  "question": "Which Article of the Constitution of India states that it shall be the duty of every citizen of India to protect and improve the natural environment and to have compassion for living creatures?",
+  "options": [
+   "Article 48A",
+   "Article 51A",
+   "Article 21A",
+   "Article 13A"
+  ],
+  "answerIndex": 1,
+  "explanation": "",
+  "source": "PYQ Sep 2022",
+  "sourcePage": 85,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ },
+ {
+  "id": "EIA-052",
+  "exam": [
+   "aee-pcb"
+  ],
+  "subject": "EIA & Environmental Legislation",
+  "topic": "Environmental policy, principles & institutions",
+  "question": "Which of the following principle was introduced in 1972 by the Organization for Economic Cooperation and Development (OECD) guiding principles concerning Institutional Economic Aspects of Environmental Pollution?",
+  "options": [
+   "Frontier Diplomacy Principle",
+   "Polluter Pays Principle",
+   "Human Rights and Environment Principle",
+   "Principle of Environment Protection"
+  ],
+  "answerIndex": 1,
+  "explanation": "The principle introduced in 1972 by the Organization for Economic Cooperation\nand Development (OECD) concerning Institutional Economic Aspects of\nEnvironmental Pollution is:\n2. Polluter Pays Principle\nThe Polluter Pays Principle (PPP) stipulates that the polluter should bear the cost\nof pollution caused by them. It aims to internalize the external costs of production\nand consumption, ensuring that those responsible for pollution are held financially\naccountable for the environmental damage they cause.",
+  "source": "PYQ Sep 2022",
+  "sourcePage": 86,
+  "sourceKey": "B",
+  "keyCheck": "matches-explanation"
+ }
+]
