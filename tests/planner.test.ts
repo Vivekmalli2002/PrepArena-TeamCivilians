@@ -73,3 +73,16 @@ describe("mistake notebook", () => {
     expect(m.find((x) => x.id === 3)).toMatchObject({ kind: "wrong", times: 1 });
   });
 });
+
+describe("mains questions", () => {
+  it("are the 292 real APPSC Group-I Paper-V questions with unique ids and no copied model answers", () => {
+    const qs = JSON.parse(readFileSync("src/content/mains.json", "utf8")) as { id: string; question: string; year: number; theme: string }[];
+    expect(qs).toHaveLength(292);
+    expect(new Set(qs.map((q) => q.id)).size).toBe(292);
+    for (const q of qs) {
+      expect(q.question.length, q.id).toBeGreaterThan(20);
+      expect(q.question, q.id).not.toMatch(/^\d+\s*\([a-z]\)|Introduction\b/);
+    }
+    expect(Math.min(...qs.map((q) => q.year))).toBe(2008);
+  });
+});
