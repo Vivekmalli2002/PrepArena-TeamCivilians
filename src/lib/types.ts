@@ -14,6 +14,10 @@ export interface Question {
   note?: string;
   /** Why the question was editorially revised (see content/corrections.json). */
   revised?: string;
+  /** Figures that belong to the explanation (public URLs). */
+  explanationImage?: string[];
+  /** Figure the question itself refers to (public URL). */
+  image?: string;
 }
 
 export type Mode = "practice" | "exam";

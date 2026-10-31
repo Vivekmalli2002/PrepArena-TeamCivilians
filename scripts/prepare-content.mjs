@@ -182,9 +182,68 @@ authoredFiles.forEach((f, i) => {
     authored.push(rest);
   }
 });
-const all = [...corrected, ...authored];
+/* ---------------- 4a-2. structured banks (data/questions/*.json) ---------------- */
+// Questions structured from the source books (see STRUCTURING_SPEC). Ids are strings in the files; they get
+// stable integer ids from data/questions/_ids.json (append-only). Items whose answer key could not be confirmed
+// (see `keyCheck`) are published as "withdrawn" — kept for review, never shown in tests.
+const DATA = join(root, "data/questions");
+const FILE_SUBJECT = { "air-pollution": "env", "water-pollution": "env", "eia-legislation": "env", energy: "env", "indian-economy": "economy" };
+const TOPIC_UNIT = {
+  "Photochemical smog": 4, "Plume dispersion & meteorology": 4, "Particulate & gaseous control devices": 4, "Noise pollution": 4,
+  "Air quality standards & pollutant types": 4, "Air pollution calculations": 4, "Atmospheric chemistry & ozone": 6, "Greenhouse gases & climate": 6,
+  "Water treatment: coagulation & disinfection": 4, "BOD, COD & oxygen demand": 4, "Wastewater treatment": 4, "Water chemistry": 4,
+  "Nutrients & eutrophication": 4, "Membrane processes": 4, "Anaerobic digestion & bioreactors": 5, "Contaminants & standards": 4,
+  "EIA process & clearance": 8, "International conventions & protocols": 7, "Indian environmental legislation": 7,
+  "Environmental policy, principles & institutions": 7, "Environmental management tools & LCA": 8,
+  "Hydropower & renewable energy": 3, "Coal & coalification": 3, "Petroleum & natural gas": 3, "Nuclear energy & radiation": 3, Biofuels: 3, "Energy statistics (India)": 3,
+};
+const HOLD = new Set(["source-only", "conflict-trusted-explanation", "key-overridden-by-science", "time-sensitive", "source-key-as-printed"]);
+const idsFile = join(DATA, "_ids.json");
+const idMap = existsSync(idsFile) ? JSON.parse(readFileSync(idsFile, "utf8")) : {};
+let nextId = Math.max(100000, ...Object.values(idMap)) + 1;
+const structured = [];
+const structuredText = [];
+const knownQ = new Set([...corrected, ...authored].map((q) => normQ(q.question)));
+let structuredHeld = 0;
+let structuredDup = 0;
+if (existsSync(DATA)) {
+  for (const f of readdirSync(DATA).filter((f) => f.endsWith(".json") && !f.endsWith(".dropped.json") && !f.startsWith("_")).sort()) {
+    const slugName = f.replace(/\.json$/, "");
+    const subj = FILE_SUBJECT[slugName];
+    if (!subj) {
+      console.error(`data/questions/${f}: add it to FILE_SUBJECT in scripts/prepare-content.mjs`);
+      process.exit(1);
+    }
+    const text = readFileSync(join(DATA, f), "utf8");
+    structuredText.push(text);
+    for (const d of JSON.parse(text)) {
+      if (!idMap[d.id]) idMap[d.id] = nextId++;
+      const q = {
+        id: idMap[d.id], topic: d.topic, question: d.question, options: d.options, answerIndex: d.answerIndex,
+        explanation: d.explanation ?? "", source: d.source,
+      };
+      if (d.explanationImage?.length) q.explanationImage = d.explanationImage.map((x) => `/qimg/${slugName}/${x}`);
+      if (d.image) q.image = `/qimg/${slugName}/${d.image}`;
+      if (d.flag && /^(resolved|stem-corrected|supported|solution)/.test(d.keyCheck ?? "")) q.revised = d.flag;
+      structured.push(q);
+      subjectOf.set(q.id, subj);
+      unitOf.set(q.id, TOPIC_UNIT[q.topic] ?? null);
+      if (HOLD.has(d.keyCheck)) {
+        quarantine[q.id] = `Answer key not confirmed (${d.keyCheck}): ${d.flag ?? ""}`.trim();
+        structuredHeld++;
+      } else if (knownQ.has(normQ(q.question))) {
+        duplicateOf[q.id] = [...corrected, ...authored, ...structured].find((x) => normQ(x.question) === normQ(q.question)).id;
+        structuredDup++;
+      }
+      knownQ.add(normQ(q.question));
+    }
+  }
+  validate(structured, "data/questions");
+  writeFileSync(idsFile, JSON.stringify(idMap, null, 1) + "\n");
+}
+const all = [...corrected, ...authored, ...structured];
 
-const version = createHash("sha256").update(rawText).update(fixText).update(authoredText.join("")).digest("hex").slice(0, 12);
+const version = createHash("sha256").update(rawText).update(fixText).update(authoredText.join("")).update(structuredText.join("")).digest("hex").slice(0, 12);
 const slug = (s) => s.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const byTopic = new Map();
 for (const q of all) {
@@ -229,7 +288,7 @@ console.log(
   `content v${version}: ${raw.length} questions → ${active} active in ${topics.length} topics ` +
     `(${Object.keys(quarantine).length} withdrawn, ${Object.keys(duplicateOf).length} duplicates hidden; ` +
     `${log.stripped.length} cleaned, ${log.droppedOption.length} option-E removed, ${log.renamedTopic.length} re-topiced, ` +
-    `${Object.keys(overrides).length} revised; ${authored.length} authored in ${authoredFiles.length} subject files)`,
+    `${Object.keys(overrides).length} revised; ${authored.length} authored in ${authoredFiles.length} subject files; ${structured.length} structured, ${structuredHeld} held for key review, ${structuredDup} duplicates)`,
 );
 
 if (process.argv.includes("--audit")) writeAudit();

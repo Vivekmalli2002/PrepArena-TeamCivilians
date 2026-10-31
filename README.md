@@ -60,6 +60,13 @@ and AEE Paper-II (common to R&B, Irrigation, PR & TW, each with its own Paper-II
 - `scripts/prepare-content.mjs` validates, applies corrections, hides exact duplicates and publishes
   `public/data/index.json` (~11 KB: topics → ids) plus one content-hashed file per topic, loaded on demand.
 - `docs/content-audit.md` (`npm run content:audit`) shows before → after and what still needs an editor.
+- **Structured question banks** live in `data/questions/<subject>.json` (structured from the source books per the structuring spec) with
+  stable string ids mapped to integer ids in `data/questions/_ids.json`. Each item records its source page, the original key letter and a
+  `keyCheck` status; items whose key could not be confirmed (`source-only`, `conflict-trusted-explanation`, …) are published as *withdrawn*
+  and never reach a test until an editor confirms them. Items dropped during structuring are listed with reasons in `*.dropped.json`.
+- **Anti-repeat tests:** mocks, topic mocks and custom tests prefer questions the student has not seen (then the longest-unseen), never repeat a
+  question inside one test, shuffle question order, and shuffle option order for display only (answers and scoring keep the original option
+  index). Options that refer to each other ("All of the above", "1 and 2 only", "(a)-(iii)…") keep their printed order.
 - Withdrawn questions stay in the topic files so old results can still be reviewed (with a note), but never appear in tests.
 - **Editorial overrides** (`overrides` in corrections.json) rewrite a broken stem or key with a recorded reason;
   the app shows “Revised by Team Civilians” under the explanation.

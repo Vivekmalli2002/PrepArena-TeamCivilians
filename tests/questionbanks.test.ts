@@ -2,7 +2,7 @@ import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 
 const dir = "data/questions";
-const files = readdirSync(dir).filter((f) => f.endsWith(".json") && !f.endsWith(".dropped.json"));
+const files = readdirSync(dir).filter((f) => f.endsWith(".json") && !f.endsWith(".dropped.json") && !f.startsWith("_"));
 
 describe("structured question banks (data/questions)", () => {
   const seen = new Set<string>();

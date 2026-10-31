@@ -37,3 +37,20 @@ export function dayKey(d: Date = new Date()) {
   const p = (n: number) => String(n).padStart(2, "0");
   return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
 }
+
+/**
+ * Options that refer to each other ("All of the above", "Both A and B", "1 and 2 only", "(a), (b) and (c)")
+ * keep their printed order; everything else may be shuffled for display.
+ */
+export function canShuffleOptions(options: readonly string[]): boolean {
+  if (options.length < 3) return false;
+  const refers =
+    /\b(above|below|both|neither|none of|all of|any of|all the|only|and)\b|^\(?[a-e1-5]\)?([\s,.\-–]|$)|^[ivx]+[\s,.]|\b[a-e]\s*[-–]\s*[ivx]+|\b(statement|option)s?\b/i;
+  return !options.some((o) => refers.test(o.trim()));
+}
+
+/** Display order (original option indices), stable for a given seed, e.g. `${sessionId}:${qid}`. */
+export function optionOrder(options: readonly string[], seed: string): number[] {
+  const idx = options.map((_, i) => i);
+  return canShuffleOptions(options) ? shuffle(idx, mulberry32(hashString(seed))) : idx;
+}

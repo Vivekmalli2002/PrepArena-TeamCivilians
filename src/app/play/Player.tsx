@@ -22,6 +22,7 @@ import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useQuestions } from "@/lib/bank";
 import { fmtClock } from "@/lib/format";
+import { optionOrder } from "@/lib/random";
 import { SCHEMES, schemeById } from "@/lib/scoring";
 import { paletteStatus, useApp, useHydrated, useSession } from "@/lib/store";
 import type { PaletteStatus, Question, Session } from "@/lib/types";
@@ -191,6 +192,9 @@ function Console({ session, byId }: { session: Session; byId: Map<number, Questi
   const n = cfg.qids.length;
   const i = session.current;
   const q = byId.get(cfg.qids[i])!;
+  // Options are shuffled for display only; answers and scoring use the original option index.
+  const order = optionOrder(q.options, `${session.id}:${q.id}`);
+  const orderKey = order.join(",");
   const practice = cfg.mode === "practice";
   // Practice is self-paced (count-up clock); only exam mode counts down and auto-submits.
   const timed = cfg.durationSec > 0 && !practice;
@@ -237,7 +241,7 @@ function Console({ session, byId }: { session: Session; byId: Map<number, Questi
       if (session.paused || paletteOpen || submitOpen || e.metaKey || e.ctrlKey || e.altKey) return;
       const key = e.key.toLowerCase();
       const idx = "abcde".indexOf(key) >= 0 ? "abcde".indexOf(key) : "12345".indexOf(key);
-      if (idx >= 0 && idx < q.options.length) S().choose(idx);
+      if (idx >= 0 && idx < q.options.length) S().choose(order[idx] ?? idx);
       else if (e.key === "ArrowRight") {
         if (practice) S().goTo(i + 1);
         else S().saveNext();
@@ -249,7 +253,8 @@ function Console({ session, byId }: { session: Session; byId: Map<number, Questi
     };
     window.addEventListener("keydown", k);
     return () => window.removeEventListener("keydown", k);
-  }, [S, i, q.options.length, practice, session.paused, paletteOpen, submitOpen]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [S, i, q.options.length, orderKey, practice, session.paused, paletteOpen, submitOpen]);
 
   const chosen = practice ? session.responses[i] : session.drafts[i];
   const revealed = practice && session.responses[i] != null;
@@ -372,7 +377,7 @@ function Console({ session, byId }: { session: Session; byId: Map<number, Questi
                 <QuestionText text={q.question} />
               </Card>
               <div className="mt-4">
-                <Options q={q} stateOf={stateOf} onChoose={(o) => S().choose(o)} disabled={revealed} />
+                <Options q={q} order={order} stateOf={stateOf} onChoose={(o) => S().choose(o)} disabled={revealed} />
               </div>
               {revealed && (
                 <div className="mt-4">
