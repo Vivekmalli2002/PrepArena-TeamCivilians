@@ -187,7 +187,7 @@ authoredFiles.forEach((f, i) => {
 // stable integer ids from data/questions/_ids.json (append-only). Items whose answer key could not be confirmed
 // (see `keyCheck`) are published as "withdrawn" — kept for review, never shown in tests.
 const DATA = join(root, "data/questions");
-const FILE_SUBJECT = { "air-pollution": "env", "water-pollution": "env", "eia-legislation": "env", energy: "env", "indian-economy": "economy", "original-economy": "economy", "original-history": "history", "original-geography": "geography", "original-polity": "polity", "original-scitech": "scitech", "original-mental": "mental" };
+const FILE_SUBJECT = { "air-pollution": "env", "water-pollution": "env", "eia-legislation": "env", energy: "env", "indian-economy": "economy", "original-economy": "economy", "original-history": "history", "original-geography": "geography", "original-polity": "polity", "original-scitech": "scitech", "original-mental": "mental", "gate-es-ga": "mental", "gate-es-tech": "env" };
 const TOPIC_UNIT = {
   "Photochemical smog": 4, "Plume dispersion & meteorology": 4, "Particulate & gaseous control devices": 4, "Noise pollution": 4,
   "Air quality standards & pollutant types": 4, "Air pollution calculations": 4, "Atmospheric chemistry & ozone": 6, "Greenhouse gases & climate": 6,
@@ -195,6 +195,7 @@ const TOPIC_UNIT = {
   "Nutrients & eutrophication": 4, "Membrane processes": 4, "Anaerobic digestion & bioreactors": 5, "Contaminants & standards": 4,
   "EIA process & clearance": 8, "International conventions & protocols": 7, "Indian environmental legislation": 7,
   "Environmental policy, principles & institutions": 7, "Environmental management tools & LCA": 8,
+  "GATE ES: Air pollution": 4, "GATE ES: Wastewater engineering": 4, "GATE ES: Water treatment": 4, "GATE ES: Solid waste management": 5, "GATE ES: Sustainable development & LCA": 8, "GATE ES: Environmental chemistry": 4, "GATE ES: Noise pollution": 4, "GATE ES: Nitrogen cycle & microbiology": 1, "GATE ES: Microbiology & biochemistry": 1,
   "Hydropower & renewable energy": 3, "Coal & coalification": 3, "Petroleum & natural gas": 3, "Nuclear energy & radiation": 3, Biofuels: 3, "Energy statistics (India)": 3,
 };
 const HOLD = new Set(["source-only", "conflict-trusted-explanation", "key-overridden-by-science", "time-sensitive", "source-key-as-printed"]);
