@@ -32,7 +32,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Fundamental Concepts",
+  "topic": "Linear Measurements Including Chain Survey",
   "question": "The instrument attached to the wheel of a _p vehicle to measure the distance traveled is:",
   "options": [
    "Pedometer",
@@ -50,7 +50,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 1,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -437,7 +437,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Fundamental Concepts",
+  "topic": "Theory of Errors and Adjustments",
   "question": "A distance of 270 m is to be taped with an error of not more than ±0.15 m. Determine how confidence interval accurately each 30 m length should be (b) varies inversely with the square of the measured to ensure that the error in the above confidence interval taped distance will not exceed the permissible (c) varies inversely with the square of the limit. TG residual error",
   "options": [
    "0.15 m",
@@ -455,7 +455,7 @@
   "flag": "Automatic extraction check failed: layout, options, stray",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 1,
+  "unit": 16,
   "classified": "book+kw"
  },
  {
@@ -734,7 +734,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Linear Measurements Including Chain Survey",
+  "topic": "Theory of Errors and Adjustments",
   "question": "Length of a 50 m chain is short by 0.05 m. Correct ch What kind of error will it introduce",
   "options": [
    "Positive cumulative error ar",
@@ -752,7 +752,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 2,
+  "unit": 16,
   "classified": "book+kw"
  },
  {
@@ -1463,7 +1463,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Linear Measurements Including Chain Survey",
+  "topic": "Fundamental Concepts",
   "question": "In triangulation survey, the strength of figure in a triangulation system is more :",
   "options": [
    "in the method of trilateration",
@@ -1481,7 +1481,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 2,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -1517,7 +1517,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Linear Measurements Including Chain Survey",
+  "topic": "Fundamental Concepts",
   "question": "The area of a square plot of land was found to be 204.5 m2. According to the scale mentioned n in plan, it was also mentioned that the 20-m O chain used for measurement for plotting was 0.015 m too long. The actual area of the plot of land is - ch",
   "options": [
    "204.2 m2",
@@ -1535,7 +1535,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 2,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -1571,7 +1571,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Compass Survey",
+  "topic": "Linear Measurements Including Chain Survey",
   "question": "When two stations for which ranging is to be done are not intervisible, the ranging method TG used in such case is:",
   "options": [
    "Reciprocal ranging",
@@ -1589,7 +1589,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 3,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -1868,7 +1868,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Compass Survey",
+  "topic": "Fundamental Concepts",
   "question": "The latitude and departure of a line AB are +78 m and -45.1 m respectively. The whole circle bearing of the line AB is",
   "options": [
    "30o",
@@ -1886,7 +1886,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 3,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -2732,7 +2732,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Levelling",
+  "topic": "Fundamental Concepts",
   "question": "The latitude of a line is-",
   "options": [
    "the average latitude in which the lines lie O",
@@ -2750,7 +2750,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 6,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -2759,7 +2759,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Levelling",
+  "topic": "Fundamental Concepts",
   "question": "If L denotes latitude and D denotes departure, then the direction of closing error is given by  ∑D   ∑D ",
   "options": [
    "tan −1  ",
@@ -2777,7 +2777,7 @@
   "flag": "Automatic extraction check failed: symbols",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 6,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -2786,7 +2786,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Levelling",
+  "topic": "Traverse Surveying and Omitted Measurements",
   "question": "If 'n' is the number of sides of traverse, while theodolite traversing the sum of the interior included angles should be-",
   "options": [
    "(2n - 4) × 90o",
@@ -2804,7 +2804,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 6,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -2894,7 +2894,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Levelling",
+  "topic": "Theory of Errors and Adjustments",
   "question": "The Bowditch's method of adjustment of traverse is based on the assumption that : 1",
   "options": [
    "e1 ∝ ℓ and e 2 ∝ TG ℓ",
@@ -2912,7 +2912,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 6,
+  "unit": 16,
   "classified": "book+kw"
  },
  {
@@ -3002,7 +3002,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Levelling",
+  "topic": "Theodolite Survey",
   "question": "In external focusing telescope for focusing 360. While doing the leveling process on a steep",
   "options": [
    "Eyepiece is moved slope, the instrument should preferably be set",
@@ -3020,7 +3020,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 6,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -3461,7 +3461,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Levelling",
+  "topic": "Theodolite Survey",
   "question": "The number of horizontal cross hairs in a stadia diaphragm is",
   "options": [
    "1",
@@ -3479,7 +3479,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 6,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -3758,7 +3758,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Levelling",
+  "topic": "Theodolite Survey",
   "question": "Which of the following statements is correct?",
   "options": [
    "The real image of an object formed by the objective, must lie in the plane of the cross hairs",
@@ -3776,7 +3776,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 6,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -3920,7 +3920,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Levelling",
+  "topic": "Fundamental Concepts",
   "question": "Which term is used for the surface to which distance in kilometers) : elevations are referred?",
   "options": [
    "± 100√K",
@@ -3938,7 +3938,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 6,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -4217,7 +4217,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Levelling",
+  "topic": "Fundamental Concepts",
   "question": "If the departure of line is 134.8 m and its bearing is 138045' then its latitude is -",
   "options": [
    "-204.4 m",
@@ -4235,7 +4235,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 6,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -4460,7 +4460,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Plane Table Survey",
+  "topic": "Fundamental Concepts",
   "question": "The are of any irregular figure can be surveying determined accurately with a",
   "options": [
    "Planimeter",
@@ -4478,7 +4478,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 11,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -4946,7 +4946,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Contours",
+  "topic": "Linear Measurements Including Chain Survey",
   "question": "In chain surveying, field work is limited to :",
   "options": [
    "Linear measurement only",
@@ -4964,7 +4964,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 9,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -5027,7 +5027,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Contours",
+  "topic": "Areas and Volumes",
   "question": "The measurement of longitudinal section 657. Contour gradient is survey is done on which basis?",
   "options": [
    "a line preserving a constant inclination to the (a) Area",
@@ -5045,7 +5045,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 9,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -5189,7 +5189,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theodolite Survey",
+  "topic": "Tacheometry",
   "question": "In the tacheometry, if inclined sight θ is taken df on a staff held normal to the sight, horizontal distance is _p",
   "options": [
    "(kS + C) cos θ + r sin θ",
@@ -5207,7 +5207,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 4,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -5243,7 +5243,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theodolite Survey",
+  "topic": "Levelling",
   "question": "If the staff intercept on a staff located at 100 m from the level for five division deviation of the bubble is 0.050 m and if the length of one division of the bubble is 2 mm, then the radius of curvature of the bubble is 0.050 m and if the length of one division of the bubble is 2 mm, then radius of curvature of the bubble tube is",
   "options": [
    "2.02 m",
@@ -5261,7 +5261,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 4,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -5297,7 +5297,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theodolite Survey",
+  "topic": "Traverse Surveying and Omitted Measurements",
   "question": "Which of the following is the most accurate method of plotting a theodolite traverse? (UP RVNL AE 2016)",
   "options": [
    "Tangent method it",
@@ -5315,7 +5315,7 @@
   "flag": "Automatic extraction check failed: source-in-stem, stray",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 4,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -5405,7 +5405,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theodolite Survey",
+  "topic": "Traverse Surveying and Omitted Measurements",
   "question": "Balancing of consecutive coordinates. 709. For analytical lens the additive constant is generally",
   "options": [
    "100",
@@ -5423,7 +5423,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 4,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -5486,7 +5486,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theodolite Survey",
+  "topic": "Tacheometry",
   "question": "The value of multiplying constant of a tacheometer is kept about :",
   "options": [
    "1000",
@@ -5504,7 +5504,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 4,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -5729,7 +5729,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theodolite Survey",
+  "topic": "Tacheometry",
   "question": "If the intercept on a vertical staff is observed as 0.75 m from a tacheometer with the line of sight horizontal, fitted with anallatic lens, the horizontal distance between the tacheometer and the staff station is-",
   "options": [
    "0.75 m",
@@ -5747,7 +5747,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 4,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -5864,7 +5864,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theodolite Survey",
+  "topic": "Levelling",
   "question": "A point on which both minus sight and plus sight are taken on a line of direct levels is called:",
   "options": [
    "the change point",
@@ -5882,7 +5882,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 4,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -5891,7 +5891,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theodolite Survey",
+  "topic": "Plane Table Survey",
   "question": "The process of determining the differences of elevations of stations from observed vertical angles and known distances is known as :",
   "options": [
    "trigonometrical levelling",
@@ -5909,7 +5909,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 4,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -5945,7 +5945,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theodolite Survey",
+  "topic": "Tacheometry",
   "question": "In the spacing of stadia hairs in a stadia where diaphragm of a tacheometer is 1.25 mm and",
   "options": [
    "obstacles, steep and broken ground deep _p the focal length of the object glass in 25 cm, ravines etc. exist then the multiplying constant of tacheometer",
@@ -5963,7 +5963,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 4,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -6026,7 +6026,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theodolite Survey",
+  "topic": "Fundamental Concepts",
   "question": "If the latitude and departure of a line are 100 m and 45.83 m, then the length of the line is–",
   "options": [
    "54.17 m",
@@ -6044,7 +6044,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 4,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -6161,7 +6161,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theodolite Survey",
+  "topic": "Fundamental Concepts",
   "question": "If the reduced bearing of line AB is N 30 W length is 100m, then the latitude and departure respectively of the line AB will be:",
   "options": [
    "+86.6 m, +50 m",
@@ -6179,7 +6179,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 4,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -6350,7 +6350,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theodolite Survey",
+  "topic": "Tacheometry",
   "question": "The multiplying constant in the distance work is to be carried out or when the permanent formula by tacheometry is given by benchmark is not nearby the place where the survey is",
   "options": [
    "focal length of the objective lens divided by to be carried out then to start the leveling work any the distance between the stadia wires prominent object like plinth or step of building etc. is",
@@ -6368,7 +6368,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 4,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -6458,7 +6458,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Curves",
+  "topic": "Tacheometry",
   "question": "One of the characteristics of a tacheometer is",
   "options": [
    "Multiplying constant is",
@@ -6476,7 +6476,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 7,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -7484,7 +7484,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Photogrammetric Surveying",
+  "topic": "Field Astronomy",
   "question": "If the LMT is 8h 12m 16s AM at 380 45’ W longitude, the GMT will be",
   "options": [
    "11h 12m 16s AM",
@@ -7502,7 +7502,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 14,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -7565,7 +7565,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Photogrammetric Surveying",
+  "topic": "Remote Sensing",
   "question": "Consider the following statements regarding TG Remote Sensing Survey: 1. Information transfer is accomplished by use of electromagnetic radiation n 2. Remote Sensing from space is done by satellites O 3. Remote Sensing has no application in Earthquake prediction ch Which of the above statements are correct?",
   "options": [
    "1 and 2 only",
@@ -7583,7 +7583,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 14,
+  "unit": 15,
   "classified": "book+kw"
  },
  {
@@ -7619,7 +7619,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Photogrammetric Surveying",
+  "topic": "Global Positioning System",
   "question": "The position of a point can be located in GPS on receiving signals from at least 990. Consider the following statements concerning",
   "options": [
    "1 satellite",
@@ -7637,7 +7637,7 @@
   "flag": "Automatic extraction check failed: layout, merged",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 14,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -7646,7 +7646,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Photogrammetric Surveying",
+  "topic": "Field Astronomy",
   "question": "Construction of dams is never indicated in satellites at an altitude of 20,200 km. any active zone of seismicity. 986. An open traverse can be checked by ap Which of the above statements are correct?",
   "options": [
    "included angles (a) 1 and 2 only",
@@ -7664,7 +7664,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 14,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -7673,7 +7673,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Photogrammetric Surveying",
+  "topic": "Remote Sensing",
   "question": "Optical plummet is used economics construction like dams, bridges and tunnels.",
   "options": [
    "in optic theodolite for compensating any tilt 991. Consider the following factors suggested and n in the axis relevant to remote sensing:",
@@ -7691,7 +7691,7 @@
   "flag": "Automatic extraction check failed: layout, stray",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 14,
+  "unit": 15,
   "classified": "book+kw"
  },
  {
@@ -7700,7 +7700,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Photogrammetric Surveying",
+  "topic": "Levelling",
   "question": "Optical plummet is used in a total station: objects –",
   "options": [
    "For accurate levelling at a station 1) Frequency",
@@ -7718,7 +7718,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 14,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -7943,7 +7943,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Photogrammetric Surveying",
+  "topic": "Remote Sensing",
   "question": "In Geographic information system, line in This plane of reference is co-planer with earth’s orbit polygon method is characteristic of around the sun.",
   "options": [
    "Buffer operation 1033. Read the following statements about the",
@@ -7961,7 +7961,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 14,
+  "unit": 15,
   "classified": "book+kw"
  },
  {
@@ -8051,7 +8051,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Photogrammetric Surveying",
+  "topic": "Fundamental Concepts",
   "question": "Aerial surveying consists of four phases. Select the option that represents their correct order.",
   "options": [
    "Advance planning, photography, ground satellite. control, compilation",
@@ -8069,7 +8069,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Surveying & Engineering Geology",
   "subjectId": "civil-sur",
-  "unit": 14,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -8618,7 +8618,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Properties of Fluids",
+  "topic": "Compressible Flow",
   "question": "If the Mach number for a fluid is less than 1, the flow is:",
   "options": [
    "Sonic",
@@ -8636,7 +8636,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 1,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -9077,7 +9077,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Properties of Fluids",
+  "topic": "Flow Through Pipes",
   "question": "Which of the following is not a non- dimensional parameter? ch",
   "options": [
    "Froude number",
@@ -9095,7 +9095,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 1,
+  "unit": 7,
   "classified": "book+kw"
  },
  {
@@ -9320,7 +9320,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Properties of Fluids",
+  "topic": "Dimensional Analysis",
   "question": "The ratio of specific heat of a gas at constant pressure and the specific heat of the gas at constant volume",
   "options": [
    "is always constant",
@@ -9338,7 +9338,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 1,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -9455,7 +9455,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Properties of Fluids",
+  "topic": "Dimensional Analysis",
   "question": "RN > 4000 Turbulent 196. The square root of the ratio of the inertia force and the gravity force is know as:",
   "options": [
    "Reynolds Number",
@@ -9473,7 +9473,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 1,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -9482,7 +9482,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Properties of Fluids",
+  "topic": "Compressible Flow",
   "question": "The range of Mach number for a subsonic flow is n",
   "options": [
    "0 < M < 1",
@@ -9500,7 +9500,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 1,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -9563,7 +9563,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Properties of Fluids",
+  "topic": "Dimensional Analysis",
   "question": "The ratio of the inertia and viscous forces acting in any flow ignoring other forces is called ar",
   "options": [
    "Euler number",
@@ -9581,7 +9581,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 1,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -9590,7 +9590,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Properties of Fluids",
+  "topic": "Dimensional Analysis",
   "question": "hyper sonic M>6 mach number : The ratio of speed of a body to the na speed of sound in the surrounding medium. v mach number = ap k/P it is a dimensionless parameter. Application of mach number : (i) Aerodynamic testing such as launching (ii) Under water testing of torpedoes. (iii) water hammer pressure. (iv) flow of gases through pipe at high velocity. 229. The ratio of inertia force to viscous force is called:",
   "options": [
    "Reynolds's number",
@@ -9608,7 +9608,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 1,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -9617,7 +9617,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Properties of Fluids",
+  "topic": "Dimensional Analysis",
   "question": "The square root of the ratio of inertia force to TG gravity force is called",
   "options": [
    "Reynolds number",
@@ -9635,7 +9635,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 1,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -9779,7 +9779,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Buoyancy and Metacentric Height",
+  "topic": "Pressure Measurement and Fluid Statics",
   "question": "A vertical rectangular plane surface is submerged in water such that its top and bottom surfaces are 1.5m and 6.0m respectively below the free surface. The position of center of pressure below the free surface will be at a distance of :",
   "options": [
    "3.75 m",
@@ -9797,7 +9797,7 @@
   "flag": "Automatic extraction check failed: options, stray",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 3,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -10859,7 +10859,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Fluid Kinematics",
+  "topic": "Pressure Measurement and Fluid Statics",
   "question": "The terminal velocity of a sphere settling in a ∂P viscous fluid varies as : ∴ = ρg ∂Z",
   "options": [
    "the Reynolds number 398. Pressure at a point in a hydrostatic fluid obeys",
@@ -10877,7 +10877,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 4,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -11156,7 +11156,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Flow Through Orifices and Mouthpieces",
+  "topic": "Energy Equation and Its Applications",
   "question": "In the category of flow meters, head loss is at (O). the least for 429. The flow rate through a circular pipe is",
   "options": [
    "orifice meter",
@@ -11174,7 +11174,7 @@
   "flag": "Automatic extraction check failed: layout, merged",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 10,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -11588,7 +11588,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Flow Through Pipes",
+  "topic": "Flow Through Orifices and Mouthpieces",
   "question": "If Cd = coefficient of discharge, Cv = coefficient streamline. This requires that the sum of kinetic energy, of velocity and Cc = coefficient of contraction, potential energy and internal energy remains constant. then which of the following statement is  P v2  correct?  + + ρgz  = constant  ρg 2g ",
   "options": [
    "Cc = Cd × Cv",
@@ -11606,7 +11606,7 @@
   "flag": "Automatic extraction check failed: layout, symbols",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 7,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -12020,7 +12020,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Flow Through Pipes",
+  "topic": "Properties of Fluids",
   "question": "In any venturimeter carrying a liquid at sufficiently high discharges, cavitation condition can occur at the throat. This occurs due to pressure at the throat reaching a critical value controlled by :",
   "options": [
    "viscosity of the fluid",
@@ -12038,7 +12038,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 7,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -12182,7 +12182,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Flow Through Pipes",
+  "topic": "Flow Over Notches and Weirs",
   "question": "Due to each end contraction, the crest length is 500 ch reduced by :",
   "options": [
    "0.1 L",
@@ -12200,7 +12200,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 7,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -12209,7 +12209,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Flow Through Pipes",
+  "topic": "Flow Over Notches and Weirs",
   "question": "Condition for broad crested weir is :",
   "options": [
    "2b > H",
@@ -12227,7 +12227,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 7,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -12425,7 +12425,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Flow Through Pipes",
+  "topic": "Flow Over Notches and Weirs",
   "question": "Notch is a device used for measuring 578. Aeration of nappe is necessary for which type",
   "options": [
    "velocity through a pipe of weirs?",
@@ -12443,7 +12443,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 7,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -12722,7 +12722,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Flow Through Pipes",
+  "topic": "Flow Over Notches and Weirs",
   "question": "A Cipolletti weir is a ch",
   "options": [
    "rectangular weir with sharp edges",
@@ -12740,7 +12740,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 7,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -12749,7 +12749,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Flow Through Pipes",
+  "topic": "Energy Equation and Its Applications",
   "question": "The total energy represented by the Bernoulli's  v2 p  equation  + + z  has the units  2g γ ",
   "options": [
    "N-m/m",
@@ -12767,7 +12767,7 @@
   "flag": "Automatic extraction check failed: symbols",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 7,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -13208,7 +13208,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Flow Through Pipes",
+  "topic": "Flow Through Orifices and Mouthpieces",
   "question": "The relation between Coefficient of contraction (Cc), Coefficient of velocity (Cv) and Coefficient Se of discharge (Cd) of an orifice is",
   "options": [
    "Cd = C v / Cc",
@@ -13226,7 +13226,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 7,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -13289,7 +13289,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Flow Through Pipes",
+  "topic": "Laminar Flow",
   "question": "Laminar flow through a circular tube studied df experimentally by",
   "options": [
    "Newton",
@@ -13307,7 +13307,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 7,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -13424,7 +13424,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Flow Through Pipes",
+  "topic": "Laminar Flow",
   "question": "The flow is laminar if Reynolds number is Q ∝ H3/ 2",
   "options": [
    "greater than",
@@ -13442,7 +13442,7 @@
   "flag": "Automatic extraction check failed: layout, stray",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 7,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -15476,7 +15476,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Open Channel Flow",
+  "topic": "Flow Through Pipes",
   "question": "The minimum value of friction factor that can be occur in laminar flow through a circular TG pipe is",
   "options": [
    "0.025",
@@ -15494,7 +15494,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 14,
+  "unit": 7,
   "classified": "book+kw"
  },
  {
@@ -15773,7 +15773,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Open Channel Flow",
+  "topic": "Energy Equation and Its Applications",
   "question": "The Darcy law relating to mean velocity and (104.38)( 4 + y 2) = 32y 22 hydraulic gradient in a porous medium is 32y 22 − 104.38y 2 − 417.53 = 0 applicable to–",
   "options": [
    "laminar regime flow only y 2 = 2.33 m ≃ 2.31m",
@@ -15791,7 +15791,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 14,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -15800,7 +15800,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Open Channel Flow",
+  "topic": "Fluid Kinematics",
   "question": "If in a flow field + + Z = constant between P = 4.75 Q γ 2g na any two points, flow must be- = 4.75 100 = 47.5m",
   "options": [
    "Steady, compressible and irrotational P = B + 2d = 47.5 m",
@@ -15818,7 +15818,7 @@
   "flag": "Automatic extraction check failed: layout, options, stray",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 14,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -15854,7 +15854,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Open Channel Flow",
+  "topic": "Fluid Kinematics",
   "question": "The crest of an emergency spillway is placed- 2= 1 + 8Fr 2 − 1 2 1",
   "options": [
    "Below the designed minimum reservoir water level 4 = 1 + 8 Fr 2 − 1 1",
@@ -15872,7 +15872,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 14,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -15881,7 +15881,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Open Channel Flow",
+  "topic": "Flow Over Notches and Weirs",
   "question": "Sharper crest of an ogee spillway- Bed cross section not changed then flow will be _p",
   "options": [
    "Increases the value of coefficient of discharge",
@@ -15899,7 +15899,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 14,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -15908,7 +15908,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Open Channel Flow",
+  "topic": "Compressible Flow",
   "question": "A normal shock wave flowing fluid (usually water) that are transported along",
   "options": [
    "is reversible the bed. Bed load is complementary to the combination",
@@ -15926,7 +15926,7 @@
   "flag": "Automatic extraction check failed: layout, stray",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 14,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -15989,7 +15989,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Open Channel Flow",
+  "topic": "Flow Through Pipes",
   "question": "In the Moody diagram the values of 'f' for turbulent flow are based on: of",
   "options": [
    "Nikuradse's uniform sand grain data",
@@ -16007,7 +16007,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 14,
+  "unit": 7,
   "classified": "book+kw"
  },
  {
@@ -16016,7 +16016,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Open Channel Flow",
+  "topic": "Energy Equation and Its Applications",
   "question": "The total energy line lies over the hydraulic gradient by- na",
   "options": [
    "velocity head",
@@ -16034,7 +16034,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 14,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -16070,7 +16070,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Open Channel Flow",
+  "topic": "Flow Through Pipes",
   "question": "The friction factor 'f' in a laminar pipe flow was found to be 0.04. The Reynold number of the flow is: na",
   "options": [
    "2000",
@@ -16088,7 +16088,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 14,
+  "unit": 7,
   "classified": "book+kw"
  },
  {
@@ -16178,7 +16178,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Open Channel Flow",
+  "topic": "Laminar Flow",
   "question": "Laminar flow of a real fluid is given by which of the following equations? ar",
   "options": [
    "Hagen-Poiseulle",
@@ -16196,7 +16196,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 14,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -16691,7 +16691,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Energy Equation and Its Applications",
+  "topic": "Boundary Layer Theory, Drag and Lift",
   "question": "A laser–Doppler anemometer is a device to TG measure",
   "options": [
    "shear stress at a boundary",
@@ -16709,7 +16709,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 5,
+  "unit": 15,
   "classified": "book+kw"
  },
  {
@@ -16718,7 +16718,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Energy Equation and Its Applications",
+  "topic": "Fluid Kinematics",
   "question": "The flow in which conditions do not change with time at any point is known as:",
   "options": [
    "One dimensional flow",
@@ -16736,7 +16736,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 5,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -16745,7 +16745,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Energy Equation and Its Applications",
+  "topic": "Fluid Kinematics",
   "question": "Euler's equation of motion can be integrated O when it is assumed that",
   "options": [
    "the flow is irrotational and incompressible",
@@ -16763,7 +16763,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 5,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -16799,7 +16799,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Energy Equation and Its Applications",
+  "topic": "Fluid Kinematics",
   "question": "Equipotential line represents",
   "options": [
    "constant value of velocity potential",
@@ -16817,7 +16817,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 5,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -16853,7 +16853,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Energy Equation and Its Applications",
+  "topic": "Compressible Flow",
   "question": "A steady incompressible, two-dimensional velocity field is given by. u = x + y + 1; v = x – y – 2. The ratio of the co-ordinates (x, y) at the stagnation point is",
   "options": [
    "0.33",
@@ -16871,7 +16871,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 5,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -16934,7 +16934,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Energy Equation and Its Applications",
+  "topic": "Fluid Kinematics",
   "question": "The relationship = is valid for dx dy",
   "options": [
    "irrotational flow",
@@ -16952,7 +16952,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 5,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -16961,7 +16961,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Energy Equation and Its Applications",
+  "topic": "Fluid Kinematics",
   "question": "A flow in which the velocity of the fluid at a particular fixed point does not change with time is called as",
   "options": [
    "Stationary flow",
@@ -16979,7 +16979,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 5,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -16988,7 +16988,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Energy Equation and Its Applications",
+  "topic": "Fluid Kinematics",
   "question": "For a 2D irrotational flow, the velocity potential is defined as φ = log e (x 2 + y 2). Which of the following is possible stream function ψ, for this flow? 335 1  y  y",
   "options": [
    "tan −1  ",
@@ -17006,7 +17006,7 @@
   "flag": "Automatic extraction check failed: symbols",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 5,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -17366,7 +17366,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Energy Equation and Its Applications",
+  "topic": "Fluid Kinematics",
   "question": "If a dye is constantly injected into the flow field Se ∂ψ ∂φ = at a single point, the curve formed by the dye in ∂y ∂x the flow field is a ∂φ",
   "options": [
    "Streamline",
@@ -17384,7 +17384,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 5,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -17447,7 +17447,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Energy Equation and Its Applications",
+  "topic": "Fluid Kinematics",
   "question": "What will be the value of convective acceleration and local acceleration for a flow water in uniform straight pipe of constant df diameter with unsteady flow condition?",
   "options": [
    "Convective acceleration = 0, _p Local acceleration = 0 a",
@@ -17465,7 +17465,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 5,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -17717,7 +17717,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Energy Equation and Its Applications",
+  "topic": "Pressure Measurement and Fluid Statics",
   "question": "The stagnation pressure is the sum of",
   "options": [
    "the fluid rotating as it moves along (a) vacuum pressure and static pressure",
@@ -17735,7 +17735,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 5,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -17933,7 +17933,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Energy Equation and Its Applications",
+  "topic": "Fluid Kinematics",
   "question": "A flow in which the velocities of liquid particles _p at all sections of pipe or channel are equal, is called as",
   "options": [
    "uniform flow",
@@ -17951,7 +17951,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 5,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -17987,7 +17987,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Energy Equation and Its Applications",
+  "topic": "Fluid Kinematics",
   "question": "The relation that must hold for the flow to be 1384. ∆Ψ between two streamlines represents- ap irrotational is–",
   "options": [
    "velocity",
@@ -18005,7 +18005,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 5,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -18014,7 +18014,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Energy Equation and Its Applications",
+  "topic": "Fluid Kinematics",
   "question": "Flow net is a pictorial representation of: 1385. Stream function: A. Path taken by water particles",
   "options": [
    "is defined only for incompressible flow ch B. The head variation along that path",
@@ -18032,7 +18032,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 5,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -18041,7 +18041,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Energy Equation and Its Applications",
+  "topic": "Fluid Kinematics",
   "question": "Non-uniform flow may caused by ∂y ∂x",
   "options": [
    "the change in width, depth bed slope, etc. of Continuity equation, the channel ∂u ∂v",
@@ -18059,7 +18059,7 @@
   "flag": "Automatic extraction check failed: layout, options, symbols",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 5,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -18095,7 +18095,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Boundary Layer Theory, Drag and Lift",
+  "topic": "Fluid Kinematics",
   "question": "If Velocity potential satisfies Laplace equation Re x the flow will be",
   "options": [
    "Irrotational flow",
@@ -18113,7 +18113,7 @@
   "flag": "Automatic extraction check failed: layout, options, stray",
   "bookUnit": "Fluid Mechanics",
   "subjectId": "civil-fm",
-  "unit": 15,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -18716,7 +18716,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Centrifugal Pumps",
+  "topic": "Hydraulic Pressure Control Valves",
   "question": "The valve used to control as vertical cylinder to TG prevent it from descending due to external load is",
   "options": [
    "Pressure relief valve",
@@ -18734,7 +18734,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Hydraulic Machines & Hydropower Engineering",
   "subjectId": "civil-hm",
-  "unit": 8,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -19094,7 +19094,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Water Turbines (Impulse Turbines)",
+  "topic": "Specific Speed and Performance of Turbines",
   "question": "The unit power of the reaction turbine",
   "options": [
    "Increases with the unit speed",
@@ -19112,7 +19112,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Hydraulic Machines & Hydropower Engineering",
   "subjectId": "civil-hm",
-  "unit": 3,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -19121,7 +19121,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Water Turbines (Impulse Turbines)",
+  "topic": "Hydro-Electric Power Plant",
   "question": "A surge tank is provided in a hydropower scheme to :",
   "options": [
    "Provide additional storage close to the penstock. _p",
@@ -19139,7 +19139,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Hydraulic Machines & Hydropower Engineering",
   "subjectId": "civil-hm",
-  "unit": 3,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -19229,7 +19229,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Water Turbines (Impulse Turbines)",
+  "topic": "Reaction Turbines (Francis and Kaplan Turbines)",
   "question": "Draft tube for a reaction turbine is arranged for",
   "options": [
    "Safety purpose only ar",
@@ -19247,7 +19247,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Hydraulic Machines & Hydropower Engineering",
   "subjectId": "civil-hm",
-  "unit": 3,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -19310,7 +19310,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Water Turbines (Impulse Turbines)",
+  "topic": "Reaction Turbines (Francis and Kaplan Turbines)",
   "question": "A draft tube is fitted to the exit of a reaction turbine, located at 1.82 m above tail race level. The efficiency of draft tube is 75% and velocity of flow at the entry to draft tube is 10 m/s. The pressure at the entrance section of draft tube is",
   "options": [
    "–5 m",
@@ -19328,7 +19328,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Hydraulic Machines & Hydropower Engineering",
   "subjectId": "civil-hm",
-  "unit": 3,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -19445,7 +19445,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Hydro-Electric Power Plant",
+  "topic": "Water Turbines (Impulse Turbines)",
   "question": "To increase the head required, impellers are connected in series and to increase the discharge required, impellers are connected in parallel. 131. Which of the following statements is correct?",
   "options": [
    "Pelton wheel is reaction turbine",
@@ -19463,7 +19463,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Hydraulic Machines & Hydropower Engineering",
   "subjectId": "civil-hm",
-  "unit": 2,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -19499,7 +19499,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Hydro-Electric Power Plant",
+  "topic": "Reciprocating Pumps",
   "question": "A graph between the pressure head in the cylinder and the distance travelled by the piston from inner dead centre for one complete revolution of crank in known as-",
   "options": [
    "Slip diagram",
@@ -19517,7 +19517,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "Hydraulic Machines & Hydropower Engineering",
   "subjectId": "civil-hm",
-  "unit": 2,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -19931,7 +19931,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Hydro-Electric Power Plant",
+  "topic": "Water Turbines (Impulse Turbines)",
   "question": "If ‘v1’ is the velocity of jet at inlet and ‘u’ is Tangential velocity of vane, for maximum efficiency of Pelton Wheel the condition is–",
   "options": [
    "u = v1/4",
@@ -19949,7 +19949,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Hydraulic Machines & Hydropower Engineering",
   "subjectId": "civil-hm",
-  "unit": 2,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -19985,7 +19985,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Hydro-Electric Power Plant",
+  "topic": "Reaction Turbines (Francis and Kaplan Turbines)",
   "question": "The overall efficiency for a pelton wheel lies (c) The angle of taper on draft tube is less than 80 between : (d) The reaction turbines are used for low head",
   "options": [
    "0.50 to 0.65",
@@ -20003,7 +20003,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Hydraulic Machines & Hydropower Engineering",
   "subjectId": "civil-hm",
-  "unit": 2,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -20039,7 +20039,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Hydro-Electric Power Plant",
+  "topic": "Centrifugal Pumps",
   "question": "If V1 and V2 are the velocities of water at inlet * they reduce work done of pump but doesn't increase the delivery head of pumps. and outlet of the draft tube respectively, then the efficiency of a draft tube is : 220. Power required to drive a centrifugal pump is directly proportional to : V − V2 V2 − V2",
   "options": [
    "Diameter of its impeller (a) 1",
@@ -20057,7 +20057,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options",
   "bookUnit": "Hydraulic Machines & Hydropower Engineering",
   "subjectId": "civil-hm",
-  "unit": 2,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -20444,7 +20444,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Methods of Irrigation",
+  "topic": "Water Requirements of Crops",
   "question": "Available moisture in soil can be computed as-",
   "options": [
    "Field capacity – Permanent wilting point na",
@@ -20462,7 +20462,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 2,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -20660,7 +20660,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Methods of Irrigation",
+  "topic": "Water Requirements of Crops",
   "question": "A crop that takes more than 4 months to 71. If the moisture tension for a soil is 8 mature is called atmospheres, then the soil is at–",
   "options": [
    "Long crop",
@@ -20678,7 +20678,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 2,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -20822,7 +20822,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Water Requirements of Crops",
+  "topic": "Methods of Irrigation",
   "question": "For cereal crops, the commonly adopted method of irrigation is _p",
   "options": [
    "free flowing method",
@@ -20840,7 +20840,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 1,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -21227,7 +21227,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Water Requirements of Crops",
+  "topic": "Water Logging and Land Drainage",
   "question": "The salt concentration in irrigation water is hygroscopic water. generally measured by:",
   "options": [
    "SAR value Capillary water is that part is excess of hygroscopic water which exist in the pore space of the soil by",
@@ -21245,7 +21245,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 1,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -21875,7 +21875,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Canals",
+  "topic": "Design of Unlined Alluvial Canals by Silt Theories",
   "question": "Design of Irrigation Canals 245. Kennedy assumed in his silt theory that the silt is kept in suspension due to eddies generated from-",
   "options": [
    "sides only",
@@ -21893,7 +21893,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 9,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -22010,7 +22010,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Canals",
+  "topic": "Diversion Head Works",
   "question": "The regime scour depth for unit width (vii) Rigidity Se discharge of 10 cumecs and silt factor of 0.9 is-",
   "options": [
    "4.80m",
@@ -22028,7 +22028,7 @@
   "flag": "Automatic extraction check failed: stray, symbols",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 9,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -22064,7 +22064,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Canals",
+  "topic": "Design of Unlined Alluvial Canals by Silt Theories",
   "question": "The graphical solution of Kennedy's equation and kutter's equation is given by:",
   "options": [
    "Garret's diagram",
@@ -22082,7 +22082,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 9,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -22118,7 +22118,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Canals",
+  "topic": "Design of Unlined Alluvial Canals by Silt Theories",
   "question": "The critical velocity V0 = 0.55 my0.64 as suggested by Kennedy for design of trapezoidal irrigation channel is:",
   "options": [
    "the maximum permissible velocity",
@@ -22136,7 +22136,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 9,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -22172,7 +22172,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Canals",
+  "topic": "Design of Unlined Alluvial Canals by Silt Theories",
   "question": "If V = velocity m/s, n = friction factor, R = Hydraulic Radius (m), S = slope of energy gradient in m/m. Manning's equation for n design of sanitary sewers is O 1 1",
   "options": [
    "V = R1/ 2S2 / 3",
@@ -22190,7 +22190,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 9,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -22199,7 +22199,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Canals",
+  "topic": "Design of Unlined Alluvial Canals by Silt Theories",
   "question": "What will be the wetted perimeter of a regime 280. As channel as per Lacey's theory: Assume : total discharge = 100 cumecs",
   "options": [
    "47.2 m.",
@@ -22217,7 +22217,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 9,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -22307,7 +22307,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Canals",
+  "topic": "Design of Unlined Alluvial Canals by Silt Theories",
   "question": "Lacey assumed that the silt is kept in suspension due to the normal component of generated from : (UKPSC AE (Paper–I) 2007)",
   "options": [
    "bed only",
@@ -22325,7 +22325,7 @@
   "flag": "Automatic extraction check failed: options, source-in-stem",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 9,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -22361,7 +22361,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Canals",
+  "topic": "Diversion Head Works",
   "question": "Lacey's scour depth 'R' in meter is related to 307. The stable waterway required for a river in 'q' cumecs/meter and 'f' as:- alluvial plain carrying a discharge of 1600 WBPSC AE (Irrigation) 1998 cumecs is OR",
   "options": [
    "160 m",
@@ -22379,7 +22379,7 @@
   "flag": "Automatic extraction check failed: layout, merged, source-in-stem, stray",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 9,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -22415,7 +22415,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Canals",
+  "topic": "Design of Unlined Alluvial Canals by Silt Theories",
   "question": "A balanced canal section is preferred, because • silt charge and silt grade is constant n it • Soil is incoherent alluvium. O",
   "options": [
    "is most stable 310. As per Lacey's theory, the silt factor is",
@@ -22433,7 +22433,7 @@
   "flag": "Automatic extraction check failed: layout, options, symbols",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 9,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -22523,7 +22523,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Canals",
+  "topic": "Design of Unlined Alluvial Canals by Silt Theories",
   "question": "To carry a discharge 100 m3/s in a regime canal, the perimeter from lacey's theory is about",
   "options": [
    "47.5 m",
@@ -22541,7 +22541,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 9,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -22658,7 +22658,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Canals",
+  "topic": "Design of Unlined Alluvial Canals by Silt Theories",
   "question": "Practically, a lined alluvial canal is best the most important shape parameter that should be designed on the basis of : account for.",
   "options": [
    "Continuity equation",
@@ -22676,7 +22676,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 9,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -22712,7 +22712,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Canals",
+  "topic": "Design of Unlined Alluvial Canals by Silt Theories",
   "question": "The shape of the channel section as per Kennedy's consideration is a",
   "options": [
    "Rectangular section",
@@ -22730,7 +22730,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 9,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -22793,7 +22793,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Canals",
+  "topic": "Design of Unlined Alluvial Canals by Silt Theories",
   "question": "The total number of independent equations that form the Lacey's regime theory are : _p",
   "options": [
    "2",
@@ -22811,7 +22811,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 9,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -22901,7 +22901,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Canals",
+  "topic": "Water Requirements of Crops",
   "question": "Field capacity and optimum moisture content 1/ 6  bh  of a soil of density 1.3 g/cc are 28% and 16% Cn =    b + 2h  na respectively. If effective depth of root zone is 70 cm, water available for evapotranspiration is- 363. Match the items under List 1 (Functions of",
   "options": [
    "25.4 cm",
@@ -22919,7 +22919,7 @@
   "flag": "Automatic extraction check failed: layout, merged, symbols",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 9,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -23117,7 +23117,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Canals",
+  "topic": "Diversion Head Works",
   "question": "For a discharge of 64 cumecs and silt factor of O 0.6, the normal regime scour depth is",
   "options": [
    "2.24 m",
@@ -23135,7 +23135,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 9,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -23144,7 +23144,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Canals",
+  "topic": "Design of Unlined Alluvial Canals by Silt Theories",
   "question": "What is the cross-sectional area of regime channel for 50 cumecs discharge and silt factor 1.1?",
   "options": [
    "58.4 m2",
@@ -23162,7 +23162,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 9,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -23171,7 +23171,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Canals",
+  "topic": "Design of Unlined Alluvial Canals by Silt Theories",
   "question": "If V0 is the critical velocity of a channel, its silt gradient is 4 : 1 transporting power, according to Kennedy, is Saturation line is the line up to which banks get proportional to : saturated after the canal runs for some time.",
   "options": [
    "V01 2",
@@ -23189,7 +23189,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 9,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -23198,7 +23198,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Canals",
+  "topic": "Design of Unlined Alluvial Canals by Silt Theories",
   "question": "The main cause of silting up a channel Values of freeboard in canals.",
   "options": [
    "Defective outlets Discharge (Cumec) Free board (m)",
@@ -23216,7 +23216,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 9,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -23252,7 +23252,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Cross Drainage Works",
+  "topic": "Dams",
   "question": "For effective control of silt energy into the canal, the sill of the head regulator should be",
   "options": [
    "below the sill of the under sluices",
@@ -23270,7 +23270,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 7,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -23279,7 +23279,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Cross Drainage Works",
+  "topic": "Dams",
   "question": "Silt excludes are provided",
   "options": [
    "near the canal head regulator",
@@ -23297,7 +23297,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 7,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -23333,7 +23333,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Cross Drainage Works",
+  "topic": "Canal Regulation Works",
   "question": "Vertical drop fall is satisfactory for a height upto",
   "options": [
    "0.5 m",
@@ -23351,7 +23351,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 7,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -23387,7 +23387,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Cross Drainage Works",
+  "topic": "Canal Regulation Works",
   "question": "Which of the following is a type of semi- modular outlet?",
   "options": [
    "Submerged pipe outlet 427. The adjustable proportional module is.",
@@ -23405,7 +23405,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 7,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -23576,7 +23576,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Cross Drainage Works",
+  "topic": "Design of Unlined Alluvial Canals by Silt Theories",
   "question": "Garret's diagram used for the design of irrigation channels contains– = 0.2 + 0.15 = 0.35 = 35% Volume of water lost from storage = Sy × volume of a",
   "options": [
    "Discharge plotted on the X-axis, slope on the aquifer primary Y-axis while water depth in the = 0.2 × 100 × 106 × m3 channel & critical velocity Vo on the secondary Y-axis 1 = 0.2 × 100 × 106 × 1× 6 M.m3 = 20M.m3",
@@ -23594,7 +23594,7 @@
   "flag": "Automatic extraction check failed: figure, layout, options",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 7,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -23603,7 +23603,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Cross Drainage Works",
+  "topic": "Diversion Head Works",
   "question": "The scour depth D of a river during flood, may suggested by Blench, is be calculated from the Lacey's equation",
   "options": [
    "DC – D +  H L – DC  (a) D = 0.47 (Q/f) 1/2",
@@ -23621,7 +23621,7 @@
   "flag": "Automatic extraction check failed: layout, options, symbols",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 7,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -23684,7 +23684,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Cross Drainage Works",
+  "topic": "Diversion Head Works",
   "question": "According to Khosla, the exit gradient of 477. In surface flow",
   "options": [
    "Depends upon the b/d ratio",
@@ -23702,7 +23702,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 7,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -24035,7 +24035,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Cross Drainage Works",
+  "topic": "Canals",
   "question": "_______ is aligned along a watershed and runs for most of its length on a watershed- TG [MPSC 2015 Paper-II Mains]",
   "options": [
    "Ridge canal",
@@ -24053,7 +24053,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 7,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -24062,7 +24062,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Cross Drainage Works",
+  "topic": "Design of Unlined Alluvial Canals by Silt Theories",
   "question": "The maximum quantity of water expected in one of the longitudinal drains on clayey soil is 0.9 cum/s. If the Manning's roughness coefficient is 0.02 and allowable velocity of flow is 1.2 m/s, then the cross sectional area (in sq.m) would be :",
   "options": [
    "0.02",
@@ -24080,7 +24080,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 7,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -24143,7 +24143,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Cross Drainage Works",
+  "topic": "Diversion Head Works",
   "question": "A facing of dry stone pitching laid on sloping face of earth to maintain the slope in position ch or to protect it from erosion, is called",
   "options": [
    "Revetment",
@@ -24161,7 +24161,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 7,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -24170,7 +24170,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Cross Drainage Works",
+  "topic": "Diversion Head Works",
   "question": "By using Bligh's theory for the design of floor if O residual head at any section is 0.42 m and specific gravity of material is 2.4, what be ch thickness of floor?",
   "options": [
    "0.50 m",
@@ -24188,7 +24188,7 @@
   "flag": "Automatic extraction check failed: options, stray, symbols",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 7,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -24197,7 +24197,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Cross Drainage Works",
+  "topic": "Diversion Head Works",
   "question": "According to Khosla's theory, which one of the following is correct?",
   "options": [
    "The critical hydraulic gradient for alluvial soil is nearly equal to 2.0",
@@ -24215,7 +24215,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 7,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -24305,7 +24305,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Cross Drainage Works",
+  "topic": "Spillways",
   "question": "The most commonly used vertical lift gates in • They provide greater waterway for floods thus modern day is : lowering the flood levels.",
   "options": [
    "Sliding gates",
@@ -24323,7 +24323,7 @@
   "flag": "Automatic extraction check failed: layout, options, symbols",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 7,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -24359,7 +24359,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Dams",
+  "topic": "Diversion Head Works",
   "question": "According to Khosla's theory, the exit gradient in the absence of downstream cutoff is na",
   "options": [
    "Zero",
@@ -24377,7 +24377,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 4,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -24386,7 +24386,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Dams",
+  "topic": "Diversion Head Works",
   "question": "According to Khosla's theroy, the undermining of the floor starts from",
   "options": [
    "starting end",
@@ -24404,7 +24404,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 4,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -24467,7 +24467,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Dams",
+  "topic": "Diversion Head Works",
   "question": "Match List-I with List-II and select the correct answer using the codes given below the lists: [HPPSC AE 2016] List-I A. Permanent barrage B. Pick-up weir C. Aqueduct (foundation) D. Aqueduct (waterway) List -II 1. T = 500 years 2. T = 200 years 3. T = 100 years 4. T = 50 Codes : A B C D A B C D",
   "options": [
    "3 4 2 1",
@@ -24485,7 +24485,7 @@
   "flag": "Automatic extraction check failed: source-in-stem",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 4,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -24602,7 +24602,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Dams",
+  "topic": "Diversion Head Works",
   "question": "The crest level of the under sluice bays are kept at",
   "options": [
    "Lacey's scour depth for non-monsoon flow",
@@ -24620,7 +24620,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 4,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -25061,7 +25061,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Dams",
+  "topic": "Spillways",
   "question": "The downstream curve of the ogee profile for an ogee shaped spillway crest is given by: 0.85 x y",
   "options": [
    "  = 2 ",
@@ -25079,7 +25079,7 @@
   "flag": "Automatic extraction check failed: stray, symbols",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 4,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -25115,7 +25115,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Dams",
+  "topic": "Spillways",
   "question": "Ogee spillway:",
   "options": [
    "The profile of this spillway is made in accordance with the shape of the lower nappe of a free falling jet, over a ventilated sharp crested weir.",
@@ -25133,7 +25133,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 4,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -25142,7 +25142,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Dams",
+  "topic": "Spillways",
   "question": "If L is effective length of spillway crest and H the total head over the spillway crest including velocity head, the discharge passing over an ogee spillway is given by (JPSC Combined AE Paper VI 2013) OR Discharge 'Q' over an ogee spillway is given by (where symbols have their usual meanings)",
   "options": [
    "Q = CLH",
@@ -25160,7 +25160,7 @@
   "flag": "Automatic extraction check failed: source-in-stem",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 4,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -25331,7 +25331,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Dams",
+  "topic": "Diversion Head Works",
   "question": "The safety against any possible scour, on TG upstream or downstream side, of the pucca floor of hydraulic structure is usually ensured by laying-",
   "options": [
    "inverted filter",
@@ -25349,7 +25349,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 4,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -26411,7 +26411,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Water Logging and Land Drainage",
+  "topic": "Diversion Head Works",
   "question": "A divide wall is constructed for the purpose of :",
   "options": [
    "Controlling seepage ch",
@@ -26429,7 +26429,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 10,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -26762,7 +26762,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Water Requirements of Crops",
+  "topic": "Diversion Head Works",
   "question": "Irrigation Project 927. If D is the depth of scour below original bed, then the width of launching apron is generally taken as :",
   "options": [
    "1.2 D",
@@ -26780,7 +26780,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 1,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -26789,7 +26789,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Water Requirements of Crops",
+  "topic": "Canal Regulation Works",
   "question": "In a Sarda type fall, the width 'B' of the trapezoidal crest is given by:",
   "options": [
    "B = 0.44 H + d",
@@ -26807,7 +26807,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 1,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -26843,7 +26843,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Spillways",
+  "topic": "Canal Regulation Works",
   "question": "The relationship between height (d) of the crest wall above the downstream bed level and the crest wall top (b) width for a rectangular Sarda fall is-",
   "options": [
    "B = d",
@@ -26861,7 +26861,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 3,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -26897,7 +26897,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Spillways",
+  "topic": "Dams",
   "question": "The safety valve of a dam is its",
   "options": [
    "spillway",
@@ -26915,7 +26915,7 @@
   "flag": "Automatic extraction check failed: duplicate",
   "bookUnit": "Irrigation and Water Resource Engineering",
   "subjectId": "civil-irr",
-  "unit": 3,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -27572,7 +27572,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Evaporation and Evapotranspiration",
+  "topic": "River Gauging",
   "question": "In a dilution technique of stream flow measurement, which of the following chemicals is used? n",
   "options": [
    "Common salt O",
@@ -27590,7 +27590,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 4,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -27653,7 +27653,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Evaporation and Evapotranspiration",
+  "topic": "Runoff",
   "question": "Drainage density is the",
   "options": [
    "average length of the streams per unit drainage area within the basin",
@@ -27671,7 +27671,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 4,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -27842,7 +27842,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Runoff",
+  "topic": "Precipitation",
   "question": "The graphical representation of average O rainfall and rainfall excess (i.e., rainfall infiltration) rates over specified areas during successive unit time intervals during a storm is ch known as-",
   "options": [
    "Hydrograph",
@@ -27860,7 +27860,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 6,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -27923,7 +27923,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Runoff",
+  "topic": "Hydrographs",
   "question": "A 4-hour unit hydrograph of a drainage basin ch is triangular in form with a height of 50 m3/sec and a base of 15 hours. The area (in km2) of the drainage basin is ar",
   "options": [
    "110",
@@ -27941,7 +27941,7 @@
   "flag": "Automatic extraction check failed: layout, stray",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 6,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -27950,7 +27950,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Runoff",
+  "topic": "Evaporation and Evapotranspiration",
   "question": "The hydrograph of short duration can be converted into hydrographs of longer duration by :",
   "options": [
    "unit hydrograph Total discharge volume = area of unit hydrograph = 1",
@@ -27968,7 +27968,7 @@
   "flag": "Automatic extraction check failed: layout, options, symbols",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 6,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -28004,7 +28004,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Runoff",
+  "topic": "Hydrographs",
   "question": "S-hydrograph is used to obtain unit hydrograph of",
   "options": [
    "shorter duration from longer duration",
@@ -28022,7 +28022,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 6,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -28112,7 +28112,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Runoff",
+  "topic": "Hydrographs",
   "question": "When the unit duration of an unit hydrograph decreases and approaches zero hydrograph is called [Uttarakhand Combined State AE Paper II 2007]",
   "options": [
    "instantaneous unit hydrograph",
@@ -28130,7 +28130,7 @@
   "flag": "Automatic extraction check failed: source-in-stem",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 6,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -28220,7 +28220,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Runoff",
+  "topic": "Infiltration",
   "question": "The theory of infiltration capacity was given by: ch",
   "options": [
    "W.W. Horner",
@@ -28238,7 +28238,7 @@
   "flag": "Automatic extraction check failed: options, stray",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 6,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -28274,7 +28274,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Runoff",
+  "topic": "Precipitation",
   "question": "Rainfall hyetograph shows the variation of ar",
   "options": [
    "Cumulative rainfall",
@@ -28292,7 +28292,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 6,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -28328,7 +28328,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Runoff",
+  "topic": "Hydrographs",
   "question": "The shape of recession limb of a hydrograph depends upon",
   "options": [
    "storm characteristics only",
@@ -28346,7 +28346,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 6,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -28409,7 +28409,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Runoff",
+  "topic": "Precipitation",
   "question": "Hyetograph is a graph representing",
   "options": [
    "Rainfall volume with time",
@@ -28427,7 +28427,7 @@
   "flag": "Automatic extraction check failed: figure, stray",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 6,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -28463,7 +28463,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Runoff",
+  "topic": "Infiltration",
   "question": "Horton's infiltration capacity is given as",
   "options": [
    "f = f o + [ f c − f o ]e − kt",
@@ -28481,7 +28481,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 6,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -28517,7 +28517,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Maximum Flood Estimation",
+  "topic": "Runoff",
   "question": "What is a graph showing variations of discharge with time at a particular point of a stream?",
   "options": [
    "Unit hydrograph",
@@ -28535,7 +28535,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 9,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -28571,7 +28571,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Maximum Flood Estimation",
+  "topic": "Flood Routing",
   "question": "Floods, Flood Routing & Flood Channel 275. Ryve's formula for flood estimate is cumecs is",
   "options": [
    "Q = CA 3 / 4",
@@ -28589,7 +28589,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 9,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -28598,7 +28598,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Maximum Flood Estimation",
+  "topic": "Flood Routing",
   "question": "Muskinghum method for routing of flood",
   "options": [
    "is used for routing floods through reservoirs",
@@ -28616,7 +28616,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 9,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -28625,7 +28625,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Maximum Flood Estimation",
+  "topic": "Runoff",
   "question": "The flood discharge passing through a river at TG a weir site is usually estimated by using",
   "options": [
    "a current meter",
@@ -28643,7 +28643,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 9,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -28679,7 +28679,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Maximum Flood Estimation",
+  "topic": "Frequency of Point Rainfall and Probability",
   "question": "The probability ‘P’ of occurrence of a flood in the next ‘n’ successive years is given by the equation (where p = exceedance probability)–",
   "options": [
    "P = 1 / (1 – p)n",
@@ -28697,7 +28697,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 9,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -28733,7 +28733,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Maximum Flood Estimation",
+  "topic": "River Gauging",
   "question": "Length of record. 294. Which of the following methods is used to estimate flood discharge based on high water marks left over in the past?",
   "options": [
    "Slope-area method",
@@ -28751,7 +28751,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 9,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -28787,7 +28787,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Maximum Flood Estimation",
+  "topic": "Runoff",
   "question": "The stage discharge relation in a river during the passage of a flood wave is measured. If Qr = discharge at a stage when the water surface was rising and Qf = discharge at the same stage when water surface was falling. Then",
   "options": [
    "Qr = Qf",
@@ -28805,7 +28805,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 9,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -28868,7 +28868,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Maximum Flood Estimation",
+  "topic": "Infiltration",
   "question": "Rainfall simulator type infiltrometers give lower values than flooding type infiltrometer because",
   "options": [
    "impact of rainfall is considered",
@@ -28886,7 +28886,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 9,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -28976,7 +28976,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Maximum Flood Estimation",
+  "topic": "Precipitation",
   "question": "A river basin is divided into three Thiessen polygons with areas in the ratio of 0.45, 0.30, and 0.25. A rain storm causes depth of precipitation, recorded at centrally placed rain gauges in the polygon area, as 38 mm, 55 mm 1 cm = and 42 mm respectively. The average depth of TG precipitation for the basin is",
   "options": [
    "45 mm",
@@ -28994,7 +28994,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 9,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -29030,7 +29030,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Maximum Flood Estimation",
+  "topic": "Flood Routing",
   "question": "A flood wave a known inflow hydrograph is rated through a large reservoir. The outflow TG hydrograph will have",
   "options": [
    "attenuated peak with reduced time-base",
@@ -29048,7 +29048,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 9,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -29057,7 +29057,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Maximum Flood Estimation",
+  "topic": "Runoff",
   "question": "Base flow separation is used in connection with: ch",
   "options": [
    "Seepage flow",
@@ -29075,7 +29075,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 9,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -29111,7 +29111,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Maximum Flood Estimation",
+  "topic": "Hydrographs",
   "question": "A 3-hours storm hydrograph has 7 units of • Lysimeter direct runoff. The 3-hours unit hydrograph for • this storm can be obtained by dividing the ordinates of the storm hydrograph by",
   "options": [
    "3",
@@ -29129,7 +29129,7 @@
   "flag": "Automatic extraction check failed: symbols",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 9,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -29138,7 +29138,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Maximum Flood Estimation",
+  "topic": "Precipitation",
   "question": "As per Indian Standards, in predominantly hilly areas with heavy rainfall, there should be ch 1 rain gauge station per___km2",
   "options": [
    "520",
@@ -29156,7 +29156,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 9,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -29246,7 +29246,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Maximum Flood Estimation",
+  "topic": "Precipitation",
   "question": "In a DAD analysis the maximum average depth of rainfall for an 18 hr storm was 28 cm in an area of size 10 km2. For the same duration the maximum average depth in an area of 1000 df km2 can be expected to be-",
   "options": [
    "= 28 cm _p",
@@ -29264,7 +29264,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 9,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -29300,7 +29300,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Maximum Flood Estimation",
+  "topic": "Runoff",
   "question": "An area is declared drought affected if its mean which is as follows– rainfall is less than- P = 4.75Q1/2",
   "options": [
    "50%",
@@ -29318,7 +29318,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 9,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -29354,7 +29354,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Maximum Flood Estimation",
+  "topic": "Precipitation",
   "question": "The expression for Lioyd-formula for the design of storm water drains is Where, r = total rainfall in mm during the time of concentration tc = time of concentration in minutes, P = impervious area in hectares and Q = quantity in cumecs P 6P",
   "options": [
    "Q =",
@@ -29372,7 +29372,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 9,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -29435,7 +29435,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Maximum Flood Estimation",
+  "topic": "Precipitation",
   "question": "The graphical representation of average rainfall and rainfall excess (i.e., rainfall minus infiltration) rates over specified areas during successive unit time intervals during a storm is known as:",
   "options": [
    "Hydrograph",
@@ -29453,7 +29453,7 @@
   "flag": "Automatic extraction check failed: duplicate",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 9,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -29462,7 +29462,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Maximum Flood Estimation",
+  "topic": "Runoff",
   "question": "Select the correct statement from the following:",
   "options": [
    "Yield of a drainage basin is the runoff at any time",
@@ -29480,7 +29480,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 9,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -29516,7 +29516,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Maximum Flood Estimation",
+  "topic": "Evaporation and Evapotranspiration",
   "question": "Consumptive use of a crop during growth is the amount of:",
   "options": [
    "Interception",
@@ -29534,7 +29534,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 9,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -29732,7 +29732,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Maximum Flood Estimation",
+  "topic": "Precipitation",
   "question": "During a storm, the rates of rainfall observed at a frequency of 15 min for one hour are 12.5, 17.5, 22.5 and 7.5 cm/h. If the φ-index is 7.5 cm/h, then the total run-off will be :",
   "options": [
    "22.50",
@@ -29750,7 +29750,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 9,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -29759,7 +29759,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Maximum Flood Estimation",
+  "topic": "Evaporation and Evapotranspiration",
   "question": "Hydrograph of direct run off from a basin due to a given period of effective rainfall reflects the combination of all the physical characteristics of the basin. Choose the correct answer from the options given below the lists.",
   "options": [
    "1, 2 and 3",
@@ -29777,7 +29777,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 9,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -29813,7 +29813,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Maximum Flood Estimation",
+  "topic": "Precipitation",
   "question": "How many additional rain gauges are required in a catchment, if the error allowed in estimation of mean rainfall is to be reduced by half than the present one?",
   "options": [
    "Equal to the present number",
@@ -29831,7 +29831,7 @@
   "flag": "Automatic extraction check failed: symbols",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 9,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -29921,7 +29921,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Maximum Flood Estimation",
+  "topic": "Infiltration",
   "question": "The infiltration capacity of a soil was measured ap station under fairly identical general conditions by a (c) The flow in a river upstream of a gauging flooding type infiltrometer as (ff) and by a station rainfall simulator as (fr). One can expect : (d) None of these",
   "options": [
    "no fixed pattern",
@@ -29939,7 +29939,7 @@
   "flag": "Automatic extraction check failed: layout, stray",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 9,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -29948,7 +29948,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Maximum Flood Estimation",
+  "topic": "Hydrographs",
   "question": "The unit hydrograph can be used to evaluate the hydrograph of storms of ________. ch",
   "options": [
    "same duration only",
@@ -29966,7 +29966,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 9,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -29975,7 +29975,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Maximum Flood Estimation",
+  "topic": "Precipitation",
   "question": "Consider the following data for a drain na L = 50 m, a = 10 m, b = 10.3 m, and k = 1 × 10–5 m/s If the drains carry 1% of average annual ap rainfall in 24 hrs, the average annual rainfall for which this system has been designed will be",
   "options": [
    "78 cm",
@@ -29993,7 +29993,7 @@
   "flag": "Automatic extraction check failed: options, symbols",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 9,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -30029,7 +30029,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Well Hydraulics",
+  "topic": "Frequency of Point Rainfall and Probability",
   "question": "A flood of certain magnitude has a return O period of 30 yr. The probability of its exceedance is : ch",
   "options": [
    "30.0000",
@@ -30047,7 +30047,7 @@
   "flag": "Automatic extraction check failed: options, stray",
   "bookUnit": "Engineering Hydrology",
   "subjectId": "civil-hyd",
-  "unit": 11,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -31136,7 +31136,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Sources and Conveyance of Water",
+  "topic": "Plain Sedimentation",
   "question": "A grit chamber of dimensions 12.0 m × 1.50 m 3 84. The yield of a surface stream may be obtained by × 0.80 m liquid depth has a flow of 720 m /hr.",
   "options": [
    "cross-section velocity method Its surface loading rate and detention time are",
@@ -31154,7 +31154,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 2,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -31757,7 +31757,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Quality of Water",
+  "topic": "Noise Pollution",
   "question": "What is the time gap between explosion and mucking process, within which the ventilation df system installed should clear all poisoned gases and dust in tunnels? _p",
   "options": [
    "20 min",
@@ -31775,7 +31775,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 3,
+  "unit": 24,
   "classified": "book+kw"
  },
  {
@@ -32027,7 +32027,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Quality of Water",
+  "topic": "Characteristics of Sewage",
   "question": "Removal of iron from water may be done by which of the following methods?",
   "options": [
    "Oxidation with chlorine",
@@ -32045,7 +32045,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 3,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -32135,7 +32135,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Quality of Water",
+  "topic": "Disinfection",
   "question": "A water supply scheme serves a population of 10,000 at the rate of 50 litres per capita per day. For chlorine dose of 2 ppm, the required amount of bleaching powder with 20% available chlorine will be :",
   "options": [
    "0.5 kg",
@@ -32153,7 +32153,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 3,
+  "unit": 7,
   "classified": "book+kw"
  },
  {
@@ -32567,7 +32567,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Quality of Water",
+  "topic": "Characteristics of Sewage",
   "question": "Critical dissolved oxygen (D.O) deficit occurs 331. The in which one of the following zones of pollution of 'oxygen sag curve' in case of self-purification of natural streams?",
   "options": [
    "Zone of recovery",
@@ -32585,7 +32585,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 3,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -32594,7 +32594,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Quality of Water",
+  "topic": "Miscellaneous Water Treatment",
   "question": "What is the method of removal of permanent ch hardness in water?",
   "options": [
    "Zeolite process",
@@ -32612,7 +32612,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 3,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -32648,7 +32648,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Miscellaneous Water Treatment",
+  "topic": "Quality of Water",
   "question": "Aeration of water is done to remove:",
   "options": [
    "Odour",
@@ -32666,7 +32666,7 @@
   "flag": "Automatic extraction check failed: duplicate",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 8,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -32702,7 +32702,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Miscellaneous Water Treatment",
+  "topic": "Disinfection",
   "question": "To make potable water by killing harmful chlorine demand is 2 mg/L. Assume the pathogens present in water is termed as:- bleaching powder has 40% available chlorine.",
   "options": [
    "Purification",
@@ -32720,7 +32720,7 @@
   "flag": "Automatic extraction check failed: layout, options, stray",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 8,
+  "unit": 7,
   "classified": "book+kw"
  },
  {
@@ -32837,7 +32837,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Miscellaneous Water Treatment",
+  "topic": "Coagulation",
   "question": "Which gas is the basic cause of Crown kinematic viscosity = 10-6 m2/s). The rapid Corrosion? mixing tank imparts tank a velocity gradient of",
   "options": [
    "H2S",
@@ -32855,7 +32855,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 8,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -32891,7 +32891,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Miscellaneous Water Treatment",
+  "topic": "Disinfection",
   "question": "The treatment of water with only chlorine is filtration, disinfection known as (b) Screening, sedimentation, disinfection,",
   "options": [
    "pre chlorination",
@@ -32909,7 +32909,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 8,
+  "unit": 7,
   "classified": "book+kw"
  },
  {
@@ -32999,7 +32999,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Miscellaneous Water Treatment",
+  "topic": "Disinfection",
   "question": "Which of the following treatments is the most ch exchange treatment method. Winkler's test is adopted to determine D.O. of a given economically effective method for controlling water. It uses manganese sulphate (MnSo4) and alkali Schistosomiasis : ar iodide reagent (NaOH + KI).",
   "options": [
    "Filtration",
@@ -33017,7 +33017,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 8,
+  "unit": 7,
   "classified": "book+kw"
  },
  {
@@ -33026,7 +33026,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Miscellaneous Water Treatment",
+  "topic": "Coagulation",
   "question": "Which of the following coagulant is singularly O effective in production sludge for the activated sludge process : ch",
   "options": [
    "Alum",
@@ -33044,7 +33044,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 8,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -33053,7 +33053,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Miscellaneous Water Treatment",
+  "topic": "Disinfection",
   "question": "The amount of potassium permanganate required for disinfection purpose is :",
   "options": [
    "1 – 2 mg/L",
@@ -33071,7 +33071,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 8,
+  "unit": 7,
   "classified": "book+kw"
  },
  {
@@ -33107,7 +33107,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Plain Sedimentation",
+  "topic": "Coagulation",
   "question": "For proper slow mixing in the flocculator of a 30 = ( 2.65 − 1) ×10 × d 2 ×103 water treatment plant, the temporal mean velocity gradient G needs to be of the order of 24 × 60 × 60 18 ×1 × 10 −5",
   "options": [
    "5 S-1 to 10 S-1",
@@ -33125,7 +33125,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 4,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -33134,7 +33134,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Plain Sedimentation",
+  "topic": "Quality of Water",
   "question": "Sedimentation sedimentation. Alum react with the bicarbonate alkalinity person in the water and make sticky 435. In fresh water organisms attached or resting at gelatinous precipitate. the bottom or living in the bottom sediments 439. The coagulant widely used for sewage are known as treatment, is",
   "options": [
    "Plankton",
@@ -33152,7 +33152,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 4,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -33188,7 +33188,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Plain Sedimentation",
+  "topic": "Coagulation",
   "question": "A town is required to treat 4.2 m /min of raw",
   "options": [
    "Lime",
@@ -33206,7 +33206,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 4,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -33242,7 +33242,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Plain Sedimentation",
+  "topic": "Coagulation",
   "question": "The critical shear stress at which incipient motion of sediment takes place is proportional to 472. Which of the following is not coagulant?",
   "options": [
    "Alum",
@@ -33260,7 +33260,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 4,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -33269,7 +33269,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Plain Sedimentation",
+  "topic": "Coagulation",
   "question": "Identify coagulant with highest power for indicated an alum dosage of 25 mg/L with ch coagulating positive colloids : FeCl3, Na3SO4, flocculation at GT value of 4 × 10 producing 4 C6H12O6, Na3PO4 optimal results. The alum quantity required",
   "options": [
    "FeCl3",
@@ -33287,7 +33287,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 4,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -33971,7 +33971,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Filtration",
+  "topic": "Quality of Water",
   "question": "Consider the following impurities: (i) Hydrogen-disulphide (ii) Excess alkalinity (iii) Suspended Matter (iv) Pathogenic Bacteria df What will be the correct sequence of the removal of these impurities in a water _p treatment plant?",
   "options": [
    "(i), (ii), (iii), (iv)",
@@ -33989,7 +33989,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 6,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -34133,7 +34133,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Filtration",
+  "topic": "Miscellaneous Water Treatment",
   "question": "Which one of the following is not a basic requirement for any well screen ? ch",
   "options": [
    "Resistance to corrosion, incrustation and deterioration ar",
@@ -34151,7 +34151,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 6,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -34268,7 +34268,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Disinfection",
+  "topic": "Coagulation",
   "question": "The principal objective of the coagulation flocculation unit of a water treatment plant is removal of",
   "options": [
    "pathogens",
@@ -34286,7 +34286,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 7,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -34754,7 +34754,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Distribution System",
+  "topic": "Sources and Conveyance of Water",
   "question": "The valve, which allows the flow only in one direction, is known as _p",
   "options": [
    "scour valve",
@@ -34772,7 +34772,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 9,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -34808,7 +34808,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Distribution System",
+  "topic": "Design of Sewers",
   "question": "The function of gully trap is to",
   "options": [
    "Collect wash water from floors, kitchens and O bathrooms",
@@ -34826,7 +34826,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 9,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -34997,7 +34997,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Distribution System",
+  "topic": "Sources and Conveyance of Water",
   "question": "The type of valve, which is provided on the suction pipe in the tube-well, is :",
   "options": [
    "air relief valve n",
@@ -35015,7 +35015,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 9,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -35213,7 +35213,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Sources and Conveyance of Water",
+  "topic": "Distribution System",
   "question": "For one storeyed buildings in town the minimum residual pressure at ferrule point for direct supply should be",
   "options": [
    "3 m",
@@ -35231,7 +35231,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 2,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -35267,7 +35267,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Sources and Conveyance of Water",
+  "topic": "Distribution System",
   "question": "A small-sized curved pipe made of flexible _p material, about 75 cm is length, and forming a flexible connection between water min and the na service pipe is called a :",
   "options": [
    "ferrule",
@@ -35285,7 +35285,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 2,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -35402,7 +35402,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Introduction to Waste Water Engineering and Estimation of DWF & WWF",
+  "topic": "Sources and Conveyance of Water",
   "question": "The commonly used material for rising main is (c) X (d) 2X",
   "options": [
    "Cast iron",
@@ -35420,7 +35420,7 @@
   "flag": "Automatic extraction check failed: layout, stray",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 11,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -35456,7 +35456,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Introduction to Waste Water Engineering and Estimation of DWF & WWF",
+  "topic": "Disposal of Sewage Effluents",
   "question": "The phenomenon by virtue of which soil pores n gets clogged with sewage matter is called",
   "options": [
    "Sewage farming",
@@ -35474,7 +35474,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 11,
+  "unit": 20,
   "classified": "book+kw"
  },
  {
@@ -35591,7 +35591,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Introduction to Waste Water Engineering and Estimation of DWF & WWF",
+  "topic": "Characteristics of Sewage",
   "question": "Sewage sickness relates to :",
   "options": [
    "Toxicity of sewage interfering with response to treatment",
@@ -35609,7 +35609,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 11,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -35645,7 +35645,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Introduction to Waste Water Engineering and Estimation of DWF & WWF",
+  "topic": "Disposal of Sewage Effluents",
   "question": "One of the following terms refers to the purification process is called: removal of items from the waste stream to be",
   "options": [
    "Oxygen sag used as raw materials in the manufacture of",
@@ -35663,7 +35663,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 11,
+  "unit": 20,
   "classified": "book+kw"
  },
  {
@@ -35834,7 +35834,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Design of Sewers",
+  "topic": "Air Pollution and Control",
   "question": "Jacobs Hochhelier method is used for than that of an determination of",
   "options": [
    "CO",
@@ -35852,7 +35852,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 12,
+  "unit": 22,
   "classified": "book+kw"
  },
  {
@@ -36050,7 +36050,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Design of Sewers",
+  "topic": "Introduction to Waste Water Engineering and Estimation of DWF & WWF",
   "question": "Pathogenic bacteria enter waste waters,",
   "options": [
    "change from gravity system to pressure Se primarily from system (a) Industrial waste",
@@ -36068,7 +36068,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 12,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -36266,7 +36266,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Design of Sewers",
+  "topic": "Treatment of Sewage",
   "question": "Removal of oil and grease from sewage is known as:",
   "options": [
    "Screening",
@@ -36284,7 +36284,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 12,
+  "unit": 14,
   "classified": "book+kw"
  },
  {
@@ -36563,7 +36563,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "House Drainage Arrangements in Buildings",
+  "topic": "Design of Sewers",
   "question": "In case of sewer design, on which of the 904. Manholes following the velocity of flow does not depend?",
   "options": [
    "Hydraulic mean depth",
@@ -36581,7 +36581,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 23,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -36590,7 +36590,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "House Drainage Arrangements in Buildings",
+  "topic": "Design of Sewers",
   "question": "Statement (I): A nomogram is a ready reckoner to compute any two hydraulic parameters like ar discharge, pipe diameter, pipe slope and flow velocity in the pipe if the other two are known. Se Statement (II): Hydraulic parameters can be water-seal determined by using Manning’s or Chezy’s 908. A pipe formulae; and a Nomogram is an organized compilation of a number of such, varied computations. Which of the following is CORRECT?",
   "options": [
    "Both statements - I and statements-II are individually true and statement-II is the correct explanation of statement- I",
@@ -36608,7 +36608,7 @@
   "flag": "Automatic extraction check failed: figure, merged, options",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 23,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -36725,7 +36725,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "House Drainage Arrangements in Buildings",
+  "topic": "Design of Sewers",
   "question": "As per CPHEED manual, the minimum velocity at initial peak flow and ultimate peak n flow in a sewer should not be less than, O",
   "options": [
    "0.3 m/s and 0.6 m/s",
@@ -36743,7 +36743,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 23,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -36860,7 +36860,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Characteristics of Sewage",
+  "topic": "Solid Waste Management",
   "question": "Identify the type of land filling shown in figure. ch ar",
   "options": [
    "Trench method",
@@ -36878,7 +36878,7 @@
   "flag": "Automatic extraction check failed: figure, stray",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 13,
+  "unit": 21,
   "classified": "book+kw"
  },
  {
@@ -36887,7 +36887,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Characteristics of Sewage",
+  "topic": "Solid Waste Management",
   "question": "Bangalore method of composting solid waste _p involves:",
   "options": [
    "Facultative process na",
@@ -36905,7 +36905,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 13,
+  "unit": 21,
   "classified": "book+kw"
  },
  {
@@ -37022,7 +37022,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Characteristics of Sewage",
+  "topic": "Solid Waste Management",
   "question": "Most hygienic method of disposal of solid waste is ar",
   "options": [
    "dumping on low lying lands",
@@ -37040,7 +37040,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 13,
+  "unit": 21,
   "classified": "book+kw"
  },
  {
@@ -37211,7 +37211,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Characteristics of Sewage",
+  "topic": "Air Pollution and Control",
   "question": "Gases evolved during aerobic decomposition of sewage are ch",
   "options": [
    "CO2, CH4 and NH3",
@@ -37229,7 +37229,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 13,
+  "unit": 22,
   "classified": "book+kw"
  },
  {
@@ -37535,7 +37535,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Characteristics of Sewage",
+  "topic": "Solid Waste Management",
   "question": "The minimum moisture content usually recommended for high rate composting of TG municipal solid waste management is :",
   "options": [
    "65–70%",
@@ -37553,7 +37553,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 13,
+  "unit": 21,
   "classified": "book+kw"
  },
  {
@@ -37589,7 +37589,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Characteristics of Sewage",
+  "topic": "Treatment of Sewage",
   "question": "Which one of the following unit works in anaerobic conditions ?",
   "options": [
    "Sludge digestion tank",
@@ -37607,7 +37607,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 13,
+  "unit": 14,
   "classified": "book+kw"
  },
  {
@@ -37616,7 +37616,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Characteristics of Sewage",
+  "topic": "Air Pollution and Control",
   "question": "When solid waste is disposed off on land in open dumps, it causes bad impact on the environment. Mentioned below are few such df impacts, choose the one which does not belong to same category? _p",
   "options": [
    "Acidity to surrounding soil",
@@ -37634,7 +37634,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 13,
+  "unit": 22,
   "classified": "book+kw"
  },
  {
@@ -37751,7 +37751,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Treatment of Sewage",
+  "topic": "Solid Waste Management",
   "question": "Which of the following solid waste disposal methods is ecologically most acceptable? ch",
   "options": [
    "Sanitary land/fill",
@@ -37769,7 +37769,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 14,
+  "unit": 21,
   "classified": "book+kw"
  },
  {
@@ -37913,7 +37913,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Treatment of Sewage",
+  "topic": "Characteristics of Sewage",
   "question": "What is the function of Aerobic Biological n Attached Growth Process in waste water treatment? O",
   "options": [
    "Conversion of suspended organic matter into settleable biofloc and stable inorganics. ch",
@@ -37931,7 +37931,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 14,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -37940,7 +37940,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Treatment of Sewage",
+  "topic": "Activated Sludge Process",
   "question": "The term which define the loading rates of an activated sludge plants are :",
   "options": [
    "Aeration period or hydraulic retention time (HRT)",
@@ -37958,7 +37958,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 14,
+  "unit": 18,
   "classified": "book+kw"
  },
  {
@@ -37994,7 +37994,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Treatment of Sewage",
+  "topic": "Trickling Filters",
   "question": "The hydraulic loading rate of high rate trickling filter, including recirculation, in O m3/m2/day is;",
   "options": [
    "1-4",
@@ -38012,7 +38012,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 14,
+  "unit": 17,
   "classified": "book+kw"
  },
  {
@@ -38102,7 +38102,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Treatment of Sewage",
+  "topic": "Characteristics of Sewage",
   "question": "If rate constant (K) at 200C is 0.1 d-1 what O percentage of BOD will be exerted in 5 days.",
   "options": [
    "50%",
@@ -38120,7 +38120,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 14,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -38264,7 +38264,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Treatment of Sewage",
+  "topic": "Characteristics of Sewage",
   "question": "If 5 ml of waste water is placed in the bottle S3: COD gives an idea about the nature of organic matter whether biodegradable or O and mixed with specially prepared dilution water to make 300ml diluted sample, the bio-refractory organic matter. dilution factor is : Identify the incorrect statement(s). ch",
   "options": [
    "6",
@@ -38282,7 +38282,7 @@
   "flag": "Automatic extraction check failed: layout, options, stray",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 14,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -38345,7 +38345,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Treatment of Sewage",
+  "topic": "Sludge Digestion",
   "question": "The two main gases that evolve from and anaerobic sludge digestion tank include :",
   "options": [
    "Ammonia and Carbon dioxide",
@@ -38363,7 +38363,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 14,
+  "unit": 15,
   "classified": "book+kw"
  },
  {
@@ -38480,7 +38480,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Septic Tanks",
+  "topic": "Trickling Filters",
   "question": "In a high-rate trickling filter, the problem of ponding can be solved by",
   "options": [
    "Flooding and raking ar",
@@ -38498,7 +38498,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 16,
+  "unit": 17,
   "classified": "book+kw"
  },
  {
@@ -38534,7 +38534,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Septic Tanks",
+  "topic": "Oxidation Ponds",
   "question": "Giving rest to land and rotation of crops. 1298. In waste stabilization pond, the sewage is treated by",
   "options": [
    "aerobic bacteria only",
@@ -38552,7 +38552,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Environmental Engineering",
   "subjectId": "civil-ee",
-  "unit": 16,
+  "unit": 19,
   "classified": "book+kw"
  },
  {
@@ -39965,7 +39965,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Sight Distances",
   "question": "Geometrics Design 27. Determine the safe stopping sight distance for design speed of 14 m/s for two-way traffic on a two lane road assuming the coefficient of friction as 0.28 and a reaction time of 2 seconds-",
   "options": [
    "63.67 m",
@@ -39983,7 +39983,7 @@
   "flag": "Automatic extraction check failed: merged, stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -39992,7 +39992,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Sight Distances",
   "question": "For night travel, the length of a valley curve should be such that, the head–light beam ap distance is the same as",
   "options": [
    "stopping sight distance",
@@ -40010,7 +40010,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -40019,7 +40019,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Horizontal Curves",
   "question": "On a circular curve, the rate of super elevation is 'e' while negotiating the curve, vehicle comes to a stop. It was observed that the stopped vehicle is sliding inwards in radial direction. If the coefficient of friction is 'f' which of the following is true?",
   "options": [
    "e > f",
@@ -40037,7 +40037,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -40127,7 +40127,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Materials and Testing",
   "question": "What is the binding material in water bound macadam roads? TANGEDCO AE 2018 WBPSC AE 2016 TRB Poly. Tech. Lect. 2012 OPSC Civil Services Pre 2011 OR In semi-grouted Macadam pavement the binding material is",
   "options": [
    "Brick powder",
@@ -40145,7 +40145,7 @@
   "flag": "Automatic extraction check failed: source-in-stem",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -40154,7 +40154,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Horizontal Curves",
   "question": "The absolute minimum radius for a horizontal TG curve designed for a speed of 80 KMPH, given the permissible values of super elevation and coefficient of friction are 0.04 and 0.16",
   "options": [
    "458 m",
@@ -40172,7 +40172,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -40235,7 +40235,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Summit Curves",
   "question": "A summit curve is formed at the intersection of a 3% up gradient and 5% down gradient. To provide a stopping sight distance of 128 m, length of summit curve needed is :",
   "options": [
    "256 m",
@@ -40253,7 +40253,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -40316,7 +40316,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Gradients",
   "question": "Design of horizontal and vertical alignment, super elevation, sight distance and grades are df affected by:– [UKPSC A E Paper II 2013/ _p Uttrakhand Combined Static AE Paper 2007] OR na The design of horizontal and vertical alignments, super elevation, gradient is worst ap affected by",
   "options": [
    "Length of the vehicle",
@@ -40334,7 +40334,7 @@
   "flag": "Automatic extraction check failed: source-in-stem",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -40370,7 +40370,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Horizontal Curves (Extra Widening)",
   "question": "A vehicle has a wheel base of 6.5m. What is the off tracking while negotiating a curved path 81. If with a mean radius of 32 m?",
   "options": [
    "0.72 m",
@@ -40388,7 +40388,7 @@
   "flag": "Automatic extraction check failed: merged, stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 7,
   "classified": "book+kw"
  },
  {
@@ -40397,7 +40397,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Sight Distances",
   "question": "Multilane pavement 3.5 m/lane 79. SSD (Stopping sight distance) for two way 60 ch traffic, with single lane, and SD(stopping distance), are correlated by the relation ar",
   "options": [
    "SSD = SD/2",
@@ -40415,7 +40415,7 @@
   "flag": "Automatic extraction check failed: merged, stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -40451,7 +40451,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Sight Distances",
   "question": "Lag distance is the distance travelled n",
   "options": [
    "during application of brakes",
@@ -40469,7 +40469,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -40478,7 +40478,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Horizontal Curves",
   "question": "If radius of horizontal curve is 80 m. design mechanical speed is 40 kmph and design coefficient of 90. According lateral friction is 0.15, then rate of super elevation of full lateral friction will be",
   "options": [
    "0.30",
@@ -40496,7 +40496,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -40532,7 +40532,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Sight Distances",
   "question": "If the design speed is 80 km/hr, the reaction time is 3 seconds and coefficient of friction is 0.5. The safe stopping sight distance is approximately n",
   "options": [
    "120 m",
@@ -40550,7 +40550,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -40586,7 +40586,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Summit Curves",
   "question": "If an upgrade of 1.5% is followed by a downgrade of 0.5% and rate of change of grade is 0.2% per 20 m chain, then the length of TG vertical curve is :",
   "options": [
    "400 m",
@@ -40604,7 +40604,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -40748,7 +40748,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Railway Engineering",
   "question": "Grade compensation is not necessary for gradients less than",
   "options": [
    "1%",
@@ -40766,7 +40766,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 16,
   "classified": "book+kw"
  },
  {
@@ -40775,7 +40775,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Development and Planning",
   "question": "The amount of rainfall. AE Civil Engg. Volume-II • The super elevation should not be less than the camber. The super elevation is expressed as the difference of heights of two edges of the carriage way to the width of the carriage way. (i) National & State Highway – 2300 m (ii) Major District Road – 2000 m (iii) Other District Road – 1400 m (iv) Village Road – 600 m 124. Reverse curves are provided on the routes when the two straight lines are :–",
   "options": [
    "Perpendicular to each other",
@@ -40793,7 +40793,7 @@
   "flag": "Automatic extraction check failed: merged, symbols",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -40802,7 +40802,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Sight Distances",
   "question": "A road stretch is designed for a limiting speed df of 72 kmph and is build with a material offering a coefficient of friction of 0.40. If the _p reaction time of the driver is 2.5 s, and if there is two–way traffic on a single lane road, then what is the stopping sight distance? na",
   "options": [
    "100 m",
@@ -40820,7 +40820,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -40856,7 +40856,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Development and Planning",
   "question": "Roadway width for National Highway and State Highway (two lanes) as per IRC is -",
   "options": [
    "7.5 m",
@@ -40874,7 +40874,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -40883,7 +40883,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Transition Curves",
   "question": "The head light sight distance. v3 na Ls = cR ap L Since R = S N 1  3 2 Total length of curve L = 2  N.V   c  3 1/2 L = 2LS = 0.38 (NV) 132. Reaction time of driver increases with",
   "options": [
    "increase in vehicle length",
@@ -40901,7 +40901,7 @@
   "flag": "Automatic extraction check failed: merged, symbols",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -40910,7 +40910,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Sight Distances",
   "question": "lateral friction - 0.15 135. Stopping Sight Distance is always:",
   "options": [
    "Less than overtaking sight distance",
@@ -40928,7 +40928,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -41018,7 +41018,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Horizontal Curves",
   "question": "The minimum radius of horizontal curve for O N.H. on plain terrain is taken as",
   "options": [
    "90 m",
@@ -41036,7 +41036,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -41045,7 +41045,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Horizontal Curves",
   "question": "Assuming the rate of super-elevation to be 1 in 400, the length of the transition curve required to attain a maximum super-elevation of 15 cm will be",
   "options": [
    "60 m",
@@ -41063,7 +41063,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -41126,7 +41126,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Sight Distances",
   "question": "As per IRC, intermediate sight distance is: curve is proportional to :",
   "options": [
    "Twice the stopping sight distance (Note : W = Weight of the vehicle",
@@ -41144,7 +41144,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -41153,7 +41153,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Sight Distances",
   "question": "Total reaction time of a driver depend upon : L = eN (w+ew) about edge N = 150 (Plain & Rolling) ar (i) Perception time (ii) Brake reaction time N = 60 (hilly) ( w + ew) about centre Se (iii) Speed of vehicle L = eN",
   "options": [
    "(i) and (ii)",
@@ -41171,7 +41171,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -41180,7 +41180,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Horizontal Curves",
   "question": "Full amount of super elevation on a horizontal L= (Hilly) curve is provided at the : R",
   "options": [
    "beginning of the transition curve 182. The rate of super-elevation for a horizontal",
@@ -41198,7 +41198,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -41207,7 +41207,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Sight Distances",
   "question": "The intermediate sight distance for a highway with head light sight distance of 70m is",
   "options": [
    "105 m",
@@ -41225,7 +41225,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -41234,7 +41234,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Horizontal Curves",
   "question": "The value of mechanical widening for a highway of 7m wide on a horizontal curve with radius of 50 m, using wheel base length 10 m is",
   "options": [
    "2.5 m",
@@ -41252,7 +41252,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -41342,7 +41342,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Summit Curves",
   "question": "A vertical summit curve is formed at the intersection of two gradients. +5% and -5%. The length of summit curve needed to provide a stopping sight distance of 100 m will be-",
   "options": [
    "227 m",
@@ -41360,7 +41360,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -41369,7 +41369,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Summit Curves",
   "question": "For the purpose of measuring the stopping sight distance, IRC had suggested the height of eye level of driver and the height of the object above the road surface as-",
   "options": [
    "1.5 m and 0.15 m",
@@ -41387,7 +41387,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -41423,7 +41423,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Horizontal Curves",
   "question": "The absolute minimum radius for a horizontal O curve designed for a speed of 80 kmph, given the permissible values of super elevation and coefficient of friction are 0.05 and 0.15 ch respectively",
   "options": [
    "252 m",
@@ -41441,7 +41441,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -41450,7 +41450,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Horizontal Curves",
   "question": "The maximum super elevation to be provided on a road curve is 1 in 15. If the rate of change of super elevation is specified as 1 in 120 and the road width including widening is 12 m then the minimum length of the transition curve is (when the outer edge is raised with respect to inner edge)",
   "options": [
    "180 m",
@@ -41468,7 +41468,7 @@
   "flag": "Automatic extraction check failed: merged, stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -41504,7 +41504,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Sight Distances",
   "question": "Calculate the braking distance traveled by a vehicle on a level road stretch for design speed of 72 kmph. Take coefficient of friction as 0.3 and reaction time of driver as 2.5 seconds.",
   "options": [
    "117.96 m",
@@ -41522,7 +41522,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -41612,7 +41612,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Transition Curves",
   "question": "According to the Indian Roads Congress (IRC) Standards, the length of the horizontal transition curve for a plain and rolling terrain is given by the expression : V2 V4",
   "options": [
    "Ls = 2.7",
@@ -41630,7 +41630,7 @@
   "flag": "Automatic extraction check failed: options, stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -41747,7 +41747,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Railway Engineering",
   "question": "In an ideal transition curve, the radius of curvature:",
   "options": [
    "At any point is directly proportional to its distance from the point of commencement",
@@ -41765,7 +41765,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 16,
   "classified": "book+kw"
  },
  {
@@ -41801,7 +41801,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Horizontal Curves (Extra Widening)",
   "question": "A vehicle has a wheel base of 6 m, what is the off tracking while negotiating a curved path with a mean radius 30 m - ch",
   "options": [
    "0.2 m",
@@ -41819,7 +41819,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 7,
   "classified": "book+kw"
  },
  {
@@ -41882,7 +41882,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Horizontal Curves",
   "question": "The alignment of highway means layout of its",
   "options": [
    "centre line on ground",
@@ -41900,7 +41900,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -41963,7 +41963,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Railway Engineering",
   "question": "If R is the radius of the circular curve (in m), then the maximum grade compensation recommended is:",
   "options": [
    "50/R",
@@ -41981,7 +41981,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 16,
   "classified": "book+kw"
  },
  {
@@ -42341,7 +42341,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Railway Engineering",
   "question": "A curve that changes the alignment of road from downhill to uphill is called............",
   "options": [
    "Sag Curve",
@@ -42359,7 +42359,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 16,
   "classified": "book+kw"
  },
  {
@@ -42422,7 +42422,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Horizontal Curves",
   "question": "The provided super elevation is said to be equilibrium super-elevation, if : ar",
   "options": [
    "Pressure on the inner wheel is more than that on the outer wheel",
@@ -42440,7 +42440,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -42476,7 +42476,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Sight Distances",
   "question": "Earth road. 1 in 25 (4%) 1 in 33 (3%) 323. Pick up the correct statement from the through the following",
   "options": [
    "Braking distance = V2/250µ",
@@ -42494,7 +42494,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -42557,7 +42557,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Flexible Pavements",
   "question": "In pavement design depth of pavement is influenced by",
   "options": [
    "wheel load",
@@ -42575,7 +42575,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -42638,7 +42638,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Sight Distances",
   "question": "Calculate the value of lag distance in SSD for a highway with a design speed of 65 kmph?",
   "options": [
    "45.18 m",
@@ -42656,7 +42656,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -42692,7 +42692,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Summit Curves",
   "question": "For the designing of valley curves, the height of headlight above the road surface is assumed at",
   "options": [
    "0.15 m above the road surface",
@@ -42710,7 +42710,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -42719,7 +42719,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Sight Distances",
   "question": "The length of Summit Curve on a two lane two df way highway depends upon",
   "options": [
    "Allowable rate of change of centrifugal _p acceleration",
@@ -42737,7 +42737,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -42746,7 +42746,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Sight Distances",
   "question": "While calculating the sight distances, the type of the highway, road surface and curves on road. driver's eye above road surface is assumed as 367. For a vehicle moving with a speed of 80 km per",
   "options": [
    "60 cms",
@@ -42764,7 +42764,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -42773,7 +42773,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Sight Distances",
   "question": "What is the perception and break reaction time for vehicle moving at 80 kmph is taken as 2.5 sec. taken together in India? 368. The safe stopping distance for a two way traffic OPSC AE Paper- II 2019 in a two lane road is 61.4 m, then for a two way OR traffic in a single lane road when other The reaction time for calculation of stopping conditions are unaltered the safe stopping distance may be assumed as df distance will be taken as",
   "options": [
    "30.7 m",
@@ -42791,7 +42791,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options, source-in-stem, stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -42827,7 +42827,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Sight Distances",
   "question": "The distance travelled by a moving vehicle during total reaction time is: KPSC AE 2020 OR The distance travelled by a moving vehicle during perception and brake reaction time is known as- 15",
   "options": [
    "sight distance",
@@ -42845,7 +42845,7 @@
   "flag": "Automatic extraction check failed: layout, source-in-stem",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -42881,7 +42881,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Railway Engineering",
   "question": "The ruling design speed on a National Highway 377. A transition curve is to be provided for a in plain terrain as per IRC recommendations circular railway curve of 300 m radius, the is/ gauge being 1.5 m with the maximum super-",
   "options": [
    "100 kmph",
@@ -42899,7 +42899,7 @@
   "flag": "Automatic extraction check failed: layout, merged",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 16,
   "classified": "book+kw"
  },
  {
@@ -42908,7 +42908,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Gradients",
   "question": "The theoretical capacity of a one-way traffic Pusher gradient– The gradient where extra engine is lane with a stream speed of 50 kmph, when the required to push the train is known as pusher gradient. It average vehicle length and reaction time are 5.5 ch is sleeper than ruling gradient. m and 0.7 sec , respectively, is _____veh/hr/lane Momentum gradient– The rising gradient which is",
   "options": [
    "3283",
@@ -42926,7 +42926,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -42935,7 +42935,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Traffic Engineering",
   "question": "The minimum width of the pavement of a S = 0.278 × 50 × 0.7 + 5.5 S = 15.23 national highway should be Theoretical Capacity of Traffic lane–",
   "options": [
    "4.7 m",
@@ -42953,7 +42953,7 @@
   "flag": "Automatic extraction check failed: layout, stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 14,
   "classified": "book+kw"
  },
  {
@@ -42989,7 +42989,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Alignment and Surveys",
+  "topic": "Traffic Engineering",
   "question": "Average illumination on important roads as along with the per I.S. recommendation is :–",
   "options": [
    "70 lux",
@@ -43007,7 +43007,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 2,
+  "unit": 14,
   "classified": "book+kw"
  },
  {
@@ -45257,7 +45257,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Materials and Testing",
+  "topic": "Flexible Pavements",
   "question": "Match the pairs for determination of thickness of flexible pavement by appropriate method- A. California Bearing Radio Method B. California Resistance Valve Method C. Triaxial Method D. McLeod Method AE Civil Engg. Volume-II K (TI)( 90 - R) (i) T = C 1/5 P (ii) T = Klog10 S 1/2  1.75 A  (iii) T =  −   CBR π  2  3 PXY  2 (iv) T =   -a  2π E S ∆  A B C D",
   "options": [
    "(i) (iv) (iii) (ii)",
@@ -45275,7 +45275,7 @@
   "flag": "Automatic extraction check failed: symbols",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 11,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -45392,7 +45392,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Materials and Testing",
+  "topic": "Flexible Pavements",
   "question": "Horizontal tensile strain at the bottom of bituminous layer Statements 1 and 2 are correct Statement -4 is wrong. The design is independent of vertical sub-grade strain. Infact it depends on horizontal sub-grade strain. ∴ The appropriate answer is (c). df 679. In revised CBR design method recommended by the IRC for the design of flexible pavement, _p the total thickness depends upon",
   "options": [
    "Only the CBR value of the soil",
@@ -45410,7 +45410,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 11,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -45473,7 +45473,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Construction and Maintenance",
+  "topic": "Rigid Pavements",
   "question": "Which of the following joints are provided in cement concrete pavements to address n shrinkage cracking? O",
   "options": [
    "Expansion joints",
@@ -45491,7 +45491,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 15,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -45554,7 +45554,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Construction and Maintenance",
+  "topic": "Flexible Pavements",
   "question": "Reflection cracks. 715. Tack coat is provided 711. Prime coat is provided to promote adhesion",
   "options": [
    "to ensure bond between an old and a new between construction (a) subgrade and base",
@@ -45572,7 +45572,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 15,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -45581,7 +45581,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Construction and Maintenance",
+  "topic": "Highway Materials and Testing",
   "question": "The thickness of flexible pavement with wheel of _p load of 4080 kg subgrade support at 2180 kg",
   "options": [
    "embankment at the top level and base course constant as 86 comes to (as per",
@@ -45599,7 +45599,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 15,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -45608,7 +45608,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Construction and Maintenance",
+  "topic": "Highway Materials and Testing",
   "question": "Which of the following pavements layers serve wheel load assembly or the design wheel load. the drainage function? 723. The cement concrete roads are not preferred",
   "options": [
    "Wearing course",
@@ -45626,7 +45626,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 15,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -45662,7 +45662,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Construction and Maintenance",
+  "topic": "Rigid Pavements",
   "question": "Lay down and paving of the recycled mix on the concrete pavement is generally kept pavement surface.",
   "options": [
    "5 cm",
@@ -45680,7 +45680,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 15,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -45689,7 +45689,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Construction and Maintenance",
+  "topic": "Flexible Pavements",
   "question": "To reduce differential deformation of two panels at 728. For the pavement design, Benkelman Beam transverse joint. Team is used for which of the following? 722. The Benkelman Beam Deflection method is",
   "options": [
    "Design of bituminous concrete mix used for-",
@@ -45707,7 +45707,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 15,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -45743,7 +45743,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Construction and Maintenance",
+  "topic": "Highway Materials and Testing",
   "question": "Which of the following strength parameter of",
   "options": [
    "modulus of subgrade reaction concrete is used in the design of plain jointed",
@@ -45761,7 +45761,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 15,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -45797,7 +45797,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Construction and Maintenance",
+  "topic": "Highway Materials and Testing",
   "question": "For the construction of water bound macadam 736. The distance between expansion joints shall not roads, the correct sequence of operations after exceed ch spreading the coarse aggregate is",
   "options": [
    "45 m",
@@ -45815,7 +45815,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options, stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 15,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -45878,7 +45878,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Construction and Maintenance",
+  "topic": "Highway Development and Planning",
   "question": "As per IRC: 37–2001, the minimum thickness 1. Construction joints of granular base course to be provided on a 2. Expansion joints National or State Highway is :– 3. Contraction joints",
   "options": [
    "150 mm",
@@ -45896,7 +45896,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 15,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -45905,7 +45905,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Construction and Maintenance",
+  "topic": "Highway Materials and Testing",
   "question": "The position of base course in a flexible of pavement. ap pavement is • It should be located where shear force and bending",
   "options": [
    "Below the sub-base moment is low.",
@@ -45923,7 +45923,7 @@
   "flag": "Automatic extraction check failed: layout, options, symbols",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 15,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -46067,7 +46067,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Construction and Maintenance",
+  "topic": "Flexible Pavements",
   "question": "Frost heaving n 772. The most suitable material for highway O embankments is-",
   "options": [
    "granular soil",
@@ -46085,7 +46085,7 @@
   "flag": "Automatic extraction check failed: merged, stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 15,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -46121,7 +46121,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Construction and Maintenance",
+  "topic": "Highway Materials and Testing",
   "question": "Which of the following methods is recommended by IRC for the design of flexible df pavement?",
   "options": [
    "Group index method _p",
@@ -46139,7 +46139,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 15,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -46229,7 +46229,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Construction and Maintenance",
+  "topic": "Flexible Pavements",
   "question": "In flexible pavements, wheel load is distribute by :",
   "options": [
    "Slab action",
@@ -46247,7 +46247,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 15,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -46283,7 +46283,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Construction and Maintenance",
+  "topic": "Highway Materials and Testing",
   "question": "In water bound macadam roads, the binding material is _p",
   "options": [
    "Sand",
@@ -46301,7 +46301,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 15,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -46310,7 +46310,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Construction and Maintenance",
+  "topic": "Rigid Pavements",
   "question": "For the design of cement concrete pavement, SV = for corner loading, IRC recommends the use of C, [Uttarakhand Combined State AE Paper II 2007] C",
   "options": [
    "Westergaard's formula",
@@ -46328,7 +46328,7 @@
   "flag": "Automatic extraction check failed: source-in-stem",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 15,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -46472,7 +46472,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Construction and Maintenance",
+  "topic": "Highway Geometric Design – Gradients",
   "question": "In hill roads, the alignment with minimum ponds, lakes, ridge, hills, permanent structure and other resisting length is preferred, if obstruction along the route which are not available in",
   "options": [
    "its length is minimum the map.",
@@ -46490,7 +46490,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 15,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -46580,7 +46580,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Construction and Maintenance",
+  "topic": "Flexible Pavements",
   "question": "Maintenance and Repair of Roads n 836. A common type of failure which occurs due to O the relative movement of pavement layer",
   "options": [
    "Alligator cracking",
@@ -46598,7 +46598,7 @@
   "flag": "Automatic extraction check failed: merged, stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 15,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -46607,7 +46607,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Construction and Maintenance",
+  "topic": "Flexible Pavements",
   "question": "Alligator or map cracking is the common type of failure in :",
   "options": [
    "Bituminous surfacing",
@@ -46625,7 +46625,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 15,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -46634,7 +46634,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Construction and Maintenance",
+  "topic": "Highway Materials and Testing",
   "question": "Match the items in List-A with items in List-B and choose the correct answer choice given below the lists : List-A List-B (Crack type) (Cause)",
   "options": [
    "Alligator crack (i) Brittleness due to aging of binder",
@@ -46652,7 +46652,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 15,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -46688,7 +46688,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Construction and Maintenance",
+  "topic": "Highway Materials and Testing",
   "question": "Which one of the following defects indicates those give below to fill in the blank in the above progressive disintegration of bituminous sentence. premix carpet surfacing by loss of aggregates?",
   "options": [
    "seepage of water through the road surface (a) Pot holes",
@@ -46706,7 +46706,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 15,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -46715,7 +46715,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Construction and Maintenance",
+  "topic": "Highway Materials and Testing",
   "question": "The best binder material for stone aggregate, 853. in patch repair work during rainy season, with heavy traffic, is n",
   "options": [
    "clayey soil",
@@ -46733,7 +46733,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Highway Engineering",
   "subjectId": "civil-tra",
-  "unit": 15,
+  "unit": 11,
   "classified": "book+kw"
  },
  {

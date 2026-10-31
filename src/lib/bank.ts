@@ -51,7 +51,7 @@ export interface LoadedBank extends BankIndex {
 export function scopeBank(bank: LoadedBank, subjectIds: string[]): LoadedBank {
   const keep = new Set(subjectIds);
   const topics = bank.topics.filter((t) => keep.has(t.subject));
-  const subjects = bank.subjects.filter((s) => keep.has(s.id));
+  const subjects = bank.subjects.filter((s) => keep.has(s.id) && s.total > 0);
   // Never scope down to nothing: fall back to the full bank.
   if (!topics.length) return bank;
   const allActive = topics.flatMap((t) => t.qids);

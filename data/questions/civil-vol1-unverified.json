@@ -139,7 +139,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Stones",
+  "topic": "Aggregates",
   "question": "What is determined by conducting an abrasion 15. Impact value of stone for road work specified test? is-",
   "options": [
    "aggregate crushing value (a) wearing coat-30%",
@@ -157,7 +157,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 8,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -1084,7 +1084,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bricks",
+  "topic": "Bricks Masonry",
   "question": "The main disadvantage of concrete blocks used one corner cut diagonally to half the end of a brick and for masonry as compared to bricks is used to fill an opening in a course larger than half a",
   "options": [
    "lower strength brick, also known as beveled closer.",
@@ -1102,7 +1102,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 6,
+  "unit": 7,
   "classified": "book+kw"
  },
  {
@@ -1138,7 +1138,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bricks",
+  "topic": "Tiles",
   "question": "Vitrified tiles and ceramic tiles testing is done in accordance to ....",
   "options": [
    "IS 15622-2006",
@@ -1156,7 +1156,7 @@
   "flag": "Automatic extraction check failed: layout, symbols",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 6,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -1948,7 +1948,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Cement",
+  "topic": "Concrete",
   "question": "Which of the following is not used in the design calculation of concrete mix design according to the latest version of IS 10262?",
   "options": [
    "water/cement ratio",
@@ -1966,7 +1966,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 1,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -2353,7 +2353,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Aggregates",
   "question": "Aggregates, Mortars & Concretes 430. Bulking of sand is maximum if moisture content is approximately",
   "options": [
    "4%",
@@ -2371,7 +2371,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -2380,7 +2380,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Aggregates",
   "question": "Coarse sand 2.9 – 3.2 • Fineness modulus is a numerical index of fineness, given idea about the mean size of particles in sand and aggregate. • Sand having fineness modulus greater than 3 : 2 is not considered to be suitable for the preparation of concrete. 433. A phenomenon commonly observed in river sands for which adequate precautions need to be taken estimating, measuring and receiving sands at constructions sites is:",
   "options": [
    "Blistering",
@@ -2398,7 +2398,7 @@
   "flag": "Automatic extraction check failed: merged, symbols",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -2515,7 +2515,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Cement",
   "question": "Which of the following pairs in respect of ordinary Portland cement are correctly matched? (i) Initial setting times: 30 minutes (ii) Final setting times: 10 hours (iii) Normal consistency: 10%",
   "options": [
    "(i), (ii) and (iii)",
@@ -2533,7 +2533,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -2596,7 +2596,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Aggregates",
   "question": "What is the percentage of fine aggregate of 478. A fineness modulus 2.6 to be combined with coarse aggregate of fineness modulus 6.8 for obtaining combined aggregate of fineness modulus 5.4?",
   "options": [
    "30%",
@@ -2614,7 +2614,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -2893,7 +2893,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Cement Mortar",
   "question": "The material that acts as the binding agent in (c) Both",
   "options": [
    "and",
@@ -2911,7 +2911,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -3028,7 +3028,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Cement Mortar",
   "question": "When cement and lime are used in definite",
   "options": [
    "1, 2 and 3",
@@ -3046,7 +3046,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -3163,7 +3163,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Aggregates",
   "question": "Bulking of sand is caused due to",
   "options": [
    "Clay contents",
@@ -3181,7 +3181,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -3190,7 +3190,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Stones",
   "question": "The shingle is a normal weight aggregate of 20mm nominal maximum",
   "options": [
    "Air weathered rock size is independent of grade of cement used.",
@@ -3208,7 +3208,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -3271,7 +3271,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Aggregates",
   "question": "Aggregate impact value gives an indication of aggregate?",
   "options": [
    "Wearing capacity",
@@ -3289,7 +3289,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -3487,7 +3487,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Aggregates",
   "question": "Flakiness index and elongation index test is designing cement concrete mix exposed to repeated NOT applicable to aggregate sizes smaller than............. freeze-thaw.",
   "options": [
    "2.36 mm",
@@ -3505,7 +3505,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -3541,7 +3541,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Cement Mortar",
   "question": "One of the main demerits in using the lime mortar is that it",
   "options": [
    "is not durable",
@@ -3559,7 +3559,7 @@
   "flag": "Automatic extraction check failed: duplicate",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -4270,7 +4270,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Origin of Soils",
+  "topic": "Soil Classification",
   "question": "Estimate the theoretical height of capillary rise in under which they form. a fine grained soil with effective size of 0.02 mm, • Rockology is introduction to geology at basic level. and void ratio 0.5. Use Terzaghi and Peck 42. The average density of earth may be taken as relation. Take the empirical constant as 0.3 cm2.",
   "options": [
    "5.51 g/cc",
@@ -4288,7 +4288,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options, stray, symbols",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 1,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -5944,7 +5944,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Index Properties of Soils",
+  "topic": "Compaction",
   "question": "Which of the following methods is most (5) Core cutter method accurate for the determination of the water Note : A core cutter method into the undisturbed soil content of soil? at the site and the in situ density is determined by",
   "options": [
    "Oven drying method taking the weight and volume of the soil along with the",
@@ -5962,7 +5962,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 4,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -6052,7 +6052,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Index Properties of Soils",
+  "topic": "Soil Classification",
   "question": "For a fully saturated soil of moisture content (c) Poorly graded soil 22% P.L. and L.L. are founded to be 18% and (d) None of the above 45% respectively. P.I. of the soil is UKPSC AE 2013 Paper–I",
   "options": [
    "4%",
@@ -6070,7 +6070,7 @@
   "flag": "Automatic extraction check failed: layout, source-in-stem",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 4,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -6214,7 +6214,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Soil Classification",
+  "topic": "Soil Structures and Clay Mineralogy",
   "question": "Which of the following is most common of the clay mineral?",
   "options": [
    "Gypsum",
@@ -6232,7 +6232,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 5,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -6268,7 +6268,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Permeability",
+  "topic": "Index Properties of Soils",
   "question": "Sieve analysis test of sand is carried out to find its ....",
   "options": [
    "Specific gravity",
@@ -6286,7 +6286,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 6,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -6376,7 +6376,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Permeability",
+  "topic": "Soil Classification",
   "question": "Darcy law for flow through porous media is applicable for APPSC Poly. Tech. Lect. 2020 UPPCL AE 2015 UJVNL AE 2012 UPPSC State Eng. A.E. 2011 OR The Darcy law relating mean velocity and hydraulic gradient in a porous medium is applicable to",
   "options": [
    "Laminar",
@@ -6394,7 +6394,7 @@
   "flag": "Automatic extraction check failed: source-in-stem",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 6,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -6835,7 +6835,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Compaction",
   "question": "For conducting a Standard Proctor Compaction 675. Seepage pressure always acts Test, the weight of hammer (P in kg), the fall of",
   "options": [
    "in the direction opposite to flow hammer (Q in mm), the number of blows per",
@@ -6853,7 +6853,7 @@
   "flag": "Automatic extraction check failed: layout, merged",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -6862,7 +6862,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Soil Classification",
   "question": "The piping in soil occurs when : V = ki",
   "options": [
    "soil is highly porous K = Permeability coefficient",
@@ -6880,7 +6880,7 @@
   "flag": "Automatic extraction check failed: layout, stray",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -6997,7 +6997,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Foundations in Expansive Soils",
   "question": "In a typical compaction curve as indicated in of the diagram, points 'A' and 'B' have dry densities. Choose the most appropriate 695. Match statement from the following-",
   "options": [
    "Soil at 'A' will have more swelling potential and less shrinking upon moisture-variation, compared to 'B'",
@@ -7015,7 +7015,7 @@
   "flag": "Automatic extraction check failed: figure, merged",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 20,
   "classified": "book+kw"
  },
  {
@@ -7024,7 +7024,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Soil Classification",
   "question": "If the weight of a hammer is 10 kN and the densification as air is displaced from the pores b/w the height of drop is 2m. then what is the soil grains. theoretical input energy?",
   "options": [
    "5kN-m",
@@ -7042,7 +7042,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -7051,7 +7051,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Soil Classification",
   "question": "Pressure meter test is performed on the site to become Stuck and cause problems with the machinery. measure which property of the soil?",
   "options": [
    "Skin Friction 714. Bottom-dump wagons are suitable for handing",
@@ -7069,7 +7069,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -7078,7 +7078,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Compaction",
   "question": "Hydrostatic pressure on the phreatic line 715. Vibratory rollers are more useful for within a dam section– compacting which of the following ?",
   "options": [
    "gradually decreases (a) Sandy soils",
@@ -7096,7 +7096,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -7132,7 +7132,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Definitions and Properties of Soils",
   "question": "Statement (I): Fine-grained soils are difficult to Relative density of 1 indicates the soil is in very drain dense state and it need not be in completely Statement (II): Capillary forces act on pore saturated state. A dry soil can also have relative water. density of 1, if thoroughly compacted.",
   "options": [
    "Both Statements-I and Statement-II are ■ For partially saturated soil mass degree of individually true and Statement-II is the saturation varies between 0–100% which is most correct explanation of Statement-I. common condition in nature.",
@@ -7150,7 +7150,7 @@
   "flag": "Automatic extraction check failed: layout, options, symbols",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -7240,7 +7240,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Seepage Analysis",
   "question": "The exit gradient of the seepage water through a soil is :",
   "options": [
    "slope of flow line",
@@ -7258,7 +7258,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -7294,7 +7294,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Seepage Analysis",
   "question": "The upstream slope of an earthen dam under 746. Critical hydraulic gradient in a soil having void steady, seepage condition is : ratio 0.40 and specific gravity of soil solids",
   "options": [
    "exponential line",
@@ -7312,7 +7312,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -7375,7 +7375,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Seepage Analysis",
   "question": "In a flow net diagram, the length of the flow line in the last square is 2, the total head loss is 18 m and the number of potential drops is 12. The value of exit gradient is-",
   "options": [
    "0.33",
@@ -7393,7 +7393,7 @@
   "flag": "Automatic extraction check failed: figure, merged",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -7402,7 +7402,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Soil Classification",
   "question": "The transformation which will reduce the 2 d y dy equation x 2 2 – x + y = log x to a linear dx dx equation with constant coefficient is :",
   "options": [
    "x = t2",
@@ -7420,7 +7420,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -7456,7 +7456,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Seepage Analysis",
   "question": "For seepage in an isotropic soil conditions, scale transformation is used to obtain standard laplace equation. Then flow net is drawn for transformed section, by :",
   "options": [
    "Increasing horizontal dimension by k x k z",
@@ -7474,7 +7474,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -7564,7 +7564,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Seepage Pressure and Critical Hydraulic Gradient",
   "question": "A flow net cannot be utilized for the • If the amount determination of which of the parameters",
   "options": [
    "Exit gradient and quantity of seepage",
@@ -7582,7 +7582,7 @@
   "flag": "Automatic extraction check failed: symbols",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -7591,7 +7591,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Compaction",
   "question": "The standard Proctor compaction curve of a clay is depicted in the figure. Points A, B and C correspond to three compaction states of the soil, which fall on this curve. For which point(s) is the coefficient of permeability minimum?",
   "options": [
    "A and C",
@@ -7609,7 +7609,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -7618,7 +7618,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Compaction",
   "question": "Vibratory rollers are best suited for 796. The quantity compacting",
   "options": [
    "coarse sand and gravel",
@@ -7636,7 +7636,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -7672,7 +7672,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Seepage Analysis",
   "question": "The following statements S1, S2 and S3 pertain",
   "options": [
    "Flow lines and equipotential lines meet at to compaction on soils. right angles to one another S1 : It is a time dependent phenomenon.",
@@ -7690,7 +7690,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -7699,7 +7699,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Compaction",
   "question": "Coarse grained soils are best compacted by: dam section below which there are:",
   "options": [
    "vibratory roller",
@@ -7717,7 +7717,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -7753,7 +7753,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Shear Strength",
   "question": "Soil liquefaction may occur due to :",
   "options": [
    "Higher shear strength of soil",
@@ -7771,7 +7771,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -7780,7 +7780,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Definitions and Properties of Soils",
   "question": "Vibratory sheepfoot roller 811. Which of the following is the main cause of occurrence of quick sand condition?",
   "options": [
    "When the void ratio of the soil becomes 1.0",
@@ -7798,7 +7798,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -7834,7 +7834,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Soil Classification",
   "question": "A coarse-grained soil has a voids ratio 0.75 and specific gravity as 2.75. The critical gradient at which quick sand condition occurs, is:",
   "options": [
    "0.25",
@@ -7852,7 +7852,7 @@
   "flag": "Automatic extraction check failed: duplicate",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -7861,7 +7861,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Definitions and Properties of Soils",
   "question": "If the unit weight of sand particles is 2.696 g/cm3 and porosity in loose state is 44%, the critical hydraulic gradient for quick sand condition is:",
   "options": [
    "0.93",
@@ -7879,7 +7879,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -7915,7 +7915,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Permeability",
   "question": "For the construction of a shallow foundation dewatering is being done with a gravity well to get a drawdown of 6 m. If the permeability of the aquifer is 1×10–6 m/s, then what will be the radius of influence ?",
   "options": [
    "18 m",
@@ -7933,7 +7933,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -8131,7 +8131,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Definitions and Properties of Soils",
   "question": "At a site, the ground water table is coinciding relative density of soil particles is 2.70. The with the ground level. If saturated unit weight value of critical exit gradient for this soil is of soil is 20 kN/cum, determine the effective",
   "options": [
    "0.81",
@@ -8149,7 +8149,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -8212,7 +8212,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Consolidation",
+  "topic": "Stress Distribution",
   "question": "Soil Consolidation, Stress distribution Analysis 862. A 25 kN point load acts on the surface of an infinite elastic medium. The vertical pressure intensity in kN/m2 at a point 6.0 m below and 4.0 m away from the load will be as",
   "options": [
    "132",
@@ -8230,7 +8230,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 11,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -8239,7 +8239,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Consolidation",
+  "topic": "Stress Distribution",
   "question": "According to Boussinesq's equation, the stress 868. intensity of soil at depth 'z' and horizontal distance r due to surface point load is given by 3",
   "options": [
    "σ Z = 2 Q 2π z  2 5/ 2 r  1 +      z   3",
@@ -8257,7 +8257,7 @@
   "flag": "Automatic extraction check failed: symbols",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 11,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -8266,7 +8266,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Consolidation",
+  "topic": "Stress Distribution",
   "question": "The intensity of vertical stress of depth z below a concentrated load Q by Boussinesq's equation is: Q",
   "options": [
    "σ z = 0.5775 2",
@@ -8284,7 +8284,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 11,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -8293,7 +8293,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Consolidation",
+  "topic": "Stress Distribution",
   "question": "A point load exerts a maximum vertical stress • K and at a radial distance of 1 m and at a depth of-",
   "options": [
    "0.817",
@@ -8311,7 +8311,7 @@
   "flag": "Automatic extraction check failed: symbols",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 11,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -8887,7 +8887,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Consolidation",
+  "topic": "Stress Distribution",
   "question": "For which of the following soils will the 1010. A clay layer Westergard's analysis produce better results than the Boussinesq's analysis? GPSC AE Dec 2018 OR Westergaard's analysis for stress distribution beneath loaded area is applicable to-",
   "options": [
    "sandy soils",
@@ -8905,7 +8905,7 @@
   "flag": "Automatic extraction check failed: merged, source-in-stem",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 11,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -10264,7 +10264,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Earth Pressure",
+  "topic": "Seepage Analysis",
   "question": "The down stream slope of an earth dam is critical :",
   "options": [
    "when reservoir is full",
@@ -10282,7 +10282,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 14,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -10858,7 +10858,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bearing Capacity",
+  "topic": "Pile Foundation",
   "question": "A 30cm diameter friction pile is embedded 10m into a homogeneous consolidated deposit. Unit cohesion developed between clay and pile shaft is 4t/m2 and adhesion factor is 0.7. The safe load for safety 2.5 will be:",
   "options": [
    "21.50 t",
@@ -10876,7 +10876,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 16,
+  "unit": 17,
   "classified": "book+kw"
  },
  {
@@ -10993,7 +10993,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bearing Capacity",
+  "topic": "Pile Foundation",
   "question": "Based on function or action",
   "options": [
    "Load bearing piles",
@@ -11011,7 +11011,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 16,
+  "unit": 17,
   "classified": "book+kw"
  },
  {
@@ -11074,7 +11074,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bearing Capacity",
+  "topic": "Pile Foundation",
   "question": "For reinforced concrete structures supported 1440. Select the correct statement- by isolated footing resting on sand, the",
   "options": [
    "Both negative skin friction and skin frictional maximum permissible settlement as per IS : resistance are caused by relative settlement of",
@@ -11092,7 +11092,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 16,
+  "unit": 17,
   "classified": "book+kw"
  },
  {
@@ -11155,7 +11155,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bearing Capacity",
+  "topic": "Soil Classification",
   "question": "The load carrying capacity of an individual 1459. As per IS 1904-1986, all foundations shall friction pile is 200 kN. What is the total load extend to a depth of at least______below capacity of a group of 9 such piles with a group natural ground level efficiency factor of 0.8?",
   "options": [
    "500 mm",
@@ -11173,7 +11173,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 16,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -11182,7 +11182,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bearing Capacity",
+  "topic": "Soil Classification",
   "question": "With respect to the site investigation for a = 1440 kN. foundation, significant depth is defined as 1455. The under-reamed piles are connected by a",
   "options": [
    "the depth upto which the stress increment due reinforced beam known as : to superimposed load can produce significant (a) plinth beam",
@@ -11200,7 +11200,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 16,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -11344,7 +11344,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bearing Capacity",
+  "topic": "Pile Foundation",
   "question": "Compaction pile used in loose granular soil. 1607. A square pile of section 30 cm × 30 cm and length of 10 m penetrates a deposit of clay having cohesion 'C' = 5 kN/m2 and mobilizing factor 'α' = 0.8. Load carried by pile by skin friction only?",
   "options": [
    "192 kN",
@@ -11362,7 +11362,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 16,
+  "unit": 17,
   "classified": "book+kw"
  },
  {
@@ -11371,7 +11371,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bearing Capacity",
+  "topic": "Pile Foundation",
   "question": "Lowering of ground water table, this causes increase 1633 According to IS 8009, Part1(1976), the in settlement of soil with the resultant downward drag recommended value of rigidity factor for (negative skin friction) on the pile. computing the settlement of a rigid footing is: 1628. The Piles used to resist large horizontal or",
   "options": [
    "0.8",
@@ -11389,7 +11389,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 16,
+  "unit": 17,
   "classified": "book+kw"
  },
  {
@@ -13161,7 +13161,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Simple Stresses and Strains (Elastic Constants and their relationship; Linear and volumetric changes of bodies; Thermal Stresses)",
+  "topic": "Shear Force and Bending Moment",
   "question": "The diagram showing the variation of axial load along the span is called",
   "options": [
    "shear force diagram",
@@ -13179,7 +13179,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 1,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -15429,7 +15429,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Shear Force and Bending Moment",
+  "topic": "Propped Beams and Fixed Beams",
   "question": "Fixed end moments at A and B for the fixed beam shown in the figure, subjected to the indicated uniformly varying load, are respectively",
   "options": [
    "Wl2/30 and Wl2/20",
@@ -15447,7 +15447,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 3,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -16050,7 +16050,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theory of Simple Bending",
+  "topic": "Shear Stress Distribution in Beams",
   "question": "The maximum shear stress across a circular section is 4",
   "options": [
    "  Average shear stress 3 3",
@@ -16068,7 +16068,7 @@
   "flag": "Automatic extraction check failed: symbols",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 5,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -16185,7 +16185,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theory of Simple Bending",
+  "topic": "Simple Stresses and Strains (Elastic Constants and their relationship; Linear and volumetric changes of bodies; Thermal Stresses)",
   "question": "The factor of safety in bending for rectangular beams in terms of yield point stress (σyp) and working stress (σW) is σ yp σ yp",
   "options": [
    "1.5",
@@ -16203,7 +16203,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 5,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -16212,7 +16212,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theory of Simple Bending",
+  "topic": "Shear Stress Distribution in Beams",
   "question": "If the average shear stress in a rectangular (b) the circular beam experiences more bending section beam is 5 N/sq.mm, then maximum stress than the square one shear stress for the circular section of the equal (c) the square beam experiences more bending area is stress than the circular one",
   "options": [
    "7.50 N/sq.mm",
@@ -16230,7 +16230,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 5,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -16806,7 +16806,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theory of Simple Bending",
+  "topic": "Slopes and Deflection",
   "question": "A beam of I-section, is loaded in yz-plane (with db3 y-axis along the length), find which statement is Moment of inertia (I2) = 12 correct : Max. deflection at centre of beam in simply supported",
   "options": [
    "variation of τxz is linear and that of τxy is beam– parabolic",
@@ -16824,7 +16824,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 5,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -16887,7 +16887,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theory of Simple Bending",
+  "topic": "Centre of Gravity and Moment of Inertia",
   "question": "The moment of inertia of a square of side",
   "options": [
    "about an axis through its center of gravity is (a) a4/4",
@@ -16905,7 +16905,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 5,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -16941,7 +16941,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theory of Simple Bending",
+  "topic": "Shear Force and Bending Moment",
   "question": "A simply supported wooden beam 100 mm wl 40 × 4 wide, 250 mm deep and 3 m long is carrying a Shear force = (S.F.)max = = = 80 kN uniformly distributed load of 40 kN/m. The 2 2 maximum shear stress will be : VA y 80 ×103 × 200 × 200 × 10 Shear stress = τmax = =",
   "options": [
    "2.4 MPa",
@@ -16959,7 +16959,7 @@
   "flag": "Automatic extraction check failed: layout, symbols",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 5,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -17562,7 +17562,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Slopes and Deflection",
+  "topic": "Columns and Struts",
   "question": "Match the List-I with List-II and select your correct answer using the codes given below: List-I List-II (Name of the (Method) associated with the methods) A. G.N. Maney 1. Moment distribution B. Hardy cross 2. Slope deflection method C. Euler 3. Theorem of three moments D. Clapeyron 4. Crippling load on column TNPSC AE 2018 A B C D",
   "options": [
    "2 1 4 3",
@@ -17580,7 +17580,7 @@
   "flag": "Automatic extraction check failed: source-in-stem",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 9,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -17643,7 +17643,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Slopes and Deflection",
+  "topic": "Propped Beams and Fixed Beams",
   "question": "Fixed end moments at A and B for the fixed beam shown in the figure, subjected to the indicated uniformly varying load, are respectively",
   "options": [
    "Wℓ 2 / 30and Wℓ 2 / 20",
@@ -17661,7 +17661,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 9,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -18399,7 +18399,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Complex Stresses and Strains",
+  "topic": "Theories of Failures",
   "question": "Design of shaft made of brittle materials is based on",
   "options": [
    "Guest's theory",
@@ -18417,7 +18417,7 @@
   "flag": "Automatic extraction check failed: layout, stray",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 2,
+  "unit": 15,
   "classified": "book+kw"
  },
  {
@@ -19236,7 +19236,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Complex Stresses and Strains",
+  "topic": "Theories of Failures",
   "question": "In theories of failure, which theory states that no shearing stresses and shearing strains will be present anywhere in the block but only the volume changes?",
   "options": [
    "Guest theory",
@@ -19254,7 +19254,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 2,
+  "unit": 15,
   "classified": "book+kw"
  },
  {
@@ -19290,7 +19290,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Complex Stresses and Strains",
+  "topic": "Theories of Failures",
   "question": "Maximum strain theory for the failure of a material at the elastic limit is known as:",
   "options": [
    "Haig's theory",
@@ -19308,7 +19308,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 2,
+  "unit": 15,
   "classified": "book+kw"
  },
  {
@@ -20856,7 +20856,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Thin Cylinders",
+  "topic": "Simple Stresses and Strains (Elastic Constants and their relationship; Linear and volumetric changes of bodies; Thermal Stresses)",
   "question": "If 'p' is the pressure on the cylinder, 'd' and 't' are the diameter and wall thickness, E is the Young's Modulus and m is the Pisson's Ratio, the volumetric strain (εv) in thin wall cylinder can be given by pd pd",
   "options": [
    "(5 − 4 µ)",
@@ -20874,7 +20874,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 10,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -22962,7 +22962,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Analysis of Trusses (Determinate)",
+  "topic": "Introduction to Structures and Static Indeterminacy",
   "question": "In the truss shown below which statement is correct?",
   "options": [
    "Externally unstable",
@@ -22980,7 +22980,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "Structural Analysis",
   "subjectId": "civil-sa",
-  "unit": 3,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -24333,7 +24333,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Moving Loads and Influence Lines",
+  "topic": "Basic Methods of Structural Analysis",
   "question": "Maxwell's reciprocal theorem is valid",
   "options": [
    "for all statically determinate structure",
@@ -24351,7 +24351,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Structural Analysis",
   "subjectId": "civil-sa",
-  "unit": 9,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -24387,7 +24387,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Moving Loads and Influence Lines",
+  "topic": "Basic Methods of Structural Analysis",
   "question": "The reciprocal theorem of Maxwell is valid for structure :",
   "options": [
    "having linear force-displacement relation",
@@ -24405,7 +24405,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Structural Analysis",
   "subjectId": "civil-sa",
-  "unit": 9,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -24657,7 +24657,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Moving Loads and Influence Lines",
+  "topic": "Basic Methods of Structural Analysis",
   "question": "Influence line for redundant structures can be is given as obtained by",
   "options": [
    "Castigliano’s theorem",
@@ -24675,7 +24675,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Structural Analysis",
   "subjectId": "civil-sa",
-  "unit": 9,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -25359,7 +25359,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Basic Methods of Structural Analysis",
+  "topic": "Introduction to Structures and Static Indeterminacy",
   "question": "A statically indeterminate real beam will have unstable conjugate beam. 496. A fixed beam is an example of:",
   "options": [
    "3 dimensional structure",
@@ -25377,7 +25377,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Structural Analysis",
   "subjectId": "civil-sa",
-  "unit": 4,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -25872,7 +25872,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Materials, Workmanship, Inspection and Testing",
+  "topic": "Slabs",
   "question": "The effect of air entrainment in concrete is to 1. Plain and Reinforced Cement 1. increase resistance to freezing and thawing 2. improve workability Concrete 3. decrease strength Which of these statements is/are correct? 1. The striping time for the Reinforced Concrete",
   "options": [
    "1 alone",
@@ -25890,7 +25890,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 1,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -26304,7 +26304,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Materials, Workmanship, Inspection and Testing",
+  "topic": "Slabs",
   "question": "Individual variation between tensile strength of Mass concrete, lightly Low 25-75 sample should not be more than : reinforced section in slabs,",
   "options": [
    "+5% of the average beams, walls, column, floors,",
@@ -26322,7 +26322,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 1,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -26358,7 +26358,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Materials, Workmanship, Inspection and Testing",
+  "topic": "Slabs",
   "question": "The strength of concrete is directly 85. In case of framed RCC construction, the form proportional to : work to be removed first are",
   "options": [
    "Water Cement Ratio (a) Bottom of beams",
@@ -26376,7 +26376,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 1,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -26655,7 +26655,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Materials, Workmanship, Inspection and Testing",
+  "topic": "Slabs",
   "question": "Yield line theory results in : along the length of a tension specimen at an angle of",
   "options": [
    "Elastic solution approximately 45º to longitudinal axis.",
@@ -26673,7 +26673,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 1,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -26952,7 +26952,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Materials, Workmanship, Inspection and Testing",
+  "topic": "Limit State – Singly Reinforced Sections",
   "question": "Which one of the following sections performs better on the ductility criterion:-",
   "options": [
    "Under reinforced section",
@@ -26970,7 +26970,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 1,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -27087,7 +27087,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Materials, Workmanship, Inspection and Testing",
+  "topic": "Limit State of Serviceability",
   "question": "Time-dependent strain is termed as :",
   "options": [
    "elastic strain",
@@ -27105,7 +27105,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 1,
+  "unit": 14,
   "classified": "book+kw"
  },
  {
@@ -27411,7 +27411,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Basic Concepts – Working Stress",
+  "topic": "Limit State Design Method – Fundamentals",
   "question": "Two way slab 35 279. Design load is equal to",
   "options": [
    "Characteristic load × partial factor of safety for materials (rm)",
@@ -27429,7 +27429,7 @@
   "flag": "Automatic extraction check failed: merged, stray",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 4,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -27465,7 +27465,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Basic Concepts – Working Stress",
+  "topic": "Limit State – Singly Reinforced Sections",
   "question": "A beam of 400 mm effective depth with a neutral axis constant of 0.39, the value of lever arm is :",
   "options": [
    "250 mm",
@@ -27483,7 +27483,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 4,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -27627,7 +27627,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Basic Concepts – Working Stress",
+  "topic": "Limit State – Singly Reinforced Sections",
   "question": "Reinforced concrete beam sections in which the (b) X > Xcr steel reaches yield strain at loads lower than (c) Ast > Ast, bal the load at which the concrete reaches failure (d) Failure is a compression failure/brittle failure strain are called (e) IS code does not recommend over-reinforced",
   "options": [
    "Under-reinforced sections section.",
@@ -27645,7 +27645,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 4,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -27654,7 +27654,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Basic Concepts – Working Stress",
+  "topic": "Limit State – Singly Reinforced Sections",
   "question": "When quantity of steel in an RC beam section (c) The stresses developed in steel and concrete is less than required, the section is called: will simultaneously be the same as assumed",
   "options": [
    "over reinforced in design",
@@ -27672,7 +27672,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 4,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -27816,7 +27816,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Basic Concepts – Working Stress",
+  "topic": "Bond Limit State and Working Stress",
   "question": "If φ is the nominal diameter of reinforcing bar, fx is compressive stress in the bar and fbd is design bond stress of concrete, the anchorage length La of straight bar in φf φf",
   "options": [
    "L a = x",
@@ -27834,7 +27834,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 4,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -28005,7 +28005,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Basic Concepts – Working Stress",
+  "topic": "Materials, Workmanship, Inspection and Testing",
   "question": "Under service loads the crack width in concrete stirrups do not open during strong earthquake shaking. should not exceed under mild exposure as per IS 456 is :",
   "options": [
    "0.1 mm",
@@ -28023,7 +28023,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 4,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -28032,7 +28032,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Basic Concepts – Working Stress",
+  "topic": "Materials, Workmanship, Inspection and Testing",
   "question": "Flexural strength of concrete can be assumed 353. As per code, minimum grade of concrete in as reinforced concrete design, where concrete",
   "options": [
    "0.7 × fck",
@@ -28050,7 +28050,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options, stray",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 4,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -28140,7 +28140,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Basic Concepts – Working Stress",
+  "topic": "Materials, Workmanship, Inspection and Testing",
   "question": "In the context of provisions given in IS less 456:2000, consider the following statements: Statement–1: The modulus of concrete Ec may be Where, d = effective depth of the beam estimated using the equation Ec = 500 (fck)0.5 b = breath of the compression face midway between the lateral restraints. where fck is the characteristic strength of the concrete. L >/ 60 b   b 2 whichever is less Statement–2: The minimum grade of concrete >/ 250  that can be used in reinforced concrete d  construction is M15. For cantilever beam : Clear distance between the free Which of the following is CORRECT? end of cantilever and lateral restrain shall not exceed.",
   "options": [
    "Statement-1 is TRUE and Statement -2 100b 2 FALSE 25 b or , whichever is less.",
@@ -28158,7 +28158,7 @@
   "flag": "Automatic extraction check failed: layout, stray, symbols",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 4,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -28626,7 +28626,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State of Collapse – Shear",
+  "topic": "Bond Limit State and Working Stress",
   "question": "If diameter of reinforcement bar is d, the anchorage value of the hook alone will be 30 φ whichever is greater",
   "options": [
    "4d",
@@ -28644,7 +28644,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -28923,7 +28923,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State of Collapse – Shear",
+  "topic": "Materials, Workmanship, Inspection and Testing",
   "question": "As per IS 456 : 2000, the maximum shear stress for M20 grade of concrete is :",
   "options": [
    "1.0 N/mm2",
@@ -28941,7 +28941,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 8,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -29976,7 +29976,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Slabs",
+  "topic": "Limit State Design – Flanged Beams",
   "question": "One of the criteria for the effective width of l flange of T – beam is bf = o + b w + 6Df In the 6 above formula, l0 signifies",
   "options": [
    "Effective span of T – beam",
@@ -29994,7 +29994,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 11,
+  "unit": 7,
   "classified": "book+kw"
  },
  {
@@ -30138,7 +30138,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Slabs",
+  "topic": "Limit State of Serviceability",
   "question": "As per IS : 456-2000, the final deflection due to all loads including the effects of temperature, creep and shrinkage and measured from the as-cast level of the supports of floors, roofs and all other horizontal members, should not normally exceed-",
   "options": [
    "span/250",
@@ -30156,7 +30156,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 11,
+  "unit": 14,
   "classified": "book+kw"
  },
  {
@@ -30867,7 +30867,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State of Collapse – Compression",
+  "topic": "Materials, Workmanship, Inspection and Testing",
   "question": "300 mm less than :",
   "options": [
    "200mm",
@@ -30885,7 +30885,7 @@
   "flag": "Automatic extraction check failed: layout, symbols",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 12,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -31353,7 +31353,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State of Collapse – Compression",
+  "topic": "Slabs",
   "question": "Thickened part of a flat slab over its supporting column is technically known as:",
   "options": [
    "Capital",
@@ -31371,7 +31371,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 12,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -32136,7 +32136,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State Design Method – Fundamentals",
+  "topic": "Limit State – Singly Reinforced Sections",
   "question": "Maximum strain at the level of compression steel for a doubly reinforced rectangular section having effective depth d, effective cover to compression steel as d’ and neutral axis depth from compression face as xu will be d'",
   "options": [
    "0.035",
@@ -32154,7 +32154,7 @@
   "flag": "Automatic extraction check failed: symbols",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 2,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -32163,7 +32163,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State Design Method – Fundamentals",
+  "topic": "Limit State – Singly Reinforced Sections",
   "question": "In singly reinforced sections, when the section is under-reinforced, the relation between depth of neutral axis (xu) and the limiting value of  fy  depth of neutral axis (xu' max) is-  + 0.002 ",
   "options": [
    "xu = xu' max  1.15E S ",
@@ -32181,7 +32181,7 @@
   "flag": "Automatic extraction check failed: layout, symbols",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 2,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -32244,7 +32244,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State Design Method – Fundamentals",
+  "topic": "Limit State – Singly Reinforced Sections",
   "question": "For limit state design of RC beam consider following : f  (i)  y = 0.36  fck  A  (ii)  st = 4%   bD   x u max  (iii)  = 0.48   d  Which one of the design criteria shall be applicable ?",
   "options": [
    "Balanced section",
@@ -32262,7 +32262,7 @@
   "flag": "Automatic extraction check failed: symbols",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 2,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -32298,7 +32298,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State Design Method – Fundamentals",
+  "topic": "Limit State of Collapse – Compression",
   "question": "Creep Strain is",
   "options": [
    "caused due to live load only",
@@ -32316,7 +32316,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 2,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -32622,7 +32622,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State Design Method – Fundamentals",
+  "topic": "Limit State of Serviceability",
   "question": "Choose correct option for: i. Limit state of P. Cracking collapse ii. Limit state of Q. Deflection serviceability iii. Limit state of R. Rupture durability S. Fire resistance T. Environment/ chemical actions U. Accidental collapse P Q R S T U",
   "options": [
    "i ii iii ii i ii",
@@ -32640,7 +32640,7 @@
   "flag": "Automatic extraction check failed: options, stray",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 2,
+  "unit": 14,
   "classified": "book+kw"
  },
  {
@@ -32649,7 +32649,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Fundamentals of Prestressed Concrete",
+  "topic": "Limit State of Serviceability",
   "question": "Pre-stressed Concrete 1187. In the design of pre-stressed concrete structures, which of the following limit state will come under the limit state of serviceability? 1. Flexure 2. Shear 3. Deflection 4. Cracking Select the correct answer using the codes gives below :",
   "options": [
    "1 and 4",
@@ -32667,7 +32667,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 15,
+  "unit": 14,
   "classified": "book+kw"
  },
  {
@@ -32757,7 +32757,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Fundamentals of Prestressed Concrete",
+  "topic": "Limit State Design Method – Fundamentals",
   "question": "As per the limit state design of steel structures, the IS 800 code on steel design stipulates the partial safety factor for resistance of member to bucking as :",
   "options": [
    "1.10",
@@ -32775,7 +32775,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 15,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -32784,7 +32784,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Fundamentals of Prestressed Concrete",
+  "topic": "Limit State of Serviceability",
   "question": "According to IS 1343, the limit state of serviceability of pre-stresses sections shall satisfy",
   "options": [
    "Deflection and cracking",
@@ -32802,7 +32802,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 15,
+  "unit": 14,
   "classified": "book+kw"
  },
  {
@@ -34782,7 +34782,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Tension Members",
+  "topic": "Eccentric Connections",
   "question": "In a beam that carries axial load also, that 247. For the eccentric connection of bracket shown effect of deflection may be ignored, when the in figure, which bolt will have the maximum axial load is resultant force?",
   "options": [
    "compressive",
@@ -34800,7 +34800,7 @@
   "flag": "Automatic extraction check failed: figure, layout, merged",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 5,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -35727,7 +35727,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Compression Members",
+  "topic": "Beams",
   "question": "Localized bearing stress caused by the to back to achieve a balance b/w radius of gyration transmission of compression from the wide values about zz and yy axis's. flange to the narrow web causes a failure called",
   "options": [
    "Web buckling",
@@ -35745,7 +35745,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 6,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -35862,7 +35862,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Compression Members",
+  "topic": "Plate Girders",
   "question": "Bearing stiffeners in plate girders are provided λ at 1",
   "options": [
    "Mid-span",
@@ -35880,7 +35880,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 6,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -36186,7 +36186,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Compression Members",
+  "topic": "Tension Members",
   "question": "restrained against lateral torisonal 300 buckling A member normally acting as a tie in a roof truss or a bracing system not considered effective when subjected to 5. possible reversal of stresses resulting 350 from the action of wind or earthquake forces. 413. Lug angles:",
   "options": [
    "Are unequal angles",
@@ -36204,7 +36204,7 @@
   "flag": "Automatic extraction check failed: merged, options",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 6,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -36348,7 +36348,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Plate Girders",
   "question": "Stiffeners are used in a plate girder 443. According to IS 800 : 2007, allowable vertical",
   "options": [
    "to avoid buckling of web plate deflection for gantry girder with crane load",
@@ -36366,7 +36366,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -36375,7 +36375,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Plate Girders",
   "question": "In a plate girder, the web plate is connected to the flange plates by fillet welding. The size of the fillet welds is designed to safely resist :",
   "options": [
    "bending stresses in the flanges",
@@ -36393,7 +36393,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -36510,7 +36510,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Plate Girders",
   "question": "In plate girders, the web plate is provided with stiffeners when the ratio of clear depth to thickness of web greater than– 2",
   "options": [
    "35",
@@ -36528,7 +36528,7 @@
   "flag": "Automatic extraction check failed: layout, symbols",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -36591,7 +36591,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Materials and Specifications",
   "question": "The yield stress of mild steel of normally rolled structural steel is about (in N/mm2)",
   "options": [
    "240 to",
@@ -36609,7 +36609,7 @@
   "flag": "Automatic extraction check failed: duplicate",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -36726,7 +36726,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Plate Girders",
   "question": "For plate girder shown in figure below by using what action is Panel A designed?",
   "options": [
    "Simple post critical action",
@@ -36744,7 +36744,7 @@
   "flag": "Automatic extraction check failed: figure",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -36969,7 +36969,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Plate Girders",
   "question": "Economical depth of a plate girder is given by :  M   M ",
   "options": [
    " σt ",
@@ -36987,7 +36987,7 @@
   "flag": "Automatic extraction check failed: symbols",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -37158,7 +37158,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Plate Girders",
   "question": "The economical depth (d) of the plate girder is : 589. If ‘t’ is the thickness of web of plate girder 1/ 5 1/ 3 which is stiffened vertical then, the smallest  MK   MK ",
   "options": [
    " ",
@@ -37176,7 +37176,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options, stray, symbols",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -37212,7 +37212,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Gantry Girders",
   "question": "The maximum lateral deflection of a gantry girder between rail as is :",
   "options": [
    "L/400",
@@ -37230,7 +37230,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -37266,7 +37266,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Plate Girders",
   "question": "Economical depth of a plate girder corresponds to -",
   "options": [
    "Minimum weight",
@@ -37284,7 +37284,7 @@
   "flag": "Automatic extraction check failed: options",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -37779,7 +37779,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Column Bases and Column Splices",
+  "topic": "Plate Girders",
   "question": "flanges 3.stiffeners In a plate girder, bending is primarily resisted by flange plates and shear by web. 685. The effective length of a steel compression member which is effectively held in position at both ends but restrained in direction at one end only-",
   "options": [
    "L",
@@ -37797,7 +37797,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 7,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -37995,7 +37995,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Column Bases and Column Splices",
+  "topic": "Compression Members",
   "question": "The best arrangement to possible unified behaviour in built up column is by lacing. 699. An ISHB 300 with plastic section modulus of 921.68×103 mm3, flange width of 250 mm, the yield stress of 250 N/mm2 is embedded in a pocket base to develop its strength with M 25 concrete in design of beam-column. The required depth will be nearly.",
   "options": [
    "475 mm",
@@ -38013,7 +38013,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 7,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -38400,7 +38400,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Roof Trusses",
+  "topic": "Welded Connections",
   "question": "Effective length of groove welds in case of butt while designing a truss, in respect of its plan joint is equal to- area is adopted as",
   "options": [
    "length of continuous full size weld (a) 100 N/sq.m",
@@ -38418,7 +38418,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 11,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -39389,7 +39389,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Construction and Maintenance",
+  "topic": "Highway Materials and Testing",
   "question": "In wall having their thickness equal to odd number mortar of equal size joints at right angles to each other. of half bricks, bats are necessary to be used. 38. Which of the following features regarding Double flemish bond : Double flemish bond consists Double-Flemish bond is not true? of an alternative header, stretcher in each course.",
   "options": [
    "Every course consists of headers and Single flemish bond : This bond is a combination of stretchers placed alternately English bond and flemish bond. In this work the facing",
@@ -39407,7 +39407,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options",
   "bookUnit": "Building Construction and Maintenance Engineering",
   "subjectId": "civil-tra",
-  "unit": 15,
+  "unit": 11,
   "classified": "knn+kw"
  },
  {
@@ -39578,7 +39578,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Cement",
+  "topic": "Cement Mortar",
   "question": "Consider the following statements: 58. In stucco plastering, for finish coat the mortar Bricks are soaked in water before use in is made of: masonry work",
   "options": [
    "1 : 4 cement and sand A. to remove dust",
@@ -39596,7 +39596,7 @@
   "flag": "Automatic extraction check failed: layout, merged",
   "bookUnit": "Building Construction and Maintenance Engineering",
   "subjectId": "civil-bm",
-  "unit": 1,
+  "unit": 4,
   "classified": "knn+kw"
  },
  {
@@ -39713,7 +39713,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bearing Capacity",
+  "topic": "Soil Classification",
   "question": "As per NBC 2005, institutional buildings comes Defective construction under :",
   "options": [
    "Group-A",
@@ -39731,7 +39731,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Building Construction and Maintenance Engineering",
   "subjectId": "civil-geo",
-  "unit": 16,
+  "unit": 5,
   "classified": "knn+kw"
  },
  {
@@ -40091,7 +40091,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bearing Capacity",
+  "topic": "Pile Foundation",
   "question": "The structures subjected to uplift due to 118. In case of foundation on black cotton soils, the hydrostatic pressure are anchored down by most suitable method to increase the bearing",
   "options": [
    "batter piles",
@@ -40109,7 +40109,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options",
   "bookUnit": "Building Construction and Maintenance Engineering",
   "subjectId": "civil-geo",
-  "unit": 16,
+  "unit": 17,
   "classified": "knn+kw"
  },
  {
@@ -40280,7 +40280,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Air Pollution and Control",
+  "topic": "House Drainage Arrangements in Buildings",
   "question": "Increased height of building or room give better ventilation due to",
   "options": [
    "Cross ventilation",
@@ -40298,7 +40298,7 @@
   "flag": "Automatic extraction check failed: layout",
   "bookUnit": "Building Construction and Maintenance Engineering",
   "subjectId": "civil-ee",
-  "unit": 22,
+  "unit": 23,
   "classified": "knn+kw"
  },
  {
@@ -40577,7 +40577,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Soil Classification",
+  "topic": "Index Properties of Soils",
   "question": "Which one of the following statements are 170. The arrangement of supporting an existing incorrect when lintels are compared with structure by providing supports underneath, is arches: known as",
   "options": [
    "Lintels are simpler in construction (a) Shoring",
@@ -40595,7 +40595,7 @@
   "flag": "Automatic extraction check failed: layout, merged, options",
   "bookUnit": "Building Construction and Maintenance Engineering",
   "subjectId": "civil-geo",
-  "unit": 5,
+  "unit": 4,
   "classified": "knn+kw-weak"
  },
  {
@@ -41117,7 +41117,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Materials, Workmanship, Inspection and Testing",
+  "topic": "Limit State of Collapse – Compression",
   "question": "Vertical sides of concrete columns shuttering truss is may be stripped after",
   "options": [
    "To support the framework of the roof (a) 1 to 2 days",
@@ -41135,7 +41135,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Building Construction and Maintenance Engineering",
   "subjectId": "civil-rcc",
-  "unit": 1,
+  "unit": 12,
   "classified": "knn+kw"
  },
  {
@@ -41198,7 +41198,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Basic Methods of Structural Analysis",
+  "topic": "Introduction to Structures and Static Indeterminacy",
   "question": "Miscellaneous 254. The construction of a temporary structure required to support an unsafe structure is called",
   "options": [
    "shoring",
@@ -41216,7 +41216,7 @@
   "flag": "Automatic extraction check failed: merged",
   "bookUnit": "Building Construction and Maintenance Engineering",
   "subjectId": "civil-sa",
-  "unit": 4,
+  "unit": 1,
   "classified": "knn+kw-weak"
  },
  {
@@ -41360,7 +41360,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Introduction to Project Management",
+  "topic": "PERT",
   "question": "The difference between the latest allowable their performance to different experts. time and earliest expected time of an event is 7. The event or events that immediately come known as before another event without any intervening",
   "options": [
    "Float",
@@ -41378,7 +41378,7 @@
   "flag": "Automatic extraction check failed: layout, options",
   "bookUnit": "Construction Management and Engineering Economics",
   "subjectId": "civil-cpm",
-  "unit": 1,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -41414,7 +41414,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Introduction to Project Management",
+  "topic": "CPM Cost Analysis",
   "question": "The Time with which direct cost does not Gujarat PSC AE 2017 reduce with the increase in time is known as: Nagaland PSC CTSE 2017 Paper–I",
   "options": [
    "crash time",
@@ -41432,7 +41432,7 @@
   "flag": "Automatic extraction check failed: layout, source-in-stem",
   "bookUnit": "Construction Management and Engineering Economics",
   "subjectId": "civil-cpm",
-  "unit": 1,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -41441,7 +41441,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Introduction to Project Management",
+  "topic": "PERT",
   "question": "If there are n number of events in the networks t0 = Optimistic time, diagram then number of dual role event will be tm = Most likely time",
   "options": [
    "n-1",
@@ -41459,7 +41459,7 @@
   "flag": "Automatic extraction check failed: figure, layout",
   "bookUnit": "Construction Management and Engineering Economics",
   "subjectId": "civil-cpm",
-  "unit": 1,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -41792,7 +41792,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Introduction to Project Management",
+  "topic": "PERT",
   "question": "The duration of any activity in PERT is given by t, where t0 = optimistic time; tP = pessimistic time, tm = most probable time t + t + 4t P t + 4t m + t P",
   "options": [
    "t = 0 m",
@@ -41810,7 +41810,7 @@
   "flag": "Automatic extraction check failed: stray",
   "bookUnit": "Construction Management and Engineering Economics",
   "subjectId": "civil-cpm",
-  "unit": 1,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -41819,7 +41819,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Introduction to Project Management",
+  "topic": "CPM",
   "question": "If t is the duration of an activity, t1 is the latest finish possible moment of its preceding activity and t2 is the earliest start possible moment, the independent float of the activity is:",
   "options": [
    "(t1 – t2) – t",
@@ -41837,7 +41837,7 @@
   "flag": "Automatic extraction check failed: options, stray",
   "bookUnit": "Construction Management and Engineering Economics",
   "subjectId": "civil-cpm",
-  "unit": 1,
+  "unit": 3,
   "classified": "book+kw"
  },
  {

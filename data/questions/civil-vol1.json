@@ -967,7 +967,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bricks",
+  "topic": "Stones",
   "question": "Sandstone is a 1. Sedimentary rock 2. Aqueous rock 3. Silicious rock The correct answer is",
   "options": [
    "only 1",
@@ -984,7 +984,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 6,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -993,7 +993,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bricks",
+  "topic": "Stones",
   "question": "In general, which of the following has the highest porosity?",
   "options": [
    "Limestone",
@@ -1010,7 +1010,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 6,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -1045,7 +1045,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bricks",
+  "topic": "Stones",
   "question": "Which kind of stone is marble?",
   "options": [
    "Igneous rock",
@@ -1062,7 +1062,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 6,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -3255,7 +3255,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Cement",
+  "topic": "Concrete",
   "question": "Which of the following is not a non-destructive test?",
   "options": [
    "Rebound Hammer Test",
@@ -3272,7 +3272,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 1,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -3333,7 +3333,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Cement",
+  "topic": "Cement Mortar",
   "question": "Gauged cement mortar consists of-",
   "options": [
    "cement and sand",
@@ -3350,7 +3350,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 1,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -5023,7 +5023,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Cement",
+  "topic": "Concrete",
   "question": "Indian Standard code IS : 10262-1982 presents guidelines for mix design of :",
   "options": [
    "Air entrained medium and high strength concrete",
@@ -5040,7 +5040,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 1,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -6635,7 +6635,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Aggregates",
   "question": "Bulking of sand is defined as :",
   "options": [
    "The mass of the sand in a given volume",
@@ -6652,7 +6652,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -6661,7 +6661,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Aggregates",
   "question": "If the fineness modulus of fine aggregate is 2.51, it can be graded as :",
   "options": [
    "Find sand",
@@ -6678,7 +6678,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -6843,7 +6843,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Aggregates",
   "question": "The fineness modulus of the fine aggregates should be between",
   "options": [
    "2 to 3",
@@ -6860,7 +6860,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -6921,7 +6921,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Aggregates",
   "question": "Bulking of sand is",
   "options": [
    "Compaction of sand",
@@ -6938,7 +6938,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -7051,7 +7051,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Cement Mortar",
   "question": "One of the main demerits in using the lime mortar is that it:",
   "options": [
    "Is not durable",
@@ -7068,7 +7068,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -7077,7 +7077,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Aggregates",
   "question": "In 500 gm sample of coarse aggregate, there are 100 gm flaky particles and 80 gm elongated particles. What are the flakiness and elongation indices (total) as per IS?",
   "options": [
    "40%",
@@ -7094,7 +7094,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -7337,7 +7337,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Aggregates",
   "question": "Fineness modulus is-",
   "options": [
    "the ratio of fine aggregates to coarse aggregate",
@@ -7354,7 +7354,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -7623,7 +7623,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Stones",
   "question": "Which of the following aggregate should not be used in the manufacture of concrete as it exhibits alkali-aggregate reaction ?",
   "options": [
    "Basalt",
@@ -7640,7 +7640,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -7779,7 +7779,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Aggregates",
   "question": "A curve showing percentage passing of aggregate v/s sieve size on abscissa of aggregate of horizontal portion for certain range indicates: 71",
   "options": [
    "Continuous grading",
@@ -7796,7 +7796,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -8663,7 +8663,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Aggregates",
   "question": "As the fineness modulus of aggregate increases its particle size :",
   "options": [
    "decreases",
@@ -8680,7 +8680,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -9001,7 +9001,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Aggregates",
   "question": "The fineness modulus of fine aggregate is 2.78 and of coarse aggregate is 7.82 and the desired fineness modulus of mixed aggregate is 6.14. What is the amount of fine aggregate to be 586. mixed with one part of coarse aggregate?",
   "options": [
    "55%",
@@ -9018,7 +9018,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -9131,7 +9131,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Cement",
   "question": "The phenomenon by virtue of which the cement does not undergo large change in volume when mixed with water, in known as",
   "options": [
    "Fineness",
@@ -9148,7 +9148,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -9287,7 +9287,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Aggregates",
   "question": "If 1000 gms of sand is sieved through 4.75 mm, 2.36 mm, 1.18 mm, 600 micron, 300 micron and 150 micron standard sieves and the weights retained are 0 gms. 100 gms, 150 gms, 200 gms, 350 gms and 200 gms respectively, then the fineness modulus of the sand is",
   "options": [
    "2.00",
@@ -9304,7 +9304,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -9599,7 +9599,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Aggregates",
   "question": "The coarse sand has fineness modulus in the range of",
   "options": [
    "2.2-2.4",
@@ -9616,7 +9616,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -10223,7 +10223,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Aggregates",
   "question": "Aggregate impact value indicates ........... of Aggregates:",
   "options": [
    "durability",
@@ -10240,7 +10240,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -10639,7 +10639,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Miscellaneous (Building Materials)",
   "question": "Aerated concrete is produced by addition of",
   "options": [
    "copper sulphate",
@@ -10656,7 +10656,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -10899,7 +10899,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Stones",
   "question": "The machine used to determine hardness of stone is called",
   "options": [
    "Dorry's testing machine",
@@ -10916,7 +10916,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -11029,7 +11029,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Aggregates",
   "question": "A moist sand occupies a depth of 15 cm and when fully saturated it occupies 12 cm. Then the bulking of sand is:",
   "options": [
    "12%",
@@ -11046,7 +11046,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -11055,7 +11055,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Cement",
   "question": "Which of the following is NOT be used in concrete either as a binding material or as a supplementary cementitious material? 94",
   "options": [
    "Fly ash",
@@ -11072,7 +11072,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -11289,7 +11289,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Aggregates",
   "question": "The bulking of sand is due to",
   "options": [
    "The increase in space between the particles caused the surface tension effect or moisture",
@@ -11306,7 +11306,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -12615,7 +12615,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Paints",
+  "topic": "Timber",
   "question": "Which of the following is not an objective of seasoning of timber",
   "options": [
    "reduction of shrinkage and warpings",
@@ -12632,7 +12632,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 9,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -12641,7 +12641,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Paints",
+  "topic": "Timber",
   "question": "Shear strength of timber depends on which one of the following?",
   "options": [
    "Lignin with fibers",
@@ -12658,7 +12658,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 9,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -12667,7 +12667,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Paints",
+  "topic": "Timber",
   "question": "Which one of the following is not a preservation of timber?",
   "options": [
    "Solignum salt",
@@ -12684,7 +12684,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 9,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -12693,7 +12693,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Paints",
+  "topic": "Timber",
   "question": "As specified in IS : 3087, the average modulus of rupture of 'flat pressed three layer' of Grade - I pre-laminated particle board is",
   "options": [
    "15 N/mm2",
@@ -12710,7 +12710,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 9,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -12797,7 +12797,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Paints",
+  "topic": "Timber",
   "question": "The process designed to suit the moisture content of timbers to the conditions and purposes for which it is to be used is called as _____.",
   "options": [
    "Laminating",
@@ -12814,7 +12814,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Materials",
   "subjectId": "civil-bm",
-  "unit": 9,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -14357,7 +14357,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Origin of Soils",
+  "topic": "Soil Structures and Clay Mineralogy",
   "question": "The clay mineral primarily governing the swelling behavior of black cotton soil is",
   "options": [
    "halloysite",
@@ -14374,7 +14374,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 1,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -14383,7 +14383,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Origin of Soils",
+  "topic": "Soil Structures and Clay Mineralogy",
   "question": "The black cotton soils which exhibit high shrinkage and expansive qualities due to the presence of clay minerals of group :",
   "options": [
    "Halloysite",
@@ -14400,7 +14400,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 1,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -14461,7 +14461,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Origin of Soils",
+  "topic": "Index Properties of Soils",
   "question": "The soils most susceptible to liquefaction are-",
   "options": [
    "Saturated dense sands",
@@ -14478,7 +14478,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 1,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -14747,7 +14747,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Origin of Soils",
+  "topic": "Foundations in Expansive Soils",
   "question": "Which of the statement are correct for Black Cotton Soils?",
   "options": [
    "High swelling and low shrinkage",
@@ -14764,7 +14764,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 1,
+  "unit": 20,
   "classified": "book+kw"
  },
  {
@@ -14929,7 +14929,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Origin of Soils",
+  "topic": "Index Properties of Soils",
   "question": "Consider the following statements: 1. Illite is the mineral largely responsible for the swelling and shrinkage behaviour of clayey soils. 2. A differential free swell value of 55% indicates a soil with low degree of expansiveness. 3. Higher the plasticity index of a soil greater its swelling potential. 4. A low shrinkage limit of a soil indicates possibility of swelling at low water content. Which of the above statements are correct?",
   "options": [
    "1 and 2 only",
@@ -14946,7 +14946,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 1,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -15553,7 +15553,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Definitions and Properties of Soils",
+  "topic": "Soil Classification",
   "question": "Which one of the following statement is correct?",
   "options": [
    "Grain size is the primary criterion for classification of coarse, As well as fine grained soil",
@@ -15570,7 +15570,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 2,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -17763,7 +17763,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Index Properties of Soils",
+  "topic": "Definitions and Properties of Soils",
   "question": "A soil has a bulk density of 22 kN/m3 and moisture content of 10%. The dry density of soil is",
   "options": [
    "18.6 kN/m3",
@@ -17780,7 +17780,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 4,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -17815,7 +17815,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Index Properties of Soils",
+  "topic": "Definitions and Properties of Soils",
   "question": "A soil has a bulk density of 20 kN/m3 and water content of 25%. The dry density of the soil would be–",
   "options": [
    "26.7 kN/m3",
@@ -17832,7 +17832,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 4,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -17971,7 +17971,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Index Properties of Soils",
+  "topic": "Soil Classification",
   "question": "A soil having particles of approximately the same size is known as",
   "options": [
    "Well graded",
@@ -17988,7 +17988,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 4,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -19427,7 +19427,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Index Properties of Soils",
+  "topic": "Soil Classification",
   "question": "Consider the following statements: 1. All soils can be identified in the field by visual examination 2. Fine-grained soils can be identified in the field by visual examination and touch 3. Fine-grained soils can be identified in the field by dilatancy test 4. By visual examination, only coarse-grained soils can be identified Which of the above statements are correct?",
   "options": [
    "1 and 2 only",
@@ -19444,7 +19444,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 4,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -20675,7 +20675,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Index Properties of Soils",
+  "topic": "Soil Classification",
   "question": "Which of the following soil samples will have grains of almost same particle size?",
   "options": [
    "well graded",
@@ -20692,7 +20692,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 4,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -20883,7 +20883,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Soil Classification",
+  "topic": "Soil Structures and Clay Mineralogy",
   "question": "Which one of the clay mineral has expansive properties ?",
   "options": [
    "Halloysite",
@@ -20900,7 +20900,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 5,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -21715,7 +21715,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Soil Classification",
+  "topic": "Soil Structures and Clay Mineralogy",
   "question": "Which of the following clay mineral gives maximum swelling? ISRO Scientist/Engineer 2017, 2015 OR Swelling nature of black cotton soil is primarily due to the presence of",
   "options": [
    "kaolinite",
@@ -21732,7 +21732,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 5,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -21923,7 +21923,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Soil Classification",
+  "topic": "Soil Structures and Clay Mineralogy",
   "question": "Consider the following minerals: 1. Montmorillonite 2. Kaolinite 3. Illite What is the correct sequence of the above minerals in increasing order of permeability",
   "options": [
    "1-2-3",
@@ -21940,7 +21940,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 5,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -22157,7 +22157,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Soil Classification",
+  "topic": "Soil Structures and Clay Mineralogy",
   "question": "The correct sequence of plasticity of minerals in soil in an increasing order is",
   "options": [
    "kaolinite, silica, illite, montmorillonite",
@@ -22174,7 +22174,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 5,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -22365,7 +22365,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Soil Classification",
+  "topic": "Soil Structures and Clay Mineralogy",
   "question": "A structure which is formed by the disintegration of flocculent structure under super imposed load is called-",
   "options": [
    "a single grained structure",
@@ -22382,7 +22382,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 5,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -22417,7 +22417,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Soil Classification",
+  "topic": "Soil Structures and Clay Mineralogy",
   "question": "Which of the following is not a clay mineral?",
   "options": [
    "Alite",
@@ -22434,7 +22434,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 5,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -22573,7 +22573,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Permeability",
+  "topic": "Soil Classification",
   "question": "As per IS classification, a fine grained soil is highly compressible if its liquid limit is greater than",
   "options": [
    "20%",
@@ -22590,7 +22590,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 6,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -22625,7 +22625,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Permeability",
+  "topic": "Index Properties of Soils",
   "question": "When lime is added to a soil, it",
   "options": [
    "Increases grain size due to electrolyte and chemical action",
@@ -22642,7 +22642,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 6,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -22651,7 +22651,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Permeability",
+  "topic": "Index Properties of Soils",
   "question": "Identify the maximum uniformly graded soil from the uniformity coefficients of the soils given below:",
   "options": [
    "10",
@@ -22668,7 +22668,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 6,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -22703,7 +22703,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Permeability",
+  "topic": "Index Properties of Soils",
   "question": "In a sieve analysis, 70% of the soil mass is retained on ISS 2.00 mm and 60% is finer than ISS 4.00 mm. Determine effective size of the soil mass if its coefficient of curvature Cc = 2.00.",
   "options": [
    "0.50 mm",
@@ -22720,7 +22720,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 6,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -22729,7 +22729,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Permeability",
+  "topic": "Soil Structures and Clay Mineralogy",
   "question": "The correct sequence of plasticity of minerals in soil in an increasing order is :",
   "options": [
    "Silica, Kaolinite, Illite, Montmorillonite",
@@ -22746,7 +22746,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 6,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -22911,7 +22911,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Permeability",
+  "topic": "Index Properties of Soils",
   "question": "Which of the following statement is incorrect in K1 = respect to capillarity in soils",
   "options": [
    "Gravitational water may be removed from soils by drainage",
@@ -22928,7 +22928,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 6,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -23743,7 +23743,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Permeability",
+  "topic": "Index Properties of Soils",
   "question": "The soils most susceptible to liquefaction are: KPSC AE",
   "options": [
    "Saturated dense sand",
@@ -23760,7 +23760,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 6,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -23821,7 +23821,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Permeability",
+  "topic": "Seepage Pressure and Critical Hydraulic Gradient",
   "question": "The drag that permeating water exerts in the upward direction, which in-turn tends to oppose the force of gravity and when water flows upward under the critical hydraulic gradient, it completely neutralizes the force on account of weight of particles, and thus leaves the particles suspended in water. Soil in such a state does not behave like soil but like a very viscous liquid popularly known as :",
   "options": [
    "Quick sand",
@@ -23838,7 +23838,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 6,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -24029,7 +24029,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Permeability",
+  "topic": "Seepage Analysis",
   "question": "A flow net is drawn for a weir. The total head loss is 6 m number of potential drops is 10 and the length of flow path of the last square is 1 m. The exit gradient is",
   "options": [
    "0.6",
@@ -24046,7 +24046,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 6,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -24367,7 +24367,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Permeability",
+  "topic": "Definitions and Properties of Soils",
   "question": "Following is the hydraulic property of the porous medium-",
   "options": [
    "Permeability",
@@ -24384,7 +24384,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 6,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -24393,7 +24393,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Permeability",
+  "topic": "Definitions and Properties of Soils",
   "question": "Increase in permeability of a soil results due to can change from",
   "options": [
    "Large to small size particular for the same void ratio.",
@@ -24410,7 +24410,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 6,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -24601,7 +24601,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Permeability",
+  "topic": "Foundations in Expansive Soils",
   "question": "Assertion (A): Black cotton soils are clay and exhibit characteristic property of swelling. Reason (R): These clays contain Montmorillonite which attracts external water into its lattice structure.",
   "options": [
    "Both A and R are true but R is not the correct explanation of A",
@@ -24618,7 +24618,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 6,
+  "unit": 20,
   "classified": "book+kw"
  },
  {
@@ -24757,7 +24757,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Permeability",
+  "topic": "Consolidation",
   "question": "Two specimens of clay A and B are tested in a consolidation apparatus. If (mv)A = 3.6 × 10-4 m2/kN (mv)B = 1.8 × 10-4 m2/kN (cv)A = 3.8 × 10-4 cm2/sec (cv)B = 1.9 × 10-4 cm2/sec then the ratio kA/kB is equal to",
   "options": [
    "0.0625",
@@ -24774,7 +24774,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 6,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -25017,7 +25017,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Definitions and Properties of Soils",
   "question": "What is meant by optimum water content?",
   "options": [
    "water content corresponding to maximum dry density",
@@ -25034,7 +25034,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -25043,7 +25043,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Permeability",
   "question": "The relationship between discharge velocity V each and seepage velocity Vs is",
   "options": [
    "Vs = V/n",
@@ -25060,7 +25060,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -25147,7 +25147,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Seepage Analysis",
   "question": "During seepage through an earth mass, the direction of seepage is",
   "options": [
    "parallel to equipotential lines",
@@ -25164,7 +25164,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -25173,7 +25173,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Permeability",
   "question": "Seepage velocity of water in soil is equal to the",
   "options": [
    "discharge velocity divided by porosity",
@@ -25190,7 +25190,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -25225,7 +25225,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Compaction",
   "question": "Exit gradient N Total discharge q = k.h × f Nd Nf = shape factor. Nd Proctor test is performed on the soil for–",
   "options": [
    "grain size analysis",
@@ -25242,7 +25242,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -25277,7 +25277,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Compaction",
   "question": "The free fall of hammer for compaction of soil in standard proctor test is",
   "options": [
    "10.5 cm",
@@ -25294,7 +25294,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -25303,7 +25303,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Consolidation",
   "question": "The process by which the soil particles artificially rearranged into a closer state of contact by mechanical means in order to decrease the porosity, is known as–",
   "options": [
    "Consolidation",
@@ -25320,7 +25320,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -25329,7 +25329,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Compaction",
   "question": "For road construction, in general, sheep foot rollers are most suitable for which of the following soils?",
   "options": [
    "Silt",
@@ -25346,7 +25346,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -25355,7 +25355,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Compaction",
   "question": "The basic action involved in sheep foot rolling is –",
   "options": [
    "Kneading",
@@ -25372,7 +25372,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -25381,7 +25381,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Compaction",
   "question": "In laboratory compaction tests, the optimum moisture content of soil decreases-",
   "options": [
    "With increase of compaction energy and with decrease of coarse grains in the soil",
@@ -25398,7 +25398,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -25407,7 +25407,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Index Properties of Soils",
   "question": "Match List-I (Test) with List-II (property) and select the correct answer using the codes given below the lists : List - I (Test) List- II (property) A. Proctor Test 1. Grain Size Analysis decrease B. Vane Test 2. Shear Strength C. Penetration Test 3.Bearing Capacity D. Hydrometer Test 4.Compaction Code: A B C D",
   "options": [
    "2 4 1 3",
@@ -25424,7 +25424,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -25459,7 +25459,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Compaction",
   "question": "Sheep foot rollers are used for :",
   "options": [
    "Compacting soil in confined areas and at corners",
@@ -25476,7 +25476,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -25485,7 +25485,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Compaction",
   "question": "The following soils are compacted at the same compactive effort in the field. Which one of the following is the correct sequence in the increasing order of their maximum dry density?",
   "options": [
    "Clay < Silty clay < Sand < Gravel sand clay mixture",
@@ -25502,7 +25502,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -25511,7 +25511,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Compaction",
   "question": "Sheep-foot rollers are recommended for compacting :",
   "options": [
    "hard rock",
@@ -25528,7 +25528,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -25563,7 +25563,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Compaction",
   "question": "Sheep foot Rollers are suitable for compacting",
   "options": [
    "all fine – grained material",
@@ -25580,7 +25580,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -25641,7 +25641,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Stress Distribution",
   "question": "An elastic medium carries at its surface a ● If seepage uniform load of 10 t/m2 (≈ 100 Kpa) covering a rectangular area of 4m × 3m. Find the vertical pressure at a depth of 5m below the center and corner of the loaded area. Assume influence factor of equal Quadrant is 0.0474 and influence factor for the point located at the ● It is corner of loaded area is 0.1247",
   "options": [
    "1.896 t/m2 ; 1.247 t/m2 2 2",
@@ -25658,7 +25658,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -25667,7 +25667,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Compaction",
   "question": "Compaction by vibratory roller is the best method of compaction in case of",
   "options": [
    "moist silty sand",
@@ -25684,7 +25684,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -25719,7 +25719,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Soil Classification",
   "question": "A coarse-grained soil has a voids ratio 0.75 and specific gravity as 2.75. The critical gradient at which quick sand condition occurs, is-",
   "options": [
    "0.25",
@@ -25736,7 +25736,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -25745,7 +25745,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Seepage Pressure and Critical Hydraulic Gradient",
   "question": "The critical gradient of a soil having specific gravity as 2.67 and voids ratio as 0.67 is RPSC A.En. 2014 OR A soil sample has a specific gravity of 2.67 and void ratio of 0.67. The critical hydraulic gradient for the soil is :",
   "options": [
    "2.0",
@@ -25762,7 +25762,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -25823,7 +25823,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Seepage Analysis",
   "question": "A homogeneous earthen dam is 24 m high and has a free board of 4 m. the flow net drawn for the dam indicated the number of potential drops as 12 and the number of flow channels as 3. The coefficient of permeability of the dam is 3 × 10-6 m/s. The discharge per in length of the dam will be",
   "options": [
    "1.8 × 10-5 cumec/s/m",
@@ -25840,7 +25840,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -25901,7 +25901,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Seepage Analysis",
   "question": "The piping failure of a hydraulic structure can be prevented by :",
   "options": [
    "increasing pressure due to body forces",
@@ -25918,7 +25918,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -25953,7 +25953,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Definitions and Properties of Soils",
   "question": "The maximum dry density upon which any soil can be compacted depends upon :",
   "options": [
    "moisture content only",
@@ -25970,7 +25970,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -26031,7 +26031,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Seepage Pressure and Critical Hydraulic Gradient",
   "question": "The value of hydraulic gradient corresponding to zero resultant body force is called the",
   "options": [
    "Critical hydraulic gradient",
@@ -26048,7 +26048,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -26057,7 +26057,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Compaction",
   "question": "Consider the following statements: 1. Sheepsfoot roller suitable for compacting clays 2. Sheepsfoot roller is self-propelling 3. Vibrating rollers are suitable for densifying sands 4. Sheepsfoot roller works on the rolling principle Which of the above statements are correct?",
   "options": [
    "2 and 3",
@@ -26074,7 +26074,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -26083,7 +26083,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Earth Pressure",
   "question": "The pressure which is exerted by water on the soil through which it percolates, is called:",
   "options": [
    "Seepage pressure",
@@ -26100,7 +26100,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 14,
   "classified": "book+kw"
  },
  {
@@ -26109,7 +26109,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Permeability",
   "question": "A soil has a discharge velocity of 6 × 10-7 m/s and a void ratio of 0.5. Its seepage velocity is-",
   "options": [
    "18 × 10-7 m/s",
@@ -26126,7 +26126,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -26239,7 +26239,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Compaction",
   "question": "The degree of compaction obtained in the field ∴ Critical is measured by",
   "options": [
    "relative compaction",
@@ -26256,7 +26256,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -26317,7 +26317,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Seepage Analysis",
   "question": "During seepage though and earth mass, the direction of seepage is",
   "options": [
    "parallel to the equipotential lines",
@@ -26334,7 +26334,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -26343,7 +26343,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Definitions and Properties of Soils",
   "question": "For piping phenonmenon to occur in soils, the most important condition to be satisfied is that the",
   "options": [
    "specific gravity of soil solids is more than",
@@ -26360,7 +26360,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -26551,7 +26551,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Permeability",
   "question": "The discharge velocity through a soil sample was found out to be 2.4 × 10–4 m/s and the porosity was 40%. The seepage velocity through the sample will be",
   "options": [
    "0.96 × 10–4 m/s",
@@ -26568,7 +26568,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -26629,7 +26629,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Soil Structures and Clay Mineralogy",
   "question": "Following statements are made on compacted soils, where in DS stands for the soils compacted on dry side of optimum moisture content and WS stands for the soils compacted on wet side of optimum moisture content. Identify the incorrect statement.",
   "options": [
    "Soil structure is flocculated on DS and dispersed on WS",
@@ -26646,7 +26646,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -26837,7 +26837,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Seepage Pressure and Critical Hydraulic Gradient",
   "question": "A flownet is drawn to obtain",
   "options": [
    "seepage, coefficient of permeability and uplift pressure",
@@ -26854,7 +26854,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -26915,7 +26915,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Compaction",
   "question": "As per IS : 2720 (Part VII)- 1983, the weight of rammer used in the modified proctor test is :",
   "options": [
    "5.0 kg",
@@ -26932,7 +26932,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -27019,7 +27019,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Seepage Analysis",
   "question": "Phreatic line indicates the surface of seepage water within the body of",
   "options": [
    "earth dam",
@@ -27036,7 +27036,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -27097,7 +27097,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Stress Distribution",
   "question": "The increment in vertical stress (σz) directly 1 m below a point load was found to be 477.50 kPa. Determine the magnitude of the point load",
   "options": [
    "100 kN",
@@ -27114,7 +27114,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -27123,7 +27123,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Seepage Analysis",
   "question": "The flow net of an earthen dam consists of 7 flow lines and 12 potential drops. What is the discharge per meter length if k = 0.1 m/s, H = 10m?",
   "options": [
    "0.50 cum/sec",
@@ -27140,7 +27140,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -27201,7 +27201,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Consolidation",
+  "topic": "Stress Distribution",
   "question": "A concentrated load of 500 kN acts on the surface of a soil. The ratio of vertical stresses at depths of 2m and 4m according to Boussinesq's theory will be : [UPPSC State Eng. A.E. 2007(I)]",
   "options": [
    "2",
@@ -27218,7 +27218,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 11,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -27253,7 +27253,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Consolidation",
+  "topic": "Stress Distribution",
   "question": "A concentrated load of 50 kN acts vertically at a point on the soil surface. If Boussinesq’s equation is applied for computation of stress, then the ratio of vertical stresses at depths of 3 m and 5 m respectively vertically below the point of application of load if",
   "options": [
    "0.36",
@@ -27270,7 +27270,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 11,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -27383,7 +27383,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Consolidation",
+  "topic": "Stress Distribution",
   "question": "In the case of stratified soil layers, the best equation that can be adopted for computing the pressure distribution is :",
   "options": [
    "Prandtl's",
@@ -27400,7 +27400,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 11,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -27409,7 +27409,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Consolidation",
+  "topic": "Stress Distribution",
   "question": "Boussinesq's solution for the stresses in soil caused by a point load at the surface is based on some assumptions. One of which is",
   "options": [
    "Soil medium is finite medium",
@@ -27426,7 +27426,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 11,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -27461,7 +27461,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Consolidation",
+  "topic": "Stress Distribution",
   "question": "Who proposed influence chart for vertical pressure distribution in soil?",
   "options": [
    "Newman",
@@ -27478,7 +27478,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 11,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -27513,7 +27513,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Consolidation",
+  "topic": "Stress Distribution",
   "question": "A point load of 700 kN is applied to the surface of a soil. Using Boussinesq's theory, the vertical stress at a depth of 2 m and a radial distance of 1.0 m from the point of application of load is :",
   "options": [
    "45 kPa",
@@ -27530,7 +27530,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 11,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -27565,7 +27565,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Consolidation",
+  "topic": "Stress Distribution",
   "question": "From the following statements, select the most appropriate statement- Westergaard's analysis for stress computation within soil mass assumes.",
   "options": [
    "Point load at the surface and soil being homogeneous and isotropic",
@@ -27582,7 +27582,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 11,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -27721,7 +27721,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Consolidation",
+  "topic": "Stress Distribution",
   "question": "Westergaard’s method helps in determination of stress distribution for layered soils. Select the correct answer using the codes give below:",
   "options": [
    "1, 2 and 3 only",
@@ -27738,7 +27738,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 11,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -27747,7 +27747,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Consolidation",
+  "topic": "Stress Distribution",
   "question": "What is the Boussinesq’s vertical stress at a point 6 m directly below a concentrated load of 2000 kN applied at the ground surface?",
   "options": [
    "53.1 kN/m2",
@@ -27764,7 +27764,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 11,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -28475,7 +28475,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Consolidation",
+  "topic": "Index Properties of Soils",
   "question": "Undisturbed soil samples are required for conducting",
   "options": [
    "Hydrometer test",
@@ -28492,7 +28492,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 11,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -28813,7 +28813,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Consolidation",
+  "topic": "Compaction",
   "question": "The field density and field moisture content of a soil can be determined by : (A) Core cutter method (B) Sand replacement method (C) Proctor compaction test (D) Modified proctor compaction test",
   "options": [
    "(A), (B), (C) and (D)",
@@ -28830,7 +28830,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 11,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -29255,7 +29255,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Consolidation",
+  "topic": "Stress Distribution",
   "question": "The mechanics of consolidation was demonstrated by Terzaghi by means of",
   "options": [
    "Newmark's influence chart",
@@ -29272,7 +29272,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 11,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -29437,7 +29437,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Consolidation",
+  "topic": "Stress Distribution",
   "question": "New marks influence chart is used to determine the vertical stress at any point under a uniformly loaded",
   "options": [
    "circular area only",
@@ -29454,7 +29454,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 11,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -29697,7 +29697,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Consolidation",
+  "topic": "Stress Distribution",
   "question": "A square footing of size 1 m, transmits a π uniform pressure of 400 kPa to the underlying sandy soil. Determine the vertical stress at a depth of 1 metre below the foundation using the 2:1 method.",
   "options": [
    "400 kPa",
@@ -29714,7 +29714,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 11,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -29723,7 +29723,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Consolidation",
+  "topic": "Seepage Analysis",
   "question": "The configuration of flow nets depends upon",
   "options": [
    "The permeability of soil",
@@ -29740,7 +29740,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 11,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -30061,7 +30061,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Consolidation",
+  "topic": "Stress Distribution",
   "question": "In a Network's influence chart for stress distribution, there are 10 concentric circles and 50 radial lines. The influence factor of the chart is:",
   "options": [
    "0.0002",
@@ -30078,7 +30078,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 11,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -30165,7 +30165,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Consolidation",
+  "topic": "Stress Distribution",
   "question": "In Boussinesq's solution to the problem of stress distribution, all the following assumptions are made, except:",
   "options": [
    "Soil is anisotropic",
@@ -30182,7 +30182,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 11,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -30971,7 +30971,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Shear Strength",
+  "topic": "Consolidation",
   "question": "Considerable loss of shear strength due to shock or disturbance is exhibited by :",
   "options": [
    "Under-consolidated clays",
@@ -30988,7 +30988,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 13,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -31153,7 +31153,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Shear Strength",
+  "topic": "Stress Distribution",
   "question": "Statement (I): The stresses and strains in a soil mass depend on the stress-deformation characteristics, anisotropy and non- homogeneity of the soil and also on the boundary conditions. Statement (II): Boussinesq’s theory of stress distribution in soils deals with layered soils only.",
   "options": [
    "Both Statements-I and Statement-II are individually true and Statement-II is the correct explanation of Statement-I.",
@@ -31170,7 +31170,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 13,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -31777,7 +31777,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Earth Pressure",
+  "topic": "Soil Classification",
   "question": "Excavation was being done for a foundation trench in a plastic clay having unit of 2.3 gm/cc. When the depth of excavation reaches 4 meters, it failed. On the assumption that φ =0, the value of cohesion of the clay is :",
   "options": [
    "2.3 kg/cm2",
@@ -31794,7 +31794,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 14,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -31985,7 +31985,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Earth Pressure",
+  "topic": "Seepage Analysis",
   "question": "A phreatic line is defined as the line within a dam section below which there are state",
   "options": [
    "Positive equipotential lines",
@@ -32002,7 +32002,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 14,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -32245,7 +32245,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Earth Pressure",
+  "topic": "Shear Strength",
   "question": "For a saturated clayey soil, skempton's Pore pressure parameter 'B' is :",
   "options": [
    "0.1",
@@ -32262,7 +32262,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 14,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -32895,7 +32895,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Earth Pressure",
+  "topic": "Seepage Analysis",
   "question": "For upstream face of an earth dam, the most adverse condition for stability of slope, is:",
   "options": [
    "sudden draw down.",
@@ -32912,7 +32912,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 14,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -33415,7 +33415,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Earth Pressure",
+  "topic": "Shear Strength",
   "question": "In active state of plastic equilibrium in a non cohesive soil with horizontal ground surface",
   "options": [
    "Major principal stress is horizontal",
@@ -33432,7 +33432,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 14,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -33493,7 +33493,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Earth Pressure",
+  "topic": "Shear Strength",
   "question": "The angle between Coulomb's failure envelope and the horizontal is called :",
   "options": [
    "Angle of friction",
@@ -33510,7 +33510,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 14,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -33935,7 +33935,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bearing Capacity",
+  "topic": "Pile Foundation",
   "question": "A wooden pile is being driven with a drop hammer weighing 20 kN and having a free fall of 1.0m. The penetration in the last blow is 5 mm. The load carrying capacity of the pile as per engineering news Formula is :",
   "options": [
    "33.33 kN",
@@ -33952,7 +33952,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 16,
+  "unit": 17,
   "classified": "book+kw"
  },
  {
@@ -34117,7 +34117,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bearing Capacity",
+  "topic": "Soil Classification",
   "question": "Settlement occurs in short time for the foundation resting on",
   "options": [
    "Coarse grained soil",
@@ -34134,7 +34134,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 16,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -34377,7 +34377,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bearing Capacity",
+  "topic": "Sheet Piles",
   "question": "Due to large leakage and flood damage problems, following type of coffer dam is not preferred–",
   "options": [
    "Braced type",
@@ -34394,7 +34394,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 16,
+  "unit": 19,
   "classified": "book+kw"
  },
  {
@@ -34559,7 +34559,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bearing Capacity",
+  "topic": "Pile Foundation",
   "question": "The diameter of enlarged bore or bulb for under reamed piles used in expansive soils is generally taken as",
   "options": [
    "0.3 – 0.6 times the length of the pile",
@@ -34576,7 +34576,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 16,
+  "unit": 17,
   "classified": "book+kw"
  },
  {
@@ -34689,7 +34689,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bearing Capacity",
+  "topic": "Foundations in Expansive Soils",
   "question": "A black cotton soil is unsuitable for foundation because it",
   "options": [
    "Undergoes volumetric changes with change of atmospheric conditions",
@@ -34706,7 +34706,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 16,
+  "unit": 20,
   "classified": "book+kw"
  },
  {
@@ -35261,7 +35261,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bearing Capacity",
+  "topic": "Pile Foundation",
   "question": "If pile foundation is adopted in an expansive soil deposit, then the most suitable type of pile is",
   "options": [
    "Straight shaft driver pile",
@@ -35278,7 +35278,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 16,
+  "unit": 17,
   "classified": "book+kw"
  },
  {
@@ -35313,7 +35313,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bearing Capacity",
+  "topic": "Pile Foundation",
   "question": "Negative skin friction on piles may occur when: 1414.",
   "options": [
    "The soil is untrained",
@@ -35330,7 +35330,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 16,
+  "unit": 17,
   "classified": "book+kw"
  },
  {
@@ -35547,7 +35547,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bearing Capacity",
+  "topic": "Sheet Piles",
   "question": "A cantilever sheet pile derives its stability from–",
   "options": [
    "Self–weight of sheet pile",
@@ -35564,7 +35564,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 16,
+  "unit": 19,
   "classified": "book+kw"
  },
  {
@@ -35625,7 +35625,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bearing Capacity",
+  "topic": "Pile Foundation",
   "question": "The load carrying capacity of a friction pile in a clayey strata is 180 kN. If a group of 7 piles are designed with an efficiency factor of 0.75, then the total load carrying capacity (kN) of the group will be:",
   "options": [
    "1260",
@@ -35642,7 +35642,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 16,
+  "unit": 17,
   "classified": "book+kw"
  },
  {
@@ -35677,7 +35677,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bearing Capacity",
+  "topic": "Pile Foundation",
   "question": "A pile which obtains most of its load carrying capacity at the base of pile is known as",
   "options": [
    "Friction piles",
@@ -35694,7 +35694,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 16,
+  "unit": 17,
   "classified": "book+kw"
  },
  {
@@ -35755,7 +35755,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bearing Capacity",
+  "topic": "Pile Foundation",
   "question": "What does not fit into the classification of pile based on function?",
   "options": [
    "Bearing pile",
@@ -35772,7 +35772,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 16,
+  "unit": 17,
   "classified": "book+kw"
  },
  {
@@ -36457,7 +36457,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bearing Capacity",
+  "topic": "Pile Foundation",
   "question": "What will be the load carrying capacity (kN) of a group of 6 piles, if the individual load carrying capacity is 150 kN and group efficiency is 75%.",
   "options": [
    "542",
@@ -36474,7 +36474,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 16,
+  "unit": 17,
   "classified": "book+kw"
  },
  {
@@ -36483,7 +36483,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bearing Capacity",
+  "topic": "Pile Foundation",
   "question": "While designing a pile, negative skin friction is considered when the pile is constructed in :",
   "options": [
    "Dense fine sand",
@@ -36500,7 +36500,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 16,
+  "unit": 17,
   "classified": "book+kw"
  },
  {
@@ -36561,7 +36561,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bearing Capacity",
+  "topic": "Pile Foundation",
   "question": "Which of the following is NOT an advantage of driven concrete precast piles?",
   "options": [
    "Quality of concrete is never ensured",
@@ -36578,7 +36578,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 16,
+  "unit": 17,
   "classified": "book+kw"
  },
  {
@@ -36639,7 +36639,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bearing Capacity",
+  "topic": "Pile Foundation",
   "question": "The load carrying capacity of an individual friction pile is 100 kN. What is the total load carrying capacity of a group of 9 such piles with a group efficiency factor of 0.8?",
   "options": [
    "1125 kN",
@@ -36656,7 +36656,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 16,
+  "unit": 17,
   "classified": "book+kw"
  },
  {
@@ -36665,7 +36665,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Bearing Capacity",
+  "topic": "Pile Foundation",
   "question": "Which of the following piles should be used when weak foundation soil is to be compacted?",
   "options": [
    "Sand Piles",
@@ -36682,7 +36682,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Geo-technical Engineering and Foundation Engineering (Soil Mechanics)",
   "subjectId": "civil-geo",
-  "unit": 16,
+  "unit": 17,
   "classified": "book+kw"
  },
  {
@@ -42677,7 +42677,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Simple Stresses and Strains (Elastic Constants and their relationship; Linear and volumetric changes of bodies; Thermal Stresses)",
+  "topic": "Complex Stresses and Strains",
   "question": "In a strained body, three principal stresses at a point are denoted by σ1, σ2, σ3 such that σ1 > σ2 > σ3. If σ0 denoted yield stress, then according to the maximum shear stress theory",
   "options": [
    "σ1 – σ2 = σ0",
@@ -42694,7 +42694,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 1,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -43639,7 +43639,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Simple Stresses and Strains (Elastic Constants and their relationship; Linear and volumetric changes of bodies; Thermal Stresses)",
+  "topic": "Torsion",
   "question": "In case of a torsional problem the assumption- \"Plane sections perpendicular to longitudinal axis before deformation remain plane and perpendicular to the longitudinal axis after deformation\" holds true for a shaft having",
   "options": [
    "circular cross-section",
@@ -43656,7 +43656,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 1,
+  "unit": 7,
   "classified": "book+kw"
  },
  {
@@ -44731,7 +44731,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Shear Force and Bending Moment",
+  "topic": "Propped Beams and Fixed Beams",
   "question": "A fixed beam AB of span L is subjected to a clockwise moment M at a distance 'a' from end A. Fixed end moment at end A will be: M M",
   "options": [
    "2 ( L − a)( L − 3a)",
@@ -44748,7 +44748,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 3,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -44809,7 +44809,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Shear Force and Bending Moment",
+  "topic": "Propped Beams and Fixed Beams",
   "question": "The theorem of three moments for the solution of continuous beams is formulated by",
   "options": [
    "Young",
@@ -44826,7 +44826,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 3,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -46265,7 +46265,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Shear Force and Bending Moment",
+  "topic": "Propped Beams and Fixed Beams",
   "question": "A fixed beam 'AB' 6 m long carries a vertical load 90kN at 2 m from 'A'. The fixed end moments at 'A' and 'B' are",
   "options": [
    "40 kN-m, 80 kN-m",
@@ -46282,7 +46282,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 3,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -46967,7 +46967,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theory of Simple Bending",
+  "topic": "Centre of Gravity and Moment of Inertia",
   "question": "The moment of inertia of a rectangle of width b and depth d, about an axis XX passing through its centre of gravity and parallel to the ends, is given as",
   "options": [
    "Ixx = db3/24",
@@ -46984,7 +46984,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 5,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -47097,7 +47097,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theory of Simple Bending",
+  "topic": "Centre of Gravity and Moment of Inertia",
   "question": "The moment of inertia of a rectangular section 3 cm wide and 4 cm deep about an axis passing through its centre of gravity and parallel to width is",
   "options": [
    "9 cm4",
@@ -47114,7 +47114,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 5,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -47123,7 +47123,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theory of Simple Bending",
+  "topic": "Simple Stresses and Strains (Elastic Constants and their relationship; Linear and volumetric changes of bodies; Thermal Stresses)",
   "question": "Modulus of rigidity is the ratio of",
   "options": [
    "Linear stress to lateral strain",
@@ -47140,7 +47140,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 5,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -47539,7 +47539,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theory of Simple Bending",
+  "topic": "Propped Beams and Fixed Beams",
   "question": "A fixed beam of uniform section is carrying a point load at its mid span. If the moment of inertia of the middle half length is reduced to half of its previous value, then the fixed end moments will-",
   "options": [
    "Decrease",
@@ -47556,7 +47556,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 5,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -47565,7 +47565,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theory of Simple Bending",
+  "topic": "Shear Force and Bending Moment",
   "question": "The shear force and bending moment is zero at the free end of a cantilever beam, if it carries-",
   "options": [
    "Point load at the free end",
@@ -47582,7 +47582,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 5,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -47669,7 +47669,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theory of Simple Bending",
+  "topic": "Shear Stress Distribution in Beams",
   "question": "The ratio of average shear stress to maximum shear stress in a prismatic beam of rectangular cross section is :",
   "options": [
    "3/4",
@@ -47686,7 +47686,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 5,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -47721,7 +47721,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theory of Simple Bending",
+  "topic": "Shear Stress Distribution in Beams",
   "question": "The ratio of maximum shear stress to the average shear stress in case of a rectangular beam is equal to APPSC AEE (Civil/Mechanical) 2012 OR In the case of a rectangular beam subjected to a transverse shearing force, the ratio of maximum ar] shear stress to average shear stress is",
   "options": [
    "0.75",
@@ -47738,7 +47738,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 5,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -48189,7 +48189,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theory of Simple Bending",
+  "topic": "Centre of Gravity and Moment of Inertia",
   "question": "Moment of inertia of a triangular section of base b and height h about an axis passing through the vertex and parallel to the base is ............. times that passing through its Centroid and parallel to its base",
   "options": [
    "Nine",
@@ -48206,7 +48206,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 5,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -48215,7 +48215,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theory of Simple Bending",
+  "topic": "Torsion",
   "question": "The maximum shear stress in a solid shaft of circular cross section having diameter d subjected to T is τ. If the torque is increased by four times and the diameter of the shaft is increased by two times, the maximum shear stress in shaft will be-",
   "options": [
    "2τ",
@@ -48232,7 +48232,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 5,
+  "unit": 7,
   "classified": "book+kw"
  },
  {
@@ -48761,7 +48761,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theory of Simple Bending",
+  "topic": "Slopes and Deflection",
   "question": "Product EI is called",
   "options": [
    "Flexural rigidity",
@@ -48778,7 +48778,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 5,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -48787,7 +48787,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theory of Simple Bending",
+  "topic": "Shear Force and Bending Moment",
   "question": "At point of contraflexure in a beam:",
   "options": [
    "Bending moment is minimum",
@@ -48804,7 +48804,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 5,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -49307,7 +49307,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theory of Simple Bending",
+  "topic": "Centre of Gravity and Moment of Inertia",
   "question": "The moment of inertia of an area is always least with respect to :",
   "options": [
    "Vertical axis",
@@ -49324,7 +49324,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 5,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -49385,7 +49385,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theory of Simple Bending",
+  "topic": "Shear Force and Bending Moment",
   "question": "A vertical wall of a circular bunker is subjected to horizontal pressure due to coal stored therein. The wall of the bunker is designed for",
   "options": [
    "Axial tension",
@@ -49402,7 +49402,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 5,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -49879,7 +49879,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theory of Simple Bending",
+  "topic": "Slopes and Deflection",
   "question": "The relationship between bending moment M, flexural rigidity EI and radius of curvature R is given by -",
   "options": [
    "EI = MR",
@@ -49896,7 +49896,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 5,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -50295,7 +50295,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Slopes and Deflection",
+  "topic": "Propped Beams and Fixed Beams",
   "question": "While using three moments equation in the beam analysis, a fixed end of a continuous is replaced by an addition span of",
   "options": [
    "zero length",
@@ -50312,7 +50312,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 9,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -50529,7 +50529,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Slopes and Deflection",
+  "topic": "Propped Beams and Fixed Beams",
   "question": "A propped cantilever beam of length L is subjected to a moment M at the propped end. The support moment at the fixed end will be:",
   "options": [
    "M",
@@ -50546,7 +50546,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 9,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -52375,7 +52375,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Complex Stresses and Strains",
+  "topic": "Theories of Failures",
   "question": "Which of the following theory gives best result for ductile materials?",
   "options": [
    "Rankine's theory",
@@ -52392,7 +52392,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 2,
+  "unit": 15,
   "classified": "book+kw"
  },
  {
@@ -53467,7 +53467,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Complex Stresses and Strains",
+  "topic": "Shear Force and Bending Moment",
   "question": "At an internal hinge ______.",
   "options": [
    "slope is always discontinuous",
@@ -53484,7 +53484,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 2,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -53831,7 +53831,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Complex Stresses and Strains",
+  "topic": "Simple Stresses and Strains (Elastic Constants and their relationship; Linear and volumetric changes of bodies; Thermal Stresses)",
   "question": "The ratio of ultimate stress to the permissible stress is called ...............",
   "options": [
    "Factor of safety",
@@ -53848,7 +53848,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 2,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -57003,7 +57003,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Thin Cylinders",
+  "topic": "Springs",
   "question": "The proof load of a leaf spring is:",
   "options": [
    "deflection per unit load",
@@ -57020,7 +57020,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 10,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -57185,7 +57185,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Thin Cylinders",
+  "topic": "Simple Stresses and Strains (Elastic Constants and their relationship; Linear and volumetric changes of bodies; Thermal Stresses)",
   "question": "For a Poisson's ratio of 0.3, the ratio of volumetric strain to hoop strain in this spherical cell is",
   "options": [
    "3",
@@ -57202,7 +57202,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 10,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -57211,7 +57211,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Thin Cylinders",
+  "topic": "Springs",
   "question": "A closely - coiled helical spring of round steel wire 5 mm in diameter having 12 complete coils of 50 mm mean diameter is subjected to an axial load of 100 N. If modulus of rigidity is 80 GPa, the deflection of the spring will be :",
   "options": [
    "36 mm",
@@ -57228,7 +57228,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 10,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -57367,7 +57367,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Thin Cylinders",
+  "topic": "Slopes and Deflection",
   "question": "A simply supported beam AB of L span and EI flexural rigidity is subjected to MB moment at B. Then the rotation at A is given by ML ML",
   "options": [
    "Θ A =",
@@ -57384,7 +57384,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Strength of Materials (Solid Mechanics)",
   "subjectId": "civil-som",
-  "unit": 10,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -57549,7 +57549,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Introduction to Structures and Static Indeterminacy",
+  "topic": "Kinematic Indeterminacy",
   "question": "The kinematic indeterminacy (Degree of Freedom) of the frame given below is:",
   "options": [
    "4",
@@ -57566,7 +57566,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Structural Analysis",
   "subjectId": "civil-sa",
-  "unit": 1,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -58355,7 +58355,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Arches and Suspension Bridges",
+  "topic": "Strain Energy Methods",
   "question": "Which method is suitable for analyzing a beam when the degree of kinematic indeterminacy is less than degree of static indeterminacy?",
   "options": [
    "Strain energy method",
@@ -58372,7 +58372,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Structural Analysis",
   "subjectId": "civil-sa",
-  "unit": 10,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -59109,7 +59109,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Analysis of Trusses (Determinate)",
+  "topic": "Introduction to Structures and Static Indeterminacy",
   "question": "Castigliano's first theorem is applicable",
   "options": [
    "For statically determinate structures only",
@@ -59126,7 +59126,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Structural Analysis",
   "subjectId": "civil-sa",
-  "unit": 3,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -60036,7 +60036,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Moving Loads and Influence Lines",
+  "topic": "Basic Methods of Structural Analysis",
   "question": "For stable structures, one of the important properties of flexibility and stiffness matrix is that the elements on the main diagonal (1) must be positive of stiffness matrix (2) must be negative of stiffness matrix 719 (3) must be positive of flexibility matrix (4) must be negative of flexibility matrix The correct answer is–",
   "options": [
    "1 and 3",
@@ -60053,7 +60053,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Structural Analysis",
   "subjectId": "civil-sa",
-  "unit": 9,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -60790,7 +60790,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Basic Methods of Structural Analysis",
+  "topic": "Moment Distribution Method",
   "question": "In the moment distribution method, the distribution factor for the end span, on the fixed end side is–",
   "options": [
    "0",
@@ -60807,7 +60807,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Structural Analysis",
   "subjectId": "civil-sa",
-  "unit": 4,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -60920,7 +60920,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Basic Methods of Structural Analysis",
+  "topic": "Plastic Theory",
   "question": "At fully plastic section, infinite rotation can occur at :",
   "options": [
    "Zero moment",
@@ -60937,7 +60937,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Structural Analysis",
   "subjectId": "civil-sa",
-  "unit": 4,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -60946,7 +60946,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Basic Methods of Structural Analysis",
+  "topic": "Plastic Theory",
   "question": "Which of the following conditions is to be satisfied both in elastic and plastic analysis ?",
   "options": [
    "Yield condition",
@@ -60963,7 +60963,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Structural Analysis",
   "subjectId": "civil-sa",
-  "unit": 4,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -61154,7 +61154,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Basic Methods of Structural Analysis",
+  "topic": "Kani's Method",
   "question": "When an end of continuous beam is fixed, in Kani's method, the rotation contribution will be",
   "options": [
    "Zero",
@@ -61171,7 +61171,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Structural Analysis",
   "subjectId": "civil-sa",
-  "unit": 4,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -62012,7 +62012,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Basic Methods of Structural Analysis",
+  "topic": "Plastic Theory",
   "question": "In plastic analysis, collapse load for a fixed uniform beam with central point load is : (Note : MP is plastic moment capacity and L is the span of the beam)",
   "options": [
    "2Mp/L",
@@ -62029,7 +62029,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Structural Analysis",
   "subjectId": "civil-sa",
-  "unit": 4,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -62506,7 +62506,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Basic Methods of Structural Analysis",
+  "topic": "Introduction to Structures and Static Indeterminacy",
   "question": "Consider the following two statements: Statement I: In a statically determinate structure, influence line diagrams for internal forces are always composed of straight line segments. Statement II: Muller-Breslau's principle is not applicable for statically indeterminate structures. Which of the following is CORRECT?",
   "options": [
    "Statement I is true, but Statement II is false",
@@ -62523,7 +62523,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Structural Analysis",
   "subjectId": "civil-sa",
-  "unit": 4,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -62558,7 +62558,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Basic Methods of Structural Analysis",
+  "topic": "Moment Distribution Method",
   "question": "In moment distribution method, the distribution factor at any point can be calculated by, using which of following expression; where, k is stiffness of the member, M is moment in member due to loads.",
   "options": [
    "k/Σk",
@@ -62575,7 +62575,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Structural Analysis",
   "subjectId": "civil-sa",
-  "unit": 4,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -63026,7 +63026,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Materials, Workmanship, Inspection and Testing",
+  "topic": "Limit State – Singly Reinforced Sections",
   "question": "If the permissible compressive and tensile stresses in a singly reinforced beam are 20 MPa and 250 MPa respectively, and if the neutral axis depth is limited to 0.3 times the effective depth of the section, then the percentage area of the steel required for an economic section is",
   "options": [
    "0.56%",
@@ -63043,7 +63043,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 1,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -63052,7 +63052,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Materials, Workmanship, Inspection and Testing",
+  "topic": "Limit State of Serviceability",
   "question": "Effective moment of inertia for short term deflection of a reinforced concrete section does not depend on–",
   "options": [
    "the maximum moment under the service load",
@@ -63069,7 +63069,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 1,
+  "unit": 14,
   "classified": "book+kw"
  },
  {
@@ -63234,7 +63234,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Materials, Workmanship, Inspection and Testing",
+  "topic": "Limit State – Singly Reinforced Sections",
   "question": "For an under reinforced beam section, the neutral axis lies _______.",
   "options": [
    "At the same level of critical neutral axis of balanced section.",
@@ -63251,7 +63251,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 1,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -63260,7 +63260,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Materials, Workmanship, Inspection and Testing",
+  "topic": "Limit State of Serviceability",
   "question": "Deformation in concrete due to sustained loading is :",
   "options": [
    "Shrinkage",
@@ -63277,7 +63277,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 1,
+  "unit": 14,
   "classified": "book+kw"
  },
  {
@@ -63962,7 +63962,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Materials, Workmanship, Inspection and Testing",
+  "topic": "Slabs",
   "question": "The workability of concrete required for the heavily reinforced sections in slab, beam and column is:",
   "options": [
    "very low",
@@ -63979,7 +63979,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 1,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -64300,7 +64300,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Materials, Workmanship, Inspection and Testing",
+  "topic": "Slabs",
   "question": "The minimum clear covers (in mm) to the main steel bars in slab, beam, column and footing are respectively",
   "options": [
    "10, 15, 20, 25",
@@ -64317,7 +64317,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 1,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -64664,7 +64664,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Materials, Workmanship, Inspection and Testing",
+  "topic": "Limit State of Collapse – Compression",
   "question": "For walls, columns and vertical faces of all structural members, the form work is generally removed after :",
   "options": [
    "24 to 48 hours",
@@ -64681,7 +64681,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 1,
+  "unit": 12,
   "classified": "book+kw"
  },
  {
@@ -64742,7 +64742,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Materials, Workmanship, Inspection and Testing",
+  "topic": "Limit State of Serviceability",
   "question": "Loss of stress with time at constant strain in steel is called :",
   "options": [
    "relaxation",
@@ -64759,7 +64759,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 1,
+  "unit": 14,
   "classified": "book+kw"
  },
  {
@@ -65626,7 +65626,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Materials, Workmanship, Inspection and Testing",
+  "topic": "Losses in Prestressed Concrete",
   "question": "Loss of stress due to elastic deformation of concrete depends upon:",
   "options": [
    "Relaxation of steel",
@@ -65643,7 +65643,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 1,
+  "unit": 17,
   "classified": "book+kw"
  },
  {
@@ -65912,7 +65912,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Basic Concepts – Working Stress",
+  "topic": "Limit State of Serviceability",
   "question": "The vertical deflection limits may generally be assumed to be satisfied provided that the span to depth ratios are not greater than.............for simply supported beam for span upto 10 m.",
   "options": [
    "7",
@@ -65929,7 +65929,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 4,
+  "unit": 14,
   "classified": "book+kw"
  },
  {
@@ -66146,7 +66146,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Basic Concepts – Working Stress",
+  "topic": "Materials, Workmanship, Inspection and Testing",
   "question": "A RCC beam of 200 mm width and 300 mm effective depth is reinforced with Fe 415 grade steel. The grade of concrete used is M20. The limiting moment carrying capacity of this beam is",
   "options": [
    "47.88 kNm",
@@ -66163,7 +66163,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 4,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -66198,7 +66198,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Basic Concepts – Working Stress",
+  "topic": "Materials, Workmanship, Inspection and Testing",
   "question": "A rectangular beam section of 300 mm width and 500 mm effective depth has tensile reinforcement of 1346 mm2. The beam is constructed using M20 grade concrete and Fe 415 steel. Calculate the neutral axis.",
   "options": [
    "225 mm",
@@ -66215,7 +66215,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 4,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -66302,7 +66302,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Basic Concepts – Working Stress",
+  "topic": "Limit State – Singly Reinforced Sections",
   "question": "As per ductility criterion, which of the following section is preferred?",
   "options": [
    "Over reinforced section",
@@ -66319,7 +66319,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 4,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -66432,7 +66432,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Basic Concepts – Working Stress",
+  "topic": "Limit State Design Method – Fundamentals",
   "question": "The characteristic load means the value of the load:",
   "options": [
    "Below which not more than 5% of the results are expected to fall",
@@ -66449,7 +66449,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 4,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -66484,7 +66484,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Basic Concepts – Working Stress",
+  "topic": "Limit State – Singly Reinforced Sections",
   "question": "The section in which concrete is not fully stressed to its permissible value when stress in steel reaches its maximum value, is called",
   "options": [
    "Under reinforced section",
@@ -66501,7 +66501,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 4,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -66588,7 +66588,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Basic Concepts – Working Stress",
+  "topic": "Fundamentals of Prestressed Concrete",
   "question": "The moment of resistance of a rectangular section depend upon",
   "options": [
    "ultimate strain in concrete",
@@ -66605,7 +66605,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 4,
+  "unit": 15,
   "classified": "book+kw"
  },
  {
@@ -66744,7 +66744,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Basic Concepts – Working Stress",
+  "topic": "Materials, Workmanship, Inspection and Testing",
   "question": "Minimum grade of reinforced concrete in sea water:",
   "options": [
    "M15",
@@ -66761,7 +66761,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 4,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -66796,7 +66796,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State of Collapse – Shear",
+  "topic": "Materials, Workmanship, Inspection and Testing",
   "question": "A certain RCC structure has to be constructed along sea coast and will be exposed to sea water spray. What is the exposure condition according IS 456–2000 ?",
   "options": [
    "Very Severe",
@@ -66813,7 +66813,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 8,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -67160,7 +67160,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State of Collapse – Shear",
+  "topic": "Bond Limit State and Working Stress",
   "question": "Lap length including anchorage value of hooks for bars in flexural tension shall be",
   "options": [
    "Ld or 20φ, whichever is greater",
@@ -67177,7 +67177,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -67472,7 +67472,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State of Collapse – Shear",
+  "topic": "Limit State – Singly Reinforced Sections",
   "question": "The section in which concrete is not fully stressed to its maximum permissible value while stress in steel reaches its maximum value, is called",
   "options": [
    "Under reinforced section",
@@ -67489,7 +67489,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 8,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -67498,7 +67498,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State of Collapse – Shear",
+  "topic": "Bond Limit State and Working Stress",
   "question": "If the diameter of a reinforcement bar is \"d\", the anchorage value U-type of hook is",
   "options": [
    "4d",
@@ -67515,7 +67515,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -67576,7 +67576,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State of Collapse – Shear",
+  "topic": "Bond Limit State and Working Stress",
   "question": "As per BIS 456-2000, deformed bars may be used without end anchorage provided:",
   "options": [
    "Minimum spacing between the adjacent rod is ensured",
@@ -67593,7 +67593,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -68200,7 +68200,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State of Collapse – Shear",
+  "topic": "Materials, Workmanship, Inspection and Testing",
   "question": "Tetrapods are to be designed to kept on the shores of Arabian sea. It is expected that these structures would face high tides for 70% of the time and low tides for the remaining 30% of the time. The exposure class to be considered for these structures as per IS 456 would be:",
   "options": [
    "Severe",
@@ -68217,7 +68217,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 8,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -68252,7 +68252,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State of Collapse – Shear",
+  "topic": "Materials, Workmanship, Inspection and Testing",
   "question": "As per IS 456-2000 standard, the average permissible bond stress (τbd) for plain bars in M25 grade of concrete is :",
   "options": [
    "0.8",
@@ -68269,7 +68269,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 8,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -68278,7 +68278,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State of Collapse – Shear",
+  "topic": "Materials, Workmanship, Inspection and Testing",
   "question": "As per IS 456, the maximum free water cement ratio for M25 concrete in RCC work is:",
   "options": [
    "0.55",
@@ -68295,7 +68295,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 8,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -68330,7 +68330,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State of Collapse – Shear",
+  "topic": "Bond Limit State and Working Stress",
   "question": "What is the anchorage value of a standard hook of a reinforcement in compression that shall not be less than:",
   "options": [
    "30 φ",
@@ -68347,7 +68347,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -68460,7 +68460,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State of Collapse – Shear",
+  "topic": "Bond Limit State and Working Stress",
   "question": "The anchorage value for a standard U-type hook as per IS code shall be taken as, how many times the diameter (φ) of the bar?",
   "options": [
    "12",
@@ -68477,7 +68477,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -68512,7 +68512,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State of Collapse – Shear",
+  "topic": "Bond Limit State and Working Stress",
   "question": "The anchorage value of 90º hook is :",
   "options": [
    "6φ",
@@ -68529,7 +68529,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -68564,7 +68564,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State of Collapse – Shear",
+  "topic": "Limit State of Serviceability",
   "question": "A decrease in stress at constant strain in called",
   "options": [
    "shrinkage stress",
@@ -68581,7 +68581,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 8,
+  "unit": 14,
   "classified": "book+kw"
  },
  {
@@ -68590,7 +68590,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State of Collapse – Shear",
+  "topic": "Bond Limit State and Working Stress",
   "question": "Development length of a reinforcing bar",
   "options": [
    "includes anchorage value of hooks in compression",
@@ -68607,7 +68607,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -73036,7 +73036,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State Design – Flanged Beams",
+  "topic": "Slabs",
   "question": "For two-way R.C. slab, the deflection is guided by",
   "options": [
    "shorter span",
@@ -73053,7 +73053,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 7,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -73062,7 +73062,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State Design – Flanged Beams",
+  "topic": "Slabs",
   "question": "The percentage of HYSD bars in one-way slabs to cater for shrinkage or temperature, as per IS:456 is",
   "options": [
    "1.2%",
@@ -73079,7 +73079,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 7,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -73088,7 +73088,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State Design – Flanged Beams",
+  "topic": "Slabs",
   "question": "The maximum permissible value of ratio of span to depth of a two way simply supported RCC slab is",
   "options": [
    "20",
@@ -73105,7 +73105,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 7,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -73686,7 +73686,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State of Collapse – Compression",
+  "topic": "Materials, Workmanship, Inspection and Testing",
   "question": "In a reinforced concrete footing, the thickness at the edge shall not be less than 150 mm for footing on soils for less than ___________ mm above the top of piles for footing on piles:",
   "options": [
    "250 mm",
@@ -73703,7 +73703,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 12,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -73738,7 +73738,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State of Collapse – Compression",
+  "topic": "Materials, Workmanship, Inspection and Testing",
   "question": "In reinforced concrete footing on soils, the minimum thickness at the edge should not be less than-",
   "options": [
    "150 mm",
@@ -73755,7 +73755,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 12,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -73946,7 +73946,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State of Collapse – Compression",
+  "topic": "Limit State Design – Flanged Beams",
   "question": "Focusing 'material efficiency', which of the following is the correct sequence?",
   "options": [
    "T-beam > Rectangular beam < Two-way slab",
@@ -73963,7 +73963,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 12,
+  "unit": 7,
   "classified": "book+kw"
  },
  {
@@ -74024,7 +74024,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State of Collapse – Compression",
+  "topic": "Slabs",
   "question": "A floor slab supported directly on column is called:",
   "options": [
    "Ribbed slab",
@@ -74041,7 +74041,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 12,
+  "unit": 11,
   "classified": "book+kw"
  },
  {
@@ -74310,7 +74310,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State of Collapse – Compression",
+  "topic": "Materials, Workmanship, Inspection and Testing",
   "question": "In reinforced and plain concrete footings on soils, the thickness at the edge shall be not less than",
   "options": [
    "200 mm",
@@ -74327,7 +74327,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 12,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -74700,7 +74700,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State of Collapse – Compression",
+  "topic": "Materials, Workmanship, Inspection and Testing",
   "question": "As per IS 456, the minimum cover to be provided for columns is",
   "options": [
    "50 mm",
@@ -74717,7 +74717,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 12,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -75350,7 +75350,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State of Collapse – Compression",
+  "topic": "Materials, Workmanship, Inspection and Testing",
   "question": "As per IS 456, the minimum nominal cover specified for footings is:",
   "options": [
    "25 mm",
@@ -75367,7 +75367,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 12,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -76494,7 +76494,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State Design Method – Fundamentals",
+  "topic": "Footings",
   "question": "In case of footing, the critical section for punching shear is considered at:",
   "options": [
    "The face of the column",
@@ -76511,7 +76511,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 2,
+  "unit": 13,
   "classified": "book+kw"
  },
  {
@@ -76598,7 +76598,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State Design Method – Fundamentals",
+  "topic": "Limit State of Collapse – Shear",
   "question": "For M15 grade concrete, shear reinforcement is necessary, if shear stress is more than :",
   "options": [
    "0.5 N/mm2",
@@ -76615,7 +76615,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 2,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -76728,7 +76728,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State Design Method – Fundamentals",
+  "topic": "Materials, Workmanship, Inspection and Testing",
   "question": "The value of limiting moment of resistance of a RC beam for M25 grade of concrete and Fe 500 grade of steel is given by (Notational have their usual meaning) –",
   "options": [
    "3.33 bd2",
@@ -76745,7 +76745,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 2,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -77222,7 +77222,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State Design Method – Fundamentals",
+  "topic": "Materials, Workmanship, Inspection and Testing",
   "question": "Flexural tensile strength of M25 grade of concrete as per IS 456 is: 2 2",
   "options": [
    "3.5 N/mm",
@@ -77239,7 +77239,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 2,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -77638,7 +77638,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Fundamentals of Prestressed Concrete",
+  "topic": "Analysis of Prestressed Concrete Members",
   "question": "The net resultant stresses at bottom fiber of a section are zero means the resultant thrust must be passing from",
   "options": [
    "extreme top fiber",
@@ -77655,7 +77655,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 15,
+  "unit": 16,
   "classified": "book+kw"
  },
  {
@@ -77820,7 +77820,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Fundamentals of Prestressed Concrete",
+  "topic": "Limit State of Serviceability",
   "question": "In regard to pre-stressed concrete design, the final deflection, due to all loads including the effects of temperature, creep and shrinkage and measure from the as-cast level of the supports of floors, roofs and all other horizontal members should not normally exceed span/X, where X is :",
   "options": [
    "350",
@@ -77837,7 +77837,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 15,
+  "unit": 14,
   "classified": "book+kw"
  },
  {
@@ -77976,7 +77976,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Fundamentals of Prestressed Concrete",
+  "topic": "Limit State of Collapse – Shear",
   "question": "The propagation of a shear crack in pre- stressed concrete member depends on:",
   "options": [
    "tensile reinforcement",
@@ -77993,7 +77993,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 15,
+  "unit": 8,
   "classified": "book+kw"
  },
  {
@@ -78054,7 +78054,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Fundamentals of Prestressed Concrete",
+  "topic": "Materials, Workmanship, Inspection and Testing",
   "question": "As per IS code, the minimum grade of concrete for the design of pre-stressed concrete structure is–",
   "options": [
    "M20",
@@ -78071,7 +78071,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 15,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -78132,7 +78132,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Fundamentals of Prestressed Concrete",
+  "topic": "Limit State of Serviceability",
   "question": "Which of the following losses occurs only in post–tensioning pre–stressed concrete structures –",
   "options": [
    "Loss due friction",
@@ -78149,7 +78149,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 15,
+  "unit": 14,
   "classified": "book+kw"
  },
  {
@@ -78236,7 +78236,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Fundamentals of Prestressed Concrete",
+  "topic": "Losses in Prestressed Concrete",
   "question": "Which one of the following is categorised as a long term loss of pre-stress in a pre-stressed concrete member?",
   "options": [
    "loss due to elastic shortening",
@@ -78253,7 +78253,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 15,
+  "unit": 17,
   "classified": "book+kw"
  },
  {
@@ -78314,7 +78314,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Fundamentals of Prestressed Concrete",
+  "topic": "Materials, Workmanship, Inspection and Testing",
   "question": "The minimum grade of concrete that can be used for pre-tensioned beam system is:",
   "options": [
    "M20",
@@ -78331,7 +78331,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 15,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -78522,7 +78522,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Fundamentals of Prestressed Concrete",
+  "topic": "Losses in Prestressed Concrete",
   "question": "Which one of the following is categorized as a long term loss of pre-stress in a pre-stressed concrete member.",
   "options": [
    "Loss due to elastic shortening",
@@ -78539,7 +78539,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 15,
+  "unit": 17,
   "classified": "book+kw"
  },
  {
@@ -79042,7 +79042,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Fundamentals of Prestressed Concrete",
+  "topic": "Limit State of Serviceability",
   "question": "An ordinary mild steel bar has been pre- stressed to working stress of 200 MPa. If the Young's modulus of steel is 200 GPa and permanent negative strain due to shrinkage and creep is 0.0008, what is the effective stress left in the steel? of 200 MPa. If the Young's modulus of steel is 200 GPa and permanent negative strain due to shrinkage and creep is 0.0008,",
   "options": [
    "190 MPa",
@@ -79059,7 +79059,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 15,
+  "unit": 14,
   "classified": "book+kw"
  },
  {
@@ -79380,7 +79380,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Fundamentals of Prestressed Concrete",
+  "topic": "Limit State of Serviceability",
   "question": "The final deflection of a structure due to all loads including the effects of temperature, creep and shrinkage and measured from the as- cast level of support of floor, roofs and all other horizontal forces should not normally exceed.",
   "options": [
    "span/350",
@@ -79397,7 +79397,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 15,
+  "unit": 14,
   "classified": "book+kw"
  },
  {
@@ -79640,7 +79640,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Fundamentals of Prestressed Concrete",
+  "topic": "Limit State of Serviceability",
   "question": "In pre-stressed concrete members the final deflection due to a X loads including the effects of temperature, creep and shrinkage shall not exceed",
   "options": [
    "Span/350",
@@ -79657,7 +79657,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 15,
+  "unit": 14,
   "classified": "book+kw"
  },
  {
@@ -79822,7 +79822,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Fundamentals of Prestressed Concrete",
+  "topic": "Materials, Workmanship, Inspection and Testing",
   "question": "The grade of concrete for prestresses members should be in the range of",
   "options": [
    "M20-M30",
@@ -79839,7 +79839,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 15,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -79978,7 +79978,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Fundamentals of Prestressed Concrete",
+  "topic": "Bond Limit State and Working Stress",
   "question": "On the areas immediately behind external anchorages, the permissible unit bearing stress on the concrete, after accounting for losses due to relaxation of steel, elastic shortening and seating of anchorages, shall not exceed ................. A bearing",
   "options": [
    "0.48 f ci or 0.8 fck whichever is A punching smaller A bearing",
@@ -79995,7 +79995,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Reinforced Cement Concrete and Pre-stressed Concrete",
   "subjectId": "civil-rcc",
-  "unit": 15,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -80524,7 +80524,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Riveted and Bolted Connections",
+  "topic": "Materials and Specifications",
   "question": "According to IS 800, in case of structural steel design, the span length of a flexural member in a continuous frame system shall be taken as the distance between :",
   "options": [
    "centre to centre of the support + twice the eccentricity",
@@ -80541,7 +80541,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 2,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -80576,7 +80576,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Riveted and Bolted Connections",
+  "topic": "Materials and Specifications",
   "question": "What is the ultimate tensile strength of structural mild steel?",
   "options": [
    "160N/mm2",
@@ -80593,7 +80593,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 2,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -80628,7 +80628,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Riveted and Bolted Connections",
+  "topic": "Materials and Specifications",
   "question": "Which is the Poisson's ratio for structural steel as recommended in IS 800?",
   "options": [
    "0.15",
@@ -80645,7 +80645,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 2,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -80758,7 +80758,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Riveted and Bolted Connections",
+  "topic": "Tension Members",
   "question": "Yielding in structural members with partial safety factor as 1.1 is governed by :",
   "options": [
    "net area of connected lug angle",
@@ -80775,7 +80775,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 2,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -81330,7 +81330,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Riveted and Bolted Connections",
+  "topic": "Materials and Specifications",
   "question": "The yield stress of mild steel of normally rolled structural steel is about (in N/mm2)-",
   "options": [
    "240 to",
@@ -81347,7 +81347,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 2,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -82188,7 +82188,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Riveted and Bolted Connections",
+  "topic": "Tension Members",
   "question": "Bending compressive and tensile stresses respectively are calculated based on",
   "options": [
    "Net area and gross area",
@@ -82205,7 +82205,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 2,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -83410,7 +83410,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Tension Members",
+  "topic": "Welded Connections",
   "question": "Fillet weld is not recommended if the angle between fusion faces is 1. less than 45º 2. greater than 120º 3. less than 60º 4. greater than 145º",
   "options": [
    "1 and 2",
@@ -83427,7 +83427,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 5,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -83748,7 +83748,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Compression Members",
+  "topic": "Tension Members",
   "question": "The Lug angle is a member which ______.",
   "options": [
    "is connected to the main tension member to transfer the tensile force economically to the point.",
@@ -83765,7 +83765,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 6,
+  "unit": 5,
   "classified": "book+kw"
  },
  {
@@ -83800,7 +83800,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Compression Members",
+  "topic": "Materials and Specifications",
   "question": "Which of the following is NOT a method recommended by IS 800 for assessing the period of structural adequacy of structural steel design?",
   "options": [
    "By direct application of single test",
@@ -83817,7 +83817,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 6,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -84476,7 +84476,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Compression Members",
+  "topic": "Plate Girders",
   "question": "Intermediate vertical stiffeners in plate girders are used to -",
   "options": [
    "Prevent local buckling of the web",
@@ -84493,7 +84493,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 6,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -85412,7 +85412,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Plate Girders",
   "question": "Economical depth of plate girder corresponds to",
   "options": [
    "minimum weight",
@@ -85429,7 +85429,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -85438,7 +85438,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Plate Girders",
   "question": "Intermediate vertical stiffeners are required in plate girder when d/tw ratio of the web exceeds",
   "options": [
    "85",
@@ -85455,7 +85455,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -85490,7 +85490,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Plate Girders",
   "question": "The flange splice in plate girder should be selected at",
   "options": [
    "maximum shear location",
@@ -85507,7 +85507,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -85750,7 +85750,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Gantry Girders",
   "question": "While designing electricity operated Gantry girders, additional load of..............of maximum static wheel load should be used to calculate the vertical load transferred to rails.",
   "options": [
    "25% addition",
@@ -85767,7 +85767,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -85828,7 +85828,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Plate Girders",
   "question": "Intermediate vertical stiffeners are provided in plate girders to",
   "options": [
    "eliminate the web bucking",
@@ -85845,7 +85845,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -85880,7 +85880,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Riveted and Bolted Connections",
   "question": "The junction between flange and web of an I- section is called :",
   "options": [
    "Lap joint",
@@ -85897,7 +85897,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -85932,7 +85932,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Riveted and Bolted Connections",
   "question": "When the effect of the wind or earthquake load is taken into account, the permissible stresses specified for Rivets, bolts and tension rods may be exceeded by 1",
   "options": [
    "33 % Percent",
@@ -85949,7 +85949,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 2,
   "classified": "book+kw"
  },
  {
@@ -85958,7 +85958,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Plate Girders",
   "question": "Spacing of the vertical stiffener in plate girder shall be",
   "options": [
    "Not greater than d nor less than 0.25d",
@@ -85975,7 +85975,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -86010,7 +86010,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Plate Girders",
   "question": "In the design of a plate girder, the outstand of web stiffener from the face of the web is restricted to (thickness of stiffener = tq, and yield stress ratio = ε)",
   "options": [
    "12 tqε",
@@ -86027,7 +86027,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -86166,7 +86166,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Plate Girders",
   "question": "In the plate girders, shear force is mainly resisted by :",
   "options": [
    "Top flange",
@@ -86183,7 +86183,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -86270,7 +86270,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Plate Girders",
   "question": "For what purpose stiffeners are used in a plate the web is girder?",
   "options": [
    "to connect the flange plates to the web",
@@ -86287,7 +86287,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -86452,7 +86452,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Plate Girders",
   "question": "Load carrying stiffeners are provided in a plate girder in order to?",
   "options": [
    "Prevent local buckling of the web due to concentrated loading",
@@ -86469,7 +86469,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -86556,7 +86556,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Materials and Specifications",
   "question": "Rolled steel equal and unequal sections are designated as ISA followed by",
   "options": [
    "Length and thickness of legs",
@@ -86573,7 +86573,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 1,
   "classified": "book+kw"
  },
  {
@@ -86660,7 +86660,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Gantry Girders",
   "question": "The surge loads in gantry girder are",
   "options": [
    "Longitudinal loads",
@@ -86677,7 +86677,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -86738,7 +86738,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Plate Girders",
   "question": "Horizontal stiffener in a plate girder is provided to safeguard against :",
   "options": [
    "Shear buckling of web plate",
@@ -86755,7 +86755,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -86764,7 +86764,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Plate Girders",
   "question": "Shear buckling of web in a plate girder is prevented by using :",
   "options": [
    "Vertical intermediate stiffener",
@@ -86781,7 +86781,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -86790,7 +86790,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Plate Girders",
   "question": "Intermediate vertical stiffeners in a plate girder need to be provided, if the depth of web exceeds (\"t\" is thickness of web) :",
   "options": [
    "50t",
@@ -86807,7 +86807,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -86894,7 +86894,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Eccentric Connections",
   "question": "An example of light moment connection is",
   "options": [
    "framed connection",
@@ -86911,7 +86911,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -86920,7 +86920,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Eccentric Connections",
   "question": "To transfer large shear force through connection, which of the following option is most suitable ?",
   "options": [
    "clip angle connection",
@@ -86937,7 +86937,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -86946,7 +86946,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Gantry Girders",
   "question": "Vertical deflection of gantry girder for electrically operated cranes over 500 kN is",
   "options": [
    "span/400",
@@ -86963,7 +86963,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -87076,7 +87076,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Plate Girders",
   "question": "Stiffeners are used in a plate girder",
   "options": [
    "To reduce compressive strength",
@@ -87093,7 +87093,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -87128,7 +87128,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Plate Girders",
   "question": "Determine the economical depth of the welded plate girder of span 24m to carry super imposed load of 35 kN/m. Avoid stiffeners and use Fe 415 steel :",
   "options": [
    "1000 mm",
@@ -87145,7 +87145,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -87154,7 +87154,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Plate Girders",
   "question": "Minimum spacing of vertical stiffeners in plate girder of depth d is limited to ............",
   "options": [
    "d/4",
@@ -87171,7 +87171,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -87310,7 +87310,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Plate Girders",
   "question": "In the plate girder the vertical stiffeners are provided when the ratio of clear depth of the thickness of web exceed:",
   "options": [
    "50",
@@ -87327,7 +87327,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -87440,7 +87440,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Plate Girders",
   "question": "The purpose of stiffeners in a plate girder is to",
   "options": [
    "Prevent buckling of web plate",
@@ -87457,7 +87457,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -87596,7 +87596,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Plate Girders",
   "question": "The vertical stiffener of a plate girder is provided is d/tv exceeds-",
   "options": [
    "200",
@@ -87613,7 +87613,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 9,
   "classified": "book+kw"
  },
  {
@@ -87726,7 +87726,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Beams",
+  "topic": "Gantry Girders",
   "question": "The recommended limit of vertical deflection for gantry girder carrying EOT crane of capacity 50 tons is",
   "options": [
    "Span/750",
@@ -87743,7 +87743,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 8,
+  "unit": 10,
   "classified": "book+kw"
  },
  {
@@ -88246,7 +88246,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Column Bases and Column Splices",
+  "topic": "Compression Members",
   "question": "To get the effective length of a prismatic steel compression member of length L fully restrained at both the ends, L is usually multiplied by what factor?",
   "options": [
    "0.65",
@@ -88263,7 +88263,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 7,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -88454,7 +88454,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Roof Trusses",
+  "topic": "Compression Members",
   "question": "Slenderness ratio of lacing bars should not exceed",
   "options": [
    "100",
@@ -88471,7 +88471,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 11,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -89546,7 +89546,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Roof Trusses",
+  "topic": "Compression Members",
   "question": "The slenderness ratio of single angle discontinuous strut shall not exceed",
   "options": [
    "120",
@@ -89563,7 +89563,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Design of Steel Structures",
   "subjectId": "civil-ss",
-  "unit": 11,
+  "unit": 6,
   "classified": "book+kw"
  },
  {
@@ -90288,7 +90288,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Limit State of Collapse – Shear",
+  "topic": "Bond Limit State and Working Stress",
   "question": "For walls having thickness of wall more than one and a half brick, the following bond is more compact and stronger",
   "options": [
    "Double Flemish bond",
@@ -90305,7 +90305,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Construction and Maintenance Engineering",
   "subjectId": "civil-rcc",
-  "unit": 8,
+  "unit": 9,
   "classified": "knn+kw"
  },
  {
@@ -90418,7 +90418,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Concrete",
+  "topic": "Cement Mortar",
   "question": "Wetting of bricks for sufficient time before actually using in construction does not help in which of the following?",
   "options": [
    "help adhesion with mortar",
@@ -90435,7 +90435,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Construction and Maintenance Engineering",
   "subjectId": "civil-bm",
-  "unit": 3,
+  "unit": 4,
   "classified": "knn+kw"
  },
  {
@@ -90496,7 +90496,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Construction and Maintenance",
+  "topic": "Highway Materials and Testing",
   "question": "Single flemish bond consists of",
   "options": [
    "flemish bond facing and english bond backing in each course",
@@ -90513,7 +90513,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Construction and Maintenance Engineering",
   "subjectId": "civil-tra",
-  "unit": 15,
+  "unit": 11,
   "classified": "knn+kw"
  },
  {
@@ -90678,7 +90678,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Effective Stress",
+  "topic": "Seepage Analysis",
   "question": "............. are provided as a protective coatings to wall at its top to prevent seepage of water.",
   "options": [
    "Corbels",
@@ -90695,7 +90695,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Construction and Maintenance Engineering",
   "subjectId": "civil-geo",
-  "unit": 7,
+  "unit": 9,
   "classified": "knn+kw"
  },
  {
@@ -90730,7 +90730,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Cement",
+  "topic": "Cement Mortar",
   "question": "The operation of raking out of masonry joints for about 13 mm depth and then filling them up with rich cement sand mortar (1 : 3), is known as",
   "options": [
    "dressing",
@@ -90747,7 +90747,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Construction and Maintenance Engineering",
   "subjectId": "civil-bm",
-  "unit": 1,
+  "unit": 4,
   "classified": "knn+kw"
  },
  {
@@ -90964,7 +90964,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Theory of Simple Bending",
+  "topic": "Simple Stresses and Strains (Elastic Constants and their relationship; Linear and volumetric changes of bodies; Thermal Stresses)",
   "question": "The basic stress in masonry unit having height to width ratio of 1.5 may be increased by a factor of:",
   "options": [
    "1.2",
@@ -90981,7 +90981,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Construction and Maintenance Engineering",
   "subjectId": "civil-som",
-  "unit": 5,
+  "unit": 1,
   "classified": "knn+kw-weak"
  },
  {
@@ -91094,7 +91094,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Origin of Soils",
+  "topic": "Foundations in Expansive Soils",
   "question": "The development of one or more local swelling on the finished plastered surface is called",
   "options": [
    "Foaming",
@@ -91111,7 +91111,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Construction and Maintenance Engineering",
   "subjectId": "civil-geo",
-  "unit": 1,
+  "unit": 20,
   "classified": "knn+kw"
  },
  {
@@ -91666,7 +91666,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Highway Geometric Design – Basic Elements",
+  "topic": "Highway Geometric Design – Horizontal Curves",
   "question": "The term ‘string’ is used for",
   "options": [
    "the under side of a stair",
@@ -91683,7 +91683,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Building Construction and Maintenance Engineering",
   "subjectId": "civil-tra",
-  "unit": 3,
+  "unit": 6,
   "classified": "knn+kw"
  },
  {
@@ -92368,7 +92368,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Introduction to Project Management",
+  "topic": "CPM",
   "question": "Select the incorrect statement-",
   "options": [
    "Earliest start of an activity is the early event time of the node it leaves",
@@ -92385,7 +92385,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Construction Management and Engineering Economics",
   "subjectId": "civil-cpm",
-  "unit": 1,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -92784,7 +92784,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Introduction to Project Management",
+  "topic": "CPM",
   "question": "Which of the following statement(s) is/are incorrect? (i) Earliest start of an activity is the early (3) event time of the node it leaves. (ii) Latest finish of an activity is the late event time of the node it enters. (iii) Latest start of an activity is its latest finish minus its duration.",
   "options": [
    "Only (i)",
@@ -92801,7 +92801,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Construction Management and Engineering Economics",
   "subjectId": "civil-cpm",
-  "unit": 1,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -92810,7 +92810,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Introduction to Project Management",
+  "topic": "CPM",
   "question": "If an activity lies on the critical path, its total float will be",
   "options": [
    "Positive",
@@ -92827,7 +92827,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Construction Management and Engineering Economics",
   "subjectId": "civil-cpm",
-  "unit": 1,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -92862,7 +92862,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Introduction to Project Management",
+  "topic": "CPM Cost Analysis",
   "question": "The direct cost of a project with respect to normal time is :",
   "options": [
    "Minimum",
@@ -92879,7 +92879,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Construction Management and Engineering Economics",
   "subjectId": "civil-cpm",
-  "unit": 1,
+  "unit": 4,
   "classified": "book+kw"
  },
  {
@@ -92888,7 +92888,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Introduction to Project Management",
+  "topic": "CPM",
   "question": "Latest finish time in CPM technique is indicated by a :",
   "options": [
    "Rectangle",
@@ -92905,7 +92905,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Construction Management and Engineering Economics",
   "subjectId": "civil-cpm",
-  "unit": 1,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
@@ -92914,7 +92914,7 @@
    "aee-rbi"
   ],
   "subject": "Civil Engineering Core",
-  "topic": "Introduction to Project Management",
+  "topic": "CPM",
   "question": "Negative float can occur when it is :",
   "options": [
    "Sub-critical activity",
@@ -92931,7 +92931,7 @@
   "keyCheck": "auto-clean",
   "bookUnit": "Construction Management and Engineering Economics",
   "subjectId": "civil-cpm",
-  "unit": 1,
+  "unit": 3,
   "classified": "book+kw"
  },
  {
