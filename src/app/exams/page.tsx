@@ -15,6 +15,9 @@ export default function Page() {
     <div>
       <h1 className="font-display text-[28px] font-extrabold sm:text-4xl">APPSC exams 2026</h1>
       <p className="mt-1 text-sm text-muted">From the official notifications — vacancies, eligibility, pattern, dates and syllabus.</p>
+      <Link href="/syllabus" className="mt-3 inline-block text-sm font-semibold text-primary underline">
+        Compare papers &amp; shared subjects, with source pages →
+      </Link>
       <div className="mt-5 grid gap-3 sm:grid-cols-2">
         {EXAMS.map((e) => {
           const n = notificationFor(e.id)!;

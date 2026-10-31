@@ -252,3 +252,17 @@ describe("storage migration v1 → v2", () => {
     expect(out.qstats[6].box).toBeUndefined();
   });
 });
+
+describe("pattern registry", () => {
+  it("cites a source page for every exam and flags brief-only notifications", async () => {
+    const { SCHEME_SOURCES, patternRows, commonSubjects } = await import("@/content/registry");
+    const { EXAMS } = await import("@/content/catalog");
+    for (const e of EXAMS) {
+      expect(SCHEME_SOURCES[e.id].page).toBeGreaterThan(0);
+      expect(SCHEME_SOURCES[e.id].doc).toMatch(/\.pdf$/);
+    }
+    expect(SCHEME_SOURCES.group2.status).toBe("brief-only");
+    expect(patternRows().length).toBeGreaterThanOrEqual(EXAMS.length);
+    expect(commonSubjects().find((s) => s.subjectId === "env")!.exams.length).toBeGreaterThan(3);
+  });
+});
