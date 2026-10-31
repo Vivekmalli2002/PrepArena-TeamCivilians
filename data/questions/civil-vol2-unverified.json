@@ -1305,7 +1305,7 @@
   "question": "Metric chains :",
   "options": [
    "20m–100Links",
-   "30m– 150 Links AE Civil Engg. Volume-II 38 144. Triangulation is based on the principle that knowing- (a) three sides, the angles can be calculated precisely (b) three angles, the sides can be calculated precisely",
+   "30m– 150 Links 144. Triangulation is based on the principle that knowing- (a) three sides, the angles can be calculated precisely (b) three angles, the sides can be calculated precisely",
    "two sides and one angle, the remaining side and angles can be determined precisely",
    "one side and three angles, the remaining sides can be calculated precisely"
   ],
@@ -3543,7 +3543,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Levelling",
-  "question": "A level when set up 25 m from peg A and 50 m from peg B reads 2.847 m on staff help on A AE Civil Engg. Volume-II 75 and 3.462 m on staff held on B, keeping bubble at its centre while reading. If the reduced levels of A and B are 283.665 m and 284.295 m respectively, what is the collimation error per 100.0 m–",
+  "question": "A level when set up 25 m from peg A and 50 m from peg B reads 2.847 m on staff help on A and 3.462 m on staff held on B, keeping bubble at its centre while reading. If the reduced levels of A and B are 283.665 m and 284.295 m respectively, what is the collimation error per 100.0 m–",
   "options": [
    "0.015 m",
    "0.030 m",
@@ -4245,7 +4245,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Levelling",
-  "question": "What will be the curvature correction for staff reading, in leveling for a distance of 1000 m? AE Civil Engg. Volume-II",
+  "question": "What will be the curvature correction for staff reading, in leveling for a distance of 1000 m?",
   "options": [
    "0.0673 m",
    "0.0785 m",
@@ -4302,7 +4302,7 @@
   "question": "The R.L. of the point ‘A’ which is on the floor is 100 m and back sight reading on ‘A’ is 2.500 m. If the inverted foresight reading on the point ‘B’ which is on the ceiling is 2.700 m, the R.L. of point ‘B’ will be",
   "options": [
    "94.80 m",
-   "99.80 m AE Civil Engg. Volume-II",
+   "99.80 m",
    "100.20 m",
    "105.20 m"
   ],
@@ -7188,7 +7188,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Areas and Volumes",
-  "question": "Cross section area of Two level section is calculated by : AE Civil Engg. Volume-II b 2 s   + n 2 (bh − sh 2)",
+  "question": "Cross section area of Two level section is calculated by : b 2 s   + n 2 (bh − sh 2)",
   "options": [
    "A =   2 2 2 (n − s) 2 b   + n (bh + sh) 2 2  2",
    "A = (n 2 − s 2) 2 b s   + n 2 (bh + sh 2)",
@@ -7836,7 +7836,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Remote Sensing",
-  "question": "Match the items in List 1 (remote sensing) with those in List 2 (Process) and choose the correct Se answer using the codes given below. List 1 List 2 A. Visual 1. Capable of Interpretation penetrating through atmosphere under almost all conditions B. Supervised 2. Data model Image incorporating Classification spatial data with attribute data and meta data C. Geodata model 3. Visual Identification of objects using image characteristics D. Microwave 4. Maximum likelihood AE Civil Engg. Volume-II remote sensing algorithm",
+  "question": "Match the items in List 1 (remote sensing) with those in List 2 (Process) and choose the correct Se answer using the codes given below. List 1 List 2 A. Visual 1. Capable of Interpretation penetrating through atmosphere under almost all conditions B. Supervised 2. Data model Image incorporating Classification spatial data with attribute data and meta data C. Geodata model 3. Visual Identification of objects using image characteristics D. Microwave 4. Maximum likelihood remote sensing algorithm",
   "options": [
    "A–3, B–1, C–2, D–4",
    "A–3, B–4, C–2, D–1",
@@ -18501,7 +18501,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Boundary Layer Theory, Drag and Lift",
-  "question": "An airfoil is a streamlined body as shown in the figure below. Because of the streamlining of the body, the separation occurs only at the extreme rear of the body, resulting in AE Civil Engg. Volume-II",
+  "question": "An airfoil is a streamlined body as shown in the figure below. Because of the streamlining of the body, the separation occurs only at the extreme rear of the body, resulting in",
   "options": [
    "A very high pressure drag",
    "A small wake and consequently small pressure drag",
@@ -20067,7 +20067,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Hydro-Electric Power Plant",
-  "question": "Consider the following data relating to the performance of a centrifugal pump: 242. Speed = 1200 rpm, flow rate = 30 l/s, head = 20 m, and power = 5 kW. If the speed of the pump is increased to 1500 rpm, assuming the AE Civil Engg. Volume-II 401 efficiency is unaltered, the new flow rate and head, respectively, will be",
+  "question": "Consider the following data relating to the performance of a centrifugal pump: 242. Speed = 1200 rpm, flow rate = 30 l/s, head = 20 m, and power = 5 kW. If the speed of the pump is increased to 1500 rpm, assuming the efficiency is unaltered, the new flow rate and head, respectively, will be",
   "options": [
    "46.9 l/s and 25.0 m",
    "37.5 l/s and 25.0 m",
@@ -21012,7 +21012,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Water Requirements of Crops",
-  "question": "The duty of irrigation water for a given crop is for maximum Maharashtra PSC Mains 2018 Paper-2 109. Or Duty is largest Uttarakhand Combined State AE Paper II 2007 UPRVUNL AE 2014 Rajasthan JEN (Degree) Shift - II 2016 GPSC AE Class (1&2) Paper - 2 2017 Nagaland PSC CTSE 2017 Paper–II AE Civil Engg. Volume-II",
+  "question": "The duty of irrigation water for a given crop is for maximum Maharashtra PSC Mains 2018 Paper-2 109. Or Duty is largest Uttarakhand Combined State AE Paper II 2007 UPRVUNL AE 2014 Rajasthan JEN (Degree) Shift - II 2016 GPSC AE Class (1&2) Paper - 2 2017 Nagaland PSC CTSE 2017 Paper–II",
   "options": [
    "on the fields",
    "at the head of the main canal",
@@ -28008,7 +28008,7 @@
   "question": "S-hydrograph is used to obtain unit hydrograph of",
   "options": [
    "shorter duration from longer duration",
-   "longer duration from shorter duration AE Civil Engg. Volume-II",
+   "longer duration from shorter duration",
    "both (a) and (b)",
    "none of the above"
   ],
@@ -30057,7 +30057,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Well Hydraulics",
-  "question": "Ground Water Resources 473. What are the assumptions and limitations of Dupuit’s theory? 1. The velocity of the flow is proportional to the tangent of the hydraulic gradient instead of sine AE Civil Engg. Volume-II 2. The flow is horizontal and uniform everywhere in the vertical section 3. Aquifer is homogeneous, isotropic and of infinite aerial extent",
+  "question": "Ground Water Resources 473. What are the assumptions and limitations of Dupuit’s theory? 1. The velocity of the flow is proportional to the tangent of the hydraulic gradient instead of sine . The flow is horizontal and uniform everywhere in the vertical section 3. Aquifer is homogeneous, isotropic and of infinite aerial extent",
   "options": [
    "1 and 2 only",
    "1 and 3 only",
@@ -37702,7 +37702,7 @@
   "options": [
    "Activated sludge process",
    "Trickling filter",
-   "Primary sedimentation tank AE Civil Engg. Volume-II",
+   "Primary sedimentation tank",
    "Secondary sedimentation tank"
   ],
   "answerIndex": 2,
@@ -40722,7 +40722,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Highway Geometric Design – Basic Elements",
-  "question": "Multilane pavement 3.5 m/lane AE Civil Engg. Volume-II 790 117. Excessive camber on pavements may cause",
+  "question": "Multilane pavement 3.5 m/lane 117. Excessive camber on pavements may cause",
   "options": [
    "deterioration of central portion",
    "erosion of the berms",
@@ -40776,7 +40776,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Highway Geometric Design – Basic Elements",
-  "question": "The amount of rainfall. AE Civil Engg. Volume-II • The super elevation should not be less than the camber. The super elevation is expressed as the difference of heights of two edges of the carriage way to the width of the carriage way. (i) National & State Highway – 2300 m (ii) Major District Road – 2000 m (iii) Other District Road – 1400 m (iv) Village Road – 600 m 124. Reverse curves are provided on the routes when the two straight lines are :–",
+  "question": "The amount of rainfall. • The super elevation should not be less than the camber. The super elevation is expressed as the difference of heights of two edges of the carriage way to the width of the carriage way. (i) National & State Highway – 2300 m (ii) Major District Road – 2000 m (iii) Other District Road – 1400 m (iv) Village Road – 600 m 124. Reverse curves are provided on the routes when the two straight lines are :–",
   "options": [
    "Perpendicular to each other",
    "Meeting at an obtuse angle",
@@ -43341,7 +43341,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Traffic Engineering",
-  "question": "The following statements (S1 to S4) pertain to collision diagrams in highway traffic studies. Collision diagram are used to : S1 : Eliminate accidents S2 : Study accident pattern S3 : Make statistical analysis of accidents AE Civil Engg. Volume-II S4 : Determine remedial measures Which of the above statement/s is/are correct?",
+  "question": "The following statements (S1 to S4) pertain to collision diagrams in highway traffic studies. Collision diagram are used to : S1 : Eliminate accidents S2 : Study accident pattern S3 : Make statistical analysis of accidents S4 : Determine remedial measures Which of the above statement/s is/are correct?",
   "options": [
    "1 and 2",
    "3 and 4",
@@ -45258,7 +45258,7 @@
   ],
   "subject": "Civil Engineering Core",
   "topic": "Highway Materials and Testing",
-  "question": "Match the pairs for determination of thickness of flexible pavement by appropriate method- A. California Bearing Radio Method B. California Resistance Valve Method C. Triaxial Method D. McLeod Method AE Civil Engg. Volume-II K (TI)( 90 - R) (i) T = C 1/5 P (ii) T = Klog10 S 1/2  1.75 A  (iii) T =  −   CBR π  2  3 PXY  2 (iv) T =   -a  2π E S ∆  A B C D",
+  "question": "Match the pairs for determination of thickness of flexible pavement by appropriate method- A. California Bearing Radio Method B. California Resistance Valve Method C. Triaxial Method D. McLeod Method K (TI)( 90 - R) (i) T = C 1/5 P (ii) T = Klog10 S 1/2  1.75 A  (iii) T =  −   CBR π  2  3 PXY  2 (iv) T =   -a  2π E S ∆  A B C D",
   "options": [
    "(i) (iv) (iii) (ii)",
    "(iii) (iv) (ii) (i)",

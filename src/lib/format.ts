@@ -9,40 +9,86 @@ export interface QuestionBlock {
   text: string;
 }
 
+const ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"];
+const ALPHA = "abcdefgh".split("");
+
+interface Marker {
+  /** Start of the marker (after the whitespace before it). */
+  at: number;
+  /** Length of the marker including the space after it. */
+  len: number;
+  label: string;
+}
+
+/** Ascending runs of one numbering style: "1. 2. 3.", "(1) (2)", "I. II. III.", "(i) (ii)", "(a) (b)", "A. B. C." */
+const FAMILIES: { re: RegExp; label: (idx: number) => string }[] = [
+  { re: /(^|\s)(\d{1,2})[.)](?=\s)/g, label: (i) => String(i + 1) },
+  { re: /(^|\s)\((\d{1,2})\)(?=\s)/g, label: (i) => String(i + 1) },
+  { re: /(^|\s)\(?(I{1,3}|IV|VI{0,3}|IX|X)[.)](?=\s)/g, label: (i) => ROMAN[i] ?? "" },
+  { re: /(^|\s)\((i{1,3}|iv|vi{0,3}|ix|x)\)(?=\s)|(^|\s)(i{1,3}|iv|vi{0,3}|ix|x)\)(?=\s)/g, label: (i) => (ROMAN[i] ?? "").toLowerCase() },
+  { re: /(^|\s)\(([a-h])\)(?=\s)|(^|\s)([a-h])\)(?=\s)/g, label: (i) => ALPHA[i] ?? "" },
+  { re: /(^|\s)\(?([A-H])[.)](?=\s)/g, label: (i) => (ALPHA[i] ?? "").toUpperCase() },
+];
+
+const TAIL =
+  /(?<=[.?!:)])\s+(?=(?:Which|How many|Select|Choose|Identify|Find|What|Pick|Mark|Match|Arrange|Using|Based|On the basis|From the above|In the light|Of the above|Codes?\s*:|The correct|Give|Examine|Decide)\b)|\s(?=Of the above|Codes?\s*:)/;
+const TAIL_LOOSE = /\s(?=(?:Which|How many|Select|Choose|Of the above|Codes?\s*:|Identify the|Find the|Using the code)\b)/;
+const HEADING = /\s+((?:List|Column|Group)[\s-]*(?:I{1,3}|[1-3A-C])\b[^.?!]{0,30})$/i;
+
 /**
- * Splits a question into its stem and numbered statements when it contains an
- * ascending run "1. … 2. …" (at least two items). Otherwise returns the text as-is.
+ * Splits a question into its stem, its numbered / lettered statements (1. 2. · I. II. · (a) (b) · (i) (ii) · A. B.)
+ * and the closing instruction, so each statement reads on its own line. Otherwise returns the text as-is.
  */
 export function splitStatements(text: string): QuestionBlock[] {
-  const re = /(^|\s)(\d{1,2})\.\s/g;
-  const hits: { at: number; n: number; len: number }[] = [];
-  let m: RegExpExecArray | null;
-  let expect = 1;
-  while ((m = re.exec(text))) {
-    const n = Number(m[2]);
-    if (n === expect) {
-      hits.push({ at: m.index + m[1].length, n, len: m[0].length - m[1].length });
-      expect++;
-    }
-  }
-  if (hits.length < 2) return splitLabelled(text);
-
-  const blocks: QuestionBlock[] = [];
-  const stem = text.slice(0, hits[0].at).trim();
-  if (stem) blocks.push({ kind: "text", text: stem });
-  hits.forEach((h, i) => {
-    const end = i + 1 < hits.length ? hits[i + 1].at : text.length;
-    let body = text.slice(h.at + h.len, end).trim();
-    let tail = "";
-    // Pull a trailing instruction ("Which of the statements given above…") off the last item.
-    if (i === hits.length - 1) {
-      const q = body.search(/\s(Which|How many|Select|Choose|Of the above|Consider|Codes?\s*:)/);
-      if (q > 0) {
-        tail = body.slice(q).trim();
-        body = body.slice(0, q).trim();
+  const hits = FAMILIES.flatMap((fam) => {
+    fam.re.lastIndex = 0;
+    const out: Marker[] = [];
+    let idx = 0;
+    let m: RegExpExecArray | null;
+    while ((m = fam.re.exec(text))) {
+      const lead = m[1] ?? m[3] ?? "";
+      const label = m[2] ?? m[4];
+      if (label === fam.label(idx)) {
+        out.push({ at: m.index + lead.length, len: m[0].length - lead.length, label });
+        idx++;
       }
     }
-    blocks.push({ kind: "item", label: String(h.n), text: body });
+    return out.length >= 2 ? out : [];
+  }).sort((a, b) => a.at - b.at);
+  // drop overlaps (a marker inside another marker's span)
+  const marks: Marker[] = [];
+  for (const h of hits) if (!marks.length || h.at >= marks[marks.length - 1].at + marks[marks.length - 1].len) marks.push(h);
+  if (marks.length < 2) return splitLabelled(text);
+
+  const blocks: QuestionBlock[] = [];
+  let stem = text.slice(0, marks[0].at).trim();
+  const sh = stem.match(HEADING);
+  if (sh && sh.index! > 0) {
+    blocks.push({ kind: "text", text: stem.slice(0, sh.index!).trim() });
+    stem = sh[1].trim();
+  }
+  if (stem) blocks.push({ kind: "text", text: stem });
+  marks.forEach((h, i) => {
+    const end = i + 1 < marks.length ? marks[i + 1].at : text.length;
+    let body = text.slice(h.at + h.len, end).trim();
+    let tail = "";
+    let heading = "";
+    // a caption such as "List-II" at the end of an item belongs to the next group, not to this item
+    const hm = i + 1 < marks.length ? body.match(HEADING) : null;
+    if (hm) {
+      heading = hm[1].trim();
+      body = body.slice(0, body.length - hm[0].length).trim();
+    }
+    // pull a trailing instruction ("Identify the incorrect statement(s):") off the last item
+    if (i === marks.length - 1) {
+      const t = body.match(TAIL) ?? body.match(TAIL_LOOSE);
+      if (t && t.index! > 0) {
+        tail = body.slice(t.index!).trim();
+        body = body.slice(0, t.index!).trim();
+      }
+    }
+    blocks.push({ kind: "item", label: h.label, text: body });
+    if (heading) blocks.push({ kind: "text", text: heading });
     if (tail) blocks.push({ kind: "text", text: tail });
   });
   return blocks;
