@@ -4,7 +4,8 @@ import { AnimatePresence, motion } from "framer-motion";
 import { BookmarkCheck, Check, ChevronDown, Eye, Play, RefreshCw, RotateCcw, Shuffle } from "lucide-react";
 import { useMemo, useState } from "react";
 import { examById } from "@/content/catalog";
-import { useBank, useQuestions, type LoadedBank } from "@/lib/bank";
+import { useQuestions, type LoadedBank } from "@/lib/bank";
+import { useExamBank } from "@/lib/useExamBank";
 import { LETTERS } from "@/lib/format";
 import { shuffle } from "@/lib/random";
 import { dueLabel, inRevision, isDue } from "@/lib/srs";
@@ -20,7 +21,7 @@ const DECK_SIZE = 20;
 
 export function LearnScreen() {
   const hydrated = useHydrated();
-  const { bank } = useBank();
+  const { bank } = useExamBank();
   const bookmarks = useApp((s) => s.bookmarks);
   const qstats = useApp((s) => s.qstats);
   const [tab, setTab] = useState<Tab>("cards");

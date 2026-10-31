@@ -1,4 +1,4 @@
-import { readFileSync } from "node:fs";
+import { readdirSync, readFileSync } from "node:fs";
 import { beforeAll, beforeEach, describe, expect, it } from "vitest";
 import { loadBank, loadQuestions, setBankFetcher, type LoadedBank } from "@/lib/bank";
 import { splitStatements } from "@/lib/format";
@@ -31,8 +31,13 @@ describe("scoring", () => {
 
 describe("test builders", () => {
   it("publishes every source question, with live ones split by topic", () => {
-    expect(byId.size).toBe(source.length);
-    expect(bank.topics).toHaveLength(12); // "Ecosystem" merged into "Ecology & Ecosystem"
+    const authored = readdirSync("content/authored").reduce(
+      (n, f) => n + JSON.parse(readFileSync(`content/authored/${f}`, "utf8")).questions.length,
+      0,
+    );
+    expect(byId.size).toBe(source.length + authored);
+    // "Ecosystem" is merged into "Ecology & Ecosystem": 12 source topics remain for Environment.
+    expect(new Set(source.map((q) => q.topic === "Ecosystem" ? "Ecology & Ecosystem" : q.topic)).size).toBe(12);
     expect(bank.total).toBe(bank.allActive.length);
     expect(new Set(bank.allActive).size).toBe(bank.total);
   });
@@ -45,6 +50,10 @@ describe("test builders", () => {
     const m = fullMock(bank, "appsc");
     expect(new Set(m.qids).size).toBe(50);
     expect(new Set(m.qids.map((id) => byId.get(id)!.topic)).size).toBeGreaterThan(8);
+    // Equal seats per subject: no subject should dominate a multi-subject mock.
+    const per = new Map<string, number>();
+    for (const id of m.qids) per.set(bank.topicOf.get(id)!.subject, (per.get(bank.topicOf.get(id)!.subject) ?? 0) + 1);
+    expect(Math.max(...per.values())).toBeLessThanOrEqual(Math.ceil(50 / per.size) + 1);
     expect(m.qids.every(bank.isActive)).toBe(true);
   });
   it("daily quiz is deterministic per day", () => {
@@ -153,9 +162,19 @@ describe("content corrections", () => {
   const live = () => bank.allActive.map((id) => byId.get(id)!);
   it("never changes a keyed answer (beyond stripping watermarks)", () => {
     for (const src of source) {
+      if (fixes.overrides?.[src.id]) continue; // reviewed rewrites are checked below
       const out = byId.get(src.id)!;
       const strip = (x: string) => x.replace(/\s*\b\d{0,3}\s*YCT\b/g, "").replace(/\s+/g, " ").trim();
       expect(strip(out.options[out.answerIndex]), `id ${src.id}`).toBe(strip(src.options[src.answerIndex]));
+    }
+  });
+  it("applies every editorial override and puts the question back in play", () => {
+    for (const [id, o] of Object.entries(fixes.overrides as Record<string, { question?: string; answerIndex?: number }>)) {
+      const q = byId.get(Number(id))!;
+      expect(bank.isActive(Number(id))).toBe(true);
+      expect(q.revised).toBeTruthy();
+      if (o.question) expect(q.question).toBe(o.question);
+      if (o.answerIndex != null) expect(q.answerIndex).toBe(o.answerIndex);
     }
   });
   it("keeps withdrawn questions out of every live pool", () => {
@@ -169,6 +188,28 @@ describe("content corrections", () => {
       expect([q.question, ...q.options, q.explanation, q.source].join(" ")).not.toMatch(/\bYCT\b|TCPDF/);
       expect(q.options.some((o) => /question not attempt/i.test(o))).toBe(false);
     }
+  });
+});
+
+describe("authored questions", () => {
+  it("belong to catalog subjects and syllabus units, with unique ids", async () => {
+    const { SUBJECTS } = await import("@/content/catalog");
+    for (const t of bank.topics) {
+      expect(SUBJECTS[t.subject], `subject ${t.subject}`).toBeTruthy();
+      if (t.subject !== "env" && t.unit != null) {
+        expect(SUBJECTS[t.subject].units[t.unit - 1]?.title, `${t.subject} unit ${t.unit}`).toBe(t.name);
+      }
+    }
+    const ids = bank.topics.flatMap((t) => t.all);
+    expect(new Set(ids).size).toBe(ids.length);
+  });
+  it("cover more than one subject and scope by exam", async () => {
+    const { scopeBank } = await import("@/lib/bank");
+    const { subjectsForExam } = await import("@/content/catalog");
+    expect(bank.subjects.length).toBeGreaterThan(5);
+    const g2 = scopeBank(bank, subjectsForExam("group2").map((s) => s.id));
+    expect(g2.topics.every((t) => subjectsForExam("group2").some((s) => s.id === t.subject))).toBe(true);
+    expect(g2.topics.some((t) => t.subject === "engg-core")).toBe(false);
   });
 });
 

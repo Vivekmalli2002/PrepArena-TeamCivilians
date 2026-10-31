@@ -1,0 +1,424 @@
+{
+ "subject": {
+  "id": "engg-core",
+  "name": "SOM, Fluid Mechanics & Materials"
+ },
+ "questions": [
+  {
+   "id": 90001,
+   "topic": "Engineering mechanics, stresses, SFD/BMD & bending",
+   "unit": 1,
+   "question": "A steel bar 2 m long and 500 mm² in cross-section carries an axial tensile load of 100 kN. If E = 200 GPa, the elongation is",
+   "options": [
+    "2 mm",
+    "0.2 mm",
+    "1 mm",
+    "20 mm"
+   ],
+   "answerIndex": 0,
+   "explanation": "δ = PL/AE = (100×10³ × 2000)/(500 × 2×10⁵) = 2 mm. (Mixing up GPa and MPa gives 0.2 or 20.)",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 90002,
+   "topic": "Engineering mechanics, stresses, SFD/BMD & bending",
+   "unit": 1,
+   "question": "For a material with E = 200 GPa and Poisson's ratio 0.3, the bulk modulus K is about",
+   "options": [
+    "142.86 GPa",
+    "166.67 GPa",
+    "51.28 GPa",
+    "76.92 GPa"
+   ],
+   "answerIndex": 1,
+   "explanation": "K = E/3(1 − 2ν) = 200/(3 × 0.4) ≈ 166.67 GPa. (E/2(1 + ν) ≈ 76.92 GPa is the shear modulus G.)",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 90003,
+   "topic": "Engineering mechanics, stresses, SFD/BMD & bending",
+   "unit": 1,
+   "question": "A simply supported beam of span 6 m carries a uniformly distributed load of 10 kN/m over the whole span. The maximum bending moment is",
+   "options": [
+    "30 kN·m",
+    "90 kN·m",
+    "180 kN·m",
+    "45 kN·m"
+   ],
+   "answerIndex": 3,
+   "explanation": "M_max = wL²/8 = 10 × 36/8 = 45 kN·m at mid-span. (wL²/2 = 180 is the cantilever value; wL²/12 = 30 is the fixed-end moment.)",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 90004,
+   "topic": "Engineering mechanics, stresses, SFD/BMD & bending",
+   "unit": 1,
+   "question": "A rectangular beam section 200 mm wide and 300 mm deep is subjected to a bending moment of 45 kN·m. The maximum bending stress is",
+   "options": [
+    "7.5 N/mm²",
+    "15 N/mm²",
+    "22.5 N/mm²",
+    "30 N/mm²"
+   ],
+   "answerIndex": 1,
+   "explanation": "Z = bd²/6 = 200 × 300²/6 = 3×10⁶ mm³; σ = M/Z = 45×10⁶/3×10⁶ = 15 N/mm².",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 90005,
+   "topic": "Engineering mechanics, stresses, SFD/BMD & bending",
+   "unit": 1,
+   "question": "For a beam of rectangular cross-section, the ratio of maximum shear stress to average shear stress is",
+   "options": [
+    "1.33",
+    "1.0",
+    "2.0",
+    "1.5"
+   ],
+   "answerIndex": 3,
+   "explanation": "τ_max = 1.5 τ_avg for a rectangle (at the neutral axis). For a solid circular section it is 4/3 ≈ 1.33.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 90006,
+   "topic": "Engineering mechanics, stresses, SFD/BMD & bending",
+   "unit": 1,
+   "question": "A point of contraflexure is most likely to occur in",
+   "options": [
+    "a simply supported beam with a central point load",
+    "an overhanging beam",
+    "a cantilever with a point load at the free end",
+    "a simply supported beam with a uniformly distributed load"
+   ],
+   "answerIndex": 1,
+   "explanation": "Contraflexure is where the bending moment changes sign. In an overhanging beam the moment is sagging between the supports and hogging over the overhang, so it passes through zero.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 90007,
+   "topic": "Engineering mechanics, stresses, SFD/BMD & bending",
+   "unit": 1,
+   "question": "Assertion (A): The stress produced by a suddenly applied load is twice that produced by the same load applied gradually. Reason (R): For a suddenly applied load, the work done by the load (P × δ) equals the strain energy stored (½ × σ × A × δ).",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is not the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answerIndex": 0,
+   "explanation": "Both are true and R explains A: Pδ = ½σAδ gives σ = 2P/A, twice the gradual-loading value P/A.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 90008,
+   "topic": "Principal stresses, columns, torsion, springs & shells",
+   "unit": 2,
+   "question": "At a point, σx = 80 MPa, σy = 20 MPa and τxy = 40 MPa. The principal stresses are",
+   "options": [
+    "100 MPa and 0 MPa",
+    "120 MPa and −20 MPa",
+    "80 MPa and 20 MPa",
+    "90 MPa and 10 MPa"
+   ],
+   "answerIndex": 0,
+   "explanation": "σ₁,₂ = (σx + σy)/2 ± √[((σx − σy)/2)² + τ²] = 50 ± √(30² + 40²) = 50 ± 50, giving 100 and 0 MPa. Maximum shear stress = 50 MPa.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 90009,
+   "topic": "Principal stresses, columns, torsion, springs & shells",
+   "unit": 2,
+   "question": "Compared with the same column hinged at both ends, the Euler crippling load of a column fixed at both ends is",
+   "options": [
+    "2 times",
+    "4 times",
+    "¼ times",
+    "½ times"
+   ],
+   "answerIndex": 1,
+   "explanation": "Effective length: both ends hinged — L; both fixed — L/2. Since P = π²EI/Le², halving Le multiplies P by 4. A column fixed at one end and free at the other (Le = 2L) carries ¼ of the hinged load.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 90010,
+   "topic": "Principal stresses, columns, torsion, springs & shells",
+   "unit": 2,
+   "question": "The Euler crippling load of a 3 m long column, hinged at both ends, with E = 200 GPa and least I = 8 × 10⁶ mm⁴, is about",
+   "options": [
+    "3509.19 kN",
+    "1754.6 kN",
+    "438.65 kN",
+    "7018.39 kN"
+   ],
+   "answerIndex": 1,
+   "explanation": "P = π²EI/L² = π² × 2×10⁵ × 8×10⁶ / 3000² ≈ 1755 kN.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 90011,
+   "topic": "Principal stresses, columns, torsion, springs & shells",
+   "unit": 2,
+   "question": "A solid circular shaft of 50 mm diameter transmits a torque of 1 kN·m. The maximum shear stress is about",
+   "options": [
+    "20.37 N/mm²",
+    "81.49 N/mm²",
+    "162.97 N/mm²",
+    "40.74 N/mm²"
+   ],
+   "answerIndex": 3,
+   "explanation": "τ = 16T/πd³ = 16 × 10⁶/(π × 50³) ≈ 40.7 N/mm².",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 90012,
+   "topic": "Principal stresses, columns, torsion, springs & shells",
+   "unit": 2,
+   "question": "A shaft running at 300 rpm transmits a torque of 1.5 kN·m. The power transmitted is about",
+   "options": [
+    "7.5 kW",
+    "47.12 kW",
+    "2827.43 kW",
+    "94.25 kW"
+   ],
+   "answerIndex": 1,
+   "explanation": "P = 2πNT/60 = 2π × 300 × 1.5/60 ≈ 47.1 kW.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 90013,
+   "topic": "Principal stresses, columns, torsion, springs & shells",
+   "unit": 2,
+   "question": "A thin cylindrical shell of 1 m diameter and 10 mm wall thickness is subjected to an internal pressure of 2 MPa. The circumferential (hoop) stress is",
+   "options": [
+    "25 MPa",
+    "100 MPa",
+    "50 MPa",
+    "200 MPa"
+   ],
+   "answerIndex": 1,
+   "explanation": "σ_c = pd/2t = 2 × 1000/(2 × 10) = 100 MPa. The longitudinal stress pd/4t = 50 MPa is half of it.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 90014,
+   "topic": "Fluid statics, kinematics, dynamics & pipe flow",
+   "unit": 3,
+   "question": "The gauge pressure at a depth of 10 m in fresh water (ρ = 1000 kg/m³, g = 9.81 m/s²) is",
+   "options": [
+    "199.4 kPa",
+    "10 kPa",
+    "98.1 kPa",
+    "9.81 kPa"
+   ],
+   "answerIndex": 2,
+   "explanation": "p = ρgh = 1000 × 9.81 × 10 = 98,100 Pa = 98.1 kPa (gauge). Adding atmospheric pressure (≈101.3 kPa) would give absolute pressure.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 90015,
+   "topic": "Fluid statics, kinematics, dynamics & pipe flow",
+   "unit": 3,
+   "question": "The pressure of 760 mm of mercury (relative density 13.6) expressed as a head of water is about",
+   "options": [
+    "7.6 m",
+    "10.34 m",
+    "13.6 m",
+    "0.76 m"
+   ],
+   "answerIndex": 1,
+   "explanation": "h_w = 13.6 × 0.76 ≈ 10.34 m of water.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 90016,
+   "topic": "Fluid statics, kinematics, dynamics & pipe flow",
+   "unit": 3,
+   "question": "For a vertical rectangular plane surface whose top edge lies at the free water surface, the centre of pressure is located at a depth of (H = height of the plane)",
+   "options": [
+    "H/2",
+    "H/3",
+    "3H/4",
+    "2H/3"
+   ],
+   "answerIndex": 3,
+   "explanation": "h_cp = h̄ + I_G/(A h̄) = H/2 + (bH³/12)/(bH × H/2) = H/2 + H/6 = 2H/3. The centre of pressure is always below the centroid.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 90017,
+   "topic": "Fluid statics, kinematics, dynamics & pipe flow",
+   "unit": 3,
+   "question": "Water flows through a pipe that reduces from 200 mm to 100 mm diameter. If the velocity in the larger pipe is 2 m/s, the velocity in the smaller pipe is",
+   "options": [
+    "16 m/s",
+    "1 m/s",
+    "4 m/s",
+    "8 m/s"
+   ],
+   "answerIndex": 3,
+   "explanation": "By continuity, A₁V₁ = A₂V₂ and A ∝ d², so V₂ = 2 × (200/100)² = 8 m/s.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 90018,
+   "topic": "Fluid statics, kinematics, dynamics & pipe flow",
+   "unit": 3,
+   "question": "Water (kinematic viscosity 1 × 10⁻⁶ m²/s) flows at 0.5 m/s in a 50 mm pipe. The flow is",
+   "options": [
+    "turbulent (Re = 25,000)",
+    "laminar (Re = 2,500)",
+    "laminar (Re = 1,250)",
+    "in transition (Re = 2,500)"
+   ],
+   "answerIndex": 0,
+   "explanation": "Re = VD/ν = 0.5 × 0.05/10⁻⁶ = 25,000 — far above about 4,000, so the flow is turbulent. Pipe flow is laminar below about 2,000.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 90019,
+   "topic": "Fluid statics, kinematics, dynamics & pipe flow",
+   "unit": 3,
+   "question": "Using Darcy–Weisbach with f = 0.02, the head loss in a 100 m long pipe of 100 mm diameter carrying water at 2 m/s is about",
+   "options": [
+    "4.08 m",
+    "16.31 m",
+    "2.04 m",
+    "1.02 m"
+   ],
+   "answerIndex": 0,
+   "explanation": "h_f = fLV²/2gD = 0.02 × 100 × 4/(2 × 9.81 × 0.1) ≈ 4.08 m. (Here f is the Darcy friction factor; with Fanning's f the formula is 4fLV²/2gD.)",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 90020,
+   "topic": "Fluid statics, kinematics, dynamics & pipe flow",
+   "unit": 3,
+   "question": "Match the device with what it measures: A. Venturimeter B. Pitot tube C. Piezometer D. Rotameter — 1. Velocity at a point 2. Discharge in a pipe (by pressure difference) 3. Static pressure (low, gauge) 4. Discharge (variable-area)",
+   "options": [
+    "A-2, B-1, C-3, D-4",
+    "A-1, B-2, C-3, D-4",
+    "A-2, B-1, C-4, D-3",
+    "A-4, B-1, C-3, D-2"
+   ],
+   "answerIndex": 0,
+   "explanation": "Venturimeter — discharge from the pressure difference across a throat; Pitot tube — point velocity from stagnation pressure; piezometer — small gauge pressures; rotameter — variable-area flow meter.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 90021,
+   "topic": "Fluid statics, kinematics, dynamics & pipe flow",
+   "unit": 3,
+   "question": "For fully developed laminar flow in a circular pipe, the ratio of maximum velocity to mean velocity is",
+   "options": [
+    "1.2",
+    "1.5",
+    "2.0",
+    "1.0"
+   ],
+   "answerIndex": 2,
+   "explanation": "The Hagen–Poiseuille profile is parabolic with u_max = 2 × u_mean. For turbulent flow the profile is flatter, with u_max ≈ 1.2 × u_mean.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 90022,
+   "topic": "Fluid statics, kinematics, dynamics & pipe flow",
+   "unit": 3,
+   "question": "A floating body is in stable equilibrium when its metacentre is",
+   "options": [
+    "coincident with its centre of gravity",
+    "above its centre of gravity",
+    "below its centre of gravity",
+    "coincident with its centre of buoyancy"
+   ],
+   "answerIndex": 1,
+   "explanation": "Positive metacentric height (GM > 0) means a restoring couple when the body tilts. M coinciding with G is neutral; M below G is unstable.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 90023,
+   "topic": "Hydraulic turbines, pumps & hydro plants",
+   "unit": 4,
+   "question": "Match the turbine with its typical application: A. Pelton wheel B. Francis turbine C. Kaplan turbine — 1. Medium head, medium discharge (mixed flow) 2. High head, low discharge (impulse) 3. Low head, high discharge (axial flow)",
+   "options": [
+    "A-2, B-1, C-3",
+    "A-1, B-2, C-3",
+    "A-3, B-1, C-2",
+    "A-2, B-3, C-1"
+   ],
+   "answerIndex": 0,
+   "explanation": "Pelton — impulse turbine for high heads; Francis — mixed-flow reaction turbine for medium heads; Kaplan — axial-flow reaction turbine with adjustable blades for low heads and large flows.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 90024,
+   "topic": "Hydraulic turbines, pumps & hydro plants",
+   "unit": 4,
+   "question": "The specific speed of a hydraulic turbine is given by",
+   "options": [
+    "N√Q / H^(3/4)",
+    "N√P / H^(5/4)",
+    "N√Q / H^(5/4)",
+    "N√P / H^(3/4)"
+   ],
+   "answerIndex": 1,
+   "explanation": "Turbine: Ns = N√P/H^(5/4) (based on power). Centrifugal pump: Ns = N√Q/H^(3/4) (based on discharge). Mixing up the two is the common trap.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 90025,
+   "topic": "Hydraulic turbines, pumps & hydro plants",
+   "unit": 4,
+   "question": "Cavitation in a hydraulic machine occurs when",
+   "options": [
+    "the liquid temperature falls below its freezing point",
+    "the local pressure exceeds atmospheric pressure",
+    "the velocity of flow becomes zero",
+    "the local pressure falls below the vapour pressure of the liquid"
+   ],
+   "answerIndex": 3,
+   "explanation": "Vapour bubbles form where pressure drops below vapour pressure and collapse violently in higher-pressure zones, pitting the blades. Draft-tube design and adequate NPSH prevent it.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 90026,
+   "topic": "Hydraulic turbines, pumps & hydro plants",
+   "unit": 4,
+   "question": "The main function of a draft tube in a reaction turbine is to",
+   "options": [
+    "prevent water hammer in the penstock",
+    "regulate the flow into the runner",
+    "increase the pressure at the inlet of the runner",
+    "recover kinetic energy at exit and allow the turbine to be set above the tail-race"
+   ],
+   "answerIndex": 3,
+   "explanation": "The diverging draft tube converts exit kinetic energy into pressure energy (raising the effective head) and lets the runner be placed above the tail-water level without losing head.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  }
+ ]
+}

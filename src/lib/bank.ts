@@ -22,9 +22,16 @@ export interface TopicInfo {
   count: number;
 }
 
+export interface SubjectInfo {
+  id: string;
+  name: string;
+  /** Live questions in this subject. */
+  total: number;
+}
+
 export interface BankIndex {
   version: string;
-  subject: { id: string; name: string };
+  subjects: SubjectInfo[];
   meta: { name: string; subject: string; note?: string };
   total: number;
   topics: TopicInfo[];
@@ -35,6 +42,21 @@ export interface LoadedBank extends BankIndex {
   /** All live ids in topic order. */
   allActive: number[];
   isActive: (id: number) => boolean;
+}
+
+/**
+ * Restricts a bank to some subjects (e.g. those in the student's exam). Question lookups
+ * (`topicOf`) stay global so results and revision of other subjects still resolve.
+ */
+export function scopeBank(bank: LoadedBank, subjectIds: string[]): LoadedBank {
+  const keep = new Set(subjectIds);
+  const topics = bank.topics.filter((t) => keep.has(t.subject));
+  const subjects = bank.subjects.filter((s) => keep.has(s.id));
+  // Never scope down to nothing: fall back to the full bank.
+  if (!topics.length) return bank;
+  const allActive = topics.flatMap((t) => t.qids);
+  const active = new Set(allActive);
+  return { ...bank, subjects, topics, allActive, total: allActive.length, isActive: (id) => active.has(id) };
 }
 
 export function indexBank(raw: Omit<BankIndex, "topics"> & { topics: Omit<TopicInfo, "count">[] }): LoadedBank {

@@ -3,7 +3,7 @@
 // Hard schema errors fail the build. `--audit` also writes docs/content-audit.md.
 // The source file is never modified; every change is driven by corrections.json and reported.
 import { createHash } from "node:crypto";
-import { mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -11,6 +11,7 @@ const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const SRC = join(root, "content/team-civilians-questions.json");
 const FIX = join(root, "content/corrections.json");
 const OUT = join(root, "public/data");
+const AUTHORED = join(root, "content/authored");
 const SUBJECT = { id: "env", name: "Environmental Science & Ecology" };
 // Keep in sync with ENV_TOPIC_UNITS in src/content/catalog.ts (syllabus unit per topic).
 const UNITS = {
@@ -101,9 +102,25 @@ const corrected = raw.map((q) => {
   }
   return c;
 });
+// Editorial overrides: a reviewed rewrite of a broken question (stem, options and/or key).
+const overrides = fixes.overrides ?? {};
+for (const [id, o] of Object.entries(overrides)) {
+  const c = corrected.find((q) => q.id === Number(id));
+  if (!c) {
+    console.error(`corrections.json: override for unknown id ${id}`);
+    process.exit(1);
+  }
+  if (fixes.quarantine[id]) {
+    console.error(`corrections.json: id ${id} is both overridden and quarantined — remove it from quarantine`);
+    process.exit(1);
+  }
+  for (const k of ["question", "options", "answerIndex", "explanation", "topic", "source"]) if (o[k] !== undefined) c[k] = o[k];
+  c.revised = o.why;
+}
 validate(corrected, "corrected");
-// The keyed answer text must survive corrections unchanged (apart from stripped watermarks).
+// The keyed answer text must survive automatic corrections unchanged (overrides are reviewed rewrites).
 for (let i = 0; i < raw.length; i++) {
+  if (overrides[raw[i].id]) continue;
   if (clean(raw[i].options[raw[i].answerIndex]) !== corrected[i].options[corrected[i].answerIndex]) {
     console.error(`Correction changed the keyed answer of id ${raw[i].id}`);
     process.exit(1);
@@ -137,27 +154,62 @@ if (unhandled.length) {
 }
 
 /* ---------------- 4. publish: index + one file per topic ---------------- */
-const version = createHash("sha256").update(rawText).update(fixText).digest("hex").slice(0, 12);
+/* ---------------- 4a. authored subjects (content/authored/*.json) ---------------- */
+// Original questions written for subjects the source bank does not cover. Same schema, plus
+// a per-file subject and an optional per-question `unit` (syllabus unit number in catalog.ts).
+const authoredFiles = existsSync(AUTHORED) ? readdirSync(AUTHORED).filter((f) => f.endsWith(".json")).sort() : [];
+const authoredText = authoredFiles.map((f) => readFileSync(join(AUTHORED, f), "utf8"));
+const subjects = new Map([[SUBJECT.id, { ...SUBJECT }]]);
+const subjectOf = new Map(corrected.map((q) => [q.id, SUBJECT.id]));
+const unitOf = new Map(corrected.map((q) => [q.id, UNITS[q.topic] ?? null]));
+const authored = [];
+authoredFiles.forEach((f, i) => {
+  const file = JSON.parse(authoredText[i]);
+  if (!file.subject?.id || !file.subject?.name || !Array.isArray(file.questions)) {
+    console.error(`${f}: needs { subject: { id, name }, questions: [...] }`);
+    process.exit(1);
+  }
+  validate(file.questions, f);
+  subjects.set(file.subject.id, file.subject);
+  for (const q of file.questions) {
+    if (subjectOf.has(q.id)) {
+      console.error(`${f}: id ${q.id} already used`);
+      process.exit(1);
+    }
+    subjectOf.set(q.id, file.subject.id);
+    unitOf.set(q.id, Number.isInteger(q.unit) ? q.unit : null);
+    const { unit, ...rest } = q; // eslint-disable-line no-unused-vars
+    authored.push(rest);
+  }
+});
+const all = [...corrected, ...authored];
+
+const version = createHash("sha256").update(rawText).update(fixText).update(authoredText.join("")).digest("hex").slice(0, 12);
 const slug = (s) => s.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const byTopic = new Map();
-for (const q of corrected) byTopic.set(q.topic, [...(byTopic.get(q.topic) ?? []), q]);
+for (const q of all) {
+  const k = `${subjectOf.get(q.id)}\u0000${q.topic}`;
+  byTopic.set(k, [...(byTopic.get(k) ?? []), q]);
+}
 
 rmSync(OUT, { recursive: true, force: true });
 mkdirSync(join(OUT, "q"), { recursive: true });
 const topics = [];
-for (const [name, qs] of [...byTopic].sort((a, b) => b[1].length - a[1].length)) {
+for (const [key, qs] of [...byTopic].sort((a, b) => b[1].length - a[1].length)) {
+  const [subject, name] = key.split("\u0000");
   const out = qs.map((q) => {
     if (quarantine[q.id]) return { ...q, status: "withdrawn", note: quarantine[q.id] };
     if (duplicateOf[q.id]) return { ...q, status: "duplicate", note: `Same as #${duplicateOf[q.id]}` };
     return q;
   });
   const body = JSON.stringify(out);
-  const file = `q/${slug(name)}.${createHash("sha256").update(body).digest("hex").slice(0, 10)}.json`;
+  const file = `q/${subject}/${slug(name)}.${createHash("sha256").update(body).digest("hex").slice(0, 10)}.json`;
+  mkdirSync(join(OUT, "q", subject), { recursive: true });
   writeFileSync(join(OUT, file), body);
   topics.push({
     name,
-    subject: SUBJECT.id,
-    unit: UNITS[name] ?? null,
+    subject,
+    unit: unitOf.get(qs[0].id) ?? null,
     file,
     qids: out.filter((q) => !q.status).map((q) => q.id),
     all: out.map((q) => q.id),
@@ -168,11 +220,16 @@ for (const [name, qs] of [...byTopic].sort((a, b) => b[1].length - a[1].length))
   });
 }
 const active = topics.reduce((n, t) => n + t.qids.length, 0);
-writeFileSync(join(OUT, "index.json"), JSON.stringify({ version, subject: SUBJECT, meta: bank.meta, total: active, topics }));
+const subjectList = [...subjects.values()].map((s) => ({
+  ...s,
+  total: topics.filter((t) => t.subject === s.id).reduce((n, t) => n + t.qids.length, 0),
+}));
+writeFileSync(join(OUT, "index.json"), JSON.stringify({ version, subjects: subjectList, meta: bank.meta, total: active, topics }));
 console.log(
   `content v${version}: ${raw.length} questions → ${active} active in ${topics.length} topics ` +
     `(${Object.keys(quarantine).length} withdrawn, ${Object.keys(duplicateOf).length} duplicates hidden; ` +
-    `${log.stripped.length} cleaned, ${log.droppedOption.length} option-E removed, ${log.renamedTopic.length} re-topiced)`,
+    `${log.stripped.length} cleaned, ${log.droppedOption.length} option-E removed, ${log.renamedTopic.length} re-topiced, ` +
+    `${Object.keys(overrides).length} revised; ${authored.length} authored in ${authoredFiles.length} subject files)`,
 );
 
 if (process.argv.includes("--audit")) writeAudit();
@@ -224,6 +281,20 @@ function writeAudit() {
     `- **Option E \"Question not attempted\" removed** from ${log.droppedOption.length}: ${log.droppedOption.join(", ")} (never the keyed answer).`,
     `- **Topic merged** for ${log.renamedTopic.length}: ${Object.entries(fixes.topicAliases).map(([a, b]) => `\`${a}\` → \`${b}\``).join(", ")}.`,
     "- The build fails if any correction would change a keyed answer.",
+    "",
+    "## Original questions (content/authored/) — awaiting editor sign-off",
+    "",
+    "Written for subjects the source bank does not cover; keys are generated from answer text and numericals are computed by the scripts in scripts/authoring/.",
+    "",
+    "| Subject | Questions |",
+    "|---|---|",
+    ...[...subjects.values()].map((sj) => `| ${sj.name} | ${authored.filter((q) => subjectOf.get(q.id) === sj.id).length} |`).filter((r) => !r.endsWith("| 0 |")),
+    "",
+    "## Revised by the editor (`overrides`)",
+    "",
+    "| id | change |",
+    "|---|---|",
+    ...Object.entries(overrides).map(([id, o]) => `| ${id} | ${pipe(o.why)} |`),
     "",
     "## Withdrawn for editing (excluded from tests and flashcards)",
     "",

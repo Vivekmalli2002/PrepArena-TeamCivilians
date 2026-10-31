@@ -1,0 +1,296 @@
+{
+ "subject": {
+  "id": "env",
+  "name": "Environmental Science & Ecology"
+ },
+ "questions": [
+  {
+   "id": 10001,
+   "topic": "Environmental pollution & control technologies",
+   "unit": 4,
+   "question": "Which air pollution control device is most efficient (often above 99%) for removing fine particulate matter from large volumes of flue gas in thermal power plants?",
+   "options": [
+    "Electrostatic precipitator",
+    "Gravity settling chamber",
+    "Packed-bed wet scrubber",
+    "Cyclone separator"
+   ],
+   "answerIndex": 0,
+   "explanation": "ESPs charge particles and collect them on plates, achieving very high efficiencies even for sub-micron particles. Cyclones and settling chambers are effective mainly for coarse particles.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 10002,
+   "topic": "Environmental pollution & control technologies",
+   "unit": 4,
+   "question": "Consider the following statements about BOD and COD: 1. COD is usually higher than BOD for the same wastewater. 2. BOD is conventionally measured over 5 days at 20 °C. 3. A high BOD/COD ratio indicates that the waste is readily biodegradable. Which of the above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answerIndex": 3,
+   "explanation": "COD oxidises both biodegradable and non-biodegradable matter chemically, so COD ≥ BOD. BOD₅ at 20 °C is the standard test. A BOD/COD ratio above about 0.5 suggests good biodegradability.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 10003,
+   "topic": "Environmental pollution & control technologies",
+   "unit": 4,
+   "question": "In the activated sludge process, a part of the settled sludge is returned to the aeration tank in order to",
+   "options": [
+    "reduce the dissolved oxygen in the tank",
+    "disinfect the effluent",
+    "remove grit from the influent",
+    "maintain a high concentration of active microorganisms (MLSS)"
+   ],
+   "answerIndex": 3,
+   "explanation": "Return activated sludge keeps the mixed-liquor suspended solids, and so the food-to-microorganism (F/M) ratio, in the desired range. Excess sludge is wasted to sludge treatment.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 10004,
+   "topic": "Environmental pollution & control technologies",
+   "unit": 4,
+   "question": "Match the wastewater treatment unit with the stage it belongs to: A. Screens and grit chamber B. Primary clarifier C. Trickling filter D. Chlorination — 1. Secondary (biological) treatment 2. Preliminary treatment 3. Disinfection 4. Primary treatment",
+   "options": [
+    "A-2, B-4, C-1, D-3",
+    "A-4, B-2, C-1, D-3",
+    "A-2, B-1, C-4, D-3",
+    "A-2, B-4, C-3, D-1"
+   ],
+   "answerIndex": 0,
+   "explanation": "Screens and grit chambers are preliminary; primary clarifiers remove settleable solids; trickling filters (attached growth) and activated sludge (suspended growth) are secondary biological processes; chlorination disinfects.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 10005,
+   "topic": "Environmental pollution & control technologies",
+   "unit": 4,
+   "question": "Under the National Ambient Air Quality Standards (2009), the annual average limit for PM2.5 in residential and industrial areas is",
+   "options": [
+    "100 µg/m³",
+    "40 µg/m³",
+    "60 µg/m³",
+    "50 µg/m³"
+   ],
+   "answerIndex": 1,
+   "explanation": "NAAQS 2009 cover 12 pollutants. PM2.5: 40 µg/m³ (annual) and 60 µg/m³ (24-hour); PM10: 60 (annual) and 100 (24-hour).",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 10006,
+   "topic": "Environmental pollution & control technologies",
+   "unit": 4,
+   "question": "As per the Noise Pollution (Regulation and Control) Rules, 2000, the ambient noise limits for a residential area are",
+   "options": [
+    "75 dB(A) by day and 70 dB(A) by night",
+    "55 dB(A) by day and 45 dB(A) by night",
+    "50 dB(A) by day and 40 dB(A) by night",
+    "65 dB(A) by day and 55 dB(A) by night"
+   ],
+   "answerIndex": 1,
+   "explanation": "Limits (day/night, dB(A) Leq): industrial 75/70, commercial 65/55, residential 55/45, silence zone 50/40. Day time is 6 a.m. to 10 p.m.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 10007,
+   "topic": "Environmental pollution & control technologies",
+   "unit": 4,
+   "question": "The Indian Standard for drinking water specification is",
+   "options": [
+    "IS 3025",
+    "IS 10500",
+    "IS 800",
+    "IS 456"
+   ],
+   "answerIndex": 1,
+   "explanation": "IS 10500:2012 specifies drinking water quality. IS 456 is the code for plain and reinforced concrete, IS 800 for steel structures, and IS 3025 covers methods of sampling and testing water.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 10008,
+   "topic": "Solid, industrial & e-waste management",
+   "unit": 5,
+   "question": "Under the Bio-Medical Waste Management Rules, 2016, match the colour of container with the waste it receives: A. Yellow B. Red C. White (translucent) D. Blue — 1. Contaminated recyclable plastic waste (tubing, bottles, catheters) 2. Waste sharps including metals 3. Glassware 4. Human anatomical waste, soiled waste, expired medicines",
+   "options": [
+    "A-4, B-1, C-2, D-3",
+    "A-1, B-4, C-2, D-3",
+    "A-4, B-1, C-3, D-2",
+    "A-4, B-2, C-1, D-3"
+   ],
+   "answerIndex": 0,
+   "explanation": "Yellow — anatomical and soiled waste for incineration; red — contaminated recyclable plastics; white puncture-proof containers — sharps; blue cardboard boxes — glassware.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 10009,
+   "topic": "Solid, industrial & e-waste management",
+   "unit": 5,
+   "question": "Consider the following statements: 1. The E-Waste (Management) Rules, 2022 are based on Extended Producer Responsibility (EPR). 2. The Solid Waste Management Rules, 2016 require waste generators to segregate waste into at least three streams. 3. The Hazardous and Other Wastes Rules, 2016 use a manifest system to track the movement of hazardous waste. How many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "All three",
+    "None"
+   ],
+   "answerIndex": 2,
+   "explanation": "All three are correct. The SWM Rules require segregation into biodegradable, non-biodegradable (dry) and domestic hazardous waste; the manifest system tracks hazardous waste from generator to disposal facility.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 10010,
+   "topic": "Solid, industrial & e-waste management",
+   "unit": 5,
+   "question": "In the hierarchy of solid waste management, which is the MOST preferred option?",
+   "options": [
+    "Energy recovery by incineration",
+    "Waste prevention / reduction at source",
+    "Disposal in a sanitary landfill",
+    "Recycling"
+   ],
+   "answerIndex": 1,
+   "explanation": "The hierarchy is reduce → reuse → recycle → recover (energy) → dispose. Landfill is the least preferred option.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 10011,
+   "topic": "Environmental policies, conventions & laws",
+   "unit": 7,
+   "question": "Arrange the following Indian environmental laws in chronological order of enactment: 1. Environment (Protection) Act 2. Water (Prevention and Control of Pollution) Act 3. Air (Prevention and Control of Pollution) Act 4. Wild Life (Protection) Act",
+   "options": [
+    "4, 2, 3, 1",
+    "2, 4, 3, 1",
+    "4, 3, 2, 1",
+    "2, 3, 4, 1"
+   ],
+   "answerIndex": 0,
+   "explanation": "Wild Life (Protection) Act — 1972; Water Act — 1974; Air Act — 1981; Environment (Protection) Act — 1986 (after the Bhopal gas tragedy).",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 10012,
+   "topic": "Environmental policies, conventions & laws",
+   "unit": 7,
+   "question": "The Central Pollution Control Board was originally constituted under",
+   "options": [
+    "the Environment (Protection) Act, 1986",
+    "the Water (Prevention and Control of Pollution) Act, 1974",
+    "the Forest (Conservation) Act, 1980",
+    "the Air (Prevention and Control of Pollution) Act, 1981"
+   ],
+   "answerIndex": 1,
+   "explanation": "The CPCB (initially the Central Board for the Prevention and Control of Water Pollution) was set up in 1974 under the Water Act; the Air Act, 1981 later gave it air-pollution functions too.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 10013,
+   "topic": "Environmental policies, conventions & laws",
+   "unit": 7,
+   "question": "Match the international agreement with its focus: A. Montreal Protocol (1987) B. Kigali Amendment (2016) C. Basel Convention (1989) D. Stockholm Convention (2001) — 1. Phase-down of hydrofluorocarbons (HFCs) 2. Persistent organic pollutants 3. Transboundary movement of hazardous wastes 4. Substances that deplete the ozone layer",
+   "options": [
+    "A-4, B-1, C-3, D-2",
+    "A-1, B-4, C-3, D-2",
+    "A-4, B-1, C-2, D-3",
+    "A-4, B-3, C-1, D-2"
+   ],
+   "answerIndex": 0,
+   "explanation": "Montreal — ozone-depleting substances; Kigali — HFC phase-down under the Montreal Protocol (HFCs are potent greenhouse gases, not ozone depleters); Basel — hazardous waste trade; Stockholm — POPs such as DDT and PCBs.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 10014,
+   "topic": "Environmental policies, conventions & laws",
+   "unit": 7,
+   "question": "Assertion (A): The Kigali Amendment to the Montreal Protocol is regarded as a major climate measure. Reason (R): HFCs do not deplete the ozone layer but have very high global warming potential.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is not the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answerIndex": 0,
+   "explanation": "Both are true and R explains A. HFCs replaced CFCs and HCFCs because they are ozone-safe, but their high GWP made their phase-down an important climate action — estimated to avoid up to about 0.4 °C of warming by 2100.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 10015,
+   "topic": "EIA, sustainability & social issues",
+   "unit": 8,
+   "question": "Under the EIA Notification, 2006, consider the following: 1. Category ‘A’ projects are appraised at the Central level by the Expert Appraisal Committee of MoEFCC. 2. Category ‘B’ projects are appraised by the State-level Expert Appraisal Committee and cleared by the SEIAA. 3. Public consultation is one of the four stages of the EIA process. Which of the above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answerIndex": 3,
+   "explanation": "All three are correct. The four stages are screening, scoping, public consultation and appraisal.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 10016,
+   "topic": "EIA, sustainability & social issues",
+   "unit": 8,
+   "question": "The Leopold matrix is a tool used in",
+   "options": [
+    "measuring ambient noise levels",
+    "life-cycle costing of buildings",
+    "Environmental Impact Assessment, to identify and rate project–environment interactions",
+    "designing activated sludge plants"
+   ],
+   "answerIndex": 2,
+   "explanation": "The Leopold matrix (1971) cross-tabulates about 100 project actions against about 88 environmental characteristics and scores the magnitude and importance of each impact.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 10017,
+   "topic": "EIA, sustainability & social issues",
+   "unit": 8,
+   "question": "Which of the following are Indian green building rating systems? 1. GRIHA 2. IGBC 3. LEED 4. BREEAM",
+   "options": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "answerIndex": 0,
+   "explanation": "GRIHA (developed by TERI with MNRE) and IGBC (CII) are Indian. LEED is American (USGBC) and BREEAM is British, though both are used in India.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 10018,
+   "topic": "EIA, sustainability & social issues",
+   "unit": 8,
+   "question": "Life Cycle Assessment (LCA) of a product evaluates environmental impacts",
+   "options": [
+    "only during the manufacturing stage",
+    "only during the use phase",
+    "from raw material extraction through manufacture and use to final disposal (‘cradle to grave’)",
+    "only at the time of disposal"
+   ],
+   "answerIndex": 2,
+   "explanation": "LCA (ISO 14040/44) covers the whole life cycle — goal and scope, inventory analysis, impact assessment and interpretation.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  }
+ ]
+}

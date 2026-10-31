@@ -1,0 +1,328 @@
+{
+ "subject": {
+  "id": "economy",
+  "name": "Indian & AP Economy"
+ },
+ "questions": [
+  {
+   "id": 40001,
+   "topic": "National income, growth, planning & inclusive development",
+   "unit": 1,
+   "question": "Which one of the following relations is correct?",
+   "options": [
+    "GDP at market prices = GVA at basic prices + product taxes − product subsidies",
+    "GDP at market prices = GVA at basic prices − product taxes + product subsidies",
+    "NNP = GNP + depreciation",
+    "GNP = GDP − net factor income from abroad"
+   ],
+   "answerIndex": 0,
+   "explanation": "GDP (market prices) = GVA (basic prices) + product taxes − product subsidies. NNP = GNP − depreciation, and GNP = GDP + net factor income from abroad.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 40002,
+   "topic": "National income, growth, planning & inclusive development",
+   "unit": 1,
+   "question": "Consider the following statements about NITI Aayog: 1. It replaced the Planning Commission on 1 January 2015. 2. The Prime Minister is its ex-officio Chairperson. 3. It allocates plan funds to the States. Which of the above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answerIndex": 0,
+   "explanation": "NITI Aayog is a policy think-tank promoting cooperative federalism; unlike the Planning Commission it does not allocate funds to States. Devolution now flows mainly through the Finance Commission.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 40003,
+   "topic": "National income, growth, planning & inclusive development",
+   "unit": 1,
+   "question": "Match the Five-Year Plan with the model it is chiefly associated with: A. First Plan B. Second Plan — 1. Harrod–Domar model 2. P.C. Mahalanobis model",
+   "options": [
+    "A-1, B-2",
+    "A-2, B-1",
+    "Both with the Harrod–Domar model",
+    "Both with the Mahalanobis model"
+   ],
+   "answerIndex": 0,
+   "explanation": "The First Plan (1951–56) used a Harrod–Domar framework with emphasis on agriculture; the Second Plan (1956–61) followed the Mahalanobis model with emphasis on heavy industry.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 40004,
+   "topic": "National income, growth, planning & inclusive development",
+   "unit": 1,
+   "question": "Assertion (A): The New Economic Policy of 1991 is described by the acronym ‘LPG’. Reason (R): It combined liberalisation, privatisation and globalisation, including the abolition of industrial licensing for most industries.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is not the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answerIndex": 0,
+   "explanation": "Both are true and R explains A. The 1991 Industrial Policy abolished licensing for all but a short list of industries and opened the economy to foreign investment and trade.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 40005,
+   "topic": "Money, banking, public finance, GST & trade",
+   "unit": 2,
+   "question": "Consider the following statements: 1. The Cash Reserve Ratio (CRR) is maintained by banks with the Reserve Bank of India. 2. The Statutory Liquidity Ratio (SLR) is maintained by banks in the form of liquid assets such as cash, gold and approved securities. 3. An increase in the repo rate generally makes borrowing costlier for banks. How many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "All three",
+    "None"
+   ],
+   "answerIndex": 2,
+   "explanation": "All three are correct. CRR is kept as balances with the RBI and earns no interest; SLR is maintained by banks themselves; the repo rate is the rate at which the RBI lends to banks against securities.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 40006,
+   "topic": "Money, banking, public finance, GST & trade",
+   "unit": 2,
+   "question": "Fiscal deficit is best defined as",
+   "options": [
+    "total expenditure minus revenue receipts and non-debt capital receipts",
+    "revenue expenditure minus revenue receipts",
+    "fiscal deficit minus interest payments",
+    "total expenditure minus total receipts including borrowings"
+   ],
+   "answerIndex": 0,
+   "explanation": "Fiscal deficit = total expenditure − (revenue receipts + non-debt capital receipts); it equals the government's borrowing requirement. Revenue deficit = revenue expenditure − revenue receipts; primary deficit = fiscal deficit − interest payments.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 40007,
+   "topic": "Money, banking, public finance, GST & trade",
+   "unit": 2,
+   "question": "Consider the following statements about GST: 1. It was introduced by the 101st Constitutional Amendment Act, 2016. 2. The GST Council is a constitutional body under Article 279A. 3. GST came into force on 1 July 2017. 4. Alcoholic liquor for human consumption is within the scope of GST. How many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "Only three",
+    "All four"
+   ],
+   "answerIndex": 2,
+   "explanation": "1, 2 and 3 are correct. Alcoholic liquor for human consumption is constitutionally outside GST (Art. 366(12A)); petroleum products are within the definition but GST on them applies only from a date recommended by the Council.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 40008,
+   "topic": "Money, banking, public finance, GST & trade",
+   "unit": 2,
+   "question": "The Fiscal Responsibility and Budget Management (FRBM) Act was enacted in",
+   "options": [
+    "1991",
+    "2003",
+    "2008",
+    "2017"
+   ],
+   "answerIndex": 1,
+   "explanation": "The FRBM Act, 2003 set targets for fiscal and revenue deficits; the N.K. Singh Committee (2017) reviewed it and recommended a debt-based anchor.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 40009,
+   "topic": "Money, banking, public finance, GST & trade",
+   "unit": 2,
+   "question": "Under the current account of India's balance of payments, which of the following items are included? 1. Merchandise exports and imports 2. Software services exports 3. Private remittances from Indians abroad 4. Foreign direct investment",
+   "options": [
+    "1, 2 and 3 only",
+    "1 and 2 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "answerIndex": 0,
+   "explanation": "The current account covers trade in goods and services plus income and transfers (remittances). FDI is a capital/financial account flow.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 40010,
+   "topic": "Money, banking, public finance, GST & trade",
+   "unit": 2,
+   "question": "In India, an investment by a foreign investor is generally classified as Foreign Direct Investment (FDI) rather than Foreign Portfolio Investment (FPI) if it amounts to",
+   "options": [
+    "5% or more of the paid-up equity of a listed company",
+    "10% or more of the paid-up equity of a listed company",
+    "26% or more of the paid-up equity",
+    "51% or more of the paid-up equity"
+   ],
+   "answerIndex": 1,
+   "explanation": "Following the Arvind Mayaram Committee, an investment of 10% or more in a listed company is treated as FDI; below 10% it is FPI.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 40011,
+   "topic": "Money, banking, public finance, GST & trade",
+   "unit": 2,
+   "question": "The nationalisation of 14 major commercial banks in India took place in",
+   "options": [
+    "1949",
+    "1955",
+    "1969",
+    "1980"
+   ],
+   "answerIndex": 2,
+   "explanation": "Fourteen banks were nationalised in July 1969 and six more in 1980. The RBI itself was nationalised in 1949; the Imperial Bank became the State Bank of India in 1955.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 40012,
+   "topic": "Indian agriculture, industry & services",
+   "unit": 3,
+   "question": "Minimum Support Prices (MSP) for notified crops are announced by the Government of India on the basis of the recommendations of the",
+   "options": [
+    "Food Corporation of India",
+    "Commission for Agricultural Costs and Prices",
+    "NABARD",
+    "NITI Aayog"
+   ],
+   "answerIndex": 1,
+   "explanation": "The CACP recommends MSPs; the Cabinet Committee on Economic Affairs approves them. The FCI handles procurement and storage.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 40013,
+   "topic": "Indian agriculture, industry & services",
+   "unit": 3,
+   "question": "Consider the following statements: 1. Disinvestment means the sale of the Government's equity in public sector enterprises. 2. Strategic disinvestment involves the transfer of management control along with the sale of equity. 3. Proceeds from disinvestment are a non-debt capital receipt. Which of the above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answerIndex": 3,
+   "explanation": "All three are correct. Disinvestment proceeds reduce the fiscal deficit as non-debt capital receipts. Strategic sales (e.g. Air India in 2022) transfer management control.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 40014,
+   "topic": "Indian agriculture, industry & services",
+   "unit": 3,
+   "question": "Which sector contributes the largest share of India's Gross Value Added?",
+   "options": [
+    "Agriculture and allied",
+    "Industry",
+    "Services",
+    "Mining"
+   ],
+   "answerIndex": 2,
+   "explanation": "Services account for well over half of India's GVA, while agriculture employs the largest share of the workforce — a key structural feature of the Indian economy.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 40015,
+   "topic": "AP economy, GSDP, public finance & bifurcation",
+   "unit": 4,
+   "question": "Gross State Domestic Product (GSDP) measures",
+   "options": [
+    "the value of all final goods and services produced within the State's geographical boundaries",
+    "the income of all residents of the State wherever earned",
+    "the State Government's tax revenue",
+    "the State's exports to other countries"
+   ],
+   "answerIndex": 0,
+   "explanation": "GSDP is a territorial (domestic) measure. Per-capita income is derived from the net state domestic product divided by population.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 40016,
+   "topic": "AP economy, GSDP, public finance & bifurcation",
+   "unit": 4,
+   "question": "Which of the following are part of a State Government's own tax revenue? 1. State GST (SGST) 2. Stamp duties and registration fees 3. Excise duty on alcoholic liquor 4. Share in central taxes",
+   "options": [
+    "1, 2 and 3 only",
+    "1 and 2 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "answerIndex": 0,
+   "explanation": "The share in central taxes is devolved by the Union on Finance Commission recommendations — it is not the State's own tax revenue. SGST, stamp duties and State excise are own taxes.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 40017,
+   "topic": "AP economy, GSDP, public finance & bifurcation",
+   "unit": 4,
+   "question": "Under the Andhra Pradesh Reorganisation Act, 2014, the Union committed to declaring which irrigation project a national project?",
+   "options": [
+    "Polavaram",
+    "Handri–Neeva",
+    "Galeru–Nagari",
+    "Veligonda"
+   ],
+   "answerIndex": 0,
+   "explanation": "Section 90 of the AP Reorganisation Act, 2014 declares the Polavaram Irrigation Project a national project, with the Union to execute it and obtain clearances.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 40018,
+   "topic": "AP agriculture, allied sectors, industry & services",
+   "unit": 5,
+   "question": "MSMEs in India are currently classified on the basis of",
+   "options": [
+    "investment in plant and machinery only",
+    "annual turnover only",
+    "both investment in plant and machinery and annual turnover",
+    "number of employees"
+   ],
+   "answerIndex": 2,
+   "explanation": "Since 2020 the MSME definition uses composite criteria of investment and turnover, with no distinction between manufacturing and services.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 40019,
+   "topic": "AP agriculture, allied sectors, industry & services",
+   "unit": 5,
+   "question": "Rural credit cooperatives in India follow a three-tier short-term structure. Which of the following is the correct order from the State level downward?",
+   "options": [
+    "State Cooperative Bank → District Central Cooperative Bank → Primary Agricultural Credit Society",
+    "District Central Cooperative Bank → State Cooperative Bank → Primary Agricultural Credit Society",
+    "NABARD → State Cooperative Bank → Regional Rural Bank",
+    "Primary Agricultural Credit Society → District Central Cooperative Bank → State Cooperative Bank"
+   ],
+   "answerIndex": 0,
+   "explanation": "StCBs at the apex, DCCBs at the district level and PACS at the village level; NABARD refinances and supervises them.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 40020,
+   "topic": "Infrastructure (India & AP)",
+   "unit": 6,
+   "question": "Which one of the following industrial corridors passes through Andhra Pradesh?",
+   "options": [
+    "Delhi–Mumbai Industrial Corridor",
+    "Visakhapatnam–Chennai Industrial Corridor",
+    "Amritsar–Kolkata Industrial Corridor",
+    "Bengaluru–Mumbai Economic Corridor"
+   ],
+   "answerIndex": 1,
+   "explanation": "The Visakhapatnam–Chennai Industrial Corridor (part of the East Coast Economic Corridor, supported by the ADB) runs along coastal Andhra Pradesh. The Chennai–Bengaluru corridor also touches AP through its Krishnapatnam node.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  }
+ ]
+}

@@ -17,7 +17,7 @@ import {
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import { examById } from "@/content/catalog";
-import { useBank } from "@/lib/bank";
+import { useExamBank } from "@/lib/useExamBank";
 import { fmtClock, pct } from "@/lib/format";
 import { dayKey } from "@/lib/random";
 import { scoreAttempt } from "@/lib/scoring";
@@ -45,7 +45,7 @@ export function HomeScreen() {
 }
 
 function Dashboard() {
-  const { bank } = useBank();
+  const { bank, fullBank } = useExamBank();
   const profile = useApp((s) => s.profile)!;
   const attempts = useApp((s) => s.attempts);
   const qstats = useApp((s) => s.qstats);
@@ -246,9 +246,17 @@ function Dashboard() {
       </motion.div>
 
       {/* Papers for this exam */}
-      <SectionTitle>Your papers · {exam?.short}</SectionTitle>
+      <SectionTitle
+        action={
+          <Link href={`/exams/${profile.examId}`} className="flex items-center gap-1 text-sm font-semibold text-primary">
+            Notification <ArrowRight size={15} />
+          </Link>
+        }
+      >
+        Your papers · {exam?.short}
+      </SectionTitle>
       <motion.div variants={enter.item}>
-        <PapersSection examId={profile.examId} questionCount={bank?.total} />
+        <PapersSection examId={profile.examId} counts={fullBank ? Object.fromEntries(fullBank.subjects.map((s) => [s.id, s.total])) : {}} />
       </motion.div>
 
       <Sheet open={examOpen} onClose={() => setExamOpen(false)} title="Target exam">

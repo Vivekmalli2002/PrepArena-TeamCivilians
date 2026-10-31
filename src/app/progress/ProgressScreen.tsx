@@ -8,7 +8,7 @@ import { useRouter } from "next/navigation";
 import { useMemo, useState } from "react";
 import { examById } from "@/content/catalog";
 import { MIN_FOR_WEAK, timeManagement, topicMastery, trend, weakAreas } from "@/lib/analytics";
-import { useBank } from "@/lib/bank";
+import { useExamBank } from "@/lib/useExamBank";
 import { fmtDuration, pct } from "@/lib/format";
 import { dayKey } from "@/lib/random";
 import { scoreAttempt } from "@/lib/scoring";
@@ -22,7 +22,7 @@ const TrendChart = dynamic(() => import("./TrendChart"), { ssr: false, loading: 
 
 export function ProgressScreen() {
   const hydrated = useHydrated();
-  const { bank } = useBank();
+  const { bank } = useExamBank();
   const attempts = useApp((s) => s.attempts);
   const qstats = useApp((s) => s.qstats);
   const activeDays = useApp((s) => s.activeDays);

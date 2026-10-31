@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { ChevronRight, Play, Search, Timer, Trophy } from "lucide-react";
 import { useMemo, useState } from "react";
 import { examById } from "@/content/catalog";
-import { useBank, type TopicInfo } from "@/lib/bank";
+import { useExamBank } from "@/lib/useExamBank";
 import { pct } from "@/lib/format";
 import { bestByKey, bestByTopic } from "@/lib/selectors";
 import { useApp, useHydrated } from "@/lib/store";
@@ -12,13 +12,15 @@ import { FULL_MOCK, fullMock, subtopicTest, TOPIC_MOCK, topicMock, topicSets, to
 import { CustomBuilder } from "@/components/CustomBuilder";
 import { ProgressRing } from "@/components/ProgressRing";
 import { useStartTest } from "@/components/useStartTest";
-import { Button, Card, PageSkeleton, Segmented, SectionTitle, Sheet, cx, enter } from "@/components/ui";
+import { Button, Card, Chip, PageSkeleton, Segmented, SectionTitle, Sheet, cx, enter } from "@/components/ui";
+import { scopeBank, type TopicInfo } from "@/lib/bank";
 
 type Tab = "topics" | "mocks" | "custom";
 
 export function CatalogScreen() {
   const hydrated = useHydrated();
-  const { bank, error } = useBank();
+  const { bank: examBank, error } = useExamBank();
+  const [subjectId, setSubjectId] = useState<string>("all");
   const [tab, setTab] = useState<Tab>("topics");
   const [query, setQuery] = useState("");
   const [openTopic, setOpenTopic] = useState<TopicInfo | null>(null);
@@ -32,7 +34,8 @@ export function CatalogScreen() {
   const byKey = useMemo(() => bestByKey(attempts), [attempts]);
 
   if (error) return <p className="text-bad">{error}</p>;
-  if (!hydrated || !bank) return <PageSkeleton />;
+  if (!hydrated || !examBank) return <PageSkeleton />;
+  const bank = subjectId === "all" ? examBank : scopeBank(examBank, [subjectId]);
 
   const topics = bank.topics.filter((t) => t.name.toLowerCase().includes(query.trim().toLowerCase()));
   const seenIn = (qids: number[]) => qids.filter((id) => qstats[id]).length;
@@ -42,8 +45,22 @@ export function CatalogScreen() {
       {dialog}
       <h1 className="font-display text-[28px] font-extrabold sm:text-4xl">Tests</h1>
       <p className="mt-1 text-sm text-muted">
-        {bank.subject.name} · {bank.total} questions
+        {examBank.subjects.length === 1
+          ? `${examBank.subjects[0].name} · ${examBank.total.toLocaleString("en-IN")} questions`
+          : `${examBank.subjects.length} subjects for your exam · ${examBank.total.toLocaleString("en-IN")} questions`}
       </p>
+      {examBank.subjects.length > 1 && (
+        <div className="no-scrollbar -mx-4 mt-4 flex gap-2 overflow-x-auto px-4 sm:mx-0 sm:flex-wrap sm:px-0">
+          <Chip on={subjectId === "all"} onClick={() => setSubjectId("all")}>
+            All subjects
+          </Chip>
+          {examBank.subjects.map((s) => (
+            <Chip key={s.id} on={subjectId === s.id} onClick={() => setSubjectId(s.id)}>
+              {s.name} <span className="ml-1 opacity-70 tabular">{s.total}</span>
+            </Chip>
+          ))}
+        </div>
+      )}
 
       <Segmented
         label="Catalog section"
@@ -126,11 +143,10 @@ export function CatalogScreen() {
                 <Button onClick={() => start(fullMock(bank, schemeId))}>
                   <Timer size={18} /> Start mock
                 </Button>
-                {byKey.has(`mock:full:${FULL_MOCK.count}`) && (
-                  <span className="text-sm font-semibold text-good">
-                    Best {pct(byKey.get(`mock:full:${FULL_MOCK.count}`)!)}
-                  </span>
-                )}
+                {(() => {
+                  const k = `mock:full:${FULL_MOCK.count}:${bank.subjects.map((s) => s.id).sort().join("+")}`;
+                  return byKey.has(k) && <span className="text-sm font-semibold text-good">Best {pct(byKey.get(k)!)}</span>;
+                })()}
               </div>
             </Card>
           </motion.div>

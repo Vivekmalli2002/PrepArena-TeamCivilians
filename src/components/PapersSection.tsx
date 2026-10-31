@@ -7,7 +7,7 @@ import { EXAMS, examById, examsSharingPaper, papersForExam, SUBJECTS, type Subje
 import { Card, Sheet, cx } from "./ui";
 
 /** The student's exam as papers → subjects, with what is shared with other exams. */
-export function PapersSection({ examId, questionCount }: { examId: string; questionCount?: number }) {
+export function PapersSection({ examId, counts }: { examId: string; counts: Record<string, number> }) {
   const [open, setOpen] = useState<Subject | null>(null);
   const papers = papersForExam(examId);
   return (
@@ -33,19 +33,20 @@ export function PapersSection({ examId, questionCount }: { examId: string; quest
               <div className="mt-3 flex flex-wrap gap-1.5">
                 {p.subjects.map((sid) => {
                   const s = SUBJECTS[sid];
+                  const has = (counts[sid] ?? 0) > 0;
                   return (
                     <button
                       key={sid}
                       onClick={() => setOpen(s)}
                       className={cx(
                         "rounded-full border px-2.5 py-1 text-xs font-medium transition",
-                        s.hasContent
+                        has
                           ? "border-primary/40 bg-primary-soft text-primary hover:border-primary"
                           : "border-hairline text-muted hover:border-primary/40",
                       )}
                     >
                       {s.name}
-                      {s.hasContent && " ✓"}
+                      {has && " ✓"}
                     </button>
                   );
                 })}
@@ -59,12 +60,12 @@ export function PapersSection({ examId, questionCount }: { examId: string; quest
       <Sheet open={!!open} onClose={() => setOpen(null)} title={open?.name ?? ""} wide>
         {open && (
           <>
-            {open.hasContent ? (
+            {counts[open.id] ? (
               <Link
                 href="/tests"
                 className="mb-4 flex items-center justify-between rounded-2xl bg-primary-soft p-3 text-sm font-semibold text-primary"
               >
-                {questionCount ? `${questionCount} practice questions` : "Practice questions"} — open tests
+                {counts[open.id]} practice questions — open tests
                 <ChevronRight size={16} />
               </Link>
             ) : (

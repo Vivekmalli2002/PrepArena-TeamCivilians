@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { BookOpen, ChartNoAxesColumn, House, LayoutGrid } from "lucide-react";
+import { BookOpen, ChartNoAxesColumn, House, Landmark, LayoutGrid } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useApp, useHydrated } from "@/lib/store";
@@ -13,6 +13,7 @@ const NAV = [
   { href: "/tests", label: "Tests", icon: LayoutGrid },
   { href: "/learn", label: "Learn", icon: BookOpen },
   { href: "/progress", label: "Progress", icon: ChartNoAxesColumn },
+  { href: "/exams", label: "Exams", icon: Landmark },
 ];
 
 function isActive(path: string, href: string) {
@@ -75,7 +76,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           !showNav && "hidden",
         )}
       >
-        <div className="glass-strong mx-auto grid h-16 max-w-md grid-cols-4 rounded-[22px] px-1">
+        <div className="glass-strong mx-auto grid h-16 max-w-md grid-cols-5 rounded-[22px] px-1">
           {NAV.map((n) => {
             const on = isActive(path, n.href);
             const Icon = n.icon;

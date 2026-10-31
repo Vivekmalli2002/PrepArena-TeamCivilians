@@ -112,6 +112,7 @@ export function Explanation({ q, verdict }: { q: Question; verdict?: "correct" |
       <p className="text-xs font-bold uppercase tracking-wider text-faint">Explanation</p>
       <p className="mt-1.5 leading-relaxed">{q.explanation}</p>
       <p className="mt-3 text-xs text-muted">Source: {q.source}</p>
+      {q.revised && <p className="mt-1 text-xs text-muted">Revised by Team Civilians: {q.revised}</p>}
     </motion.div>
   );
 }

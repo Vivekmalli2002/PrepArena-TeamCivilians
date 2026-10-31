@@ -1,0 +1,488 @@
+{
+ "subject": {
+  "id": "mental",
+  "name": "Mental Ability & Aptitude"
+ },
+ "questions": [
+  {
+   "id": 80001,
+   "topic": "Logical reasoning & mental ability",
+   "unit": 1,
+   "question": "Find the next term: 3, 7, 15, 31, 63, ?",
+   "options": [
+    "126",
+    "131",
+    "127",
+    "125"
+   ],
+   "answerIndex": 2,
+   "explanation": "Each term is (previous × 2) + 1: 63 × 2 + 1 = 127.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80002,
+   "topic": "Logical reasoning & mental ability",
+   "unit": 1,
+   "question": "Find the next term: 2, 6, 12, 20, 30, ?",
+   "options": [
+    "42",
+    "44",
+    "36",
+    "40"
+   ],
+   "answerIndex": 0,
+   "explanation": "Terms are n(n+1): 1×2, 2×3, 3×4, 4×5, 5×6, so the next is 6×7 = 42.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80003,
+   "topic": "Logical reasoning & mental ability",
+   "unit": 1,
+   "question": "Find the next term: 9, 25, 49, 121, ?",
+   "options": [
+    "156",
+    "196",
+    "169",
+    "144"
+   ],
+   "answerIndex": 2,
+   "explanation": "Squares of consecutive primes: 3², 5², 7², 11², so next is 13² = 169. (12² = 144 is the trap.)",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80004,
+   "topic": "Logical reasoning & mental ability",
+   "unit": 1,
+   "question": "Find the next letter: A, C, F, J, O, ?",
+   "options": [
+    "V",
+    "S",
+    "T",
+    "U"
+   ],
+   "answerIndex": 3,
+   "explanation": "Positions 1, 3, 6, 10, 15 increase by 2, 3, 4, 5; the next step is +6, giving 21 = U.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80005,
+   "topic": "Logical reasoning & mental ability",
+   "unit": 1,
+   "question": "Find the odd one out: 121, 169, 196, 250, 225",
+   "options": [
+    "225",
+    "196",
+    "169",
+    "250"
+   ],
+   "answerIndex": 3,
+   "explanation": "All others are perfect squares (11², 13², 14², 15²); 250 is not.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80006,
+   "topic": "Logical reasoning & mental ability",
+   "unit": 1,
+   "question": "In a certain code, COLD is written as DQOH. How is WARM written in that code?",
+   "options": [
+    "XCUP",
+    "XBSN",
+    "XCUQ",
+    "YCUQ"
+   ],
+   "answerIndex": 2,
+   "explanation": "Letters are shifted forward by +1, +2, +3, +4: W→X, A→C, R→U, M→Q, giving XCUQ.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80007,
+   "topic": "Logical reasoning & mental ability",
+   "unit": 1,
+   "question": "If MANGO is coded as NBOHP, how is APPLE coded?",
+   "options": [
+    "BQQME",
+    "BQQMF",
+    "ZOOKD",
+    "BQPMF"
+   ],
+   "answerIndex": 1,
+   "explanation": "Each letter moves one step forward: A→B, P→Q, P→Q, L→M, E→F.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80008,
+   "topic": "Logical reasoning & mental ability",
+   "unit": 1,
+   "question": "Pointing to a man, Lakshmi said, “He is the son of my grandfather's only son.” How is the man related to Lakshmi?",
+   "options": [
+    "Uncle",
+    "Cousin",
+    "Brother",
+    "Father"
+   ],
+   "answerIndex": 2,
+   "explanation": "Her grandfather's only son is her father; his son is her brother.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80009,
+   "topic": "Logical reasoning & mental ability",
+   "unit": 1,
+   "question": "A is the sister of B. C is the mother of B. D is the father of C. How is A related to D?",
+   "options": [
+    "Niece",
+    "Grandmother",
+    "Daughter",
+    "Granddaughter"
+   ],
+   "answerIndex": 3,
+   "explanation": "A is a daughter of C (as B's sister), and C is D's daughter, so A is D's granddaughter.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80010,
+   "topic": "Logical reasoning & mental ability",
+   "unit": 1,
+   "question": "Statements: All engineers are graduates. Some graduates are teachers. Conclusions: I. Some engineers are teachers. II. Some teachers are graduates. Which conclusion(s) follow?",
+   "options": [
+    "Only II follows",
+    "Only I follows",
+    "Both I and II follow",
+    "Neither I nor II follows"
+   ],
+   "answerIndex": 0,
+   "explanation": "II is the converse of ‘some graduates are teachers’, so it follows. I need not follow: the graduates who are teachers may not include any engineers.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80011,
+   "topic": "Logical reasoning & mental ability",
+   "unit": 1,
+   "question": "Statements: All cats are dogs. No dog is a rat. Conclusions: I. No cat is a rat. II. Some rats are cats. Which conclusion(s) follow?",
+   "options": [
+    "Only I follows",
+    "Only II follows",
+    "Both I and II follow",
+    "Neither I nor II follows"
+   ],
+   "answerIndex": 0,
+   "explanation": "Every cat is inside ‘dogs’, and dogs and rats do not overlap, so no cat is a rat. II therefore cannot follow.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80012,
+   "topic": "Logical reasoning & mental ability",
+   "unit": 1,
+   "question": "Statement: “Use public transport to reduce traffic congestion” — an appeal by the city traffic police. Assumptions: I. Many people will respond to the appeal. II. Public transport occupies less road space per passenger than private vehicles. Which assumption(s) are implicit?",
+   "options": [
+    "Both I and II are implicit",
+    "Only I is implicit",
+    "Only II is implicit",
+    "Neither is implicit"
+   ],
+   "answerIndex": 0,
+   "explanation": "An appeal is made expecting a response (I), and recommending public transport for congestion assumes it uses less road space per passenger (II).",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80013,
+   "topic": "Logical reasoning & mental ability",
+   "unit": 1,
+   "question": "If 1 January 2026 was a Thursday, what day of the week is 1 January 2027?",
+   "options": [
+    "Friday",
+    "Wednesday",
+    "Saturday",
+    "Thursday"
+   ],
+   "answerIndex": 0,
+   "explanation": "2026 is not a leap year, so it has 365 days = 52 weeks + 1 odd day. The day advances by one: Thursday → Friday.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80014,
+   "topic": "Logical reasoning & mental ability",
+   "unit": 1,
+   "question": "What is the angle between the hour and minute hands of a clock at 3:40?",
+   "options": [
+    "130°",
+    "125°",
+    "140°",
+    "120°"
+   ],
+   "answerIndex": 0,
+   "explanation": "Angle = |30H − 5.5M| = |90 − 220| = 130°.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80015,
+   "topic": "Quantitative aptitude, basic maths & data interpretation",
+   "unit": 2,
+   "question": "The price of sugar rises by 25%. By what percentage must a family reduce its consumption so that its expenditure on sugar does not change?",
+   "options": [
+    "25%",
+    "15%",
+    "22.5%",
+    "20%"
+   ],
+   "answerIndex": 3,
+   "explanation": "Reduction = 25/(100 + 25) × 100 = 20%.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80016,
+   "topic": "Quantitative aptitude, basic maths & data interpretation",
+   "unit": 2,
+   "question": "Two successive discounts of 20% and 10% are equivalent to a single discount of",
+   "options": [
+    "28%",
+    "27%",
+    "29%",
+    "30%"
+   ],
+   "answerIndex": 0,
+   "explanation": "100 × 0.8 × 0.9 = 72, so the single discount is 28% (not 30%).",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80017,
+   "topic": "Quantitative aptitude, basic maths & data interpretation",
+   "unit": 2,
+   "question": "What is the simple interest on ₹8,000 at 6% per annum for 3 years?",
+   "options": [
+    "1500",
+    "1240",
+    "1488",
+    "1440"
+   ],
+   "answerIndex": 3,
+   "explanation": "SI = PRT/100 = 8000×6×3/100 = ₹1440.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80018,
+   "topic": "Quantitative aptitude, basic maths & data interpretation",
+   "unit": 2,
+   "question": "What is the compound interest on ₹10,000 at 10% per annum, compounded annually, for 2 years?",
+   "options": [
+    "2050",
+    "2000",
+    "2200",
+    "2100"
+   ],
+   "answerIndex": 3,
+   "explanation": "Amount = 10000 × 1.1² = 12100, so CI = ₹2100.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80019,
+   "topic": "Quantitative aptitude, basic maths & data interpretation",
+   "unit": 2,
+   "question": "The difference between compound interest and simple interest on ₹5,000 for 2 years at 8% per annum is",
+   "options": [
+    "16",
+    "40",
+    "64",
+    "32"
+   ],
+   "answerIndex": 3,
+   "explanation": "For 2 years, CI − SI = P(r/100)² = 5000 × 0.0064 = ₹32.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80020,
+   "topic": "Quantitative aptitude, basic maths & data interpretation",
+   "unit": 2,
+   "question": "A can finish a work in 12 days and B in 18 days. Working together, in how many days will they finish it?",
+   "options": [
+    "15 days",
+    "7.5 days",
+    "6 days",
+    "7.2 days"
+   ],
+   "answerIndex": 3,
+   "explanation": "Combined rate = 1/12 + 1/18 = 5/36 per day, so time = 36/5 = 7.2 days.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80021,
+   "topic": "Quantitative aptitude, basic maths & data interpretation",
+   "unit": 2,
+   "question": "A and B together can do a job in 10 days; A alone can do it in 15 days. In how many days can B alone do it?",
+   "options": [
+    "25 days",
+    "30 days",
+    "20 days",
+    "5 days"
+   ],
+   "answerIndex": 1,
+   "explanation": "B's rate = 1/10 − 1/15 = 1/30, so B takes 30 days.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80022,
+   "topic": "Quantitative aptitude, basic maths & data interpretation",
+   "unit": 2,
+   "question": "A pipe can fill a tank in 20 minutes and another can empty it in 30 minutes. If both are opened together on an empty tank, it will be full in",
+   "options": [
+    "10 minutes",
+    "12 minutes",
+    "50 minutes",
+    "60 minutes"
+   ],
+   "answerIndex": 3,
+   "explanation": "Net rate = 1/20 − 1/30 = 1/60 per minute, so 60 minutes.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80023,
+   "topic": "Quantitative aptitude, basic maths & data interpretation",
+   "unit": 2,
+   "question": "A train 360 m long, running at 72 km/h, crosses a pole in",
+   "options": [
+    "18 seconds",
+    "20 seconds",
+    "5 seconds",
+    "36 seconds"
+   ],
+   "answerIndex": 0,
+   "explanation": "72 km/h = 20 m/s; time = 360/20 = 18 s.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80024,
+   "topic": "Quantitative aptitude, basic maths & data interpretation",
+   "unit": 2,
+   "question": "A 240 m long train crosses a 360 m long platform in 30 seconds. Its speed is",
+   "options": [
+    "60 km/h",
+    "28.8 km/h",
+    "20 km/h",
+    "72 km/h"
+   ],
+   "answerIndex": 3,
+   "explanation": "Distance = 240 + 360 = 600 m in 30 s = 20 m/s = 72 km/h. (Forgetting the platform gives 28.8; forgetting to convert gives 20.)",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80025,
+   "topic": "Quantitative aptitude, basic maths & data interpretation",
+   "unit": 2,
+   "question": "A car goes from A to B at 60 km/h and returns at 40 km/h. Its average speed for the whole journey is",
+   "options": [
+    "52 km/h",
+    "48 km/h",
+    "50 km/h",
+    "45 km/h"
+   ],
+   "answerIndex": 1,
+   "explanation": "For equal distances, average speed = 2xy/(x + y) = 2×60×40/100 = 48 km/h — not the arithmetic mean 50.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80026,
+   "topic": "Quantitative aptitude, basic maths & data interpretation",
+   "unit": 2,
+   "question": "The average of five numbers is 24. If one number is removed, the average of the rest becomes 22. The number removed is",
+   "options": [
+    "26",
+    "32",
+    "2",
+    "30"
+   ],
+   "answerIndex": 1,
+   "explanation": "Total = 5 × 24 = 120; remaining total = 4 × 22 = 88; removed = 32.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80027,
+   "topic": "Quantitative aptitude, basic maths & data interpretation",
+   "unit": 2,
+   "question": "If A : B = 2 : 3 and B : C = 4 : 5, then A : B : C is",
+   "options": [
+    "8 : 12 : 15",
+    "2 : 3 : 5",
+    "8 : 12 : 10",
+    "6 : 12 : 15"
+   ],
+   "answerIndex": 0,
+   "explanation": "Make B common: A:B = 8:12 and B:C = 12:15, so A:B:C = 8:12:15.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80028,
+   "topic": "Quantitative aptitude, basic maths & data interpretation",
+   "unit": 2,
+   "question": "For the data 2, 4, 4, 4, 5, 5, 7, 9, which of the following is correct (population variance)?",
+   "options": [
+    "Mean = 5, mode = 4, variance = 2",
+    "Mean = 5, mode = 4, variance = 4",
+    "Mean = 5, mode = 5, variance = 4",
+    "Mean = 4.5, mode = 4, variance = 4"
+   ],
+   "answerIndex": 1,
+   "explanation": "Mean = 40/8 = 5; mode = 4 (occurs three times); variance = Σ(x − 5)²/8 = 32/8 = 4, so the standard deviation is 2.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80029,
+   "topic": "Quantitative aptitude, basic maths & data interpretation",
+   "unit": 2,
+   "question": "A district's paddy production (thousand tonnes) was: 2021 — 400, 2022 — 460, 2023 — 437, 2024 — 520. In which year was the percentage increase over the previous year the highest?",
+   "options": [
+    "2021",
+    "2023",
+    "2024",
+    "2022"
+   ],
+   "answerIndex": 2,
+   "explanation": "2022: +60/400 = 15%; 2023: −23/460 = −5%; 2024: +83/437 ≈ 19%. The highest growth is in 2024 — a larger absolute rise on a smaller base.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 80030,
+   "topic": "Quantitative aptitude, basic maths & data interpretation",
+   "unit": 2,
+   "question": "The median and mode of 4, 8, 6, 5, 3, 8, 9 are respectively",
+   "options": [
+    "6 and 8",
+    "8 and 6",
+    "5 and 8",
+    "6 and 9"
+   ],
+   "answerIndex": 0,
+   "explanation": "Sorted: 3, 4, 5, 6, 8, 8, 9 — the middle (4th) value is 6; 8 occurs most often.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  }
+ ]
+}

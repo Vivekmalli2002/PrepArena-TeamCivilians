@@ -12,6 +12,8 @@ export interface Question {
   /** Set by the content pipeline for questions kept only so old results can be reviewed. */
   status?: "withdrawn" | "duplicate";
   note?: string;
+  /** Why the question was editorially revised (see content/corrections.json). */
+  revised?: string;
 }
 
 export type Mode = "practice" | "exam";

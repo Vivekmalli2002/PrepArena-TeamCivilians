@@ -64,26 +64,50 @@ export function topicMock(topic: string, pool: number[], schemeId: string, count
   };
 }
 
-/** Full mock drawn proportionally from every topic, so it mirrors the paper's spread. */
-export function fullMock(bank: LoadedBank, schemeId: string, count = FULL_MOCK.count, minutes = FULL_MOCK.minutes): TestConfig {
-  const total = bank.total;
-  const picks: number[] = [];
-  const quotas = bank.topics.map((t) => ({ t, exact: (t.count / total) * count }));
-  quotas.forEach((q) => picks.push(...shuffle(q.t.qids).slice(0, Math.floor(q.exact))));
-  // Hand out the remaining seats by largest fractional part.
-  const rest = quotas
-    .map((q) => ({ ...q, frac: q.exact - Math.floor(q.exact) }))
-    .sort((a, b) => b.frac - a.frac);
+/** Picks `n` ids spread across `topics` in proportion to their size (largest remainders). */
+function spread(topics: LoadedBank["topics"], n: number): number[] {
+  const total = topics.reduce((k, t) => k + t.qids.length, 0);
+  if (!total || n <= 0) return [];
+  const quotas = topics.map((t) => ({ t, exact: (t.qids.length / total) * Math.min(n, total) }));
+  const picks = quotas.flatMap((q) => shuffle(q.t.qids).slice(0, Math.floor(q.exact)));
+  const rest = quotas.sort((x, y) => y.exact - Math.floor(y.exact) - (x.exact - Math.floor(x.exact)));
   for (const q of rest) {
-    if (picks.length >= count) break;
+    if (picks.length >= Math.min(n, total)) break;
     const extra = shuffle(q.t.qids).find((id) => !picks.includes(id));
     if (extra != null) picks.push(extra);
   }
+  return picks;
+}
+
+/**
+ * Full mock: equal seats per subject, as APPSC papers have balanced sections (e.g. Group-II
+ * screening is 5 × 30). A subject with too few questions hands its unused seats to the others.
+ * Within a subject, seats follow topic size.
+ */
+export function fullMock(bank: LoadedBank, schemeId: string, count = FULL_MOCK.count, minutes = FULL_MOCK.minutes): TestConfig {
+  const subjects = bank.subjects.map((s) => ({ id: s.id, topics: bank.topics.filter((t) => t.subject === s.id) }));
+  const size = (sj: (typeof subjects)[number]) => sj.topics.reduce((k, t) => k + t.qids.length, 0);
+  const seats = new Map(subjects.map((sj) => [sj.id, 0]));
+  let left = count;
+  let open = subjects.filter((sj) => size(sj) > 0);
+  while (left > 0 && open.length) {
+    const each = Math.max(1, Math.floor(left / open.length));
+    for (const sj of open) {
+      if (left <= 0) break;
+      const add = Math.min(each, size(sj) - seats.get(sj.id)!, left);
+      seats.set(sj.id, seats.get(sj.id)! + add);
+      left -= add;
+    }
+    open = open.filter((sj) => seats.get(sj.id)! < size(sj));
+  }
+  const picks = subjects.flatMap((sj) => spread(sj.topics, seats.get(sj.id)!));
+  const ids = bank.subjects.map((s) => s.id).sort();
   return {
     kind: "mock",
-    key: `mock:full:${count}`,
-    title: "Full Mock Test",
-    subtitle: `${count} Q · ${minutes} min · all topics`,
+    // Scope is part of the key so personal bests compare like with like.
+    key: `mock:full:${count}:${ids.join("+")}`,
+    title: ids.length === 1 ? `Full Mock · ${bank.subjects[0].name}` : "Full Mock Test",
+    subtitle: `${picks.length} Q · ${minutes} min · ${ids.length > 1 ? `${ids.length} subjects` : "all topics"}`,
     mode: "exam",
     schemeId,
     durationSec: minutes * 60,

@@ -1,0 +1,131 @@
+from lib import Subject, HOW_MANY, HOW_MANY_PAIRS, AR
+
+s = Subject("polity", "Indian Constitution, Polity & Welfare", 20001, [
+    "Constitutional development, Preamble & rights",
+    "Legislature, executive & judiciary",
+    "Union–State powers & constitutional bodies",
+    "Centre–State reforms, parties & elections",
+    "Amendments & local government (PRI/ULB)",
+    "Welfare of weaker sections & social laws",
+])
+
+# ---- Unit 1
+s.q(1, "Consider the following statements about the Preamble to the Constitution of India: 1. It has been amended only once, by the 42nd Constitutional Amendment Act, 1976. 2. The words ‘Socialist’, ‘Secular’ and ‘Integrity’ were added by that amendment. 3. In the Kesavananda Bharati case (1973), the Supreme Court held that the Preamble is a part of the Constitution. 4. The Preamble is enforceable in a court of law. How many of the above statements are correct?",
+    HOW_MANY, "Only three",
+    "1, 2 and 3 are correct. The 42nd Amendment (1976) is the only amendment to the Preamble and added ‘Socialist’, ‘Secular’ and ‘Integrity’. Kesavananda Bharati (1973) overruled the Berubari opinion (1960) and held the Preamble to be part of the Constitution. Statement 4 is wrong: the Preamble is non-justiciable, though it is used to interpret the Constitution.")
+s.q(1, "Which of the following Fundamental Rights are available only to citizens of India and not to foreigners? 1. Article 15 2. Article 19 3. Article 21 4. Article 29",
+    ["1, 2 and 4 only", "1 and 2 only", "2, 3 and 4 only", "1, 2, 3 and 4"], "1, 2 and 4 only",
+    "Articles 15, 16, 19, 29 and 30 are available only to citizens. Article 21 (protection of life and personal liberty) is available to every person, citizen or foreigner.")
+s.q(1, "Assertion (A): The right to property is no longer a Fundamental Right in India. Reason (R): The 44th Constitutional Amendment Act, 1978 deleted it from Part III and made it a constitutional (legal) right under Article 300A.",
+    AR, AR[0],
+    "Both are true and R explains A. The 44th Amendment repealed Articles 19(1)(f) and 31 and inserted Article 300A: no person shall be deprived of property save by authority of law.")
+s.q(1, "Match List-I (Writ) with List-II (Literal meaning): A. Habeas Corpus B. Mandamus C. Quo Warranto D. Certiorari — 1. By what authority or warrant 2. To be certified or informed 3. We command 4. To have the body of",
+    ["A-4, B-3, C-1, D-2", "A-4, B-1, C-3, D-2", "A-3, B-4, C-2, D-1", "A-2, B-3, C-1, D-4"], "A-4, B-3, C-1, D-2",
+    "Habeas Corpus = ‘to have the body of’; Mandamus = ‘we command’; Quo Warranto = ‘by what authority’; Certiorari = ‘to be certified’. The Supreme Court issues writs under Article 32 and High Courts under Article 226.")
+s.q(1, "Consider the following pairs of Directive Principles and Articles: 1. Uniform civil code for citizens — Article 44 2. Separation of judiciary from executive — Article 50 3. Protection of monuments of national importance — Article 48 4. Equal pay for equal work for men and women — Article 39(d). How many of the above pairs are correctly matched?",
+    HOW_MANY_PAIRS, "Only three pairs",
+    "Pair 3 is wrong: protection of monuments is Article 49. Article 48 deals with organisation of agriculture and animal husbandry (and 48A with environment and wildlife, added in 1976). The other three pairs are correct.")
+s.q(1, "Which of the following statements about Fundamental Duties are correct? 1. They are contained in Article 51A in Part IVA. 2. They were added on the recommendation of the Swaran Singh Committee. 3. The duty of a parent or guardian to provide opportunities for education to a child aged 6–14 was added by the 86th Amendment Act, 2002. 4. Like Fundamental Rights, they are enforceable through writs.",
+    ["1, 2 and 3 only", "1 and 2 only", "2, 3 and 4 only", "1, 2, 3 and 4"], "1, 2 and 3 only",
+    "Ten duties were added by the 42nd Amendment (1976) on the Swaran Singh Committee's recommendation; the 86th Amendment (2002) added the eleventh. Fundamental Duties are not enforceable by writs.")
+
+# ---- Unit 2
+s.q(2, "Consider the following statements regarding a Money Bill: 1. It is defined in Article 110. 2. The decision of the Speaker of the Lok Sabha on whether a Bill is a Money Bill is final. 3. The Rajya Sabha can withhold it for a maximum of 14 days. 4. It can be introduced only on the recommendation of the President. Which of the above are correct?",
+    ["1 and 2 only", "1, 2 and 3 only", "2, 3 and 4 only", "1, 2, 3 and 4"], "1, 2, 3 and 4",
+    "All four are correct: definition in Art. 110; Speaker's certificate is final (Art. 110(3)); Rajya Sabha must return it within 14 days with or without recommendations (Art. 109); it is introduced only in the Lok Sabha with the President's prior recommendation.")
+s.q(2, "Which one of the following statements about a joint sitting of the two Houses of Parliament is NOT correct?",
+    ["It is provided for in Article 108", "It is presided over by the Speaker of the Lok Sabha", "It can be convened to resolve a deadlock over a Constitution Amendment Bill", "It cannot be convened for a Money Bill"],
+    "It can be convened to resolve a deadlock over a Constitution Amendment Bill",
+    "A Constitution Amendment Bill must be passed by each House separately by a special majority under Article 368; there is no joint sitting for it. Joint sittings (Art. 108) are for ordinary Bills and are presided over by the Speaker.")
+s.q(2, "With reference to ordinances, consider the following statements: 1. An ordinance issued by the President ceases to operate at the expiry of six weeks from the reassembly of Parliament. 2. An ordinance can be issued to amend the Constitution. 3. The ordinance-making power of the Governor is provided in Article 213. Which of the above are correct?",
+    ["1 and 3 only", "1 and 2 only", "2 and 3 only", "1, 2 and 3"], "1 and 3 only",
+    "Ordinances (Art. 123 for the President, Art. 213 for the Governor) have the same force as laws of the legislature but cannot amend the Constitution. They lapse six weeks after the legislature reassembles unless approved earlier.")
+s.q(2, "Match List-I (Case) with List-II (Principle laid down): A. Kesavananda Bharati (1973) B. Minerva Mills (1980) C. Maneka Gandhi (1978) D. S.R. Bommai (1994) — 1. Procedure established by law must be just, fair and reasonable 2. Basic structure doctrine 3. Limits on the use of Article 356; secularism is a basic feature 4. Harmony and balance between Fundamental Rights and Directive Principles",
+    ["A-2, B-4, C-1, D-3", "A-2, B-1, C-4, D-3", "A-4, B-2, C-1, D-3", "A-2, B-4, C-3, D-1"], "A-2, B-4, C-1, D-3",
+    "Kesavananda Bharati propounded the basic structure; Minerva Mills held that the balance between Parts III and IV is itself a basic feature; Maneka Gandhi widened Article 21; S.R. Bommai restricted the misuse of President's Rule.")
+s.q(2, "Under which Article of the Constitution can the President seek the opinion of the Supreme Court on a question of law or fact of public importance?",
+    ["Article 131", "Article 136", "Article 143", "Article 32"], "Article 143",
+    "Article 143 confers advisory jurisdiction. Article 131 is original jurisdiction (Centre–State and inter-State disputes), Article 136 is special leave to appeal, and Article 32 is the right to constitutional remedies.")
+s.q(2, "Consider the following statements regarding removal of a judge of the Supreme Court: 1. The grounds are ‘proved misbehaviour or incapacity’. 2. A removal motion must be signed by at least 100 members of the Lok Sabha or 50 members of the Rajya Sabha. 3. The motion must be passed in each House by a special majority. 4. The President may remove a judge on the advice of the Chief Justice of India without a parliamentary address. How many of the above statements are correct?",
+    HOW_MANY, "Only three",
+    "1, 2 and 3 are correct (Art. 124(4) and the Judges (Inquiry) Act, 1968). Statement 4 is wrong: a judge can be removed only by an order of the President after an address by both Houses passed by special majority.")
+s.q(2, "Who among the following do NOT participate in the election of the Vice-President of India?",
+    ["Nominated members of the Rajya Sabha", "Nominated members of the Lok Sabha", "Elected members of the Lok Sabha", "Elected members of State Legislative Assemblies"],
+    "Elected members of State Legislative Assemblies",
+    "The Vice-President is elected by an electoral college of all members (elected and nominated) of both Houses of Parliament (Art. 66). State legislators vote in the presidential election, not the vice-presidential one.")
+s.q(2, "Assertion (A): The Rajya Sabha is a permanent House and is not subject to dissolution. Reason (R): One-third of its members retire every second year.",
+    AR, AR[0],
+    "Both are true and R explains A: because members retire in batches every two years (Art. 83(1)), the House continues without dissolution. Members serve six-year terms.")
+
+# ---- Unit 3
+s.q(3, "Which of the following subjects were transferred from the State List to the Concurrent List by the 42nd Constitutional Amendment Act, 1976? 1. Education 2. Forests 3. Weights and measures 4. Protection of wild animals and birds 5. Administration of justice (constitution and organisation of courts except the Supreme Court and High Courts)",
+    ["1 and 2 only", "1, 2 and 4 only", "1, 2, 3 and 4 only", "1, 2, 3, 4 and 5"], "1, 2, 3, 4 and 5",
+    "The 42nd Amendment moved five subjects to the Concurrent List: education, forests, weights and measures, protection of wild animals and birds, and administration of justice.")
+s.q(3, "Which one of the following statements about the Comptroller and Auditor General of India (CAG) is NOT correct?",
+    ["The office is provided for in Article 148", "Reports relating to the accounts of a State are submitted to the Governor", "The CAG can be removed in the same manner as a judge of the Supreme Court", "After retirement, the CAG is eligible for further office under the Government of India"],
+    "After retirement, the CAG is eligible for further office under the Government of India",
+    "Article 148(4) bars the CAG from any further office under the Union or a State after ceasing to hold office. State audit reports go to the Governor (Art. 151(2)).")
+s.q(3, "Which one of the following is a constitutional body?",
+    ["National Human Rights Commission", "Central Vigilance Commission", "Election Commission of India", "NITI Aayog"], "Election Commission of India",
+    "The Election Commission is established under Article 324. NHRC (Protection of Human Rights Act, 1993) and CVC (CVC Act, 2003) are statutory; NITI Aayog was created by a Cabinet resolution in 2015.")
+s.q(3, "Under the Right to Information Act, 2005, information concerning the life or liberty of a person must be provided within",
+    ["24 hours", "48 hours", "7 days", "30 days"], "48 hours",
+    "The normal limit is 30 days (Section 7(1)); where the information concerns the life or liberty of a person it must be given within 48 hours of the request.")
+s.q(3, "Consider the following statements about the Lokpal: 1. It was established under the Lokpal and Lokayuktas Act, 2013. 2. It consists of a Chairperson and up to eight members, half of whom are judicial members. 3. It is a constitutional body under Part XIV of the Constitution. Which of the above are correct?",
+    ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"], "1 and 2 only",
+    "The Lokpal is a statutory body created by the 2013 Act; at least half of its maximum eight members are judicial. It is not a constitutional body.")
+s.q(3, "Consider the following statements about the Finance Commission: 1. It is constituted by the President under Article 280. 2. It consists of a Chairman and four other members. 3. Its recommendations are binding on the Union Government. Which of the above are correct?",
+    ["1 and 2 only", "1 and 3 only", "2 and 3 only", "1, 2 and 3"], "1 and 2 only",
+    "The Finance Commission is constituted every five years (or earlier) under Article 280 with a Chairman and four members. Its recommendations are advisory, not binding.")
+
+# ---- Unit 4
+s.q(4, "Arrange the following committees/commissions on Centre–State relations in chronological order of their constitution: 1. Sarkaria Commission 2. Rajamannar Committee 3. Punchhi Commission",
+    ["2, 1, 3", "1, 2, 3", "2, 3, 1", "1, 3, 2"], "2, 1, 3",
+    "Rajamannar Committee — 1969 (appointed by the Tamil Nadu Government); Sarkaria Commission — 1983 (Union Government); M.M. Punchhi Commission — 2007.")
+s.q(4, "Consider the following statements about the anti-defection law: 1. The Tenth Schedule was added by the 52nd Amendment Act, 1985. 2. The 91st Amendment Act, 2003 deleted the exception for a ‘split’ of one-third of a legislature party. 3. A merger is protected only if at least two-thirds of the members of the legislature party agree to it. 4. The Speaker's decision on disqualification is final and cannot be judicially reviewed. How many of the above statements are correct?",
+    HOW_MANY, "Only three",
+    "1, 2 and 3 are correct. In Kihoto Hollohan (1992) the Supreme Court held that the Presiding Officer acts as a tribunal and the decision is subject to judicial review — so statement 4 is wrong.")
+s.q(4, "‘None of the Above’ (NOTA) was introduced on electronic voting machines following the Supreme Court's judgement in",
+    ["Association for Democratic Reforms v. Union of India (2002)", "People's Union for Civil Liberties v. Union of India (2013)", "Lily Thomas v. Union of India (2013)", "Indira Nehru Gandhi v. Raj Narain (1975)"],
+    "People's Union for Civil Liberties v. Union of India (2013)",
+    "In PUCL (2013) the Court held that the right to a negative vote is part of freedom of expression and directed the NOTA option. ADR (2002) concerned candidates' disclosure of criminal and financial antecedents; Lily Thomas (2013) concerned disqualification on conviction.")
+
+# ---- Unit 5
+s.q(5, "Which of the following amendments require, in addition to a special majority in Parliament, ratification by the legislatures of at least half of the States? 1. Election of the President and its manner 2. Representation of States in Parliament 3. Fundamental Rights 4. Any of the Lists in the Seventh Schedule",
+    ["1, 2 and 4 only", "1 and 2 only", "2, 3 and 4 only", "1, 2, 3 and 4"], "1, 2 and 4 only",
+    "Under Article 368(2), federal provisions — election of the President, the extent of Union and State executive power, the Supreme Court and High Courts, distribution of legislative powers, the Seventh Schedule lists, representation of States in Parliament and Art. 368 itself — need State ratification. Fundamental Rights need only a special majority.")
+s.q(5, "Match the following: A. 73rd Amendment B. 74th Amendment C. Eleventh Schedule D. Twelfth Schedule — 1. Part IX-A (Municipalities) 2. 18 functional items 3. Part IX (Panchayats) 4. 29 functional items",
+    ["A-3, B-1, C-4, D-2", "A-1, B-3, C-4, D-2", "A-3, B-1, C-2, D-4", "A-1, B-3, C-2, D-4"], "A-3, B-1, C-4, D-2",
+    "The 73rd Amendment (1992) added Part IX and the Eleventh Schedule (29 items) for Panchayats; the 74th added Part IX-A and the Twelfth Schedule (18 items) for Municipalities.")
+s.q(5, "Consider the following statements: 1. The Balwant Rai Mehta Committee (1957) recommended a three-tier Panchayati Raj system. 2. The Ashok Mehta Committee (1977) recommended a two-tier system. 3. Andhra Pradesh was the first State to introduce Panchayati Raj, in October 1959. Which of the above are correct?",
+    ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"], "1 and 2 only",
+    "Rajasthan was first — Nehru inaugurated Panchayati Raj at Nagaur on 2 October 1959. Andhra Pradesh followed later in 1959. Statements 1 and 2 are correct.")
+s.q(5, "Under Part IX of the Constitution, consider the following: 1. Not less than one-third of the seats in every Panchayat are reserved for women. 2. Elections to Panchayats are conducted by the State Election Commission. 3. A State Finance Commission is constituted every five years. 4. The minimum age for election as a member of a Panchayat is 25 years. How many of the above statements are correct?",
+    HOW_MANY, "Only three",
+    "1 (Art. 243D), 2 (Art. 243K) and 3 (Art. 243I) are correct. Statement 4 is wrong: Article 243F sets the minimum age at 21 years.")
+s.q(5, "The Community Development Programme, which led to the setting up of the Balwant Rai Mehta Committee, was launched in",
+    ["1950", "1952", "1957", "1959"], "1952",
+    "The Community Development Programme began on 2 October 1952 (and the National Extension Service in 1953). The Balwant Rai Mehta Committee was appointed in 1957 to study them.")
+
+# ---- Unit 6
+s.q(6, "Match List-I (Body) with List-II (Constitutional basis): A. National Commission for Scheduled Castes B. National Commission for Scheduled Tribes C. National Commission for Backward Classes D. Special Officer for Linguistic Minorities — 1. Article 338B 2. Article 338A 3. Article 350B 4. Article 338",
+    ["A-4, B-2, C-1, D-3", "A-2, B-4, C-1, D-3", "A-4, B-1, C-2, D-3", "A-4, B-2, C-3, D-1"], "A-4, B-2, C-1, D-3",
+    "Article 338 (NCSC); Article 338A (NCST, inserted by the 89th Amendment, 2003); Article 338B (NCBC, 102nd Amendment, 2018); Article 350B (Special Officer for Linguistic Minorities).")
+s.q(6, "Consider the following statements: 1. Article 17 abolishes untouchability and forbids its practice in any form. 2. The Untouchability (Offences) Act, 1955 was renamed the Protection of Civil Rights Act in 1976. 3. The Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act was enacted in 1989. Which of the above are correct?",
+    ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"], "1, 2 and 3",
+    "All three are correct. The SC/ST (Prevention of Atrocities) Act, 1989 was strengthened by amendments in 2015 and 2018.")
+s.q(6, "The Sixth Schedule of the Constitution applies to tribal areas in which of the following groups of States?",
+    ["Assam, Meghalaya, Tripura and Mizoram", "Assam, Nagaland, Manipur and Tripura", "Meghalaya, Mizoram, Arunachal Pradesh and Sikkim", "Andhra Pradesh, Odisha, Jharkhand and Chhattisgarh"],
+    "Assam, Meghalaya, Tripura and Mizoram",
+    "The Sixth Schedule (autonomous district councils) covers Assam, Meghalaya, Tripura and Mizoram. Scheduled Areas in other States, including Andhra Pradesh, come under the Fifth Schedule.")
+s.q(6, "Assertion (A): The Panchayats (Extension to the Scheduled Areas) Act, 1996 empowers the Gram Sabha in Fifth Schedule areas. Reason (R): Part IX of the Constitution does not apply to Scheduled Areas automatically; Parliament may extend it with exceptions and modifications under Article 243M.",
+    AR, AR[0],
+    "Both are true and R explains A. Article 243M(4)(b) allows Parliament to extend Part IX to Scheduled Areas by law; PESA (1996) did so, giving Gram Sabhas powers over minor forest produce, land alienation and local plans.")
+s.q(6, "Reservation of up to 10% for the Economically Weaker Sections (EWS) in education and public employment was introduced by the",
+    ["101st Amendment Act, 2016", "102nd Amendment Act, 2018", "103rd Amendment Act, 2019", "104th Amendment Act, 2020"], "103rd Amendment Act, 2019",
+    "The 103rd Amendment inserted Articles 15(6) and 16(6). The Supreme Court upheld it in Janhit Abhiyan v. Union of India (2022). The 101st Amendment introduced GST; the 102nd gave constitutional status to the NCBC; the 104th extended SC/ST reservation in legislatures.")
+s.q(6, "Which Article of the Constitution enables the State to provide reservation in matters of promotion for Scheduled Castes and Scheduled Tribes?",
+    ["Article 15(4)", "Article 16(4)", "Article 16(4A)", "Article 46"], "Article 16(4A)",
+    "Article 16(4A) was inserted by the 77th Amendment (1995) after Indra Sawhney (1992) held that Article 16(4) did not cover promotions. Article 46 is a Directive Principle on the educational and economic interests of weaker sections.")
+
+s.write("polity.json")

@@ -1,0 +1,184 @@
+{
+ "subject": {
+  "id": "society",
+  "name": "Indian Society"
+ },
+ "questions": [
+  {
+   "id": 70001,
+   "topic": "Structure: family, marriage, kinship, caste, tribe, ethnicity, religion, women",
+   "unit": 1,
+   "question": "The concept of ‘Sanskritisation’, the process by which a lower caste adopts the customs and rituals of a higher caste, was introduced by",
+   "options": [
+    "G.S. Ghurye",
+    "M.N. Srinivas",
+    "Andre Beteille",
+    "Louis Dumont"
+   ],
+   "answerIndex": 1,
+   "explanation": "M.N. Srinivas introduced Sanskritisation in his study of the Coorgs (1952) and also the idea of the ‘dominant caste’. Louis Dumont wrote Homo Hierarchicus.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 70002,
+   "topic": "Structure: family, marriage, kinship, caste, tribe, ethnicity, religion, women",
+   "unit": 1,
+   "question": "Match the concept with the scholar associated with it: A. Little and Great Traditions B. Dominant caste C. Homo Hierarchicus D. Caste and Race in India — 1. M.N. Srinivas 2. Robert Redfield 3. G.S. Ghurye 4. Louis Dumont",
+   "options": [
+    "A-2, B-1, C-4, D-3",
+    "A-1, B-2, C-4, D-3",
+    "A-2, B-1, C-3, D-4",
+    "A-4, B-1, C-2, D-3"
+   ],
+   "answerIndex": 0,
+   "explanation": "Redfield proposed Little and Great Traditions (applied to India by McKim Marriott); Srinivas — dominant caste; Dumont — Homo Hierarchicus (1966); Ghurye — Caste and Race in India (1932).",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 70003,
+   "topic": "Structure: family, marriage, kinship, caste, tribe, ethnicity, religion, women",
+   "unit": 1,
+   "question": "Which of the following communities traditionally follow a matrilineal system of descent? 1. Khasi 2. Garo 3. Nair 4. Toda",
+   "options": [
+    "1, 2 and 3 only",
+    "1 and 2 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "answerIndex": 0,
+   "explanation": "The Khasi and Garo of Meghalaya and the Nairs of Kerala (marumakkathayam) were traditionally matrilineal. The Todas of the Nilgiris are patrilineal and were known for fraternal polyandry.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 70004,
+   "topic": "Structure: family, marriage, kinship, caste, tribe, ethnicity, religion, women",
+   "unit": 1,
+   "question": "The rule that requires a person to marry outside his or her own clan or gotra is called",
+   "options": [
+    "Endogamy",
+    "Exogamy",
+    "Hypergamy",
+    "Polyandry"
+   ],
+   "answerIndex": 1,
+   "explanation": "Exogamy — marriage outside the clan, gotra or village. Endogamy — marriage within the caste or group. Hypergamy — a woman marrying into a higher-status group.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 70005,
+   "topic": "Social issues: casteism, communalism, regionalism, crimes against women, child labour, youth unrest",
+   "unit": 2,
+   "question": "Consider the following statements: 1. The Child and Adolescent Labour (Prohibition and Regulation) Act prohibits employment of children below 14 years in all occupations except helping family enterprises after school hours. 2. Adolescents (14–18 years) are prohibited from working in hazardous occupations. 3. Article 24 prohibits employment of children below 14 in factories, mines and other hazardous employment. Which of the above are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answerIndex": 3,
+   "explanation": "All three are correct. The 1986 Act was amended in 2016 and renamed to cover adolescents; Article 24 is a Fundamental Right against exploitation.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 70006,
+   "topic": "Social issues: casteism, communalism, regionalism, crimes against women, child labour, youth unrest",
+   "unit": 2,
+   "question": "Match the Act with the year it was enacted: A. Dowry Prohibition Act B. Pre-Conception and Pre-Natal Diagnostic Techniques (PCPNDT) Act C. Protection of Women from Domestic Violence Act D. Protection of Children from Sexual Offences (POCSO) Act — 1. 1961 2. 1994 3. 2005 4. 2012",
+   "options": [
+    "A-1, B-2, C-3, D-4",
+    "A-2, B-1, C-3, D-4",
+    "A-1, B-3, C-2, D-4",
+    "A-1, B-2, C-4, D-3"
+   ],
+   "answerIndex": 0,
+   "explanation": "Dowry Prohibition Act — 1961; PCPNDT (originally PNDT) Act — 1994; Domestic Violence Act — 2005; POCSO Act — 2012.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 70007,
+   "topic": "Social issues: casteism, communalism, regionalism, crimes against women, child labour, youth unrest",
+   "unit": 2,
+   "question": "Assertion (A): A declining child sex ratio is a serious social concern in India. Reason (R): Sex-selective abortion is driven by son preference and is prohibited under the PCPNDT Act, 1994.",
+   "options": [
+    "Both A and R are true, and R is the correct explanation of A",
+    "Both A and R are true, but R is not the correct explanation of A",
+    "A is true, but R is false",
+    "A is false, but R is true"
+   ],
+   "answerIndex": 0,
+   "explanation": "Both are true and R explains A. Son preference and the misuse of diagnostic techniques for sex selection are major causes of the falling child sex ratio (919 in Census 2011).",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 70008,
+   "topic": "Welfare mechanisms: policies, programmes, constitutional & statutory safeguards",
+   "unit": 3,
+   "question": "Under the Rights of Persons with Disabilities Act, 2016, consider the following: 1. The number of specified disabilities is 21. 2. Not less than 4% of vacancies in government establishments are reserved for persons with benchmark disabilities. 3. A ‘benchmark disability’ means not less than 40% of a specified disability. How many of the above statements are correct?",
+   "options": [
+    "Only one",
+    "Only two",
+    "All three",
+    "None"
+   ],
+   "answerIndex": 2,
+   "explanation": "All three are correct. The 2016 Act replaced the 1995 Act (7 disabilities, 3% reservation).",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 70009,
+   "topic": "Welfare mechanisms: policies, programmes, constitutional & statutory safeguards",
+   "unit": 3,
+   "question": "Which of the following communities are notified as minorities by the Union Government under the National Commission for Minorities Act, 1992? 1. Muslims 2. Christians 3. Sikhs 4. Buddhists 5. Parsis (Zoroastrians) 6. Jains",
+   "options": [
+    "1, 2, 3 and 4 only",
+    "1, 2, 3, 4 and 5 only",
+    "1, 2, 3, 4, 5 and 6",
+    "1, 2 and 6 only"
+   ],
+   "answerIndex": 2,
+   "explanation": "Five communities were notified in 1993; Jains were added in 2014, making six.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 70010,
+   "topic": "Welfare mechanisms: policies, programmes, constitutional & statutory safeguards",
+   "unit": 3,
+   "question": "Which Article of the Constitution empowers the State to make special provisions for women and children?",
+   "options": [
+    "Article 14",
+    "Article 15(3)",
+    "Article 15(4)",
+    "Article 21A"
+   ],
+   "answerIndex": 1,
+   "explanation": "Article 15(3) permits special provisions for women and children. Article 15(4) covers socially and educationally backward classes, SCs and STs; Article 21A is the right to education.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  },
+  {
+   "id": 70011,
+   "topic": "Welfare mechanisms: policies, programmes, constitutional & statutory safeguards",
+   "unit": 3,
+   "question": "The National Commission for Women was set up as a statutory body under an Act passed in",
+   "options": [
+    "1986",
+    "1990",
+    "1993",
+    "2005"
+   ],
+   "answerIndex": 1,
+   "explanation": "The National Commission for Women Act, 1990 created the NCW, which was constituted in January 1992.",
+   "source": "Team Civilians original · APPSC pattern",
+   "difficulty": "hard"
+  }
+ ]
+}

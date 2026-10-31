@@ -26,39 +26,159 @@
     "82": "Duplicate of #33 with a different answer key — verify which key is right",
     "175": "Duplicate of #261 with a different answer key — verify which key is right",
     "261": "Duplicate of #175 with a different answer key — verify which key is right",
-    "268": "Duplicate of #1144 with a different answer key — verify which key is right",
-    "1144": "Duplicate of #268 with a different answer key — verify which key is right",
+    "1144": "Duplicate of #268 (revised) — kept withdrawn so the question appears once",
     "441": "Question text replaced by explanation fragment (\": The correct match is as follows\")",
     "861": "Question text replaced by explanation fragment; options merged with list codes",
     "1193": "Question text replaced by explanation fragment; last option contains another question",
     "1151": "List-I/List-II missing and options merged (\"4 2 1 3 c) 1 3 2 4\")",
-    "1038": "Keyed option D is identical to option A — two correct answers",
-    "461": "Stem and statement 1 subject missing (\"It is a technique…\" — what is?)",
-    "1156": "Stem missing before the numbered statements",
-    "124": "Stem truncated (\"obtained by\")",
-    "133": "Stem truncated (\"called-\")",
-    "411": "Stem truncated (\"Knee- Syndrome”?\")",
-    "417": "Stem truncated (\"it will eventually lead to except-\")",
-    "453": "Stem truncated (\"industrial effluents of\")",
-    "458": "Stem truncated (\"indicator plant?\")",
-    "466": "Stem truncated (\"environment by\")",
-    "703": "Stem truncated (\"following rays in the atmosphere?\")",
-    "709": "Stem truncated (\"destroyed by which of the following?\")",
-    "749": "Stem truncated (\"generational sensibility in respect of use of\")",
-    "762": "Stem truncated (starts at \"adopted by the UNDP…\")",
-    "764": "Stem truncated (\"mark is given to a product which is\")",
-    "767": "Stem truncated (\"to be achieved by:\")",
-    "779": "Stem truncated (starts at \"adopted by all United Nations Member States…\")",
-    "1122": "Stem truncated (starts at \"cover as an area more than one hectares…\")",
-    "1125": "Stem truncated (\"States of India?\")",
-    "1131": "Stem truncated (starts at \"how many states/union territories…\")",
-    "1140": "Stem truncated (\"of the following is not a category of forest?\")",
-    "1147": "Stem truncated (starts at \"having long roots and sharp thorns…\")",
-    "1160": "Stem truncated (\"India?\")",
-    "1162": "Stem truncated (\"total geographical area is about-\")",
-    "1174": "Stem truncated (\"the largest area in India?\")",
-    "1175": "Stem truncated (\"classified as sub-tropical?\")",
-    "1176": "Stem truncated (starts at \"which of the following is the most appropriate sequence…\")",
-    "706": "Stem truncated (starts at \"rays. Which of the following harms the ozone layer?\")"
+    "1156": "Stem missing and the explanation cites the wrong policy year (NFP is 1988); key cannot be confirmed",
+    "124": "Stem truncated and the explanation (DDT biomagnification) does not match the options",
+    "417": "Ambiguous ‘EXCEPT’ rewrite of a UPSC 1994 question; the keyed answer cannot be confirmed",
+    "453": "Stem truncated (“industrial effluents of”); the pollutant asked about cannot be recovered",
+    "1174": "Key disputed: FSI forest-type data shows tropical DRY deciduous forest covers the largest area, not moist deciduous",
+    "1175": "Ambiguous: the explanation lists sub-tropical forests in several of the option States (Nilgiri hills, Pachmarhi)"
+  },
+  "overrides": {
+    "133": {
+      "question": "The movement of nutrient elements through the various components of an ecosystem is called—",
+      "why": "Stem was truncated to “called-”; restored from the options and explanation."
+    },
+    "268": {
+      "answerIndex": 1,
+      "explanation": "Conservation International's hotspot list includes the Himalaya (covering the Eastern Himalayas) and the Mediterranean Basin, which spans the eastern Mediterranean region. Australia's hotspots are Southwest Australia and the Forests of East Australia — North-western Australia is not one. Hence 1 and 2 only.",
+      "why": "Key changed from “1 only” to “1 and 2 only”: the original explanation itself says the whole Mediterranean Basin is a hotspot. Duplicate #1144 already carried this key."
+    },
+    "411": {
+      "question": "Excess of which of the following in drinking water causes “Knock-Knee Syndrome”?",
+      "why": "Stem was truncated; restored from the options and explanation."
+    },
+    "458": {
+      "question": "Which one of the following is used as an indicator of air pollution, especially by sulphur dioxide?",
+      "why": "Stem was truncated to “indicator plant?”; restored from the options and explanation."
+    },
+    "461": {
+      "question": "With reference to ‘Bioremediation’, consider the following statements: 1. It is a technique for cleaning up pollution by enhancing the same biodegradation process that occurs in nature. 2. Any contaminant with heavy metals such as cadmium and lead can be readily and completely treated by bioremediation using microorganisms. 3. Genetic engineering can be used to create microorganisms specifically designed for bioremediation. Select the correct answer using the code given below:",
+      "why": "Stem and the number of statement 1 were missing; restored (UPSC Prelims 2017 wording)."
+    },
+    "466": {
+      "question": "Acid rain is caused by the pollution of the environment by",
+      "why": "Stem was truncated to “environment by”; restored (UPSC Prelims 2013 wording)."
+    },
+    "703": {
+      "question": "The ozone layer protects us from which of the following rays in the atmosphere?",
+      "why": "Stem was truncated; restored from the options and explanation."
+    },
+    "706": {
+      "question": "The ozone layer protects us from harmful ultraviolet rays. Which of the following harms the ozone layer?",
+      "options": [
+        "Burning of wood for cooking",
+        "CO₂ used in soda water bottles",
+        "Urea used as fertilizer",
+        "Chlorofluorocarbons used in air conditioners"
+      ],
+      "why": "Stem was truncated; distractor “CO” corrected to CO₂ (soda water is carbonated)."
+    },
+    "709": {
+      "question": "The ozone layer is being destroyed mainly by which of the following?",
+      "why": "Stem was truncated; restored from the options and explanation."
+    },
+    "749": {
+      "question": "Sustainable development is a case of inter-generational sensibility in respect of the use of",
+      "why": "Stem was truncated; restored from the explanation, which quotes it."
+    },
+    "762": {
+      "question": "The Sustainable Development Goals (SDGs), adopted by the UN Member States in 2015, set goals to be achieved by 2030. What is the total number of goals?",
+      "explanation": "The 2030 Agenda for Sustainable Development, adopted by all UN Member States in September 2015, has 17 Sustainable Development Goals and 169 targets.",
+      "why": "Stem was truncated; also corrected “adopted by the UNDP” — the SDGs were adopted by the UN General Assembly."
+    },
+    "764": {
+      "question": "The ‘Eco-mark’ is given to a product which is",
+      "why": "Stem was truncated; restored from the explanation."
+    },
+    "767": {
+      "question": "The Sustainable Development Goals (SDGs) are to be achieved by:",
+      "explanation": "The SDGs were adopted by all UN Member States in 2015 as part of the 2030 Agenda for Sustainable Development, with a target year of 2030. They succeeded the Millennium Development Goals (2000–2015).",
+      "why": "Stem was truncated; explanation referred to statements that are not in the question."
+    },
+    "779": {
+      "question": "The number of Sustainable Development Goals adopted by all United Nations Member States, to be attained by 2030, is:",
+      "explanation": "The 2030 Agenda (2015) contains 17 SDGs with 169 targets, to be attained by 2030.",
+      "why": "Stem was truncated; explanation described Agenda 21 instead of the SDGs."
+    },
+    "1038": {
+      "options": [
+        "Warming will be relatively greater in winter.",
+        "Warming will be relatively greater in summer.",
+        "Warming will be relatively greater in summer and winter.",
+        "Warming will be relatively greater in winter and post-monsoon season."
+      ],
+      "source": "JPSC (Pre) 2021 Paper-II",
+      "why": "The end of option D (“and post monsoon season”) had been parsed into the source field, making D identical to A. Restored."
+    },
+    "1122": {
+      "question": "As per the Forest Survey of India, ‘forest cover’ is all land of more than one hectare in extent with a tree canopy density of—",
+      "why": "Stem was truncated; restored from the explanation."
+    },
+    "1125": {
+      "question": "Which of the following States has the largest area under teak forests?",
+      "why": "Stem was truncated to “States of India?”; restored from the explanation."
+    },
+    "1131": {
+      "question": "According to the India State of Forest Report (ISFR) 2021, how many States/Union Territories have over 33% of their geographical area under forest cover?",
+      "why": "Stem was truncated; report year added from the explanation."
+    },
+    "1140": {
+      "question": "Under the National Forest Policy, 1952, which one of the following is NOT a category of forest?",
+      "why": "Stem was truncated; restored from the explanation."
+    },
+    "1147": {
+      "question": "Tropical thorn forests, whose plants have long roots and sharp thorns or spines, are commonly found in—",
+      "why": "Stem was truncated; restored from the explanation."
+    },
+    "1160": {
+      "question": "As per the India State of Forest Report 2021, forest cover (excluding tree cover) is about what percentage of India's geographical area?",
+      "why": "Stem was truncated; made precise — forest cover is 21.71% (≈22%), whereas forest + tree cover is 24.62%."
+    },
+    "1162": {
+      "question": "As per the India State of Forest Report 2021, dense forest (very dense + moderately dense) covers about what percentage of India's total geographical area?",
+      "explanation": "ISFR 2021: very dense forest 3.04% + moderately dense forest 9.33% = 12.37% of the geographical area (open forest is a further 9.34%). Hence about 12%.",
+      "why": "Stem was truncated; explanation tidied to the ISFR 2021 figures it cites."
+    },
+    "1176": {
+      "question": "Under the Indian Forest Act, 1927, which of the following is the most appropriate sequence showing the degree of protection given to different forest types?",
+      "explanation": "The Indian Forest Act, 1927 provides the highest protection to Reserved Forests (most activities prohibited unless permitted), then Protected Forests (activities allowed unless prohibited), then Village Forests (assigned to village communities). Hence Reserved > Protected > Village.",
+      "why": "Stem was truncated (APPSC 2023 question); explanation completed."
+    },
+    "112": {
+      "question": "Consider the following statements: 1. A food chain illustrates the order in which a chain of organisms feed upon each other. 2. Food chains are found within the populations of a species. 3. A food chain illustrates the numbers of each organism which are eaten by others. Which of the statements given above is / are correct?",
+      "why": "Opening “Consider the following statements: 1.” was missing (UPSC Prelims 2014 wording)."
+    },
+    "121": {
+      "options": [
+        "Bird, Fish, Snail, Aquatic plants",
+        "Aquatic plants, Snail, Fish, Bird",
+        "Snail, Fish, Bird, Aquatic plants",
+        "Fish, Snail, Aquatic plants, Bird"
+      ],
+      "why": "Options C and D were identical; distractor D replaced (keyed answer B unchanged)."
+    },
+    "380": {
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I",
+        "Both Statement-I and Statement-II are correct but Statement-II is not the correct explanation for Statement-I",
+        "Statement-I is correct but Statement-II is incorrect.",
+        "Statement-I is incorrect but Statement-II is correct."
+      ],
+      "why": "Options C and D were identical; restored the standard Statement-I/II option C (keyed answer B unchanged)."
+    },
+    "726": {
+      "options": [
+        "CO₂",
+        "Cl₂",
+        "CFCs",
+        "CO"
+      ],
+      "why": "Options A and D were identical (“CO”); distractors given distinct formulas (keyed answer CFCs unchanged)."
+    }
   }
 }
