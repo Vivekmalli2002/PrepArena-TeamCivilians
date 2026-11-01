@@ -24,7 +24,7 @@ Vercel Hobby is for non-commercial use — before charging for premium (Phase 2)
 
 | Screen | Route | Notes |
 |---|---|---|
-| Onboarding / Home | `/` | Target exam + optional name (local profile), continue / up next, five daily study slots (pick a topic, 10 questions each, bedtime mistakes round), full mock, quick stats |
+| Onboarding / Home | `/` | Target exam + optional name (local profile), continue / up next, five daily study slots (pick a topic, 10 questions before study and 10 after, bedtime mistakes round), full mock, quick stats |
 | Test catalog | `/tests` | Topics (sets of ~25, progress ring, best score, sub-topics when tagged), topic + full mocks, custom builder |
 | Error log book | `/mistakes` | Every wrong/blank question until answered correctly; reason tags (auto-guessed, yours win), your own note per question, repeat-miss and blank filters, search, sort, weakest topics, retry 10/25/50, mark as mastered, CSV export |
 | CBT player | `/play` | Instructions screen, TCS-iON style palette (5 statuses), countdown + per-question timer, pause / resume / restart, Save & Next, Mark & Next, Clear, jump, auto-submit at 00:00, keyboard shortcuts on desktop |
@@ -97,7 +97,7 @@ src/app/            routes (each page is a thin server shell around a client scr
 src/components/     UI kit (glass cards, sheet, segmented, rings), QuestionView, PwaManager
 src/lib/store.ts    zustand stores: app data (tc-app) + live test session (tc-session, written every second)
 src/lib/tests.ts    builders: topic sets, topic/full mocks, daily quiz (seeded by date), custom, weak-area, revision
-src/lib/slots.ts    study slots: 5 a day, topic chosen per slot, 10 more per slot, bedtime round from the day's mistakes
+src/lib/slots.ts    study slots: 5 a day, topic chosen per slot, 10 questions before study + 10 after, bedtime round from the day's mistakes
 src/lib/scoring.ts  marking schemes + pure scoring
 scripts/            content validation/audit, service-worker generator
 ```

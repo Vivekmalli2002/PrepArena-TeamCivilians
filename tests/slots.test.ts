@@ -15,14 +15,17 @@ function attempt(key: string, qids: number[], responses: (number | null)[], keyA
 }
 
 describe("study slots", () => {
-  it("serves 10 questions from the chosen topic and never repeats them in the same slot the same day", () => {
+  it("serves 10 questions before study, then 10 fresh ones from the same topic after study", () => {
     const first = slotQuiz(topic, [], {}, DAY, 1, "appsc")!;
     expect(first.qids).toHaveLength(10);
     expect(first.key).toBe(`slot:${DAY}:1:1`);
     expect(first.topic).toBe("Beams");
+    expect(first.title).toContain("Before study");
     const done = attempt(first.key, first.qids, first.qids.map(() => 0), first.qids.map(() => 0));
     const more = slotQuiz(topic, [done], {}, DAY, 1, "appsc")!;
     expect(more.key).toBe(`slot:${DAY}:1:2`);
+    expect(more.title).toContain("After study");
+    expect(more.qids).toHaveLength(10);
     expect(more.qids.filter((q) => first.qids.includes(q))).toHaveLength(0);
   });
 
@@ -33,6 +36,7 @@ describe("study slots", () => {
     expect(st.correct).toBe(1);
     expect(st.topic).toBe("Beams");
     expect(st.nextRound).toBe(2);
+    expect(st.scores).toEqual([{ correct: 1, asked: 3 }]);
     expect(dayTotal([a], DAY)).toBe(3);
     expect(dayTotal([a], "2026-11-03")).toBe(0);
   });

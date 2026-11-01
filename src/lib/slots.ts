@@ -12,7 +12,9 @@ export const SLOTS = [
   { id: 5, label: "Night", hint: "Last study block" },
 ] as const;
 
-export const SLOT_ROUND_MAX = 2; // 10 + 10 more per slot
+/** Two rounds a slot: 10 questions before sitting down to study the topic, 10 more after getting up. */
+export const SLOT_ROUND_MAX = 2;
+export const ROUND_LABEL = ["Before study", "After study"] as const;
 export const SLEEP_SIZE = 20;
 export const DAY_TARGET = 100;
 
@@ -31,20 +33,24 @@ export interface SlotState {
   correct: number;
   /** Topic of the latest round, so "10 more" defaults to it. */
   topic?: string;
-  /** Round the next start would be (1 = first 10, 2 = the extra 10). */
+  /** Round the next start would be (1 = before study, 2 = after study). */
   nextRound: number;
+  /** Correct answers in each finished round, to show the gain from studying. */
+  scores: { correct: number; asked: number }[];
 }
 
 export function slotState(attempts: Attempt[], day: string, slot: number): SlotState {
   const list = slotAttempts(attempts, day, slot);
   let asked = 0;
   let correct = 0;
+  const scores: { correct: number; asked: number }[] = [];
   for (const a of list) {
     const s = scoreResponses(a.responses, a.key, schemeById(a.config.schemeId));
     asked += a.config.qids.length;
     correct += s.correct;
+    scores.push({ correct: s.correct, asked: a.config.qids.length });
   }
-  return { slot, attempts: list, asked, correct, topic: list[list.length - 1]?.config.topic, nextRound: list.length + 1 };
+  return { slot, attempts: list, asked, correct, topic: list[list.length - 1]?.config.topic, nextRound: list.length + 1, scores };
 }
 
 export const sleepKey = (day: string) => `sleep:${day}`;
@@ -57,7 +63,7 @@ export function dayTotal(attempts: Attempt[], day: string): number {
     .reduce((n, a) => n + a.config.qids.length, 0);
 }
 
-/** 10 questions from one chosen topic, fresh ones first, never repeating a question already served in this slot today. */
+/** 10 questions from the slot's topic: round 1 before the student studies it, round 2 (fresh questions) after. */
 export function slotQuiz(
   topic: TopicInfo,
   attempts: Attempt[],
@@ -75,8 +81,8 @@ export function slotQuiz(
   return {
     kind: "slot",
     key: `${prefix(day, slot)}${round}`,
-    title: `${def.label} · ${topic.name}`,
-    subtitle: `${qids.length} questions${round > 1 ? ` · round ${round}` : ""}`,
+    title: `${def.label} · ${ROUND_LABEL[Math.min(round, SLOT_ROUND_MAX) - 1]} · ${topic.name}`,
+    subtitle: `${qids.length} questions`,
     mode: "practice",
     schemeId,
     durationSec: 0,

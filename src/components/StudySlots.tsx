@@ -3,7 +3,7 @@
 import { Check, MoonStar, Plus, Search, Sun } from "lucide-react";
 import { useMemo, useState } from "react";
 import type { LoadedBank, TopicInfo } from "@/lib/bank";
-import { DAY_TARGET, dayTotal, SLOT_ROUND_MAX, SLOTS, sleepAttempt, sleepQuiz, slotQuiz, slotState } from "@/lib/slots";
+import { DAY_TARGET, dayTotal, ROUND_LABEL, SLOT_ROUND_MAX, SLOTS, sleepAttempt, sleepQuiz, slotQuiz, slotState } from "@/lib/slots";
 import { scoreAttempt } from "@/lib/scoring";
 import type { Attempt, QStat, TestConfig } from "@/lib/types";
 import { Button, ButtonLink, Card, Sheet } from "./ui";
@@ -45,6 +45,12 @@ export function StudySlots({
 
   const open = (slot: number) => {
     const st = states[slot - 1];
+    // After study: same topic, fresh questions, no need to pick again.
+    if (st.topic && bank) {
+      const same = bank.topics.find((t) => t.name === st.topic);
+      const cfg = same ? slotQuiz(same, attempts, qstats, day, slot, schemeId) : null;
+      if (cfg) return start(cfg);
+    }
     const last = st.topic ? bank?.topics.find((t) => t.name === st.topic) ?? null : null;
     setChosen(last);
     setQuery("");
@@ -66,7 +72,7 @@ export function StudySlots({
       <div className="flex items-start justify-between gap-3">
         <div>
           <h3 className="font-display font-bold">Today&apos;s study slots</h3>
-          <p className="text-sm text-muted">Pick the topic you are about to study. 10 practice questions on it, five times a day.</p>
+          <p className="text-sm text-muted">Pick the topic you are about to study. 10 questions before you sit down and 10 after you get up, in five slots.</p>
         </div>
         <div className="shrink-0 text-right">
           <div className="font-display text-xl font-bold">{total}</div>
@@ -90,7 +96,11 @@ export function StudySlots({
               <div className="min-w-0 flex-1">
                 <div className="truncate font-semibold">{s.label}</div>
                 <div className="truncate text-sm text-muted">
-                  {done ? `${st.topic} · ${st.correct}/${st.asked} correct` : s.hint}
+                  {!done
+                    ? s.hint
+                    : st.scores.length > 1
+                      ? `${st.topic} · before ${st.scores[0].correct}/${st.scores[0].asked} → after ${st.scores[1].correct}/${st.scores[1].asked}`
+                      : `${st.topic} · before ${st.scores[0].correct}/${st.scores[0].asked}. Study it, then take the after-study 10`}
                 </div>
               </div>
               {last && (
@@ -102,7 +112,7 @@ export function StudySlots({
                 <Button size="sm" variant={done ? "outline" : "primary"} disabled={!bank} onClick={() => open(s.id)}>
                   {done ? (
                     <>
-                      <Plus size={14} /> 10 more
+                      <Plus size={14} /> {ROUND_LABEL[1]}
                     </>
                   ) : (
                     "Pick topic"
@@ -182,7 +192,7 @@ export function StudySlots({
           {topics.length > 120 && <li className="p-2 text-center text-xs text-muted">Showing 120 of {topics.length}. Search to narrow down.</li>}
         </ul>
         <Button className="mt-4 w-full" disabled={!chosen} onClick={go}>
-          <Sun size={16} /> {chosen ? `Start 10 questions · ${chosen.name}` : "Choose a topic first"}
+          <Sun size={16} /> {chosen ? `Start 10 questions before study · ${chosen.name}` : "Choose a topic first"}
         </Button>
       </Sheet>
     </Card>
