@@ -6,6 +6,7 @@ import { createJSONStorage, persist } from "zustand/middleware";
 import { dayKey, uid } from "./random";
 import { graduate, review } from "./srs";
 import type { Countdown, MainsEntry, MistakeReason } from "./extras";
+import { complete, emptyLearn, learnMore, rollDay, toggleRead, topUp, uncomplete, type LearnState } from "./mainsLearn";
 import type { Attempt, PaletteStatus, QStat, Question, Session, TestConfig } from "./types";
 
 const MAX_ATTEMPTS = 300;
@@ -30,10 +31,18 @@ interface AppState {
   /** Why the student got a question wrong (their own tag, set in the mistake notebook). */
   mistakeTags: Record<number, MistakeReason>;
   countdowns: Countdown[];
+  /** Group-I Mains learning queue (today's questions, backlog, completed). */
+  learn: LearnState;
   /** Mains answers written in the answer-writing practice, keyed by question id. */
   mains: Record<string, MainsEntry>;
 
   setMistakeTag: (id: number, tag: MistakeReason | null) => void;
+  syncLearn: (queue: string[], todayKey: string) => void;
+  setPerDay: (n: 1 | 2 | 3 | 4, queue: string[]) => void;
+  learnOneMore: (queue: string[]) => void;
+  toggleRead: (key: string) => void;
+  completeQ: (id: string) => void;
+  uncompleteQ: (id: string) => void;
   addCountdown: (c: Omit<Countdown, "id" | "createdAt">) => void;
   updateCountdown: (id: string, patch: Partial<Omit<Countdown, "id" | "createdAt">>) => void;
   removeCountdown: (id: string) => void;
@@ -49,7 +58,7 @@ interface AppState {
   /** "I've learnt this": take the question out of the revision set. */
   clearFromRevision: (id: number) => void;
   /** Replace everything with an imported backup. */
-  restore: (s: Pick<AppState, "profile" | "theme" | "attempts" | "qstats" | "bookmarks" | "activeDays"> & Partial<Pick<AppState, "mistakeTags" | "countdowns" | "mains">>) => void;
+  restore: (s: Pick<AppState, "profile" | "theme" | "attempts" | "qstats" | "bookmarks" | "activeDays"> & Partial<Pick<AppState, "mistakeTags" | "countdowns" | "mains" | "learn">>) => void;
   setInstallPrompt: (s: AppState["installPrompt"]) => void;
   resetAll: () => void;
 }
@@ -64,6 +73,7 @@ const initial = {
   installPrompt: "pending" as const,
   mistakeTags: {} as Record<number, MistakeReason>,
   countdowns: [] as Countdown[],
+  learn: emptyLearn(),
   mains: {} as Record<string, MainsEntry>,
 };
 
@@ -78,6 +88,12 @@ export const useApp = create<AppState>()(
           else delete next[id];
           return { mistakeTags: next };
         }),
+      syncLearn: (queue, todayKey) => set((s) => ({ learn: rollDay(s.learn, todayKey, queue) })),
+      setPerDay: (n, queue) => set((s) => ({ learn: topUp({ ...s.learn, perDay: n }, queue) })),
+      learnOneMore: (queue) => set((s) => ({ learn: learnMore(s.learn, queue) })),
+      toggleRead: (key) => set((s) => ({ learn: toggleRead(s.learn, key) })),
+      completeQ: (id) => set((s) => ({ learn: complete(s.learn, id) })),
+      uncompleteQ: (id) => set((s) => ({ learn: uncomplete(s.learn, id) })),
       addCountdown: (c) =>
         set((s) => ({
           countdowns: [...s.countdowns.map((x) => (c.pinned ? { ...x, pinned: false } : x)), { ...c, id: uid(), createdAt: Date.now() }],
