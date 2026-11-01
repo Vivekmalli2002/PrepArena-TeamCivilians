@@ -1,10 +1,10 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
-import { Download, Share, WifiOff, X } from "lucide-react";
+import { Download, RefreshCw, Share, WifiOff, X } from "lucide-react";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { useApp, useHydrated } from "@/lib/store";
+import { useApp, useHydrated, useSession } from "@/lib/store";
 import { Logo } from "./AppShell";
 import { Button } from "./ui";
 
@@ -24,10 +24,40 @@ export function PwaManager() {
   const [deferred, setDeferred] = useState<InstallEvent | null>(null);
   const [ios, setIos] = useState(false);
   const [offline, setOffline] = useState(false);
+  const [updateReady, setUpdateReady] = useState(false);
 
   useEffect(() => {
+    let stopUpdates = () => {};
     if (process.env.NODE_ENV === "production" && "serviceWorker" in navigator) {
-      navigator.serviceWorker.register("/sw.js").catch(() => {});
+      const sw = navigator.serviceWorker;
+      // A page that already had a worker is running an older build when a new worker takes over.
+      const hadWorker = !!sw.controller;
+      sw.register("/sw.js")
+        .then((reg) => {
+          const check = () => reg.update().catch(() => {});
+          const onVisible = () => document.visibilityState === "visible" && check();
+          document.addEventListener("visibilitychange", onVisible);
+          stopUpdates = () => document.removeEventListener("visibilitychange", onVisible);
+          check();
+        })
+        .catch(() => {});
+      const onChange = () => {
+        if (!hadWorker) return;
+        const s = useSession.getState().session;
+        const busy = !!s && s.started && s.responses.some((r) => r != null);
+        // Never reload under a student mid-test: offer the refresh instead.
+        if (busy || sessionStorage.getItem("tc-reloaded")) setUpdateReady(true);
+        else {
+          sessionStorage.setItem("tc-reloaded", "1");
+          location.reload();
+        }
+      };
+      sw.addEventListener("controllerchange", onChange);
+      const prev = stopUpdates;
+      stopUpdates = () => {
+        prev();
+        sw.removeEventListener("controllerchange", onChange);
+      };
     }
     const standalone = matchMedia("(display-mode: standalone)").matches || (navigator as { standalone?: boolean }).standalone;
     const onPrompt = (e: Event) => {
@@ -47,6 +77,7 @@ export function PwaManager() {
     window.addEventListener("online", net);
     window.addEventListener("offline", net);
     return () => {
+      stopUpdates();
       window.removeEventListener("beforeinstallprompt", onPrompt);
       window.removeEventListener("appinstalled", onInstalled);
       window.removeEventListener("online", net);
@@ -79,6 +110,25 @@ export function PwaManager() {
             <span className="glass-strong flex items-center gap-2 rounded-full px-3.5 py-1.5 text-sm font-semibold">
               <WifiOff size={15} className="text-warn" /> Offline — practice still works
             </span>
+          </motion.div>
+        )}
+      </AnimatePresence>
+      <AnimatePresence>
+        {updateReady && (
+          <motion.div
+            initial={{ y: 80, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            exit={{ y: 80, opacity: 0 }}
+            className="fixed inset-x-0 bottom-[calc(5.5rem+env(safe-area-inset-bottom))] z-50 px-3 sm:bottom-6"
+            role="status"
+          >
+            <div className="glass-solid mx-auto flex max-w-md items-center gap-3 rounded-3xl p-3.5">
+              <RefreshCw size={20} className="shrink-0 text-primary" />
+              <p className="min-w-0 flex-1 text-sm font-semibold leading-snug">A new version is ready.</p>
+              <Button size="sm" onClick={() => location.reload()}>
+                Refresh
+              </Button>
+            </div>
           </motion.div>
         )}
       </AnimatePresence>
