@@ -596,14 +596,14 @@ export const PAPERS: Record<string, Paper> = {
   "aee-rbi-3": { id: "aee-rbi-3", name: "Paper-3 · Civil Engineering (R&B, WRD, PH&ME, RWS)", marks: 150, subjects: ["civil-bm", "civil-sa", "civil-ss", "civil-rcc", "civil-cpm", "civil-geo", "civil-ee", "civil-hyd", "civil-irr", "civil-sur", "civil-tra", "civil-est", "civil-gel", "civil-fm", "civil-other"],
     syllabus: ["1 · Building materials", "2 · Structural analysis", "3 · Design of steel structures", "4 · Design of concrete & masonry structures", "5 · Construction planning & management", "6 · Hydraulics & water resources engineering", "7 · Environmental engineering", "8 · Soil mechanics & foundation engineering", "9 · Surveying & transport engineering"] },
   // Other posts
-  "aswo-2": { id: "aswo-2", name: "Paper-II · Social & Cultural History of AP and Welfare Programmes", marks: 150, subjects: ["history", "polity"],
+  "aswo-2": { id: "aswo-2", name: "Paper-II · Social & Cultural History of AP (135) and Welfare Mechanisms (15)", marks: 150, subjects: ["history", "society"],
     syllabus: ["1 · Social & cultural history of AP: early dynasties", "2 · Kingdoms of Andhra, 11th–16th c.", "3 · Europeans, 1857 and the freedom movement in Andhra", "4 · Andhra Movement and the Andhra Mahasabhas", "5 · Formation of Andhra Pradesh", "6 · State priorities for welfare and economic development"] },
-  "aswo-3": { id: "aswo-3", name: "Paper-III · Constitution & Weaker Sections Welfare", marks: 150, subjects: ["polity"],
+  "aswo-3": { id: "aswo-3", name: "Paper-III · Constitution & Polity (135) and Welfare Mechanisms (15)", marks: 150, subjects: ["polity", "society"],
     syllabus: ["1 · Nature and salient features of the Constitution", "2 · Legislature, Executive and Judiciary", "3 · Union–State distribution of powers", "4 · Centre–State relations and reform committees", "5 · Amendments; centralisation vs decentralisation", "6 · Political parties and party systems", "7 · Constitutional provisions & welfare mechanisms for SC/ST", "8 · Legislative Acts against social evils"] },
   "eo-2": { id: "eo-2", name: "Paper-II · Hindu Philosophy & Temple System", marks: 150, subjects: ["hindu"],
     syllabus: ["01 · Ramayanam", "02 · Mahabharatham", "03 · Bhagavatham", "04 · Hindu Puranams", "05 · Temple Agamas", "06 · Hindu festivals and classical fine arts", "07 · Vedic culture: yagnas, Vedas, Upavedas", "08 · Philosophies, cults and gurus", "09 · Hindu family structure, adoption, succession", "10 · Sources of income for temples; allocation of funds", "11 · Duties of Executive Officers (Sec. 29 of Act 30/1987)", "12 · Land records and law on endowment lands"] },
-  "dm-1": { id: "dm-1", name: "Paper-I · General Studies & Mental Ability (SSC standard)", marks: 150, subjects: ["scitech", "history", "polity", "economy", "env"] },
-  "dm-2": { id: "dm-2", name: "Paper-II · ITI (Civil Draughtsman)", marks: 150, subjects: ["drawing-survey"],
+  "dm-1": { id: "dm-1", name: "Paper-I · General Studies & Mental Ability (same as the AEE technical papers)", marks: 150, subjects: ["current", "scitech", "history", "geography", "polity", "economy", "env", "mental"] },
+  "dm-2": { id: "dm-2", name: "Paper-II · Surveying (90), Engineering Drawing (15), ITI Basic Maths (45)", marks: 150, subjects: ["civil-sur", "drawing-survey", "mental"],
     syllabus: ["1 · Drawing (IS 962-1989, layout, lines, lettering, dimensioning, scales, projection)", "2 · Surveying", "3 · Levelling", "4 · Theodolite survey", "5 · Total station", "6 · GPS", "7 · Units, arithmetic, algebra, geometry, mensuration"] },
 };
 
