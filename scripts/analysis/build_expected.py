@@ -88,7 +88,7 @@ WHY = {
 # attach the hand-written model answers to their nearest theme (same paper)
 attach = collections.defaultdict(list)
 for paper in range(1, 6):
-    ts = [t for t in themes if t["paper"] == paper]
+    ts = [t for t in themes if t["paper"] == paper and t.get("kind") != "upsc"]
     ms = [m for m in models if m["paper"] == paper]
     if not ts or not ms: continue
     v = TfidfVectorizer(stop_words="english", ngram_range=(1, 2), sublinear_tf=True).fit([t["label"] + " " + t["full"] + " " + " ".join(a["q"] for a in t["asked"]) for t in ts] + [m["question"] + " " + m["theme"] for m in ms])

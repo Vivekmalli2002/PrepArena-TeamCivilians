@@ -14,6 +14,7 @@ describe("checklist data", () => {
     const ids = THEMES.flatMap((t) => t.expected.map((e) => e.id));
     expect(new Set(ids).size).toBe(ids.length);
     expect(THEMES.reduce((n, t) => n + t.n, 0)).toBeGreaterThan(1100);
+    expect(THEMES.filter((t) => t.kind === "upsc").every((t) => t.expected.length === 0)).toBe(true);
   });
   it("never expects more than 10 questions in a theme, and fewer for small themes", () => {
     for (const t of THEMES) {
@@ -31,8 +32,9 @@ describe("checklist data", () => {
   });
   it("keeps questions asked only by other exams apart from APPSC ones", () => {
     const only = THEMES.flatMap((t) => t.asked).filter((a) => a.boards.length > 0 && !a.boards.includes("APPSC"));
-    expect(only.length).toBeGreaterThan(100);
-    expect(only.every((a) => a.boards.includes("TGPSC"))).toBe(true);
+    expect(only.length).toBeGreaterThan(900);
+    expect(only.every((a) => a.boards.includes("TGPSC") || a.boards.includes("UPSC"))).toBe(true);
+    expect(only.filter((a) => a.boards.includes("UPSC")).length).toBeGreaterThan(700);
     expect(THEMES.filter((t) => t.asked.some((a) => a.boards.length > 0 && !a.boards.includes("APPSC"))).length).toBeGreaterThan(50);
   });
   it("lists the past questions with their years and boards", () => {

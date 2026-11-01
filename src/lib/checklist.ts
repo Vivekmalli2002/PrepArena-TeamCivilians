@@ -38,6 +38,8 @@ export interface Theme {
   order: number;
   /** Questions the compilation PDF lists under this microtheme — the importance of the theme. */
   pdfn: number;
+  /** "upsc": a holder for UPSC questions of a subject that match no single theme. */
+  kind?: "upsc";
 }
 
 export const PAPER_TITLES: Record<number, string> = {

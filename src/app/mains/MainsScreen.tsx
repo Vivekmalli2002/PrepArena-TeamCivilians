@@ -205,6 +205,7 @@ const LEVEL_STYLE: Record<number, string> = {
   1: "bg-hairline text-muted",
 };
 function Importance({ t }: { t: Theme }) {
+  if (!t.pdfn) return null;
   const im = importance(t);
   return (
     <span className={cx("rounded-full px-2 py-0.5 text-[11px] font-bold", LEVEL_STYLE[im.level])} title={`${t.pdfn} questions listed under this microtheme in the PDF`}>
@@ -362,7 +363,7 @@ function ThemeView({ theme, onBack, onNext }: { theme: Theme; onBack: () => void
       {asked.other.length > 0 && (
         <AskedGroup
           title="Asked by other exams, not by APPSC"
-          note="TGPSC questions on this theme that APPSC has not set. They show angles the commission could take next."
+          note="UPSC (2013–2026) and TGPSC questions on this theme that APPSC has not set. They show angles the commission could take next."
           items={asked.other}
           open={showOther}
           toggle={() => setShowOther((s) => !s)}

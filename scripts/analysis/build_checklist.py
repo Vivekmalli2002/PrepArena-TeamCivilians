@@ -146,6 +146,64 @@ for (paper, micro), t in themes.items():
              asked=[dict(q=u["q"], years=u["years"], boards=u["boards"], dims=dims_of(u["q"])) for u in asked])
     out.append(t)
 out.sort(key=lambda t: (t["paper"], -t["pdfn"], -t["n"], t["label"]))
+# ---------------------------------------------------------------- UPSC Mains questions (2013-2026), filed under our subjects
+# The UPSC compilation groups its questions under its own headings; each heading is mapped to the Mains subject(s) it belongs to
+# (headings with no counterpart in the APPSC syllabus - world history, international relations, security, ethics case studies - are left out).
+S2, S3, S4, S5 = 2, 3, 4, 5
+HIS, GEO = "History and Culture of India", "Geography: India and Andhra Pradesh"
+POL, ADM, ETH = "Indian Polity and Constitution", "Public Administration and Governance", "Ethics in Public Service and Knowledge of Law"
+ECO, FIN = "Major Challenges of Indian Economy", "Resource Mobilization and Public Finance"
+ICT, SCI, BIO, ENV = "Information and Communication Technology (ICT) & Emerging Tech", "Science & Technology in Everyday Life & National Security", "Biotechnology, Health and Intellectual Property Rights", "Environmental Ecology, Pollution & Disaster Management"
+UMAP = {
+    (1, "Indian Art, Culture & Heritage"): [(2, HIS)], (1, "Modern Indian History"): [(2, HIS)], (1, "The Freedom Struggle"): [(2, HIS)], (1, "Post-Independence Consolidation"): [(2, HIS)],
+    (1, "Geophysical Phenomena & Geography Features"): [(2, GEO)], (1, "Natural Resources & Industrial Location"): [(2, GEO)], (1, "Women, Population & Urbanization"): [(2, GEO)],
+    (2, "Indian Constitution"): [(3, POL)], (2, "Parliament & State Legislatures"): [(3, POL)], (2, "Union-State Relations & Federalism"): [(3, POL)], (2, "Constitutional Posts & Bodies"): [(3, POL)],
+    (2, "Executive & Judiciary"): [(3, POL)], (2, "Separation of Powers"): [(3, POL)], (2, "Representation of People's Act"): [(3, POL)],
+    (2, "Statutory & Regulatory Bodies"): [(3, ADM)], (2, "Development Processes & NGOs"): [(3, ADM)], (2, "Governance, Transparency & e-Governance"): [(3, ADM)], (2, "Government Policies & Interventions"): [(3, ADM)],
+    (2, "Role of Civil Services"): [(3, ADM)], (2, "Health, Education & Social Sector"): [(3, ADM)], (2, "Welfare Schemes for Vulnerable Sections"): [(3, ADM)], (2, "Poverty & Hunger"): [(3, ADM)],
+    (3, "Indian Economy & Planning"): [(4, ECO)], (3, "Inclusive Growth"): [(4, ECO)], (3, "Liberalization & Industrial Policy"): [(4, ECO)], (3, "Investment Models"): [(4, ECO)], (3, "Infrastructure"): [(4, ECO)],
+    (3, "Agriculture & Cropping Patterns"): [(4, ECO)], (3, "Farm Subsidies, MSP & PDS"): [(4, ECO)], (3, "Land Reforms"): [(4, ECO)], (3, "Food Processing Industries"): [(4, ECO)], (3, "Government Budgeting"): [(4, FIN)],
+    (3, "IT, Space, Biotech & IPR"): [(5, ICT), (5, SCI), (5, BIO)], (3, "Science & Technology"): [(5, SCI), (5, ICT), (5, BIO)], (3, "Cyber Security & Money Laundering"): [(5, ICT)],
+    (3, "Environment, Conservation & Pollution"): [(5, ENV)], (3, "Disaster Management"): [(5, ENV)],
+}
+for h in ("Aptitude & Foundational Values", "Attitude", "Civil Service Values & Ethics in Administration", "Emotional Intelligence", "Ethics & Human Interface", "Human Values", "Moral Thinkers & Philosophers", "Probity in Governance"):
+    UMAP[(4, h)] = [(3, ETH)]
+MIN_SIM = float(os.environ.get("UPSC_MIN_SIM", "0.12"))
+if os.path.exists(D + "upsc.json"):
+    UP = json.load(open(D + "upsc.json"))
+    by_subject = collections.defaultdict(list)
+    for t in out: by_subject[(t["paper"], t["subject"])].append(t)
+    placed = loose = skipped = 0
+    for gs in (1, 2, 3, 4):
+        qs = [q for q in UP if q["gs"] == gs and (gs, q["subject"]) in UMAP]
+        skipped += sum(1 for q in UP if q["gs"] == gs) - len(qs)
+        for q in qs:
+            targets = [t for key in UMAP[(gs, q["subject"])] for t in by_subject.get(key, []) if not t["label"].startswith("Misc")]
+            if not targets: continue
+            docs = [t["label"] + " " + t["full"] + " " + " ".join(a["q"] for a in t["asked"][:15]) for t in targets]
+            v = TfidfVectorizer(stop_words="english", ngram_range=(1, 2), sublinear_tf=True).fit(docs + [q["question"]])
+            sims = cosine_similarity(v.transform([q["question"]]), v.transform(docs))[0]
+            j = int(sims.argmax())
+            entry = dict(q=q["question"], years=[q["year"]], boards=["UPSC"], dims=dims_of(q["question"]))
+            if sims[j] >= MIN_SIM:
+                targets[j]["asked"].append(entry); placed += 1
+            else:
+                paper, subj = UMAP[(gs, q["subject"])][0]
+                key = (paper, subj, "upsc")
+                holder = next((t for t in out if t.get("kind") == "upsc" and t["paper"] == paper and t["subject"] == subj), None)
+                if holder is None:
+                    holder = dict(kind="upsc", paper=paper, subject=subj, label="Miscellaneous · UPSC questions on this subject", full="UPSC Mains questions on this subject that match no single theme", asked=[],
+                                  id=f"u{paper}-{SLUG(subj)}", pdfn=0, order=9999, dims={}, years=[], n=0)
+                    out.append(holder)
+                holder["asked"].append(entry); loose += 1
+    for t in out:  # refresh the counters of every theme that received UPSC questions
+        own = [a for a in t["asked"] if "UPSC" not in a["boards"]]   # UPSC questions must not hide an angle APPSC has never taken
+        t["n"] = len(own)
+        t["years"] = sorted({y for a in own for y in a["years"]})
+        t["dims"] = dict(collections.Counter(d for a in own for d in a["dims"]))
+        t["asked"].sort(key=lambda a: (-(max(a["years"]) if a["years"] else 0), a["q"]))
+    print("UPSC:", len(UP), "questions;", placed, "placed in a theme,", loose, "kept at subject level,", skipped, "left out (no counterpart in the APPSC syllabus)")
+
 json.dump(out, open("scripts/data/themes_asked.json", "w"), ensure_ascii=False)
 print("themes", len(out), "questions", sum(t["n"] for t in out))
 print(collections.Counter(t["paper"] for t in out))
