@@ -46,6 +46,10 @@ if os.path.exists(D + "workbooks.json"):
     for r in json.load(open(D + "workbooks.json")):
         recs.append(dict(q=r["question"], paper=r["paper"], years={r["year"]} if r["year"] else set(), boards={r["board"]} if r["board"] else set(), micro=None, section=None, trunc=False, src="ocr"))
 print("raw", collections.Counter(r["src"] for r in recs))
+# order in which the compilation PDF lists its themes (paper, then microtheme by first appearance) = syllabus order
+ORDER = {}
+for r in json.load(open(D + "compilation.json")):
+    ORDER.setdefault((r["paper"], r["micro"]), len(ORDER))
 
 # ---------------------------------------------------------------- de-duplicate (per paper, char n-grams)
 groups = []
@@ -137,7 +141,7 @@ for (paper, micro), t in themes.items():
     asked = sorted(t["asked"], key=lambda u: (-(max(u["years"]) if u["years"] else 0), u["q"]))
     cnt = collections.Counter(d for u in asked for d in dims_of(u["q"]))
     years = sorted({y for u in asked for y in u["years"]})
-    t.update(id=f"t{paper}-{SLUG(micro)}", dims=dict(cnt), years=years, n=len(asked),
+    t.update(order=ORDER.get((paper, micro), 9999), id=f"t{paper}-{SLUG(micro)}", dims=dict(cnt), years=years, n=len(asked),
              asked=[dict(q=u["q"], years=u["years"], boards=u["boards"], dims=dims_of(u["q"])) for u in asked])
     out.append(t)
 out.sort(key=lambda t: (t["paper"], -t["n"], t["label"]))

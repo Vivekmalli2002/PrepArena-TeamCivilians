@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRight, Check, ChevronDown, ChevronLeft } from "lucide-react";
+import { ArrowRight, Check, ChevronDown, ChevronLeft, Search } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import checklist from "@/content/mains-checklist.json";
 import modelF1 from "@/content/mains-model-f1.json";
@@ -43,6 +43,7 @@ export function MainsScreen() {
   const done = useApp((s) => s.learn.done);
   const [themeId, setThemeId] = useState<string | null>(null);
   const [paper, setPaper] = useState(1);
+  const [view, setView] = useState<"subjects" | "all">("subjects");
 
   const total = useMemo(() => sumProgress(ORDER, done), [done]);
   if (!hydrated) return <PageSkeleton />;
@@ -104,16 +105,90 @@ export function MainsScreen() {
       </div>
       <p className="mt-2 text-sm font-semibold">{PAPER_TITLES[paper]}</p>
 
-      <div className="mt-3 grid gap-3">
-        {bySubject(THEMES, paper).map((g) => (
-          <Subject key={g.subject} subject={g.subject} themes={g.themes} done={done} onPick={setThemeId} />
-        ))}
+      <div className="mt-3 flex gap-2" role="group" aria-label="View">
+        <Chip on={view === "subjects"} onClick={() => setView("subjects")}>
+          By subject
+        </Chip>
+        <Chip on={view === "all"} onClick={() => setView("all")}>
+          All themes in the PDF · {THEMES.filter((t) => t.paper === paper).length}
+        </Chip>
       </div>
-      {THEMES.some((t) => t.paper === paper && t.legacy) && (
+
+      {view === "all" ? (
+        <AllThemes paper={paper} done={done} onPick={setThemeId} />
+      ) : (
+        <div className="mt-3 grid gap-3">
+          {bySubject(THEMES, paper).map((g) => (
+            <Subject key={g.subject} subject={g.subject} themes={g.themes} done={done} onPick={setThemeId} />
+          ))}
+        </div>
+      )}
+      {view === "subjects" && THEMES.some((t) => t.paper === paper && t.legacy) && (
         <p className="mt-4 text-xs text-muted">
           Hidden: {THEMES.filter((t) => t.paper === paper && t.legacy).map((t) => t.label).join(", ")} — topics the commission removed from the 2026 syllabus.
         </p>
       )}
+    </div>
+  );
+}
+
+/** Every theme of the Mains PYQ compilation for the paper, in the PDF's own (syllabus) order, with the full syllabus line. */
+function AllThemes({ paper, done, onPick }: { paper: number; done: Record<string, number>; onPick: (id: string) => void }) {
+  const [q, setQ] = useState("");
+  const [sort, setSort] = useState<"syllabus" | "asked">("syllabus");
+  const list = useMemo(() => {
+    const ql = q.trim().toLowerCase();
+    return THEMES.filter((t) => t.paper === paper && (!ql || (t.label + " " + t.full + " " + t.subject).toLowerCase().includes(ql))).sort((a, b) =>
+      sort === "asked" ? b.n - a.n || a.order - b.order : a.order - b.order || b.n - a.n,
+    );
+  }, [paper, q, sort]);
+  let lastSubject = "";
+  return (
+    <div className="mt-3">
+      <div className="flex items-center gap-2 rounded-2xl border border-hairline px-3">
+        <Search size={16} className="text-faint" />
+        <input
+          value={q}
+          onChange={(e) => setQ(e.target.value)}
+          placeholder="Search themes (e.g. GST, Satavahanas, cyber)"
+          aria-label="Search themes"
+          className="w-full bg-transparent py-2.5 text-sm outline-none"
+        />
+      </div>
+      <div className="mt-2 flex items-center gap-2 text-sm">
+        <span className="font-semibold">{list.length} themes</span>
+        <Chip on={sort === "syllabus"} onClick={() => setSort("syllabus")}>
+          PDF order
+        </Chip>
+        <Chip on={sort === "asked"} onClick={() => setSort("asked")}>
+          Most asked
+        </Chip>
+      </div>
+      <ol className="mt-3 grid gap-2">
+        {list.map((t, i) => {
+          const head = sort === "syllabus" && t.subject !== lastSubject ? t.subject : null;
+          lastSubject = t.subject;
+          const tp = themeProgress(t, done);
+          const fin = themeDone(t, done);
+          return (
+            <li key={t.id}>
+              {head && <div className="mb-1 mt-3 text-xs font-bold uppercase tracking-wider text-faint">{head}</div>}
+              <button className="glass flex w-full items-start gap-3 rounded-2xl p-3 text-left transition hover:-translate-y-0.5" onClick={() => onPick(t.id)}>
+                <span className={cx("mt-0.5 grid size-6 shrink-0 place-items-center rounded-lg text-[11px] font-bold tabular", fin ? "bg-good text-white" : "bg-primary-soft text-primary")}>
+                  {fin ? <Check size={13} /> : i + 1}
+                </span>
+                <span className="min-w-0 flex-1">
+                  <span className="block text-sm font-semibold leading-snug">{t.label}</span>
+                  {t.full !== t.label && <span className="mt-0.5 block text-[11px] leading-snug text-muted">{t.full}</span>}
+                  <span className="mt-1 block text-xs text-muted">
+                    asked {t.n}×{t.years.length ? ` · last ${t.years.at(-1)}` : ""} · {tp.total ? `${tp.done}/${tp.total} learned` : t.legacy ? "removed from 2026 syllabus" : "past questions only"}
+                  </span>
+                </span>
+              </button>
+            </li>
+          );
+        })}
+      </ol>
     </div>
   );
 }
