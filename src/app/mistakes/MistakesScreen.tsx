@@ -161,7 +161,7 @@ export function MistakesScreen() {
             <input
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="Search question text, topic or your notes (3+ letters)"
+              placeholder="Search questions, topics, notes"
               aria-label="Search the log"
               className="w-full bg-transparent py-2.5 text-sm outline-none"
             />
