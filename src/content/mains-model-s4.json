@@ -7,7 +7,7 @@
   "dim": "concept",
   "question": "Explain the structure of the Union Budget and the different types of deficits. Analyse the major highlights of the Union Budget 2026-27 in the light of fiscal consolidation.",
   "why": "The 2026 syllabus lists 'Highlights of current year's Union Budget and its analysis' and 'types of deficits, their impact and management'. Both are certain to be tested in some form.",
-  "intro": "A deficit is a gap between spending and receipts; the Budget reports revenue, fiscal and primary deficits. The Union Budget is the annual financial statement under Article 112. Budget 2026-27, presented on 1 February 2026, continues fiscal consolidation while raising capital spending. The Budget includes the Annual Financial Statement, Appropriation Bill and Finance Bill; FRBM Act 2003 set fiscal deficit targets; the fiscal deficit in 2020-21 reached about 9.2% of GDP due to Covid before declining steadily.",
+  "intro": "A deficit is a gap between spending and receipts; the Budget reports revenue, fiscal and primary deficits. The Union Budget is the annual financial statement under Article 112. The Economic Survey 2025-26 records a fiscal deficit of 4.8% of GDP in FY25 against 9.2% in FY21, with a 4.4% target for FY26, and a 7.1 percentage point fall in general government debt-to-GDP since 2020. Budget 2026-27, presented on 1 February 2026, continues fiscal consolidation while raising capital spending. The Budget includes the Annual Financial Statement, Appropriation Bill and Finance Bill; FRBM Act 2003 set fiscal deficit targets; the fiscal deficit in 2020-21 reached about 9.2% of GDP due to Covid before declining steadily.",
   "body": [
    {
     "h": "Structure",
@@ -56,10 +56,10 @@
   ],
   "conclusion": "The budget balances growth through capex with a firm fiscal glide path. The Ministry of Finance should publish deficits transparently and protect social spending, so citizens have a stable economy and fair public services.",
   "updates": [
-   "Compare these figures with the Economic Survey 2025-26 once uploaded",
-   "Check the Finance Act 2026 final provisions"
+   "Check the Finance Act 2026 final provisions",
+   "Compare Budget 2026-27 numbers with the Finance Act 2026 final provisions"
   ],
-  "src": "PRS Union Budget Analysis 2026-27 (supplied by the user)",
+  "src": "Union Budget 2026-27 (PRS); Economic Survey 2025-26 (Jan 2026) for FY25 and FY26 fiscal numbers",
   "style": "appsc"
  },
  {
@@ -117,13 +117,21 @@
      "Ex: Large capital needs of Polavaram and Amaravati rely on central support.",
      "Dimensions: revenue, expenditure, debt, central transfers and welfare."
     ]
+   },
+   {
+    "h": "Survey numbers (2024-25 RE)",
+    "pts": [
+     "Own tax revenue Rs 94,967 crore; central transfers Rs 89,157 crore; total expenditure about Rs 2.49 lakh crore.",
+     "Revenue deficit Rs 48,311 crore and fiscal deficit Rs 73,362 crore (about 4.6% of GSDP).",
+     "Total debt about Rs 5.64 lakh crore at the end of 2024-25."
+    ]
    }
   ],
   "conclusion": "The 2025-26 budget shows falling deficits, but it relies on ambitious receipts. The State Finance Department should raise own revenue and spend prudently, so that citizens get welfare without a debt burden on the next generation.",
   "updates": [
    "Check the Andhra Pradesh Budget 2026-27 figures and compare with 2025-26 once available"
   ],
-  "src": "PRS Andhra Pradesh Budget Analysis 2025-26 (supplied by the user)",
+  "src": "AP Budget 2025-26 (PRS); AP Socio-Economic Survey 2024-25 for 2024-25 numbers",
   "style": "appsc"
  },
  {
@@ -134,7 +142,7 @@
   "dim": "mechanism",
   "question": "Examine the role of minimum support prices in Indian agriculture. What were the main recommendations of the Swaminathan Commission and how far have they been implemented?",
   "why": "Agriculture development (7.x) is a syllabus block asked 6–7 times; MSP, Swaminathan Commission and Green Revolution are named syllabus items and are factual and stable.",
-  "intro": "The Minimum Support Price (MSP) is the price at which the government buys crops, announced by the Union Cabinet on the CACP's recommendation. It protects farmers from price falls and supports food security. MSP began in 1966-67 for wheat; CACP was set up in 1965 and recommends MSP for 22 crops; the National Commission on Farmers (2004–06) under M.S. Swaminathan recommended C2+50%.",
+  "intro": "The Minimum Support Price (MSP) is the price at which the government buys crops, announced by the Union Cabinet on the CACP's recommendation. It protects farmers from price falls and supports food security. India's foodgrain output reached about 3,577 lakh tonnes in 2024-25, up 254 lakh tonnes (Economic Survey 2025-26). MSP began in 1966-67 for wheat; CACP was set up in 1965 and recommends MSP for 22 crops; the National Commission on Farmers (2004–06) under M.S. Swaminathan recommended C2+50%.",
   "body": [
    {
     "h": "Role of MSP",
@@ -179,14 +187,15 @@
     "h": "More points",
     "pts": [
      "Ex: MSP is fixed after CACP considers cost, demand-supply, market trends and effect on consumers.",
-     "Ex: Rice and wheat get about 90% of procurement; pulses under PM-AASHA; cotton by CCI.",
+     "Ex: Wheat and rice dominate procurement; pulses are bought under PM-AASHA and cotton by CCI.",
      "Ex: Telangana and Andhra Pradesh procure paddy through Civil Supplies."
     ]
    }
   ],
   "conclusion": "MSP gives farmers security but needs reform to avoid distortions. The Ministry of Agriculture and CACP should widen coverage with market reforms and income support, so that farmers earn a fair price for their produce.",
   "updates": [],
-  "style": "appsc"
+  "style": "appsc",
+  "src": "Economic Survey 2025-26 (Jan 2026) (foodgrain output)"
  },
  {
   "id": "m-p4-13",
@@ -278,7 +287,7 @@
     "pts": [
      "One nation one tax; input tax credit; reduced cascading; wider tax base.",
      "GST Council – a model of cooperative federalism.",
-     "Ex: Monthly collections have crossed Rs 1.7 lakh crore at times."
+     "Ex: Gross GST collections hit multiple all-time highs in FY26, and the 2025 rate rationalisation helped consumption (Economic Survey 2025-26)."
     ]
    },
    {
@@ -320,7 +329,8 @@
   "updates": [
    "Read the 16th Finance Commission report and the current GST rate structure"
   ],
-  "style": "appsc"
+  "style": "appsc",
+  "src": "Economic Survey 2025-26 (Jan 2026) (GST)"
  },
  {
   "id": "m-p4-15",
@@ -330,7 +340,7 @@
   "dim": "measures",
   "question": "Evaluate the working of the Public Distribution System in India and Andhra Pradesh under the National Food Security Act and suggest reforms.",
   "why": "Food security and PDS are named in the syllabus twice (all-India and AP's PDS and DWCRA). Reforms and leakage are classic points.",
-  "intro": "The Public Distribution System (PDS) provides subsidised food grains through fair price shops. The National Food Security Act 2013 made it a legal right for about two-thirds of the population. NFSA 2013 covers up to 75% rural and 50% urban population; PDS is run jointly by the Centre (procurement and allocation) and States (distribution); FCI was set up in 1965; about 80 crore people receive free grain.",
+  "intro": "The Public Distribution System (PDS) provides subsidised food grains through fair price shops. The National Food Security Act 2013 made it a legal right for about two-thirds of the population. NFSA 2013 covers up to 75% rural and 50% urban population; PDS is run jointly by the Centre (procurement and allocation) and States (distribution); FCI was set up in 1965; under PMGKAY, grain is free for all NFSA beneficiaries and fully funded by the Centre (Economic Survey 2025-26).",
   "body": [
    {
     "h": "Features of NFSA",
@@ -373,7 +383,7 @@
     "h": "More points",
     "pts": [
      "Ex: Targeted PDS (1997), Antyodaya Anna Yojana (2000), NFSA (2013), PMGKAY (2020 onwards).",
-     "Ex: 80 crore beneficiaries are covered with free grain.",
+     "Ex: PMGKAY, begun as Covid relief, continues: free grain for all NFSA beneficiaries, funded by the Centre.",
      "Ex: Fair price shops now also sell millets, pulses and other items in some States.",
      "Ex: Public Distribution (Control) Order and Essential Commodities Act for stock limits."
     ]
@@ -381,7 +391,8 @@
   ],
   "conclusion": "The PDS is the backbone of food security. The Department of Food and Public Distribution and the State Civil Supplies Department should plug leakages through technology and social audit, so that citizens get their right to food with dignity.",
   "updates": [],
-  "style": "appsc"
+  "style": "appsc",
+  "src": "Economic Survey 2025-26 (Jan 2026) (PMGKAY)"
  },
  {
   "id": "m-p4-16",
@@ -391,7 +402,7 @@
   "dim": "mechanism",
   "question": "Explain the causes and consequences of the current account deficit and a falling rupee. Suggest measures to correct an unfavourable balance of payments.",
   "why": "Major challenges (inflation, CAD, BoP, falling rupee, NPAs, black money) are listed together in the first Paper IV syllabus item; each is a factual, repeatable question.",
-  "intro": "The current account deficit (CAD) arises when imports of goods, services and transfers exceed exports. A falling rupee reflects weak external balances, capital outflows or a strong dollar. CAD is the gap in the current account of the balance of payments; India's CAD was about 4.8% of GDP in 2012-13 but under 1% in 2023-24; the rupee fell from about 45 per dollar in 2011 to above 80 by 2022.",
+  "intro": "The current account deficit (CAD) arises when imports of goods, services and transfers exceed exports. A falling rupee reflects weak external balances, capital outflows or a strong dollar. CAD is the gap in the current account of the balance of payments; India's CAD was about 4.8% of GDP in 2012-13 but under 1% in 2023-24 and 0.8% in H1 FY26 (Economic Survey 2025-26); the rupee fell from about 45 per dollar in 2011 to above 80 by 2022.",
   "body": [
    {
     "h": "Causes of CAD",
@@ -433,14 +444,15 @@
     "h": "More points",
     "pts": [
      "Ex: Current account = trade balance + net services + net income + transfers.",
-     "Ex: IT services exports and remittances (about 120 billion dollars) partly offset the goods deficit.",
-     "Ex: Foreign exchange reserves above 600 billion dollars give a cushion."
+     "Ex: A services trade surplus and remittances offset the goods deficit; remittances have exceeded gross FDI in most years (Economic Survey 2025-26).",
+     "Ex: Forex reserves cover over 11 months of imports (January 2026) and about 94% of external debt, a strong cushion."
     ]
    }
   ],
   "conclusion": "A manageable CAD with strong reserves is not a crisis, but sustained vigilance is essential. The Ministry of Finance and RBI should promote exports and stable capital inflows, so that citizens are protected from imported inflation.",
   "updates": [],
-  "style": "appsc"
+  "style": "appsc",
+  "src": "Economic Survey 2025-26 (Jan 2026)"
  },
  {
   "id": "m-p4-17",
@@ -450,7 +462,7 @@
   "dim": "concept",
   "question": "Distinguish between FDI and FII. Discuss the desirability and consequences of utilising different sources of external finance for India's development.",
   "why": "The syllabus lists sources of resources: public debt, external debt from multilateral agencies, FII and FDI with 'desirability and consequences' — a direct question pattern.",
-  "intro": "Foreign Direct Investment (FDI) is long-term investment with control in an enterprise, while Foreign Institutional Investment (FII, now FPI) is portfolio investment in shares and bonds. FDI is regulated under FEMA 1999 and the FDI policy of DPIIT; FPI is regulated by SEBI; FDI inflows crossed 80 billion dollars in 2021-22; Mauritius, Singapore and the USA are leading sources.",
+  "intro": "Foreign Direct Investment (FDI) is long-term investment with control in an enterprise, while Foreign Institutional Investment (FII, now FPI) is portfolio investment in shares and bonds. FDI is regulated under FEMA 1999 and the FDI policy of DPIIT; FPI is regulated by SEBI; gross FDI inflows grew 16.1% in April–November 2025 and remittances have exceeded gross FDI in most years (Economic Survey 2025-26); Mauritius, Singapore and the USA are leading sources.",
   "body": [
    {
     "h": "Distinction",
@@ -508,7 +520,8 @@
   ],
   "conclusion": "FDI is preferable for stable development, while portfolio and debt flows need prudent limits. The Ministry of Commerce and RBI should keep policy predictable, so that investment boosts jobs for citizens.",
   "updates": [],
-  "style": "appsc"
+  "style": "appsc",
+  "src": "Economic Survey 2025-26 (Jan 2026)"
  },
  {
   "id": "m-p4-18",
@@ -578,11 +591,19 @@
      "Ex: Tenant farmers need loan eligibility cards (LEC/CCRC).",
      "Ex: Farmers should choose crops by market demand and water."
     ]
+   },
+   {
+    "h": "Growth (2024-25 FAE)",
+    "pts": [
+     "Agriculture and allied GVA Rs 2.32 lakh crore, growing 10.7% at constant prices.",
+     "Fishing and aquaculture grew 16.0%; fisheries and horticulture are the fastest-moving parts."
+    ]
    }
   ],
   "conclusion": "Diversification can double farm income if backed by markets and processing. The State Agriculture and Fisheries Departments should invest in cold chains and FPOs, so that farmers have stable incomes and consumers have nutrition.",
   "updates": [],
-  "style": "appsc"
+  "style": "appsc",
+  "src": "AP Socio-Economic Survey 2024-25 (agriculture and allied GVA)"
  },
  {
   "id": "m-p4-19",
@@ -730,7 +751,7 @@
   "dim": "measures",
   "question": "Andhra Pradesh faces a high debt burden and a revenue gap after bifurcation. Analyse the state's fiscal position and suggest measures for sustainable resource mobilisation.",
   "why": "Budgetary resources were asked 9 times across 4 sittings (2008–2017). The shift to fiscal sustainability and FRBM compliance post-2014 fits the recent AP emphasis in 2023 and 2025 papers.",
-  "intro": "Fiscal sustainability is a State's ability to meet its spending and debt obligations over time without distress borrowing. After the 2014 reorganisation, Andhra Pradesh lost Hyderabad's revenue base while inheriting a large share of liabilities. High debt and committed expenditure restrict capital spending. AP's outstanding debt is around a third of GSDP; interest payments take a significant share of revenue receipts; the 15th Finance Commission recommended revenue deficit grants for AP for the first years after bifurcation.",
+  "intro": "Fiscal sustainability is a State's ability to meet its spending and debt obligations over time without distress borrowing. After the 2014 reorganisation, Andhra Pradesh lost Hyderabad's revenue base while inheriting a large share of liabilities. High debt and committed expenditure restrict capital spending. AP's total debt rose from Rs 4.92 lakh crore (2023-24) to about Rs 5.64 lakh crore (2024-25 RE), roughly 35% of a GSDP of Rs 16.06 lakh crore; interest payments take a significant share of revenue receipts; the 15th Finance Commission recommended revenue deficit grants for AP for the first years after bifurcation.",
   "body": [
    {
     "h": "Fiscal position",
@@ -783,15 +804,23 @@
      "Ex: Transparent debt statements, reporting of guarantees.",
      "Ex: Fiscal discipline earns better credit rating and cheaper loans."
     ]
+   },
+   {
+    "h": "Numbers (2024-25 RE)",
+    "pts": [
+     "Revenue deficit Rs 48,311 crore (Rs 38,683 crore in 2023-24); fiscal deficit Rs 73,362 crore (Rs 62,720 crore).",
+     "Own tax revenue Rs 94,967 crore, own non-tax Rs 7,018 crore, central transfers Rs 89,157 crore.",
+     "Total expenditure about Rs 2.49 lakh crore – debt is rising faster than receipts."
+    ]
    }
   ],
   "conclusion": "Higher own revenue and a shift to capital spending are both necessary. The State Finance Department should follow a credible fiscal path, so that citizens get lasting services and the state gets cheaper borrowing.",
   "updates": [
-   "Latest AP Budget and the state's debt/GSDP ratio (CAG, RBI State Finances report)",
    "16th Finance Commission recommendations and devolution share",
    "Central assistance for Polavaram and Amaravati"
   ],
-  "style": "appsc"
+  "style": "appsc",
+  "src": "AP Socio-Economic Survey 2024-25 (public finance); GSDP from the same Survey"
  },
  {
   "id": "m-p4-06",
@@ -801,7 +830,7 @@
   "dim": "concept",
   "question": "What is premature deindustrialisation? Discuss why manufacturing has stagnated at around 15–17 per cent of India's GDP and examine the measures taken under Make in India and PLI to revive it.",
   "why": "Manufacturing and growth-structure questions recur (8 times). The 'concept + diagnosis + PLI policy evaluation' package is predictable for the next paper.",
-  "intro": "Premature deindustrialisation is when a country's manufacturing share of GDP and jobs starts falling at a lower income level than in developed countries. India's manufacturing has stayed at 15–17% of GDP for years. Manufacturing's share of India's GDP was around 15–17% against 25% target in the National Manufacturing Policy 2011; China's share was about 27%; PLI schemes worth about Rs 1.97 lakh crore cover 14 sectors.",
+  "intro": "Premature deindustrialisation is when a country's manufacturing share of GDP and jobs starts falling at a lower income level than in developed countries. India's manufacturing has stayed at 15–17% of GDP for years. Manufacturing's share of India's GDP was around 15–17% against 25% target in the National Manufacturing Policy 2011; China's share was about 27%; a nuance from the Economic Survey 2025-26 is that the fall in manufacturing's nominal GVA share reflects relative price effects, and its share is stable in real terms; PLI schemes worth about Rs 1.97 lakh crore cover 14 sectors.",
   "body": [
    {
     "h": "Why manufacturing is stagnant",
@@ -852,6 +881,13 @@
      "Ex: Employment: most workers still in low-productivity farming.",
      "Ex: A larger share of women's work in manufacturing needs safety and childcare support."
     ]
+   },
+   {
+    "h": "Survey view (2025-26)",
+    "pts": [
+     "Manufacturing's share is stable in real terms; the dip in the nominal share comes from relative prices.",
+     "Real manufacturing GVA has kept growing, so 'deindustrialisation' is better read as lack of job-rich growth."
+    ]
    }
   ],
   "conclusion": "India needs a manufacturing revival for jobs. The Ministry of Commerce and Industry and the States should combine PLI with logistics and skills, so that citizens get productive employment.",
@@ -860,7 +896,8 @@
    "India's recent trade agreements (UK, EU, US tariff developments)",
    "Labour code implementation status"
   ],
-  "style": "appsc"
+  "style": "appsc",
+  "src": "Economic Survey 2025-26 (Jan 2026) (manufacturing share)"
  },
  {
   "id": "m-p4-07",
@@ -944,12 +981,12 @@
   "dim": "issues",
   "question": "Jan Dhan accounts, UPI and microfinance have widened formal finance. Assess the challenges that remain in financial inclusion, with reference to women, small farmers and digital frauds.",
   "why": "Financial inclusion has appeared repeatedly under inclusive growth. The shift from access to usage and consumer-protection issues is the likely new dimension.",
-  "intro": "Financial inclusion means access to affordable financial services for every person. Jan Dhan, UPI and microfinance widened formal finance, but challenges remain. Jan Dhan was launched on 28 August 2014; UPI launched in 2016 now handles over 15 billion transactions a month; the RBI has a Financial Inclusion Index; SHG-Bank linkage is the world's largest microfinance model.",
+  "intro": "Financial inclusion means access to affordable financial services for every person. Jan Dhan, UPI and microfinance widened formal finance, but challenges remain. Jan Dhan was launched on 28 August 2014; UPI (2016) is the largest real-time payment system by volume, and the PMJDY had opened 55.02 crore accounts by March 2025 (36.63 crore in rural and semi-urban areas); the RBI has a Financial Inclusion Index; SHG-Bank linkage is the world's largest microfinance model.",
   "body": [
    {
     "h": "Achievements",
     "pts": [
-     "Ex: PM Jan Dhan Yojana (2014) – over 50 crore accounts.",
+     "Ex: PM Jan Dhan Yojana (2014) – 55.02 crore accounts by March 2025.",
      "Ex: UPI – largest real-time payment system by volume.",
      "Ex: Microfinance and SHG-Bank Linkage; Aadhaar-enabled payments and DBT.",
      "Ex: Payment banks and small finance banks."
@@ -1002,6 +1039,7 @@
    "UPI transaction volumes and new rules on digital lending",
    "Microfinance sector stress data and AP SERP/DWCRA initiatives"
   ],
-  "style": "appsc"
+  "style": "appsc",
+  "src": "Economic Survey 2025-26 (Jan 2026) (Jan Dhan)"
  }
 ]

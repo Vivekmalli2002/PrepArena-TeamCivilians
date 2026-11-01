@@ -89,7 +89,7 @@
   "dim": "issues",
   "question": "India has reported a sharp fall in multidimensional poverty, yet inequality and jobless growth persist. Critically examine the effectiveness of poverty-alleviation and employment programmes and the gaps that remain.",
   "why": "The most repeated Paper IV theme (20 questions, 8 sittings). Past questions asked for schemes; outcome gaps and quality of jobs is the open angle.",
-  "intro": "Poverty is more than low income; it also means poor health, schooling and living standards. NITI Aayog's multidimensional poverty index shows a large fall since 2013-14, but jobs and inequality still hold back inclusive growth. Poverty lines come from the Tendulkar and Rangarajan committees; NITI Aayog's MPI (2023) found about 24.8 crore people exited multidimensional poverty between 2013-14 and 2022-23; schemes such as MGNREGA, PMGKAY and PM Awas target the poor.",
+  "intro": "Poverty is more than low income; it also means poor health, schooling and living standards. NITI Aayog's multidimensional poverty index shows a large fall since 2013-14, but jobs and inequality still hold back inclusive growth. Poverty lines come from the Tendulkar and Rangarajan committees; NITI Aayog's MPI fell from 55.3% (2005-06) to 14.96% (2019-21) and an estimated 11.28% in 2022-23; the World Bank puts extreme poverty at 5.3% in 2022-23 (Economic Survey 2025-26); about 24.8 crore people exited multidimensional poverty in 2013-14 to 2022-23; schemes such as MGNREGA, PMGKAY and PM Awas target the poor.",
   "body": [
    {
     "h": "Programmes and results",
@@ -139,7 +139,8 @@
    "Latest MPI figures and PLFS employment data",
    "Any change to MGNREGS or the rural employment framework",
    "Recent Union Budget allocations for health, education and skilling"
-  ]
+  ],
+  "src": "Economic Survey 2025-26 (Jan 2026) (poverty and MPI)"
  },
  {
   "id": "m-p4-04",
@@ -213,14 +214,14 @@
   "dim": "measures",
   "question": "Services contribute the largest share to Andhra Pradesh's GSDP while agriculture employs the largest share of workers. Discuss this structural mismatch and suggest a strategy for balanced regional growth.",
   "why": "Sector contribution to SGDP was asked 13 times; the structural-mismatch and regional-balance framing is the likely upgrade.",
-  "intro": "Structural transformation is the shift of output and workers from agriculture to industry and services as an economy grows. Andhra Pradesh's GSDP is led by services, while agriculture and allied sectors still support most livelihoods. This gap keeps farm incomes low and growth uneven across regions. Services contribute roughly 40–45% of GSDP, agriculture and allied about a third and industry about a fifth, while agriculture employs around half of the workers; output has shifted to services faster than jobs have.",
+  "intro": "Structural transformation is the shift of output and workers from agriculture to industry and services as an economy grows. Andhra Pradesh's GSDP is led by services, while agriculture and allied sectors still support most livelihoods. This gap keeps farm incomes low and growth uneven across regions. In 2024-25 (FAE) at current prices services give 41.5% of GVA, agriculture and allied 35.3% and industry 23.2%, in a GSDP of Rs 16.06 lakh crore that grew 12.9% (9.2% at constant prices); output has shifted to services faster than jobs have.",
   "body": [
    {
-    "h": "Structure (2023-24, current prices – PRS)",
+    "h": "Structure (2024-25 FAE, current prices)",
     "pts": [
-     "Agriculture and allied 37%, manufacturing 23%, services 40%.",
-     "Per capita GSDP Rs 2.70 lakh against India's Rs 2.16 lakh.",
-     "Growth 7.4% at constant prices; agriculture grew only about 2%.",
+     "Agriculture and allied 35.3%, industry 23.2%, services 41.5% of GVA at current prices.",
+     "Per capita income Rs 2,68,653 against India's Rs 2,00,162.",
+     "Growth 9.24% at constant prices; agriculture and allied grew 10.7%, fishing and aquaculture 16.0%, manufacturing 6.57%, construction 10.47%.",
      "Services lead through trade, tourism, IT and real estate; industry is led by pharma, food processing and mining."
     ]
    },
@@ -267,11 +268,10 @@
   "conclusion": "Structural change should lift farm incomes, not only shift output shares. Skills, infrastructure and a fair share of growth for every region will make Andhra Pradesh's development inclusive.",
   "style": "appsc",
   "updates": [
-   "Latest AP Socio-Economic Survey GSDP growth and sector shares",
    "Visakhapatnam IT/AI hub and large investment announcements",
    "Pending Polavaram and Amaravati milestones"
   ],
-  "src": "PRS Andhra Pradesh Budget Analysis 2025-26 (supplied by the user)"
+  "src": "AP Socio-Economic Survey 2024-25 (GVA shares, GSDP, per capita income)"
  },
  {
   "id": "m-p4-05",
@@ -281,7 +281,7 @@
   "dim": "impact",
   "question": "Evaluate the effects of the Reserve Bank's shift to a flexible inflation-targeting framework and its recent monetary policy stance on growth and inflation in India.",
   "why": "Monetary and fiscal policy appears 10 times (7 sittings). The impact of inflation targeting (2016) has not been asked.",
-  "intro": "Since 2016, India follows flexible inflation targeting: the Monetary Policy Committee aims at CPI inflation of 4% within a 2–6% band. The aim is to anchor expectations and still support growth. The target was set by the RBI Act amendment 2016 with a six-member MPC; the repo rate is its main tool alongside CRR, SLR and open market operations; failure to meet the band for three quarters requires a report to the government.",
+  "intro": "Since 2016, India follows flexible inflation targeting: the Monetary Policy Committee aims at CPI inflation of 4% within a 2–6% band. The aim is to anchor expectations and still support growth. Headline CPI inflation eased to 1.7% in April–December FY26 and the repo rate was cut by 125 basis points since February 2025 (Economic Survey 2025-26). The target was set by the RBI Act amendment 2016 with a six-member MPC; the repo rate is its main tool alongside CRR, SLR and open market operations; failure to meet the band for three quarters requires a report to the government.",
   "body": [
    {
     "h": "Tools and stance",
@@ -333,9 +333,10 @@
   "style": "appsc",
   "updates": [
    "Latest RBI MPC decision, repo rate and stance",
-   "Current CPI inflation and GDP growth numbers",
-   "Review of the inflation-targeting framework and target band due in 2026"
-  ]
+   "Review of the inflation-targeting framework and target band due in 2026",
+   "Next MPC decision and repo-rate stance after Budget 2026-27"
+  ],
+  "src": "Economic Survey 2025-26 (Jan 2026)"
  },
  {
   "id": "m-p3-07",
@@ -598,6 +599,12 @@
      "Ex: Single desk portal, time-bound clearances and plug-and-play facilities improve ease of doing business.",
      "Ex: Skilled labour and low logistics cost matter more to firms than a subsidy that arrives late."
     ]
+   },
+   {
+    "h": "Industry in AP (2024-25 FAE)",
+    "pts": [
+     "Manufacturing grew 6.57% and construction 10.47% at constant prices; industry is 23.2% of GVA."
+    ]
    }
   ],
   "conclusion": "Investors come for certainty and infrastructure more than for concessions. Led by the Industries Department and APIIC, reliable services and skills will cut the cost of incentives and create jobs for citizens.",
@@ -606,7 +613,8 @@
    "Current AP Industrial Development Policy and MSME policies",
    "Recent MoUs and the central PLI schemes active in AP",
    "Visakhapatnam–Chennai Corridor and node progress"
-  ]
+  ],
+  "src": "AP Socio-Economic Survey 2024-25 (industry growth)"
  },
  {
   "id": "m-p5-01",
