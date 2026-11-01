@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import {
   ArrowRight,
-  CalendarCheck,
   ChevronRight,
   Flame,
   GraduationCap,
@@ -20,14 +19,14 @@ import { examById } from "@/content/catalog";
 import { useExamBank } from "@/lib/useExamBank";
 import { fmtClock, pct } from "@/lib/format";
 import { dayKey } from "@/lib/random";
-import { scoreAttempt } from "@/lib/scoring";
 import { isDue } from "@/lib/srs";
 import { currentStreak, useApp, useHydrated, useSession } from "@/lib/store";
-import { dailyQuiz, fullMock, FULL_MOCK, topicSets, topicSetTest } from "@/lib/tests";
+import { fullMock, FULL_MOCK, topicSets, topicSetTest } from "@/lib/tests";
 import { ExamPicker } from "@/components/ExamPicker";
 import { PapersSection } from "@/components/PapersSection";
 import { ToolsCards } from "@/components/ToolsCards";
 import { Onboarding } from "@/components/Onboarding";
+import { StudySlots } from "@/components/StudySlots";
 import { ProgressRing } from "@/components/ProgressRing";
 import { useStartTest } from "@/components/useStartTest";
 import { Button, ButtonLink, Card, PageSkeleton, SectionTitle, Sheet, enter } from "@/components/ui";
@@ -58,7 +57,6 @@ function Dashboard() {
   const exam = examById(profile.examId);
   const schemeId = exam?.schemeId ?? "appsc";
   const today = dayKey();
-  const dailyDone = attempts.find((a) => a.config.key === `daily:${today}`);
   const streak = currentStreak(activeDays);
 
   const stats = useMemo(() => {
@@ -155,32 +153,11 @@ function Dashboard() {
         )}
       </motion.div>
 
-      {/* Daily + Mock */}
+      {/* Study slots + Mock */}
+      <motion.div variants={enter.item} className="mt-3">
+        <StudySlots bank={bank} attempts={attempts} qstats={qstats} day={today} schemeId={schemeId} start={start} />
+      </motion.div>
       <div className="mt-3 grid gap-3 sm:grid-cols-2">
-        <motion.div variants={enter.item}>
-          <Card className="flex h-full items-center gap-4 p-4">
-            <div className="grid size-12 shrink-0 place-items-center rounded-2xl bg-amber-500/15 text-amber-600 dark:text-amber-400">
-              <CalendarCheck size={24} />
-            </div>
-            <div className="min-w-0 flex-1">
-              <h3 className="font-display font-bold">Daily Quiz</h3>
-              <p className="text-sm text-muted">
-                {dailyDone
-                  ? `Done · ${scoreAttempt(dailyDone).correct}/${dailyDone.config.qids.length} correct`
-                  : "10 fresh questions · same for everyone today"}
-              </p>
-            </div>
-            {dailyDone ? (
-              <ButtonLink variant="soft" size="sm" href={`/results?id=${dailyDone.id}`}>
-                Review
-              </ButtonLink>
-            ) : (
-              <Button size="sm" disabled={!bank} onClick={() => bank && start(dailyQuiz(bank, today, schemeId))}>
-                Start
-              </Button>
-            )}
-          </Card>
-        </motion.div>
         <motion.div variants={enter.item}>
           <Card className="flex h-full items-center gap-4 p-4">
             <div className="grid size-12 shrink-0 place-items-center rounded-2xl bg-primary-soft text-primary">
