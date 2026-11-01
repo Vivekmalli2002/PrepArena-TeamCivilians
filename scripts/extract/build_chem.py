@@ -1,16 +1,16 @@
 """Chemical Engineering (YCT chapterwise solved papers) -> the AEE Pollution Control Board Paper-II topics that the Mechanical
 volumes do not cover:
 
-  * Fluid Mechanics & Hydraulics      <- 'Fluid and Particle Dynamics' A-F, I, J   (new subject pcb-fluid)
+  * Engineering materials             <- 'Process Equipment Design' C, Material of Construction (selection and characteristics)  (mech-mat unit 6)
   * Process calculations (mass and energy balance, recycle/bypass/purge)          <- 'Material and Energy Balance' A-E  (mech-thermo units 8-12)
   * Thermodynamic properties of real systems (relations, EOS, solutions)           <- 'Chemical Engineering Thermodynamics' F-H (mech-thermo units 13-15)
   * Air, water, noise, solid-waste pollution and control equipment               <- 'Environmental pollution monitoring & control' A-E  (env units 4 and 5)
 
-Pumps, flow past immersed bodies, solids handling, fuels and combustion, reaction equilibrium, fire/HAZOP/safety are outside the notified syllabus.
+Fluid mechanics is taken from the Civil Engineering volumes, not from this book. Pumps, solids handling, fuels and combustion, reaction equilibrium, fire/HAZOP/safety are outside the notified syllabus.
 
-    python3 -I scripts/extract/build_chem.py <dir with fluid_pl.txt, proc_pl.txt, poll_pl.txt>
+    python3 -I scripts/extract/build_chem.py <dir with mat_pl.txt, proc_pl.txt, poll_pl.txt>
 
-The three inputs are page-marked text of pdf pages 7-32, 120-153 and 210-225, each page cut at its real column gutter with pdfplumber
+The three inputs are page-marked text of pdf pages 112-119, 120-153 and 210-225, each page cut at its real column gutter with pdfplumber
 (scripts/extract/chem_columns.py), because pdftotext's layout mode merges the two columns of these pages.
 """
 import json, pathlib, re, sys
@@ -19,9 +19,8 @@ import civil_columns as C
 
 root = pathlib.Path(__file__).resolve().parents[2]
 
-# (file, pdf page range, [(chapter name, first question number, last question number or None)], subject id, subject name, first unit number)
-FLUID = [("Fluid Properties", 1, 53), ("Fluid Statics and Pressure Measurement", 54, 67), ("Fluid Kinematics", 68, 75), ("Fluid Dynamics: Continuity and Bernoulli", 76, 104),
-         ("Pipe Flow and Flow Measurement", 105, 190), ("Boundary Layer Theory", 191, 204), ("Friction in Flow", 270, 284), ("Dimensional Analysis and Dimensionless Numbers", 285, 9999)]
+# chapter name, first question number, last question number (numbering as printed in the book)
+MATS = [("Materials of Construction (selection and characteristics)", 43, 9999)]
 PROC1 = [("Units and Dimensions", 1, 8), ("Basic Chemical Calculations", 9, 41), ("Material Balance without Reaction, Recycle, Bypass and Purge", 42, 74),
          ("Material Balance with Chemical Reaction", 75, 91), ("Energy Balance", 92, 103)]
 PROC2 = [("Thermodynamic Relations (Maxwell and Clapeyron equations)", 146, 160), ("Pure Substances and Equations of State", 161, 195), ("Solution Thermodynamics", 196, 246)]
@@ -39,6 +38,8 @@ def build(items, markers, chapters, tag, subject_id, subject_name, unit0, start,
             continue
         pdf_page = markers[it["page"] - 1]
         stem = it["question"]
+        foot = lambda t: re.sub(r"\s*Chemical Engineering(?:\s+\d+)?(?:\s+YCT)?\s*$", "", t).strip()   # running page footer glued to the last option
+        it = {**it, "options": [foot(o) for o in it["options"]]}
         key = re.sub(r"\W", "", (stem + "|".join(it["options"])).lower())
         fl = list(it["flags"]) + (["duplicate"] if key in seen else [])
         blob = " ".join([stem] + it["options"])
@@ -88,7 +89,7 @@ if __name__ == "__main__":
         (root / "data/review" / f"{slug}-flagged.json").write_text(json.dumps(held, ensure_ascii=False), encoding="utf8")
         from collections import Counter
         print(slug, "live", len(live), "held", len(held), dict(Counter(q["topic"][:40] for q in live)))
-    run(None, [(base + "/fluid_pl.txt", FLUID, "pcb-fluid", "Fluid Mechanics & Hydraulics", 1, None)], "chem-fluid", "CHF")
+    run(None, [(base + "/mat_pl.txt", MATS, "mech-mat", "Engineering Materials", 6, None)], "chem-materials", "CHM")
     run(None, [(base + "/proc_pl.txt", PROC1, "mech-thermo", "Process Calculations & Thermodynamics", 8, "first"),
                (base + "/proc_pl.txt", PROC2, "mech-thermo", "Process Calculations & Thermodynamics", 13, "second")], "chem-process", "CHP")
     run(None, [(base + "/poll_pl.txt", POLL, "env", "Environmental Science & Ecology", 1, None)], "chem-pollution", "CHE")

@@ -2,7 +2,7 @@
 
 Sources studied: APPSC AEE (PCB) Paper-II, 25 March 2025 (150 Q, key from the commission's response sheet) and TGPSC AEE (PCB) Paper-II (150 Q, Dhrion key and analysis). Each paper has ten topic blocks of 15 questions, in the order of the notified syllabus.
 
-The table counts questions in each paper that match a sub-topic (keyword match, so approximate) against the live bank questions in the subjects open to AEE PCB. It was run before the additions of this change; the gaps it showed were filled with the chemical-engineering chapters and with original questions in `content/authored/env-pcb-gaps.json` and `content/authored/pcb-process-calcs.json`.
+The table counts questions in each paper that match a sub-topic (keyword match, so approximate) against the live bank questions in the subjects open to AEE PCB. It was run before the additions of this change; the gaps it showed were filled with the chemical-engineering chapters (process calculations, real-system thermodynamics, materials of construction, pollution control), the Civil Engineering fluid and environmental chapters already in the bank, and with original questions in `content/authored/env-pcb-gaps.json` and `content/authored/pcb-process-calcs.json`.
 
 | Syllabus topic | Sub-topic | APPSC 2025 | TGPSC 2026 | Bank before |
 |---|---|---|---|---|

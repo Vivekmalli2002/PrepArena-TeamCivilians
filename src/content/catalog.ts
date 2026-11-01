@@ -477,21 +477,6 @@ export const SUBJECTS: Record<string, Subject> = {
       { title: "Valuations", exams: ["aee-rbi"] },
     ],
   },
-  "pcb-fluid": {
-    id: "pcb-fluid",
-    name: "Fluid Mechanics & Hydraulics",
-    hasContent: true,
-    units: [
-      { title: "Fluid Properties", exams: ["aee-pcb"] },
-      { title: "Fluid Statics and Pressure Measurement", exams: ["aee-pcb"] },
-      { title: "Fluid Kinematics", exams: ["aee-pcb"] },
-      { title: "Fluid Dynamics: Continuity and Bernoulli", exams: ["aee-pcb"] },
-      { title: "Pipe Flow and Flow Measurement", exams: ["aee-pcb"] },
-      { title: "Boundary Layer Theory", exams: ["aee-pcb"] },
-      { title: "Friction in Flow", exams: ["aee-pcb"] },
-      { title: "Dimensional Analysis and Dimensionless Numbers", exams: ["aee-pcb"] },
-    ],
-  },
   "mech-mat": {
     id: "mech-mat",
     name: "Engineering Materials",
@@ -502,6 +487,7 @@ export const SUBJECTS: Record<string, Subject> = {
       { title: "Mechanical Testing", exams: ["aee-pcb"] },
       { title: "Heat Treatment Process", exams: ["aee-pcb"] },
       { title: "Engineering Materials", exams: ["aee-pcb"] },
+      { title: "Materials of Construction (selection and characteristics)", exams: ["aee-pcb"] },
     ],
   },
   "mech-thermo": {
@@ -657,7 +643,7 @@ export const PAPERS: Record<string, Paper> = {
   "g1-mains-5": { id: "g1-mains-5", name: "Mains Paper-V · Science, Technology & Environment", marks: 150, subjects: ["scitech", "env"] },
   "g1-qualifying": { id: "g1-qualifying", name: "Qualifying · Telugu & English (150 each)", subjects: ["essay"] },
   // AEE department papers
-  "aee-pcb-2": { id: "aee-pcb-2", name: "Paper-II · Common Subject — Environmental Science & Engineering", marks: 150, subjects: ["env", "engg-core", "mech-mat", "mech-thermo", "pcb-fluid", "civil-fm", "civil-ee"],
+  "aee-pcb-2": { id: "aee-pcb-2", name: "Paper-II · Common Subject — Environmental Science & Engineering", marks: 150, subjects: ["env", "engg-core", "mech-mat", "mech-thermo", "civil-fm", "civil-ee"],
     syllabus: ["1 · Ecosystems", "2 · Natural resources", "3 · Biodiversity and biotic resources", "4 · Engineering materials", "5 · Fluid mechanics and hydraulics", "6 · Process calculations and thermodynamics", "7 · Air, water, soil and noise pollution & control technologies", "8 · Solid and industrial waste management", "9 · Global environmental problems, policies and legislations", "10 · Environmental impact assessment towards sustainable development"] },
   "aee-prtw-3": { id: "aee-prtw-3", name: "Paper-3 · Civil & Mechanical (PR & TW) — Drawing, Env. Science, Electrical, Computers", marks: 150, subjects: ["drawing-survey", "env"],
     syllabus: ["1 · Engineering drawing & AutoCAD basics", "2 · Environmental science: natural resources", "3 · Ecosystems", "4 · Biodiversity & conservation; pollution", "5 · Solid waste management", "6 · Disaster management", "7 · Social issues & the environment; environmental Acts", "8 · Human population & the environment", "9 · Principles of electrical & electronic engineering", "10 · Computer fundamentals"] },

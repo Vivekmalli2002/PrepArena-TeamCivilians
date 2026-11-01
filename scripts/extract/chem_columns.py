@@ -24,5 +24,5 @@ def dump(a,b,path):
         for n in range(a,b+1):
             f.write(f"===== PAGE {n} =====\n{page_text(pdf.pages[n-1])}\n")
 if __name__=='__main__':
-    for name,a,b in [('fluid',7,32),('proc',120,153),('poll',210,225)]:
+    for name,a,b in [('mat',112,119),('proc',120,153),('poll',210,225)]:
         dump(a,b,f'{sys.argv[2]}/{name}_pl.txt'); print(name,'ok')
