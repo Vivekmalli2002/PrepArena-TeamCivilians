@@ -1,0 +1,163 @@
+"""Formula families for the Technical Subjects Numericals bank.
+
+Each subject lists (title, key formula, regex) in priority order; the first regex that matches the question stem decides the family.
+Anything unmatched falls into the subject's "Mixed" family. Regexes are matched case-insensitively against the stem plus options.
+"""
+import re
+
+OTHER = ("Mixed / other numericals", "Read the data given and apply the standard formula of the chapter")
+
+F = {
+ "civil-som": [
+  ("Principal stresses & Mohr's circle", "σ1,2 = (σx+σy)/2 ± √[((σx−σy)/2)² + τxy²]", r"principal|mohr|plane stress|oblique|inclined plane|normal stress on|state of stress|yield|von mises|tresca|maximum shear stress theory"),
+  ("Torsion of shafts", "T/J = τ/r = Gθ/L ; P = 2πNT/60", r"shaft|torque|torsion|twist|hollow circular|polar moment"),
+  ("Springs", "δ = 64 W R³ n / (G d⁴)", r"spring|helical|coil"),
+  ("Thin cylinders & spheres", "σh = pd/2t ; σl = pd/4t ; sphere σ = pd/4t", r"thin|cylindrical shell|spherical shell|internal pressure|hoop|boiler|circumferential"),
+  ("Columns & struts (Euler)", "Pcr = π²EI/Le² ; slenderness λ = Le/r", r"column|euler|slenderness|buckl|crippling|effective length|strut"),
+  ("Thermal stresses", "σ = E α ΔT (restrained) ; δ = α L ΔT", r"temperature|thermal|heated|cooled|°c|º|expansion"),
+  ("Strain energy, resilience & impact", "U = σ²V/2E ; impact: σ = σ0[1+√(1+2h/δ0)]", r"strain energy|resilience|impact|suddenly applied|falling|proof"),
+  ("Elastic constants", "E = 2G(1+ν) = 3K(1−2ν) ; E = 9KG/(3K+G)", r"bulk modulus|modulus of rigidity|poisson|lame|shear modulus|volumetric strain|young'?s modulus.*poisson|elastic constants"),
+  ("Deflection & slope of beams", "δmax = 5wL⁴/384EI (SS-UDL) ; PL³/48EI (SS-point) ; wL⁴/8EI (cantilever-UDL)", r"deflect|slope|flexural rigidity|macaulay|conjugate|moment.area|sinks|settle"),
+  ("Shear stress in beams", "τ = V A ȳ / (I b)", r"shear stress|shear force of|average shear|shear flow"),
+  ("Bending stress (flexure formula)", "σ = M y / I = M / Z", r"bending stress|bending moment of|section modulus|flexur|bent into|radius of curvature|beam section|rectangular beam|circular beam|simply supported beam.*(stress|section)|maximum stress"),
+  ("Moment of inertia, centroid & section properties", "I = bd³/12 ; I = πd⁴/64 ; parallel axis: I = Ig + A h²", r"moment of inertia|centroid|radius of gyration|second moment|section area|product of inertia"),
+  ("Axial loading: stress, strain & elongation", "σ = P/A ; δ = P L / (A E) ; composite bars", r"elongation|extension|shortening|axial|prismatic|tensile test|gauge length|tensile load|compressive load|bar|rod|wire|stress|strain|modulus"),
+  ("SFD, BMD & support reactions", "ΣV = 0, ΣM = 0 ; BM = Wab/L (point load) ; wL²/8 (UDL)", r"reaction|bending moment|shear force|contraflexure|udl|point load|simply supported|cantilever|span|load"),
+ ],
+ "civil-em": [
+  ("Friction & inclined planes", "F = μN ; tanφ = μ", r"friction|inclined|block|ladder|wedge|slip|limiting"),
+  ("Equilibrium of forces & resultant", "ΣFx = ΣFy = 0 ; R = √(ΣFx²+ΣFy²)", r"resultant|equilibrium|concurrent|tension in|force|moment|couple"),
+  ("Kinematics: motion & projectiles", "v = u + at ; s = ut + ½at² ; R = u² sin2θ / g", r"velocity|acceleration|projectile|particle|falls|thrown|distance|speed|motion"),
+  ("Work, energy, power & momentum", "W = F s ; KE = ½ m v² ; impulse = Δ(mv)", r"work|energy|power|momentum|impulse|collision|kinetic"),
+  ("Centroid, trusses & moment of inertia", "x̄ = Σ a x / Σ a ; I = bd³/12", r"centroid|centre of gravity|truss|moment of inertia|member"),
+ ],
+ "civil-fm": [
+  ("Viscosity & Newton's law of viscosity", "τ = μ du/dy ; shear force = τ A", r"viscosity|poise|shear stress|velocity gradient|lubricat|plates? .*apart|oil film|newtonian"),
+  ("Surface tension & capillarity", "h = 4σ cosθ / (ρ g d) ; Δp = 4σ/d (droplet), 8σ/d (bubble)", r"capillar|surface tension|droplet|bubble|meniscus"),
+  ("Hydrostatics: pressure & manometers", "p = ρ g h ; p_abs = p_atm + p_gauge", r"manometer|gauge pressure|absolute pressure|vacuum|pressure at|pressure head|water column|mercury|piezometer|barometer|atmospheric"),
+  ("Hydrostatic force on surfaces", "F = ρ g Ā h̄ ; h* = h̄ + I_G/(A h̄)", r"total pressure|centre of pressure|submerged|plate.*vertical|gate|dam|inclined plane surface|hydrostatic force"),
+  ("Buoyancy, floatation & metacentric height", "FB = ρ g V_displaced ; GM = I/V − BG", r"float|buoy|metacent|immers|displace|submarine|ship|specific gravity of the body|loses? .*weight|cube|block of wood"),
+  ("Fluid kinematics: stream function & potential flow", "u = −∂ψ/∂y ; v = ∂ψ/∂x ; u = −∂φ/∂x", r"stream function|velocity potential|streamline|acceleration of|velocity field|velocity components|rotational|vorticity|flow net|continuity"),
+  ("Bernoulli's equation & flow measurement", "p/ρg + v²/2g + z = const ; Q = Cd a1 a2 √2gh /√(a1²−a2²)", r"venturi|orifice|pitot|nozzle|bernoulli|notch|weir|mouthpiece|jet|trajectory|tank|discharge through|sluice"),
+  ("Momentum equation & forces on bends", "F = ρ Q (v2 − v1) + pressure forces", r"momentum|force exerted|bend|impinge|reducer"),
+  ("Pipe flow: losses & Darcy–Weisbach", "hf = f L v² / (2 g d) ; Hazen–Williams ; minor loss = k v²/2g", r"pipe|friction factor|darcy|head loss|reynolds|laminar|turbulent|hagen|poiseuille|siphon|reservoir|series|parallel|water hammer|nozzle|power transmission"),
+  ("Open channel: uniform flow (Manning/Chezy)", "V = (1/n) R^{2/3} S^{1/2} ; V = C √(R S)", r"manning|chezy|channel.*(slope|discharge)|rugosity|most economical|hydraulic radius|trapezoidal|rectangular channel|triangular channel|canal"),
+  ("Open channel: specific energy, critical flow & hydraulic jump", "Es = y + V²/2g ; Fr = V/√(g D) ; y2/y1 = ½(√(1+8Fr²) − 1)", r"specific energy|critical depth|froude|hydraulic jump|supercritical|subcritical|gradually varied|backwater|conjugate depth"),
+  ("Dimensional analysis & similitude", "Re, Fr, Eu similarity ; Q_r = L_r^{5/2} (Froude)", r"model|prototype|scale ratio|similitude|dimensionless|buckingham|geometric"),
+  ("Boundary layer, drag & lift", "Cd = FD/(½ρ A v²) ; δ = 5x/√Rex", r"boundary layer|drag|lift|stokes|terminal|sphere|aerofoil|wake"),
+  ("Compressible flow", "a = √(kRT) ; M = V/a", r"mach|sonic|compressible|aircraft|isentropic|sound"),
+ ],
+ "civil-hm": [
+  ("Turbines: power, efficiency & specific speed", "P = η ρ g Q H ; Ns = N √P / H^{5/4}", r"turbine|pelton|francis|kaplan|runner|hydel|specific speed|penstock"),
+  ("Pumps: head, power & efficiency", "P = ρ g Q Hm / η ; Ns = N √Q / Hm^{3/4}", r"pump|impeller|cavitation|npsh|multistage|delivery|suction"),
+  ("Impact of jets on vanes", "F = ρ a v (v − u)(1 + cosθ)", r"jet|vane|plate.*moving|impinge"),
+  ("Hydropower & load factors", "Load factor = average/peak ; utilisation factor", r"load factor|power plant|peak load|capacity|installed|hydel|plant"),
+ ],
+ "civil-sa": [
+  ("Determinacy of structures", "Dse = m + r − 2j ; Dk = 3j − r", r"indeterminacy|degree of|kinematic|zero force|members|joints|stable"),
+  ("Arches (three-hinged & two-hinged)", "H = M_beam / y ; parabolic: y = 4h x (L−x)/L²", r"arch|hinged"),
+  ("Influence lines & moving loads", "Absolute max BM under wheel; ILD ordinate", r"influence line|wheel load|moving|rolling|girder|ild|travers"),
+  ("Slope-deflection, moment distribution & fixed beams", "M_AB = 4EIθ/L + 2EIθ_B/L − 6EIΔ/L² + FEM ; DF = k/Σk", r"slope.deflection|moment distribution|fixed beam|continuous beam|propped|fixed end|sinks|portal|frame|stiffness|flexibility|carry over"),
+  ("Plastic analysis & cables", "Shape factor = Zp/Ze ; collapse load Wc = Mp/…", r"plastic|shape factor|collapse|cable|suspension"),
+  ("Truss analysis & deflection", "Method of joints / sections ; Δ = Σ P k L / AE", r"truss|strain energy|unit load"),
+ ],
+ "civil-rcc": [
+  ("Limit state: flexure of beams", "Mu,lim = 0.138 fck b d² (Fe415) ; Mu = 0.87 fy Ast d (1 − Ast fy/(b d fck))", r"flexur|moment of resistance|singly|doubly|neutral axis|ast|depth of|beam.*(reinforc|steel)|balanced|limiting|t-beam|flanged"),
+  ("Shear & bond", "τv = Vu/(b d) ; Ld = φ 0.87 fy /(4 τbd)", r"shear|stirrup|bond|development length|anchorage|torsion"),
+  ("Columns (axial & eccentric)", "Pu = 0.4 fck Ac + 0.67 fy Asc", r"column|axial|eccentric|short|helical|tied|slender"),
+  ("Slabs & footings", "Mu = α w lx² ; footing area = P/qsafe", r"slab|footing|foundation|one.way|two.way|span.*depth|cantilever slab|staircase"),
+  ("Prestressed concrete", "σ = P/A ± Pe y/I ± M y/I ; loss = ε Es", r"prestress|tendon|losses|post.tension|pre.tension|cable|jacking|tension"),
+  ("Concrete properties & working stress", "m = 280/(3 σcbc) ; fcr = 0.7√fck ; Ec = 5000√fck", r"modular ratio|creep|shrinkage|modulus of elasticity|working stress|permissible|strength|characteristic|fck|mix|grade"),
+ ],
+ "civil-ss": [
+  ("Tension members & connections (bolts, rivets, welds)", "Tdg = Ag fy/γm0 ; bolt value = min(shear, bearing)", r"bolt|rivet|weld|gusset|tension|net area|lap|splice|block shear|connection|pitch|edge distance"),
+  ("Compression members & columns", "fcd from λ ; Pd = Ae fcd", r"column|compress|slender|effective length|buckl|strut|base plate|lacing|battening"),
+  ("Beams, plate girders & purlins", "Md = βb Zp fy/γm0 ; Vd = Av fyw/(√3 γm0)", r"beam|girder|purlin|stiffener|web|flange|lateral|bending|moment|shear|section|deflection"),
+ ],
+ "civil-geo": [
+  ("Piles & deep foundations", "Qu = Qp + Qs ; group efficiency ; Qu = α c As + qp Ap", r"pile|group|caisson|well foundation|negative skin|driving|pier|friction pile|bearing pile"),
+  ("Slope stability", "FOS = c + σ tanφ /τ ; infinite slope: FOS = tanφ/tanβ", r"slope|stability number|taylor|swedish|slip circle|fellenius|infinite"),
+  ("Earth pressure & retaining walls", "Ka = (1−sinφ)/(1+sinφ) ; Pa = ½ Ka γ H² ; Pp = ½ Kp γ H²", r"earth pressure|retaining|rankine|coulomb|active|passive|at rest|backfill|surcharge|wall"),
+  ("Bearing capacity & shallow foundations", "qu = c Nc + γ D Nq + ½ γ B Nγ ; qnet = qu − γD ; FOS", r"bearing capacity|terzaghi|footing|raft|foundation|net safe|allowable|plate load|settlement of footing|meyerhof"),
+  ("Shear strength & triaxial test", "τf = c + σ' tanφ ; σ1 = σ3 tan²(45+φ/2) + 2c tan(45+φ/2)", r"shear strength|triaxial|direct shear|mohr.coulomb|cohesion|angle of internal friction|unconfined|vane|failure plane|cohesionless|undrained"),
+  ("Consolidation", "Sc = Cc H/(1+e0) log(σ'1/σ'0) ; t = Tv H²/Cv ; U–Tv", r"consolidat|settlement|compression index|preconsol|time factor|tv|cv|oedometer|coefficient of volume"),
+  ("Compaction", "γd = Gγw/(1+w G/S) ; zero-air-voids line ; RC = γd/γd,max", r"compaction|proctor|dry density.*field|optimum moisture|relative compaction|rolling|zero air"),
+  ("Permeability & seepage", "q = k i A ; k = 2.303 aL/(A t) log(h1/h2) ; flow net: q = k H Nf/Nd", r"permeab|seepage|flow net|hydraulic gradient|darcy|quick|capillar|critical gradient|piping"),
+  ("Effective stress & stress distribution", "σ' = σ − u ; Boussinesq: σz = 3Q/(2π z²) ·[1/(1+(r/z)²)]^{5/2}", r"effective stress|neutral|pore pressure|boussinesq|vertical stress|pressure bulb|westergaard|newmark|2:1|stress distribution|point load"),
+  ("Soil exploration & sampling", "Area ratio Ar = (Do²−Di²)/Di² ; SPT N correction", r"area ratio|spt|sampler|boring|exploration|cone penetration|inside clearance|sampling"),
+  ("Index properties & classification", "IP = LL − PL ; IL = (w−PL)/IP ; Cu = D60/D10", r"liquid limit|plastic limit|plasticity|consistency|grain size|d10|uniformity|coefficient of curvature|sieve|classification|flow index|shrinkage|activity|sensitivity"),
+  ("Phase relations", "γ = (G+Se)γw/(1+e) ; e = wG/S ; n = e/(1+e) ; γd = γ/(1+w)", r"void ratio|porosity|degree of saturation|water content|specific gravity|bulk density|dry density|unit weight|saturated|submerged|phase|moisture"),
+ ],
+ "civil-ee": [
+  ("Population forecasting & water demand", "Pn = P0 (1 + r)^n ; arithmetical/geometric/incremental methods", r"population|demand|per capita|forecast|fire demand|kuichling|freeman|fire|lpcd|peak factor"),
+  ("Sedimentation & settling", "vs = g(ρs−ρ)d²/(18μ) ; SOR = Q/A ; detention time t = V/Q", r"sedimentation|settling|overflow rate|detention|surface loading|stokes|clarifier|tank.*(flow|diameter|depth)|weir loading"),
+  ("Filtration, coagulation & disinfection", "Filter rate = Q/A ; alum dose ; Chick's law", r"filter|coagulant|alum|chlorin|disinfect|breakpoint|rate of filtration|dose|bleaching|lime|softening|hardness|backwash"),
+  ("Sewer design & flow", "V = (1/n) R^{2/3} S^{1/2} ; self-cleansing velocity", r"sewer|self.cleansing|dwf|storm|rational|runoff|manhole|sewage flow|invert|gradient|diameter.*(sewer|pipe)|circular sewer"),
+  ("BOD, DO & stream sanitation", "BODt = BOD5·(1−e^{−kt}) ; Streeter–Phelps: Dc = (k1 L0/(k2−k1))(e^{−k1 t} − e^{−k2 t})", r"bod|cod|dissolved oxygen|do deficit|streeter|self.purification|reaeration|deoxygenation|oxygen demand|ultimate|ppm|mg/l|mg/litre"),
+  ("Sewage treatment units", "Trickling filter: NRC eq. ; ASP: F/M = Q S0/(V X) ; SRT", r"activated sludge|trickling|f/m|sludge|digest|volume index|svi|mlss|oxidation|aerat|imhoff|septic|biofilter|loading rate"),
+  ("Air pollution & noise", "Leq = 10 log (Σ 10^{L/10}) ; stack height ; plume rise", r"noise|decibel|db|air pollut|stack|ppm.*air|aqi|plume|dispersion|particulate|cyclone|esp|μg/m|ug/m|lapse rate"),
+  ("Solid waste & other", "Waste quantity = per-capita × population ; compost C/N ratio", r"solid waste|refuse|landfill|compost|incinerat|kg/capita|waste"),
+ ],
+ "civil-hyd": [
+  ("Rainfall, runoff & hyetographs", "Runoff Q = C i A /360 ; average rainfall (Thiessen/isohyetal)", r"rainfall|raingauge|rain gauge|thiessen|isohyet|runoff|catchment|precipitation|intensity|storm|rational|mean annual|infiltration|phi.index|φ.index|evaporation|evapotranspiration"),
+  ("Unit hydrograph & flood routing", "Q = Σ U ordinates × effective rainfall ; Muskingum: O2 = C0 I2 + C1 I1 + C2 O1", r"unit hydrograph|hydrograph|routing|muskingum|s.curve|base flow|recession|peak discharge|flood|synthetic"),
+  ("Well hydraulics & groundwater", "Q = π K (h2² − h1²)/ln(r2/r1) ; T = K b", r"well|aquifer|drawdown|transmissivity|specific yield|specific capacity|groundwater|confined|unconfined|thiem|theis|porosity|storage coefficient"),
+  ("Frequency analysis & stream gauging", "T = (n+1)/m ; Gumbel: xT = x̄ + K σ ; discharge = Σ a v", r"return period|recurrence|probability|gumbel|frequency|gauging|current meter|velocity.area|stage|flood frequency|plotting position"),
+ ],
+ "civil-irr": [
+  ("Crop water requirement & duty", "Duty D = 8.64 B/Δ ; Δ = depth of water ; Kor depth", r"duty|delta|crop|kor|irrigation requirement|consumptive|base period|water requirement|field capacity|wilting|depth of water|intensity of irrigation|efficiency|application"),
+  ("Canal design (Kennedy & Lacey)", "V0 = 0.55 m D^{0.64} ; V = 10.8 R^{2/3} S^{1/3} (Lacey) ; P = 4.75 √Q", r"kennedy|lacey|silt|regime|canal|critical velocity|scour|section"),
+  ("Weirs, barrages & seepage (Khosla, Bligh)", "Bligh: L = C H ; Khosla: exit gradient GE = (H/d)(1/π√λ)", r"bligh|khosla|exit gradient|uplift|creep|weir|barrage|cut.off|floor|piping|seepage"),
+  ("Dams & spillways", "Gravity dam: base width b = H/√(S−C) ; stability FS", r"dam|gravity|spillway|reservoir|earth dam|overturning|sliding|crest|capacity|storage|stilling|energy dissipat"),
+  ("Cross-drainage & canal structures", "Falls: design of drop ; aqueduct waterway", r"fall|aqueduct|siphon|syphon|outlet|module|regulator|drainage|escape|flume|headworks"),
+ ],
+ "civil-sur": [
+  ("Chain & compass surveying", "Corrected length = L (l ± Δl)/l ; included angle & local attraction", r"chain|tape|compass|bearing|local attraction|declination|magnetic|correction|slope correction|tension|sag|pull|chaining|ranging|offset|area of field"),
+  ("Levelling & reduced levels", "HI = RL + BS ; RL = HI − FS ; rise & fall check ΣBS − ΣFS", r"level|bench mark|staff|reduced|reciprocal|rise and fall|height of instrument|back sight|fore sight|curvature|refraction|contour|gradient"),
+  ("Theodolite & traverse computation", "Latitude = L cosθ ; Departure = L sinθ ; Bowditch correction", r"theodolite|traverse|latitude|departure|bowditch|closing error|transit|closed traverse|interior angle|deflection angle|coordinate|vertical angle|omitted"),
+  ("Tacheometry", "D = K S cos²θ + C cosθ ; V = ½ K S sin2θ", r"tacheom|stadia|multiplying constant|additive constant|anallactic|staff intercept"),
+  ("Curves (simple, compound, transition)", "T = R tan(Δ/2) ; L = πRΔ/180 ; Ls = v³/(C R)", r"curve|tangent length|deflection angle|chord|degree of curve|transition|clothoid|vertical curve|apex|setting out|offset from long chord|radius"),
+  ("Areas, volumes & photogrammetry", "Trapezoidal / Simpson's rule ; prismoidal formula ; scale = f/H", r"area|volume|simpson|trapezoidal|prismoidal|photograph|scale of|flying height|parallax|gps|ground resolution|aerial|map"),
+ ],
+ "civil-tra": [
+  ("Stopping & overtaking sight distance", "SSD = 0.278 V t + V²/(254 (f ± 0.01 n)) ; OSD = d1+d2+d3", r"sight distance|stopping|overtaking|ssd|reaction time|skid|braking|brake|intermediate sight|passing"),
+  ("Horizontal curves, superelevation & widening", "e + f = V²/(127 R) ; Wm = n l²/2R + V/(9.5√R)", r"superelevation|banking|horizontal curve|widening|radius of|transition curve|centrifugal|curve of|ruling|minimum radius|extra widening|camber|cross fall|setback"),
+  ("Vertical curves & gradients", "Length of summit curve L = N S²/(…) ; grade change N = n1 − n2", r"vertical curve|summit|valley|gradient|grade|crest|rate of change|rise"),
+  ("Traffic flow & capacity", "q = k v ; capacity = 1000 v/s ; PCU", r"traffic|capacity|density|flow rate|headway|spacing|speed.flow|pcu|volume|peak hour|passenger car|vehicle.*per|signal|webster|cycle time|saturation"),
+  ("Flexible pavement design", "CBR method: t = √(…) ; ESAL = Σ (Ni × VDF) ; MSA", r"cbr|flexible|msa|esal|vdf|equivalent wheel|sub.grade|bituminous|crust|thickness|axle|pavement|lag|growth rate"),
+  ("Rigid pavement design", "Westergaard: σe = 0.572 P/h² [4 log(l/b) + …] ; joint spacing", r"rigid|concrete pavement|westergaard|joint|dowel|tie bar|slab|warping|temperature stress|radius of relative stiffness"),
+  ("Railway & airport engineering", "Cant e = G v²/(127 R) ; gradient compensation ; runway length corrections", r"railway|rail|sleeper|cant|ballast|gauge|track|locomotive|tractive|airport|runway|aircraft|wind rose|taxiway|ties|creep|point|crossing|coning|equilibrium cant"),
+  ("Bitumen & aggregate tests", "Penetration, softening point, aggregate impact value (%)", r"bitumen|penetration|softening|impact value|abrasion|crushing|flakiness|elongation|aggregate|viscosity|marshall|stability"),
+ ],
+ "civil-est": [
+  ("Quantity estimation (earthwork, masonry, concrete)", "Volume = L × B × H ; trapezoidal / mean-area earthwork", r"volume|quantity|earthwork|excavation|masonry|brick|cubic|concrete|cutting|embankment|plaster|number of bricks|number of"),
+  ("Rate analysis & cost", "Rate = (material + labour + overheads + profit)/unit", r"rate|analysis|cost|labour|per cubic|mason|mortar|price"),
+  ("Valuation & depreciation", "Value = Net income × YP ; sinking fund; depreciation = (C − S)/n", r"valuation|depreciation|sinking|year.s purchase|rent|capital|scrap|salvage|annuity|yield"),
+ ],
+ "civil-cpm": [
+  ("CPM / PERT network & float", "TE = (to+4tm+tp)/6 ; σ = (tp−to)/6 ; float = LS − ES", r"float|critical path|pert|cpm|network|activity|earliest|latest|slack|event|probab|duration|crash|activity.*days"),
+  ("Equipment productivity & costs", "Output = capacity × cycles/hr × efficiency ; depreciation", r"equipment|productivity|output|dozer|excavator|scraper|truck|hours|machine|crusher|hauling|capacity of|compact"),
+ ],
+ "civil-bm": [
+  ("Concrete mix design & proportioning", "Mix 1:m:n ; w/c ratio ; volume of cement = mass/(3.15 ρw)", r"mix|proportion|w/c|water.cement|volume of cement|concrete|batch|slump|bags|cement per|grade of concrete|cement bag"),
+  ("Aggregates: fineness modulus, bulking & specific gravity", "FM = Σ cumulative % retained/100 ; bulking % = (V1−V2)/V2", r"fineness modulus|bulking|aggregate|sand|sieve|gravel|specific gravity|voids|grading"),
+  ("Bricks, mortar & masonry", "No. of bricks per m³ ; mortar volume", r"brick|mortar|masonry|wall|stone"),
+ ],
+ "civil-other": [
+  ("Mixed civil numericals", "Apply the standard formula of the relevant chapter", r".*"),
+ ],
+ "mech-thermo": [
+  ("Units, dimensions & conversions", "1 atm = 101.325 kPa ; 1 kcal = 4.184 kJ ; ρ = m/V", r"convert|conversion|dimension|units?|factor|atm|psi|torr|bar"),
+  ("Material balance (no reaction)", "Σ In = Σ Out ; mixing, splitting, absorption, evaporation, crystallisation", r"mixer|mixture|feed|stream|evaporator|dryer|distillat|absorb|extract|crystalli|filter|bypass|recycle|purge|overall balance|material balance|kg/h|kmol"),
+  ("Stoichiometry, reactions, conversion & yield", "Conversion X = (Fin − Fout)/Fin ; yield ; limiting reactant", r"react|conversion|yield|limiting|excess|combustion|stoichiometr|mole|selectivity|extent|burn|flue|orsat|air required"),
+  ("Gas laws & mixtures", "PV = nRT ; Dalton: pi = yi P ; Amagat", r"ideal gas|pressure of|partial pressure|volume of gas|mole fraction|dalton|amagat|humid|saturation|dew|vapour pressure|antoine|raoult|henry"),
+  ("Energy balance & heat of reaction", "Q = m Cp ΔT ; ΔHr = ΣΔHf,products − ΣΔHf,reactants ; Hess", r"heat capacity|enthalpy|specific heat|heat of|calorific|kj|kcal|btu|energy balance|latent|sensible|adiabatic flame|cp"),
+  ("First law, cycles & efficiency", "ΔU = Q − W ; η = 1 − Tc/Th ; COP = Tc/(Th−Tc)", r"first law|work done|adiabatic|isothermal|carnot|efficiency|cycle|engine|refrigerat|cop|heat pump|polytropic|entropy|isentropic|compress|expansion|reversible"),
+  ("Thermodynamic relations & properties", "Maxwell relations ; Clapeyron: dP/dT = ΔH/(TΔV) ; fugacity", r"clapeyron|clausius|maxwell|fugacity|gibbs|helmholtz|virial|van der waals|compressibility|redlich|equation of state|critical|activity|excess|partial molar"),
+ ],
+ "mech-mat": [
+  ("Material strength & stress–strain numericals", "σ = P/A ; ε = ΔL/L ; E = σ/ε", r"stress|strain|modulus|load|yield|elongation|tensile|hardness|fatigue|creep"),
+  ("Materials selection & corrosion numericals", "Corrosion rate = 87.6 W/(ρ A t) mm/y", r"corrosion|rate|mpy|mm/y|thickness|plating|coating|weight loss"),
+ ],
+}
+F["civil-ee"] = F["civil-ee"]
