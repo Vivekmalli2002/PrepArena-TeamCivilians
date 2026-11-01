@@ -338,11 +338,18 @@ function ThemeView({ theme, onBack, onNext }: { theme: Theme; onBack: () => void
         </div>
       </Card>
 
+      <AskedGroup
+        title="Previous year questions · APPSC"
+        note="Every question the commission has set on this theme."
+        items={asked.appsc}
+        open={showAsked}
+        toggle={() => setShowAsked((s) => !s)}
+      />
       <SectionTitle>
         Expected questions · {p.done}/{p.total} learned
       </SectionTitle>
       {theme.expected.length === 0 ? (
-        <Card className="p-4 text-sm text-muted">No expected questions for this theme yet — read the past questions below.</Card>
+        <Card className="p-4 text-sm text-muted">No expected questions for this theme yet — read the past questions above.</Card>
       ) : (
         <div className="grid gap-3">
           {theme.expected.map((e, i) => (
@@ -360,16 +367,9 @@ function ThemeView({ theme, onBack, onNext }: { theme: Theme; onBack: () => void
         </Card>
       )}
 
-      <AskedGroup
-        title="Asked by APPSC"
-        note="Every question the commission has set on this theme."
-        items={asked.appsc}
-        open={showAsked}
-        toggle={() => setShowAsked((s) => !s)}
-      />
       {asked.other.length > 0 && (
         <AskedGroup
-          title="Asked by other exams, not by APPSC"
+          title="Other state PSC and UPSC questions (not asked by APPSC)"
           note="UPSC (2013–2026) and TGPSC questions on this theme that APPSC has not set. They show angles the commission could take next."
           items={asked.other}
           open={showOther}
