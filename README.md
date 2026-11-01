@@ -97,6 +97,7 @@ src/app/            routes (each page is a thin server shell around a client scr
 src/components/     UI kit (glass cards, sheet, segmented, rings), QuestionView, PwaManager
 src/lib/store.ts    zustand stores: app data (tc-app) + live test session (tc-session, written every second)
 src/lib/tests.ts    builders: topic sets, topic/full mocks, daily quiz (seeded by date), custom, weak-area, revision
+scripts/extract/build_mech.py   YCT Mechanical Vol-1 Material Science + Vol-2 Thermodynamics -> AEE PCB Paper-II banks
 src/lib/slots.ts    study slots: 5 a day, topic chosen per slot, 10 questions before study + 10 after, bedtime round from the day's mistakes
 src/lib/scoring.ts  marking schemes + pure scoring
 scripts/            content validation/audit, service-worker generator

@@ -84,7 +84,10 @@ export const PATTERNS: ExamPattern[] = [
     sections: AEE_GS }),
   P({ id: "aee-pcb-p3", exams: ["aee-pcb"], paper: "Paper-III · Environmental Science & Technology", title: "AEE PCB · Paper-III (Environmental Science & Technology)", minutes: 150, basis: "notification",
     note: "150 Q · 150 min · −⅓. Ten syllabus units × 15 questions.",
-    sections: Array.from({ length: 10 }, (_, i) => sec(`Unit ${i + 1}`, ["env"], 15, { units: [i + 1] })) }),
+    sections: Array.from({ length: 10 }, (_, i) =>
+      i === 3 ? sec("Unit 4 · Engineering Materials", ["mech-mat"], 15)
+      : i === 5 ? sec("Unit 6 · Process Calculations & Thermodynamics", ["mech-thermo"], 15)
+      : sec(`Unit ${i + 1}`, ["env"], 15, { units: [i + 1] })) }),
   // ---- AEE Civil (R&B / Irrigation / Panchayat Raj / Tribal Welfare)
   P({ id: "aee-civil-p1", exams: ["aee-rbi", "aee-prtw"], paper: "Paper-I · GS & Mental Ability", title: "AEE · Paper-I (GS & Mental Ability)", minutes: 150, basis: "notification",
     note: "150 Q · 150 min · −⅓. Same distribution as AEE PCB Paper-I.", sections: AEE_GS }),
