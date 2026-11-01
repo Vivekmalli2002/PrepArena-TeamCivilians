@@ -2,6 +2,33 @@
 {
 "paper": 1,
 "section": "SECTION I: CURRENT AFFAIRS",
+"topic": "01. Current Affairs of Regional Importance (Andhra Pradesh)",
+"micro": "Industrial Growth & Environmental Sustainability",
+"year": 2025,
+"question": "Andhra Pradesh’s development push must balance industrial growth with sustainability.",
+"cover": true
+},
+{
+"paper": 1,
+"section": "SECTION I: CURRENT AFFAIRS",
+"topic": "01. Current Affairs of Regional Importance (Andhra Pradesh)",
+"micro": "Sustainable Tourism & Cultural Economy",
+"year": 2025,
+"question": "Tourism in Andhra Pradesh: Assessing Challenges and Unveiling for Growth.",
+"cover": true
+},
+{
+"paper": 1,
+"section": "SECTION I: CURRENT AFFAIRS",
+"topic": "01. Current Affairs of Regional Importance (Andhra Pradesh)",
+"micro": "Sustainable Tourism & Cultural Economy",
+"year": 2017,
+"question": "2017 has been declared as the International Year of Sustainable Tourism development. In this context, discuss the initiatives taken by the of Andhra Pradesh for promotion of tourism. What additional may be taken to sustain tourism as an industry?",
+"cover": true
+},
+{
+"paper": 1,
+"section": "SECTION I: CURRENT AFFAIRS",
 "topic": "09. Reflective Topics",
 "micro": "Grassroots Governance & Village Administration",
 "year": 2023,
@@ -542,6 +569,114 @@
 "micro": "Personal Growth, Oratory & Experiential Reflections",
 "year": 2020,
 "question": "My First Public Speaking Experience."
+},
+{
+"paper": 2,
+"section": "SECTION A: HISTORY AND CULTURE OF INDIA",
+"topic": "",
+"micro": "Indus Valley Civilization and Vedic Culture",
+"year": 2025,
+"question": "Discuss the origin and expansion of the Indus Valley Civilization.",
+"cover": true
+},
+{
+"paper": 2,
+"section": "SECTION A: HISTORY AND CULTURE OF INDIA",
+"topic": "",
+"micro": "Indus Valley Civilization and Vedic Culture",
+"year": 2023,
+"question": "Examine the survival and continuity of Harappan culture in the present",
+"cover": true
+},
+{
+"paper": 2,
+"section": "SECTION A: HISTORY AND CULTURE OF INDIA",
+"topic": "",
+"micro": "Indus Valley Civilization and Vedic Culture",
+"year": 2020,
+"question": "Critically examine the salient features of urban planning of Harappan",
+"cover": true
+},
+{
+"paper": 2,
+"section": "SECTION A: HISTORY AND CULTURE OF INDIA",
+"topic": "",
+"micro": "Indus Valley Civilization and Vedic Culture",
+"year": 2017,
+"question": "Explain in what respects the Harappan civilization differed from that of the Vedic civilization.",
+"cover": true
+},
+{
+"paper": 2,
+"section": "SECTION A: HISTORY AND CULTURE OF INDIA",
+"topic": "",
+"micro": "Indus Valley Civilization and Vedic Culture",
+"year": 2012,
+"question": "Give a detailed account of Harappans' town planning and evaluate the reasons for its decline.",
+"cover": true
+},
+{
+"paper": 2,
+"section": "SECTION A: HISTORY AND CULTURE OF INDIA",
+"topic": "",
+"micro": "Indus Valley Civilization and Vedic Culture",
+"year": 2011,
+"question": "Bring out the salient features of the Indus and Vedic Civilizations in a perspective.",
+"cover": true
+},
+{
+"paper": 2,
+"section": "SECTION A: HISTORY AND CULTURE OF INDIA",
+"topic": "",
+"micro": "Indus Valley Civilization and Vedic Culture",
+"year": 2008,
+"question": "Compare and contrast the salient features of Early Vedic and Later Vedic in political, social, economic and religious fields.",
+"cover": true
+},
+{
+"paper": 2,
+"section": "SECTION A: HISTORY AND CULTURE OF INDIA",
+"topic": "",
+"micro": "Emergence of New Religions-Jainism, Buddhism",
+"year": 2025,
+"question": "Briefly analyze the teachings of Buddha and Mahavira.",
+"cover": true
+},
+{
+"paper": 2,
+"section": "SECTION A: HISTORY AND CULTURE OF INDIA",
+"topic": "",
+"micro": "Emergence of New Religions-Jainism, Buddhism",
+"year": 2020,
+"question": "Critically Examine the causes of emergence of Buddhism in ancient India.",
+"cover": true
+},
+{
+"paper": 2,
+"section": "SECTION A: HISTORY AND CULTURE OF INDIA",
+"topic": "",
+"micro": "Emergence of New Religions-Jainism, Buddhism",
+"year": 2016,
+"question": "Compare Hinayana and Mahayana Buddhism. Why did Buddhism become and decline subsequently?",
+"cover": true
+},
+{
+"paper": 2,
+"section": "SECTION A: HISTORY AND CULTURE OF INDIA",
+"topic": "",
+"micro": "Emergence of New Religions-Jainism, Buddhism",
+"year": 2012,
+"question": "Describe the similarities and differences of Buddhism and Ashoka's Discuss the impact of both on ancient Indian Society.",
+"cover": true
+},
+{
+"paper": 2,
+"section": "SECTION A: HISTORY AND CULTURE OF INDIA",
+"topic": "",
+"micro": "Emergence of New Religions-Jainism, Buddhism",
+"year": 2011,
+"question": "Examine the factors responsible for the rise and growth of Jainism and",
+"cover": true
 },
 {
 "paper": 2,
@@ -1915,6 +2050,96 @@
 "paper": 3,
 "section": "SECTION A: INDIAN POLITY AND CONSTITUTION",
 "topic": "",
+"micro": "Indian Constitution and its salient features – Historical Background and Preamble",
+"year": 2020,
+"question": "How was the constituent assembly formed that framed the Indian Critically evaluate the Constitution of India as framed by assembly?",
+"cover": true
+},
+{
+"paper": 3,
+"section": "SECTION A: INDIAN POLITY AND CONSTITUTION",
+"topic": "",
+"micro": "Indian Constitution and its salient features – Historical Background and Preamble",
+"year": 2020,
+"question": "Explain any five salient features of Indian constitution.",
+"cover": true
+},
+{
+"paper": 3,
+"section": "SECTION A: INDIAN POLITY AND CONSTITUTION",
+"topic": "",
+"micro": "Indian Constitution and its salient features – Historical Background and Preamble",
+"year": 2011,
+"question": "The constitution postulates in its Preamble that India shall be a Secular What are the constitutional provisions consistent this declaration?",
+"cover": true
+},
+{
+"paper": 3,
+"section": "SECTION A: INDIAN POLITY AND CONSTITUTION",
+"topic": "",
+"micro": "Indian Constitution and its salient features – Historical Background and Preamble",
+"year": 2008,
+"question": "\"Preamble is a part of the Indian Constitution.\" Comment.",
+"cover": true
+},
+{
+"paper": 3,
+"section": "SECTION A: INDIAN POLITY AND CONSTITUTION",
+"topic": "",
+"micro": "Indian Constitution and its salient features - Fundamental Rights",
+"year": 2023,
+"question": "Examine the scope of 'reasonable restrictions' and the 'test of in Constitution.",
+"cover": true
+},
+{
+"paper": 3,
+"section": "SECTION A: INDIAN POLITY AND CONSTITUTION",
+"topic": "",
+"micro": "Indian Constitution and its salient features - Fundamental Rights",
+"year": 2012,
+"question": "Explain the Right to Equality guaranteed under the Constitution of India in light of the doctrine of reasonable classification.",
+"cover": true
+},
+{
+"paper": 3,
+"section": "SECTION A: INDIAN POLITY AND CONSTITUTION",
+"topic": "",
+"micro": "Indian Constitution and its salient features - Fundamental Rights",
+"year": 2011,
+"question": "Explain the Constitutional guarantee to the Right to property in the light of 44thAmendment Act.",
+"cover": true
+},
+{
+"paper": 3,
+"section": "SECTION A: INDIAN POLITY AND CONSTITUTION",
+"topic": "",
+"micro": "Indian Constitution and its salient features - DPSP",
+"year": 2016,
+"question": "Analyze the effectiveness of implementation of the Directive Principles of Policy and suggest ways to improve it.",
+"cover": true
+},
+{
+"paper": 3,
+"section": "SECTION A: INDIAN POLITY AND CONSTITUTION",
+"topic": "",
+"micro": "Indian Constitution and its salient features - DPSP",
+"year": 2012,
+"question": "Analyse the concept and importance of Directive Principles of State Policy. the relationship and difference between the Fundamental Rights and Directive Principles.",
+"cover": true
+},
+{
+"paper": 3,
+"section": "SECTION A: INDIAN POLITY AND CONSTITUTION",
+"topic": "",
+"micro": "Indian Constitution and its salient features - DPSP",
+"year": 2011,
+"question": "Trace the genesis and development of Uniform Civil code in India. Cite judgments on this issue.",
+"cover": true
+},
+{
+"paper": 3,
+"section": "SECTION A: INDIAN POLITY AND CONSTITUTION",
+"topic": "",
 "micro": "Indian Constitution and its salient features - Federalism",
 "year": 2025,
 "question": "The Constitution of India grants certain rights to citizens and also provides measures to safeguard them. What are the key constitutional arrangements to ensure the protection of these rights?"
@@ -2838,6 +3063,51 @@
 "micro": "Tax Laws: Laws relating to income, Profits, Wealth Tax, Corporate Tax - GST",
 "year": 2023,
 "question": "Are Direct Taxes transferable or non-transferable? Explain the recent Direct Tax Reforms undertaken in India."
+},
+{
+"paper": 4,
+"section": "SECTION A: MAJOR CHALLENGES OF INDIAN ECONOMY",
+"topic": "",
+"micro": "Basics on National Income",
+"year": 2016,
+"question": "Discuss the difficulties faced in measuring the developmental level of and justify whether the current method of measurement in India the difficulties.",
+"cover": true
+},
+{
+"paper": 4,
+"section": "SECTION A: MAJOR CHALLENGES OF INDIAN ECONOMY",
+"topic": "",
+"micro": "Basics on National Income",
+"year": 2016,
+"question": "Discuss briefly the major changes involved in the recent revision in the year and method of national income accounting.",
+"cover": true
+},
+{
+"paper": 4,
+"section": "SECTION A: MAJOR CHALLENGES OF INDIAN ECONOMY",
+"topic": "",
+"micro": "Basics on National Income",
+"year": 2011,
+"question": "Do you consider Human Development Index as an alternative to National Justify your answer.",
+"cover": true
+},
+{
+"paper": 4,
+"section": "SECTION A: MAJOR CHALLENGES OF INDIAN ECONOMY",
+"topic": "",
+"micro": "Basics on National Income",
+"year": 2008,
+"question": "Explain various approaches to measure national income.",
+"cover": true
+},
+{
+"paper": 4,
+"section": "SECTION A: MAJOR CHALLENGES OF INDIAN ECONOMY",
+"topic": "",
+"micro": "Basics on National Income",
+"year": 2008,
+"question": "Explain the problems in measuring national income.",
+"cover": true
 },
 {
 "paper": 4,
@@ -4678,6 +4948,105 @@
 "micro": "Ongoing projects",
 "year": 2017,
 "question": "Explain the details of the \"Arogya Raksha\" scheme started by the Government of Andhra Pradesh. Also compare the scheme with other health insurance schemes of Andhra Pradesh."
+},
+{
+"paper": 5,
+"section": "SECTION A: SCIENCE & TECHNOLOGY IN EVERYDAY LIFE & NATIONAL SECURITY",
+"topic": "",
+"micro": "Integration of Science, Technology and Innovation for better human life",
+"year": 2020,
+"question": "Traditional methods of in-person education have been disrupted by the pandemic. How can India's Space Program help in restoring and access to education in India?",
+"cover": true
+},
+{
+"paper": 5,
+"section": "SECTION A: SCIENCE & TECHNOLOGY IN EVERYDAY LIFE & NATIONAL SECURITY",
+"topic": "",
+"micro": "National Policies on proliferation of Science, Technology and Innovation",
+"year": 2020,
+"question": "Please interpret the following data in terms of contribution by countries to and Engineering publications. Identify any one factor for the state of Science and recommend a relevant policy measure to address the",
+"cover": true
+},
+{
+"paper": 5,
+"section": "SECTION A: SCIENCE & TECHNOLOGY IN EVERYDAY LIFE & NATIONAL SECURITY",
+"topic": "",
+"micro": "National Policies on proliferation of Science, Technology and Innovation",
+"year": 2016,
+"question": "Briefly state the salient features of the National Data Sharing and Policy, 2012 and its benefits?",
+"cover": true
+},
+{
+"paper": 5,
+"section": "SECTION A: SCIENCE & TECHNOLOGY IN EVERYDAY LIFE & NATIONAL SECURITY",
+"topic": "",
+"micro": "National Policies on proliferation of Science, Technology and Innovation",
+"year": 2016,
+"question": "Mention the main objectives of Science, Technology and Innovation (STI) 2013 of India.",
+"cover": true
+},
+{
+"paper": 5,
+"section": "SECTION A: SCIENCE & TECHNOLOGY IN EVERYDAY LIFE & NATIONAL SECURITY",
+"topic": "",
+"micro": "National Policies on proliferation of Science, Technology and Innovation",
+"year": 2016,
+"question": "Write a short note on the following: (i) Post Harvest Technology (PHT) (ii) Production Programme (OPP).",
+"cover": true
+},
+{
+"paper": 5,
+"section": "SECTION A: SCIENCE & TECHNOLOGY IN EVERYDAY LIFE & NATIONAL SECURITY",
+"topic": "",
+"micro": "National Policies on proliferation of Science, Technology and Innovation",
+"year": 2011,
+"question": "Illustrate the National Policy on Science and Technology.",
+"cover": true
+},
+{
+"paper": 5,
+"section": "SECTION A: SCIENCE & TECHNOLOGY IN EVERYDAY LIFE & NATIONAL SECURITY",
+"topic": "",
+"micro": "National Policies on proliferation of Science, Technology and Innovation",
+"year": 2011,
+"question": "Discuss the role of technology missions in Indian with a suitable example.",
+"cover": true
+},
+{
+"paper": 5,
+"section": "SECTION A: SCIENCE & TECHNOLOGY IN EVERYDAY LIFE & NATIONAL SECURITY",
+"topic": "",
+"micro": "National Policies on proliferation of Science, Technology and Innovation",
+"year": 2011,
+"question": "National Policy on Technology Missions.",
+"cover": true
+},
+{
+"paper": 5,
+"section": "SECTION A: SCIENCE & TECHNOLOGY IN EVERYDAY LIFE & NATIONAL SECURITY",
+"topic": "",
+"micro": "Concerns and challenges in the proliferation and use of science and technology",
+"year": 2023,
+"question": "Do you think the problem in India is \"not so much knowledge creation, as consumption\" and Scientific Social Responsibility (SSR) will go a way in remedying this situation? Justi& your stand' Discuss the associated with the implementation of Scientific Social",
+"cover": true
+},
+{
+"paper": 5,
+"section": "SECTION A: SCIENCE & TECHNOLOGY IN EVERYDAY LIFE & NATIONAL SECURITY",
+"topic": "",
+"micro": "Concerns and challenges in the proliferation and use of science and technology",
+"year": 2008,
+"question": "What are the strategies of development, transfer and diffusion of in our country?",
+"cover": true
+},
+{
+"paper": 5,
+"section": "SECTION A: SCIENCE & TECHNOLOGY IN EVERYDAY LIFE & NATIONAL SECURITY",
+"topic": "",
+"micro": "Role and Scope of Science and Technology in Nation Building",
+"year": 2023,
+"question": "Technology plays a key role in transforming healthcare sector and in India's healthcare challenges – Discuss.",
+"cover": true
 },
 {
 "paper": 5,

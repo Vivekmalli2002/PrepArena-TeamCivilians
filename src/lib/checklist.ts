@@ -36,6 +36,8 @@ export interface Theme {
   legacy?: boolean;
   /** Position of the theme in the compilation PDF (syllabus order). */
   order: number;
+  /** Questions the compilation PDF lists under this microtheme — the importance of the theme. */
+  pdfn: number;
 }
 
 export const PAPER_TITLES: Record<number, string> = {
@@ -58,6 +60,14 @@ export const DIM_LABEL: Record<string, string> = {
   ap: "Andhra Pradesh angle",
   current: "Recent developments",
 };
+
+/** Importance from how often the commission came back to the microtheme (questions listed in the PDF). */
+export function importance(t: Pick<Theme, "pdfn">): { label: string; level: 1 | 2 | 3 | 4 } {
+  if (t.pdfn >= 10) return { label: "Very high", level: 4 };
+  if (t.pdfn >= 6) return { label: "High", level: 3 };
+  if (t.pdfn >= 3) return { label: "Medium", level: 2 };
+  return { label: "Low", level: 1 };
+}
 
 export interface Progress {
   done: number;
@@ -82,7 +92,7 @@ export function sumProgress(themes: Theme[], done: Record<string, number>): Prog
 export function bySubject(themes: Theme[], paper: number): { subject: string; themes: Theme[] }[] {
   const groups = new Map<string, Theme[]>();
   for (const t of themes) if (t.paper === paper && !t.legacy) groups.set(t.subject, [...(groups.get(t.subject) ?? []), t]);
-  return [...groups].map(([subject, ts]) => ({ subject, themes: ts.sort((a, b) => Number(a.label.startsWith("Misc")) - Number(b.label.startsWith("Misc")) || b.n - a.n) }));
+  return [...groups].map(([subject, ts]) => ({ subject, themes: ts.sort((a, b) => Number(a.label.startsWith("Misc")) - Number(b.label.startsWith("Misc")) || b.pdfn - a.pdfn || b.n - a.n) }));
 }
 
 /** The order the checklist is worked through: paper by paper, subject by subject, most-asked theme first. Themes with nothing to tick are skipped. */
