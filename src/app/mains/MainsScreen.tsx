@@ -11,6 +11,7 @@ import modelF5 from "@/content/mains-model-f5.json";
 import modelG23 from "@/content/mains-model-g23.json";
 import modelG45 from "@/content/mains-model-g45.json";
 import modelS1 from "@/content/mains-model-s1.json";
+import modelS2 from "@/content/mains-model-s2.json";
 import modelP2P3 from "@/content/mains-model-p3p2.json";
 import modelP4 from "@/content/mains-model-p4.json";
 import modelP5 from "@/content/mains-model-p5.json";
@@ -37,7 +38,7 @@ interface Model {
   style?: "appsc";
 }
 const MODELS = new Map(
-  ([...modelF1, ...modelF2, ...modelF3, ...modelF4, ...modelF5, ...modelG23, ...modelG45, ...modelS1, ...modelP5, ...modelP4, ...modelP2P3] as unknown as Model[]).map((m) => [m.id, m]),
+  ([...modelF1, ...modelF2, ...modelF3, ...modelF4, ...modelF5, ...modelG23, ...modelG45, ...modelS1, ...modelS2, ...modelP5, ...modelP4, ...modelP2P3] as unknown as Model[]).map((m) => [m.id, m]),
 );
 const otherCount = (t: Theme) => t.asked.filter((a) => a.boards.length > 0 && !a.boards.includes("APPSC")).length;
 const dimLabel = (d: string) => DIM_LABEL[d] ?? d;
