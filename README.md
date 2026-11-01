@@ -140,3 +140,13 @@ Build: `python3 -I scripts/analysis/build_checklist.py` (merge, de-duplicate, fi
   conclusion, optional "read the latest" checklist) it is attached to the nearest theme and shown as **Full answer**.
 - Topics the commission has removed from the 2026 syllabus (Notification 07/2026) are hidden.
 - Progress is stored in the app's `learn.done` (question id → time), so it is included in backup/restore.
+
+- **UPSC questions** (`scripts/extract/upsc_pyq.py` → `scripts/data/upsc.json`; GS-I…IV 2013–2026, 1,118 questions from the UnlockIAS compilations):
+  each UPSC heading is mapped to the Mains subject it belongs to (headings with no APPSC counterpart — world history, international
+  relations, security, ethics case studies — are left out, 294 questions). Inside the subject a question joins the theme it is most
+  similar to; otherwise it is kept in that subject's "Miscellaneous · UPSC questions" list. They appear on the theme page under
+  "Asked by other exams, not by APPSC" and never count towards APPSC recurrence, importance or the "not asked yet" angles.
+
+- **APPSC-style model answers** (`style: "appsc"` in `src/content/mains-model-s1.json`): 12 minutes and about 2.5–3 booklet pages per answer
+  (45 pages / 15 questions) → 250–350 words, many short points, one example per point, new facts about 20%, underlined sub-headings,
+  a forward-looking conclusion that names the ministry or body and the citizen's right. The card shows the word count.

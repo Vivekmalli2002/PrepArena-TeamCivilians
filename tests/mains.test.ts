@@ -4,7 +4,7 @@ import { bySubject, importance, nextTheme, studyOrder, sumProgress, themeDone, t
 import { emptyLearn, readKey, toggleRead, unreadItems } from "@/lib/mainsLearn";
 
 const J = (f: string) => JSON.parse(readFileSync(`src/content/${f}`, "utf8"));
-const MODEL_FILES = ["p5", "p4", "p3p2", "f1", "f2", "f3", "f4", "f5", "g23", "g45"].map((n) => J(`mains-model-${n}.json`));
+const MODEL_FILES = ["p5", "p4", "p3p2", "f1", "f2", "f3", "f4", "f5", "g23", "g45", "s1"].map((n) => J(`mains-model-${n}.json`));
 const THEMES = J("mains-checklist.json") as Theme[];
 
 describe("checklist data", () => {
@@ -14,6 +14,7 @@ describe("checklist data", () => {
     const ids = THEMES.flatMap((t) => t.expected.map((e) => e.id));
     expect(new Set(ids).size).toBe(ids.length);
     expect(THEMES.reduce((n, t) => n + t.n, 0)).toBeGreaterThan(1100);
+    expect(THEMES.filter((t) => t.kind === "upsc").every((t) => t.expected.length === 0)).toBe(true);
   });
   it("never expects more than 10 questions in a theme, and fewer for small themes", () => {
     for (const t of THEMES) {
@@ -28,6 +29,13 @@ describe("checklist data", () => {
     expect(importance({ pdfn: 1 }).label).toBe("Low");
     expect(importance({ pdfn: 4 }).label).toBe("Medium");
     expect(importance({ pdfn: 7 }).label).toBe("High");
+  });
+  it("keeps questions asked only by other exams apart from APPSC ones", () => {
+    const only = THEMES.flatMap((t) => t.asked).filter((a) => a.boards.length > 0 && !a.boards.includes("APPSC"));
+    expect(only.length).toBeGreaterThan(900);
+    expect(only.every((a) => a.boards.includes("TGPSC") || a.boards.includes("UPSC"))).toBe(true);
+    expect(only.filter((a) => a.boards.includes("UPSC")).length).toBeGreaterThan(700);
+    expect(THEMES.filter((t) => t.asked.some((a) => a.boards.length > 0 && !a.boards.includes("APPSC"))).length).toBeGreaterThan(50);
   });
   it("lists the past questions with their years and boards", () => {
     const tg = THEMES.flatMap((t) => t.asked).filter((a) => a.boards.includes("TGPSC"));
@@ -81,6 +89,16 @@ describe("expected questions and reading checklist", () => {
       expect(m.intro.length, m.id).toBeGreaterThan(60);
       expect(m.body.length, m.id).toBeGreaterThan(0);
       expect(m.conclusion.length, m.id).toBeGreaterThan(40);
+    }
+  });
+  it("APPSC-style answers carry many short points and fit about 12 minutes (200–400 words)", () => {
+    const appsc = (MODEL_FILES.flat() as { id: string; style?: string; intro: string; body: { pts: string[] }[]; conclusion: string }[]).filter((m) => m.style === "appsc");
+    expect(appsc.length).toBeGreaterThanOrEqual(10);
+    for (const m of appsc) {
+      const words = (m.intro + " " + m.body.map((b) => b.pts.join(" ")).join(" ") + " " + m.conclusion).split(/\s+/).filter(Boolean).length;
+      expect(words, m.id).toBeGreaterThanOrEqual(200);
+      expect(words, m.id).toBeLessThanOrEqual(400);
+      expect(m.body.reduce((n, b) => n + b.pts.length, 0), m.id).toBeGreaterThanOrEqual(12);
     }
   });
   it("keeps a question pending until every current-affairs item is ticked", () => {

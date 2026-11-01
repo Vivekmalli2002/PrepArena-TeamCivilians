@@ -10,6 +10,7 @@ import modelF4 from "@/content/mains-model-f4.json";
 import modelF5 from "@/content/mains-model-f5.json";
 import modelG23 from "@/content/mains-model-g23.json";
 import modelG45 from "@/content/mains-model-g45.json";
+import modelS1 from "@/content/mains-model-s1.json";
 import modelP2P3 from "@/content/mains-model-p3p2.json";
 import modelP4 from "@/content/mains-model-p4.json";
 import modelP5 from "@/content/mains-model-p5.json";
@@ -32,10 +33,13 @@ interface Model {
   conclusion: string;
   updates?: string[];
   src?: string;
+  /** "appsc": written to the APPSC Mains pattern — many short points, about 12 minutes to write. */
+  style?: "appsc";
 }
 const MODELS = new Map(
-  ([...modelF1, ...modelF2, ...modelF3, ...modelF4, ...modelF5, ...modelG23, ...modelG45, ...modelP5, ...modelP4, ...modelP2P3] as unknown as Model[]).map((m) => [m.id, m]),
+  ([...modelF1, ...modelF2, ...modelF3, ...modelF4, ...modelF5, ...modelG23, ...modelG45, ...modelS1, ...modelP5, ...modelP4, ...modelP2P3] as unknown as Model[]).map((m) => [m.id, m]),
 );
+const otherCount = (t: Theme) => t.asked.filter((a) => a.boards.length > 0 && !a.boards.includes("APPSC")).length;
 const dimLabel = (d: string) => DIM_LABEL[d] ?? d;
 
 export function MainsScreen() {
@@ -185,6 +189,7 @@ function AllThemes({ paper, done, onPick }: { paper: number; done: Record<string
                   {t.full !== t.label && <span className="mt-0.5 block text-[11px] leading-snug text-muted">{t.full}</span>}
                   <span className="mt-1 block text-xs text-muted">
                     asked {t.n}×{t.years.length ? ` · last ${t.years.at(-1)}` : ""} · {tp.total ? `${tp.done}/${tp.total} learned` : t.legacy ? "removed from 2026 syllabus" : "past questions only"}
+                    {otherCount(t) > 0 ? ` · +${otherCount(t)} from other exams` : ""}
                   </span>
                 </span>
               </button>
@@ -203,6 +208,7 @@ const LEVEL_STYLE: Record<number, string> = {
   1: "bg-hairline text-muted",
 };
 function Importance({ t }: { t: Theme }) {
+  if (!t.pdfn) return null;
   const im = importance(t);
   return (
     <span className={cx("rounded-full px-2 py-0.5 text-[11px] font-bold", LEVEL_STYLE[im.level])} title={`${t.pdfn} questions listed under this microtheme in the PDF`}>
@@ -252,6 +258,7 @@ function Subject({ subject, themes, done, onPick }: { subject: string; themes: T
                     </span>
                     <span className="mt-0.5 block text-xs text-muted">
                       asked {t.n}× · {t.years.length} sittings{t.years.length ? ` · last ${t.years.at(-1)}` : ""} · {tp.done}/{tp.total} learned
+                      {otherCount(t) > 0 ? ` · +${otherCount(t)} from other exams` : ""}
                     </span>
                   </span>
                   <ArrowRight size={15} className="mt-1 shrink-0 text-faint" />
@@ -270,6 +277,16 @@ function ThemeView({ theme, onBack, onNext }: { theme: Theme; onBack: () => void
   const p = themeProgress(theme, done);
   const fin = themeDone(theme, done);
   const [showAsked, setShowAsked] = useState(false);
+  const [showOther, setShowOther] = useState(true);
+  const [showPractice, setShowPractice] = useState(false);
+  const asked = useMemo(
+    () => ({
+      appsc: theme.asked.filter((a) => a.boards.includes("APPSC")),
+      other: theme.asked.filter((a) => a.boards.length > 0 && !a.boards.includes("APPSC")),
+      practice: theme.asked.filter((a) => a.boards.length === 0),
+    }),
+    [theme],
+  );
   useEffect(() => window.scrollTo({ top: 0 }), [theme.id]);
 
   return (
@@ -339,32 +356,30 @@ function ThemeView({ theme, onBack, onNext }: { theme: Theme; onBack: () => void
         </Card>
       )}
 
-      <button onClick={() => setShowAsked((s) => !s)} className="mt-6 flex w-full items-center justify-between text-left" aria-expanded={showAsked}>
-        <SectionTitle>Already asked · {theme.asked.length}</SectionTitle>
-        <ChevronDown size={18} className={cx("text-muted transition", showAsked && "rotate-180")} />
-      </button>
-      {showAsked && (
-        <ul className="grid gap-2">
-          {theme.asked.map((a) => (
-            <li key={a.q} className="glass rounded-2xl p-3 text-sm leading-snug">
-              <div className="mb-1 flex flex-wrap gap-1.5 text-[11px] font-semibold text-muted">
-                {a.boards.length === 0 && <span className="rounded-full bg-amber-100 px-2 py-0.5 text-amber-800">Practice question</span>}
-                {a.boards.map((b) => (
-                  <span key={b} className="rounded-full bg-primary-soft px-2 py-0.5 text-primary">
-                    {b}
-                  </span>
-                ))}
-                {a.years.length > 0 && <span>{a.years.join(" · ")}</span>}
-                {a.dims.map((d) => (
-                  <span key={d} className="rounded-full bg-good-soft px-2 py-0.5 text-good">
-                    {dimLabel(d)}
-                  </span>
-                ))}
-              </div>
-              {a.q}
-            </li>
-          ))}
-        </ul>
+      <AskedGroup
+        title="Asked by APPSC"
+        note="Every question the commission has set on this theme."
+        items={asked.appsc}
+        open={showAsked}
+        toggle={() => setShowAsked((s) => !s)}
+      />
+      {asked.other.length > 0 && (
+        <AskedGroup
+          title="Asked by other exams, not by APPSC"
+          note="UPSC (2013–2026) and TGPSC questions on this theme that APPSC has not set. They show angles the commission could take next."
+          items={asked.other}
+          open={showOther}
+          toggle={() => setShowOther((s) => !s)}
+        />
+      )}
+      {asked.practice.length > 0 && (
+        <AskedGroup
+          title="Practice questions"
+          note="Coaching practice questions with no exam tag."
+          items={asked.practice}
+          open={showPractice}
+          toggle={() => setShowPractice((s) => !s)}
+        />
       )}
 
       {!fin && (
@@ -375,6 +390,44 @@ function ThemeView({ theme, onBack, onNext }: { theme: Theme; onBack: () => void
         </div>
       )}
     </div>
+  );
+}
+
+function AskedGroup({ title, note, items, open, toggle }: { title: string; note: string; items: Theme["asked"]; open: boolean; toggle: () => void }) {
+  return (
+    <>
+      <button onClick={toggle} className="mt-6 flex w-full items-center justify-between text-left" aria-expanded={open}>
+        <SectionTitle>
+          {title} · {items.length}
+        </SectionTitle>
+        <ChevronDown size={18} className={cx("text-muted transition", open && "rotate-180")} />
+      </button>
+      {open && (
+        <>
+          <p className="-mt-1 mb-2 text-xs text-muted">{note}</p>
+          <ul className="grid gap-2">
+            {items.map((a) => (
+              <li key={a.q} className="glass rounded-2xl p-3 text-sm leading-snug">
+                <div className="mb-1 flex flex-wrap gap-1.5 text-[11px] font-semibold text-muted">
+                  {a.boards.map((b) => (
+                    <span key={b} className="rounded-full bg-primary-soft px-2 py-0.5 text-primary">
+                      {b}
+                    </span>
+                  ))}
+                  {a.years.length > 0 && <span>{a.years.join(" · ")}</span>}
+                  {a.dims.map((d) => (
+                    <span key={d} className="rounded-full bg-good-soft px-2 py-0.5 text-good">
+                      {dimLabel(d)}
+                    </span>
+                  ))}
+                </div>
+                {a.q}
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+    </>
   );
 }
 
@@ -481,18 +534,43 @@ function Structure({ e }: { e: Expected }) {
   );
 }
 
+const CIRCLED = ["①", "②", "③", "④", "⑤", "⑥", "⑦", "⑧", "⑨", "⑩", "⑪", "⑫"];
+const wordsOf = (m: Model) => (m.intro + " " + m.body.map((b) => b.pts.join(" ")).join(" ") + " " + m.conclusion).split(/\s+/).filter(Boolean).length;
+/** "Ex: …" parts stand out, like the example lines of a topper's answer. */
+function Point({ text }: { text: string }) {
+  const i = text.indexOf("Ex:");
+  return i < 0 ? <>{text}</> : (
+    <>
+      {text.slice(0, i)}
+      <b className="text-primary">Ex:</b>
+      {text.slice(i + 3)}
+    </>
+  );
+}
+
 function ModelAnswer({ m }: { m: Model }) {
+  const words = wordsOf(m);
   return (
     <div className="space-y-3">
+      <div className="flex flex-wrap gap-2 text-[11px] font-semibold">
+        <span className="rounded-full bg-primary-soft px-2 py-0.5 text-primary">{words} words</span>
+        <span className="rounded-full bg-primary-soft px-2 py-0.5 text-primary">about {Math.max(1, Math.round(words / 30))} min to write at 30 words a minute</span>
+        {m.style === "appsc" && <span className="rounded-full bg-good-soft px-2 py-0.5 text-good">APPSC style · 12 min per answer</span>}
+      </div>
       <p className="text-xs font-bold uppercase tracking-wider text-faint">Introduction</p>
       <p className="leading-relaxed">{m.intro}</p>
       <p className="text-xs font-bold uppercase tracking-wider text-faint">Body</p>
       {m.body.map((b) => (
         <div key={b.h}>
-          <h4 className="font-display text-base font-bold">{b.h}</h4>
-          <ul className="mt-1 list-disc space-y-1 pl-5 leading-relaxed">
-            {b.pts.map((p) => (
-              <li key={p}>{p}</li>
+          <h4 className="font-display text-base font-bold underline decoration-primary/50 underline-offset-4">{b.h}</h4>
+          <ul className="mt-1 space-y-1 leading-relaxed">
+            {b.pts.map((p, i) => (
+              <li key={p} className="flex gap-2">
+                <span className="shrink-0 text-primary">{CIRCLED[i] ?? "•"}</span>
+                <span>
+                  <Point text={p} />
+                </span>
+              </li>
             ))}
           </ul>
         </div>
@@ -500,7 +578,7 @@ function ModelAnswer({ m }: { m: Model }) {
       <p className="text-xs font-bold uppercase tracking-wider text-faint">Conclusion</p>
       <p className="leading-relaxed">{m.conclusion}</p>
       <p className="text-xs text-muted">
-        Written for this app as a study aid in about 10-mark length; verify figures against the latest sources before the exam.
+        Written for this app as a study aid; verify figures against the latest sources before the exam.
         {m.src ? ` Figures from: ${m.src}.` : ""}
       </p>
     </div>

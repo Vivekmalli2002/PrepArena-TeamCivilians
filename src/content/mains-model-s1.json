@@ -1,0 +1,606 @@
+[
+ {
+  "id": "m-p5-13",
+  "paper": 5,
+  "code": "6.1",
+  "theme": "Air, water and soil pollution: sources, impacts and control",
+  "dim": "measures",
+  "question": "Discuss the sources, impacts and control measures of air pollution in India. Critically evaluate the National Clean Air Programme (NCAP).",
+  "why": "Pollution — sources, impacts and control — is one of the most repeated Paper V themes; the NCAP evaluation is the policy angle not yet asked.",
+  "intro": "Air pollution is India's largest environmental health risk, linked to about 1.67 million deaths a year (Lancet Planetary Health, 2019 data). Most cities exceed the NAAQS limits for PM10 and PM2.5, which hurts SDG 3 (health) and SDG 11 (cities).",
+  "body": [
+   {
+    "h": "Sources",
+    "pts": [
+     "Vehicles – old diesel fleets, congestion → PM2.5, NOx.",
+     "Industry and power – coal plants, brick kilns, cement → SO2, fly ash. Ex: Visakhapatnam industrial belt.",
+     "Crop residue burning – paddy stubble in NW India.",
+     "Dust – unpaved roads, construction. Ex: port and capital works in AP.",
+     "Households – firewood, dung cakes → indoor smoke.",
+     "Waste burning, DG sets, fireworks."
+    ]
+   },
+   {
+    "h": "Impacts",
+    "pts": [
+     "Health – asthma, COPD, stroke; children and the elderly worst hit.",
+     "Economy – lost workdays and medical cost, about 1.4% of GDP.",
+     "Agriculture – ozone and haze reduce crop yield.",
+     "Environment – smog, acid rain, black carbon melting Himalayan glaciers.",
+     "Social – the poor and outdoor workers suffer most; school closures."
+    ]
+   },
+   {
+    "h": "Control measures",
+    "pts": [
+     "Law – Air Act 1981, EPA 1986, NAAQS, NGT 2010, CAQM 2021 (Delhi NCR).",
+     "Vehicles – BS-VI norms, EV push, vehicle scrapping, ethanol blending.",
+     "Industry – CEMS, flue-gas desulphurisation, biomass co-firing, PNG.",
+     "Households and farms – PM Ujjwala (LPG); Happy Seeder subsidy.",
+     "Courts – GRAP in Delhi; Article 21 includes the right to clean air."
+    ]
+   },
+   {
+    "h": "NCAP (2019, MoEFCC) – critical evaluation",
+    "pts": [
+     "Target: 40% cut in PM10 by 2025-26 in 130 non-attainment cities, including AP's Visakhapatnam, Vijayawada, Guntur, Nellore, Tirupati.",
+     "Gains: city action plans, more monitoring stations, PM10 falling in many cities, Swachh Vayu Survekshan ranking.",
+     "Gaps: PM10 focus, not PM2.5; not legally binding; funds spent mostly on road-dust sprinklers; city-wise approach ignores regional airsheds; weak State Pollution Control Boards."
+    ]
+   },
+   {
+    "h": "Way forward",
+    "pts": [
+     "Airshed-based management with legal backing.",
+     "Binding PM2.5 targets with penalties.",
+     "Public transport, EVs, scrapping of old vehicles.",
+     "Scale up emissions trading; support farmers with stubble machines.",
+     "Strengthen SPCBs; publish real-time AQI and health alerts for citizens."
+    ]
+   }
+  ],
+  "conclusion": "NCAP must become a legally backed, airshed-based programme with PM2.5 targets, led by MoEFCC and CAQM with State Boards and urban bodies, so that every citizen's right to clean air under Article 21 is secured.",
+  "style": "appsc"
+ },
+ {
+  "id": "m-p4-01",
+  "paper": 4,
+  "code": "6.3",
+  "theme": "Poverty alleviation, employment, health and education",
+  "dim": "issues",
+  "question": "India has reported a sharp fall in multidimensional poverty, yet inequality and jobless growth persist. Critically examine the effectiveness of poverty-alleviation and employment programmes and the gaps that remain.",
+  "why": "The most repeated Paper IV theme (20 questions, 8 sittings). Past questions asked for schemes; outcome gaps and quality of jobs is the open angle.",
+  "intro": "Poverty is more than low income; it also means poor health, schooling and living standards. NITI Aayog's multidimensional poverty index shows a large fall since 2013-14, but jobs and inequality still hold back inclusive growth.",
+  "body": [
+   {
+    "h": "Programmes and results",
+    "pts": [
+     "Wages and work – MGNREGS gives a rural wage floor and builds assets.",
+     "Livelihoods – DAY-NRLM self-help groups, PMEGP, Mudra loans, Skill India.",
+     "Food and basics – NFSA and PDS, PMAY housing, PM Ujjwala, Jan Dhan accounts.",
+     "Direct benefit transfer cut leakages (JAM trinity).",
+     "AP – Pedarikam/SERP women's groups, Talliki Vandanam (Rs 15,000 per school child).",
+     "Health and education – Ayushman Bharat PM-JAY, Samagra Shiksha, mid-day meal.",
+     "Urban poor – PM SVANidhi for street vendors, DAY-NULM."
+    ]
+   },
+   {
+    "h": "Gaps",
+    "pts": [
+     "Jobs are mostly informal and low paid; women's work participation is low.",
+     "Graduate and youth unemployment; skills do not match jobs.",
+     "Weak school learning and primary health care, so human capital does not turn into jobs.",
+     "Targeting errors, leakages, delayed wage payment.",
+     "Regional gaps – backward districts, tribal belts; urban poor have no job guarantee.",
+     "Health and education spending is low; quality is uneven.",
+     "Income inequality is rising even as poverty falls."
+    ]
+   },
+   {
+    "h": "Way forward",
+    "pts": [
+     "Link schemes at the gram panchayat level (convergence).",
+     "Labour-intensive manufacturing and MSME credit.",
+     "Invest in nutrition, school quality and women's employment.",
+     "Use data and social audit to target and review.",
+     "Cash support with conditions on school and health use.",
+     "Gig and platform workers brought under social security."
+    ]
+   },
+   {
+    "h": "Stakeholders",
+    "pts": [
+     "Ministries – Rural Development, Labour, Education, Health; NITI Aayog; State governments and local bodies; NGOs and SHGs."
+    ]
+   }
+  ],
+  "conclusion": "Poverty policy has moved from income support to building capabilities. Productive, decent jobs and quality public services, backed by citizens' rights to food, work and education, will make the gains last.",
+  "style": "appsc",
+  "updates": [
+   "Latest MPI figures and PLFS employment data",
+   "Any change to MGNREGS or the rural employment framework",
+   "Recent Union Budget allocations for health, education and skilling"
+  ]
+ },
+ {
+  "id": "m-p4-04",
+  "paper": 4,
+  "code": "8.5",
+  "theme": "Government schemes to promote agriculture in Andhra Pradesh",
+  "dim": "issues",
+  "question": "Despite many schemes for farmers, agrarian distress and tenant-farmer exclusion continue in Andhra Pradesh. Examine the issues and suggest reforms for a climate-resilient and market-linked agriculture.",
+  "why": "AP agriculture schemes are the second most repeated AP theme (15 questions). Issues, tenant farmers and climate resilience are not yet asked.",
+  "intro": "Agriculture and allied sectors are the backbone of Andhra Pradesh's economy, with rice, chilli, mango, oil palm and aquaculture as strengths. Yet small and tenant farmers face debt, price risk and climate shocks.",
+  "body": [
+   {
+    "h": "Schemes",
+    "pts": [
+     "Income support to farmers and free or subsidised crop insurance.",
+     "Rythu Bharosa Kendras for seeds, inputs and advice; e-crop booking.",
+     "Natural farming programme (APCNF); micro-irrigation.",
+     "Irrigation – Polavaram, Pattiseema lift scheme, Handri-Neeva.",
+     "Aquaculture zoning and fishermen relief.",
+     "Dairy, poultry and fisheries support; seed and fertiliser subsidy."
+    ]
+   },
+   {
+    "h": "Issues",
+    "pts": [
+     "Tenant farmers lack land papers, so they miss benefits.",
+     "Price volatility; weak procurement; little storage and processing.",
+     "Cyclones and floods in the delta; drought in Rayalaseema; falling groundwater.",
+     "High input costs; small holdings.",
+     "Weak market links – few FPOs.",
+     "Soil health decline from heavy chemical use.",
+     "Crop loss from delayed insurance claims."
+    ]
+   },
+   {
+    "h": "Reforms",
+    "pts": [
+     "Digital land and tenancy records with simple cultivator certificates.",
+     "Crop diversification – horticulture, oil palm, millets.",
+     "Cold chains and agro-processing parks; FPO-led value chains.",
+     "Climate-smart practices, early warning and crop insurance.",
+     "e-NAM linkage and a price-stabilisation fund.",
+     "Soil-health cards and balanced fertiliser use.",
+     "Custom-hiring centres and farm mechanisation for small farmers.",
+     "Quick, tech-based crop-loss assessment (drones, satellite)."
+    ]
+   }
+  ],
+  "conclusion": "Income support must be matched with market access and climate resilience. Led by the Agriculture Department with Irrigation and Rural Development, farmers' right to a fair price and secure land records will turn schemes into lasting gains.",
+  "style": "appsc",
+  "updates": [
+   "Current AP farmer-income support scheme name and amounts",
+   "Latest MSP, procurement and crop-insurance (PMFBY) changes",
+   "AP Natural Farming coverage and agri-export/processing policies"
+  ]
+ },
+ {
+  "id": "m-p4-09",
+  "paper": 4,
+  "code": "8.1",
+  "theme": "Contribution to SGDP",
+  "dim": "measures",
+  "question": "Services contribute the largest share to Andhra Pradesh's GSDP while agriculture employs the largest share of workers. Discuss this structural mismatch and suggest a strategy for balanced regional growth.",
+  "why": "Sector contribution to SGDP was asked 13 times; the structural-mismatch and regional-balance framing is the likely upgrade.",
+  "intro": "Andhra Pradesh's GSDP is led by services, while agriculture and allied sectors still support most livelihoods. This gap keeps farm incomes low and growth uneven across regions.",
+  "body": [
+   {
+    "h": "Structure (2023-24, current prices – PRS)",
+    "pts": [
+     "Agriculture and allied 37%, manufacturing 23%, services 40%.",
+     "Per capita GSDP Rs 2.70 lakh against India's Rs 2.16 lakh.",
+     "Growth 7.4% at constant prices; agriculture grew only about 2%.",
+     "Services lead through trade, tourism, IT and real estate; industry is led by pharma, food processing and mining."
+    ]
+   },
+   {
+    "h": "Why the mismatch matters",
+    "pts": [
+     "Low productivity of farm workers means low income.",
+     "Industry has not absorbed surplus labour.",
+     "Coastal districts grow faster than Rayalaseema and North Andhra.",
+     "Disguised unemployment on small farms.",
+     "Migration of youth to cities for jobs.",
+     "Rural demand stays weak, slowing manufacturing."
+    ]
+   },
+   {
+    "h": "Strategy",
+    "pts": [
+     "Agro-processing, aquaculture and horticulture value chains to move farm workers up.",
+     "Visakhapatnam as an IT, port and tourism hub; port-led industry on the coast.",
+     "Textiles, electronics and food parks in Rayalaseema.",
+     "Backward-region grants, irrigation (Polavaram), skills linked to industry.",
+     "Amaravati and growth centres in every region.",
+     "Fisheries, dairy and horticulture to raise farm income.",
+     "Energy and ports – green hydrogen, shipbuilding, logistics.",
+     "Skill and job fairs through the Skill Development Corporation."
+    ]
+   },
+   {
+    "h": "Support needed",
+    "pts": [
+     "Industries Department, APIIC, Skill Development Corporation; central schemes such as PLI and industrial corridors; credit for MSMEs."
+    ]
+   }
+  ],
+  "conclusion": "Structural change should lift farm incomes, not only shift output shares. Skills, infrastructure and a fair share of growth for every region will make Andhra Pradesh's development inclusive.",
+  "style": "appsc",
+  "updates": [
+   "Latest AP Socio-Economic Survey GSDP growth and sector shares",
+   "Visakhapatnam IT/AI hub and large investment announcements",
+   "Pending Polavaram and Amaravati milestones"
+  ],
+  "src": "PRS Andhra Pradesh Budget Analysis 2025-26 (supplied by the user)"
+ },
+ {
+  "id": "m-p4-05",
+  "paper": 4,
+  "code": "2.7",
+  "theme": "Monetary and fiscal policies",
+  "dim": "impact",
+  "question": "Evaluate the effects of the Reserve Bank's shift to a flexible inflation-targeting framework and its recent monetary policy stance on growth and inflation in India.",
+  "why": "Monetary and fiscal policy appears 10 times (7 sittings). The impact of inflation targeting (2016) has not been asked.",
+  "intro": "Since 2016, India follows flexible inflation targeting: the Monetary Policy Committee aims at CPI inflation of 4% within a 2–6% band. The aim is to anchor expectations and still support growth.",
+  "body": [
+   {
+    "h": "Tools and stance",
+    "pts": [
+     "Repo rate, standing deposit facility, CRR, SLR, open-market operations.",
+     "Stance – accommodative, neutral or withdrawal of accommodation, set by the cycle.",
+     "Liquidity management through the repo-reverse repo corridor and variable-rate operations.",
+     "Forex intervention to protect the rupee."
+    ]
+   },
+   {
+    "h": "Effects",
+    "pts": [
+     "Inflation more stable than in 2008-13; expectations better anchored.",
+     "Credibility – RBI is accountable to Parliament if the target is missed for three quarters.",
+     "Growth – cuts in 2020 supported recovery; hikes in 2022-23 cooled prices.",
+     "Transmission to bank lending rates is partial and slow.",
+     "Food and fuel shocks come from supply, so the repo rate cannot fix them. Ex: tomato and onion spikes.",
+     "Banks and borrowers – EMIs move with the repo rate (EBLR link).",
+     "Savers get positive real returns when inflation falls.",
+     "Exchange rate and capital flows respond to rate gaps with the US."
+    ]
+   },
+   {
+    "h": "Issues",
+    "pts": [
+     "Should food be excluded from the target? Debate on core inflation.",
+     "Rupee, oil prices and global rate moves limit independence.",
+     "Weak bond market and bank balance sheets."
+    ]
+   },
+   {
+    "h": "Way forward",
+    "pts": [
+     "Better supply management (storage, imports, buffer stocks) by the Centre.",
+     "Improve transmission; deepen the bond market.",
+     "Align fiscal and monetary policy."
+    ]
+   },
+   {
+    "h": "Fiscal link",
+    "pts": [
+     "Fiscal deficit target (4.3% of GDP in 2026-27 – PRS) and borrowings affect inflation and interest rates.",
+     "Government capex supports growth when monetary room is limited."
+    ]
+   }
+  ],
+  "conclusion": "Inflation targeting has given credibility, but price stability also needs supply-side reforms by the government. When RBI, the Finance Ministry and States act together, savers and borrowers are protected.",
+  "style": "appsc",
+  "updates": [
+   "Latest RBI MPC decision, repo rate and stance",
+   "Current CPI inflation and GDP growth numbers",
+   "Review of the inflation-targeting framework and target band due in 2026"
+  ]
+ },
+ {
+  "id": "m-p3-07",
+  "paper": 3,
+  "code": "4.1",
+  "theme": "Parliament: structure and functioning",
+  "dim": "issues",
+  "question": "Disruptions and shrinking committee scrutiny have weakened Parliament's law-making function. Discuss the reasons and the reforms needed to improve its effectiveness.",
+  "why": "Parliament is the most repeated Paper III theme (11 questions). Functioning and decline in scrutiny is the next angle after structure and privileges.",
+  "intro": "Parliament represents the people, makes laws and holds the executive to account (Articles 79–122). In recent years fewer sittings, hurried Bills and disruptions have reduced real debate.",
+  "body": [
+   {
+    "h": "Functions",
+    "pts": [
+     "Law-making, budget control, questions and motions, committees, constitutional amendments.",
+     "Oversight of the executive through Question Hour, Zero Hour, no-confidence motion and committees."
+    ]
+   },
+   {
+    "h": "Issues",
+    "pts": [
+     "Fewer sitting days; Bills passed with little debate or committee referral.",
+     "Frequent adjournments waste time and money.",
+     "Money Bill route used to bypass Rajya Sabha; heavy use of ordinances.",
+     "Anti-defection law (10th Schedule) limits free voting.",
+     "Criminalisation of politics; low attendance.",
+     "Private members' business and discussion on key policy are rarely taken up.",
+     "Walkouts and suspensions of MPs weaken the opposition voice.",
+     "Delay in electing the Deputy Speaker."
+    ]
+   },
+   {
+    "h": "Reasons",
+    "pts": [
+     "Political confrontation, weak conventions, little penalty for disruption.",
+     "Executive dominance of the agenda."
+    ]
+   },
+   {
+    "h": "Reforms",
+    "pts": [
+     "Minimum sitting days; compulsory committee referral of major Bills.",
+     "Stronger standing committees and budget scrutiny.",
+     "Rules to punish repeated disruption; live and digital tools.",
+     "Neutral Speaker and Chair conventions.",
+     "Digital Sansad – e-voting and live data on attendance and productivity.",
+     "Code of conduct with an Ethics Committee for MPs.",
+     "Review of anti-defection law and the use of ordinances."
+    ]
+   },
+   {
+    "h": "Impact",
+    "pts": [
+     "Poorly debated laws face court challenges; citizens lose chance to be heard. Ex: farm laws 2020."
+    ]
+   }
+  ],
+  "conclusion": "A deliberative Parliament makes better laws and wins public trust. Led by the Speaker and Chairman with the Ministry of Parliamentary Affairs, procedure reform will protect debate and the citizen's right to be represented.",
+  "style": "appsc",
+  "updates": [
+   "Sitting days and productivity data for the latest session (PRS)",
+   "Recent Bills passed with or without committee scrutiny",
+   "Any new Rajya Sabha or Lok Sabha reform or presiding-officer issue"
+  ]
+ },
+ {
+  "id": "m-p2-06",
+  "paper": 2,
+  "code": "7.3",
+  "theme": "Kakatiyas, Reddis, Gajapatis and Vijayanagara — art and architecture",
+  "dim": "concept",
+  "question": "Discuss the main features of the art and architecture of the Kakatiyas and the Vijayanagara rulers, citing important monuments.",
+  "why": "Fine arts and architecture of the medieval Andhra dynasties are a Very high theme (10 questions). Comparing two dynasties is a likely variant.",
+  "intro": "Medieval Andhra saw two great traditions of temple art: the Kakatiya style of the Telangana plateau (12th–14th century) and the Vijayanagara style (14th–16th century) that spread across the Telugu country and the South.",
+  "body": [
+   {
+    "h": "Kakatiya",
+    "pts": [
+     "Star-shaped (stellate) platforms and light porous bricks (floating bricks).",
+     "Fine carving in polished black basalt; elegant bracket figures.",
+     "Ramappa temple, Palampet – a UNESCO World Heritage Site (2021).",
+     "Thousand Pillar Temple, Hanamkonda; Warangal Fort with kirti toranas.",
+     "Tanks – Ramappa, Pakhal, Laknavaram.",
+     "Rudramadevi and Ganapati Deva promoted temples, tanks and forts; Telugu inscriptions and Shaiva schools."
+    ]
+   },
+   {
+    "h": "Vijayanagara",
+    "pts": [
+     "Tall gopurams, kalyana mandapas, pillared halls with sculpture.",
+     "Virupaksha and Vittala temples (stone chariot), Hampi.",
+     "In Andhra – Lepakshi (Veerabhadra temple, hanging pillar, murals), Tirupati, Srisailam, Ahobilam, Tadipatri, Penugonda.",
+     "Patronage of music, dance and painting.",
+     "Krishnadevaraya added Raya gopurams and temple halls (Tirupati, Srikalahasti); Lepakshi paintings; Vijayanagara bronzes."
+    ]
+   },
+   {
+    "h": "Comparison",
+    "pts": [
+     "Kakatiya work is compact and finely carved; Vijayanagara work is monumental with large enclosures.",
+     "Both used temples as centres of learning, art and irrigation works."
+    ]
+   },
+   {
+    "h": "Legacy",
+    "pts": [
+     "Models for later temple towns; heritage tourism; protected by ASI and the AP Archaeology Department."
+    ]
+   },
+   {
+    "h": "Reddis, Gajapatis and Qutb Shahis",
+    "pts": [
+     "Reddis – Srisailam steps and Kondaveedu; Gajapatis – Simhachalam and Srikurmam; Qutb Shahis – Golconda and Charminar (Indo-Persian style)."
+    ]
+   },
+   {
+    "h": "Significance",
+    "pts": [
+     "Temple towns drove trade, craft guilds and festivals; sculptors passed skills to later schools."
+    ]
+   }
+  ],
+  "conclusion": "Kakatiya art perfected stone craft and engineering, while Vijayanagara art gave South India its monumental temple towns. Protecting these monuments, with community and ASI support, preserves our shared cultural heritage.",
+  "style": "appsc"
+ },
+ {
+  "id": "m-p5-03",
+  "paper": 5,
+  "code": "8.1",
+  "theme": "Human diseases and infections",
+  "dim": "policy",
+  "question": "Antimicrobial resistance is called a silent pandemic. Explain how it arises and discuss the policy measures needed to contain it in India.",
+  "why": "Infectious diseases were asked 23 times, mostly as description and prevention. The policy angle (AMR, One Health, surveillance) is new.",
+  "intro": "Antimicrobial resistance (AMR) is when bacteria, viruses, fungi and parasites stop responding to medicines. India is a large antibiotic consumer, and misuse in humans, animals and farms speeds up resistance.",
+  "body": [
+   {
+    "h": "How it arises",
+    "pts": [
+     "Over-the-counter and incomplete antibiotic courses; self-medication.",
+     "Antibiotics in poultry, dairy and aquaculture as growth promoters.",
+     "Drug-factory effluent and hospital waste reach water bodies.",
+     "Poor infection control and sanitation spread resistant germs.",
+     "Gene transfer between bacteria.",
+     "Free sale of antibiotics online; weak drug-quality control."
+    ]
+   },
+   {
+    "h": "Effects",
+    "pts": [
+     "Longer illness, higher cost, more deaths; common infections like TB and typhoid become hard to treat.",
+     "Surgery and cancer care become risky.",
+     "Loss of work and trade barriers in food exports.",
+     "India's neonatal sepsis deaths linked to resistant bugs; TB drug resistance (MDR-TB) adds to the burden."
+    ]
+   },
+   {
+    "h": "Policy response",
+    "pts": [
+     "National Action Plan on AMR (2017) and One Health approach.",
+     "Schedule H1 and curbs on fixed-dose combinations; colistin banned in animals.",
+     "ICMR AMR surveillance network; hospital antibiotic stewardship.",
+     "Vaccination, clean water and rapid diagnostics.",
+     "Incentives for new antibiotics and phage therapy; WHO Global Action Plan.",
+     "Kerala's KARSAP – the first state action plan; AP can follow with district stewardship teams.",
+     "Doctors' training and pharmacist awareness; label rules for antibiotics.",
+     "Environmental limits on pharma effluent."
+    ]
+   },
+   {
+    "h": "Way forward",
+    "pts": [
+     "Strict prescription rules; farm antibiotic limits; public awareness; research funding.",
+     "Rapid tests so that doctors prescribe the right drug the first time.",
+     "Hospital infection-control audits.",
+     "Regional and global cooperation on data and research."
+    ]
+   }
+  ],
+  "conclusion": "AMR can undo decades of progress against infection. Led by the Health Ministry with Animal Husbandry and Environment, a One Health approach protects every citizen's right to effective treatment.",
+  "style": "appsc",
+  "updates": [
+   "Status of India's National Action Plan on AMR 2.0",
+   "Latest ICMR AMR surveillance report",
+   "Any new antibiotic approvals or national diagnostic schemes"
+  ]
+ },
+ {
+  "id": "m-p4-02",
+  "paper": 4,
+  "code": "10.1",
+  "theme": "Incentives to industries",
+  "dim": "issues",
+  "question": "Andhra Pradesh has announced new industrial and MSME policies to attract investment. Evaluate the effectiveness of industrial incentives and suggest what is needed beyond subsidies.",
+  "why": "Industry incentives were asked 8 times and are rising in 2025. Effectiveness and non-fiscal drivers are the new dimension.",
+  "intro": "Andhra Pradesh offers capital subsidy, power and SGST reimbursement, land and single-window clearance to attract industry. Experience shows that incentives alone seldom decide where firms locate.",
+  "body": [
+   {
+    "h": "Incentive tools",
+    "pts": [
+     "Fiscal – capital subsidy, interest subvention, SGST reimbursement, stamp-duty waiver.",
+     "Non-fiscal – APIIC parks, single-desk approvals, cheap land.",
+     "Corridors – Visakhapatnam–Chennai Industrial Corridor; Kakinada–Machilipatnam belt.",
+     "Sector policies – electronics, food processing, textiles, pharma, renewable energy, green hydrogen.",
+     "Power cost relief and capital subsidy for MSMEs; one-district-one-product push."
+    ]
+   },
+   {
+    "h": "Effectiveness",
+    "pts": [
+     "Revenue loss and delayed reimbursements reduce investor trust.",
+     "Benefits go mostly to big firms; few jobs per rupee of subsidy.",
+     "Coastal districts gain more than Rayalaseema and North Andhra.",
+     "Incentive schemes keep changing with governments, so investors hesitate.",
+     "Some projects close after incentives end."
+    ]
+   },
+   {
+    "h": "Beyond subsidies",
+    "pts": [
+     "Reliable power, water, ports and roads.",
+     "Skilled workers – ITIs and industry training.",
+     "Stable policy; quick approvals; timely payments.",
+     "MSME credit and cluster development.",
+     "Export facilitation through Visakhapatnam and Krishnapatnam ports.",
+     "Ease of doing business – online, time-bound approvals.",
+     "Land banks with clear titles; water and power connections ready.",
+     "Logistics – the Visakhapatnam–Chennai corridor, rail and highway links.",
+     "Export hubs and testing labs for MSMEs."
+    ]
+   },
+   {
+    "h": "Evaluation tools",
+    "pts": [
+     "Job-linked subsidies; audit of outcomes; regular public reports."
+    ]
+   }
+  ],
+  "conclusion": "Investors come for certainty and infrastructure more than for concessions. Led by the Industries Department and APIIC, reliable services and skills will cut the cost of incentives and create jobs for citizens.",
+  "style": "appsc",
+  "updates": [
+   "Current AP Industrial Development Policy and MSME policies",
+   "Recent MoUs and the central PLI schemes active in AP",
+   "Visakhapatnam–Chennai Corridor and node progress"
+  ]
+ },
+ {
+  "id": "m-p5-01",
+  "paper": 5,
+  "code": "4.2",
+  "theme": "Conventional and non-conventional energy",
+  "dim": "measures",
+  "question": "India's installed non-fossil capacity is growing fast, yet the grid is struggling to absorb it. Examine the challenges of integrating renewable energy and suggest measures to make the transition reliable and just.",
+  "why": "Energy is asked in every sitting since 2008 (24 questions). Grid integration, storage and just transition are not yet asked.",
+  "intro": "India aims at 500 GW of non-fossil capacity by 2030 and net zero by 2070. Solar and wind vary with weather, so a fast rise in their share stresses a grid designed for steady coal power.",
+  "body": [
+   {
+    "h": "Challenges",
+    "pts": [
+     "Variability – solar peaks at noon, demand peaks in the evening.",
+     "Transmission gaps – best sites are far from cities. Ex: Anantapur–Kurnool solar parks.",
+     "Weak distribution companies; delayed payments to generators.",
+     "Little storage; import dependence for panels and batteries.",
+     "Land, water and community concerns around large parks.",
+     "Curtailment – power wasted when the grid cannot take solar or wind.",
+     "Land acquisition delays and local protests."
+    ]
+   },
+   {
+    "h": "Measures",
+    "pts": [
+     "Storage – pumped hydro and batteries with viability support.",
+     "Green Energy Corridors; inter-state transmission waivers.",
+     "Time-of-day tariffs, real-time markets, demand response.",
+     "PLI scheme for solar modules and batteries.",
+     "Rooftop and farm solar – PM Surya Ghar, PM-KUSUM.",
+     "Hybrid projects – solar with wind or storage; floating solar on reservoirs.",
+     "Smart grids and grid-scale forecasting of solar and wind output.",
+     "Green hydrogen and ammonia as storage and fuel for industry.",
+     "Open access for consumers to buy green power."
+    ]
+   },
+   {
+    "h": "Just transition",
+    "pts": [
+     "Re-skill coal-region workers; District Mineral Foundation funds; protect land owners.",
+     "Coal mine land can host solar and training centres."
+    ]
+   },
+   {
+    "h": "Andhra Pradesh",
+    "pts": [
+     "Large solar and wind capacity; pumped-storage and green-hydrogen plans; port access.",
+     "Floating solar and pumped storage at hydro reservoirs; rooftop solar for households and farms."
+    ]
+   }
+  ],
+  "conclusion": "A reliable transition needs wires, storage and healthy discoms to grow along with capacity. Led by MNRE and the Power Ministry with State utilities, a fair transition protects consumers' right to reliable and affordable power.",
+  "style": "appsc",
+  "updates": [
+   "Latest non-fossil capacity figure and share in the mix (MNRE / CEA)",
+   "Status of battery-storage and pumped-storage tenders",
+   "PM Surya Ghar and PM-KUSUM progress; AP's latest renewable and green-hydrogen policy"
+  ]
+ }
+]
