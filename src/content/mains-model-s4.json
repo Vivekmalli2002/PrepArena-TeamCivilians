@@ -1,0 +1,1007 @@
+[
+ {
+  "id": "m-p4-10",
+  "paper": 4,
+  "code": "4.1",
+  "theme": "Government budgeting: structure, deficits and current year's Union Budget",
+  "dim": "concept",
+  "question": "Explain the structure of the Union Budget and the different types of deficits. Analyse the major highlights of the Union Budget 2026-27 in the light of fiscal consolidation.",
+  "why": "The 2026 syllabus lists 'Highlights of current year's Union Budget and its analysis' and 'types of deficits, their impact and management'. Both are certain to be tested in some form.",
+  "intro": "The Union Budget is the annual financial statement under Article 112. Budget 2026-27, presented on 1 February 2026, continues fiscal consolidation while raising capital spending.",
+  "body": [
+   {
+    "h": "Structure",
+    "pts": [
+     "Revenue account – revenue receipts (tax and non-tax) and revenue expenditure.",
+     "Capital account – borrowings, recoveries, disinvestment and capital expenditure.",
+     "Consolidated Fund, Contingency Fund and Public Account of India."
+    ]
+   },
+   {
+    "h": "Types of deficit",
+    "pts": [
+     "Revenue deficit = revenue expenditure minus revenue receipts.",
+     "Fiscal deficit = total expenditure minus total receipts excluding borrowings.",
+     "Primary deficit = fiscal deficit minus interest payments.",
+     "Ex: High deficits crowd out private investment and raise debt service."
+    ]
+   },
+   {
+    "h": "Budget 2026-27 highlights",
+    "pts": [
+     "Total expenditure about Rs 53.47 lakh crore, up 7.7% over 2025-26 revised estimate.",
+     "Fiscal deficit target 4.3% of GDP (4.4% in 2025-26 revised); revenue deficit 1.5% of GDP.",
+     "Debt-to-GDP anchor of about 50% by March 2031.",
+     "Capital expenditure about Rs 12.2 lakh crore, up 11.5%.",
+     "Interest payments about 26% of expenditure; disinvestment target Rs 80,000 crore.",
+     "Transfers to States about Rs 26.2 lakh crore, tax devolution about Rs 15.26 lakh crore.",
+     "No change in income-tax slabs.",
+     "Ex: SME Growth Fund Rs 10,000 crore; Biopharma SHAKTI Rs 10,000 crore; rare-earth corridors including Andhra Pradesh."
+    ]
+   },
+   {
+    "h": "Analysis",
+    "pts": [
+     "Positive: capex push, debt anchor, credibility with markets.",
+     "Concerns: interest burden, reliance on disinvestment, revenue deficit remains, tax buoyancy.",
+     "Ex: FRBM Act 2003 sets the glide path; N.K. Singh Committee recommended debt targets."
+    ]
+   },
+   {
+    "h": "Way forward",
+    "pts": [
+     "Improve tax-GDP ratio, outcome budgeting, subsidy rationalisation and quality of spending."
+    ]
+   }
+  ],
+  "conclusion": "The budget balances growth through capex with a firm fiscal glide path. The Ministry of Finance should publish deficits transparently and protect social spending, so citizens have a stable economy and fair public services.",
+  "updates": [
+   "Compare these figures with the Economic Survey 2025-26 once uploaded",
+   "Check the Finance Act 2026 final provisions"
+  ],
+  "src": "PRS Union Budget Analysis 2026-27 (supplied by the user)",
+  "style": "appsc"
+ },
+ {
+  "id": "m-p4-11",
+  "paper": 4,
+  "code": "5.1",
+  "theme": "Government budgeting in Andhra Pradesh",
+  "dim": "issues",
+  "question": "Analyse the Andhra Pradesh Budget 2025-26 with reference to fiscal deficit, revenue deficit and the constraints on the state's finances after bifurcation.",
+  "why": "Syllabus item 5 explicitly lists 'budget constraints, central assistance and issues of conflict after bifurcation, management of deficits, highlights and analysis of current year's budget, State Finance Commission and local finance'.",
+  "intro": "Andhra Pradesh presented its 2025-26 budget on 28 February 2025, with GSDP projected at about Rs 18.3 lakh crore, up 14% over the revised estimate of 2024-25.",
+  "body": [
+   {
+    "h": "Key numbers (2025-26 BE)",
+    "pts": [
+     "Expenditure (excluding debt repayment) about Rs 2.98 lakh crore, up 19%.",
+     "Receipts excluding borrowings about Rs 2.18 lakh crore, up 24%.",
+     "Fiscal deficit 4.4% of GSDP (about Rs 79,927 crore), down from 4.6%.",
+     "Revenue deficit 1.8% of GSDP (Rs 33,186 crore) against 3.0% in 2024-25.",
+     "Debt repayment Rs 24,430 crore; central 50-year interest-free capex loans about Rs 10,200 crore."
+    ]
+   },
+   {
+    "h": "Policy highlights",
+    "pts": [
+     "Ex: Talliki Vandanam – Rs 15,000 per year for each school-going child, Class 1–12.",
+     "Free electricity to government schools; fishing-ban relief raised from Rs 10,000 to Rs 20,000.",
+     "Innovation hub at Amaravati."
+    ]
+   },
+   {
+    "h": "Constraints after bifurcation",
+    "pts": [
+     "Loss of Hyderabad's revenue base; liabilities inherited.",
+     "Committed expenditure on salaries, pensions and interest.",
+     "Underspending when revenue fell short – net receipts about 12% below budget in 2024-25.",
+     "Dependence on central devolution and grants.",
+     "Pending Reorganisation Act items – Polavaram, Amaravati and backward districts.",
+     "High borrowings and guarantees."
+    ]
+   },
+   {
+    "h": "Way forward",
+    "pts": [
+     "Improve own tax revenue, rationalise subsidies, shift to capital spending.",
+     "Stay within FRBM limits, use DBT and outcome budgets.",
+     "Seek central support through 16th Finance Commission.",
+     "Ex: Asset monetisation and PPP for infrastructure."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: Free bus travel for women and Annadata Sukhibhava as welfare commitments raise future spending.",
+     "Ex: Large capital needs of Polavaram and Amaravati rely on central support.",
+     "Dimensions: revenue, expenditure, debt, central transfers and welfare."
+    ]
+   }
+  ],
+  "conclusion": "The 2025-26 budget shows falling deficits, but it relies on ambitious receipts. The State Finance Department should raise own revenue and spend prudently, so that citizens get welfare without a debt burden on the next generation.",
+  "updates": [
+   "Check the Andhra Pradesh Budget 2026-27 figures and compare with 2025-26 once available"
+  ],
+  "src": "PRS Andhra Pradesh Budget Analysis 2025-26 (supplied by the user)",
+  "style": "appsc"
+ },
+ {
+  "id": "m-p4-12",
+  "paper": 4,
+  "code": "7.4",
+  "theme": "Agricultural development: MSP, Swaminathan Commission, Green Revolution",
+  "dim": "mechanism",
+  "question": "Examine the role of minimum support prices in Indian agriculture. What were the main recommendations of the Swaminathan Commission and how far have they been implemented?",
+  "why": "Agriculture development (7.x) is a syllabus block asked 6–7 times; MSP, Swaminathan Commission and Green Revolution are named syllabus items and are factual and stable.",
+  "intro": "The Minimum Support Price (MSP) is the price at which the government buys crops, announced by the Union Cabinet on the CACP's recommendation. It protects farmers from price falls and supports food security.",
+  "body": [
+   {
+    "h": "Role of MSP",
+    "pts": [
+     "Price floor and income support for farmers; announced for 22 crops and FRP for sugarcane.",
+     "Ex: Procurement of wheat and paddy through FCI feeds the PDS.",
+     "Signals for cropping patterns and stocks of food grains.",
+     "Covers cost A2+FL plus 50% since 2018-19 budget."
+    ]
+   },
+   {
+    "h": "Swaminathan Commission (National Commission on Farmers, 2004–06)",
+    "pts": [
+     "MSP at least 50% above the weighted average cost of production (C2).",
+     "Land reforms, irrigation, credit and insurance, market access.",
+     "Ex: Expand MSP beyond wheat and rice; set up a Farmers' Commission.",
+     "Ex: Farmers' Welfare Fund and a National Land Use Advisory Service."
+    ]
+   },
+   {
+    "h": "Status",
+    "pts": [
+     "Government uses A2+FL plus 50%, not C2.",
+     "Procurement concentrated in Punjab, Haryana, Andhra Pradesh and Telangana; regional and crop bias.",
+     "Ex: Farmers' protests 2020–21 demanded a legal guarantee."
+    ]
+   },
+   {
+    "h": "Issues",
+    "pts": [
+     "Fiscal cost, market distortion, water-intensive crops, poor coverage of pulses and oilseeds, middlemen.",
+     "Ex: Price Deficiency Payment scheme in Madhya Pradesh (Bhavantar) and PM-AASHA."
+    ]
+   },
+   {
+    "h": "Way forward",
+    "pts": [
+     "Direct benefit transfer, e-NAM, diversification, FPOs, income support (PM-KISAN) and crop insurance."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: MSP is fixed after CACP considers cost, demand-supply, market trends and effect on consumers.",
+     "Ex: Rice and wheat get about 90% of procurement; pulses under PM-AASHA; cotton by CCI.",
+     "Ex: Telangana and Andhra Pradesh procure paddy through Civil Supplies."
+    ]
+   }
+  ],
+  "conclusion": "MSP gives farmers security but needs reform to avoid distortions. The Ministry of Agriculture and CACP should widen coverage with market reforms and income support, so that farmers earn a fair price for their produce.",
+  "updates": [],
+  "style": "appsc"
+ },
+ {
+  "id": "m-p4-13",
+  "paper": 4,
+  "code": "9.2",
+  "theme": "Industrial policy 1991, MSMEs and Make in India",
+  "dim": "impact",
+  "question": "Discuss the Industrial Policy of 1991 and its impact on Indian industry. How have MSME policy and Make in India tried to address the problems of industrial sickness and low manufacturing share?",
+  "why": "Industrial development (9.x) and MSME problems are named in the syllabus; Make in India, startups, SEZs and NIMZs come as a bundle.",
+  "intro": "The New Industrial Policy 1991 ended the licence-permit raj through liberalisation, privatisation and globalisation. It opened Indian industry to competition and investment.",
+  "body": [
+   {
+    "h": "Key reforms (1991)",
+    "pts": [
+     "Abolished industrial licensing except for a few sectors.",
+     "Reduced public sector reservation to a few areas.",
+     "Liberalised FDI and technology imports; MRTP limits removed.",
+     "Ex: FERA replaced by FEMA 1999; tariffs lowered."
+    ]
+   },
+   {
+    "h": "Impact",
+    "pts": [
+     "Higher growth, rise of services, IT, pharma and auto.",
+     "Exports and FDI inflow rose.",
+     "Concerns: jobless growth, regional imbalance, MSME stress, deindustrialisation fears."
+    ]
+   },
+   {
+    "h": "MSME policy",
+    "pts": [
+     "Ex: MSMED Act 2006; new classification (turnover and investment) 2020.",
+     "Ex: Udyam registration, Credit Guarantee Scheme, MUDRA, Stand-up India, PMEGP.",
+     "Ex: Emergency Credit Line during Covid; 45-day payment rule under Section 43B(h)."
+    ]
+   },
+   {
+    "h": "Make in India (2014)",
+    "pts": [
+     "25 sectors; ease of doing business; FDI liberalisation.",
+     "Ex: PLI schemes for electronics, pharma, textiles, automobiles.",
+     "Ex: National Manufacturing target of 25% of GDP, jobs creation."
+    ]
+   },
+   {
+    "h": "Challenges",
+    "pts": [
+     "Land, labour, logistics, power cost; technology gap; weak R&D; informality."
+    ]
+   },
+   {
+    "h": "Way forward",
+    "pts": [
+     "Cluster development, skill training, GST simplification, credit to small units, labour code implementation."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: Disinvestment and PSU reform (Maharatna, Navratna) were part of 1991.",
+     "Ex: MSMEs form about 30% of GDP and 45% of exports; employ over 11 crore.",
+     "Ex: Start-up India, ODOP and industrial parks assist small firms."
+    ]
+   },
+   {
+    "h": "Extra",
+    "pts": [
+     "Ex: Land, labour and capital reforms remain incomplete.",
+     "Ex: Pharma and IT grew strongly after 1991, Telugu States gained from software and pharma clusters."
+    ]
+   }
+  ],
+  "conclusion": "1991 reforms opened the economy, and MSME and Make in India aim to build manufacturing depth. The Ministry of Commerce and Industry and MSME Ministry should simplify compliance and finance, so that citizens get jobs and quality goods.",
+  "updates": [],
+  "style": "appsc"
+ },
+ {
+  "id": "m-p4-14",
+  "paper": 4,
+  "code": "2.3",
+  "theme": "Resource mobilisation: tax and non-tax revenue, GST and finance commission",
+  "dim": "issues",
+  "question": "Discuss the issues in the working of GST and the recommendations of the latest Finance Commission on the devolution of resources between the Union and the States.",
+  "why": "Resource mobilisation (2.x) and federal finance (4) are heavily represented; GST and Finance Commission are named in the syllabus and tie in with Andhra Pradesh's fiscal concerns.",
+  "intro": "The Goods and Services Tax (101st Amendment, 2017) is a unified indirect tax managed by the GST Council. Finance Commissions under Article 280 recommend the distribution of Union taxes to States.",
+  "body": [
+   {
+    "h": "GST – achievements",
+    "pts": [
+     "One nation one tax; input tax credit; reduced cascading; wider tax base.",
+     "GST Council – a model of cooperative federalism.",
+     "Ex: Monthly collections have crossed Rs 1.7 lakh crore at times."
+    ]
+   },
+   {
+    "h": "Issues",
+    "pts": [
+     "Multiple rate slabs (simplified in 2025).",
+     "Compensation cess ended 2022 – loss of States' fiscal autonomy.",
+     "Petroleum and alcohol outside GST.",
+     "Disputes on IGST, refunds and compliance burden for MSMEs.",
+     "No GST Appellate Tribunal until recently."
+    ]
+   },
+   {
+    "h": "Finance Commission devolution",
+    "pts": [
+     "15th FC: States' share 41% of divisible pool (2021–26).",
+     "Formula: income distance, population (1971 and 2011), area, forest cover, demographic performance, tax effort.",
+     "16th FC (2026–31) recommendations – refer to the report for revised share and criteria.",
+     "Ex: Cess and surcharges outside the divisible pool concern States."
+    ]
+   },
+   {
+    "h": "Way forward",
+    "pts": [
+     "Predictable transfers, limit cesses, fair formula, GST tribunal, State Finance Commissions to strengthen local body finances.",
+     "Ex: Fiscal Responsibility and borrowing norms for States need review."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: Rate structure simplified to 5% and 18% with a special 40% rate for sin goods (2025).",
+     "Ex: Cash-flow problems after cess end for States like Andhra Pradesh and Kerala.",
+     "Ex: Local bodies' share is also fixed in Finance Commission grants."
+    ]
+   }
+  ],
+  "conclusion": "GST and Finance Commissions shape the fiscal balance of the federation. The GST Council and the Ministry of Finance should share resources fairly and settle disputes quickly, so that citizens get uniform public services across States.",
+  "updates": [
+   "Read the 16th Finance Commission report and the current GST rate structure"
+  ],
+  "style": "appsc"
+ },
+ {
+  "id": "m-p4-15",
+  "paper": 4,
+  "code": "6.5",
+  "theme": "Food security and Public Distribution System",
+  "dim": "measures",
+  "question": "Evaluate the working of the Public Distribution System in India and Andhra Pradesh under the National Food Security Act and suggest reforms.",
+  "why": "Food security and PDS are named in the syllabus twice (all-India and AP's PDS and DWCRA). Reforms and leakage are classic points.",
+  "intro": "The Public Distribution System (PDS) provides subsidised food grains through fair price shops. The National Food Security Act 2013 made it a legal right for about two-thirds of the population.",
+  "body": [
+   {
+    "h": "Features of NFSA",
+    "pts": [
+     "5 kg per person per month at Rs 1/2/3 earlier; now free grains under PMGKAY to priority and AAY households.",
+     "Antyodaya households get 35 kg per family per month.",
+     "Ex: Maternity benefit, midday meals and ICDS; women head the household for ration card."
+    ]
+   },
+   {
+    "h": "Andhra Pradesh",
+    "pts": [
+     "Rice distribution through fair price shops; mobile dispensing units (MDU) at doorstep.",
+     "Ex: Aadhaar-seeded ration cards, ePoS devices, One Nation One Ration Card portability."
+    ]
+   },
+   {
+    "h": "Problems",
+    "pts": [
+     "Leakages and diversion, ghost cards, inclusion and exclusion errors.",
+     "Poor quality of grain; cash-strapped fair price shop dealers; storage losses.",
+     "Ex: Shanta Kumar Committee found large leakages in FCI."
+    ]
+   },
+   {
+    "h": "Reforms",
+    "pts": [
+     "Digitisation of ration cards, Aadhaar linkage, DBT trials, grievance redress, social audit.",
+     "Ex: Chhattisgarh model of PDS reform, Odisha's decentralised procurement.",
+     "Fortification of rice and diversification to millets and pulses."
+    ]
+   },
+   {
+    "h": "Way forward",
+    "pts": [
+     "Strengthen FCI storage, transparency portals, vigilance committees, nutrition security."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: Targeted PDS (1997), Antyodaya Anna Yojana (2000), NFSA (2013), PMGKAY (2020 onwards).",
+     "Ex: 80 crore beneficiaries are covered with free grain.",
+     "Ex: Fair price shops now also sell millets, pulses and other items in some States.",
+     "Ex: Public Distribution (Control) Order and Essential Commodities Act for stock limits."
+    ]
+   }
+  ],
+  "conclusion": "The PDS is the backbone of food security. The Department of Food and Public Distribution and the State Civil Supplies Department should plug leakages through technology and social audit, so that citizens get their right to food with dignity.",
+  "updates": [],
+  "style": "appsc"
+ },
+ {
+  "id": "m-p4-16",
+  "paper": 4,
+  "code": "1.1",
+  "theme": "Major challenges of the Indian economy",
+  "dim": "mechanism",
+  "question": "Explain the causes and consequences of the current account deficit and a falling rupee. Suggest measures to correct an unfavourable balance of payments.",
+  "why": "Major challenges (inflation, CAD, BoP, falling rupee, NPAs, black money) are listed together in the first Paper IV syllabus item; each is a factual, repeatable question.",
+  "intro": "The current account deficit (CAD) arises when imports of goods, services and transfers exceed exports. A falling rupee reflects weak external balances, capital outflows or a strong dollar.",
+  "body": [
+   {
+    "h": "Causes of CAD",
+    "pts": [
+     "Trade deficit due to oil, gold and electronics imports.",
+     "Slow exports in global slowdowns.",
+     "Weak remittances or services surplus shortfalls.",
+     "Ex: CAD in India was under 2% of GDP in recent years; exceeded 4% in 2012–13."
+    ]
+   },
+   {
+    "h": "Causes of falling rupee",
+    "pts": [
+     "Dollar strength, interest rate hikes by the US Federal Reserve.",
+     "FPI outflows, high crude oil prices.",
+     "Inflation differential and fiscal deficit.",
+     "Ex: Rupee fell sharply in 2013 'taper tantrum' and in 2022."
+    ]
+   },
+   {
+    "h": "Consequences",
+    "pts": [
+     "Imported inflation; higher cost of oil and fertilisers.",
+     "External debt servicing burden rises; confidence of investors falls.",
+     "Positive: exporters gain, remittances value up."
+    ]
+   },
+   {
+    "h": "Measures",
+    "pts": [
+     "Boost exports – PLI, export hubs, trade agreements.",
+     "Cut oil and gold imports – renewable energy, electric vehicles, Sovereign Gold Bonds.",
+     "Attract FDI and stable capital; rupee trade settlement.",
+     "RBI intervention in foreign exchange market; forex reserves.",
+     "Ex: Make in India and rupee settlement mechanism with partner countries."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: Current account = trade balance + net services + net income + transfers.",
+     "Ex: IT services exports and remittances (about 120 billion dollars) partly offset the goods deficit.",
+     "Ex: Foreign exchange reserves above 600 billion dollars give a cushion."
+    ]
+   }
+  ],
+  "conclusion": "A manageable CAD with strong reserves is not a crisis, but sustained vigilance is essential. The Ministry of Finance and RBI should promote exports and stable capital inflows, so that citizens are protected from imported inflation.",
+  "updates": [],
+  "style": "appsc"
+ },
+ {
+  "id": "m-p4-17",
+  "paper": 4,
+  "code": "2.3",
+  "theme": "Public debt, FDI/FII and external resources",
+  "dim": "concept",
+  "question": "Distinguish between FDI and FII. Discuss the desirability and consequences of utilising different sources of external finance for India's development.",
+  "why": "The syllabus lists sources of resources: public debt, external debt from multilateral agencies, FII and FDI with 'desirability and consequences' — a direct question pattern.",
+  "intro": "Foreign Direct Investment (FDI) is long-term investment with control in an enterprise, while Foreign Institutional Investment (FII, now FPI) is portfolio investment in shares and bonds.",
+  "body": [
+   {
+    "h": "Distinction",
+    "pts": [
+     "FDI – 10% or more stake, lasting interest, brings technology and management.",
+     "FII/FPI – less than 10%, short-term and volatile, 'hot money'.",
+     "Ex: Toyota plant in Karnataka (FDI); funds buying shares in NSE (FPI)."
+    ]
+   },
+   {
+    "h": "Sources of external finance",
+    "pts": [
+     "External commercial borrowings (ECB), NRI deposits, loans from World Bank, ADB and AIIB.",
+     "Remittances and foreign aid."
+    ]
+   },
+   {
+    "h": "Desirability",
+    "pts": [
+     "FDI creates jobs and technology, stable, helps exports.",
+     "FPI deepens markets but can reverse suddenly – 2013 taper tantrum.",
+     "ECBs risk currency mismatch."
+    ]
+   },
+   {
+    "h": "Consequences",
+    "pts": [
+     "Dependence on foreign capital, repatriation of profits, impact on domestic firms.",
+     "Positive: investment gap bridged, forex reserves rise.",
+     "Ex: Foreign investors in retail and insurance with caps; FDI in defence and space liberalised."
+    ]
+   },
+   {
+    "h": "Way forward",
+    "pts": [
+     "Encourage FDI over FPI; prudential limits on ECB; stable policy; ease of doing business.",
+     "Ex: Foreign Exchange Management Act (FEMA) and automatic route for most sectors."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: 100% FDI is allowed in most manufacturing; caps in defence and insurance were raised in stages.",
+     "Ex: SEBI regulates FPIs; limit of 10% per investor in a company.",
+     "Ex: Foreign aid and ECBs for projects like the Mumbai–Ahmedabad bullet train (Japan loan)."
+    ]
+   },
+   {
+    "h": "Extra",
+    "pts": [
+     "Ex: Sudden FPI exit can crash the rupee and markets.",
+     "Ex: Make in India depends on FDI for scale and technology."
+    ]
+   }
+  ],
+  "conclusion": "FDI is preferable for stable development, while portfolio and debt flows need prudent limits. The Ministry of Commerce and RBI should keep policy predictable, so that investment boosts jobs for citizens.",
+  "updates": [],
+  "style": "appsc"
+ },
+ {
+  "id": "m-p4-18",
+  "paper": 4,
+  "code": "8.2",
+  "theme": "Agriculture in Andhra Pradesh: cropping pattern, horticulture, fisheries and dairying",
+  "dim": "impact",
+  "question": "Discuss the changing cropping pattern in Andhra Pradesh and the role of horticulture, fisheries and dairying in diversifying the agricultural economy.",
+  "why": "AP agriculture (8.x) is a named syllabus item; changing cropping pattern, horticulture, fisheries and dairy are explicitly listed.",
+  "intro": "Andhra Pradesh's agriculture is shifting from foodgrain to commercial and allied activity. Horticulture, fisheries and dairying raise incomes and diversify risks.",
+  "body": [
+   {
+    "h": "Changing cropping pattern",
+    "pts": [
+     "Shift from paddy and cotton to aquaculture, oil palm, cocoa, banana and mango.",
+     "Ex: Groundnut in Anantapur, chillies in Guntur, tobacco in Prakasam, Sugarcane in Visakhapatnam.",
+     "Rayalaseema moving to horticulture and drip irrigation."
+    ]
+   },
+   {
+    "h": "Horticulture",
+    "pts": [
+     "Ex: Oil palm in West Godavari; mango, sweet orange, tomato and Banaganapalle mango.",
+     "Cold chains, food parks and processing."
+    ]
+   },
+   {
+    "h": "Fisheries",
+    "pts": [
+     "Leading shrimp and fish exporter; 974 km coastline; aquaculture in Godavari and Krishna deltas.",
+     "Ex: Kakinada, Machilipatnam and Nellore as hubs; Matsyakara Bharosa support."
+    ]
+   },
+   {
+    "h": "Dairying",
+    "pts": [
+     "Ex: Amul-like cooperatives, Heritage and Sangam dairy; milk production growth.",
+     "Livestock insurance and veterinary care."
+    ]
+   },
+   {
+    "h": "Issues",
+    "pts": [
+     "Climate risks, price fluctuations, disease, tenant farmers, market linkage."
+    ]
+   },
+   {
+    "h": "Way forward",
+    "pts": [
+     "Crop planning by agro-climatic zones, FPOs, e-NAM, price assurance, insurance, natural farming (APCNF)."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: Andhra Pradesh is among top States in fish and shrimp exports, mango production and chilli.",
+     "Ex: Rythu Bharosa Kendras support input supply and extension.",
+     "Ex: Cropping intensity can be raised with micro-irrigation.",
+     "Ex: Natural farming (APCNF) is promoted by Rythu Sadhikara Samstha.",
+     "Ex: Value chains – processing, branding and exports to Gulf and Southeast Asia.",
+     "Ex: Dairy employs women through milk cooperatives and SHGs."
+    ]
+   },
+   {
+    "h": "Extra",
+    "pts": [
+     "Ex: Tenant farmers need loan eligibility cards (LEC/CCRC).",
+     "Ex: Farmers should choose crops by market demand and water."
+    ]
+   }
+  ],
+  "conclusion": "Diversification can double farm income if backed by markets and processing. The State Agriculture and Fisheries Departments should invest in cold chains and FPOs, so that farmers have stable incomes and consumers have nutrition.",
+  "updates": [],
+  "style": "appsc"
+ },
+ {
+  "id": "m-p4-19",
+  "paper": 4,
+  "code": "11.1",
+  "theme": "Infrastructure: transport, energy, urban and PPP",
+  "dim": "issues",
+  "question": "Public-private partnership has been widely used for infrastructure in India. Discuss its advantages, problems and the pricing of public utilities.",
+  "why": "Infrastructure in India (item 11) lists PPP, pricing of public utilities and environmental impacts explicitly; PPP is a perennial analytic question.",
+  "intro": "Public-private partnership (PPP) combines private capital and efficiency with public responsibility in infrastructure. India has used it widely in roads, ports, airports and energy.",
+  "body": [
+   {
+    "h": "Advantages",
+    "pts": [
+     "Mobilises private finance and technology; saves public funds.",
+     "Efficiency in construction and operations; risk sharing.",
+     "Ex: Delhi and Mumbai airports, Golden Quadrilateral highways, Mundra port."
+    ]
+   },
+   {
+    "h": "Models",
+    "pts": [
+     "BOT (toll), BOT-annuity, Hybrid annuity model (HAM), DBFOT, Operation and maintenance.",
+     "Ex: Viability Gap Funding (VGF) to make projects viable."
+    ]
+   },
+   {
+    "h": "Problems",
+    "pts": [
+     "Land acquisition, delays, litigation, renegotiation of contracts.",
+     "Bank NPAs in infrastructure; weak risk allocation.",
+     "Ex: Kelkar Committee on PPP found stress in many contracts."
+    ]
+   },
+   {
+    "h": "Pricing of utilities",
+    "pts": [
+     "Tariff must balance cost recovery, affordability and efficiency.",
+     "Independent regulators – CERC, TRAI, PNGRB set tariffs.",
+     "Ex: Toll fees, power tariff, water charges; cross-subsidy and user charges."
+    ]
+   },
+   {
+    "h": "Reforms",
+    "pts": [
+     "Standard contracts, dispute resolution, PPP Appraisal Committee, India Infrastructure Finance Company, National Infrastructure Pipeline."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: PPP projects may be unsolicited, with Swiss challenge method sometimes used.",
+     "Ex: Public utility pricing should cover costs and reach the poor through lifeline tariffs.",
+     "Ex: Airport and port tariffs regulated by AERA and TAMP.",
+     "Ex: Water supply PPPs have fewer successes due to affordability issues.",
+     "Ex: Kelkar Committee (2015) guidance on PPP renegotiation."
+    ]
+   },
+   {
+    "h": "Extra",
+    "pts": [
+     "Ex: Risk allocation: demand risk with private party, land with government.",
+     "Ex: Hybrid annuity model reduced traffic risk for roads."
+    ]
+   }
+  ],
+  "conclusion": "PPP can bridge infrastructure gaps if risks are shared fairly and tariffs are transparent. The Ministry of Finance and regulators should enforce standard contracts and consumer protection, so that citizens get quality services at affordable prices.",
+  "updates": [],
+  "style": "appsc"
+ },
+ {
+  "id": "m-p4-20",
+  "paper": 4,
+  "code": "12.1",
+  "theme": "Infrastructure in Andhra Pradesh: ports, energy and ICT",
+  "dim": "measures",
+  "question": "Discuss the ongoing infrastructure projects of Andhra Pradesh in transport, energy and ICT, and the bottlenecks in their implementation.",
+  "why": "AP infrastructure (item 12) lists transport, energy, ICT, bottlenecks, policy and ongoing projects; projects can change, but the structure of the answer is stable.",
+  "intro": "Andhra Pradesh is building infrastructure in transport, energy and ICT to lift growth after bifurcation, but implementation is slowed by funds and approvals.",
+  "body": [
+   {
+    "h": "Transport",
+    "pts": [
+     "Ex: Amaravati Outer Ring Road, Visakhapatnam–Chennai Industrial Corridor, Bhogapuram airport, ports at Ramayapatnam and Machilipatnam.",
+     "Ex: Vijayawada–Visakhapatnam highways and Vijayawada metro plans.",
+     "Rail links to Amaravati and freight corridor."
+    ]
+   },
+   {
+    "h": "Energy",
+    "pts": [
+     "Ex: Solar and wind parks in Anantapur and Kurnool; Ultra Mega Solar Park at Kurnool.",
+     "Ex: Pumped storage and green hydrogen hubs.",
+     "Transmission strengthening and Discom losses."
+    ]
+   },
+   {
+    "h": "ICT",
+    "pts": [
+     "Ex: AP FiberNet, village secretariats, data centres at Visakhapatnam, IT parks at Madhurawada.",
+     "Ex: Mana Mitra WhatsApp governance."
+    ]
+   },
+   {
+    "h": "Bottlenecks",
+    "pts": [
+     "Funds and debt, land acquisition, environment clearances, central assistance for Polavaram and Amaravati.",
+     "Contract disputes, changes of policy with governments, Discom finances."
+    ]
+   },
+   {
+    "h": "Way forward",
+    "pts": [
+     "Phased priorities, PPP, central assistance, transparent tendering, project monitoring (PRAGATI-like)."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: Polavaram multipurpose project – irrigation, power and drinking water.",
+     "Ex: Industrial nodes – Orvakal, Kopparthy, Sri City, Naidupeta.",
+     "Ex: Central schemes – Bharatmala, Sagarmala, UDAN, BharatNet.",
+     "Ex: Green energy corridors, pumped storage and offshore wind.",
+     "Ex: Smart meters, power sector reforms and solar rooftop push.",
+     "Ex: Smart villages with digital libraries and FTTH."
+    ]
+   },
+   {
+    "h": "Extra",
+    "pts": [
+     "Ex: Visakhapatnam IT and data centre investments by global firms.",
+     "Ex: Land pooling for Amaravati capital region."
+    ]
+   }
+  ],
+  "conclusion": "Infrastructure is the base of the state's growth. The State Infrastructure Department should prioritise funds, clearances and monitoring, so that citizens receive connected, powered and digital services.",
+  "updates": [],
+  "style": "appsc"
+ },
+ {
+  "id": "m-p4-03",
+  "paper": 4,
+  "code": "3.1",
+  "theme": "Budgetary resources and constraints",
+  "dim": "measures",
+  "question": "Andhra Pradesh faces a high debt burden and a revenue gap after bifurcation. Analyse the state's fiscal position and suggest measures for sustainable resource mobilisation.",
+  "why": "Budgetary resources were asked 9 times across 4 sittings (2008–2017). The shift to fiscal sustainability and FRBM compliance post-2014 fits the recent AP emphasis in 2023 and 2025 papers.",
+  "intro": "After the 2014 reorganisation, Andhra Pradesh lost Hyderabad's revenue base while inheriting a large share of liabilities. High debt and committed expenditure restrict capital spending.",
+  "body": [
+   {
+    "h": "Fiscal position",
+    "pts": [
+     "Own tax revenue is a modest share of GSDP; heavy reliance on Union devolution and grants.",
+     "Rising debt and off-budget borrowings through corporations.",
+     "Committed expenditure on salaries, pensions, interest and subsidies.",
+     "Pending Reorganisation Act commitments – Polavaram, capital city, backward districts.",
+     "Ex: Special-category status demand to get higher central funding."
+    ]
+   },
+   {
+    "h": "Measures – revenue",
+    "pts": [
+     "Broaden the tax base: GST compliance, mining and excise reforms, property and professional tax.",
+     "Land value capture and asset monetisation in Amaravati.",
+     "PPP for infrastructure."
+    ]
+   },
+   {
+    "h": "Measures – expenditure",
+    "pts": [
+     "Rationalise subsidies, use DBT and outcome budgeting.",
+     "Stay within FRBM limits; reduce guarantees and off-budget borrowings.",
+     "Shift spending from consumption to capital."
+    ]
+   },
+   {
+    "h": "Central support",
+    "pts": [
+     "Grants for backward districts, externally aided projects, centrally sponsored schemes.",
+     "16th Finance Commission recommendations.",
+     "Ex: Sources – CAG and RBI State Finances report for debt-GSDP ratio."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: Debt-GSDP ratio and interest-to-revenue ratio are key indicators.",
+     "Ex: AP Fiscal Responsibility and Budget Management Act sets deficit and debt targets.",
+     "Ex: Own tax revenue, State GST and Stamps & Registration, Excise and Mining receipts.",
+     "Ex: Welfare commitments (DBT) raise recurring burden."
+    ]
+   },
+   {
+    "h": "Extra",
+    "pts": [
+     "Ex: GSDP growth is key to improving debt ratios.",
+     "Ex: Central Finance Commission grants cannot replace own revenue.",
+     "Ex: Transparent debt statements, reporting of guarantees.",
+     "Ex: Fiscal discipline earns better credit rating and cheaper loans."
+    ]
+   }
+  ],
+  "conclusion": "Higher own revenue and a shift to capital spending are both necessary. The State Finance Department should follow a credible fiscal path, so that citizens get lasting services and the state gets cheaper borrowing.",
+  "updates": [
+   "Latest AP Budget and the state's debt/GSDP ratio (CAG, RBI State Finances report)",
+   "16th Finance Commission recommendations and devolution share",
+   "Central assistance for Polavaram and Amaravati"
+  ],
+  "style": "appsc"
+ },
+ {
+  "id": "m-p4-06",
+  "paper": 4,
+  "code": "1.2",
+  "theme": "Low growth of agriculture and manufacturing",
+  "dim": "concept",
+  "question": "What is premature deindustrialisation? Discuss why manufacturing has stagnated at around 15–17 per cent of India's GDP and examine the measures taken under Make in India and PLI to revive it.",
+  "why": "Manufacturing and growth-structure questions recur (8 times). The 'concept + diagnosis + PLI policy evaluation' package is predictable for the next paper.",
+  "intro": "Premature deindustrialisation is when a country's manufacturing share of GDP and jobs starts falling at a lower income level than in developed countries. India's manufacturing has stayed at 15–17% of GDP for years.",
+  "body": [
+   {
+    "h": "Why manufacturing is stagnant",
+    "pts": [
+     "Weak infrastructure and logistics cost.",
+     "Labour law rigidity and 'missing middle' – few mid-sized firms.",
+     "Skill mismatch and low productivity in MSMEs.",
+     "Import competition from China; tariff and non-tariff barriers.",
+     "Credit gaps to small units; land acquisition issues."
+    ]
+   },
+   {
+    "h": "Services-led growth",
+    "pts": [
+     "Ex: IT, finance and telecom lead; jobs remain in agriculture and informal services.",
+     "Low employment elasticity of manufacturing."
+    ]
+   },
+   {
+    "h": "Measures taken",
+    "pts": [
+     "Ex: Make in India 2014; National Manufacturing Policy; target 25% of GDP.",
+     "Ex: PLI schemes in 14 sectors, semiconductors mission.",
+     "Ex: Labour Codes, ease of doing business, GST, corporate tax cut 2019.",
+     "Ex: National Logistics Policy and Gati Shakti.",
+     "Ex: Industrial corridors – DMIC, VCIC."
+    ]
+   },
+   {
+    "h": "Way forward",
+    "pts": [
+     "Skilling, cluster development, export orientation, R&D, trade pacts, and MSME growth."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: Dani Rodrik coined the term premature deindustrialisation.",
+     "Ex: East Asian growth rests on manufacturing exports (China, Korea).",
+     "Ex: PMI manufacturing and IIP indicate recent growth.",
+     "Ex: Textiles, electronics and automobile components have scope for exports.",
+     "Ex: Apprenticeship and skill schemes (Skill India) tackle mismatch."
+    ]
+   },
+   {
+    "h": "Extra",
+    "pts": [
+     "Ex: Employment: most workers still in low-productivity farming.",
+     "Ex: A larger share of women's work in manufacturing needs safety and childcare support."
+    ]
+   }
+  ],
+  "conclusion": "India needs a manufacturing revival for jobs. The Ministry of Commerce and Industry and the States should combine PLI with logistics and skills, so that citizens get productive employment.",
+  "updates": [
+   "Latest IIP / manufacturing share of GVA and PLI disbursals",
+   "India's recent trade agreements (UK, EU, US tariff developments)",
+   "Labour code implementation status"
+  ],
+  "style": "appsc"
+ },
+ {
+  "id": "m-p4-07",
+  "paper": 4,
+  "code": "12.1",
+  "theme": "Transport, energy and ICT infrastructure",
+  "dim": "measures",
+  "question": "Infrastructure bottlenecks raise the cost of doing business in India. Discuss the major bottlenecks in transport, energy and ICT and evaluate the National Infrastructure Pipeline and PM Gati Shakti in addressing them.",
+  "why": "Infrastructure bottlenecks appeared 8 times. The evaluation of PM Gati Shakti and the National Infrastructure Pipeline is a natural new dimension.",
+  "intro": "Infrastructure bottlenecks raise the cost of business. India's logistics costs are about 13–14% of GDP, higher than in advanced countries.",
+  "body": [
+   {
+    "h": "Transport",
+    "pts": [
+     "Ex: Road congestion, rail freight share falling; ports with long dwell time.",
+     "Ex: Dedicated Freight Corridors and Sagarmala address this.",
+     "Ex: Last-mile connectivity and multi-modal hubs."
+    ]
+   },
+   {
+    "h": "Energy",
+    "pts": [
+     "Ex: Discoms' financial stress; transmission losses; coal supply gaps.",
+     "Ex: Renewable integration and storage challenges.",
+     "Ex: UDAY scheme (2015) and Revamped Distribution Sector Scheme."
+    ]
+   },
+   {
+    "h": "ICT",
+    "pts": [
+     "Ex: Digital divide in rural broadband; BharatNet pace; spectrum pricing.",
+     "Ex: Data centres and cybersecurity."
+    ]
+   },
+   {
+    "h": "Evaluation of measures",
+    "pts": [
+     "PM Gati Shakti – integrated planning; National Logistics Policy 2022; Unified Logistics Interface Platform.",
+     "Ex: National Infrastructure Pipeline of about Rs 100 lakh crore.",
+     "Ex: Bharatmala and Sagarmala projects, UDAN for airports.",
+     "Gaps: delays, cost overruns, land and clearances."
+    ]
+   },
+   {
+    "h": "Way forward",
+    "pts": [
+     "Single-window clearances, PPP, rationalised tariffs, regulatory certainty."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: Power outages and high industrial tariffs cross-subsidising households.",
+     "Ex: Cold chain and warehousing gaps in agriculture raise losses.",
+     "Ex: Rail share in freight about 27% against 50% target.",
+     "Ex: Digital India, 5G rollout and BharatNet to improve ICT.",
+     "Ex: Port efficiency indicators such as turnaround time improved at JNPT."
+    ]
+   },
+   {
+    "h": "Extra",
+    "pts": [
+     "Ex: Cost of business rises with delays at ports and customs.",
+     "Ex: Single-window and digital customs reduce cost."
+    ]
+   }
+  ],
+  "conclusion": "Logistics cost reduction is the key to competitiveness. The Ministry of Commerce, NITI Aayog and State governments should execute Gati Shakti plans on time, so citizens and firms enjoy lower prices and better services.",
+  "updates": [
+   "India's latest logistics cost estimate and the Logistics Performance Index rank",
+   "Dedicated freight corridor completion status and the latest Budget capital-expenditure figures",
+   "BharatNet and 5G rollout progress; AP ports and Bhogapuram airport status"
+  ],
+  "style": "appsc"
+ },
+ {
+  "id": "m-p4-08",
+  "paper": 4,
+  "code": "6.9",
+  "theme": "Financial inclusion",
+  "dim": "issues",
+  "question": "Jan Dhan accounts, UPI and microfinance have widened formal finance. Assess the challenges that remain in financial inclusion, with reference to women, small farmers and digital frauds.",
+  "why": "Financial inclusion has appeared repeatedly under inclusive growth. The shift from access to usage and consumer-protection issues is the likely new dimension.",
+  "intro": "Financial inclusion means access to affordable financial services for every person. Jan Dhan, UPI and microfinance widened formal finance, but challenges remain.",
+  "body": [
+   {
+    "h": "Achievements",
+    "pts": [
+     "Ex: PM Jan Dhan Yojana (2014) – over 50 crore accounts.",
+     "Ex: UPI – largest real-time payment system by volume.",
+     "Ex: Microfinance and SHG-Bank Linkage; Aadhaar-enabled payments and DBT.",
+     "Ex: Payment banks and small finance banks."
+    ]
+   },
+   {
+    "h": "Challenges",
+    "pts": [
+     "Dormant accounts and low usage of savings; overdraft not used.",
+     "Digital divide, literacy gaps and fraud risk.",
+     "Credit access for small farmers, women and informal workers.",
+     "Over-indebtedness and high interest in microfinance.",
+     "Insurance and pension coverage remain low."
+    ]
+   },
+   {
+    "h": "Andhra Pradesh",
+    "pts": [
+     "Ex: SERP/Velugu SHGs, one of the largest SHG networks; Stree Nidhi bank.",
+     "Ex: Village secretariats act as banking correspondents' support."
+    ]
+   },
+   {
+    "h": "Way forward",
+    "pts": [
+     "Financial literacy, grievance redressal, last-mile banking correspondents, consumer protection, regulated microfinance, UPI for rural trade."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: Account ownership rose from about 35% in 2011 to over 75% (World Bank Findex).",
+     "Ex: Insurance schemes PMJJBY and PMSBY, pension APY.",
+     "Ex: Mudra loans to micro-entrepreneurs.",
+     "Ex: Frauds, phishing and cyber risk need consumer protection.",
+     "Ex: Financial literacy centres of RBI and NABARD."
+    ]
+   },
+   {
+    "h": "Extra",
+    "pts": [
+     "Ex: Rural women SHGs are credit channel, with repayment rates above 95%.",
+     "Ex: Aadhaar–mobile–Jan Dhan trinity enables DBT; savings leakages reduced."
+    ]
+   }
+  ],
+  "conclusion": "True inclusion is about use and welfare and not just accounts. The Ministry of Finance, RBI and State governments should support literacy and fair credit, so that every citizen can save safely and borrow fairly.",
+  "updates": [
+   "RBI Financial Inclusion Index latest value",
+   "UPI transaction volumes and new rules on digital lending",
+   "Microfinance sector stress data and AP SERP/DWCRA initiatives"
+  ],
+  "style": "appsc"
+ }
+]
