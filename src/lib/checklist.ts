@@ -34,6 +34,8 @@ export interface Theme {
   domain: string;
   dynamic: boolean;
   legacy?: boolean;
+  /** Position of the theme in the compilation PDF (syllabus order). */
+  order: number;
 }
 
 export const PAPER_TITLES: Record<number, string> = {
