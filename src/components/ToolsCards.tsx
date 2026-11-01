@@ -1,10 +1,9 @@
-import { BookX, Timer, PenLine } from "lucide-react";
+import { BookX, PenLine } from "lucide-react";
 import Link from "next/link";
 import { SectionTitle } from "./ui";
 
 const TOOLS = [
-  { href: "/countdown", icon: Timer, title: "Countdowns", text: "Confirmed exam dates and your own deadlines — days, hours, minutes" },
-  { href: "/mistakes", icon: BookX, title: "Mistake notebook", text: "Every wrong answer, why it happened, and a retry test" },
+  { href: "/mistakes", icon: BookX, title: "Error log book", text: "Every wrong answer, why it happened, your notes, retry and export" },
   { href: "/mains", icon: PenLine, title: "Group-I Mains checklist", text: "Paper → subject → theme: past questions, expected questions, tick as you learn" },
 ];
 

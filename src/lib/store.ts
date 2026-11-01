@@ -5,7 +5,7 @@ import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
 import { dayKey, uid } from "./random";
 import { graduate, review } from "./srs";
-import type { Countdown, MainsEntry, MistakeReason } from "./extras";
+import type { MainsEntry, MistakeReason } from "./extras";
 import { complete, emptyLearn, learnMore, rollDay, toggleRead, topUp, uncomplete, type LearnState } from "./mainsLearn";
 import type { Attempt, PaletteStatus, QStat, Question, Session, TestConfig } from "./types";
 
@@ -30,24 +30,24 @@ interface AppState {
   installPrompt: "pending" | "eligible" | "dismissed";
   /** Why the student got a question wrong (their own tag, set in the mistake notebook). */
   mistakeTags: Record<number, MistakeReason>;
-  countdowns: Countdown[];
+  mistakeNotes: Record<number, string>;
+  /** Mistakes the student marked as mastered → time. */
+  mistakeDone: Record<number, number>;
   /** Group-I Mains learning queue (today's questions, backlog, completed). */
   learn: LearnState;
   /** Mains answers written in the answer-writing practice, keyed by question id. */
   mains: Record<string, MainsEntry>;
 
   setMistakeTag: (id: number, tag: MistakeReason | null) => void;
+  /** Your own note on a mistake (what to remember); empty text removes it. */
+  setMistakeNote: (id: number, note: string) => void;
+  toggleMistakeDone: (id: number) => void;
   syncLearn: (queue: string[], todayKey: string) => void;
   setPerDay: (n: 1 | 2 | 3 | 4, queue: string[]) => void;
   learnOneMore: (queue: string[]) => void;
   toggleRead: (key: string) => void;
   completeQ: (id: string) => void;
   uncompleteQ: (id: string) => void;
-  addCountdown: (c: Omit<Countdown, "id" | "createdAt">) => void;
-  updateCountdown: (id: string, patch: Partial<Omit<Countdown, "id" | "createdAt">>) => void;
-  removeCountdown: (id: string) => void;
-  /** Only one countdown is pinned to the top; pinning another unpins the first. */
-  pinCountdown: (id: string) => void;
   saveMains: (id: string, entry: Partial<MainsEntry> & { text: string }) => void;
   setProfile: (p: Profile) => void;
   setTheme: (t: Theme) => void;
@@ -58,7 +58,7 @@ interface AppState {
   /** "I've learnt this": take the question out of the revision set. */
   clearFromRevision: (id: number) => void;
   /** Replace everything with an imported backup. */
-  restore: (s: Pick<AppState, "profile" | "theme" | "attempts" | "qstats" | "bookmarks" | "activeDays"> & Partial<Pick<AppState, "mistakeTags" | "countdowns" | "mains" | "learn">>) => void;
+  restore: (s: Pick<AppState, "profile" | "theme" | "attempts" | "qstats" | "bookmarks" | "activeDays"> & Partial<Pick<AppState, "mistakeTags" | "mistakeNotes" | "mistakeDone" | "mains" | "learn">>) => void;
   setInstallPrompt: (s: AppState["installPrompt"]) => void;
   resetAll: () => void;
 }
@@ -72,7 +72,8 @@ const initial = {
   activeDays: [],
   installPrompt: "pending" as const,
   mistakeTags: {} as Record<number, MistakeReason>,
-  countdowns: [] as Countdown[],
+  mistakeNotes: {} as Record<number, string>,
+  mistakeDone: {} as Record<number, number>,
   learn: emptyLearn(),
   mains: {} as Record<string, MainsEntry>,
 };
@@ -94,14 +95,21 @@ export const useApp = create<AppState>()(
       toggleRead: (key) => set((s) => ({ learn: toggleRead(s.learn, key) })),
       completeQ: (id) => set((s) => ({ learn: complete(s.learn, id) })),
       uncompleteQ: (id) => set((s) => ({ learn: uncomplete(s.learn, id) })),
-      addCountdown: (c) =>
-        set((s) => ({
-          countdowns: [...s.countdowns.map((x) => (c.pinned ? { ...x, pinned: false } : x)), { ...c, id: uid(), createdAt: Date.now() }],
-        })),
-      updateCountdown: (id, patch) =>
-        set((s) => ({ countdowns: s.countdowns.map((x) => (x.id === id ? { ...x, ...patch } : patch.pinned ? { ...x, pinned: false } : x)) })),
-      removeCountdown: (id) => set((s) => ({ countdowns: s.countdowns.filter((x) => x.id !== id) })),
-      pinCountdown: (id) => set((s) => ({ countdowns: s.countdowns.map((x) => ({ ...x, pinned: x.id === id ? !x.pinned : false })) })),
+      setMistakeNote: (id, note) =>
+        set((s) => {
+          const next = { ...s.mistakeNotes };
+          if (note.trim()) next[id] = note;
+          else delete next[id];
+          return { mistakeNotes: next };
+        }),
+      /** "I have got this": hides the mistake until it is missed again after that day. */
+      toggleMistakeDone: (id) =>
+        set((s) => {
+          const next = { ...s.mistakeDone };
+          if (next[id]) delete next[id];
+          else next[id] = Date.now();
+          return { mistakeDone: next };
+        }),
       saveMains: (id, entry) =>
         set((s) => ({ mains: { ...s.mains, [id]: { ...s.mains[id], ...entry, updatedAt: Date.now() } } })),
       setProfile: (profile) => set({ profile }),

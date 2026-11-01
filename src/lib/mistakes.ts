@@ -1,5 +1,5 @@
 import type { MistakeReason } from "./extras";
-import type { Attempt } from "./types";
+import type { Attempt, Question } from "./types";
 
 export interface Mistake {
   id: number;
@@ -10,6 +10,8 @@ export interface Mistake {
   correctAnswer: number;
   /** Times it went wrong or was skipped in total. */
   times: number;
+  /** When it first went wrong (in the saved attempts). */
+  firstAt: number;
   lastAt: number;
   /** Reason worked out from how long the student took; the student can override it. */
   auto: MistakeReason;
@@ -39,8 +41,72 @@ export function collectMistakes(attempts: Attempt[]): Mistake[] {
       times.set(id, n);
       const auto: MistakeReason =
         kind === "skipped" ? "time" : avg && t < avg * 0.5 ? "guess" : avg && t > avg * 1.4 ? "concept" : "revise";
-      open.set(id, { id, topic: a.topics[i] ?? "", kind, yourAnswer: r, correctAnswer: a.key[i], times: n, lastAt: a.finishedAt, auto });
+      open.set(id, { id, topic: a.topics[i] ?? "", kind, yourAnswer: r, correctAnswer: a.key[i], times: n, firstAt: open.get(id)?.firstAt ?? a.finishedAt, lastAt: a.finishedAt, auto });
     });
   }
   return [...open.values()].sort((x, y) => y.lastAt - x.lastAt);
+}
+
+/** A mistake the student marked as mastered stays hidden until it goes wrong again afterwards. */
+export const isMastered = (m: Pick<Mistake, "id" | "lastAt">, done: Record<number, number>) => (done[m.id] ?? 0) >= m.lastAt && !!done[m.id];
+
+export type MistakeSort = "recent" | "missed" | "topic" | "oldest";
+
+export function sortMistakes(list: Mistake[], key: MistakeSort): Mistake[] {
+  const l = [...list];
+  if (key === "missed") return l.sort((a, b) => b.times - a.times || b.lastAt - a.lastAt);
+  if (key === "topic") return l.sort((a, b) => a.topic.localeCompare(b.topic) || b.lastAt - a.lastAt);
+  if (key === "oldest") return l.sort((a, b) => a.firstAt - b.firstAt);
+  return l.sort((a, b) => b.lastAt - a.lastAt);
+}
+
+export interface MistakeStats {
+  open: number;
+  /** Missed in two or more different tests. */
+  repeated: number;
+  blank: number;
+  byReason: Record<string, number>;
+  /** Topics with the most open mistakes, most first. */
+  weakTopics: { topic: string; n: number }[];
+}
+
+export function mistakeStats(list: Mistake[], reasonOf: (m: Mistake) => string): MistakeStats {
+  const byReason: Record<string, number> = {};
+  const topics = new Map<string, number>();
+  let repeated = 0;
+  let blank = 0;
+  for (const m of list) {
+    byReason[reasonOf(m)] = (byReason[reasonOf(m)] ?? 0) + 1;
+    topics.set(m.topic, (topics.get(m.topic) ?? 0) + 1);
+    if (m.times >= 2) repeated++;
+    if (m.kind === "skipped") blank++;
+  }
+  return { open: list.length, repeated, blank, byReason, weakTopics: [...topics].map(([topic, n]) => ({ topic, n })).sort((a, b) => b.n - a.n || a.topic.localeCompare(b.topic)) };
+}
+
+/** Whole days since `t`, for "last missed 3 days ago". */
+export const daysAgo = (t: number, now = Date.now()) => Math.max(0, Math.floor((now - t) / 86_400_000));
+
+const csv = (v: string | number) => `"${String(v).replace(/"/g, '""').replace(/\r?\n/g, " ")}"`;
+
+/** The notebook as a spreadsheet: one row per mistake, with your reason and note. */
+export function mistakesToCsv(
+  rows: { m: Mistake; q?: Question; reason: string; note?: string }[],
+  letters = ["A", "B", "C", "D", "E"],
+): string {
+  const head = ["Topic", "Question", "Options", "Correct answer", "Your answer", "Why it went wrong", "Times missed", "Last missed", "My note"];
+  const lines = rows.map(({ m, q, reason, note }) =>
+    [
+      m.topic,
+      q?.question ?? `#${m.id}`,
+      (q?.options ?? []).map((o, i) => `${letters[i]}. ${o}`).join("  |  "),
+      letters[m.correctAnswer] ?? "",
+      m.yourAnswer == null ? "(left blank)" : (letters[m.yourAnswer] ?? ""),
+      reason,
+      m.times,
+      new Date(m.lastAt).toISOString().slice(0, 10),
+      note ?? "",
+    ].map(csv).join(","),
+  );
+  return [head.map(csv).join(","), ...lines].join("\n");
 }

@@ -26,6 +26,7 @@ Vercel Hobby is for non-commercial use — before charging for premium (Phase 2)
 |---|---|---|
 | Onboarding / Home | `/` | Target exam + optional name (local profile), continue / up next, daily quiz, full mock, quick stats |
 | Test catalog | `/tests` | Topics (sets of ~25, progress ring, best score, sub-topics when tagged), topic + full mocks, custom builder |
+| Error log book | `/mistakes` | Every wrong/blank question until answered correctly; reason tags (auto-guessed, yours win), your own note per question, repeat-miss and blank filters, search, sort, weakest topics, retry 10/25/50, mark as mastered, CSV export |
 | CBT player | `/play` | Instructions screen, TCS-iON style palette (5 statuses), countdown + per-question timer, pause / resume / restart, Save & Next, Mark & Next, Clear, jump, auto-submit at 00:00, keyboard shortcuts on desktop |
 | Results + review | `/results?id=` | Net score with negative marking, accuracy, time vs target, by-topic, personal-best confetti, filterable solutions |
 | Progress | `/progress` | Topic mastery, 3 weakest topics with "Practise this", score trend, pace, 14-day streak, history |

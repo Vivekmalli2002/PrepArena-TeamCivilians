@@ -27,7 +27,6 @@ import { dailyQuiz, fullMock, FULL_MOCK, topicSets, topicSetTest } from "@/lib/t
 import { ExamPicker } from "@/components/ExamPicker";
 import { PapersSection } from "@/components/PapersSection";
 import { ToolsCards } from "@/components/ToolsCards";
-import { PinnedCountdown } from "@/components/PinnedCountdown";
 import { Onboarding } from "@/components/Onboarding";
 import { ProgressRing } from "@/components/ProgressRing";
 import { useStartTest } from "@/components/useStartTest";
@@ -261,7 +260,6 @@ function Dashboard() {
         <PapersSection examId={profile.examId} counts={fullBank ? Object.fromEntries(fullBank.subjects.map((s) => [s.id, s.total])) : {}} />
       </motion.div>
 
-      <PinnedCountdown />
       <ToolsCards />
 
       <Sheet open={examOpen} onClose={() => setExamOpen(false)} title="Target exam">
