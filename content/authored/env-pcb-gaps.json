@@ -1,0 +1,2048 @@
+{
+ "subject": {
+  "id": "env",
+  "name": "Environmental Science & Ecology"
+ },
+ "questions": [
+  {
+   "id": 43001,
+   "topic": "Biodiversity & biotic resources",
+   "subtopic": "Levels and values of biodiversity",
+   "unit": 2,
+   "question": "Which of the following best describes alpha diversity?",
+   "options": [
+    "Species diversity within a particular habitat or community",
+    "Diversity of genes within a species",
+    "Total species diversity of a large region",
+    "Change in species composition between habitats"
+   ],
+   "answerIndex": 0,
+   "explanation": "Alpha diversity is the species richness within a single habitat or community. Beta diversity measures the change of species between habitats, and gamma diversity is the overall diversity of a region.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43002,
+   "topic": "Biodiversity & biotic resources",
+   "subtopic": "Levels and values of biodiversity",
+   "unit": 2,
+   "question": "Arrange the following in increasing order of spatial scale: A. Alpha diversity  B. Gamma diversity  C. Beta diversity",
+   "options": [
+    "A, C, B",
+    "A, B, C",
+    "C, A, B",
+    "B, C, A"
+   ],
+   "answerIndex": 0,
+   "explanation": "Alpha diversity covers one habitat, beta compares habitats, and gamma covers a whole landscape or region; so the order of increasing scale is A, C, B.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43003,
+   "topic": "Biodiversity & biotic resources",
+   "subtopic": "Levels and values of biodiversity",
+   "unit": 2,
+   "question": "The value of a forest for the fuelwood and fodder directly collected by local villagers is called:",
+   "options": [
+    "Existence value",
+    "Option value",
+    "Productive use value",
+    "Consumptive use value"
+   ],
+   "answerIndex": 3,
+   "explanation": "Consumptive use value is the value of biological resources used directly, without passing through a market, such as fuelwood, fodder and wild foods.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43004,
+   "topic": "Biodiversity & biotic resources",
+   "subtopic": "Levels and values of biodiversity",
+   "unit": 2,
+   "question": "Timber, medicinal plants and rubber sold in the market represent which value of biodiversity?",
+   "options": [
+    "Aesthetic value",
+    "Consumptive use value",
+    "Ethical value",
+    "Productive use value"
+   ],
+   "answerIndex": 3,
+   "explanation": "Productive use value attaches to products harvested from nature that are sold in commercial markets.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43005,
+   "topic": "Biodiversity & biotic resources",
+   "subtopic": "Levels and values of biodiversity",
+   "unit": 2,
+   "question": "The value of keeping a species alive because it may prove useful to humans in the future is known as:",
+   "options": [
+    "Social value",
+    "Option value",
+    "Ethical value",
+    "Consumptive value"
+   ],
+   "answerIndex": 1,
+   "explanation": "Option value is the potential of a species to supply benefits in the future, such as undiscovered drugs or genes for crop improvement.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43006,
+   "topic": "Biodiversity & biotic resources",
+   "subtopic": "Levels and values of biodiversity",
+   "unit": 2,
+   "question": "Which statement correctly describes existence value?",
+   "options": [
+    "Value placed on knowing that a species exists, even if one never uses it",
+    "Value of products sold in markets",
+    "Value arising from sacred groves only",
+    "Value of biodiversity in providing water purification"
+   ],
+   "answerIndex": 0,
+   "explanation": "Existence value reflects the satisfaction people derive from knowing a species or ecosystem survives; it does not depend on use.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43007,
+   "topic": "Biodiversity & biotic resources",
+   "subtopic": "Levels and values of biodiversity",
+   "unit": 2,
+   "question": "Consider the following statements about the levels of biodiversity:\n1. Genetic diversity refers to variation of genes within a species.\n2. Species diversity refers to the variety of species in a region.\n3. Ecosystem diversity refers to the number of individuals of one species.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answerIndex": 0,
+   "explanation": "Statements 1 and 2 are correct. Ecosystem diversity is the variety of habitats, communities and ecological processes, not the count of individuals of one species.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43008,
+   "topic": "Biodiversity & biotic resources",
+   "subtopic": "Levels and values of biodiversity",
+   "unit": 2,
+   "question": "Match the value of biodiversity with an example:\nA. Consumptive use  B. Productive use  C. Aesthetic  D. Option\n1. Ecotourism in a national park  2. Wild fruits collected for home use  3. Timber sold at a depot  4. Unknown plants that may yield future medicines",
+   "options": [
+    "A-2, B-3, C-1, D-4",
+    "A-3, B-2, C-4, D-1",
+    "A-2, B-1, C-3, D-4",
+    "A-1, B-4, C-2, D-3"
+   ],
+   "answerIndex": 0,
+   "explanation": "Home-use wild fruits are consumptive, timber sold in the market is productive, ecotourism rests on aesthetic value, and undiscovered medicinal plants hold option value.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43009,
+   "topic": "Biodiversity & biotic resources",
+   "subtopic": "Levels and values of biodiversity",
+   "unit": 2,
+   "question": "Assertion (A): India is called a mega-diverse country.\nReason (R): India has a very large number of plant and animal species, including many endemic ones, in a small share of the world's land area.\nWhich one is correct?",
+   "options": [
+    "Both A and R are true and R explains A",
+    "Both A and R are true but R does not explain A",
+    "A is true, R is false",
+    "A is false, R is true"
+   ],
+   "answerIndex": 0,
+   "explanation": "India holds a large share of the world's recorded species on a small share of its land, with several biodiversity hotspots and many endemics, which is why it is classed as mega-diverse.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43010,
+   "topic": "Biodiversity & biotic resources",
+   "subtopic": "Levels and values of biodiversity",
+   "unit": 2,
+   "question": "Which of the following is NOT a threat to biodiversity?",
+   "options": [
+    "Habitat fragmentation",
+    "Poaching of wildlife",
+    "Sustainable harvest within regeneration limits",
+    "Introduction of invasive alien species"
+   ],
+   "answerIndex": 2,
+   "explanation": "Sustainable harvest within regeneration limits does not erode populations. Habitat loss, poaching and invasive species are major threats.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43011,
+   "topic": "Biodiversity & biotic resources",
+   "subtopic": "Levels and values of biodiversity",
+   "unit": 2,
+   "question": "Human-wildlife conflict is most directly reduced by:",
+   "options": [
+    "Allowing unlimited grazing in protected areas",
+    "Feeding wild animals near settlements",
+    "Wildlife corridors, crop protection and timely compensation",
+    "Clearing forest around villages"
+   ],
+   "answerIndex": 2,
+   "explanation": "Corridors keep animals away from farms, protection measures reduce crop and livestock loss, and compensation lowers retaliation against animals.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43012,
+   "topic": "Biodiversity & biotic resources",
+   "subtopic": "Levels and values of biodiversity",
+   "unit": 2,
+   "question": "Ethical value of biodiversity rests on the idea that:",
+   "options": [
+    "Species must be classified by economic value",
+    "All species have a right to exist regardless of their use to humans",
+    "Species are valuable only for tourism",
+    "Species are valuable if they are rare"
+   ],
+   "answerIndex": 1,
+   "explanation": "The ethical (intrinsic) argument says every species has inherent worth and a right to exist.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43013,
+   "topic": "Ecosystem structure & functions",
+   "subtopic": "Biogeochemical cycles and bioaccumulation",
+   "unit": 1,
+   "question": "What does the term 'biogeochemical cycle' signify?",
+   "options": [
+    "Flow of energy from the sun to plants",
+    "Migration of animals between ecosystems",
+    "Cycling of elements between living and non-living parts of the biosphere",
+    "Movement of water from sea to land only"
+   ],
+   "answerIndex": 2,
+   "explanation": "A biogeochemical cycle describes how a chemical element circulates through organisms (bio), rocks, soil, water and air (geo).",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43014,
+   "topic": "Ecosystem structure & functions",
+   "subtopic": "Biogeochemical cycles and bioaccumulation",
+   "unit": 1,
+   "question": "Which of the following is a sedimentary cycle with no significant gaseous phase?",
+   "options": [
+    "Oxygen cycle",
+    "Carbon cycle",
+    "Nitrogen cycle",
+    "Phosphorus cycle"
+   ],
+   "answerIndex": 3,
+   "explanation": "Phosphorus moves mainly through rocks, soil and water; it has no major atmospheric reservoir, so its cycle is sedimentary.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43015,
+   "topic": "Ecosystem structure & functions",
+   "subtopic": "Biogeochemical cycles and bioaccumulation",
+   "unit": 1,
+   "question": "Conversion of ammonia to nitrite and then to nitrate by soil bacteria is called:",
+   "options": [
+    "Nitrogen fixation",
+    "Denitrification",
+    "Ammonification",
+    "Nitrification"
+   ],
+   "answerIndex": 3,
+   "explanation": "Nitrification is carried out by Nitrosomonas (ammonia to nitrite) and Nitrobacter (nitrite to nitrate).",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43016,
+   "topic": "Ecosystem structure & functions",
+   "subtopic": "Biogeochemical cycles and bioaccumulation",
+   "unit": 1,
+   "question": "Which process returns nitrogen from soil nitrate to the atmosphere as N2?",
+   "options": [
+    "Denitrification by bacteria such as Pseudomonas",
+    "Nitrification",
+    "Ammonification",
+    "Biological nitrogen fixation"
+   ],
+   "answerIndex": 0,
+   "explanation": "Denitrifying bacteria reduce nitrate to nitrogen gas under low-oxygen conditions, completing the nitrogen cycle.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43017,
+   "topic": "Ecosystem structure & functions",
+   "subtopic": "Biogeochemical cycles and bioaccumulation",
+   "unit": 1,
+   "question": "Biological nitrogen fixation is carried out by:",
+   "options": [
+    "Pseudomonas denitrificans",
+    "Earthworms",
+    "Rhizobium, Azotobacter and cyanobacteria",
+    "Nitrobacter alone"
+   ],
+   "answerIndex": 2,
+   "explanation": "Symbiotic Rhizobium in legume nodules and free-living Azotobacter and cyanobacteria convert atmospheric N2 to ammonia.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43018,
+   "topic": "Ecosystem structure & functions",
+   "subtopic": "Biogeochemical cycles and bioaccumulation",
+   "unit": 1,
+   "question": "Which statement correctly describes bioaccumulation?",
+   "options": [
+    "Gradual build-up of a pollutant in the tissues of an organism over time",
+    "Increase of pollutant concentration from one trophic level to the next",
+    "Movement of nutrients between trophic levels",
+    "Removal of toxins from the body"
+   ],
+   "answerIndex": 0,
+   "explanation": "Bioaccumulation is the build-up of a substance in an organism when intake exceeds loss. Increase along the food chain is biomagnification.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43019,
+   "topic": "Ecosystem structure & functions",
+   "subtopic": "Biogeochemical cycles and bioaccumulation",
+   "unit": 1,
+   "question": "Biomagnification of DDT leads to the highest concentration in:",
+   "options": [
+    "Phytoplankton",
+    "Dead organic matter",
+    "Zooplankton",
+    "Top carnivores such as fish-eating birds"
+   ],
+   "answerIndex": 3,
+   "explanation": "Persistent, fat-soluble chemicals like DDT concentrate at each higher trophic level, so top predators carry the largest burden (eggshell thinning in raptors).",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43020,
+   "topic": "Ecosystem structure & functions",
+   "subtopic": "Biogeochemical cycles and bioaccumulation",
+   "unit": 1,
+   "question": "Consider the following statements:\n1. Bioaccumulation takes place within an individual organism.\n2. Biomagnification takes place across trophic levels.\n3. Biomagnification is typical of readily degradable chemicals.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answerIndex": 0,
+   "explanation": "Statements 1 and 2 are correct. Biomagnification occurs for persistent, fat-soluble pollutants, not for readily degradable chemicals.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43021,
+   "topic": "Ecosystem structure & functions",
+   "subtopic": "Biogeochemical cycles and bioaccumulation",
+   "unit": 1,
+   "question": "The largest reservoir of carbon on earth is:",
+   "options": [
+    "Living biomass",
+    "Sedimentary rocks of the lithosphere",
+    "The atmosphere",
+    "Soil humus"
+   ],
+   "answerIndex": 1,
+   "explanation": "Carbon locked in limestone and other sedimentary rocks far exceeds that in the oceans, atmosphere and biomass.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43022,
+   "topic": "Ecosystem structure & functions",
+   "subtopic": "Biogeochemical cycles and bioaccumulation",
+   "unit": 1,
+   "question": "Arrange the steps of the nitrogen cycle in sequence: A. Nitrification  B. Nitrogen fixation  C. Denitrification  D. Assimilation by plants",
+   "options": [
+    "B, A, D, C",
+    "A, B, C, D",
+    "B, D, A, C",
+    "C, B, A, D"
+   ],
+   "answerIndex": 0,
+   "explanation": "N2 is fixed to ammonia (B), nitrified to nitrate (A), taken up by plants (D), and finally denitrified back to N2 (C).",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43023,
+   "topic": "Ecosystem structure & functions",
+   "subtopic": "Ecosystem services, food webs and carrying capacity",
+   "unit": 1,
+   "question": "Under the Millennium Ecosystem Assessment, pollination of crops is classed as which type of ecosystem service?",
+   "options": [
+    "Regulating service",
+    "Supporting service only",
+    "Provisioning service",
+    "Cultural service"
+   ],
+   "answerIndex": 0,
+   "explanation": "Pollination, climate regulation and flood control are regulating services; food and timber are provisioning; recreation is cultural; nutrient cycling is supporting.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43024,
+   "topic": "Ecosystem structure & functions",
+   "subtopic": "Ecosystem services, food webs and carrying capacity",
+   "unit": 1,
+   "question": "A food web differs from a food chain because it:",
+   "options": [
+    "Shows many interconnected feeding relationships",
+    "Has only one trophic level",
+    "Shows only decomposers",
+    "Is limited to aquatic systems"
+   ],
+   "answerIndex": 0,
+   "explanation": "A food web is a network of interlinked food chains in an ecosystem, giving stability if one link is lost.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43025,
+   "topic": "Ecosystem structure & functions",
+   "subtopic": "Ecosystem services, food webs and carrying capacity",
+   "unit": 1,
+   "question": "A food chain that starts with dead organic matter and passes through detritivores is called:",
+   "options": [
+    "Carnivorous chain",
+    "Detritus food chain",
+    "Grazing food chain",
+    "Parasitic food chain"
+   ],
+   "answerIndex": 1,
+   "explanation": "The detritus food chain begins with dead matter consumed by decomposers and detritivores; it carries a large share of energy in forests and many aquatic systems.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43026,
+   "topic": "Ecosystem structure & functions",
+   "subtopic": "Ecosystem services, food webs and carrying capacity",
+   "unit": 1,
+   "question": "Carrying capacity of an environment is:",
+   "options": [
+    "Minimum population needed for survival",
+    "Total number of species present",
+    "Maximum population it can support indefinitely without degradation",
+    "Maximum rainfall it receives"
+   ],
+   "answerIndex": 2,
+   "explanation": "Carrying capacity is the largest population of a species that the resources of an environment can sustain over the long term.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43027,
+   "topic": "Ecosystem structure & functions",
+   "subtopic": "Ecosystem services, food webs and carrying capacity",
+   "unit": 1,
+   "question": "Ecological footprint is generally expressed in:",
+   "options": [
+    "Global hectares",
+    "Decibels",
+    "Tonnes per day",
+    "Parts per million"
+   ],
+   "answerIndex": 0,
+   "explanation": "The ecological footprint measures the biologically productive land and sea area needed to supply a population's consumption and absorb its waste, in global hectares.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43028,
+   "topic": "Ecosystem structure & functions",
+   "subtopic": "Ecosystem services, food webs and carrying capacity",
+   "unit": 1,
+   "question": "As per the ten per cent law of energy transfer, if producers fix 10,000 kJ, the energy available to secondary consumers will be about:",
+   "options": [
+    "10 kJ",
+    "100 kJ",
+    "1,000 kJ",
+    "5,000 kJ"
+   ],
+   "answerIndex": 1,
+   "explanation": "About 10 per cent passes to each next level: 10,000 kJ becomes 1,000 kJ (primary consumers) and then 100 kJ (secondary consumers).",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43029,
+   "topic": "Ecosystem structure & functions",
+   "subtopic": "Ecosystem services, food webs and carrying capacity",
+   "unit": 1,
+   "question": "Which is the first and most basic trophic level of an ecological pyramid?",
+   "options": [
+    "Producers",
+    "Primary consumers",
+    "Decomposers",
+    "Secondary consumers"
+   ],
+   "answerIndex": 0,
+   "explanation": "Producers (autotrophs) form the base; all other levels depend on the energy they capture.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43030,
+   "topic": "Natural resources & energy management",
+   "subtopic": "Land resources: erosion, desertification, deforestation",
+   "unit": 3,
+   "question": "Desertification, as defined by the UNCCD, means land degradation in:",
+   "options": [
+    "Arid, semi-arid and dry sub-humid areas",
+    "Only polar regions",
+    "Coastal wetlands",
+    "Only hot deserts"
+   ],
+   "answerIndex": 0,
+   "explanation": "Desertification is land degradation in dry areas resulting from climatic variations and human activities such as over-grazing and deforestation.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43031,
+   "topic": "Natural resources & energy management",
+   "subtopic": "Land resources: erosion, desertification, deforestation",
+   "unit": 3,
+   "question": "The World Day to Combat Desertification and Drought is observed on:",
+   "options": [
+    "5 June",
+    "22 April",
+    "17 June",
+    "16 September"
+   ],
+   "answerIndex": 2,
+   "explanation": "17 June each year marks the adoption of the UN Convention to Combat Desertification (1994).",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43032,
+   "topic": "Natural resources & energy management",
+   "subtopic": "Land resources: erosion, desertification, deforestation",
+   "unit": 3,
+   "question": "Which of the following is NOT a cause of soil erosion?",
+   "options": [
+    "Overgrazing",
+    "Deforestation",
+    "Unscientific cultivation on steep slopes",
+    "Contour ploughing"
+   ],
+   "answerIndex": 3,
+   "explanation": "Contour ploughing is a soil conservation measure. The others expose soil and speed up erosion.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43033,
+   "topic": "Natural resources & energy management",
+   "subtopic": "Land resources: erosion, desertification, deforestation",
+   "unit": 3,
+   "question": "Waterlogging and salinity of irrigated land chiefly result from:",
+   "options": [
+    "Use of crop rotation",
+    "Excess irrigation with poor drainage",
+    "Mulching",
+    "Planting shelterbelts"
+   ],
+   "answerIndex": 1,
+   "explanation": "Over-irrigation without drainage raises the water table, bringing salts to the surface and reducing yields.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43034,
+   "topic": "Natural resources & energy management",
+   "subtopic": "Land resources: erosion, desertification, deforestation",
+   "unit": 3,
+   "question": "Which is a direct ecological effect of deforestation?",
+   "options": [
+    "Higher groundwater recharge",
+    "Increased soil erosion and loss of biodiversity",
+    "Increase in carbon sequestration",
+    "Lower surface runoff"
+   ],
+   "answerIndex": 1,
+   "explanation": "Loss of tree cover exposes soil, increases runoff, destroys habitats and reduces carbon uptake.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43035,
+   "topic": "Natural resources & energy management",
+   "subtopic": "Land resources: erosion, desertification, deforestation",
+   "unit": 3,
+   "question": "Shelterbelts and strip cropping are mainly used to control:",
+   "options": [
+    "Air pollution",
+    "Wind erosion",
+    "Sedimentation in tanks",
+    "Noise"
+   ],
+   "answerIndex": 1,
+   "explanation": "Rows of trees and alternating strips break the wind and hold the soil in place, reducing wind erosion.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43036,
+   "topic": "Natural resources & energy management",
+   "subtopic": "Land resources: erosion, desertification, deforestation",
+   "unit": 3,
+   "question": "Consider the following statements:\n1. Jhum (shifting) cultivation can lead to forest degradation if the fallow period is short.\n2. Mining of ores causes habitat destruction and acid mine drainage.\n3. Large dams never affect forests or tribal people.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answerIndex": 0,
+   "explanation": "Statements 1 and 2 are correct. Dams submerge forests and displace tribal and forest-dependent communities, so statement 3 is wrong.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43037,
+   "topic": "Environmental pollution & control technologies",
+   "subtopic": "Noise pollution: levels, standards and health",
+   "unit": 4,
+   "question": "Sound level in decibels is defined as 10 log10 of the ratio of sound intensity to a reference intensity of:",
+   "options": [
+    "1 W/m²",
+    "10^-6 W/m²",
+    "10^-3 W/m²",
+    "10^-12 W/m²"
+   ],
+   "answerIndex": 3,
+   "explanation": "The reference intensity is 10^-12 W/m², the threshold of hearing at 1 kHz, equal to a pressure of 20 micro-pascals.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43038,
+   "topic": "Environmental pollution & control technologies",
+   "subtopic": "Noise pollution: levels, standards and health",
+   "unit": 4,
+   "question": "When two identical sources each producing 80 dB act together, the combined level is about:",
+   "options": [
+    "160 dB",
+    "83 dB",
+    "90 dB",
+    "80 dB"
+   ],
+   "answerIndex": 1,
+   "explanation": "Doubling the intensity adds 10 log 2 = 3 dB, so the total is about 83 dB.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43039,
+   "topic": "Environmental pollution & control technologies",
+   "subtopic": "Noise pollution: levels, standards and health",
+   "unit": 4,
+   "question": "Under the Noise Pollution (Regulation and Control) Rules, 2000, the day-time period is:",
+   "options": [
+    "7 a.m. to 11 p.m.",
+    "6 a.m. to 10 p.m.",
+    "5 a.m. to 9 p.m.",
+    "8 a.m. to 8 p.m."
+   ],
+   "answerIndex": 1,
+   "explanation": "Day time is 6.00 a.m. to 10.00 p.m. and night time is 10.00 p.m. to 6.00 a.m.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43040,
+   "topic": "Environmental pollution & control technologies",
+   "subtopic": "Noise pollution: levels, standards and health",
+   "unit": 4,
+   "question": "The ambient noise standard for a residential area (day / night) under the 2000 Rules is:",
+   "options": [
+    "65 dB(A) / 55 dB(A)",
+    "50 dB(A) / 40 dB(A)",
+    "55 dB(A) / 45 dB(A)",
+    "75 dB(A) / 70 dB(A)"
+   ],
+   "answerIndex": 2,
+   "explanation": "Industrial areas: 75/70; commercial: 65/55; residential: 55/45; silence zones: 50/40 dB(A) (day/night).",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43041,
+   "topic": "Environmental pollution & control technologies",
+   "subtopic": "Noise pollution: levels, standards and health",
+   "unit": 4,
+   "question": "A silence zone, as notified by the Noise Rules, is an area of at least how many metres around hospitals, educational institutions and courts?",
+   "options": [
+    "25 metres",
+    "100 metres",
+    "1 kilometre",
+    "500 metres"
+   ],
+   "answerIndex": 1,
+   "explanation": "The Rules designate silence zones up to 100 metres around such institutions, with limits of 50 dB(A) by day and 40 dB(A) by night.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43042,
+   "topic": "Environmental pollution & control technologies",
+   "subtopic": "Noise pollution: levels, standards and health",
+   "unit": 4,
+   "question": "Prolonged exposure to high noise levels may cause:",
+   "options": [
+    "Improved concentration",
+    "Lower blood pressure",
+    "Increased hearing sensitivity",
+    "Noise-induced hearing loss, hypertension and sleep disturbance"
+   ],
+   "answerIndex": 3,
+   "explanation": "Chronic noise damages the hair cells of the inner ear and is linked to stress, hypertension and disturbed sleep.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43043,
+   "topic": "Environmental pollution & control technologies",
+   "subtopic": "Noise pollution: levels, standards and health",
+   "unit": 4,
+   "question": "Which of the following is NOT an effective measure of noise control at source?",
+   "options": [
+    "Vibration isolation of machines",
+    "Mufflers and silencers",
+    "Increasing the horn volume of vehicles",
+    "Enclosures with sound-absorbing material"
+   ],
+   "answerIndex": 2,
+   "explanation": "Raising horn volume increases noise. The others reduce it at source or along the path.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43044,
+   "topic": "Environmental pollution & control technologies",
+   "subtopic": "Noise pollution: levels, standards and health",
+   "unit": 4,
+   "question": "Sound that is unwanted and disturbs health or comfort is called:",
+   "options": [
+    "Echo",
+    "Resonance",
+    "Noise",
+    "Reverberation"
+   ],
+   "answerIndex": 2,
+   "explanation": "Noise is unwanted sound; echo and reverberation describe reflections, and resonance is a vibration response.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43045,
+   "topic": "Environmental pollution & control technologies",
+   "subtopic": "Noise pollution: levels, standards and health",
+   "unit": 4,
+   "question": "The upper limit of the human audible range in a healthy young person is about:",
+   "options": [
+    "200,000 Hz",
+    "2,000 Hz",
+    "200 Hz",
+    "20,000 Hz"
+   ],
+   "answerIndex": 3,
+   "explanation": "Humans hear roughly 20 Hz to 20,000 Hz; above this is ultrasound.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43046,
+   "topic": "Environmental pollution & control technologies",
+   "subtopic": "Soil pollution and degradation",
+   "unit": 4,
+   "question": "Excessive use of nitrogenous fertilisers mainly leads to:",
+   "options": [
+    "Reduction in runoff",
+    "Nitrate leaching into groundwater and eutrophication of water bodies",
+    "Increase in soil organic carbon",
+    "Increase in earthworm population"
+   ],
+   "answerIndex": 1,
+   "explanation": "Unused nitrate is highly mobile; it leaches to groundwater (blue-baby syndrome) and runs off to lakes causing eutrophication.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43047,
+   "topic": "Environmental pollution & control technologies",
+   "subtopic": "Soil pollution and degradation",
+   "unit": 4,
+   "question": "Which heavy metal is associated with the Itai-itai disease caused by contaminated rice and water in Japan?",
+   "options": [
+    "Arsenic",
+    "Mercury",
+    "Cadmium",
+    "Lead"
+   ],
+   "answerIndex": 2,
+   "explanation": "Itai-itai disease, which softens bones and damages kidneys, was caused by cadmium from mining discharges.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43048,
+   "topic": "Environmental pollution & control technologies",
+   "subtopic": "Soil pollution and degradation",
+   "unit": 4,
+   "question": "Persistent pesticides like DDT are a concern for soil because they:",
+   "options": [
+    "Increase soil pH permanently",
+    "Convert into fertiliser",
+    "Decompose in a day",
+    "Resist degradation and enter the food chain"
+   ],
+   "answerIndex": 3,
+   "explanation": "DDT is chemically stable and fat-soluble, so it persists in soil and biomagnifies through food chains.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43049,
+   "topic": "Environmental pollution & control technologies",
+   "subtopic": "Soil pollution and degradation",
+   "unit": 4,
+   "question": "Salinisation of agricultural soil is caused mainly by:",
+   "options": [
+    "Heavy rainfall on sandy soil",
+    "Poor drainage in irrigated lands in arid regions",
+    "Organic manuring",
+    "Crop rotation"
+   ],
+   "answerIndex": 1,
+   "explanation": "Evaporation of poorly drained irrigation water leaves salts in the root zone, harming plant growth.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43050,
+   "topic": "Environmental pollution & control technologies",
+   "subtopic": "Soil pollution and degradation",
+   "unit": 4,
+   "question": "Which of the following is a source of soil pollution?",
+   "options": [
+    "Mulching with crop residue",
+    "Industrial sludge, mine tailings and plastics",
+    "Contour bunding",
+    "Green manuring"
+   ],
+   "answerIndex": 1,
+   "explanation": "Industrial solid waste, tailings, plastics and agrochemicals contaminate soil; the others are conservation practices.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43051,
+   "topic": "Environmental pollution & control technologies",
+   "subtopic": "Soil pollution and degradation",
+   "unit": 4,
+   "question": "Phytoremediation of metal-polluted soil uses:",
+   "options": [
+    "Incineration at 1,000 degrees",
+    "Excavation and dumping",
+    "Plants that absorb or stabilise contaminants",
+    "Chemical washing only"
+   ],
+   "answerIndex": 2,
+   "explanation": "Hyper-accumulator plants extract metals (phytoextraction) or immobilise them (phytostabilisation), a low-cost in-situ method.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43052,
+   "topic": "Environmental pollution & control technologies",
+   "subtopic": "Soil pollution and degradation",
+   "unit": 4,
+   "question": "Acid mine drainage is chiefly caused by oxidation of:",
+   "options": [
+    "Limestone",
+    "Quartz",
+    "Pyrite (iron sulphide)",
+    "Gypsum"
+   ],
+   "answerIndex": 2,
+   "explanation": "Exposed pyrite oxidises to give sulphuric acid and dissolved metals that pollute streams and soil.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43053,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Municipal solid waste: segregation, collection, processing",
+   "unit": 5,
+   "question": "Under the Solid Waste Management Rules, 2016, waste generators must segregate waste at source into:",
+   "options": [
+    "Biodegradable, non-biodegradable and domestic hazardous waste",
+    "Plastic and paper only",
+    "Organic and metal waste",
+    "Only wet and dry waste"
+   ],
+   "answerIndex": 0,
+   "explanation": "The Rules require three streams at source: biodegradable (wet), non-biodegradable (dry) and domestic hazardous waste such as batteries and sanitary waste.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43054,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Municipal solid waste: segregation, collection, processing",
+   "unit": 5,
+   "question": "Which of the following is the correct order of the waste management hierarchy from most to least preferred?",
+   "options": [
+    "Reuse, dispose, reduce, recycle, recover",
+    "Recycle, reduce, reuse, dispose, recover",
+    "Dispose, recover, recycle, reuse, reduce",
+    "Reduce, reuse, recycle, recover, dispose"
+   ],
+   "answerIndex": 3,
+   "explanation": "Prevention and reduction come first, then reuse and recycling, energy recovery, and finally safe disposal as the last resort.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43055,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Municipal solid waste: segregation, collection, processing",
+   "unit": 5,
+   "question": "A facility where waste from small collection vehicles is shifted to larger vehicles for long-distance haulage is called a:",
+   "options": [
+    "Composting yard",
+    "Incinerator",
+    "Sanitary landfill",
+    "Transfer station"
+   ],
+   "answerIndex": 3,
+   "explanation": "Transfer stations cut haulage cost by consolidating loads before transport to the processing or disposal site.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43056,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Municipal solid waste: segregation, collection, processing",
+   "unit": 5,
+   "question": "Leachate in a sanitary landfill is:",
+   "options": [
+    "Liquid formed by percolation of water through waste, carrying dissolved and suspended pollutants",
+    "Inert cover soil",
+    "Ash from incinerators",
+    "Gas produced by decomposition"
+   ],
+   "answerIndex": 0,
+   "explanation": "Leachate is a highly polluted liquid; liners and leachate collection and treatment systems prevent groundwater contamination.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43057,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Municipal solid waste: segregation, collection, processing",
+   "unit": 5,
+   "question": "The main gas produced in a landfill by anaerobic decomposition is:",
+   "options": [
+    "Hydrogen sulphide as the main gas",
+    "Oxygen",
+    "Methane",
+    "Nitrogen"
+   ],
+   "answerIndex": 2,
+   "explanation": "Landfill gas is mainly methane (around half) and carbon dioxide; methane is a potent greenhouse gas and can be collected for energy.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43058,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Municipal solid waste: segregation, collection, processing",
+   "unit": 5,
+   "question": "For efficient composting, the preferred carbon to nitrogen ratio of the starting mix is about:",
+   "options": [
+    "5 : 1",
+    "100 : 1",
+    "1 : 1",
+    "25–30 : 1"
+   ],
+   "answerIndex": 3,
+   "explanation": "A C:N ratio of roughly 25–30:1 supports microbial growth; too low causes ammonia loss and too high slows decomposition.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43059,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Municipal solid waste: segregation, collection, processing",
+   "unit": 5,
+   "question": "Vermicomposting mainly uses:",
+   "options": [
+    "Fungi only",
+    "Snails",
+    "Termites",
+    "Earthworms such as Eisenia fetida"
+   ],
+   "answerIndex": 3,
+   "explanation": "Earthworms feed on organic waste and excrete nutrient-rich castings that make a good soil conditioner.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43060,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Municipal solid waste: segregation, collection, processing",
+   "unit": 5,
+   "question": "Pyrolysis of waste is carried out:",
+   "options": [
+    "At ambient temperature",
+    "In the absence of oxygen",
+    "In excess oxygen",
+    "Under water"
+   ],
+   "answerIndex": 1,
+   "explanation": "Pyrolysis thermally decomposes organic matter without oxygen into gas, oil and char. Gasification uses limited oxygen and incineration uses excess air.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43061,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Municipal solid waste: segregation, collection, processing",
+   "unit": 5,
+   "question": "Refuse-derived fuel (RDF) is mainly prepared from:",
+   "options": [
+    "Sewage sludge only",
+    "Dry combustible fraction of municipal waste such as paper, plastics and textiles",
+    "Food waste only",
+    "Metals and glass"
+   ],
+   "answerIndex": 1,
+   "explanation": "RDF is made by shredding and drying the high calorific fraction; it is burned in cement kilns or power plants.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43062,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Municipal solid waste: segregation, collection, processing",
+   "unit": 5,
+   "question": "Match the technology with the principle:\nA. Composting  B. Incineration  C. Sanitary landfilling  D. Anaerobic digestion\n1. Controlled burning with excess air  2. Aerobic decomposition  3. Burial with daily cover and liners  4. Biogas generation without oxygen",
+   "options": [
+    "A-2, B-1, C-3, D-4",
+    "A-1, B-2, C-4, D-3",
+    "A-2, B-3, C-1, D-4",
+    "A-4, B-1, C-2, D-3"
+   ],
+   "answerIndex": 0,
+   "explanation": "Composting is aerobic; incineration is burning with excess air; sanitary landfill uses liners and daily soil cover; anaerobic digestion yields biogas.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43063,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Municipal solid waste: segregation, collection, processing",
+   "unit": 5,
+   "question": "Consider the following statements about sanitary landfills:\n1. They need a liner system and leachate collection.\n2. Daily cover helps control odour and vermin.\n3. Open dumping is equivalent to a sanitary landfill.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answerIndex": 0,
+   "explanation": "Open dumping lacks liners, cover and gas and leachate management, so it is not equal to a sanitary landfill; statements 1 and 2 are correct.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43064,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Municipal solid waste: segregation, collection, processing",
+   "unit": 5,
+   "question": "Door-to-door collection of municipal waste mainly improves:",
+   "options": [
+    "Open burning of waste",
+    "Segregation at source and reduces street littering",
+    "Leachate generation",
+    "Use of landfills"
+   ],
+   "answerIndex": 1,
+   "explanation": "Door-to-door collection of segregated waste prevents dumping in drains and open spaces and supports recycling and processing.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43065,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Municipal solid waste: segregation, collection, processing",
+   "unit": 5,
+   "question": "Incineration of municipal waste reduces its volume by about:",
+   "options": [
+    "5 per cent",
+    "20 per cent",
+    "No reduction",
+    "90 per cent"
+   ],
+   "answerIndex": 3,
+   "explanation": "Combustion reduces waste volume by about 90 per cent and mass by about 70–75 per cent, leaving ash that still needs safe disposal.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43066,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Agricultural waste and crop residue",
+   "unit": 5,
+   "question": "Open burning of paddy stubble mainly releases:",
+   "options": [
+    "Particulate matter, carbon monoxide and greenhouse gases",
+    "Only water vapour",
+    "Only oxygen",
+    "Ozone-friendly gases"
+   ],
+   "answerIndex": 0,
+   "explanation": "Burning crop residue emits PM2.5, CO, CO2, methane and black carbon, causing smog and health damage.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43067,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Agricultural waste and crop residue",
+   "unit": 5,
+   "question": "Which machine places seed directly into a paddy-stubble field without burning the residue?",
+   "options": [
+    "Thresher",
+    "Cultivator without seed box",
+    "Combine harvester only",
+    "Happy Seeder"
+   ],
+   "answerIndex": 3,
+   "explanation": "The Happy Seeder cuts and lifts the straw, sows wheat, and deposits the straw as mulch.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43068,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Agricultural waste and crop residue",
+   "unit": 5,
+   "question": "Biogas from a cattle-dung digester typically contains:",
+   "options": [
+    "90 per cent oxygen",
+    "55–65 per cent methane and 35–45 per cent carbon dioxide",
+    "50 per cent hydrogen",
+    "Mostly nitrogen"
+   ],
+   "answerIndex": 1,
+   "explanation": "Anaerobic digestion yields biogas rich in methane, used for cooking and electricity; the digested slurry is a good manure.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43069,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Agricultural waste and crop residue",
+   "unit": 5,
+   "question": "Biochar is produced by:",
+   "options": [
+    "Pyrolysis of biomass under limited oxygen",
+    "Fermentation of sugar",
+    "Incineration with excess air",
+    "Composting at room temperature"
+   ],
+   "answerIndex": 0,
+   "explanation": "Biochar is a stable carbon-rich product of pyrolysis; added to soil it improves water holding and locks carbon.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43070,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Agricultural waste and crop residue",
+   "unit": 5,
+   "question": "Bagasse, the fibrous residue of sugarcane, is commonly used for:",
+   "options": [
+    "Feeding nuclear reactors",
+    "Cogeneration of heat and power in sugar mills",
+    "Producing plastics only",
+    "Making cement clinker only"
+   ],
+   "answerIndex": 1,
+   "explanation": "Sugar mills burn bagasse in boilers to meet their own power needs and export surplus electricity.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43071,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Agricultural waste and crop residue",
+   "unit": 5,
+   "question": "Which is an ex-situ management option for crop residue?",
+   "options": [
+    "Making pellets and briquettes for co-firing in power plants",
+    "Leaving it to rot on roads",
+    "Burning in the field",
+    "Dumping in drains"
+   ],
+   "answerIndex": 0,
+   "explanation": "Ex-situ options move the residue off the field for fuel, fodder, board, mushroom substrate or compost.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43072,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Agricultural waste and crop residue",
+   "unit": 5,
+   "question": "Rice husk ash is a valuable by-product mainly because it is rich in:",
+   "options": [
+    "Silica",
+    "Sulphur",
+    "Lead",
+    "Mercury"
+   ],
+   "answerIndex": 0,
+   "explanation": "Rice husk ash contains up to 85–90 per cent silica and is used in cement and refractory industries.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43073,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Agricultural waste and crop residue",
+   "unit": 5,
+   "question": "Consider the following statements:\n1. Crop residue can be converted to compost and biogas.\n2. Bio-decomposer sprays can speed up decay of stubble in the field.\n3. Burning is the most environment-friendly way of managing residue.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answerIndex": 0,
+   "explanation": "Burning causes severe air pollution and loss of soil nutrients and microbes; statements 1 and 2 describe good practice.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43074,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Agricultural waste and crop residue",
+   "unit": 5,
+   "question": "Animal manure management is most helpful in controlling emissions of:",
+   "options": [
+    "Lead",
+    "Methane and ammonia",
+    "Ozone-depleting CFCs",
+    "Sulphur dioxide from power plants"
+   ],
+   "answerIndex": 1,
+   "explanation": "Stored manure emits methane and ammonia; digesters and composting capture or reduce them.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43075,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "E-waste and hazardous waste",
+   "unit": 5,
+   "question": "Which of the following is a toxic constituent of e-waste associated with CRT glass and solder?",
+   "options": [
+    "Sodium",
+    "Calcium",
+    "Potassium",
+    "Lead"
+   ],
+   "answerIndex": 3,
+   "explanation": "Lead from CRT glass and solder can damage the nervous system, especially in children.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43076,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "E-waste and hazardous waste",
+   "unit": 5,
+   "question": "Informal recycling of e-waste by open burning of cables releases:",
+   "options": [
+    "Helium",
+    "Dioxins and furans",
+    "Ozone",
+    "Only oxygen"
+   ],
+   "answerIndex": 1,
+   "explanation": "Burning plastic-coated cables and brominated plastics releases dioxins, furans and heavy metals.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43077,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "E-waste and hazardous waste",
+   "unit": 5,
+   "question": "The concept in which the producer is held responsible for collection and environmentally sound recycling of the product at end of life is:",
+   "options": [
+    "Cradle-to-gate",
+    "Polluter-pays only",
+    "Zero liquid discharge",
+    "Extended Producer Responsibility"
+   ],
+   "answerIndex": 3,
+   "explanation": "EPR is a core feature of the E-Waste (Management) Rules, with producer responsibility organisations and, since 2022 rules, EPR certificates.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43078,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "E-waste and hazardous waste",
+   "unit": 5,
+   "question": "Which international convention regulates transboundary movement of hazardous wastes?",
+   "options": [
+    "CITES",
+    "Montreal Protocol",
+    "Ramsar Convention",
+    "Basel Convention"
+   ],
+   "answerIndex": 3,
+   "explanation": "The Basel Convention (1989) controls transboundary movement and disposal of hazardous wastes.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43079,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "E-waste and hazardous waste",
+   "unit": 5,
+   "question": "Which one is a valuable material recovered from e-waste?",
+   "options": [
+    "Gold and copper",
+    "Uranium",
+    "Radium",
+    "Heavy water"
+   ],
+   "answerIndex": 0,
+   "explanation": "Printed circuit boards contain gold, silver, copper and palladium, which makes e-waste an 'urban mine'.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43080,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "E-waste and hazardous waste",
+   "unit": 5,
+   "question": "Under the Bio-Medical Waste Management Rules, 2016, anatomical waste and soiled items are collected in a:",
+   "options": [
+    "Yellow bag",
+    "Black bin for sharps",
+    "White translucent container",
+    "Blue container"
+   ],
+   "answerIndex": 0,
+   "explanation": "Yellow is for human and animal anatomical waste, soiled and expired medicine; red for contaminated recyclable plastics; white for sharps; blue for glassware.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43081,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "E-waste and hazardous waste",
+   "unit": 5,
+   "question": "Cadmium in e-waste mainly comes from:",
+   "options": [
+    "Aluminium frames",
+    "Glass screens only",
+    "Plastic casings",
+    "Rechargeable nickel-cadmium batteries"
+   ],
+   "answerIndex": 3,
+   "explanation": "Ni-Cd batteries, some contacts and older chip resistors are sources of cadmium, a carcinogenic heavy metal.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43082,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "E-waste and hazardous waste",
+   "unit": 5,
+   "question": "Brominated flame retardants in electronic equipment are a concern because they:",
+   "options": [
+    "Are ozone friendly gases",
+    "Are used to purify water",
+    "Are biodegradable within days",
+    "Are persistent and can release toxic substances when burned"
+   ],
+   "answerIndex": 3,
+   "explanation": "They persist in the environment, bioaccumulate and generate brominated dioxins when burned.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43083,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Bioremediation",
+   "unit": 5,
+   "question": "Addition of specialised microbes to a contaminated site to speed up degradation is called:",
+   "options": [
+    "Biostimulation",
+    "Biomagnification",
+    "Bioleaching",
+    "Bioaugmentation"
+   ],
+   "answerIndex": 3,
+   "explanation": "Bioaugmentation introduces microorganisms; biostimulation adds nutrients, oxygen or moisture to boost indigenous microbes.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43084,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Bioremediation",
+   "unit": 5,
+   "question": "Landfarming of oily sludge is an example of:",
+   "options": [
+    "Chemical precipitation",
+    "Incineration",
+    "In-situ phytoremediation",
+    "Ex-situ bioremediation"
+   ],
+   "answerIndex": 3,
+   "explanation": "Contaminated material is spread and tilled to supply oxygen so that soil microbes degrade the hydrocarbons.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43085,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Bioremediation",
+   "unit": 5,
+   "question": "Which is an in-situ bioremediation technique?",
+   "options": [
+    "Slurry bioreactor",
+    "Bioventing",
+    "Biopile",
+    "Landfarming"
+   ],
+   "answerIndex": 1,
+   "explanation": "Bioventing supplies air to unsaturated soil in place; biopiles, bioreactors and landfarming treat excavated material.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43086,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Bioremediation",
+   "unit": 5,
+   "question": "Bacteria genetically modified to degrade crude oil components were developed by:",
+   "options": [
+    "Norman Borlaug",
+    "Har Gobind Khorana",
+    "Ananda Mohan Chakrabarty",
+    "M. S. Swaminathan"
+   ],
+   "answerIndex": 2,
+   "explanation": "Chakrabarty engineered a Pseudomonas strain capable of degrading hydrocarbons, leading to a landmark patent case.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43087,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Bioremediation",
+   "unit": 5,
+   "question": "Use of plants to take up, concentrate or degrade pollutants is called:",
+   "options": [
+    "Composting",
+    "Phytoremediation",
+    "Biofiltration",
+    "Bioleaching"
+   ],
+   "answerIndex": 1,
+   "explanation": "Phytoremediation includes phytoextraction, rhizofiltration and phytostabilisation.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43088,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Bioremediation",
+   "unit": 5,
+   "question": "Bioremediation is usually most effective when the pollutant is:",
+   "options": [
+    "Inert metal in dry soil",
+    "A radioactive isotope",
+    "Biodegradable and the site has suitable nutrients, moisture and oxygen",
+    "Present in very high toxic concentration"
+   ],
+   "answerIndex": 2,
+   "explanation": "Microbial activity needs suitable conditions; non-degradable or highly toxic pollutants limit success.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43089,
+   "topic": "Solid, industrial & e-waste management",
+   "subtopic": "Bioremediation",
+   "unit": 5,
+   "question": "Consider the following statements about bioremediation:\n1. It uses living organisms to detoxify contaminants.\n2. It can be done in situ or ex situ.\n3. It always works faster than excavation and incineration.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answerIndex": 0,
+   "explanation": "Bioremediation is often slower than physical methods; statements 1 and 2 are correct.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43090,
+   "topic": "Environmental pollution & control technologies",
+   "subtopic": "Particulate and gaseous pollution control devices",
+   "unit": 4,
+   "question": "Which device works by charging particles and collecting them on oppositely charged plates?",
+   "options": [
+    "Cyclone separator",
+    "Settling chamber",
+    "Electrostatic precipitator",
+    "Venturi scrubber"
+   ],
+   "answerIndex": 2,
+   "explanation": "An ESP imparts charge by corona discharge and collects dust on plates; efficiency can exceed 99 per cent.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43091,
+   "topic": "Environmental pollution & control technologies",
+   "subtopic": "Particulate and gaseous pollution control devices",
+   "unit": 4,
+   "question": "A cyclone separator removes dust mainly by:",
+   "options": [
+    "Filtration through cloth",
+    "Centrifugal force",
+    "Chemical absorption",
+    "Electrical charge"
+   ],
+   "answerIndex": 1,
+   "explanation": "Dust-laden gas spins in the cyclone and heavier particles are thrown to the wall and fall to the hopper; efficient for coarse particles.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43092,
+   "topic": "Environmental pollution & control technologies",
+   "subtopic": "Particulate and gaseous pollution control devices",
+   "unit": 4,
+   "question": "A bag-house filter is NOT suitable when the gas is:",
+   "options": [
+    "Very hot and moist with condensing vapours",
+    "Dusty with fine particles",
+    "Dry and moderately warm",
+    "Free of corrosive vapours"
+   ],
+   "answerIndex": 0,
+   "explanation": "High temperature and condensing moisture can damage fabric or blind the bags.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43093,
+   "topic": "Environmental pollution & control technologies",
+   "subtopic": "Particulate and gaseous pollution control devices",
+   "unit": 4,
+   "question": "Which device can remove both particulates and soluble gases like SO2 from flue gas?",
+   "options": [
+    "Wet scrubber",
+    "Settling chamber",
+    "Dry bag filter",
+    "Cyclone"
+   ],
+   "answerIndex": 0,
+   "explanation": "Wet scrubbers use liquid contact to capture particles and absorb gases, producing a liquid effluent to treat.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43094,
+   "topic": "Environmental pollution & control technologies",
+   "subtopic": "Particulate and gaseous pollution control devices",
+   "unit": 4,
+   "question": "Flue gas desulphurisation (FGD) in thermal power plants is meant to control:",
+   "options": [
+    "Noise",
+    "Carbon monoxide",
+    "Sulphur dioxide",
+    "Fly-ash dust only"
+   ],
+   "answerIndex": 2,
+   "explanation": "FGD removes SO2, most commonly by reacting with a limestone or lime slurry to give gypsum.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43095,
+   "topic": "Environmental pollution & control technologies",
+   "subtopic": "Particulate and gaseous pollution control devices",
+   "unit": 4,
+   "question": "Selective catalytic reduction (SCR) reduces emissions of:",
+   "options": [
+    "Methane",
+    "Particulates",
+    "Sulphur dioxide",
+    "Oxides of nitrogen"
+   ],
+   "answerIndex": 3,
+   "explanation": "SCR uses ammonia or urea over a catalyst to convert NOx to nitrogen and water.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43096,
+   "topic": "Environmental pollution & control technologies",
+   "subtopic": "Particulate and gaseous pollution control devices",
+   "unit": 4,
+   "question": "The three-way catalytic converter in petrol vehicles reduces:",
+   "options": [
+    "Only CO2",
+    "Only SO2",
+    "CO, hydrocarbons and NOx",
+    "Only particulates"
+   ],
+   "answerIndex": 2,
+   "explanation": "It oxidises CO and hydrocarbons and reduces NOx simultaneously on platinum, palladium and rhodium catalysts.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43097,
+   "topic": "Environmental pollution & control technologies",
+   "subtopic": "Particulate and gaseous pollution control devices",
+   "unit": 4,
+   "question": "Rank the devices by their usual ability to collect fine particles (1 μm), from lowest to highest: A. Settling chamber  B. Cyclone  C. Bag filter",
+   "options": [
+    "A, B, C",
+    "C, B, A",
+    "B, A, C",
+    "A, C, B"
+   ],
+   "answerIndex": 0,
+   "explanation": "Settling chambers remove only large particles; cyclones are moderate for fine dust; fabric filters achieve very high efficiency even for fine particles.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43098,
+   "topic": "EIA, sustainability & social issues",
+   "subtopic": "EIA process, baseline data and methods",
+   "unit": 8,
+   "question": "The Environmental Impact Assessment (EIA) Notification of 2006 was issued under the:",
+   "options": [
+    "Wildlife Protection Act, 1972",
+    "Water Act, 1974",
+    "Environment (Protection) Act, 1986",
+    "Forest Conservation Act, 1980"
+   ],
+   "answerIndex": 2,
+   "explanation": "The 2006 EIA Notification (14 September 2006) was issued under the Environment (Protection) Act, 1986, replacing the 1994 notification.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43099,
+   "topic": "EIA, sustainability & social issues",
+   "subtopic": "EIA process, baseline data and methods",
+   "unit": 8,
+   "question": "Arrange the stages of the EIA clearance process under the 2006 notification: A. Appraisal  B. Scoping  C. Screening  D. Public consultation",
+   "options": [
+    "C, B, D, A",
+    "B, C, A, D",
+    "C, D, B, A",
+    "A, B, C, D"
+   ],
+   "answerIndex": 0,
+   "explanation": "The sequence is screening, scoping (terms of reference), public consultation (hearing), and appraisal by the expert committee.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43100,
+   "topic": "EIA, sustainability & social issues",
+   "subtopic": "EIA process, baseline data and methods",
+   "unit": 8,
+   "question": "Under the 2006 EIA Notification, Category A projects are appraised by:",
+   "options": [
+    "State Pollution Control Board alone",
+    "District Collector",
+    "Expert Appraisal Committee at the Centre, with clearance by the MoEF&CC",
+    "Municipal corporation"
+   ],
+   "answerIndex": 2,
+   "explanation": "Category A projects need central clearance after appraisal by the EAC; Category B projects are handled by the State level SEIAA and SEAC.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43101,
+   "topic": "EIA, sustainability & social issues",
+   "subtopic": "EIA process, baseline data and methods",
+   "unit": 8,
+   "question": "Scoping in EIA is the step that:",
+   "options": [
+    "Grants the final clearance",
+    "Monitors project operation",
+    "Identifies key issues and fixes the terms of reference for the study",
+    "Collects public objections"
+   ],
+   "answerIndex": 2,
+   "explanation": "Scoping narrows the study to significant impacts and prepares the terms of reference.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43102,
+   "topic": "EIA, sustainability & social issues",
+   "subtopic": "EIA process, baseline data and methods",
+   "unit": 8,
+   "question": "Baseline data in an EIA is collected to:",
+   "options": [
+    "Predict the project's profit",
+    "Design the factory layout",
+    "Obtain land",
+    "Describe the existing environmental condition before the project begins"
+   ],
+   "answerIndex": 3,
+   "explanation": "Baseline data on air, water, noise, soil, biota and socio-economic conditions form the reference against which impacts are predicted and later monitored.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43103,
+   "topic": "EIA, sustainability & social issues",
+   "subtopic": "EIA process, baseline data and methods",
+   "unit": 8,
+   "question": "Which of the following is a secondary source of baseline data?",
+   "options": [
+    "Noise measured near the plant",
+    "Field air sampling for 24 hours",
+    "Meteorological data from IMD and census records",
+    "Soil samples collected at the site"
+   ],
+   "answerIndex": 2,
+   "explanation": "Secondary data come from existing agencies (IMD, CPCB, census, survey maps and satellite data); primary data are measured by the study team in the field.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43104,
+   "topic": "EIA, sustainability & social issues",
+   "subtopic": "EIA process, baseline data and methods",
+   "unit": 8,
+   "question": "A 'rapid EIA' differs from a 'comprehensive EIA' in that it uses:",
+   "options": [
+    "No public hearing under any condition",
+    "Data for no season",
+    "Only secondary data on cost",
+    "Baseline data for only one season, other than the monsoon"
+   ],
+   "answerIndex": 3,
+   "explanation": "Rapid EIA is based on one season's data, while comprehensive EIA covers all seasons (one full year).",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43105,
+   "topic": "EIA, sustainability & social issues",
+   "subtopic": "EIA process, baseline data and methods",
+   "unit": 8,
+   "question": "The Leopold matrix method of impact identification:",
+   "options": [
+    "Draws a network of food webs",
+    "Maps flows of money",
+    "Overlays transparent maps",
+    "Cross-tabulates project activities against environmental components"
+   ],
+   "answerIndex": 3,
+   "explanation": "The Leopold matrix (1971) lists actions on one axis and environmental factors on the other and rates magnitude and importance of each cell.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43106,
+   "topic": "EIA, sustainability & social issues",
+   "subtopic": "EIA process, baseline data and methods",
+   "unit": 8,
+   "question": "Match the method with its developer or feature:\nA. Overlay mapping  B. Network method  C. Checklist  D. Matrix\n1. Leopold  2. McHarg  3. Lists factors without cause-effect links  4. Sorensen",
+   "options": [
+    "A-2, B-4, C-3, D-1",
+    "A-1, B-2, C-4, D-3",
+    "A-3, B-1, C-2, D-4",
+    "A-4, B-3, C-1, D-2"
+   ],
+   "answerIndex": 0,
+   "explanation": "McHarg developed overlay mapping, Sorensen the network method, checklists list factors simply, and Leopold's matrix links actions with environmental parameters.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43107,
+   "topic": "EIA, sustainability & social issues",
+   "subtopic": "EIA process, baseline data and methods",
+   "unit": 8,
+   "question": "The Environmental Management Plan (EMP) in an EIA report states:",
+   "options": [
+    "The sale price of products",
+    "Details of staff recruitment",
+    "Measures to avoid, mitigate and monitor adverse impacts",
+    "Marketing strategy"
+   ],
+   "answerIndex": 2,
+   "explanation": "The EMP sets mitigation measures, responsibilities, budget and monitoring schedule for the project.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43108,
+   "topic": "EIA, sustainability & social issues",
+   "subtopic": "EIA process, baseline data and methods",
+   "unit": 8,
+   "question": "Public consultation (public hearing) for an EIA is conducted by:",
+   "options": [
+    "The company alone",
+    "The Election Commission",
+    "The State Pollution Control Board with the district administration",
+    "The Supreme Court"
+   ],
+   "answerIndex": 2,
+   "explanation": "The SPCB organises the hearing at or near the site after giving advance public notice and records the comments of local people.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43109,
+   "topic": "EIA, sustainability & social issues",
+   "subtopic": "EIA process, baseline data and methods",
+   "unit": 8,
+   "question": "The Brundtland Commission (1987) defined sustainable development as development that:",
+   "options": [
+    "Maximises short-term growth",
+    "Stops all industrial activity",
+    "Meets the needs of the present without compromising the ability of future generations to meet their own needs",
+    "Protects only forests"
+   ],
+   "answerIndex": 2,
+   "explanation": "The definition comes from 'Our Common Future', the report of the World Commission on Environment and Development.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43110,
+   "topic": "EIA, sustainability & social issues",
+   "subtopic": "EIA process, baseline data and methods",
+   "unit": 8,
+   "question": "ISO 14001 is a standard for:",
+   "options": [
+    "Environmental management systems",
+    "Occupational health and safety",
+    "Quality management",
+    "Information security"
+   ],
+   "answerIndex": 0,
+   "explanation": "ISO 14001 sets criteria for an environmental management system; ISO 9001 covers quality and ISO 45001 covers occupational health and safety.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43111,
+   "topic": "Environmental policies, conventions & laws",
+   "subtopic": "Indian environmental laws and rules",
+   "unit": 7,
+   "question": "The Environment (Protection) Act, 1986 was enacted under which Article of the Constitution after the Bhopal gas tragedy?",
+   "options": [
+    "Article 253",
+    "Article 51A(g)",
+    "Article 21",
+    "Article 48A"
+   ],
+   "answerIndex": 0,
+   "explanation": "Parliament passed it to implement decisions of the 1972 Stockholm Conference under its power to legislate for international agreements (Article 253).",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43112,
+   "topic": "Environmental policies, conventions & laws",
+   "subtopic": "Indian environmental laws and rules",
+   "unit": 7,
+   "question": "The Water (Prevention and Control of Pollution) Act was passed in:",
+   "options": [
+    "1974",
+    "1981",
+    "1972",
+    "1986"
+   ],
+   "answerIndex": 0,
+   "explanation": "The Water Act, 1974 created the Central and State Pollution Control Boards; the Air Act followed in 1981.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43113,
+   "topic": "Environmental policies, conventions & laws",
+   "subtopic": "Indian environmental laws and rules",
+   "unit": 7,
+   "question": "The Air (Prevention and Control of Pollution) Act, 1981 was amended in 1987 to include:",
+   "options": [
+    "Plastic waste",
+    "Water pollutants",
+    "Forest rights",
+    "Noise as an air pollutant"
+   ],
+   "answerIndex": 3,
+   "explanation": "The 1987 amendment brought noise within the definition of air pollutant and strengthened enforcement.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43114,
+   "topic": "Environmental policies, conventions & laws",
+   "subtopic": "Indian environmental laws and rules",
+   "unit": 7,
+   "question": "Which of the following needs prior approval of the Central Government before forest land is used for non-forest purposes?",
+   "options": [
+    "Forest (Conservation) Act, 1980",
+    "Noise Rules, 2000",
+    "Water Act, 1974",
+    "Air Act, 1981"
+   ],
+   "answerIndex": 0,
+   "explanation": "The Forest (Conservation) Act, 1980 (now Van (Sanrakshan Evam Samvardhan) Adhiniyam, 1980) restricts de-reservation and diversion of forest land.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43115,
+   "topic": "Environmental policies, conventions & laws",
+   "subtopic": "Indian environmental laws and rules",
+   "unit": 7,
+   "question": "Species listed in Schedule I of the Wild Life (Protection) Act, 1972 get:",
+   "options": [
+    "Only protection from cattle",
+    "No protection",
+    "The highest level of protection with the severest penalties",
+    "Permission for trade"
+   ],
+   "answerIndex": 2,
+   "explanation": "Schedule I and Part II of Schedule II species receive the highest protection; hunting is prohibited.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43116,
+   "topic": "Environmental policies, conventions & laws",
+   "subtopic": "Indian environmental laws and rules",
+   "unit": 7,
+   "question": "The Solid Waste Management Rules, 2016 replaced the:",
+   "options": [
+    "Water Act, 1974",
+    "Plastic Rules, 1999 only",
+    "Noise Rules, 2000",
+    "Municipal Solid Wastes (Management and Handling) Rules, 2000"
+   ],
+   "answerIndex": 3,
+   "explanation": "The 2016 Rules extended beyond municipal limits, mandated segregation at source and introduced user fees and spot fines.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43117,
+   "topic": "Environmental policies, conventions & laws",
+   "subtopic": "Indian environmental laws and rules",
+   "unit": 7,
+   "question": "The National Green Tribunal Act was enacted in:",
+   "options": [
+    "1986",
+    "2002",
+    "1995",
+    "2010"
+   ],
+   "answerIndex": 3,
+   "explanation": "The NGT, set up in October 2010, handles civil cases on environmental laws and applies the principles of sustainable development, precaution and polluter pays.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43118,
+   "topic": "Environmental policies, conventions & laws",
+   "subtopic": "Indian environmental laws and rules",
+   "unit": 7,
+   "question": "The principle that the polluter should bear the cost of damage caused by pollution is called:",
+   "options": [
+    "Inter-generational equity",
+    "Public trust doctrine",
+    "Precautionary principle",
+    "Polluter pays principle"
+   ],
+   "answerIndex": 3,
+   "explanation": "It was upheld by the Supreme Court in Indian Council for Enviro-Legal Action v. Union of India and the Vellore Citizens Welfare Forum case.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43119,
+   "topic": "Environmental policies, conventions & laws",
+   "subtopic": "Indian environmental laws and rules",
+   "unit": 7,
+   "question": "Consider the following statements:\n1. The Central Pollution Control Board was constituted under the Water Act, 1974.\n2. The Biological Diversity Act, 2002 set up the National Biodiversity Authority.\n3. The Hazardous and Other Wastes Rules apply only to municipal waste.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answerIndex": 0,
+   "explanation": "Statements 1 and 2 are correct. The Hazardous and Other Wastes (Management and Transboundary Movement) Rules, 2016 cover industrial hazardous wastes, not municipal waste.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 43120,
+   "topic": "Environmental policies, conventions & laws",
+   "subtopic": "Indian environmental laws and rules",
+   "unit": 7,
+   "question": "Match the law with its subject:\nA. Air Act 1981  B. Wild Life Act 1972  C. Biological Diversity Act 2002  D. Plastic Waste Management Rules 2016\n1. Access and benefit sharing  2. Controlling atmospheric pollutants  3. Protection of species and habitats  4. Extended producer responsibility for plastic packaging",
+   "options": [
+    "A-2, B-3, C-1, D-4",
+    "A-3, B-2, C-4, D-1",
+    "A-2, B-1, C-3, D-4",
+    "A-4, B-3, C-1, D-2"
+   ],
+   "answerIndex": 0,
+   "explanation": "Each law deals with the subject shown: air pollutants, wildlife protection, access and benefit-sharing, and EPR for plastic packaging.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  }
+ ]
+}
