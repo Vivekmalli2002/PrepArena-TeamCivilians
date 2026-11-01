@@ -117,3 +117,16 @@ Stored attempts keep only question ids, responses and a snapshot of the answer k
 - **Mocks.** `src/content/patterns.ts` defines paper patterns (AEE Paper-2/3, Group-2 screening, AEE Paper-1) with the
   basis stated on screen; "Customise" lets the student pick the number of questions per section. The Custom builder takes
   any number up to what is available and can follow the weightage.
+
+## Group-I Mains learning tool
+
+`/mains` replaces the answer-evaluation page. Questions are tagged with a fine **theme** and the **angles** they ask about
+(`scripts/extract/mains_themes.py` → `src/content/mains.json`), themes are ranked by how often the commission returns to
+them, and the daily queue serves 1–3 questions a day, most recurring theme first and a different angle each time.
+Anything not marked completed that day goes to the **backlog** at the end.
+
+- **Add more Group-I papers**: append questions to `src/content/mains.json` (`id, year, paper, paperName, no, marks, question`)
+  and re-run `python3 -I scripts/extract/mains_themes.py` (extend the `THEMES` rules for new subjects).
+- **Add model answers**: put them in `src/content/mains-answers.json` as `{ "<question id>": { "answer": "…markdown…", "source": "…" } }`
+  (`##` headings, `-` bullets and `**bold**` are rendered). Until an answer is present the card shows an answer frame and a
+  notes box. Only text you have the right to publish should go in.

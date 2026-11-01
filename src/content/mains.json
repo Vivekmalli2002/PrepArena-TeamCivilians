@@ -5,8 +5,13 @@
 "no": "1(a)",
 "marks": 10,
 "question": "Describe the research focus of the National Institute for Research on Commercial Agriculture (NIRCA) in Rajamahendravaram. How does it support India's agricultural sector?",
-"theme": "Science & scientists",
-"id": "g1p5-2025-paperv-1(a)"
+"theme": "Information technology & digital governance",
+"id": "g1p5-2025-paperv-1(a)",
+"dims": [
+"mechanism"
+],
+"ap": true,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -14,8 +19,14 @@
 "no": "1(b)",
 "marks": 10,
 "question": "Evaluate the impact of Internet of Things (IoT) technologies on the automation of household systems. Illustrate how everyday tasks have evolved due to IoT innovations.",
-"theme": "Information technology & digital",
-"id": "g1p5-2025-paperv-1(b)"
+"theme": "Information technology & digital governance",
+"id": "g1p5-2025-paperv-1(b)",
+"dims": [
+"impact",
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -23,8 +34,13 @@
 "no": "2(a)",
 "marks": 10,
 "question": "Discuss the discovery of Raman effect by Dr. C.V. Raman. How did his work impact the global scientific community?",
-"theme": "Science & scientists",
-"id": "g1p5-2025-paperv-2(a)"
+"theme": "Science & technology policy & institutions",
+"id": "g1p5-2025-paperv-2(a)",
+"dims": [
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -32,8 +48,13 @@
 "no": "2(b)",
 "marks": 10,
 "question": "Which are the major scientific institutes located in Andhra Pradesh? Discuss the role of IISER Tirupati in the scientific and educational development of the state.",
-"theme": "Science & scientists",
-"id": "g1p5-2025-paperv-2(b)"
+"theme": "Science & technology policy & institutions",
+"id": "g1p5-2025-paperv-2(b)",
+"dims": [
+"impact"
+],
+"ap": true,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -41,8 +62,14 @@
 "no": "3(a)",
 "marks": 10,
 "question": "Discuss the evolution of e-governance in India, highlighting key initiatives. Analyze how these initiatives have transformed public service delivery and enhanced citizen engagement.",
-"theme": "Information technology & digital",
-"id": "g1p5-2025-paperv-3(a)"
+"theme": "Information technology & digital governance",
+"id": "g1p5-2025-paperv-3(a)",
+"dims": [
+"policy",
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -50,8 +77,13 @@
 "no": "3(b)",
 "marks": 10,
 "question": "Define cybercrime. Discuss the major types of cybercrimes prevalent in India today.",
-"theme": "Information technology & digital",
-"id": "g1p5-2025-paperv-3(b)"
+"theme": "Information technology & digital governance",
+"id": "g1p5-2025-paperv-3(b)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -59,8 +91,14 @@
 "no": "4(a)",
 "marks": 10,
 "question": "Discuss the key objectives and features of the National Policy on Information Technology, 2012. How does it aim to transform India into a digitally empowered society?",
-"theme": "Information technology & digital",
-"id": "g1p5-2025-paperv-4(a)"
+"theme": "Information technology & digital governance",
+"id": "g1p5-2025-paperv-4(a)",
+"dims": [
+"mechanism",
+"policy"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -68,8 +106,15 @@
 "no": "4(b)",
 "marks": 10,
 "question": "Discuss the vision and mission of DRDO? Describe the role of DRDO in the contribution to national development.",
-"theme": "Space, defence & nuclear",
-"id": "g1p5-2025-paperv-4(b)"
+"theme": "Science & technology policy & institutions",
+"id": "g1p5-2025-paperv-4(b)",
+"dims": [
+"mechanism",
+"policy",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -77,8 +122,16 @@
 "no": "5(a)",
 "marks": 10,
 "question": "Describe the role of the Indian Remote Sensing (IRS) satellite programme. How do these satellites assist in natural resource management?",
-"theme": "Space, defence & nuclear",
-"id": "g1p5-2025-paperv-5(a)"
+"theme": "Space technology & satellites",
+"id": "g1p5-2025-paperv-5(a)",
+"dims": [
+"mechanism",
+"policy",
+"impact",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -86,8 +139,13 @@
 "no": "5(b)",
 "marks": 10,
 "question": "Provide a comprehensive overview of the primary reasons for deforestation in Andhra Pradesh in the past two decades.",
-"theme": "General science & technology",
-"id": "g1p5-2025-paperv-5(b)"
+"theme": "Biodiversity, forests & ecology",
+"id": "g1p5-2025-paperv-5(b)",
+"dims": [
+"mechanism"
+],
+"ap": true,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -95,8 +153,16 @@
 "no": "6(a)",
 "marks": 10,
 "question": "Investigate the relationship between mining activities and the occurrence of earthquakes. Explain how mining operations can be regulated to minimize seismic risks.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2025-paperv-6(a)"
+"theme": "Disaster management",
+"id": "g1p5-2025-paperv-6(a)",
+"dims": [
+"mechanism",
+"policy",
+"issues",
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -104,8 +170,15 @@
 "no": "6(b)",
 "marks": 10,
 "question": "Define sustainable development and critically evaluate its relevance in the context of modern industrialization.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2025-paperv-6(b)"
+"theme": "Environmental law, EIA & institutions",
+"id": "g1p5-2025-paperv-6(b)",
+"dims": [
+"concept",
+"impact",
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -113,8 +186,13 @@
 "no": "7(a)",
 "marks": 10,
 "question": "Describe the relationship between deforestation and the emergence of infectious diseases.",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2025-paperv-7(a)"
+"theme": "Biodiversity, forests & ecology",
+"id": "g1p5-2025-paperv-7(a)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -122,8 +200,16 @@
 "no": "7(b)",
 "marks": 10,
 "question": "What is Environmental Impact Assessment (EIA)? Describe its key stages.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2025-paperv-7(b)"
+"theme": "Environmental law, EIA & institutions",
+"id": "g1p5-2025-paperv-7(b)",
+"dims": [
+"concept",
+"mechanism",
+"impact",
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -131,8 +217,16 @@
 "no": "8(a)",
 "marks": 10,
 "question": "Explain the different types of natural resources in India. How are they being conserved through government initiatives?",
-"theme": "General science & technology",
-"id": "g1p5-2025-paperv-8(a)"
+"theme": "Natural resources, land & urbanisation",
+"id": "g1p5-2025-paperv-8(a)",
+"dims": [
+"concept",
+"mechanism",
+"policy",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -140,8 +234,16 @@
 "no": "8(b)",
 "marks": 10,
 "question": "What are the key principles of Integrated Solid Waste Management (ISWM)? Discuss the role of waste hierarchy in ISWM.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2025-paperv-8(b)"
+"theme": "Waste management",
+"id": "g1p5-2025-paperv-8(b)",
+"dims": [
+"concept",
+"mechanism",
+"impact",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -149,8 +251,15 @@
 "no": "9(a)",
 "marks": 10,
 "question": "Analyze the potential of plant-derived biopharmaceuticals in promoting sustainable healthcare. Explain how the application of green pharmacy principles can help minimize environmental harm at each stage of the pharmaceutical lifecycle.",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2025-paperv-9(a)"
+"theme": "GM crops & genetic engineering",
+"id": "g1p5-2025-paperv-9(a)",
+"dims": [
+"mechanism",
+"impact",
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -158,8 +267,15 @@
 "no": "9(b)",
 "marks": 10,
 "question": "Differentiate between conventional and non-conventional energy resources. Explain their relevance in India's energy sector.",
-"theme": "Energy",
-"id": "g1p5-2025-paperv-9(b)"
+"theme": "Renewable & clean energy",
+"id": "g1p5-2025-paperv-9(b)",
+"dims": [
+"concept",
+"mechanism",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -167,8 +283,16 @@
 "no": "10(a)",
 "marks": 10,
 "question": "Critically assess the effectiveness of major disaster management initiatives undertaken in India since the enactment of the Disaster Management Act, 2005.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2025-paperv-10(a)"
+"theme": "Disaster management",
+"id": "g1p5-2025-paperv-10(a)",
+"dims": [
+"policy",
+"impact",
+"measures",
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -176,8 +300,14 @@
 "no": "10(b)",
 "marks": 10,
 "question": "Discuss the legislative framework for controlling air and water pollution in India. Highlight the key provisions and limitations of relevant acts.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2025-paperv-10(b)"
+"theme": "Water, soil & marine pollution",
+"id": "g1p5-2025-paperv-10(b)",
+"dims": [
+"policy",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -185,8 +315,14 @@
 "no": "11(a)",
 "marks": 10,
 "question": "Define global warming, and differentiate it clearly from climate change. Explain the key natural and human-induced causes of global warming and briefly discuss which factors are currently dominant in driving global temperature rise.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2025-paperv-11(a)"
+"theme": "Climate change & global warming",
+"id": "g1p5-2025-paperv-11(a)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -194,8 +330,14 @@
 "no": "11(b)",
 "marks": 10,
 "question": "Discuss the role of remote sensing in tracking the dispersion of environmental pollutants. Analyze its implications for human health in affected regions, highlighting limitations and future improvements.",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2025-paperv-11(b)"
+"theme": "Space technology & satellites",
+"id": "g1p5-2025-paperv-11(b)",
+"dims": [
+"impact",
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -203,8 +345,16 @@
 "no": "12(a)",
 "marks": 10,
 "question": "Explain the regulatory framework governing genetically modified organisms in India and assess its adequacy in addressing modern challenges.",
-"theme": "Biotechnology & genetics",
-"id": "g1p5-2025-paperv-12(a)"
+"theme": "GM crops & genetic engineering",
+"id": "g1p5-2025-paperv-12(a)",
+"dims": [
+"mechanism",
+"policy",
+"issues",
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -212,8 +362,16 @@
 "no": "12(b)",
 "marks": 10,
 "question": "Trace the evolution of India's National Biotechnology Development Strategy (NBDS) and discuss its key objectives. Critically evaluate its impact on the growth of the biotechnology sector in India.",
-"theme": "Biotechnology & genetics",
-"id": "g1p5-2025-paperv-12(b)"
+"theme": "GM crops & genetic engineering",
+"id": "g1p5-2025-paperv-12(b)",
+"dims": [
+"policy",
+"impact",
+"measures",
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -221,8 +379,13 @@
 "no": "13(a)",
 "marks": 10,
 "question": "Describe the components and functioning of a vaccine.",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2025-paperv-13(a)"
+"theme": "Vaccines & immunology",
+"id": "g1p5-2025-paperv-13(a)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -230,8 +393,15 @@
 "no": "13(b)",
 "marks": 10,
 "question": "Define genetic engineering. Explain its applications in agriculture and medicine.",
-"theme": "Biotechnology & genetics",
-"id": "g1p5-2025-paperv-13(b)"
+"theme": "GM crops & genetic engineering",
+"id": "g1p5-2025-paperv-13(b)",
+"dims": [
+"concept",
+"mechanism",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -239,8 +409,14 @@
 "no": "14(a)",
 "marks": 10,
 "question": "Describe the integrated strategies used in biotechnology to monitor and control outbreaks of bacterial diseases in poultry farming.",
-"theme": "Biotechnology & genetics",
-"id": "g1p5-2025-paperv-14(a)"
+"theme": "Infectious diseases & antibiotics",
+"id": "g1p5-2025-paperv-14(a)",
+"dims": [
+"mechanism",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -248,8 +424,15 @@
 "no": "14(b)",
 "marks": 10,
 "question": "Examine how urban infrastructure influences the implementation of preventive measures during microbial disease outbreaks. Suggest technology-driven solutions.",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2025-paperv-14(b)"
+"theme": "Infectious diseases & antibiotics",
+"id": "g1p5-2025-paperv-14(b)",
+"dims": [
+"impact",
+"measures",
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -257,8 +440,14 @@
 "no": "15(a)",
 "marks": 10,
 "question": "Discuss the transmission dynamics of respiratory tract infections in densely populated urban settings. Propose effective public health strategies for their prevention.",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2025-paperv-15(a)"
+"theme": "Infectious diseases & antibiotics",
+"id": "g1p5-2025-paperv-15(a)",
+"dims": [
+"impact",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2025,
@@ -266,8 +455,14 @@
 "no": "15(b)",
 "marks": 10,
 "question": "Describe the importance of IPR in academic and industrial research collaborations.",
-"theme": "Science & scientists",
-"id": "g1p5-2025-paperv-15(b)"
+"theme": "Intellectual property & patents",
+"id": "g1p5-2025-paperv-15(b)",
+"dims": [
+"mechanism",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -275,8 +470,14 @@
 "no": "1(a)",
 "marks": 10,
 "question": "Do you think the problem in India is \"not so much knowledge creation, as knowledge consumption\" and Scientific Social Responsibility (SSR) will go a long way in remedying this situation? Justify your stand. Discuss the challenges associated with the implementation of Scientific Social Responsibility.",
-"theme": "General science & technology",
-"id": "g1p5-2023-paperv-1(a)"
+"theme": "Nanotechnology & emerging technology",
+"id": "g1p5-2023-paperv-1(a)",
+"dims": [
+"issues",
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -284,8 +485,13 @@
 "no": "1(b)",
 "marks": 10,
 "question": "Technology plays a key role in transforming healthcare sector and in addressing India's healthcare challenges — Discuss.",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2023-paperv-1(b)"
+"theme": "Health, nutrition & medicine",
+"id": "g1p5-2023-paperv-1(b)",
+"dims": [
+"issues"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -293,8 +499,14 @@
 "no": "2(a)",
 "marks": 10,
 "question": "Digital platforms dramatically improve the quality and accountability of public service and facilitate citizen centric governance — Elaborate. Explain various Technical, Economic and Social bottlenecks in the implementation of e-governance programmes in India.",
-"theme": "Information technology & digital",
-"id": "g1p5-2023-paperv-2(a)"
+"theme": "Information technology & digital governance",
+"id": "g1p5-2023-paperv-2(a)",
+"dims": [
+"mechanism",
+"policy"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -302,8 +514,15 @@
 "no": "2(b)",
 "marks": 10,
 "question": "Explain how 'Atmanirbhar Bharat' initiative is bringing a big change in India's IT sector. Suggest the steps to be taken to make India a Global technology hub.",
-"theme": "General science & technology",
-"id": "g1p5-2023-paperv-2(b)"
+"theme": "Information technology & digital governance",
+"id": "g1p5-2023-paperv-2(b)",
+"dims": [
+"mechanism",
+"policy",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -311,8 +530,14 @@
 "no": "3(a)",
 "marks": 10,
 "question": "What is Space Junk ? Discuss the challenges posed by increased space junk and the potential risk associated with it. What do you know about Project NETRA ?",
-"theme": "Space, defence & nuclear",
-"id": "g1p5-2023-paperv-3(a)"
+"theme": "Space technology & satellites",
+"id": "g1p5-2023-paperv-3(a)",
+"dims": [
+"concept",
+"issues"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -320,8 +545,13 @@
 "no": "3(b)",
 "marks": 10,
 "question": "Why is India's space industry looking for private sector investments even though ISRO is a successfully performing PSU ?",
-"theme": "Space, defence & nuclear",
-"id": "g1p5-2023-paperv-3(b)"
+"theme": "Space technology & satellites",
+"id": "g1p5-2023-paperv-3(b)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -329,8 +559,13 @@
 "no": "4(a)",
 "marks": 10,
 "question": "Though circumstances are strongly insisting for India to overturn decades of 'No first use' nuclear doctrine, still India is committed to No first use of nuclear weapons — Comment.",
-"theme": "Space, defence & nuclear",
-"id": "g1p5-2023-paperv-4(a)"
+"theme": "Nuclear energy & non-proliferation",
+"id": "g1p5-2023-paperv-4(a)",
+"dims": [
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -338,8 +573,13 @@
 "no": "4(b)",
 "marks": 10,
 "question": "What is Green Energy ? Discuss about the Green Energy corridors and their need in India.",
-"theme": "Energy",
-"id": "g1p5-2023-paperv-4(b)"
+"theme": "Renewable & clean energy",
+"id": "g1p5-2023-paperv-4(b)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -347,8 +587,16 @@
 "no": "5(a)",
 "marks": 10,
 "question": "Climate change is a global concern which needs urgent intervention to combat it — Explain why. Discuss how climate smart agriculture mitigates the devastating effects of climate change.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2023-paperv-5(a)"
+"theme": "Climate change & global warming",
+"id": "g1p5-2023-paperv-5(a)",
+"dims": [
+"mechanism",
+"issues",
+"impact",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -356,8 +604,15 @@
 "no": "5(b)",
 "marks": 10,
 "question": "What is meant by open cast mining ? Discuss the impacts of open cast mining on environment and solutions to overcome them. Add a note on the importance of post mining reclamation.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2023-paperv-5(b)"
+"theme": "Mining & mineral resources",
+"id": "g1p5-2023-paperv-5(b)",
+"dims": [
+"concept",
+"impact",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -365,8 +620,15 @@
 "no": "6(a)",
 "marks": 10,
 "question": "What are various mitigation activities by the Government of India to lower CO2 emission for trading of carbon credits in the international market under Paris Agreement ?",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2023-paperv-6(a)"
+"theme": "Climate change & global warming",
+"id": "g1p5-2023-paperv-6(a)",
+"dims": [
+"concept",
+"policy",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -374,8 +636,16 @@
 "no": "6(b)",
 "marks": 10,
 "question": "Explain various challenges associated with disposing of massive amounts of Municipal solid waste. Discuss action plan for municipal solid waste management in India for cities generating waste > 500 tonnes per day.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2023-paperv-6(b)"
+"theme": "Waste management",
+"id": "g1p5-2023-paperv-6(b)",
+"dims": [
+"mechanism",
+"policy",
+"issues",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -383,8 +653,13 @@
 "no": "7(a)",
 "marks": 10,
 "question": "Biotechnology has unlocked a vast potential for improving human life, but the risks it poses are now a concern — Discuss throwing light on blessing and curse of Biotechnology.",
-"theme": "Biotechnology & genetics",
-"id": "g1p5-2023-paperv-7(a)"
+"theme": "GM crops & genetic engineering",
+"id": "g1p5-2023-paperv-7(a)",
+"dims": [
+"issues"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -392,8 +667,14 @@
 "no": "7(b)",
 "marks": 10,
 "question": "Why is Ecotourism considered as a tool for conservation of Natural heritage ? Discuss challenges associated with Ecotourism.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2023-paperv-7(b)"
+"theme": "Biodiversity, forests & ecology",
+"id": "g1p5-2023-paperv-7(b)",
+"dims": [
+"issues",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -401,8 +682,14 @@
 "no": "8(a)",
 "marks": 10,
 "question": "Why is antibiotic resistance getting worse in India ? Discuss the strategies and action plans in India to deal with this.",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2023-paperv-8(a)"
+"theme": "Infectious diseases & antibiotics",
+"id": "g1p5-2023-paperv-8(a)",
+"dims": [
+"issues",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -410,8 +697,13 @@
 "no": "8(b)",
 "marks": 10,
 "question": "Bio-pesticides are slower in action compared to conventional pesticides, with shorter persistence and susceptible to unfavourable environmental conditions, but still there is a need to shift towards Bio-pesticides — Explain why.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2023-paperv-8(b)"
+"theme": "Renewable & clean energy",
+"id": "g1p5-2023-paperv-8(b)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -419,8 +711,13 @@
 "no": "9(a)",
 "marks": 10,
 "question": "Why is the number of patents granted in India still a fraction compared to China and US, even though India's global position in innovations has been rising over the years ?",
-"theme": "Science & scientists",
-"id": "g1p5-2023-paperv-9(a)"
+"theme": "Intellectual property & patents",
+"id": "g1p5-2023-paperv-9(a)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -428,8 +725,14 @@
 "no": "9(b)",
 "marks": 10,
 "question": "What are the tools required for the successful commercialization of Intellectual Property Rights in India ? Discuss the role of CIPAM in commercialization of Intellectual Property Rights.",
-"theme": "Science & scientists",
-"id": "g1p5-2023-paperv-9(b)"
+"theme": "Intellectual property & patents",
+"id": "g1p5-2023-paperv-9(b)",
+"dims": [
+"concept",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -437,8 +740,14 @@
 "no": "10(a)",
 "marks": 10,
 "question": "Inefficient farming and poor distribution are reasons for the world's food shortage and the genetically modified crops are a bad answer to the wrong problem — Comment.",
-"theme": "Biotechnology & genetics",
-"id": "g1p5-2023-paperv-10(a)"
+"theme": "GM crops & genetic engineering",
+"id": "g1p5-2023-paperv-10(a)",
+"dims": [
+"issues",
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -446,8 +755,15 @@
 "no": "10(b)",
 "marks": 10,
 "question": "Why is monitoring and weather forecasting crucial ? Discuss the role of ISRO in the weather prediction and capabilities in Disaster management. Add a note on Mission NISAR.",
-"theme": "Space, defence & nuclear",
-"id": "g1p5-2023-paperv-10(b)"
+"theme": "Space technology & satellites",
+"id": "g1p5-2023-paperv-10(b)",
+"dims": [
+"policy",
+"impact",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -455,8 +771,14 @@
 "no": "11(a)",
 "marks": 10,
 "question": "Discuss how Artificial Intelligence manipulated digital media can impact privacy, democracy and national security of a country. Suggest solutions to tackle this infodemic.",
-"theme": "Information technology & digital",
-"id": "g1p5-2023-paperv-11(a)"
+"theme": "Nanotechnology & emerging technology",
+"id": "g1p5-2023-paperv-11(a)",
+"dims": [
+"impact",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -464,8 +786,13 @@
 "no": "11(b)",
 "marks": 10,
 "question": "What is the current scenario of renewable power generation in India ? Discuss the factors responsible for the growing focus and shift towards Renewable energy.",
-"theme": "Energy",
-"id": "g1p5-2023-paperv-11(b)"
+"theme": "Renewable & clean energy",
+"id": "g1p5-2023-paperv-11(b)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -473,8 +800,13 @@
 "no": "12(a)",
 "marks": 10,
 "question": "What is coastal erosion ? Discuss factors causing coastal erosion. Why is erosion dominant in the Eastern coast than the Western coast in India ?",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2023-paperv-12(a)"
+"theme": "Disaster management",
+"id": "g1p5-2023-paperv-12(a)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -482,8 +814,13 @@
 "no": "12(b)",
 "marks": 10,
 "question": "Discuss how technology translated into a medium for the destruction of environment through human exploitation.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2023-paperv-12(b)"
+"theme": "Nanotechnology & emerging technology",
+"id": "g1p5-2023-paperv-12(b)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -491,8 +828,13 @@
 "no": "13(a)",
 "marks": 10,
 "question": "The most important climate goal is limiting the Earth's warming to 1·5° Celsius. What happens to the world if we pass the crucial 1·5° Celsius climate threshold?",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2023-paperv-13(a)"
+"theme": "Climate change & global warming",
+"id": "g1p5-2023-paperv-13(a)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -500,8 +842,13 @@
 "no": "13(b)",
 "marks": 10,
 "question": "Block chain technology is the doorway to transforming the agriculture sector in India — Discuss.",
-"theme": "General science & technology",
-"id": "g1p5-2023-paperv-13(b)"
+"theme": "Nanotechnology & emerging technology",
+"id": "g1p5-2023-paperv-13(b)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -509,8 +856,15 @@
 "no": "14(a)",
 "marks": 10,
 "question": "What are the reasons behind the India's opposition to sign the Non-Proliferation of nuclear weapons (NPT) ? Discuss the impact of the civil nuclear agreement with the Nuclear Supplier Group (NSG) on nuclear power generation in India.",
-"theme": "Space, defence & nuclear",
-"id": "g1p5-2023-paperv-14(a)"
+"theme": "Nuclear energy & non-proliferation",
+"id": "g1p5-2023-paperv-14(a)",
+"dims": [
+"concept",
+"policy",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -518,8 +872,14 @@
 "no": "14(b)",
 "marks": 10,
 "question": "What are e-waste recycling practices in India ? Discuss the highlights of new e-waste management rules 2022 notified by the Government of India.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2023-paperv-14(b)"
+"theme": "Waste management",
+"id": "g1p5-2023-paperv-14(b)",
+"dims": [
+"concept",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -527,8 +887,13 @@
 "no": "15(a)",
 "marks": 10,
 "question": "Discuss why India did not sign the COP26 pledge to stop deforestation and cut methane gas emission by 2030.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2023-paperv-15(a)"
+"theme": "Climate change & global warming",
+"id": "g1p5-2023-paperv-15(a)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2023,
@@ -536,8 +901,14 @@
 "no": "15(b)",
 "marks": 10,
 "question": "What are Gene Sanctuaries ? How do they protect the genetic diversity of plants in India ?",
-"theme": "Biotechnology & genetics",
-"id": "g1p5-2023-paperv-15(b)"
+"theme": "Biodiversity, forests & ecology",
+"id": "g1p5-2023-paperv-15(b)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -545,8 +916,14 @@
 "no": "1(a)",
 "marks": 10,
 "question": "What is \"life expectancy at birth\"? Data shows that the global average life expectancy has more than doubled since 1900, and is now above 70 years. Describe three to five factors which have contributed to improvement in life expectancy.",
-"theme": "General science & technology",
-"id": "g1p5-2020-paperv-1(a)"
+"theme": "Health, nutrition & medicine",
+"id": "g1p5-2020-paperv-1(a)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -554,8 +931,14 @@
 "no": "1(b)",
 "marks": 10,
 "question": "Telangana has several Central Government Institutions suitable for research funded by the Department of Science and Technology. These include BITS, CCMB, CDFD, CRIDA, DRDO, ICRISAT, IICT, NALSAR, NGRAU, and NIN. (i) How should these institutions contribute towards education of B.A./B.Com./B.Sc. students in TS? (ii) Write short notes about the mission and contributions of any two of these Institutions in Science/Technology in India.",
-"theme": "Space, defence & nuclear",
-"id": "g1p5-2020-paperv-1(b)"
+"theme": "Science & technology policy & institutions",
+"id": "g1p5-2020-paperv-1(b)",
+"dims": [
+"policy",
+"short"
+],
+"ap": true,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -563,8 +946,14 @@
 "no": "2(a)",
 "marks": 10,
 "question": "What is the UIDAI? How has this government body harnessed IT to improve targeted delivery of government benefits (DBT)? How can the Aadhaar Card help in financial transactions?",
-"theme": "Information technology & digital",
-"id": "g1p5-2020-paperv-2(a)"
+"theme": "Information technology & digital governance",
+"id": "g1p5-2020-paperv-2(a)",
+"dims": [
+"concept",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -572,8 +961,14 @@
 "no": "2(b)",
 "marks": 10,
 "question": "What is cybercrime? Describe with examples any two of the following and explain how the government helps victims of cybercrime: Cyber bullying, Cyber stalking, Phishing, Ransomware.",
-"theme": "Information technology & digital",
-"id": "g1p5-2020-paperv-2(b)"
+"theme": "Information technology & digital governance",
+"id": "g1p5-2020-paperv-2(b)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -581,8 +976,14 @@
 "no": "3(a)",
 "marks": 10,
 "question": "Write a brief account of the history of ISRO. Name any three ISRO centers and their location. Add a note about the Mangalyaan or Chandrayaan missions of ISRO.",
-"theme": "Space, defence & nuclear",
-"id": "g1p5-2020-paperv-3(a)"
+"theme": "Space technology & satellites",
+"id": "g1p5-2020-paperv-3(a)",
+"dims": [
+"policy",
+"short"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -590,8 +991,14 @@
 "no": "3(b)",
 "marks": 10,
 "question": "To date, ISRO has launched over 100 satellites. Explain what are GEO, LEO, MEO, and SSO. Use diagrams to illustrate your answer. Add a note on GSLV and PLSV launches.",
-"theme": "Space, defence & nuclear",
-"id": "g1p5-2020-paperv-3(b)"
+"theme": "Space technology & satellites",
+"id": "g1p5-2020-paperv-3(b)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -599,8 +1006,16 @@
 "no": "4(a)",
 "marks": 10,
 "question": "What is nuclear energy? At the end of 2019, seven nuclear reactors were under construction in India, with a combined capacity of 5.4 GW. What are the advantages and disadvantages of using nuclear energy in India? What is the NPT and how does this impact India which is not a member of the NPT?",
-"theme": "Space, defence & nuclear",
-"id": "g1p5-2020-paperv-4(a)"
+"theme": "Nuclear energy & non-proliferation",
+"id": "g1p5-2020-paperv-4(a)",
+"dims": [
+"concept",
+"mechanism",
+"issues",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -608,8 +1023,14 @@
 "no": "4(b)",
 "marks": 10,
 "question": "What is \"Clean Energy\"? List the sources of clean energy and explain how they work. Which of these sources can be used or are already widely used in India?",
-"theme": "Energy",
-"id": "g1p5-2020-paperv-4(b)"
+"theme": "Renewable & clean energy",
+"id": "g1p5-2020-paperv-4(b)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -617,8 +1038,13 @@
 "no": "5(a)",
 "marks": 10,
 "question": "All member states of the UN adopted 17 goals in the 2030 Agenda for Sustainable Development. Name any four of these goals and explain how India can reach them.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2020-paperv-5(a)"
+"theme": "Environmental law, EIA & institutions",
+"id": "g1p5-2020-paperv-5(a)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -626,8 +1052,13 @@
 "no": "5(b)",
 "marks": 10,
 "question": "What causes earthquakes? Can we prevent or predict where and when an earthquake will happen? What should relief agencies do after an earthquake occurs in an inland and a coastal region?",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2020-paperv-5(b)"
+"theme": "Disaster management",
+"id": "g1p5-2020-paperv-5(b)",
+"dims": [
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -635,8 +1066,17 @@
 "no": "6(a)",
 "marks": 10,
 "question": "Classify solid waste in terms of source and types of solid wastes. Explain the steps to manage this waste. Add a note on advantages and disadvantages of landfills.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2020-paperv-6(a)"
+"theme": "Waste management",
+"id": "g1p5-2020-paperv-6(a)",
+"dims": [
+"concept",
+"mechanism",
+"issues",
+"impact",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -644,8 +1084,16 @@
 "no": "6(b)",
 "marks": 10,
 "question": "What do you know about the agents, stages, and effects of soil erosion? What are the factors affecting soil erosion and measures to conserve soil?",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2020-paperv-6(b)"
+"theme": "Water, soil & marine pollution",
+"id": "g1p5-2020-paperv-6(b)",
+"dims": [
+"concept",
+"mechanism",
+"impact",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -653,8 +1101,15 @@
 "no": "7(a)",
 "marks": 10,
 "question": "Is there any difference between gene therapy, transgenic organisms, and gene enhancement/genome editing? With example, explain the ethical concerns in each of these approaches? When can genome editing be considered ethical?",
-"theme": "Biotechnology & genetics",
-"id": "g1p5-2020-paperv-7(a)"
+"theme": "GM crops & genetic engineering",
+"id": "g1p5-2020-paperv-7(a)",
+"dims": [
+"concept",
+"mechanism",
+"issues"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -662,8 +1117,14 @@
 "no": "7(b)",
 "marks": 10,
 "question": "In October 2020, the Nobel Prize for Chemistry was awarded to the CRISPR technology. Explain how CRISPR functions in nature and how it has been adapted for research and clinical applications.",
-"theme": "Biotechnology & genetics",
-"id": "g1p5-2020-paperv-7(b)"
+"theme": "GM crops & genetic engineering",
+"id": "g1p5-2020-paperv-7(b)",
+"dims": [
+"mechanism",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -671,8 +1132,14 @@
 "no": "8(a)",
 "marks": 10,
 "question": "Write short notes on the causes, treatment, and methods of prevention of any 3 of the following diseases: 1. Cholera; 2. Malaria, 3. Encephalitis, 4. Tuberculosis, and 5. Avian flu.",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2020-paperv-8(a)"
+"theme": "Infectious diseases & antibiotics",
+"id": "g1p5-2020-paperv-8(a)",
+"dims": [
+"measures",
+"short"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -680,8 +1147,14 @@
 "no": "8(b)",
 "marks": 10,
 "question": "What is recombinant DNA? Draw a schematic to show the process of creating rDNA and explain the roles of restriction enzymes and vectors in this process. Give an example of rDNA technology.",
-"theme": "Biotechnology & genetics",
-"id": "g1p5-2020-paperv-8(b)"
+"theme": "GM crops & genetic engineering",
+"id": "g1p5-2020-paperv-8(b)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -689,8 +1162,14 @@
 "no": "9(a)",
 "marks": 10,
 "question": "What is Intellectual Property? Explain with examples the differences between copyrights, patents, and trademarks. What are the rights an inventor has on his invention, and how are these rights gained and enforced globally?",
-"theme": "Science & scientists",
-"id": "g1p5-2020-paperv-9(a)"
+"theme": "Intellectual property & patents",
+"id": "g1p5-2020-paperv-9(a)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -698,8 +1177,14 @@
 "no": "9(b)",
 "marks": 10,
 "question": "What is a patent? Give examples of patents. What is the difference between process patents and product patents? How are GI tags related to patents?",
-"theme": "Science & scientists",
-"id": "g1p5-2020-paperv-9(b)"
+"theme": "Intellectual property & patents",
+"id": "g1p5-2020-paperv-9(b)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -707,8 +1192,13 @@
 "no": "10(a)",
 "marks": 10,
 "question": "What is the status of utilization of Solar energy in India and the World? What are some factors hindering utilization of this green energy source?",
-"theme": "Energy",
-"id": "g1p5-2020-paperv-10(a)"
+"theme": "Renewable & clean energy",
+"id": "g1p5-2020-paperv-10(a)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -716,8 +1206,13 @@
 "no": "10(b)",
 "marks": 10,
 "question": "Traditional methods of in-person education have been disrupted by the Covid-19 pandemic. How can India's Space Program help in restoring and expanding access to education in India?",
-"theme": "Space, defence & nuclear",
-"id": "g1p5-2020-paperv-10(b)"
+"theme": "Space technology & satellites",
+"id": "g1p5-2020-paperv-10(b)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -725,8 +1220,16 @@
 "no": "11(a)",
 "marks": 10,
 "question": "What do you know about the NeGP (National e-Governance Action Plan) operating under the aegis of Digital India? Explain about the role of any three of the following projects in this plan: 1. Jan-Dhan Yojana, 2. Digital Locker, 3. National Digital Literacy Mission, 4. E-Bhasha, and 5. BharatNeT (National Optical Fibre Network).",
-"theme": "Information technology & digital",
-"id": "g1p5-2020-paperv-11(a)"
+"theme": "Information technology & digital governance",
+"id": "g1p5-2020-paperv-11(a)",
+"dims": [
+"mechanism",
+"policy",
+"impact",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -734,8 +1237,14 @@
 "no": "11(b)",
 "marks": 10,
 "question": "What are biofuels and why are they important to India's economy? What do you know about the Indian National Policy on Biofuels?",
-"theme": "Energy",
-"id": "g1p5-2020-paperv-11(b)"
+"theme": "Renewable & clean energy",
+"id": "g1p5-2020-paperv-11(b)",
+"dims": [
+"concept",
+"policy"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -743,17 +1252,28 @@
 "no": "12(a)",
 "marks": 10,
 "question": "Please interpret the following data in terms of contribution by countries to Science and Engineering publications. Identify any one factor for the state of Indian Science and recommend a relevant policy measure to address the situation.",
-"theme": "General science & technology",
-"id": "g1p5-2020-paperv-12(a)"
+"theme": "Science & technology policy & institutions",
+"id": "g1p5-2020-paperv-12(a)",
+"dims": [
+"policy",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
 "paper": "Paper V",
 "no": "12(b)",
 "marks": 10,
-"question": "OR 12(b) Is there a difference between \"forest cover\" and \"forest area\"? What does the following graph show? (b). Is there a difference between “forest cover” and “forest area”? What does the following",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2020-paperv-12(b)"
+"question": "Is there a difference between \"forest cover\" and \"forest area\"? What does the following graph show? (b). Is there a difference between “forest cover” and “forest area”? What does the following",
+"theme": "Biodiversity, forests & ecology",
+"id": "g1p5-2020-paperv-12(b)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -761,8 +1281,15 @@
 "no": "13(a)",
 "marks": 10,
 "question": "What is Climate Justice? How is this matter covered by news media and influential publications like Time magazine? Suggest at least 2 measures that are aligned to this goal.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2020-paperv-13(a)"
+"theme": "Climate change & global warming",
+"id": "g1p5-2020-paperv-13(a)",
+"dims": [
+"concept",
+"mechanism",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -770,8 +1297,13 @@
 "no": "13(b)",
 "marks": 10,
 "question": "Explain what you see in the following graphic. (a) How does human activity affect the substance shown in the graphic? (b) How does this substance affect human health?",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2020-paperv-13(b)"
+"theme": "Health, nutrition & medicine",
+"id": "g1p5-2020-paperv-13(b)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -779,8 +1311,14 @@
 "no": "14(a)",
 "marks": 10,
 "question": "What are the most common and hazardous pollutants in outdoor and indoor air? Mention the health hazards from each of the pollutants. What is AQI (Air Quality Index)? Who monitors AQI in India? What is the contribution of PM to AQI?",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2020-paperv-14(a)"
+"theme": "Disaster management",
+"id": "g1p5-2020-paperv-14(a)",
+"dims": [
+"concept",
+"issues"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -788,8 +1326,14 @@
 "no": "14(b)",
 "marks": 10,
 "question": "What is Covid-19 and how is it spread? How are immuno-diagnostic methods used in context of the Covid19 pandemic?",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2020-paperv-14(b)"
+"theme": "Vaccines & immunology",
+"id": "g1p5-2020-paperv-14(b)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -797,8 +1341,15 @@
 "no": "15(a)",
 "marks": 10,
 "question": "Explain the mechanism of action of vaccines. Give two examples where vaccines have eradicated diseases in India. What do you know about the Global Vaccine Action Plan 2011-2020 and Mission Indradhanush?",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2020-paperv-15(a)"
+"theme": "Vaccines & immunology",
+"id": "g1p5-2020-paperv-15(a)",
+"dims": [
+"mechanism",
+"policy",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2020,
@@ -806,1825 +1357,3002 @@
 "no": "15(b)",
 "marks": 10,
 "question": "The 2020 Nobel Prize for Physiology and Medicine was awarded to three scientists for their work on HCV. What do you know about this virus and the disease it causes? Is there any vaccine available for this disease?",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2020-paperv-15(b)"
+"theme": "Vaccines & immunology",
+"id": "g1p5-2020-paperv-15(b)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "1(a)",
 "marks": 10,
-"question": "What do you understand by \"Big Data\" ? Discuss India's initiatives in this regard; 1(a) name the challenges and constraints.",
-"theme": "Information technology & digital",
-"id": "g1p5-2017-oldpaperiv-1(a)"
+"question": "What do you understand by \"Big Data\" ? Discuss India's initiatives in this regard; name the challenges and constraints.",
+"theme": "Information technology & digital governance",
+"id": "g1p5-2017-oldpaperiv-1(a)",
+"dims": [
+"concept",
+"policy",
+"issues"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "1(b)",
 "marks": 10,
-"question": "The Internet of Things (IoT) is expected to be the biggest technological revolution. 1(b) Examine its likely impact on India.",
-"theme": "Information technology & digital",
-"id": "g1p5-2017-oldpaperiv-1(b)"
+"question": "The Internet of Things (IoT) is expected to be the biggest technological revolution. Examine its likely impact on India.",
+"theme": "Information technology & digital governance",
+"id": "g1p5-2017-oldpaperiv-1(b)",
+"dims": [
+"impact",
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "2(a)",
 "marks": 10,
-"question": "Explain the background and salient features of \"Pradhan Mantri Gramin Digital 2(a) Saksharta Abhiyan\".",
-"theme": "Information technology & digital",
-"id": "g1p5-2017-oldpaperiv-2(a)"
+"question": "Explain the background and salient features of \"Pradhan Mantri Gramin Digital Saksharta Abhiyan\".",
+"theme": "Information technology & digital governance",
+"id": "g1p5-2017-oldpaperiv-2(a)",
+"dims": [
+"mechanism",
+"policy"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "2(b)",
 "marks": 10,
-"question": "Cutting-edge developments in nanotechnology offer new ways of preventing and 2(b) treating lifestyle diseases, including cancer. Elaborate.",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2017-oldpaperiv-2(b)"
+"question": "Cutting-edge developments in nanotechnology offer new ways of preventing and treating lifestyle diseases, including cancer. Elaborate.",
+"theme": "Infectious diseases & antibiotics",
+"id": "g1p5-2017-oldpaperiv-2(b)",
+"dims": [
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "3(a)",
 "marks": 10,
-"question": "What is GPS ? Explain the recent efforts made by India to create its own GPS 3(a) system.",
-"theme": "Space, defence & nuclear",
-"id": "g1p5-2017-oldpaperiv-3(a)"
+"question": "What is GPS ? Explain the recent efforts made by India to create its own GPS system.",
+"theme": "Space technology & satellites",
+"id": "g1p5-2017-oldpaperiv-3(a)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "3(b)",
 "marks": 10,
-"question": "What is the difference between GSLV and PSLV launch vehicles ? Examine the 3(b) advantages of GSLV over PSLV.",
-"theme": "Space, defence & nuclear",
-"id": "g1p5-2017-oldpaperiv-3(b)"
+"question": "What is the difference between GSLV and PSLV launch vehicles ? Examine the advantages of GSLV over PSLV.",
+"theme": "Space technology & satellites",
+"id": "g1p5-2017-oldpaperiv-3(b)",
+"dims": [
+"concept",
+"impact",
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "4(a)",
 "marks": 10,
-"question": "Discuss India's present composition of energy sources and future energy security 4(a) scenario in the context of growing energy demand.",
-"theme": "Energy",
-"id": "g1p5-2017-oldpaperiv-4(a)"
+"question": "Discuss India's present composition of energy sources and future energy security scenario in the context of growing energy demand.",
+"theme": "Renewable & clean energy",
+"id": "g1p5-2017-oldpaperiv-4(a)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "4(b)",
 "marks": 10,
-"question": "What are the benefits of \"Smart Grid\" ? Examine the challenges and strategies for 4(b) \"Smart Grid\" operations in India.",
-"theme": "Energy",
-"id": "g1p5-2017-oldpaperiv-4(b)"
+"question": "What are the benefits of \"Smart Grid\" ? Examine the challenges and strategies for \"Smart Grid\" operations in India.",
+"theme": "Renewable & clean energy",
+"id": "g1p5-2017-oldpaperiv-4(b)",
+"dims": [
+"concept",
+"issues",
+"impact",
+"measures",
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "5(a)",
 "marks": 10,
-"question": "Why are urban floods a recurrent feature in India ? Discuss the main causes of 5(a) urban floods and measures taken by the Government(s) for urban flood control.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2017-oldpaperiv-5(a)"
+"question": "Why are urban floods a recurrent feature in India ? Discuss the main causes of urban floods and measures taken by the Government(s) for urban flood control.",
+"theme": "Disaster management",
+"id": "g1p5-2017-oldpaperiv-5(a)",
+"dims": [
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "5(b)",
 "marks": 10,
-"question": "Critically examine how illegal mining of river sand in various parts of India is 5(b) affecting the ecology of rivers and lives of people in the vicinity of these rivers.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2017-oldpaperiv-5(b)"
+"question": "Critically examine how illegal mining of river sand in various parts of India is affecting the ecology of rivers and lives of people in the vicinity of these rivers.",
+"theme": "Biodiversity, forests & ecology",
+"id": "g1p5-2017-oldpaperiv-5(b)",
+"dims": [
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "6(a)",
 "marks": 10,
-"question": "Write a brief account of Bentham and Hooker's classification and discuss its 6(a) demerits.",
-"theme": "General science & technology",
-"id": "g1p5-2017-oldpaperiv-6(a)"
+"question": "Write a brief account of Bentham and Hooker's classification and discuss its demerits.",
+"theme": "Plant & animal sciences",
+"id": "g1p5-2017-oldpaperiv-6(a)",
+"dims": [
+"concept",
+"issues",
+"short"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "6(b)",
 "marks": 10,
-"question": "Which hormone regulates blood glucose levels in the body and how is it 6(b) synthesized artificially ?",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2017-oldpaperiv-6(b)"
+"question": "Which hormone regulates blood glucose levels in the body and how is it synthesized artificially ?",
+"theme": "Health, nutrition & medicine",
+"id": "g1p5-2017-oldpaperiv-6(b)",
+"dims": [
+"mechanism",
+"policy"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "7(a)",
 "marks": 10,
-"question": "Describe the medicinal qualities of mushrooms. 7(a)",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2017-oldpaperiv-7(a)"
+"question": "Describe the medicinal qualities of mushrooms.",
+"theme": "Health, nutrition & medicine",
+"id": "g1p5-2017-oldpaperiv-7(a)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "7(b)",
 "marks": 10,
-"question": "Give an account on chemicals and drugs produced from animals. 7(b)",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2017-oldpaperiv-7(b)"
+"question": "Give an account on chemicals and drugs produced from animals.",
+"theme": "Health, nutrition & medicine",
+"id": "g1p5-2017-oldpaperiv-7(b)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "8(a)",
 "marks": 10,
-"question": "Describe the major types of fungus that cause Mycoses in humans. 8(a)",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2017-oldpaperiv-8(a)"
+"question": "Describe the major types of fungus that cause Mycoses in humans.",
+"theme": "Infectious diseases & antibiotics",
+"id": "g1p5-2017-oldpaperiv-8(a)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "8(b)",
 "marks": 10,
-"question": "Describe the most common protozoan diseases, causative agents and preventive 8(b) measures.",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2017-oldpaperiv-8(b)"
+"question": "Describe the most common protozoan diseases, causative agents and preventive measures.",
+"theme": "Infectious diseases & antibiotics",
+"id": "g1p5-2017-oldpaperiv-8(b)",
+"dims": [
+"mechanism",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "9(a)",
 "marks": 10,
-"question": "Describe the methods of gene transfer in developing Genetically Modified crops. 9(a)",
-"theme": "Biotechnology & genetics",
-"id": "g1p5-2017-oldpaperiv-9(a)"
+"question": "Describe the methods of gene transfer in developing Genetically Modified crops.",
+"theme": "GM crops & genetic engineering",
+"id": "g1p5-2017-oldpaperiv-9(a)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "9(b)",
 "marks": 10,
-"question": "What is a Biopesticide ? How are fungal parasites of insects useful in Biological 9(b) control ?",
-"theme": "Biotechnology & genetics",
-"id": "g1p5-2017-oldpaperiv-9(b)"
+"question": "What is a Biopesticide ? How are fungal parasites of insects useful in Biological control ?",
+"theme": "Biofertilisers & biopesticides",
+"id": "g1p5-2017-oldpaperiv-9(b)",
+"dims": [
+"concept",
+"mechanism",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "10(a)",
 "marks": 10,
-"question": "What is Major Histocompatibility Complex (MHC) ? Describe the role of MHC 10(a) classes.",
-"theme": "General science & technology",
-"id": "g1p5-2017-oldpaperiv-10(a)"
+"question": "What is Major Histocompatibility Complex (MHC) ? Describe the role of MHC classes.",
+"theme": "Vaccines & immunology",
+"id": "g1p5-2017-oldpaperiv-10(a)",
+"dims": [
+"concept",
+"mechanism",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "10(b)",
 "marks": 10,
-"question": "What are monoclonal antibodies ? How are they useful in detecting parasitic 10(b) diseases ?",
-"theme": "Biotechnology & genetics",
-"id": "g1p5-2017-oldpaperiv-10(b)"
+"question": "What are monoclonal antibodies ? How are they useful in detecting parasitic diseases ?",
+"theme": "Vaccines & immunology",
+"id": "g1p5-2017-oldpaperiv-10(b)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "11(a)",
 "marks": 10,
-"question": "Invasive alien species are the second largest threat to biodiversity after habitat 11(a) destruction. Discuss the causes with examples.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2017-oldpaperiv-11(a)"
+"question": "Invasive alien species are the second largest threat to biodiversity after habitat destruction. Discuss the causes with examples.",
+"theme": "Biodiversity, forests & ecology",
+"id": "g1p5-2017-oldpaperiv-11(a)",
+"dims": [
+"issues"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "11(b)",
 "marks": 10,
-"question": "Describe the carbon and nitrogen biogeochemical cycles. Cite examples in the 11(b) Indian context.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2017-oldpaperiv-11(b)"
+"question": "Describe the carbon and nitrogen biogeochemical cycles. Cite examples in the Indian context.",
+"theme": "Climate change & global warming",
+"id": "g1p5-2017-oldpaperiv-11(b)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "12(a)",
 "marks": 10,
-"question": "What are the advantages and disadvantages of solar power over other renewable 12(a) energy resources ? Why is the cost of solar energy decreasing ? What is its effect on climate change efforts ?",
-"theme": "Energy",
-"id": "g1p5-2017-oldpaperiv-12(a)"
+"question": "What are the advantages and disadvantages of solar power over other renewable energy resources ? Why is the cost of solar energy decreasing ? What is its effect on climate change efforts ?",
+"theme": "Renewable & clean energy",
+"id": "g1p5-2017-oldpaperiv-12(a)",
+"dims": [
+"concept",
+"issues",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "12(b)",
 "marks": 10,
-"question": "\"India's traditional water management methods are key in the present context.\" 12(b) Examine the statement with special focus on water harvesting and disaster management.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2017-oldpaperiv-12(b)"
+"question": "\"India's traditional water management methods are key in the present context.\" Examine the statement with special focus on water harvesting and disaster management.",
+"theme": "Disaster management",
+"id": "g1p5-2017-oldpaperiv-12(b)",
+"dims": [
+"measures",
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "13(a)",
 "marks": 10,
-"question": "What effects does PM2.5 fine particulate matter have on the health of individuals in 13(a) urban regions of India and across the world ? Discuss.",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2017-oldpaperiv-13(a)"
+"question": "What effects does PM2.5 fine particulate matter have on the health of individuals in urban regions of India and across the world ? Discuss.",
+"theme": "Air, ozone & noise pollution",
+"id": "g1p5-2017-oldpaperiv-13(a)",
+"dims": [
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "13(b)",
 "marks": 10,
-"question": "Critically discuss the various challenges and issues arising out of waste 13(b) management in Indian towns and cities.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2017-oldpaperiv-13(b)"
+"question": "Critically discuss the various challenges and issues arising out of waste management in Indian towns and cities.",
+"theme": "Waste management",
+"id": "g1p5-2017-oldpaperiv-13(b)",
+"dims": [
+"issues",
+"measures",
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "14(a)",
 "marks": 10,
-"question": "Recent observations have shown that the ozone layer over Antarctic shows signs of 14(a) healing. Critically examine.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2017-oldpaperiv-14(a)"
+"question": "Recent observations have shown that the ozone layer over Antarctic shows signs of healing. Critically examine.",
+"theme": "Air, ozone & noise pollution",
+"id": "g1p5-2017-oldpaperiv-14(a)",
+"dims": [
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "14(b)",
 "marks": 10,
-"question": "Describe the role of Information Technology in environmental conservation. 14(b)",
-"theme": "Information technology & digital",
-"id": "g1p5-2017-oldpaperiv-14(b)"
+"question": "Describe the role of Information Technology in environmental conservation.",
+"theme": "Information technology & digital governance",
+"id": "g1p5-2017-oldpaperiv-14(b)",
+"dims": [
+"mechanism",
+"impact",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "15(a)",
 "marks": 10,
-"question": "Briefly describe the Sendai Framework for Disaster Risk Reduction and its 15(a) adoption in the disaster management policy of India.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2017-oldpaperiv-15(a)"
+"question": "Briefly describe the Sendai Framework for Disaster Risk Reduction and its adoption in the disaster management policy of India.",
+"theme": "Disaster management",
+"id": "g1p5-2017-oldpaperiv-15(a)",
+"dims": [
+"mechanism",
+"policy",
+"issues",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2017,
 "paper": "Old Paper IV",
 "no": "15(b)",
 "marks": 10,
-"question": "Examine the role of the National Green Tribunal in providing speedy justice in 15(b) environmental matters by quoting its recent decisions.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2017-oldpaperiv-15(b)"
+"question": "Examine the role of the National Green Tribunal in providing speedy justice in environmental matters by quoting its recent decisions.",
+"theme": "Environmental law, EIA & institutions",
+"id": "g1p5-2017-oldpaperiv-15(b)",
+"dims": [
+"policy",
+"impact",
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "1(d)",
 "marks": 10,
-"question": "Write a short note on the following: (i) Post Harvest Technology (PHT) (ii) 1(d) Oilseeds Production Programme (OPP)",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-1(d)"
+"question": "Write a short note on the following: (i) Post Harvest Technology (PHT) (ii) Oilseeds Production Programme (OPP)",
+"theme": "Agriculture technology & food",
+"id": "g1p5-2016-oldpaperiv-1(d)",
+"dims": [
+"policy",
+"short"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "1(a)",
 "marks": 10,
-"question": "Briefly state the salient features of the National Data Sharing and Accessibility 1(a) Policy, 2012 and its benefits?",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-1(a)"
+"question": "Briefly state the salient features of the National Data Sharing and Accessibility Policy, 2012 and its benefits?",
+"theme": "Information technology & digital governance",
+"id": "g1p5-2016-oldpaperiv-1(a)",
+"dims": [
+"policy",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "1(b)",
 "marks": 10,
-"question": "Write a brief note on the following: (i) Indian Science Congress Association 1(b) (ISCA) (ii) Council of Scientific and Industrial Research (CSIR)",
-"theme": "Science & scientists",
-"id": "g1p5-2016-oldpaperiv-1(b)"
+"question": "Write a brief note on the following: (i) Indian Science Congress Association (ISCA) (ii) Council of Scientific and Industrial Research (CSIR)",
+"theme": "Science & technology policy & institutions",
+"id": "g1p5-2016-oldpaperiv-1(b)",
+"dims": [
+"short"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "1(c)",
 "marks": 10,
-"question": "Mention the main objectives of Science, Technology and Innovation (STI) Policy, 1(c) 2013 of India.",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-1(c)"
+"question": "Mention the main objectives of Science, Technology and Innovation (STI) Policy, 2013 of India.",
+"theme": "Science & technology policy & institutions",
+"id": "g1p5-2016-oldpaperiv-1(c)",
+"dims": [
+"policy"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "2(d)",
 "marks": 10,
-"question": "Write a short note on: (i) Mobile Satellite Services (MSS) (ii) Environmental 2(d) monitoring",
-"theme": "Space, defence & nuclear",
-"id": "g1p5-2016-oldpaperiv-2(d)"
+"question": "Write a short note on: (i) Mobile Satellite Services (MSS) (ii) Environmental monitoring",
+"theme": "Space technology & satellites",
+"id": "g1p5-2016-oldpaperiv-2(d)",
+"dims": [
+"short"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "2(a)",
 "marks": 10,
-"question": "Describe the MOM (Mars Orbiter Mission – Mangalyaan) programme of India? 2(a) What are its distinguishing features?",
-"theme": "Space, defence & nuclear",
-"id": "g1p5-2016-oldpaperiv-2(a)"
+"question": "Describe the MOM (Mars Orbiter Mission – Mangalyaan) programme of India? What are its distinguishing features?",
+"theme": "Space technology & satellites",
+"id": "g1p5-2016-oldpaperiv-2(a)",
+"dims": [
+"concept",
+"mechanism",
+"policy"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "2(b)",
 "marks": 10,
-"question": "Write a short note on the following: (i) Broadband digital communication (ii) 2(b) Fixed-Satellite Services (FSS)",
-"theme": "Space, defence & nuclear",
-"id": "g1p5-2016-oldpaperiv-2(b)"
+"question": "Write a short note on the following: (i) Broadband digital communication (ii) Fixed-Satellite Services (FSS)",
+"theme": "Space technology & satellites",
+"id": "g1p5-2016-oldpaperiv-2(b)",
+"dims": [
+"short"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "2(c)",
 "marks": 10,
-"question": "Explain the applications of Remote Sensing technology in agriculture. 2(c)",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-2(c)"
+"question": "Explain the applications of Remote Sensing technology in agriculture.",
+"theme": "Space technology & satellites",
+"id": "g1p5-2016-oldpaperiv-2(c)",
+"dims": [
+"mechanism",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "3(d)",
 "marks": 10,
-"question": "Write a note on Local Area Network (LAN). 3(d)",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-3(d)"
+"question": "Write a note on Local Area Network (LAN).",
+"theme": "Information technology & digital governance",
+"id": "g1p5-2016-oldpaperiv-3(d)",
+"dims": [
+"short"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "3(a)",
 "marks": 10,
-"question": "What is cloud computing? Explain briefly about AP Cloud Initiative? 3(a)",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-3(a)"
+"question": "What is cloud computing? Explain briefly about AP Cloud Initiative?",
+"theme": "Information technology & digital governance",
+"id": "g1p5-2016-oldpaperiv-3(a)",
+"dims": [
+"concept",
+"mechanism",
+"policy"
+],
+"ap": true,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "3(b)",
 "marks": 10,
-"question": "Describe Fiber Grid Project of Andhra Pradesh. 3(b)",
-"theme": "Energy",
-"id": "g1p5-2016-oldpaperiv-3(b)"
+"question": "Describe Fiber Grid Project of Andhra Pradesh.",
+"theme": "Information technology & digital governance",
+"id": "g1p5-2016-oldpaperiv-3(b)",
+"dims": [
+"mechanism"
+],
+"ap": true,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "3(c)",
 "marks": 10,
-"question": "What is ERP (Enterprise Resource Planning)? Narrate the critical issues in 3(c) execution of ERP Projects.",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-3(c)"
+"question": "What is ERP (Enterprise Resource Planning)? Narrate the critical issues in execution of ERP Projects.",
+"theme": "Information technology & digital governance",
+"id": "g1p5-2016-oldpaperiv-3(c)",
+"dims": [
+"concept",
+"issues",
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "4(d)",
 "marks": 10,
-"question": "Give a detailed list of barriers to renewable energy? 4(d)",
-"theme": "Energy",
-"id": "g1p5-2016-oldpaperiv-4(d)"
+"question": "Give a detailed list of barriers to renewable energy?",
+"theme": "Renewable & clean energy",
+"id": "g1p5-2016-oldpaperiv-4(d)",
+"dims": [
+"issues"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "4(a)",
 "marks": 10,
-"question": "Write a short note on Shale Gas Revolution. 4(a)",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-4(a)"
+"question": "Write a short note on Shale Gas Revolution.",
+"theme": "Renewable & clean energy",
+"id": "g1p5-2016-oldpaperiv-4(a)",
+"dims": [
+"short"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "4(b)",
 "marks": 10,
-"question": "Narrate Nuclear Power growth in India. Add a note on Nuclear Fuel reserves in the 4(b) country.",
-"theme": "Space, defence & nuclear",
-"id": "g1p5-2016-oldpaperiv-4(b)"
+"question": "Narrate Nuclear Power growth in India. Add a note on Nuclear Fuel reserves in the country.",
+"theme": "Nuclear energy & non-proliferation",
+"id": "g1p5-2016-oldpaperiv-4(b)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "4(c)",
 "marks": 10,
-"question": "Discuss the scope of renewable energy in the scenario of energy crisis? 4(c)",
-"theme": "Energy",
-"id": "g1p5-2016-oldpaperiv-4(c)"
+"question": "Discuss the scope of renewable energy in the scenario of energy crisis?",
+"theme": "Renewable & clean energy",
+"id": "g1p5-2016-oldpaperiv-4(c)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "5(d)",
 "marks": 10,
-"question": "Write the main points of the agreement reached at United Nations Climate Change 5(d) Conference (COP 21) held at Paris in December, 2015. What was India's stand at the conference?",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2016-oldpaperiv-5(d)"
+"question": "Write the main points of the agreement reached at United Nations Climate Change Conference (COP 21) held at Paris in December, 2015. What was India's stand at the conference?",
+"theme": "Climate change & global warming",
+"id": "g1p5-2016-oldpaperiv-5(d)",
+"dims": [
+"policy"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "5(a)",
 "marks": 10,
-"question": "Distinguish between a Hazard and a Disaster? Narrate various types of natural 5(a) disasters, the coastal seashore areas are prone to?",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2016-oldpaperiv-5(a)"
+"question": "Distinguish between a Hazard and a Disaster? Narrate various types of natural disasters, the coastal seashore areas are prone to?",
+"theme": "Disaster management",
+"id": "g1p5-2016-oldpaperiv-5(a)",
+"dims": [
+"concept",
+"issues"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "5(b)",
 "marks": 10,
-"question": "Explain the details of Tsunami Warning System of India. 5(b)",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2016-oldpaperiv-5(b)"
+"question": "Explain the details of Tsunami Warning System of India.",
+"theme": "Disaster management",
+"id": "g1p5-2016-oldpaperiv-5(b)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "5(c)",
 "marks": 10,
-"question": "Discuss the common challenges in any disaster management plan. 5(c)",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2016-oldpaperiv-5(c)"
+"question": "Discuss the common challenges in any disaster management plan.",
+"theme": "Disaster management",
+"id": "g1p5-2016-oldpaperiv-5(c)",
+"dims": [
+"policy",
+"issues",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "6(d)",
 "marks": 10,
-"question": "What is Lactic acid fermentation? Explain how different products can be made by 6(d) fermentation of milk?",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-6(d)"
+"question": "What is Lactic acid fermentation? Explain how different products can be made by fermentation of milk?",
+"theme": "Fermentation & industrial biotechnology",
+"id": "g1p5-2016-oldpaperiv-6(d)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "6(a)",
 "marks": 10,
-"question": "What are Vitamins? Give a detailed classification of vitamins mentioning their 6(a) functions and sources of availability?",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-6(a)"
+"question": "What are Vitamins? Give a detailed classification of vitamins mentioning their functions and sources of availability?",
+"theme": "Health, nutrition & medicine",
+"id": "g1p5-2016-oldpaperiv-6(a)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "6(b)",
 "marks": 10,
-"question": "What is yeast fermentation? Explain industrial use of yeast in making different 6(b) products?",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-6(b)"
+"question": "What is yeast fermentation? Explain industrial use of yeast in making different products?",
+"theme": "Fermentation & industrial biotechnology",
+"id": "g1p5-2016-oldpaperiv-6(b)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "6(c)",
 "marks": 10,
-"question": "What is a phytohormone? Mention different groups of phytohormones with 6(c) examples? Discuss the present scenario on commercial use of hormones in artificial fruit ripening?",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2016-oldpaperiv-6(c)"
+"question": "What is a phytohormone? Mention different groups of phytohormones with examples? Discuss the present scenario on commercial use of hormones in artificial fruit ripening?",
+"theme": "Health, nutrition & medicine",
+"id": "g1p5-2016-oldpaperiv-6(c)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "7(d)",
 "marks": 10,
-"question": "Write a short note on the following: (i) Homeostatis (ii) Animal response to 7(d) Osmotic conditions of the medium",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-7(d)"
+"question": "Write a short note on the following: (i) Homeostatis (ii) Animal response to Osmotic conditions of the medium",
+"theme": "Plant & animal sciences",
+"id": "g1p5-2016-oldpaperiv-7(d)",
+"dims": [
+"short"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "7(a)",
 "marks": 10,
-"question": "What are essential oils? Enumerate the important uses of essential oils? 7(a)",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-7(a)"
+"question": "What are essential oils? Enumerate the important uses of essential oils?",
+"theme": "Health, nutrition & medicine",
+"id": "g1p5-2016-oldpaperiv-7(a)",
+"dims": [
+"concept",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "7(b)",
 "marks": 10,
-"question": "Give an account of the following: (i) Autotrophic Vs. Heterotrophic plants (ii) 7(b) Symbiosis",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-7(b)"
+"question": "Give an account of the following: (i) Autotrophic Vs. Heterotrophic plants (ii) Symbiosis",
+"theme": "Plant & animal sciences",
+"id": "g1p5-2016-oldpaperiv-7(b)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "7(c)",
 "marks": 10,
-"question": "(i) What are Lichens? Write their economic importance. (ii) Explain how insects 7(c) are useful to human beings.",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-7(c)"
+"question": "(i) What are Lichens? Write their economic importance. (ii) Explain how insects are useful to human beings.",
+"theme": "Plant & animal sciences",
+"id": "g1p5-2016-oldpaperiv-7(c)",
+"dims": [
+"concept",
+"mechanism",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "8(d)",
 "marks": 10,
-"question": "What is DNA Finger Printing? Explain how it is done. Write its forensic 8(d) applications.",
-"theme": "Biotechnology & genetics",
-"id": "g1p5-2016-oldpaperiv-8(d)"
+"question": "What is DNA Finger Printing? Explain how it is done. Write its forensic applications.",
+"theme": "GM crops & genetic engineering",
+"id": "g1p5-2016-oldpaperiv-8(d)",
+"dims": [
+"concept",
+"mechanism",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "8(a)",
 "marks": 10,
-"question": "What is plant tissue culture? Write applications of tissue culture in agriculture? 8(a)",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-8(a)"
+"question": "What is plant tissue culture? Write applications of tissue culture in agriculture?",
+"theme": "GM crops & genetic engineering",
+"id": "g1p5-2016-oldpaperiv-8(a)",
+"dims": [
+"concept",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "8(b)",
 "marks": 10,
-"question": "What is 'Golden Rice'? Describe its advantages? 8(b)",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-8(b)"
+"question": "What is 'Golden Rice'? Describe its advantages?",
+"theme": "GM crops & genetic engineering",
+"id": "g1p5-2016-oldpaperiv-8(b)",
+"dims": [
+"concept",
+"mechanism",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "8(c)",
 "marks": 10,
-"question": "What are Bio fertilizers? Explain different types of bio fertilizers? Write advantages 8(c) of bio fertilizers?",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-8(c)"
+"question": "What are Bio fertilizers? Explain different types of bio fertilizers? Write advantages of bio fertilizers?",
+"theme": "Biofertilisers & biopesticides",
+"id": "g1p5-2016-oldpaperiv-8(c)",
+"dims": [
+"concept",
+"mechanism",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "9(d)",
 "marks": 10,
-"question": "Explain the preventive measures to be taken to avoid common infections. 9(d)",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2016-oldpaperiv-9(d)"
+"question": "Explain the preventive measures to be taken to avoid common infections.",
+"theme": "Infectious diseases & antibiotics",
+"id": "g1p5-2016-oldpaperiv-9(d)",
+"dims": [
+"mechanism",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "9(a)",
 "marks": 10,
-"question": "Explain different patterns of disease outbreak with examples? Differentiate between 9(a) epidemic and endemic diseases?",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2016-oldpaperiv-9(a)"
+"question": "Explain different patterns of disease outbreak with examples? Differentiate between epidemic and endemic diseases?",
+"theme": "Infectious diseases & antibiotics",
+"id": "g1p5-2016-oldpaperiv-9(a)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "9(b)",
 "marks": 10,
-"question": "What is the cause of Chikungunya? What are its preventive measures and 9(b) treatment? Give a comparative note on symptomology of Chikungunya and Dengue?",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-9(b)"
+"question": "What is the cause of Chikungunya? What are its preventive measures and treatment? Give a comparative note on symptomology of Chikungunya and Dengue?",
+"theme": "Infectious diseases & antibiotics",
+"id": "g1p5-2016-oldpaperiv-9(b)",
+"dims": [
+"concept",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "9(c)",
 "marks": 10,
-"question": "Write a brief note on aetiology, mode of spread, symptoms, treatment and 9(c) preventive measures of malarial parasite?",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2016-oldpaperiv-9(c)"
+"question": "Write a brief note on aetiology, mode of spread, symptoms, treatment and preventive measures of malarial parasite?",
+"theme": "Infectious diseases & antibiotics",
+"id": "g1p5-2016-oldpaperiv-9(c)",
+"dims": [
+"measures",
+"short"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "10(d)",
 "marks": 10,
-"question": "Biotechnological intervention has transformed the vaccination technology' – 10(d) Discuss.",
-"theme": "Biotechnology & genetics",
-"id": "g1p5-2016-oldpaperiv-10(d)"
+"question": "Biotechnological intervention has transformed the vaccination technology' – Discuss.",
+"theme": "Vaccines & immunology",
+"id": "g1p5-2016-oldpaperiv-10(d)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "10(a)",
 "marks": 10,
-"question": "What is immunisation? Briefly write the history of development of vaccines? 10(a)",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2016-oldpaperiv-10(a)"
+"question": "What is immunisation? Briefly write the history of development of vaccines?",
+"theme": "Vaccines & immunology",
+"id": "g1p5-2016-oldpaperiv-10(a)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "10(b)",
 "marks": 10,
-"question": "Write a short note on: (i) Edible vaccines (ii) ELISA test (iii) Autoimmune diseases 10(b)",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2016-oldpaperiv-10(b)"
+"question": "Write a short note on: (i) Edible vaccines (ii) ELISA test (iii) Autoimmune diseases",
+"theme": "Vaccines & immunology",
+"id": "g1p5-2016-oldpaperiv-10(b)",
+"dims": [
+"short"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "10(c)",
 "marks": 10,
-"question": "Give a detailed note on 'Triple Vaccination'. 10(c)",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2016-oldpaperiv-10(c)"
+"question": "Give a detailed note on 'Triple Vaccination'.",
+"theme": "Vaccines & immunology",
+"id": "g1p5-2016-oldpaperiv-10(c)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "11(d)",
 "marks": 10,
-"question": "List-out the projects/activities for which public consultation is not required for 11(d) issue of prior Environmental Clearance.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2016-oldpaperiv-11(d)"
+"question": "List-out the projects/activities for which public consultation is not required for issue of prior Environmental Clearance.",
+"theme": "Environmental law, EIA & institutions",
+"id": "g1p5-2016-oldpaperiv-11(d)",
+"dims": [
+"issues"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "11(a)",
 "marks": 10,
-"question": "Narrate the functions of State Pollution Control Board. 11(a)",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2016-oldpaperiv-11(a)"
+"question": "Narrate the functions of State Pollution Control Board.",
+"theme": "Environmental law, EIA & institutions",
+"id": "g1p5-2016-oldpaperiv-11(a)",
+"dims": [
+"mechanism",
+"policy",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "11(b)",
 "marks": 10,
-"question": "Describe the procedure for obtaining Environmental Clearance under Environment 11(b) Impact Assessment Notification, 2006.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2016-oldpaperiv-11(b)"
+"question": "Describe the procedure for obtaining Environmental Clearance under Environment Impact Assessment Notification, 2006.",
+"theme": "Environmental law, EIA & institutions",
+"id": "g1p5-2016-oldpaperiv-11(b)",
+"dims": [
+"mechanism",
+"impact",
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "11(c)",
 "marks": 10,
-"question": "What is Environmentalism? Briefly state the problems does our planet face and 11(c) suggest the solutions.",
-"theme": "Space, defence & nuclear",
-"id": "g1p5-2016-oldpaperiv-11(c)"
+"question": "What is Environmentalism? Briefly state the problems does our planet face and suggest the solutions.",
+"theme": "Environmental law, EIA & institutions",
+"id": "g1p5-2016-oldpaperiv-11(c)",
+"dims": [
+"concept",
+"issues",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "12(d)",
 "marks": 10,
-"question": "What is meant by mineral resources? How they form? Write about different types 12(d) of mineral resources.",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-12(d)"
+"question": "What is meant by mineral resources? How they form? Write about different types of mineral resources.",
+"theme": "Mining & mineral resources",
+"id": "g1p5-2016-oldpaperiv-12(d)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "12(a)",
 "marks": 10,
-"question": "Classify dams based on structure and design. 12(a)",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-12(a)"
+"question": "Classify dams based on structure and design.",
+"theme": "Water, soil & marine pollution",
+"id": "g1p5-2016-oldpaperiv-12(a)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "12(b)",
 "marks": 10,
-"question": "Write a note on Andhra Pradesh Sand Mining Policy, 2016. 12(b)",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2016-oldpaperiv-12(b)"
+"question": "Write a note on Andhra Pradesh Sand Mining Policy, 2016.",
+"theme": "Mining & mineral resources",
+"id": "g1p5-2016-oldpaperiv-12(b)",
+"dims": [
+"policy",
+"short"
+],
+"ap": true,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "12(c)",
 "marks": 10,
-"question": "Discuss the basis and justification required for suitability of a crop and cropping 12(c) pattern.",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-12(c)"
+"question": "Discuss the basis and justification required for suitability of a crop and cropping pattern.",
+"theme": "Natural resources, land & urbanisation",
+"id": "g1p5-2016-oldpaperiv-12(c)",
+"dims": [
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "13(d)",
 "marks": 10,
-"question": "Explain the following: (i) National Bureau of Plant Generic Resources (NBPGR) 13(d) (ii) Wild-life sanctuaries.",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-13(d)"
+"question": "Explain the following: (i) National Bureau of Plant Generic Resources (NBPGR) (ii) Wild-life sanctuaries.",
+"theme": "Biodiversity, forests & ecology",
+"id": "g1p5-2016-oldpaperiv-13(d)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "13(a)",
 "marks": 10,
-"question": "What is eco system? Explain the food chain system in eco systems? 13(a)",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-13(a)"
+"question": "What is eco system? Explain the food chain system in eco systems?",
+"theme": "Biodiversity, forests & ecology",
+"id": "g1p5-2016-oldpaperiv-13(a)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "13(b)",
 "marks": 10,
-"question": "Narrate the impact of urbanisation on bio-diversity. 13(b)",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-13(b)"
+"question": "Narrate the impact of urbanisation on bio-diversity.",
+"theme": "Biodiversity, forests & ecology",
+"id": "g1p5-2016-oldpaperiv-13(b)",
+"dims": [
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "13(c)",
 "marks": 10,
-"question": "Describe the major threats to bio-diversity. Explain different types of 13(c) bio-diversities.",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-13(c)"
+"question": "Describe the major threats to bio-diversity. Explain different types of bio-diversities.",
+"theme": "Biodiversity, forests & ecology",
+"id": "g1p5-2016-oldpaperiv-13(c)",
+"dims": [
+"concept",
+"mechanism",
+"issues"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "14(d)",
 "marks": 10,
-"question": "Describe noise pollution and explain the various control and preventive measures to 14(d) be taken to control noise pollution.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2016-oldpaperiv-14(d)"
+"question": "Describe noise pollution and explain the various control and preventive measures to be taken to control noise pollution.",
+"theme": "Air, ozone & noise pollution",
+"id": "g1p5-2016-oldpaperiv-14(d)",
+"dims": [
+"mechanism",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "14(a)",
 "marks": 10,
-"question": "Narrate various types and the characteristics of Solid Waste. 14(a)",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2016-oldpaperiv-14(a)"
+"question": "Narrate various types and the characteristics of Solid Waste.",
+"theme": "Waste management",
+"id": "g1p5-2016-oldpaperiv-14(a)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "14(b)",
 "marks": 10,
-"question": "Write a short note on the following: (i) Pyrolysis (ii) Incineration 14(b)",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-14(b)"
+"question": "Write a short note on the following: (i) Pyrolysis (ii) Incineration",
+"theme": "Waste management",
+"id": "g1p5-2016-oldpaperiv-14(b)",
+"dims": [
+"short"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "14(c)",
 "marks": 10,
-"question": "What is Soil Pollution and how it is caused? 14(c)",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2016-oldpaperiv-14(c)"
+"question": "What is Soil Pollution and how it is caused?",
+"theme": "Water, soil & marine pollution",
+"id": "g1p5-2016-oldpaperiv-14(c)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "15(d)",
 "marks": 5,
-"question": "Give a brief note on the following: (i) Sustainable agriculture (ii) Acid Rain 15(d)",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2016-oldpaperiv-15(d)"
+"question": "Give a brief note on the following: (i) Sustainable agriculture (ii) Acid Rain",
+"theme": "Air, ozone & noise pollution",
+"id": "g1p5-2016-oldpaperiv-15(d)",
+"dims": [
+"short"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "15(a)",
 "marks": 5,
-"question": "What is El Nino? What are the causes of El Nino? Discuss the scenario of impact of 15(a) El Nino on global agriculture.",
-"theme": "General science & technology",
-"id": "g1p5-2016-oldpaperiv-15(a)"
+"question": "What is El Nino? What are the causes of El Nino? Discuss the scenario of impact of El Nino on global agriculture.",
+"theme": "Climate change & global warming",
+"id": "g1p5-2016-oldpaperiv-15(a)",
+"dims": [
+"concept",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "15(b)",
 "marks": 5,
-"question": "Describe Impact of Ozone layer depletion on different living organisms? 15(b)",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2016-oldpaperiv-15(b)"
+"question": "Describe Impact of Ozone layer depletion on different living organisms?",
+"theme": "Air, ozone & noise pollution",
+"id": "g1p5-2016-oldpaperiv-15(b)",
+"dims": [
+"mechanism",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2016,
 "paper": "Old Paper IV",
 "no": "15(c)",
 "marks": 5,
-"question": "Describe impact of human beings on water resources. 15(c)",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2016-oldpaperiv-15(c)"
+"question": "Describe impact of human beings on water resources.",
+"theme": "Water, soil & marine pollution",
+"id": "g1p5-2016-oldpaperiv-15(c)",
+"dims": [
+"mechanism",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "1(d)",
 "marks": 10,
-"question": "Write a short note on the recent development taking place in the most popular 1(d) National Solar Mission.",
-"theme": "Energy",
-"id": "g1p5-2012-oldpaperiv-1(d)"
+"question": "Write a short note on the recent development taking place in the most popular National Solar Mission.",
+"theme": "Renewable & clean energy",
+"id": "g1p5-2012-oldpaperiv-1(d)",
+"dims": [
+"policy",
+"short"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "1(a)",
 "marks": 10,
-"question": "What are the important technological missions of India? Add a note on their 1(a) objectives.",
-"theme": "General science & technology",
-"id": "g1p5-2012-oldpaperiv-1(a)"
+"question": "What are the important technological missions of India? Add a note on their objectives.",
+"theme": "Science & technology policy & institutions",
+"id": "g1p5-2012-oldpaperiv-1(a)",
+"dims": [
+"concept",
+"policy"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "1(b)",
 "marks": 10,
-"question": "Write an essay on National Literacy Mission. 1(b)",
-"theme": "General science & technology",
-"id": "g1p5-2012-oldpaperiv-1(b)"
+"question": "Write an essay on National Literacy Mission.",
+"theme": "Science & technology policy & institutions",
+"id": "g1p5-2012-oldpaperiv-1(b)",
+"dims": [
+"policy"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "1(c)",
 "marks": 10,
-"question": "Enumerate the policy objectives in the development of Science and Technology in 1(c) India.",
-"theme": "General science & technology",
-"id": "g1p5-2012-oldpaperiv-1(c)"
+"question": "Enumerate the policy objectives in the development of Science and Technology in India.",
+"theme": "Science & technology policy & institutions",
+"id": "g1p5-2012-oldpaperiv-1(c)",
+"dims": [
+"policy"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "2(d)",
 "marks": 10,
-"question": "What is the resolution of CARTOSAT-2 and for what purpose are its images useful? 2(d) What is the main difference between CARTOSAT-2 and IKONOS?",
-"theme": "General science & technology",
-"id": "g1p5-2012-oldpaperiv-2(d)"
+"question": "What is the resolution of CARTOSAT-2 and for what purpose are its images useful? What is the main difference between CARTOSAT-2 and IKONOS?",
+"theme": "Space technology & satellites",
+"id": "g1p5-2012-oldpaperiv-2(d)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "2(a)",
 "marks": 10,
-"question": "What is a Satellite? Explain the different types of Satellites in the Space 2(a) programme. Add a note on GSAT-5.",
-"theme": "Space, defence & nuclear",
-"id": "g1p5-2012-oldpaperiv-2(a)"
+"question": "What is a Satellite? Explain the different types of Satellites in the Space programme. Add a note on GSAT-5.",
+"theme": "Space technology & satellites",
+"id": "g1p5-2012-oldpaperiv-2(a)",
+"dims": [
+"concept",
+"mechanism",
+"policy"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "2(b)",
 "marks": 10,
-"question": "How many satellites are tracked at a time for a GPS? Explain how and for what 2(b) purpose the GPS is used.",
-"theme": "Space, defence & nuclear",
-"id": "g1p5-2012-oldpaperiv-2(b)"
+"question": "How many satellites are tracked at a time for a GPS? Explain how and for what purpose the GPS is used.",
+"theme": "Space technology & satellites",
+"id": "g1p5-2012-oldpaperiv-2(b)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "2(c)",
 "marks": 10,
-"question": "Define band width. What are the different band widths used in INSAT series? 2(c) Mention the significance of thermal band in Agriculture.",
-"theme": "Energy",
-"id": "g1p5-2012-oldpaperiv-2(c)"
+"question": "Define band width. What are the different band widths used in INSAT series? Mention the significance of thermal band in Agriculture.",
+"theme": "Space technology & satellites",
+"id": "g1p5-2012-oldpaperiv-2(c)",
+"dims": [
+"concept",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "3(d)",
 "marks": 10,
-"question": "Write an essay on the modem, wireless, and types of networking systems. 3(d)",
-"theme": "General science & technology",
-"id": "g1p5-2012-oldpaperiv-3(d)"
+"question": "Write an essay on the modem, wireless, and types of networking systems.",
+"theme": "Information technology & digital governance",
+"id": "g1p5-2012-oldpaperiv-3(d)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "3(a)",
 "marks": 10,
-"question": "Discuss briefly the role of IT in rural development in India with a note on effective 3(a) implementation.",
-"theme": "General science & technology",
-"id": "g1p5-2012-oldpaperiv-3(a)"
+"question": "Discuss briefly the role of IT in rural development in India with a note on effective implementation.",
+"theme": "Information technology & digital governance",
+"id": "g1p5-2012-oldpaperiv-3(a)",
+"dims": [
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "3(b)",
 "marks": 10,
-"question": "Define Telemedicine. Write a note on the different types of telemedicine. 3(b)",
-"theme": "General science & technology",
-"id": "g1p5-2012-oldpaperiv-3(b)"
+"question": "Define Telemedicine. Write a note on the different types of telemedicine.",
+"theme": "Health, nutrition & medicine",
+"id": "g1p5-2012-oldpaperiv-3(b)",
+"dims": [
+"concept",
+"short"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "3(c)",
 "marks": 10,
-"question": "Which are the five major IT city hubs in India? What are the main factors required 3(c) for the growth of software industry?",
-"theme": "Information technology & digital",
-"id": "g1p5-2012-oldpaperiv-3(c)"
+"question": "Which are the five major IT city hubs in India? What are the main factors required for the growth of software industry?",
+"theme": "Information technology & digital governance",
+"id": "g1p5-2012-oldpaperiv-3(c)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "4(d)",
 "marks": 10,
-"question": "Define nuclear energy. Discuss briefly on the mitigation of nuclear hazards and 4(d) nuclear waste.",
-"theme": "Space, defence & nuclear",
-"id": "g1p5-2012-oldpaperiv-4(d)"
+"question": "Define nuclear energy. Discuss briefly on the mitigation of nuclear hazards and nuclear waste.",
+"theme": "Nuclear energy & non-proliferation",
+"id": "g1p5-2012-oldpaperiv-4(d)",
+"dims": [
+"concept",
+"issues",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "4(a)",
 "marks": 10,
-"question": "What is the difference between renewable energy and non-renewable energy? What 4(a) are the different types of non-conventional energy? Add a note on their resources.",
-"theme": "Energy",
-"id": "g1p5-2012-oldpaperiv-4(a)"
+"question": "What is the difference between renewable energy and non-renewable energy? What are the different types of non-conventional energy? Add a note on their resources.",
+"theme": "Renewable & clean energy",
+"id": "g1p5-2012-oldpaperiv-4(a)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "4(b)",
 "marks": 10,
-"question": "What are the factors for the increase in the worldwide energy demand? Discuss 4(b) briefly to mitigate such demands.",
-"theme": "Energy",
-"id": "g1p5-2012-oldpaperiv-4(b)"
+"question": "What are the factors for the increase in the worldwide energy demand? Discuss briefly to mitigate such demands.",
+"theme": "Renewable & clean energy",
+"id": "g1p5-2012-oldpaperiv-4(b)",
+"dims": [
+"concept",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "4(c)",
 "marks": 10,
-"question": "What are the new emerging renewable energy technologies? 4(c)",
-"theme": "Energy",
-"id": "g1p5-2012-oldpaperiv-4(c)"
+"question": "What are the new emerging renewable energy technologies?",
+"theme": "Renewable & clean energy",
+"id": "g1p5-2012-oldpaperiv-4(c)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "5(d)",
 "marks": 10,
-"question": "Explain briefly on the role and responsibilities of National Disaster Management 5(d) Authority (NDMA) in achieving its goal.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2012-oldpaperiv-5(d)"
+"question": "Explain briefly on the role and responsibilities of National Disaster Management Authority (NDMA) in achieving its goal.",
+"theme": "Disaster management",
+"id": "g1p5-2012-oldpaperiv-5(d)",
+"dims": [
+"mechanism",
+"policy",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "5(a)",
 "marks": 10,
-"question": "Explain various causes for the changes in climate and its effect on both the living 5(a) and non-living bodies on the Earth.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2012-oldpaperiv-5(a)"
+"question": "Explain various causes for the changes in climate and its effect on both the living and non-living bodies on the Earth.",
+"theme": "Climate change & global warming",
+"id": "g1p5-2012-oldpaperiv-5(a)",
+"dims": [
+"mechanism",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "5(b)",
 "marks": 10,
-"question": "What are the different types of indicators of climatic changes? Write a short note on 5(b) cryogenic indicators.",
-"theme": "General science & technology",
-"id": "g1p5-2012-oldpaperiv-5(b)"
+"question": "What are the different types of indicators of climatic changes? Write a short note on cryogenic indicators.",
+"theme": "Climate change & global warming",
+"id": "g1p5-2012-oldpaperiv-5(b)",
+"dims": [
+"concept",
+"short"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "5(c)",
 "marks": 10,
-"question": "What are the parameters considered to declare as a disaster? List out the various 5(c) disasters which considered for declaration as national disasters.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2012-oldpaperiv-5(c)"
+"question": "What are the parameters considered to declare as a disaster? List out the various disasters which considered for declaration as national disasters.",
+"theme": "Disaster management",
+"id": "g1p5-2012-oldpaperiv-5(c)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "6(d)",
 "marks": 10,
-"question": "Differentiate between virus and bacteria. What are the harmful and useful effects 6(d) caused by both in the humans and animals?",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2012-oldpaperiv-6(d)"
+"question": "Differentiate between virus and bacteria. What are the harmful and useful effects caused by both in the humans and animals?",
+"theme": "Infectious diseases & antibiotics",
+"id": "g1p5-2012-oldpaperiv-6(d)",
+"dims": [
+"concept",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "6(a)",
 "marks": 10,
-"question": "Differentiate between old and modern Biotechnology. Describe the discovery of 6(a) Louis Pasteur on fermentation.",
-"theme": "Biotechnology & genetics",
-"id": "g1p5-2012-oldpaperiv-6(a)"
+"question": "Differentiate between old and modern Biotechnology. Describe the discovery of Louis Pasteur on fermentation.",
+"theme": "GM crops & genetic engineering",
+"id": "g1p5-2012-oldpaperiv-6(a)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "6(b)",
 "marks": 10,
-"question": "What are antibiotics? Write advantages and disadvantages of antibiotics use. 6(b)",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2012-oldpaperiv-6(b)"
+"question": "What are antibiotics? Write advantages and disadvantages of antibiotics use.",
+"theme": "Infectious diseases & antibiotics",
+"id": "g1p5-2012-oldpaperiv-6(b)",
+"dims": [
+"concept",
+"issues",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "6(c)",
 "marks": 10,
-"question": "What is the difference between Penicillin and Insulin? Describe the Industrial 6(c) production of Penicillin.",
-"theme": "General science & technology",
-"id": "g1p5-2012-oldpaperiv-6(c)"
+"question": "What is the difference between Penicillin and Insulin? Describe the Industrial production of Penicillin.",
+"theme": "Fermentation & industrial biotechnology",
+"id": "g1p5-2012-oldpaperiv-6(c)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "7(d)",
 "marks": 10,
-"question": "Write an essay on stem cells research and the significance of cloning in various 7(d) fields.",
-"theme": "Biotechnology & genetics",
-"id": "g1p5-2012-oldpaperiv-7(d)"
+"question": "Write an essay on stem cells research and the significance of cloning in various fields.",
+"theme": "GM crops & genetic engineering",
+"id": "g1p5-2012-oldpaperiv-7(d)",
+"dims": [
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "7(a)",
 "marks": 10,
-"question": "Define bioinsecticides, What are the different types of bioinsecticides? 7(a)",
-"theme": "General science & technology",
-"id": "g1p5-2012-oldpaperiv-7(a)"
+"question": "Define bioinsecticides, What are the different types of bioinsecticides?",
+"theme": "Biofertilisers & biopesticides",
+"id": "g1p5-2012-oldpaperiv-7(a)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "8(d)",
 "marks": 10,
-"question": "What is a transgenic animal? List out the benefits from transgenic animals. 8(d)",
-"theme": "Biotechnology & genetics",
-"id": "g1p5-2012-oldpaperiv-8(d)"
+"question": "What is a transgenic animal? List out the benefits from transgenic animals.",
+"theme": "GM crops & genetic engineering",
+"id": "g1p5-2012-oldpaperiv-8(d)",
+"dims": [
+"concept",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "8(a)",
 "marks": 10,
-"question": "Write briefly on the types and uses of biopesticides. 8(a)",
-"theme": "Biotechnology & genetics",
-"id": "g1p5-2012-oldpaperiv-8(a)"
+"question": "Write briefly on the types and uses of biopesticides.",
+"theme": "Biofertilisers & biopesticides",
+"id": "g1p5-2012-oldpaperiv-8(a)",
+"dims": [
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "8(b)",
 "marks": 10,
-"question": "Mention briefly the arguments in favour of and against GM crops. 8(b)",
-"theme": "Biotechnology & genetics",
-"id": "g1p5-2012-oldpaperiv-8(b)"
+"question": "Mention briefly the arguments in favour of and against GM crops.",
+"theme": "GM crops & genetic engineering",
+"id": "g1p5-2012-oldpaperiv-8(b)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "8(c)",
 "marks": 10,
-"question": "What are the different types of sterilization methods adopted for different types of 8(c) materials?",
-"theme": "Science & scientists",
-"id": "g1p5-2012-oldpaperiv-8(c)"
+"question": "What are the different types of sterilization methods adopted for different types of materials?",
+"theme": "Infectious diseases & antibiotics",
+"id": "g1p5-2012-oldpaperiv-8(c)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "9(d)",
 "marks": 10,
-"question": "Discuss briefly on the morphology and biological characters of measles virus. 9(d)",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2012-oldpaperiv-9(d)"
+"question": "Discuss briefly on the morphology and biological characters of measles virus.",
+"theme": "Infectious diseases & antibiotics",
+"id": "g1p5-2012-oldpaperiv-9(d)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "9(a)",
 "marks": 10,
-"question": "What is meant by infection? Explain the terms Acute, chronic, fulminating, 9(a) localized, generalized, primary and secondary used for infections with examples.",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2012-oldpaperiv-9(a)"
+"question": "What is meant by infection? Explain the terms Acute, chronic, fulminating, localized, generalized, primary and secondary used for infections with examples.",
+"theme": "Infectious diseases & antibiotics",
+"id": "g1p5-2012-oldpaperiv-9(a)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "9(b)",
 "marks": 10,
-"question": "Write a short note on Pathogenesis. 9(b)",
-"theme": "General science & technology",
-"id": "g1p5-2012-oldpaperiv-9(b)"
+"question": "Write a short note on Pathogenesis.",
+"theme": "Infectious diseases & antibiotics",
+"id": "g1p5-2012-oldpaperiv-9(b)",
+"dims": [
+"short"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "9(c)",
 "marks": 10,
-"question": "What is hydrophobia? how is it caused? What remedial or precautionary measures 9(c) are to be taken?",
-"theme": "Energy",
-"id": "g1p5-2012-oldpaperiv-9(c)"
+"question": "What is hydrophobia? how is it caused? What remedial or precautionary measures are to be taken?",
+"theme": "Infectious diseases & antibiotics",
+"id": "g1p5-2012-oldpaperiv-9(c)",
+"dims": [
+"concept",
+"mechanism",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "10(d)",
 "marks": 10,
-"question": "Write a short note on the adverse consequences of vaccination. 10(d)",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2012-oldpaperiv-10(d)"
+"question": "Write a short note on the adverse consequences of vaccination.",
+"theme": "Vaccines & immunology",
+"id": "g1p5-2012-oldpaperiv-10(d)",
+"dims": [
+"issues",
+"impact",
+"short"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "10(a)",
 "marks": 10,
-"question": "Enumerate the mechanisms of humoral immunity system and the usefulness of the 10(a) antibodies.",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2012-oldpaperiv-10(a)"
+"question": "Enumerate the mechanisms of humoral immunity system and the usefulness of the antibodies.",
+"theme": "Vaccines & immunology",
+"id": "g1p5-2012-oldpaperiv-10(a)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "10(b)",
 "marks": 10,
-"question": "Give an account of the adverse effects of passive immunization. 10(b)",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2012-oldpaperiv-10(b)"
+"question": "Give an account of the adverse effects of passive immunization.",
+"theme": "Vaccines & immunology",
+"id": "g1p5-2012-oldpaperiv-10(b)",
+"dims": [
+"issues",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "10(c)",
 "marks": 10,
-"question": "What are the organs of immune system? Give a schedule of immunization for 10(c) newborn children.",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2012-oldpaperiv-10(c)"
+"question": "What are the organs of immune system? Give a schedule of immunization for newborn children.",
+"theme": "Vaccines & immunology",
+"id": "g1p5-2012-oldpaperiv-10(c)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "11(b)",
 "marks": 10,
-"question": "What are the salient features of Forest Act of 1980? 11(b)",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2012-oldpaperiv-11(b)"
+"question": "What are the salient features of Forest Act of 1980?",
+"theme": "Environmental law, EIA & institutions",
+"id": "g1p5-2012-oldpaperiv-11(b)",
+"dims": [
+"concept",
+"policy"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "11(c)",
 "marks": 10,
-"question": "What are the measures to be taken in prevention and control of air pollution? 11(c)",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2012-oldpaperiv-11(c)"
+"question": "What are the measures to be taken in prevention and control of air pollution?",
+"theme": "Air, ozone & noise pollution",
+"id": "g1p5-2012-oldpaperiv-11(c)",
+"dims": [
+"concept",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "13(d)",
 "marks": 10,
-"question": "In the Project Tiger, what are the administrative measures taken by the Ministry of 13(d) Environment and Forests.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2012-oldpaperiv-13(d)"
+"question": "In the Project Tiger, what are the administrative measures taken by the Ministry of Environment and Forests.",
+"theme": "Environmental law, EIA & institutions",
+"id": "g1p5-2012-oldpaperiv-13(d)",
+"dims": [
+"concept",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "13(a)",
 "marks": 10,
-"question": "What are the Principles of Ecology? 13(a)",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2012-oldpaperiv-13(a)"
+"question": "What are the Principles of Ecology?",
+"theme": "Biodiversity, forests & ecology",
+"id": "g1p5-2012-oldpaperiv-13(a)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "13(b)",
 "marks": 10,
-"question": "Define biodiversity. Discuss briefly on the consumptive use of biodiversity. 13(b)",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2012-oldpaperiv-13(b)"
+"question": "Define biodiversity. Discuss briefly on the consumptive use of biodiversity.",
+"theme": "Biodiversity, forests & ecology",
+"id": "g1p5-2012-oldpaperiv-13(b)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "13(c)",
 "marks": 10,
-"question": "Discuss briefly various reasons leading to the loss of bio-diversity. 13(c)",
-"theme": "General science & technology",
-"id": "g1p5-2012-oldpaperiv-13(c)"
+"question": "Discuss briefly various reasons leading to the loss of bio-diversity.",
+"theme": "Biodiversity, forests & ecology",
+"id": "g1p5-2012-oldpaperiv-13(c)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "14(d)",
 "marks": 10,
-"question": "Write a short note on Eutrophication. 14(d)",
-"theme": "General science & technology",
-"id": "g1p5-2012-oldpaperiv-14(d)"
+"question": "Write a short note on Eutrophication.",
+"theme": "Water, soil & marine pollution",
+"id": "g1p5-2012-oldpaperiv-14(d)",
+"dims": [
+"short"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "14(a)",
 "marks": 10,
-"question": "What are the major Air Pollutants? Add a note on their effects. 14(a)",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2012-oldpaperiv-14(a)"
+"question": "What are the major Air Pollutants? Add a note on their effects.",
+"theme": "Air, ozone & noise pollution",
+"id": "g1p5-2012-oldpaperiv-14(a)",
+"dims": [
+"concept",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "14(b)",
 "marks": 10,
-"question": "What is meant by Electrostatic precipitator? Explain its working principle. 14(b)",
-"theme": "General science & technology",
-"id": "g1p5-2012-oldpaperiv-14(b)"
+"question": "What is meant by Electrostatic precipitator? Explain its working principle.",
+"theme": "Air, ozone & noise pollution",
+"id": "g1p5-2012-oldpaperiv-14(b)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "14(c)",
 "marks": 10,
-"question": "Differentiate between BOD and COD and discuss their importance. 14(c)",
-"theme": "General science & technology",
-"id": "g1p5-2012-oldpaperiv-14(c)"
+"question": "Differentiate between BOD and COD and discuss their importance.",
+"theme": "Water, soil & marine pollution",
+"id": "g1p5-2012-oldpaperiv-14(c)",
+"dims": [
+"concept",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "15(d)",
 "marks": 10,
-"question": "What is Brundtland Report? Enumerate. 15(d)",
-"theme": "General science & technology",
-"id": "g1p5-2012-oldpaperiv-15(d)"
+"question": "What is Brundtland Report? Enumerate.",
+"theme": "Environmental law, EIA & institutions",
+"id": "g1p5-2012-oldpaperiv-15(d)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "15(a)",
 "marks": 10,
-"question": "What are the salient benefits of the application of Information Technology in the 15(a) field of medicine and medical health?",
-"theme": "Information technology & digital",
-"id": "g1p5-2012-oldpaperiv-15(a)"
+"question": "What are the salient benefits of the application of Information Technology in the field of medicine and medical health?",
+"theme": "Health, nutrition & medicine",
+"id": "g1p5-2012-oldpaperiv-15(a)",
+"dims": [
+"concept",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "15(b)",
 "marks": 10,
-"question": "What is meant by watershed? How can watershed management be done effectively 15(b) with modern Information Technology?",
-"theme": "Information technology & digital",
-"id": "g1p5-2012-oldpaperiv-15(b)"
+"question": "What is meant by watershed? How can watershed management be done effectively with modern Information Technology?",
+"theme": "Water, soil & marine pollution",
+"id": "g1p5-2012-oldpaperiv-15(b)",
+"dims": [
+"concept",
+"impact",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2012,
 "paper": "Old Paper IV",
 "no": "15(c)",
 "marks": 10,
-"question": "What are the effects of climate change on nature, sea level fluctuations, plants and 15(c) animal migration, changes in insect pests?",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2012-oldpaperiv-15(c)"
+"question": "What are the effects of climate change on nature, sea level fluctuations, plants and animal migration, changes in insect pests?",
+"theme": "Climate change & global warming",
+"id": "g1p5-2012-oldpaperiv-15(c)",
+"dims": [
+"concept",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "1(a)",
 "marks": 10,
-"question": "(i) Illustrate the National Policy on Science and Technology. (ii) Discuss the role of 1(a) technology missions in India with a suitable example.",
-"theme": "General science & technology",
-"id": "g1p5-2011-oldpaperiv-1(a)"
+"question": "(i) Illustrate the National Policy on Science and Technology. (ii) Discuss the role of technology missions in India with a suitable example.",
+"theme": "Science & technology policy & institutions",
+"id": "g1p5-2011-oldpaperiv-1(a)",
+"dims": [
+"policy",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "1(b)",
 "marks": 10,
-"question": "Discuss on (i) Intellectual Property Rights. (ii) National Policy on Technology 1(b) Missions.",
-"theme": "Science & scientists",
-"id": "g1p5-2011-oldpaperiv-1(b)"
+"question": "Discuss on (i) Intellectual Property Rights. (ii) National Policy on Technology Missions.",
+"theme": "Intellectual property & patents",
+"id": "g1p5-2011-oldpaperiv-1(b)",
+"dims": [
+"policy"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "2(a)",
 "marks": 10,
-"question": "(i) Comment on \"Chandrayan\" Programme. (ii) Discuss two salient features of 2(a) IRS-5 Satellite.",
-"theme": "Space, defence & nuclear",
-"id": "g1p5-2011-oldpaperiv-2(a)"
+"question": "(i) Comment on \"Chandrayan\" Programme. (ii) Discuss two salient features of IRS-5 Satellite.",
+"theme": "Space technology & satellites",
+"id": "g1p5-2011-oldpaperiv-2(a)",
+"dims": [
+"policy",
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "2(b)",
 "marks": 10,
-"question": "Illustrate the role of Indian Space Programmes on (i) Rural India (ii) Natural 2(b) Resources",
-"theme": "Space, defence & nuclear",
-"id": "g1p5-2011-oldpaperiv-2(b)"
+"question": "Illustrate the role of Indian Space Programmes on (i) Rural India (ii) Natural Resources",
+"theme": "Space technology & satellites",
+"id": "g1p5-2011-oldpaperiv-2(b)",
+"dims": [
+"policy",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "3(a)",
 "marks": 10,
-"question": "Comment on the impact of the growth of Computer industry on the economic 3(a) growth of India.",
-"theme": "Information technology & digital",
-"id": "g1p5-2011-oldpaperiv-3(a)"
+"question": "Comment on the impact of the growth of Computer industry on the economic growth of India.",
+"theme": "Information technology & digital governance",
+"id": "g1p5-2011-oldpaperiv-3(a)",
+"dims": [
+"impact",
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "3(b)",
 "marks": 10,
-"question": "Write on (i) Communications and remote sensing (ii) Influence of Information 3(b) Technology on Indian Rural Sector.",
-"theme": "General science & technology",
-"id": "g1p5-2011-oldpaperiv-3(b)"
+"question": "Write on (i) Communications and remote sensing (ii) Influence of Information Technology on Indian Rural Sector.",
+"theme": "Space technology & satellites",
+"id": "g1p5-2011-oldpaperiv-3(b)",
+"dims": [
+"impact",
+"short"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "4(a)",
 "marks": 10,
-"question": "(i) Of late there is lot of public resistance towards the establishment of coal based 4(a) power plants. Comment. (ii) Discuss the reasons for the sparse use of renewable resources in India",
-"theme": "Energy",
-"id": "g1p5-2011-oldpaperiv-4(a)"
+"question": "(i) Of late there is lot of public resistance towards the establishment of coal based power plants. Comment. (ii) Discuss the reasons for the sparse use of renewable resources in India",
+"theme": "Renewable & clean energy",
+"id": "g1p5-2011-oldpaperiv-4(a)",
+"dims": [
+"issues",
+"critical"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "4(b)",
 "marks": 10,
-"question": "Deliberate on (i) Wind power in India (ii) Biomass management in India (iii) Ocean 4(b) energy",
-"theme": "Energy",
-"id": "g1p5-2011-oldpaperiv-4(b)"
+"question": "Deliberate on (i) Wind power in India (ii) Biomass management in India (iii) Ocean energy",
+"theme": "Renewable & clean energy",
+"id": "g1p5-2011-oldpaperiv-4(b)",
+"dims": [
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "5(a)",
 "marks": 10,
-"question": "Write on (i) Disaster Management Programmes in India (ii) Mitigation methods to 5(a) address Global warming.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2011-oldpaperiv-5(a)"
+"question": "Write on (i) Disaster Management Programmes in India (ii) Mitigation methods to address Global warming.",
+"theme": "Climate change & global warming",
+"id": "g1p5-2011-oldpaperiv-5(a)",
+"dims": [
+"policy",
+"measures",
+"short"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "5(b)",
 "marks": 10,
-"question": "Discuss the problems associated with unabated urbanization and suggest the ways 5(b) and means to arrest this.",
-"theme": "General science & technology",
-"id": "g1p5-2011-oldpaperiv-5(b)"
+"question": "Discuss the problems associated with unabated urbanization and suggest the ways and means to arrest this.",
+"theme": "Natural resources, land & urbanisation",
+"id": "g1p5-2011-oldpaperiv-5(b)",
+"dims": [
+"issues",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "6(a)",
 "marks": 10,
-"question": "Discuss the Agricultural research in India mentioning its linkages. Describe the 6(a) research and educational activities in the field of agriculture, animal husbandry and fisheries.",
-"theme": "Science & scientists",
-"id": "g1p5-2011-oldpaperiv-6(a)"
+"question": "Discuss the Agricultural research in India mentioning its linkages. Describe the research and educational activities in the field of agriculture, animal husbandry and fisheries.",
+"theme": "Natural resources, land & urbanisation",
+"id": "g1p5-2011-oldpaperiv-6(a)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "6(b)",
 "marks": 10,
-"question": "Elucidate a low volume high value product giving the example of insulin. Mention 6(b) the role of Indian companies for its production.",
-"theme": "General science & technology",
-"id": "g1p5-2011-oldpaperiv-6(b)"
+"question": "Elucidate a low volume high value product giving the example of insulin. Mention the role of Indian companies for its production.",
+"theme": "Fermentation & industrial biotechnology",
+"id": "g1p5-2011-oldpaperiv-6(b)",
+"dims": [
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "7(a)",
 "marks": 10,
-"question": "Discuss the applications of plants in different areas with examples. 7(a)",
-"theme": "General science & technology",
-"id": "g1p5-2011-oldpaperiv-7(a)"
+"question": "Discuss the applications of plants in different areas with examples.",
+"theme": "Plant & animal sciences",
+"id": "g1p5-2011-oldpaperiv-7(a)",
+"dims": [
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "7(b)",
 "marks": 10,
-"question": "(i) Differentiate between wild and domestic animals. (ii) Give an overview of how 7(b) animals are exploited in medical research.",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2011-oldpaperiv-7(b)"
+"question": "(i) Differentiate between wild and domestic animals. (ii) Give an overview of how animals are exploited in medical research.",
+"theme": "Biodiversity, forests & ecology",
+"id": "g1p5-2011-oldpaperiv-7(b)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "8(a)",
 "marks": 10,
-"question": "Give a brief description of GM crops and explain the regulations and concerns 8(a) associated with the release of a Genetically Modified crop.",
-"theme": "Biotechnology & genetics",
-"id": "g1p5-2011-oldpaperiv-8(a)"
+"question": "Give a brief description of GM crops and explain the regulations and concerns associated with the release of a Genetically Modified crop.",
+"theme": "GM crops & genetic engineering",
+"id": "g1p5-2011-oldpaperiv-8(a)",
+"dims": [
+"mechanism",
+"policy",
+"issues",
+"short"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "8(b)",
 "marks": 10,
-"question": "Define biofertilizers. Give an account of technology involved for the mass 8(b) production of different biofertilizers, with their application.",
-"theme": "General science & technology",
-"id": "g1p5-2011-oldpaperiv-8(b)"
+"question": "Define biofertilizers. Give an account of technology involved for the mass production of different biofertilizers, with their application.",
+"theme": "Biofertilisers & biopesticides",
+"id": "g1p5-2011-oldpaperiv-8(b)",
+"dims": [
+"concept",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "9(a)",
 "marks": 10,
-"question": "Discuss in detail about HIV virus; also mention the symptoms associated with the 9(a) infection, preventive measures and diagnostic test for disease confirmation.",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2011-oldpaperiv-9(a)"
+"question": "Discuss in detail about HIV virus; also mention the symptoms associated with the infection, preventive measures and diagnostic test for disease confirmation.",
+"theme": "Infectious diseases & antibiotics",
+"id": "g1p5-2011-oldpaperiv-9(a)",
+"dims": [
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "9(b)",
 "marks": 10,
-"question": "Describe the causative agent for malaria, emphasize its life cycle in different hosts 9(b) and discuss the preventive measures for the disease.",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2011-oldpaperiv-9(b)"
+"question": "Describe the causative agent for malaria, emphasize its life cycle in different hosts and discuss the preventive measures for the disease.",
+"theme": "Infectious diseases & antibiotics",
+"id": "g1p5-2011-oldpaperiv-9(b)",
+"dims": [
+"mechanism",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "10(a)",
 "marks": 10,
-"question": "Define immunity. Discuss the concept of vaccination and explain how the vaccine 10(a) for OPT is produced conventionally.",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2011-oldpaperiv-10(a)"
+"question": "Define immunity. Discuss the concept of vaccination and explain how the vaccine for OPT is produced conventionally.",
+"theme": "Renewable & clean energy",
+"id": "g1p5-2011-oldpaperiv-10(a)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "10(b)",
 "marks": 10,
-"question": "What do you understand by a vaccine? Describe the journey of development from 10(b) conventional to modern day (Recombinant vaccines).",
-"theme": "Biotechnology & genetics",
-"id": "g1p5-2011-oldpaperiv-10(b)"
+"question": "What do you understand by a vaccine? Describe the journey of development from conventional to modern day (Recombinant vaccines).",
+"theme": "Renewable & clean energy",
+"id": "g1p5-2011-oldpaperiv-10(b)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "11(a)",
 "marks": 10,
-"question": "In your own words explain the steps to bring awareness and in educating towards 11(a) Environmental Protection in India",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2011-oldpaperiv-11(a)"
+"question": "In your own words explain the steps to bring awareness and in educating towards Environmental Protection in India",
+"theme": "Environmental law, EIA & institutions",
+"id": "g1p5-2011-oldpaperiv-11(a)",
+"dims": [
+"mechanism",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "11(b)",
 "marks": 10,
-"question": "Write the salient features of Water Act and Water pollution Cess Act. 11(b)",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2011-oldpaperiv-11(b)"
+"question": "Write the salient features of Water Act and Water pollution Cess Act.",
+"theme": "Water, soil & marine pollution",
+"id": "g1p5-2011-oldpaperiv-11(b)",
+"dims": [
+"policy"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "12(a)",
 "marks": 10,
-"question": "Give an account on mineral resources of India. Explain the impacts of mining 12(a) activity on the environment.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2011-oldpaperiv-12(a)"
+"question": "Give an account on mineral resources of India. Explain the impacts of mining activity on the environment.",
+"theme": "Mining & mineral resources",
+"id": "g1p5-2011-oldpaperiv-12(a)",
+"dims": [
+"mechanism",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "12(b)",
 "marks": 10,
-"question": "Explain Integrated Water Resource Management. Give the importance of Water 12(b) user Associations.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2011-oldpaperiv-12(b)"
+"question": "Explain Integrated Water Resource Management. Give the importance of Water user Associations.",
+"theme": "Water, soil & marine pollution",
+"id": "g1p5-2011-oldpaperiv-12(b)",
+"dims": [
+"mechanism",
+"impact",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "13(a)",
 "marks": 10,
-"question": "What are the natural and human induces threats to biodiversity? Give an example of 13(a) each.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2011-oldpaperiv-13(a)"
+"question": "What are the natural and human induces threats to biodiversity? Give an example of each.",
+"theme": "Biodiversity, forests & ecology",
+"id": "g1p5-2011-oldpaperiv-13(a)",
+"dims": [
+"concept",
+"issues"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "13(b)",
 "marks": 10,
-"question": "What is meant by the term natural Selection? Draw a food chain that has you as the 13(b) top consumer.",
-"theme": "General science & technology",
-"id": "g1p5-2011-oldpaperiv-13(b)"
+"question": "What is meant by the term natural Selection? Draw a food chain that has you as the top consumer.",
+"theme": "Biodiversity, forests & ecology",
+"id": "g1p5-2011-oldpaperiv-13(b)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "14(a)",
 "marks": 10,
-"question": "Explain Urban Governance and role of community in Municipal Solid Waste 14(a) Management.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2011-oldpaperiv-14(a)"
+"question": "Explain Urban Governance and role of community in Municipal Solid Waste Management.",
+"theme": "Waste management",
+"id": "g1p5-2011-oldpaperiv-14(a)",
+"dims": [
+"mechanism",
+"impact",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "14(b)",
 "marks": 10,
-"question": "Discuss the sources, impacts and control measures of Marine pollution. 14(b)",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2011-oldpaperiv-14(b)"
+"question": "Discuss the sources, impacts and control measures of Marine pollution.",
+"theme": "Water, soil & marine pollution",
+"id": "g1p5-2011-oldpaperiv-14(b)",
+"dims": [
+"impact",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "15(a)",
 "marks": 10,
-"question": "Explain National Action Plan on Climate Change (NAPCC), objectives and 15(a) recommendations.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2011-oldpaperiv-15(a)"
+"question": "Explain National Action Plan on Climate Change (NAPCC), objectives and recommendations.",
+"theme": "Climate change & global warming",
+"id": "g1p5-2011-oldpaperiv-15(a)",
+"dims": [
+"mechanism",
+"policy",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2011,
 "paper": "Old Paper IV",
 "no": "15(b)",
 "marks": 10,
-"question": "Discuss the strategies for wasteland reclamation. 15(b)",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2011-oldpaperiv-15(b)"
+"question": "Discuss the strategies for wasteland reclamation.",
+"theme": "Natural resources, land & urbanisation",
+"id": "g1p5-2011-oldpaperiv-15(b)",
+"dims": [
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "1(a)",
 "marks": 10,
-"question": "What are the strategies of development, transfer and diffusion of technology in our 1(a) country ?",
-"theme": "General science & technology",
-"id": "g1p5-2008-oldpaperiv-1(a)"
+"question": "What are the strategies of development, transfer and diffusion of technology in our country ?",
+"theme": "Science & technology policy & institutions",
+"id": "g1p5-2008-oldpaperiv-1(a)",
+"dims": [
+"concept",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "1(b)",
 "marks": 10,
-"question": "Discuss our national policy on generation and management of intellectual property. 1(b)",
-"theme": "Science & scientists",
-"id": "g1p5-2008-oldpaperiv-1(b)"
+"question": "Discuss our national policy on generation and management of intellectual property.",
+"theme": "Intellectual property & patents",
+"id": "g1p5-2008-oldpaperiv-1(b)",
+"dims": [
+"policy",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "2(a)",
 "marks": 10,
-"question": "What are the salient features of IRS-P5 ? 2(a)",
-"theme": "General science & technology",
-"id": "g1p5-2008-oldpaperiv-2(a)"
+"question": "What are the salient features of IRS-P5 ?",
+"theme": "Space technology & satellites",
+"id": "g1p5-2008-oldpaperiv-2(a)",
+"dims": [
+"concept",
+"policy"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "2(b)",
 "marks": 10,
-"question": "What is the role of Indian Space Program in agricultural and rural developmental 2(b) activities ?",
-"theme": "Space, defence & nuclear",
-"id": "g1p5-2008-oldpaperiv-2(b)"
+"question": "What is the role of Indian Space Program in agricultural and rural developmental activities ?",
+"theme": "Space technology & satellites",
+"id": "g1p5-2008-oldpaperiv-2(b)",
+"dims": [
+"concept",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "3(a)",
 "marks": 10,
-"question": "Discuss the role of software development in the economic growth of our country. 3(a)",
-"theme": "Information technology & digital",
-"id": "g1p5-2008-oldpaperiv-3(a)"
+"question": "Discuss the role of software development in the economic growth of our country.",
+"theme": "Information technology & digital governance",
+"id": "g1p5-2008-oldpaperiv-3(a)",
+"dims": [
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "3(b)",
 "marks": 10,
-"question": "Discuss the various information technology applications with special reference to 3(b) rural India.",
-"theme": "Information technology & digital",
-"id": "g1p5-2008-oldpaperiv-3(b)"
+"question": "Discuss the various information technology applications with special reference to rural India.",
+"theme": "Information technology & digital governance",
+"id": "g1p5-2008-oldpaperiv-3(b)",
+"dims": [
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "4(a)",
 "marks": 10,
-"question": "What are the various renewable energy resources ? What is their potential in our 4(a) country ?",
-"theme": "Energy",
-"id": "g1p5-2008-oldpaperiv-4(a)"
+"question": "What are the various renewable energy resources ? What is their potential in our country ?",
+"theme": "Renewable & clean energy",
+"id": "g1p5-2008-oldpaperiv-4(a)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "4(b)",
 "marks": 10,
-"question": "What are the challenges faced by energy sector in our country ? 4(b)",
-"theme": "Energy",
-"id": "g1p5-2008-oldpaperiv-4(b)"
+"question": "What are the challenges faced by energy sector in our country ?",
+"theme": "Renewable & clean energy",
+"id": "g1p5-2008-oldpaperiv-4(b)",
+"dims": [
+"concept",
+"issues"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "5(a)",
 "marks": 10,
-"question": "What are the potential impacts of climate change in India ? 5(a)",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2008-oldpaperiv-5(a)"
+"question": "What are the potential impacts of climate change in India ?",
+"theme": "Climate change & global warming",
+"id": "g1p5-2008-oldpaperiv-5(a)",
+"dims": [
+"concept",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "5(b)",
 "marks": 10,
-"question": "What are the outcomes of crop science research in India ? 5(b)",
-"theme": "Science & scientists",
-"id": "g1p5-2008-oldpaperiv-5(b)"
+"question": "What are the outcomes of crop science research in India ?",
+"theme": "Agriculture technology & food",
+"id": "g1p5-2008-oldpaperiv-5(b)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "6(a)",
 "marks": 10,
-"question": "Define fermentation. Discuss the general procedure for the production of alcohol in 6(a) the industry.",
-"theme": "General science & technology",
-"id": "g1p5-2008-oldpaperiv-6(a)"
+"question": "Define fermentation. Discuss the general procedure for the production of alcohol in the industry.",
+"theme": "Fermentation & industrial biotechnology",
+"id": "g1p5-2008-oldpaperiv-6(a)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "6(b)",
 "marks": 10,
-"question": "(i) What is a low volume, high value product in biotechnology ? (ii) Write about 6(b) interferons, their applications and a general scheme for the industrial production of interferons.",
-"theme": "Biotechnology & genetics",
-"id": "g1p5-2008-oldpaperiv-6(b)"
+"question": "(i) What is a low volume, high value product in biotechnology ? (ii) Write about interferons, their applications and a general scheme for the industrial production of interferons.",
+"theme": "Fermentation & industrial biotechnology",
+"id": "g1p5-2008-oldpaperiv-6(b)",
+"dims": [
+"concept",
+"policy",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "7(a)",
 "marks": 10,
-"question": "Write the general characteristics of terrestrial plants. Write about the uses of plants 7(a) to mankind.",
-"theme": "General science & technology",
-"id": "g1p5-2008-oldpaperiv-7(a)"
+"question": "Write the general characteristics of terrestrial plants. Write about the uses of plants to mankind.",
+"theme": "Biodiversity, forests & ecology",
+"id": "g1p5-2008-oldpaperiv-7(a)",
+"dims": [
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "7(b)",
 "marks": 10,
-"question": "Write about the definition, criteria, history and process of domestication of some 7(b) common animals by humans.",
-"theme": "General science & technology",
-"id": "g1p5-2008-oldpaperiv-7(b)"
+"question": "Write about the definition, criteria, history and process of domestication of some common animals by humans.",
+"theme": "Plant & animal sciences",
+"id": "g1p5-2008-oldpaperiv-7(b)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "8(a)",
 "marks": 10,
-"question": "What is meant by genetically modified crops ? Write their role in agriculture with a 8(a) note on the legitimate concerns about transgenic agriculture.",
-"theme": "Biotechnology & genetics",
-"id": "g1p5-2008-oldpaperiv-8(a)"
+"question": "What is meant by genetically modified crops ? Write their role in agriculture with a note on the legitimate concerns about transgenic agriculture.",
+"theme": "GM crops & genetic engineering",
+"id": "g1p5-2008-oldpaperiv-8(a)",
+"dims": [
+"concept",
+"issues"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "8(b)",
 "marks": 10,
-"question": "Write about the role of biotechnology in environmental clean-up processes. 8(b)",
-"theme": "Biotechnology & genetics",
-"id": "g1p5-2008-oldpaperiv-8(b)"
+"question": "Write about the role of biotechnology in environmental clean-up processes.",
+"theme": "GM crops & genetic engineering",
+"id": "g1p5-2008-oldpaperiv-8(b)",
+"dims": [
+"mechanism",
+"impact"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "9(a)",
 "marks": 10,
-"question": "Write about the causative agent for diarrhoea, its symptoms, modes of infection and 9(a) the required preventive measures by the government during the outbreak.",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2008-oldpaperiv-9(a)"
+"question": "Write about the causative agent for diarrhoea, its symptoms, modes of infection and the required preventive measures by the government during the outbreak.",
+"theme": "Infectious diseases & antibiotics",
+"id": "g1p5-2008-oldpaperiv-9(a)",
+"dims": [
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "9(b)",
 "marks": 10,
-"question": "Write about different types of tuberculosis, modes of infection, symptoms, common 9(b) diagnostic tests and causes for its prevalence in India.",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2008-oldpaperiv-9(b)"
+"question": "Write about different types of tuberculosis, modes of infection, symptoms, common diagnostic tests and causes for its prevalence in India.",
+"theme": "Infectious diseases & antibiotics",
+"id": "g1p5-2008-oldpaperiv-9(b)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "10(a)",
 "marks": 10,
-"question": "What are vaccines ? Write the fundamental concept of vaccination and list some of 10(a) the compulsory vaccines for children.",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2008-oldpaperiv-10(a)"
+"question": "What are vaccines ? Write the fundamental concept of vaccination and list some of the compulsory vaccines for children.",
+"theme": "Vaccines & immunology",
+"id": "g1p5-2008-oldpaperiv-10(a)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "10(b)",
 "marks": 10,
-"question": "Write about the different types of modern vaccines available today. How are the 10(b) modern vaccines better than the conventional vaccines ?",
-"theme": "Health, diseases & medicine",
-"id": "g1p5-2008-oldpaperiv-10(b)"
+"question": "Write about the different types of modern vaccines available today. How are the modern vaccines better than the conventional vaccines ?",
+"theme": "Renewable & clean energy",
+"id": "g1p5-2008-oldpaperiv-10(b)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "11(a)",
 "marks": 10,
-"question": "Write in detail about various segments of environment. 11(a)",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2008-oldpaperiv-11(a)"
+"question": "Write in detail about various segments of environment.",
+"theme": "Biodiversity, forests & ecology",
+"id": "g1p5-2008-oldpaperiv-11(a)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "11(b)",
 "marks": 10,
-"question": "(i) Write in detail about the Water (Prevention and Control of Pollution) Act. (ii) 11(b) What are the issues involved in the enforcement of environmental legislation and law ?",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2008-oldpaperiv-11(b)"
+"question": "(i) Write in detail about the Water (Prevention and Control of Pollution) Act. (ii) What are the issues involved in the enforcement of environmental legislation and law ?",
+"theme": "Water, soil & marine pollution",
+"id": "g1p5-2008-oldpaperiv-11(b)",
+"dims": [
+"concept",
+"policy",
+"issues",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "12(a)",
 "marks": 10,
-"question": "(i) Explain about the types of forests present in India. (ii) How are forests helping 12(a) the human society ? Explain.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2008-oldpaperiv-12(a)"
+"question": "(i) Explain about the types of forests present in India. (ii) How are forests helping the human society ? Explain.",
+"theme": "Biodiversity, forests & ecology",
+"id": "g1p5-2008-oldpaperiv-12(a)",
+"dims": [
+"concept",
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "12(b)",
 "marks": 10,
-"question": "Explain about the mineral resources present in India. 12(b)",
-"theme": "General science & technology",
-"id": "g1p5-2008-oldpaperiv-12(b)"
+"question": "Explain about the mineral resources present in India.",
+"theme": "Mining & mineral resources",
+"id": "g1p5-2008-oldpaperiv-12(b)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "13(a)",
 "marks": 10,
-"question": "(i) What do you understand by the term ecosystem ? (ii) Write the structure of 13(a) ecosystem. (iii) List out different types of aquatic ecosystems existing in India. (iv) What are the threats to aquatic ecosystems and how can they be conserved ?",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2008-oldpaperiv-13(a)"
+"question": "(i) What do you understand by the term ecosystem ? (ii) Write the structure of ecosystem. (iii) List out different types of aquatic ecosystems existing in India. (iv) What are the threats to aquatic ecosystems and how can they be conserved ?",
+"theme": "Biodiversity, forests & ecology",
+"id": "g1p5-2008-oldpaperiv-13(a)",
+"dims": [
+"concept",
+"issues",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "13(b)",
 "marks": 10,
-"question": "(i) What are the threats to Indian biodiversity ? (ii) How can Indian biodiversity be 13(b) conserved ?",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2008-oldpaperiv-13(b)"
+"question": "(i) What are the threats to Indian biodiversity ? (ii) How can Indian biodiversity be conserved ?",
+"theme": "Biodiversity, forests & ecology",
+"id": "g1p5-2008-oldpaperiv-13(b)",
+"dims": [
+"concept",
+"issues",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "14(a)",
 "marks": 10,
-"question": "As an individual what is your role in the prevention of environmental pollution ? 14(a) Explain.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2008-oldpaperiv-14(a)"
+"question": "As an individual what is your role in the prevention of environmental pollution ? Explain.",
+"theme": "Air, ozone & noise pollution",
+"id": "g1p5-2008-oldpaperiv-14(a)",
+"dims": [
+"concept",
+"mechanism",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "14(b)",
 "marks": 10,
-"question": "(i) Explain the effects of air pollution. (ii) Suggest various measures to control air 14(b) pollution.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2008-oldpaperiv-14(b)"
+"question": "(i) Explain the effects of air pollution. (ii) Suggest various measures to control air pollution.",
+"theme": "Air, ozone & noise pollution",
+"id": "g1p5-2008-oldpaperiv-14(b)",
+"dims": [
+"mechanism",
+"impact",
+"measures"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "15(a)",
 "marks": 10,
-"question": "Write about the following : (i) Climate change (ii) Acid rain 15(a)",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2008-oldpaperiv-15(a)"
+"question": "Write about the following : (i) Climate change (ii) Acid rain",
+"theme": "Climate change & global warming",
+"id": "g1p5-2008-oldpaperiv-15(a)",
+"dims": [
+"mechanism"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 },
 {
 "year": 2008,
 "paper": "Old Paper IV",
 "no": "15(b)",
 "marks": 10,
-"question": "(i) What is the need for the development of wastelands ? (ii) Write about 15(b) reclamation of wastelands.",
-"theme": "Environment, climate & disasters",
-"id": "g1p5-2008-oldpaperiv-15(b)"
+"question": "(i) What is the need for the development of wastelands ? (ii) Write about reclamation of wastelands.",
+"theme": "Natural resources, land & urbanisation",
+"id": "g1p5-2008-oldpaperiv-15(b)",
+"dims": [
+"concept"
+],
+"ap": false,
+"paperName": "Paper V — Science, Technology & Environmental Issues"
 }
 ]

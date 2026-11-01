@@ -12,16 +12,17 @@ type Restorable = {
   activeDays: string[];
   mistakeTags?: Record<number, string>;
   countdowns?: unknown[];
+  learn?: unknown;
   mains?: Record<string, unknown>;
 };
 
 export function makeBackup(state: Restorable) {
-  const { profile, theme, attempts, qstats, bookmarks, activeDays, mistakeTags, countdowns, mains } = state;
+  const { profile, theme, attempts, qstats, bookmarks, activeDays, mistakeTags, countdowns, mains, learn } = state;
   return {
     kind: BACKUP_KIND,
     version: STORE_VERSION,
     exportedAt: new Date().toISOString(),
-    data: { profile, theme, attempts, qstats, bookmarks, activeDays, mistakeTags, countdowns, mains },
+    data: { profile, theme, attempts, qstats, bookmarks, activeDays, mistakeTags, countdowns, mains, learn },
   };
 }
 
@@ -53,5 +54,6 @@ export function parseBackup(text: string): Restorable {
     mistakeTags: d.mistakeTags && typeof d.mistakeTags === "object" ? d.mistakeTags : {},
     countdowns: Array.isArray(d.countdowns) ? d.countdowns : [],
     mains: d.mains && typeof d.mains === "object" ? d.mains : {},
+    ...(d.learn && typeof d.learn === "object" ? { learn: d.learn } : {}),
   };
 }
