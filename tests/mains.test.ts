@@ -1,6 +1,6 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import { bySubject, nextTheme, studyOrder, sumProgress, themeDone, themeProgress, type Theme } from "@/lib/checklist";
+import { bySubject, importance, nextTheme, studyOrder, sumProgress, themeDone, themeProgress, type Theme } from "@/lib/checklist";
 import { emptyLearn, readKey, toggleRead, unreadItems } from "@/lib/mainsLearn";
 
 const J = (f: string) => JSON.parse(readFileSync(`src/content/${f}`, "utf8"));
@@ -21,6 +21,14 @@ describe("checklist data", () => {
       if (t.n <= 2 && !t.legacy) expect(t.expected.length, t.label).toBeLessThanOrEqual(Math.max(2, t.expected.filter((e) => e.model).length));
     }
   });
+  it("ranks a theme's importance by the questions the PDF lists under its microtheme", () => {
+    const top = [...THEMES].sort((a, b) => b.pdfn - a.pdfn)[0];
+    expect(top.pdfn).toBeGreaterThanOrEqual(20);
+    expect(importance(top).label).toBe("Very high");
+    expect(importance({ pdfn: 1 }).label).toBe("Low");
+    expect(importance({ pdfn: 4 }).label).toBe("Medium");
+    expect(importance({ pdfn: 7 }).label).toBe("High");
+  });
   it("lists the past questions with their years and boards", () => {
     const tg = THEMES.flatMap((t) => t.asked).filter((a) => a.boards.includes("TGPSC"));
     expect(tg.length).toBeGreaterThan(50);
@@ -39,7 +47,7 @@ describe("progress and the next theme", () => {
     const papers = order.map((t) => t.paper);
     expect([...papers].sort()).toEqual(papers);
     const g = bySubject(THEMES, 5)[0].themes.filter((t) => !t.label.startsWith("Misc"));
-    for (let i = 1; i < g.length; i++) expect(g[i - 1].n).toBeGreaterThanOrEqual(g[i].n);
+    for (let i = 1; i < g.length; i++) expect(g[i - 1].pdfn).toBeGreaterThanOrEqual(g[i].pdfn);
   });
   it("a theme is finished when all its expected questions are ticked, then the next unfinished theme is offered", () => {
     const first = order[0], second = order[1];

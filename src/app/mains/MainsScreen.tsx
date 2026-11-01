@@ -13,7 +13,7 @@ import modelG45 from "@/content/mains-model-g45.json";
 import modelP2P3 from "@/content/mains-model-p3p2.json";
 import modelP4 from "@/content/mains-model-p4.json";
 import modelP5 from "@/content/mains-model-p5.json";
-import { bySubject, DIM_LABEL, nextTheme, PAPER_TITLES, studyOrder, sumProgress, themeDone, themeProgress, type Expected, type Theme } from "@/lib/checklist";
+import { bySubject, DIM_LABEL, importance, nextTheme, PAPER_TITLES, studyOrder, sumProgress, themeDone, themeProgress, type Expected, type Theme } from "@/lib/checklist";
 import { readKey } from "@/lib/mainsLearn";
 import { useApp, useHydrated } from "@/lib/store";
 import { Button, Card, Chip, PageSkeleton, SectionTitle, cx } from "@/components/ui";
@@ -139,7 +139,7 @@ function AllThemes({ paper, done, onPick }: { paper: number; done: Record<string
   const list = useMemo(() => {
     const ql = q.trim().toLowerCase();
     return THEMES.filter((t) => t.paper === paper && (!ql || (t.label + " " + t.full + " " + t.subject).toLowerCase().includes(ql))).sort((a, b) =>
-      sort === "asked" ? b.n - a.n || a.order - b.order : a.order - b.order || b.n - a.n,
+      sort === "asked" ? b.pdfn - a.pdfn || b.n - a.n || a.order - b.order : a.order - b.order || b.n - a.n,
     );
   }, [paper, q, sort]);
   let lastSubject = "";
@@ -161,7 +161,7 @@ function AllThemes({ paper, done, onPick }: { paper: number; done: Record<string
           PDF order
         </Chip>
         <Chip on={sort === "asked"} onClick={() => setSort("asked")}>
-          Most asked
+          Most repeated first
         </Chip>
       </div>
       <ol className="mt-3 grid gap-2">
@@ -178,7 +178,10 @@ function AllThemes({ paper, done, onPick }: { paper: number; done: Record<string
                   {fin ? <Check size={13} /> : i + 1}
                 </span>
                 <span className="min-w-0 flex-1">
-                  <span className="block text-sm font-semibold leading-snug">{t.label}</span>
+                  <span className="flex flex-wrap items-center gap-x-2 gap-y-1">
+                    <span className="text-sm font-semibold leading-snug">{t.label}</span>
+                    <Importance t={t} />
+                  </span>
                   {t.full !== t.label && <span className="mt-0.5 block text-[11px] leading-snug text-muted">{t.full}</span>}
                   <span className="mt-1 block text-xs text-muted">
                     asked {t.n}×{t.years.length ? ` · last ${t.years.at(-1)}` : ""} · {tp.total ? `${tp.done}/${tp.total} learned` : t.legacy ? "removed from 2026 syllabus" : "past questions only"}
@@ -190,6 +193,21 @@ function AllThemes({ paper, done, onPick }: { paper: number; done: Record<string
         })}
       </ol>
     </div>
+  );
+}
+
+const LEVEL_STYLE: Record<number, string> = {
+  4: "bg-red-100 text-red-800 dark:bg-red-400/20 dark:text-red-200",
+  3: "bg-amber-100 text-amber-800 dark:bg-amber-400/20 dark:text-amber-200",
+  2: "bg-primary-soft text-primary",
+  1: "bg-hairline text-muted",
+};
+function Importance({ t }: { t: Theme }) {
+  const im = importance(t);
+  return (
+    <span className={cx("rounded-full px-2 py-0.5 text-[11px] font-bold", LEVEL_STYLE[im.level])} title={`${t.pdfn} questions listed under this microtheme in the PDF`}>
+      {im.label} · {t.pdfn}×
+    </span>
   );
 }
 
@@ -229,7 +247,10 @@ function Subject({ subject, themes, done, onPick }: { subject: string; themes: T
                   </span>
                   <span className="min-w-0 flex-1">
                     <span className="block text-sm font-semibold leading-snug">{t.label}</span>
-                    <span className="block text-xs text-muted">
+                    <span className="mt-0.5 block">
+                      <Importance t={t} />
+                    </span>
+                    <span className="mt-0.5 block text-xs text-muted">
                       asked {t.n}× · {t.years.length} sittings{t.years.length ? ` · last ${t.years.at(-1)}` : ""} · {tp.done}/{tp.total} learned
                     </span>
                   </span>
@@ -260,6 +281,9 @@ function ThemeView({ theme, onBack, onNext }: { theme: Theme; onBack: () => void
         {PAPER_TITLES[theme.paper]} · {theme.subject}
       </div>
       <h1 className="mt-1 font-display text-2xl font-extrabold leading-tight sm:text-3xl">{theme.label}</h1>
+      <div className="mt-2">
+        <Importance t={theme} />
+      </div>
       {theme.full !== theme.label && <p className="mt-1 text-xs text-muted">{theme.full}</p>}
 
       <Card className="mt-4 p-4">
