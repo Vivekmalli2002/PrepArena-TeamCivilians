@@ -52,6 +52,15 @@ const WELFARE_GS: Sec[] = [
   sec("History", ["history"], 20), sec("Geography", ["geography"], 15), sec("Polity", ["polity"], 20), sec("Economy", ["economy"], 15),
   sec("General Science", ["scitech"], 20), sec("Environment", ["env"], 15), sec("Current Affairs", ["current"], 20), sec("Mental Ability", ["mental"], 25),
 ];
+/**
+ * A theory section with `num` of its `seats` taken from the numerical bank ("Technical Subjects Numericals"): the section keeps its
+ * seat count (the weightage composition does not change), only the type of question inside it does. `numMatch` picks the
+ * numerical topics of the same subject(s) by their "<Subject> · <formula family>" name.
+ */
+const withNumericals = (label: string, subjects: string[], seats: number, num: number, numMatch: string, more: Partial<Sec> = {}): Sec[] =>
+  num > 0
+    ? [sec(label, subjects, seats - num, more), sec(`${label} · numericals`, ["numericals"], num, { topicMatch: `^(${numMatch}) · ` })]
+    : [sec(label, subjects, seats, more)];
 const CIVIL_ALL = ["civil-em", "civil-som", "civil-fm", "civil-hm", "civil-bm", "civil-sa", "civil-rcc", "civil-ss", "civil-cpm", "civil-geo", "civil-ee", "civil-hyd", "civil-irr", "civil-sur", "civil-tra", "civil-est", "civil-gel"];
 
 const P = (p: Omit<ExamPattern, "questions" | "schemeId"> & { schemeId?: string }): ExamPattern => ({
@@ -83,14 +92,15 @@ export const PATTERNS: ExamPattern[] = [
     note: "150 Q · 150 min · −⅓. History 15, Geography 15, Polity 15, Economy 15, General Science 25, Current Affairs 20, Environment 15, Disaster Management 10, Mental Ability 20.",
     sections: AEE_GS }),
   P({ id: "aee-pcb-p3", exams: ["aee-pcb"], paper: "Paper-II · Common Subject (Environmental Science & Engineering)", title: "AEE PCB · Paper-II (Common Subject)", minutes: 150, basis: "notification",
-    note: "150 Q · 150 min · −⅓ (APPSC). Ten syllabus topics × 15 questions: ecosystems, natural resources, biodiversity, engineering materials, fluid mechanics, process calculations & thermodynamics, pollution & control, solid & industrial waste, global issues & law, EIA.",
+    note: "150 Q · 150 min · −⅓ (APPSC). Mostly theory: 5 of the 150 are numericals. Ten syllabus topics × 15 questions: ecosystems, natural resources, biodiversity, engineering materials, fluid mechanics, process calculations & thermodynamics, pollution & control, solid & industrial waste, global issues & law, EIA.",
     sections: [
       sec("1 · Ecosystems", ["env"], 15, { units: [1] }),
       sec("2 · Natural resources", ["env"], 15, { units: [3] }),
       sec("3 · Biodiversity & biotic resources", ["env"], 15, { units: [2] }),
       sec("4 · Engineering materials", ["mech-mat"], 15),
-      sec("5 · Fluid mechanics & hydraulics", ["civil-fm"], 15, { units: [1, 2, 4, 5, 6, 7, 8, 9, 13, 15] }),
-      sec("6 · Process calculations & thermodynamics", ["mech-thermo"], 15),
+      // PCB Paper-II is theory-oriented: five numericals in all (2 fluid mechanics + 3 process calculations)
+      ...withNumericals("5 · Fluid mechanics & hydraulics", ["civil-fm"], 15, 2, "Fluid Mechanics", { units: [1, 2, 4, 5, 6, 7, 8, 9, 13, 15] }),
+      ...withNumericals("6 · Process calculations & thermodynamics", ["mech-thermo"], 15, 3, "Process Calculations & Thermodynamics"),
       sec("7 · Air, water, soil & noise pollution and control", ["env"], 5, { units: [4] }),
       sec("7 · Air, water & noise pollution control technologies", ["civil-ee"], 10, { units: [3, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24] }),
       sec("8 · Solid & industrial waste management", ["env"], 8, { units: [5] }),
@@ -102,15 +112,25 @@ export const PATTERNS: ExamPattern[] = [
   P({ id: "aee-civil-p1", exams: ["aee-rbi", "aee-prtw"], paper: "Paper-I · GS & Mental Ability", title: "AEE · Paper-I (GS & Mental Ability)", minutes: 150, basis: "notification",
     note: "150 Q · 150 min · −⅓. Same distribution as AEE PCB Paper-I.", sections: AEE_GS }),
   P({ id: "aee-civil-p2", exams: ["aee-rbi", "aee-prtw"], paper: "Paper-II · Common Engineering", title: "AEE · Paper-II (Strength of Materials, Fluid Mechanics)", minutes: 150, basis: "notification",
-    note: "150 Q · 150 min · −⅓. Strength of Materials 75 + Fluid Mechanics 75.",
-    sections: [sec("Strength of Materials", ["civil-som"], 75), sec("Fluid Mechanics & Machinery", ["civil-fm", "civil-hm"], 75)] }),
-  P({ id: "aee-civil-p3", exams: ["aee-rbi"], paper: "Paper-III · Civil Engineering", title: "AEE R&B / Irrigation · Paper-III (Civil Engineering)", minutes: 150, basis: "notification",
-    note: "150 Q · 150 min · −⅓. Chapter mix inside each subject follows past AEE papers.",
+    note: "150 Q · 150 min · −⅓. Strength of Materials 75 + Fluid Mechanics 75; each subject carries 35 numericals and 40 theory questions.",
     sections: [
-      sec("Strength of Materials", ["civil-som"], 15), sec("Structural Analysis", ["civil-sa"], 15), sec("Reinforced Cement Concrete", ["civil-rcc"], 15),
-      sec("Fluid Mechanics & Hydraulics", ["civil-fm", "civil-hm"], 15), sec("Hydrology & Irrigation", ["civil-hyd", "civil-irr"], 15),
-      sec("Environmental Engineering", ["civil-ee"], 15), sec("Transportation Engineering", ["civil-tra"], 15), sec("Geotechnical Engineering", ["civil-geo"], 15),
-      sec("Engineering Mechanics", ["civil-em"], 10), sec("Design of Steel Structures", ["civil-ss"], 10), sec("Surveying", ["civil-sur"], 5),
+      ...withNumericals("Strength of Materials", ["civil-som"], 75, 35, "Strength of Materials|Engineering Mechanics"),
+      ...withNumericals("Fluid Mechanics & Machinery", ["civil-fm", "civil-hm"], 75, 35, "Fluid Mechanics|Hydraulic Machines"),
+    ] }),
+  P({ id: "aee-civil-p3", exams: ["aee-rbi"], paper: "Paper-III · Civil Engineering", title: "AEE R&B / Irrigation · Paper-III (Civil Engineering)", minutes: 150, basis: "notification",
+    note: "150 Q · 150 min · −⅓. Chapter mix inside each subject follows past AEE papers; 30 of the 150 are numericals spread over the subjects (more in geotechnics and environmental engineering, none in building materials / management).",
+    sections: [
+      ...withNumericals("Strength of Materials", ["civil-som"], 15, 3, "Strength of Materials"),
+      ...withNumericals("Structural Analysis", ["civil-sa"], 15, 2, "Structural Analysis"),
+      ...withNumericals("Reinforced Cement Concrete", ["civil-rcc"], 15, 3, "Reinforced Cement Concrete"),
+      ...withNumericals("Fluid Mechanics & Hydraulics", ["civil-fm", "civil-hm"], 15, 2, "Fluid Mechanics|Hydraulic Machines"),
+      ...withNumericals("Hydrology & Irrigation", ["civil-hyd", "civil-irr"], 15, 3, "Hydrology|Irrigation Engineering"),
+      ...withNumericals("Environmental Engineering", ["civil-ee"], 15, 4, "Environmental Engineering"),
+      ...withNumericals("Transportation Engineering", ["civil-tra"], 15, 3, "Transportation Engineering"),
+      ...withNumericals("Geotechnical Engineering", ["civil-geo"], 15, 5, "Geotechnical Engineering"),
+      ...withNumericals("Engineering Mechanics", ["civil-em"], 10, 1, "Engineering Mechanics"),
+      ...withNumericals("Design of Steel Structures", ["civil-ss"], 10, 2, "Design of Steel Structures"),
+      ...withNumericals("Surveying", ["civil-sur"], 5, 2, "Surveying"),
       sec("Construction Materials & Management", ["civil-bm", "civil-cpm"], 5),
     ] }),
   P({ id: "aee-prtw-p3", exams: ["aee-prtw"], paper: "Paper-III · Drawing, Environment, Electrical & Computers", title: "AEE PR & TW · Paper-III (Drawing, Environmental Science, Electrical, Computers)", minutes: 150, basis: "notification",

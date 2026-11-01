@@ -218,9 +218,25 @@ subjects.set("civil-est", { id: "civil-est", name: "Estimation, Costing & Valuat
 subjects.set("drawing-survey", { id: "drawing-survey", name: "Engineering Drawing" });
 subjects.set("mech-mat", { id: "mech-mat", name: "Engineering Materials" });
 subjects.set("mech-thermo", { id: "mech-thermo", name: "Process Calculations & Thermodynamics" });
+subjects.set("numericals", { id: "numericals", name: "Technical Subjects Numericals" });
 subjects.set("civil-other", { id: "civil-other", name: "Other Civil & General (not in chapter list)" });
 subjects.set("current", { id: "current", name: "Current Affairs" });
+// Numericals live in their own subject, grouped by formula family (data/numericals.json, built by scripts/extract/classify_numericals.py).
+const NUM_FILE = join(root, "data/numericals.json");
+const NUMERICALS = existsSync(NUM_FILE) ? JSON.parse(readFileSync(NUM_FILE, "utf8")) : {};
+const NUM_ORDER = ["Strength of Materials", "Fluid Mechanics", "Hydraulic Machines", "Engineering Mechanics", "Structural Analysis", "Reinforced Cement Concrete", "Design of Steel Structures", "Geotechnical Engineering", "Environmental Engineering", "Hydrology", "Irrigation Engineering", "Surveying", "Transportation Engineering", "Estimation & Costing", "Construction Planning & Management", "Building Materials", "Process Calculations & Thermodynamics", "Engineering Materials", "Other Civil"];
+let numericalMoved = 0;
 const HOLD = new Set(["source-only", "conflict-trusted-explanation", "key-overridden-by-science", "time-sensitive", "source-key-as-printed"]);
+// Symbol-font glyphs come through PDF text as private-use code points (U+F0xx/U+F8xx) that browsers draw as boxes.
+const GREEK_LO = "αβχδεφγηιϕκλμνοπθρστυϖωξψζ";
+const GREEK_UP = "ΑΒΧΔΕΦΓΗΙϑΚΛΜΝΟΠΘΡΣΤΥςΩΞΨΖ";
+const SYMBOL_MAP = { 0x20: " ", 0x2b: "+", 0x2d: "−", 0x2e: ".", 0x3d: "=", 0x7c: "|", 0xa3: "≤", 0xb3: "≥", 0xb1: "±", 0xb4: "×", 0xb8: "÷", 0xb0: "°", 0xb5: "∝", 0xa5: "∞", 0xd6: "√", 0xd7: "⋅", 0xde: "⇒", 0xae: "→", 0xbb: "≈", 0xb9: "≠", 0xba: "≡", 0xd1: "∇", 0xb6: "∂", 0xf2: "∫", 0xe5: "Σ", 0xd5: "∏", 0x22: "∀", 0x40: "≅", 0xa2: "′" };
+for (let i = 0; i < 26; i++) { SYMBOL_MAP[0x61 + i] = GREEK_LO[i]; SYMBOL_MAP[0x41 + i] = GREEK_UP[i]; }
+const cleanGlyphs = (t) => typeof t !== "string" ? t : t.replace(/[\uF000-\uF8FF]/g, (c) => {
+  const code = c.charCodeAt(0);
+  return code >= 0xf000 && code <= 0xf0ff ? (SYMBOL_MAP[code - 0xf000] ?? "") : "";
+}).replace(/ {2,}/g, " ");
+const inlineMarker = /\s\(?[b-d]\)\s/;
 const idsFile = join(DATA, "_ids.json");
 const idMap = existsSync(idsFile) ? JSON.parse(readFileSync(idsFile, "utf8")) : {};
 let nextId = Math.max(100000, ...Object.values(idMap)) + 1;
@@ -244,8 +260,11 @@ if (existsSync(DATA)) {
       if (!idMap[d.id]) idMap[d.id] = nextId++;
       const q = {
         id: idMap[d.id], topic: d.topic, question: d.question, options: d.options, answerIndex: d.answerIndex,
-        explanation: d.explanation ?? "", source: d.source,
+        explanation: d.explanation ?? "", source: cleanGlyphs(d.source),
       };
+      q.question = cleanGlyphs(q.question);
+      q.options = q.options.map(cleanGlyphs);
+      q.explanation = cleanGlyphs(q.explanation);
       if (d.subtopic) q.subtopic = d.subtopic;
       if (d.explanationImage?.length) q.explanationImage = d.explanationImage.map((x) => `/qimg/${slugName}/${x}`);
       if (d.keyCheck === "unverified-extract") q.unverified = true;
@@ -254,7 +273,26 @@ if (existsSync(DATA)) {
       structured.push(q);
       subjectOf.set(q.id, d.subjectId ?? subj);
       unitOf.set(q.id, Number.isInteger(d.unit) ? d.unit : (TOPIC_UNIT[q.topic] ?? null));
-      if (HOLD.has(d.keyCheck)) {
+      const nm = NUMERICALS[d.id];
+      if (nm) {
+        const where = q.source.split(" · ").pop();
+        const ref = `${where}${nm.qno ? `, question no. ${nm.qno}` : ""}`;
+        q.topic = `${nm.subjectName} · ${nm.family}`;
+        q.numerical = true;
+        q.source = nm.qno ? `${q.source} · Q.${nm.qno}` : q.source;
+        q.explanation = nm.solved
+          ? `Formula family: ${nm.formula}.\n${q.explanation}`
+          : `Worked solution not recovered cleanly from the source. Formula family: ${nm.formula}. Refer to the book: ${ref}.`;
+        delete q.subtopic;
+        subjectOf.set(q.id, "numericals");
+        unitOf.set(q.id, NUM_ORDER.indexOf(nm.subjectName) + 1);
+        numericalMoved++;
+      }
+      const garbled = d.keyCheck === "unverified-extract" && (q.options.some((o) => inlineMarker.test(o) || o.length > 120) || /\bmerged\b/.test(d.flag ?? ""));
+      if (garbled) {
+        quarantine[q.id] = "Withdrawn: the auto-extracted options were garbled (merged with neighbouring text) and could not be repaired reliably.";
+        structuredHeld++;
+      } else if (HOLD.has(d.keyCheck)) {
         quarantine[q.id] = `Answer key not confirmed (${d.keyCheck}): ${d.flag ?? ""}`.trim();
         structuredHeld++;
       } else if (knownQ.has(qKey(q))) {
@@ -269,7 +307,7 @@ if (existsSync(DATA)) {
 }
 const all = [...corrected, ...authored, ...structured];
 
-const version = createHash("sha256").update(rawText).update(fixText).update(authoredText.join("")).update(structuredText.join("")).digest("hex").slice(0, 12);
+const version = createHash("sha256").update(rawText).update(fixText).update(authoredText.join("")).update(structuredText.join("")).update(JSON.stringify(NUMERICALS)).digest("hex").slice(0, 12);
 const slug = (s) => s.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const byTopic = new Map();
 for (const q of all) {
@@ -317,7 +355,7 @@ console.log(
   `content v${version}: ${raw.length} questions → ${active} active in ${topics.length} topics ` +
     `(${Object.keys(quarantine).length} withdrawn, ${Object.keys(duplicateOf).length} duplicates hidden; ` +
     `${log.stripped.length} cleaned, ${log.droppedOption.length} option-E removed, ${log.renamedTopic.length} re-topiced, ` +
-    `${Object.keys(overrides).length} revised; ${authored.length} authored in ${authoredFiles.length} subject files; ${structured.length} structured, ${structuredHeld} held for key review, ${structuredDup} duplicates)`,
+    `${Object.keys(overrides).length} revised; ${authored.length} authored in ${authoredFiles.length} subject files; ${structured.length} structured (${numericalMoved} numericals moved to the numerical bank), ${structuredHeld} held for key review, ${structuredDup} duplicates)`,
 );
 
 if (process.argv.includes("--audit")) writeAudit();

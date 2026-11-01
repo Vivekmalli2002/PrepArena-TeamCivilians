@@ -52,7 +52,7 @@ describe("exam-pattern mocks", () => {
     expect(t.durationSec).toBe(150 * 60);
     expect(t.mode).toBe("exam");
     const subj = new Map(bank.topics.flatMap((x) => x.qids.map((id) => [id, x.subject] as const)));
-    for (const s of p.sections.filter((x) => !x.chapters)) {
+    for (const s of p.sections.filter((x) => !x.chapters && !x.subjects.includes("numericals"))) {
       expect(t.qids.filter((id) => s.subjects.includes(subj.get(id)!)).length).toBe(s.seats);
     }
   });
@@ -105,7 +105,7 @@ describe("exam blueprints", () => {
     const aee = PATTERNS.find((x) => x.id === "aee-civil-p3")!;
     const seats = scaleSeats(bank, aee, 30);
     expect(seats.reduce((a, b) => a + b, 0)).toBe(30);
-    expect(seats[0]).toBe(3); // Strength of Materials: 15/150 of 30
+    expect(seats[0] + seats[1]).toBe(3); // Strength of Materials (theory + numericals): 15/150 of 30
     expect(seats.at(-1)).toBe(1); // Construction Materials & Management: 5/150 of 30
   });
   it("the AEE Paper-I bank-backed sections are filled and no question repeats", () => {
