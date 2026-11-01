@@ -82,12 +82,23 @@ export const PATTERNS: ExamPattern[] = [
   P({ id: "aee-pcb-p1", exams: ["aee-pcb"], paper: "Paper-I · GS & Mental Ability", title: "AEE PCB · Paper-I (GS & Mental Ability)", minutes: 150, basis: "notification",
     note: "150 Q · 150 min · −⅓. History 15, Geography 15, Polity 15, Economy 15, General Science 25, Current Affairs 20, Environment 15, Disaster Management 10, Mental Ability 20.",
     sections: AEE_GS }),
-  P({ id: "aee-pcb-p3", exams: ["aee-pcb"], paper: "Paper-III · Environmental Science & Technology", title: "AEE PCB · Paper-III (Environmental Science & Technology)", minutes: 150, basis: "notification",
-    note: "150 Q · 150 min · −⅓. Ten syllabus units × 15 questions.",
-    sections: Array.from({ length: 10 }, (_, i) =>
-      i === 3 ? sec("Unit 4 · Engineering Materials", ["mech-mat"], 15)
-      : i === 5 ? sec("Unit 6 · Process Calculations & Thermodynamics", ["mech-thermo"], 15)
-      : sec(`Unit ${i + 1}`, ["env"], 15, { units: [i + 1] })) }),
+  P({ id: "aee-pcb-p3", exams: ["aee-pcb"], paper: "Paper-II · Common Subject (Environmental Science & Engineering)", title: "AEE PCB · Paper-II (Common Subject)", minutes: 150, basis: "notification",
+    note: "150 Q · 150 min · −⅓ (APPSC). Ten syllabus topics × 15 questions: ecosystems, natural resources, biodiversity, engineering materials, fluid mechanics, process calculations & thermodynamics, pollution & control, solid & industrial waste, global issues & law, EIA.",
+    sections: [
+      sec("1 · Ecosystems", ["env"], 15, { units: [1] }),
+      sec("2 · Natural resources", ["env"], 15, { units: [3] }),
+      sec("3 · Biodiversity & biotic resources", ["env"], 15, { units: [2] }),
+      sec("4 · Engineering materials", ["mech-mat"], 15),
+      sec("5 · Fluid mechanics & hydraulics", ["pcb-fluid"], 8),
+      sec("5 · Fluid mechanics & hydraulics (more)", ["civil-fm"], 7, { units: [1, 2, 4, 5, 6, 7, 8, 9, 13, 15] }),
+      sec("6 · Process calculations & thermodynamics", ["mech-thermo"], 15),
+      sec("7 · Air, water, soil & noise pollution and control", ["env"], 5, { units: [4] }),
+      sec("7 · Air, water & noise pollution control technologies", ["civil-ee"], 10, { units: [3, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24] }),
+      sec("8 · Solid & industrial waste management", ["env"], 8, { units: [5] }),
+      sec("8 · Solid waste management (more)", ["civil-ee"], 7, { units: [21] }),
+      sec("9 · Global environmental problems, policies & legislation", ["env"], 15, { units: [6, 7] }),
+      sec("10 · EIA & sustainability", ["env"], 15, { units: [8] }),
+    ] }),
   // ---- AEE Civil (R&B / Irrigation / Panchayat Raj / Tribal Welfare)
   P({ id: "aee-civil-p1", exams: ["aee-rbi", "aee-prtw"], paper: "Paper-I · GS & Mental Ability", title: "AEE · Paper-I (GS & Mental Ability)", minutes: 150, basis: "notification",
     note: "150 Q · 150 min · −⅓. Same distribution as AEE PCB Paper-I.", sections: AEE_GS }),

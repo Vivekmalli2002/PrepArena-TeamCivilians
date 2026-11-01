@@ -1,0 +1,229 @@
+{
+ "subject": {
+  "id": "mech-thermo",
+  "name": "Process Calculations & Thermodynamics"
+ },
+ "questions": [
+  {
+   "id": 44001,
+   "topic": "Material Balance without Reaction, Recycle, Bypass and Purge",
+   "subtopic": "Process calculations: balances, recycle, bypass, purge",
+   "unit": 10,
+   "question": "A process has 8 unknown variables and 5 independent equations. The degrees of freedom of the system are:",
+   "options": [
+    "5",
+    "13",
+    "8",
+    "3"
+   ],
+   "answerIndex": 3,
+   "explanation": "Degrees of freedom = number of unknowns − number of independent equations = 8 − 5 = 3, so the problem is under-specified and three more specifications are needed.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 44002,
+   "topic": "Material Balance without Reaction, Recycle, Bypass and Purge",
+   "subtopic": "Process calculations: balances, recycle, bypass, purge",
+   "unit": 10,
+   "question": "A system is correctly specified (exactly solvable) when the degrees of freedom are:",
+   "options": [
+    "Zero",
+    "Greater than zero",
+    "Less than zero",
+    "Equal to the number of streams"
+   ],
+   "answerIndex": 0,
+   "explanation": "Zero degrees of freedom means as many independent equations as unknowns; positive means under-specified and negative means over-specified.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 44003,
+   "topic": "Material Balance without Reaction, Recycle, Bypass and Purge",
+   "subtopic": "Process calculations: balances, recycle, bypass, purge",
+   "unit": 10,
+   "question": "A tie component in material balance calculations is a component that:",
+   "options": [
+    "Is the product",
+    "Is always water",
+    "Passes from one stream to another unchanged, without reacting or accumulating",
+    "Reacts completely"
+   ],
+   "answerIndex": 2,
+   "explanation": "Tie components such as nitrogen in combustion air or ash in coal link streams, which simplifies the balance.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 44004,
+   "topic": "Material Balance without Reaction, Recycle, Bypass and Purge",
+   "subtopic": "Process calculations: balances, recycle, bypass, purge",
+   "unit": 10,
+   "question": "The main purpose of a purge stream in a reactor system with recycle is to:",
+   "options": [
+    "Reduce the heat duty",
+    "Increase the conversion",
+    "Remove inert or by-product build-up in the recycle loop",
+    "Add fresh feed"
+   ],
+   "answerIndex": 2,
+   "explanation": "Without a purge, inerts that enter with the feed would accumulate in the loop and stop the process.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 44005,
+   "topic": "Material Balance without Reaction, Recycle, Bypass and Purge",
+   "subtopic": "Process calculations: balances, recycle, bypass, purge",
+   "unit": 10,
+   "question": "A stream that skips one or more process units and rejoins downstream is called:",
+   "options": [
+    "Purge stream",
+    "Recycle stream",
+    "Reflux stream",
+    "Bypass stream"
+   ],
+   "answerIndex": 3,
+   "explanation": "Bypass stream sends part of the feed around a unit to control composition or temperature; recycle returns product to an earlier unit.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 44006,
+   "topic": "Material Balance without Reaction, Recycle, Bypass and Purge",
+   "subtopic": "Process calculations: balances, recycle, bypass, purge",
+   "unit": 10,
+   "question": "For a steady-state process with chemical reaction, the general material balance on a component is:",
+   "options": [
+    "Input + generation = output + consumption",
+    "Input − output = accumulation always",
+    "Generation = consumption + input",
+    "Input = output"
+   ],
+   "answerIndex": 0,
+   "explanation": "At steady state accumulation is zero; for a reactive component, generation and consumption by reaction must be included.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 44007,
+   "topic": "Material Balance without Reaction, Recycle, Bypass and Purge",
+   "subtopic": "Process calculations: balances, recycle, bypass, purge",
+   "unit": 10,
+   "question": "In a process with fresh feed 100 mol/h of A, single-pass conversion 25 per cent to B and complete separation with recycle of all unreacted A, the flow of A entering the reactor is:",
+   "options": [
+    "300 mol/h",
+    "400 mol/h",
+    "100 mol/h",
+    "75 mol/h"
+   ],
+   "answerIndex": 1,
+   "explanation": "Overall conversion is 100 per cent, so 100 mol/h of B is formed. If 25 per cent of the reactor feed reacts, reactor feed = 100/0.25 = 400 mol/h, and the recycle is 300 mol/h.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 44008,
+   "topic": "Material Balance without Reaction, Recycle, Bypass and Purge",
+   "subtopic": "Process calculations: balances, recycle, bypass, purge",
+   "unit": 10,
+   "question": "If 100 kg of 20 per cent NaCl solution is mixed with 300 kg of 40 per cent NaCl solution, the mass percent of NaCl in the mixture is:",
+   "options": [
+    "25 per cent",
+    "40 per cent",
+    "30 per cent",
+    "35 per cent"
+   ],
+   "answerIndex": 3,
+   "explanation": "Salt = 20 + 120 = 140 kg in 400 kg of solution, i.e., 35 per cent.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 44009,
+   "topic": "Material Balance without Reaction, Recycle, Bypass and Purge",
+   "subtopic": "Process calculations: balances, recycle, bypass, purge",
+   "unit": 10,
+   "question": "An evaporator receives 1000 kg/h of a solution containing 10 per cent solids and produces a thick liquor with 40 per cent solids. The water evaporated is:",
+   "options": [
+    "600 kg/h",
+    "250 kg/h",
+    "900 kg/h",
+    "750 kg/h"
+   ],
+   "answerIndex": 3,
+   "explanation": "Solids = 100 kg/h. Product = 100/0.40 = 250 kg/h, so water removed = 1000 − 250 = 750 kg/h.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 44010,
+   "topic": "Material Balance without Reaction, Recycle, Bypass and Purge",
+   "subtopic": "Process calculations: balances, recycle, bypass, purge",
+   "unit": 10,
+   "question": "A feed of 200 kg/h splits so that 25 per cent bypasses a reactor. The flow to the reactor is:",
+   "options": [
+    "175 kg/h",
+    "50 kg/h",
+    "150 kg/h",
+    "100 kg/h"
+   ],
+   "answerIndex": 2,
+   "explanation": "Bypass = 0.25 × 200 = 50 kg/h, leaving 150 kg/h to the reactor.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 44011,
+   "topic": "Material Balance without Reaction, Recycle, Bypass and Purge",
+   "subtopic": "Process calculations: balances, recycle, bypass, purge",
+   "unit": 10,
+   "question": "Orsat analysis of flue gas reports composition on:",
+   "options": [
+    "Mass basis",
+    "Wet basis",
+    "Basis of fuel",
+    "Dry basis (without water vapour)"
+   ],
+   "answerIndex": 3,
+   "explanation": "The Orsat apparatus absorbs gases in a water-saturated sample, so the reported percentages exclude water vapour.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 44012,
+   "topic": "Basic Chemical Calculations",
+   "subtopic": "Process calculations: balances, recycle, bypass, purge",
+   "unit": 9,
+   "question": "A solution contains 30 per cent NaOH by mass in water (NaOH = 40, H2O = 18). The mole percent of NaOH is about:",
+   "options": [
+    "10.5 per cent",
+    "30 per cent",
+    "24.6 per cent",
+    "16.2 per cent"
+   ],
+   "answerIndex": 3,
+   "explanation": "On a 100 g basis: NaOH = 30/40 = 0.75 mol; water = 70/18 = 3.89 mol; total 4.64 mol; mole fraction = 0.75/4.64 = 16.2 per cent.",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  },
+  {
+   "id": 44013,
+   "topic": "Energy Balance",
+   "subtopic": "Process calculations: balances, recycle, bypass, purge",
+   "unit": 12,
+   "question": "Heating 1000 kg/h of water from 25 °C to 75 °C with Cp = 4.18 kJ/kg·K requires heat at the rate of about:",
+   "options": [
+    "17 kW",
+    "4.2 kW",
+    "209 kW",
+    "58 kW"
+   ],
+   "answerIndex": 3,
+   "explanation": "Q = m Cp ΔT = 1000 × 4.18 × 50 = 209,000 kJ/h = 58 kW (dividing by 3600).",
+   "source": "Team Civilians original · AEE PCB Paper-II pattern (APPSC 2025 and TGPSC 2026 papers studied)",
+   "difficulty": "medium"
+  }
+ ]
+}
