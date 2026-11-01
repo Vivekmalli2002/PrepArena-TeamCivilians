@@ -39,11 +39,12 @@ def build(items, markers, chapters, tag, subject_id, subject_name, unit0, start,
         pdf_page = markers[it["page"] - 1]
         stem = it["question"]
         foot = lambda t: re.sub(r"\s*Chemical Engineering(?:\s+\d+)?(?:\s+YCT)?\s*$", "", t).strip()   # running page footer glued to the last option
-        it = {**it, "options": [foot(o) for o in it["options"]]}
+        stem = foot(stem)
+        it = {**it, "question": stem, "options": [foot(o) for o in it["options"]]}
         key = re.sub(r"\W", "", (stem + "|".join(it["options"])).lower())
         fl = list(it["flags"]) + (["duplicate"] if key in seen else [])
         blob = " ".join([stem] + it["options"])
-        if re.search(r"(?:^|\s)\d\s+\d(?:\s|$)", blob):      # chemical-formula subscripts came out as loose digits ("H O" with "2 2" elsewhere)
+        if re.search(r"(?:^|\s)\d\s+\d(?:\s|$)|\b(?:CO|SO|NO|H|N|O)\s\.\s|\bin\s\d\s[a-z]", blob):      # chemical-formula subscripts came out as loose digits ("H O" with "2 2" elsewhere)
             fl.append("formula")
         if it["options"] and all(len(o) <= 2 for o in it["options"]):   # options are the letters of a figure
             fl.append("figure-options")
