@@ -16,9 +16,9 @@ describe("theme ranking", () => {
     expect(stats.reduce((n, t) => n + t.count, 0)).toBe(QS.length);
   });
   it("lists angles a theme has never been asked from", () => {
-    const space = stats.find((t) => t.theme.startsWith("Space"))!;
-    expect(space.count).toBeGreaterThan(15);
-    for (const d of space.unseen) expect(space.dims[d]).toBeUndefined();
+    const top = stats[0];
+    expect(top.count).toBeGreaterThan(15);
+    for (const d of top.unseen) expect(top.dims[d]).toBeUndefined();
   });
   it("tags every question with a theme and at least one angle", () => {
     for (const q of QS) {
@@ -95,9 +95,11 @@ describe("daily rollover and backlog", () => {
 });
 
 describe("question set", () => {
-  it("is the 292 real APPSC Group-I Paper-V questions with unique ids", () => {
-    expect(QS).toHaveLength(292);
-    expect(new Set(QS.map((q) => q.id)).size).toBe(292);
+  it("is the Group-I Mains compilation (Papers I–V, 2008–2025) with unique ids", () => {
+    expect(QS.length).toBeGreaterThan(800);
+    expect(new Set(QS.map((q) => q.id)).size).toBe(QS.length);
+    expect([...new Set(QS.map((q) => q.paper))].sort()).toEqual([1, 2, 3, 4, 5]);
+    for (const q of QS) expect(q.theme, q.id).toBeTruthy();
     for (const q of QS) expect(q.question, q.id).not.toMatch(/^\d+\s*\([a-z]\)|\s\d{1,2}\([a-d]\)(\s|$)/);
   });
 });

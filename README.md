@@ -125,8 +125,11 @@ Stored attempts keep only question ids, responses and a snapshot of the answer k
 them, and the daily queue serves 1–3 questions a day, most recurring theme first and a different angle each time.
 Anything not marked completed that day goes to the **backlog** at the end.
 
-- **Add more Group-I papers**: append questions to `src/content/mains.json` (`id, year, paper, paperName, no, marks, question`)
-  and re-run `python3 -I scripts/extract/mains_themes.py` (extend the `THEMES` rules for new subjects).
+- **Question source**: `APPSC_Group1_Mains_PYQ_Compilation.pdf` (Papers I–V, 2008–2025, arranged by syllabus topic and
+  "microtheme"). `python3 -I scripts/extract/mains_compilation.py <pdf> all.json` parses its tables, then
+  `python3 -I scripts/extract/mains_themes.py all.json` writes `src/content/mains.json` (theme = the compilation's microtheme,
+  recurrence = questions and sittings per theme, plus the angles asked). The PDF headers claim 857 questions; 815 distinct
+  rows are actually listed and imported. Ids are `g1p<paper>-<year>-<n>`, so answers keyed by id stay stable.
 - **Add model answers**: put them in `src/content/mains-answers.json` as `{ "<question id>": { "answer": "…markdown…", "source": "…" } }`
   (`##` headings, `-` bullets and `**bold**` are rendered). Until an answer is present the card shows an answer frame and a
   notes box. Only text you have the right to publish should go in.

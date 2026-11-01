@@ -21,9 +21,13 @@ export const CORE_DIMS: DimId[] = ["concept", "mechanism", "policy", "issues", "
 export interface MainsQ {
   id: string;
   year: number;
-  paper: string;
+  /** 1–5 — Group-I Mains Paper I … Paper V. */
+  paper: number;
   paperName: string;
-  no: string;
+  section?: string;
+  /** The compilation's full syllabus line the theme was shortened from. */
+  themeFull?: string;
+  no?: string;
   marks: number | null;
   question: string;
   theme: string;
@@ -33,6 +37,7 @@ export interface MainsQ {
 
 export interface ThemeStat {
   theme: string;
+  paper: number;
   count: number;
   years: number[];
   last: number;
@@ -49,7 +54,7 @@ export function themeStats(qs: MainsQ[]): ThemeStat[] {
     const years = [...new Set(list.map((q) => q.year))].sort((a, b) => a - b);
     const dims: Record<string, number> = {};
     for (const q of list) for (const d of q.dims) dims[d] = (dims[d] ?? 0) + 1;
-    return { theme, count: list.length, years, last: years.at(-1)!, dims, unseen: CORE_DIMS.filter((d) => !dims[d]), ids: list.map((q) => q.id) };
+    return { theme, paper: list[0].paper, count: list.length, years, last: years.at(-1)!, dims, unseen: CORE_DIMS.filter((d) => !dims[d]), ids: list.map((q) => q.id) };
   });
   // Most recurring first; then spread over more sittings; then most recently asked. "Other" themes go last.
   return stats.sort(
@@ -70,7 +75,7 @@ export function buildQueue(qs: MainsQ[]): string[] {
   const first: string[] = [];
   const rest: string[] = [];
   for (const t of themes) {
-    const pool = t.ids.map((id) => byId.get(id)!).sort((a, b) => b.year - a.year || a.no.localeCompare(b.no, undefined, { numeric: true }));
+    const pool = t.ids.map((id) => byId.get(id)!).sort((a, b) => b.year - a.year || a.id.localeCompare(b.id, undefined, { numeric: true }));
     const covered = new Set<string>();
     const picked: MainsQ[] = [];
     while (pool.length) {

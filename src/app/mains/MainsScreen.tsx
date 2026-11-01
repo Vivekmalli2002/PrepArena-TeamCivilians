@@ -137,18 +137,37 @@ export function MainsScreen() {
   );
 }
 
+const PAPER_NUMS = [1, 2, 3, 4, 5];
+function PaperChips({ paper, setPaper }: { paper: number | 0; setPaper: (p: number) => void }) {
+  return (
+    <div className="no-scrollbar -mx-4 mt-3 flex gap-2 overflow-x-auto px-4 sm:mx-0 sm:flex-wrap sm:px-0" role="group" aria-label="Paper">
+      <Chip on={paper === 0} onClick={() => setPaper(0)}>
+        All papers
+      </Chip>
+      {PAPER_NUMS.map((n) => (
+        <Chip key={n} on={paper === n} onClick={() => setPaper(n)}>
+          Paper {n}
+        </Chip>
+      ))}
+    </div>
+  );
+}
+
 function Themes({ onPick }: { onPick: (t: string) => void }) {
   const done = useApp((s) => s.learn.done);
   const years = [...new Set(QS.map((q) => q.year))].sort((a, b) => a - b);
+  const [paper, setPaper] = useState(0);
   return (
     <>
       <SectionTitle>Themes, most recurring first</SectionTitle>
+      <PaperChips paper={paper} setPaper={setPaper} />
       <p className="-mt-1 mb-3 text-sm text-muted">
         Counted over {years.length} sittings ({years[0]}–{years.at(-1)}). “Not asked yet” lists angles of the theme that have never come as a
         question — a likely way a repeat theme could return, based on past patterns, not a guarantee.
       </p>
       <div className="grid gap-3">
-        {STATS.map((t, i) => {
+        {STATS.filter((t) => !paper || t.paper === paper).slice(0, 60).map((t) => {
+          const i = RANK.get(t.theme)! - 1;
           const learned = t.ids.filter((id) => done[id]).length;
           return (
             <button key={t.theme} onClick={() => onPick(t.theme)} className="glass rounded-3xl p-4 text-left transition hover:-translate-y-0.5">
@@ -156,6 +175,7 @@ function Themes({ onPick }: { onPick: (t: string) => void }) {
                 <span className="grid size-8 shrink-0 place-items-center rounded-xl bg-primary-soft text-sm font-bold tabular text-primary">{i + 1}</span>
                 <div className="min-w-0 flex-1">
                   <div className="font-semibold leading-snug">{t.theme}</div>
+                  <div className="text-[11px] text-muted">Paper {t.paper}</div>
                   <div className="mt-0.5 text-xs text-muted">
                     Asked <b className="text-fg">{t.count}×</b> in {t.years.length} of {years.length} sittings · last {t.last} · {learned}/{t.count} learned
                   </div>
@@ -190,20 +210,25 @@ function AllQuestions({ theme, setTheme }: { theme: string | null; setTheme: (t:
   const done = useApp((s) => s.learn.done);
   const [status, setStatus] = useState<"all" | "todo" | "done">("all");
   const [year, setYear] = useState<number | "all">("all");
+  const [paper, setPaper] = useState(0);
   const years = [...new Set(QS.map((q) => q.year))].sort((a, b) => b - a);
-  const list = QS.filter((q) => (!theme || q.theme === theme) && (year === "all" || q.year === year) && (status === "all" || (status === "done") === !!done[q.id]));
+  const list = QS.filter((q) => (!paper || q.paper === paper) && (!theme || q.theme === theme) && (year === "all" || q.year === year) && (status === "all" || (status === "done") === !!done[q.id]));
   return (
     <>
-      <div className="no-scrollbar -mx-4 mt-4 flex gap-2 overflow-x-auto px-4 sm:mx-0 sm:flex-wrap sm:px-0">
-        <Chip on={!theme} onClick={() => setTheme(null)}>
-          All themes
-        </Chip>
-        {STATS.map((t) => (
-          <Chip key={t.theme} on={theme === t.theme} onClick={() => setTheme(t.theme)}>
-            {t.theme}
-          </Chip>
+      <PaperChips paper={paper} setPaper={(p) => (setPaper(p), setTheme(null))} />
+      <select
+        aria-label="Theme"
+        value={theme ?? ""}
+        onChange={(e) => setTheme(e.target.value || null)}
+        className="mt-2 w-full rounded-2xl border border-hairline bg-transparent px-3 py-2.5 text-sm"
+      >
+        <option value="">All themes</option>
+        {STATS.filter((t) => !paper || t.paper === paper).map((t) => (
+          <option key={t.theme} value={t.theme}>
+            {t.theme} ({t.count})
+          </option>
         ))}
-      </div>
+      </select>
       <div className="no-scrollbar -mx-4 mt-2 flex gap-2 overflow-x-auto px-4 sm:mx-0 sm:flex-wrap sm:px-0">
         {(["all", "todo", "done"] as const).map((s) => (
           <Chip key={s} on={status === s} onClick={() => setStatus(s)}>
@@ -256,7 +281,7 @@ function StudyCard({ q, defaultOpen, compact }: { q: MainsQ; defaultOpen: boolea
         <span className="min-w-0 flex-1">
           <span className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-muted">
             <b className="text-fg">
-              {q.year} · Q{q.no}
+              {q.year} · Paper {q.paper}
             </b>
             <span className="rounded-full bg-primary-soft px-2 py-0.5 font-semibold text-primary">
               #{RANK.get(q.theme)} {q.theme}
