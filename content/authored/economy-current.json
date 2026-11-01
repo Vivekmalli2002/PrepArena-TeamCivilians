@@ -1,0 +1,2048 @@
+{
+ "subject": {
+  "id": "economy",
+  "name": "Indian & AP Economy"
+ },
+ "questions": [
+  {
+   "id": 41001,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "According to the First Advance Estimates cited in the Economic Survey 2025-26, India's real GDP growth for FY26 is:",
+   "options": [
+    "6.8 per cent",
+    "7.4 per cent",
+    "7.0 per cent",
+    "8.2 per cent"
+   ],
+   "answerIndex": 1,
+   "explanation": "The First Advance Estimates of MoSPI place real GDP growth for FY26 at 7.4 per cent and GVA growth at 7.3 per cent, driven largely by domestic demand.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41002,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "The Economic Survey 2025-26 projects India's real GDP growth in FY27 in the range of:",
+   "options": [
+    "5.5 to 6.0 per cent",
+    "6.0 to 6.5 per cent",
+    "6.8 to 7.2 per cent",
+    "7.5 to 8.0 per cent"
+   ],
+   "answerIndex": 2,
+   "explanation": "The Survey sees balanced risks around growth and projects real GDP growth of 6.8 to 7.2 per cent in FY27.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41003,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "The Economic Survey 2025-26 revised India's potential growth rate to:",
+   "options": [
+    "6.0 per cent from 5.5 per cent",
+    "6.5 per cent from 6.0 per cent",
+    "7.0 per cent from 6.5 per cent",
+    "8.0 per cent from 7.0 per cent"
+   ],
+   "answerIndex": 2,
+   "explanation": "After the review, the Survey revises India's potential growth rate to 7.0 per cent, up from 6.5 per cent.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41004,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Headline CPI inflation during April–December FY26, as reported in the Economic Survey 2025-26, was about:",
+   "options": [
+    "1.7 per cent",
+    "3.5 per cent",
+    "4.8 per cent",
+    "6.2 per cent"
+   ],
+   "answerIndex": 0,
+   "explanation": "Headline CPI inflation declined to 1.7 per cent in April–December FY26, led by sharp disinflation in food prices (vegetables and pulses).",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41005,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Which of the following is correct about the nowcasting model introduced in the Economic Survey?",
+   "options": [
+    "It forecasts only the annual budget deficit",
+    "It integrates high-frequency indicators to assess near-term growth in real time",
+    "It predicts the monsoon rainfall",
+    "It measures the stock-market index"
+   ],
+   "answerIndex": 1,
+   "explanation": "The Survey's nowcasting model integrates high-frequency indicators to assess growth in the ongoing and the subsequent quarters; after three years of use it has become a reliable tool for real-time monitoring.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41006,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "By how many basis points was the policy repo rate cumulatively reduced since February 2025, according to the Economic Survey 2025-26?",
+   "options": [
+    "50",
+    "75",
+    "100",
+    "125"
+   ],
+   "answerIndex": 3,
+   "explanation": "Monetary support came through a cumulative reduction of 125 basis points in the repo rate since February 2025, as inflationary pressures moderated, plus CRR cuts and OMO purchases.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41007,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "In June 2025 the Monetary Policy Committee changed its stance from:",
+   "options": [
+    "Accommodative to neutral",
+    "Neutral to calibrated tightening",
+    "Withdrawal of accommodation to neutral",
+    "Neutral to accommodative"
+   ],
+   "answerIndex": 0,
+   "explanation": "In view of the inflation–growth dynamics the MPC's stance was changed from accommodative to neutral in June 2025.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41008,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "The weighted average lending rate (WALR) of scheduled commercial banks on fresh rupee loans stood at which level in November 2025?",
+   "options": [
+    "7.15 per cent",
+    "8.71 per cent",
+    "9.60 per cent",
+    "10.25 per cent"
+   ],
+   "answerIndex": 1,
+   "explanation": "The WALR on fresh rupee loans fell by 64 basis points during April–November 2025 and stood at 8.71 per cent in November 2025.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41009,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "The slippage ratio of scheduled commercial banks has improved from 7.1 per cent in FY18 to:",
+   "options": [
+    "1.4 per cent in FY25",
+    "3.2 per cent in FY25",
+    "4.5 per cent in FY25",
+    "6.0 per cent in FY25"
+   ],
+   "answerIndex": 0,
+   "explanation": "The slippage ratio (new NPA accretion as a percentage of standard advances) improved from 7.1 per cent in FY18 to 1.4 per cent in FY25 and 1.3 per cent in FY26 (September 2025).",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41010,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Which of the following statements about the Insolvency and Bankruptcy Code (IBC) in the Economic Survey 2025-26 is correct?",
+   "options": [
+    "NCLT had almost no pending cases",
+    "NCLT pendency was nearly 30,600 cases in March 2025, with clearance time of about 10 years at current disposal rates",
+    "IBC applies only to banks",
+    "IBC was enacted in 1991"
+   ],
+   "answerIndex": 1,
+   "explanation": "The Survey notes NCLT's pendency of nearly 30,600 cases (March 2025) and an estimated clearance time of nearly 10 years at present disposal rates.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41011,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "As per the Economic Survey 2025-26, IPO volumes in FY26 (up to December 2025) compared with FY25 were:",
+   "options": [
+    "unchanged",
+    "10 per cent lower",
+    "50 per cent higher",
+    "20 per cent higher"
+   ],
+   "answerIndex": 3,
+   "explanation": "IPO volumes in FY26 up to December 2025 were 20 per cent higher than in FY25, and the amount mobilised was 10 per cent higher.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41012,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "India's 10-year government bond yield mentioned in the Preface of the Economic Survey 2025-26 is:",
+   "options": [
+    "5.2 per cent",
+    "6.7 per cent",
+    "7.9 per cent",
+    "8.4 per cent"
+   ],
+   "answerIndex": 1,
+   "explanation": "The Preface notes India's 10-year bond yield at 6.7 per cent, compared with Indonesia's 6.3 per cent.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41013,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "The Economic Survey 2025-26 reports that gold rose in 2025 from USD 2,607 per ounce to about:",
+   "options": [
+    "USD 3,100",
+    "USD 3,600",
+    "USD 4,315",
+    "USD 5,500"
+   ],
+   "answerIndex": 2,
+   "explanation": "Gold rose from USD 2,607 to USD 4,315 per ounce in 2025 on a weaker dollar, expectations of negative real rates and geopolitical risks.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41014,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Which of the following credit-rating agencies upgraded India's rating in 2025 as per the Economic Survey?",
+   "options": [
+    "Morningstar DBRS, S&P and R&I",
+    "Fitch only",
+    "Moody's only",
+    "Only Crisil"
+   ],
+   "answerIndex": 0,
+   "explanation": "India received upgrades from three agencies in 2025: Morningstar DBRS (May), S&P (August) and R&I (September).",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41015,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "The Economic Survey 2025-26 was presented in Parliament in which month, and who is the Chief Economic Adviser who wrote its Preface?",
+   "options": [
+    "January 2026; V. Anantha Nageswaran",
+    "February 2026; Raghuram Rajan",
+    "January 2026; Arvind Subramanian",
+    "March 2026; Kaushik Basu"
+   ],
+   "answerIndex": 0,
+   "explanation": "The Survey carries the Chief Economic Adviser's Preface dated 29 January 2026, signed by Dr V. Anantha Nageswaran.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41016,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "The Economic Survey 2025-26 uses the phrase 'entrepreneurial state', borrowed from:",
+   "options": [
+    "Amartya Sen",
+    "Mariana Mazzucato",
+    "Thomas Piketty",
+    "Joseph Stiglitz"
+   ],
+   "answerIndex": 1,
+   "explanation": "The Survey borrows Mariana Mazzucato's phrase: it means entrepreneurial policymaking under uncertainty — not state capitalism or privileging private interests.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41017,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Which chapter of the Economic Survey 2025-26 argues that competitiveness will hinge on innovation, skilling, logistics and MSME scaling?",
+   "options": [
+    "Industry's Next Leap",
+    "Climate and Environment",
+    "Social Sector",
+    "Agriculture and Food Management"
+   ],
+   "answerIndex": 0,
+   "explanation": "The chapter 'Industry's Next Leap' argues that competitiveness will hinge on innovation, skilling, infrastructure/logistics and MSME scaling, embedding India as a high-productivity manufacturing hub.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41018,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "As per the Economic Survey 2025-26, the Union fiscal deficit in FY25 against the budgeted level was:",
+   "options": [
+    "4.8 per cent against 4.9 per cent",
+    "5.6 per cent against 5.1 per cent",
+    "4.4 per cent against 4.9 per cent",
+    "3.9 per cent against 4.2 per cent"
+   ],
+   "answerIndex": 0,
+   "explanation": "The Centre achieved a fiscal deficit of 4.8 per cent of GDP in FY25 against the budgeted 4.9 per cent, and targeted 4.4 per cent for FY26.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41019,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "The commitment made in 2021 was to reduce the Union fiscal deficit by more than half from which level reached in FY21?",
+   "options": [
+    "6.4 per cent",
+    "7.8 per cent",
+    "9.2 per cent",
+    "11.0 per cent"
+   ],
+   "answerIndex": 2,
+   "explanation": "The Survey recalls the 2021 promise to cut the fiscal deficit by more than half from 9.2 per cent of GDP in FY21; the target of 4.4 per cent for FY26 fulfils it.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41020,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "In the FY26 Budget the Central Government announced a new fiscal glide path aiming to reduce the debt-to-GDP ratio to around:",
+   "options": [
+    "40 per cent by FY28",
+    "50 per cent by FY31",
+    "60 per cent by FY30",
+    "45 per cent by FY35"
+   ],
+   "answerIndex": 1,
+   "explanation": "The Budget of February 2025 outlined a glide path to reduce Central Government debt to around 50 per cent of GDP by FY31.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41021,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "According to the Economic Survey 2025-26, general government debt-to-GDP in India has declined by about how many percentage points since 2020?",
+   "options": [
+    "2.5",
+    "4.0",
+    "7.1",
+    "10.3"
+   ],
+   "answerIndex": 2,
+   "explanation": "Unlike many peers, India has reduced its general government debt-to-GDP ratio by about 7.1 percentage points since 2020 while sustaining high public investment.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41022,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Gross GST revenue during April–December 2025 stood at:",
+   "options": [
+    "Rs 11.2 lakh crore",
+    "Rs 14.0 lakh crore",
+    "Rs 17.4 lakh crore",
+    "Rs 21.6 lakh crore"
+   ],
+   "answerIndex": 2,
+   "explanation": "Gross GST revenue in April–December 2025 was Rs 17.4 lakh crore, a year-on-year growth of 6.7 per cent; e-way bill volumes grew 21 per cent.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41023,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "The Economic Survey describes the 2025 changes to GST as:",
+   "options": [
+    "A shift of GST to States alone",
+    "A minor clerical change",
+    "The abolition of GST",
+    "The most radical overhaul of GST since its inception in 2017"
+   ],
+   "answerIndex": 3,
+   "explanation": "The Survey says the government passed the most radical overhaul of GST since 2017; it links GST rate rationalisation to stronger rural consumption.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41024,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Under the Union Budget 2025-26, no personal income tax was payable up to income of:",
+   "options": [
+    "Rs 7 lakh",
+    "Rs 10 lakh",
+    "Rs 12 lakh (Rs 12.75 lakh for salaried)",
+    "Rs 15 lakh"
+   ],
+   "answerIndex": 2,
+   "explanation": "Budget 2025-26 gave no tax up to Rs 12 lakh of income (Rs 12.75 lakh for salaried taxpayers), with changes in slabs and TDS rules.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41025,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Major subsidies as a share of GDP fell from 1.9 per cent in FY22 to:",
+   "options": [
+    "1.2 per cent in FY25",
+    "0.4 per cent in FY25",
+    "2.5 per cent in FY25",
+    "1.9 per cent in FY25"
+   ],
+   "answerIndex": 0,
+   "explanation": "Major subsidies declined from 1.9 per cent of GDP in FY22 to 1.2 per cent in FY25, and are budgeted at 1.1 per cent in FY26.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41026,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Capital expenditure of the Centre recorded a rise of how much year-on-year by the end of November 2025?",
+   "options": [
+    "8 per cent",
+    "14 per cent",
+    "28 per cent",
+    "40 per cent"
+   ],
+   "answerIndex": 2,
+   "explanation": "During FY26 capex rebounded strongly, rising 28 per cent year-on-year by end-November 2025.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41027,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "The Fifteenth Finance Commission recommended grants-in-aid to States under which Article of the Constitution?",
+   "options": [
+    "Article 266",
+    "Article 275",
+    "Article 280",
+    "Article 293"
+   ],
+   "answerIndex": 1,
+   "explanation": "The XV-FC recommended Rs 1,47,827 crore as grants-in-aid to States for FY26 under Article 275; it also set a net borrowing ceiling of 3 per cent of GSDP.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41028,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "The Net Borrowing Ceiling for States recommended by the XV-FC for FY26 is:",
+   "options": [
+    "2 per cent of GSDP",
+    "3 per cent of GSDP",
+    "4 per cent of GSDP",
+    "5 per cent of GSDP"
+   ],
+   "answerIndex": 1,
+   "explanation": "The XV-FC recommended a Net Borrowing Ceiling (NBC) of 3 per cent of GSDP for the States in FY26.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41029,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Of the Rs 1,50,000 crore allotted in FY26 under the Scheme for Special Assistance to States for Capital Expenditure (SASCI), about how much is untied?",
+   "options": [
+    "Rs 68,000 crore",
+    "Rs 1,20,000 crore",
+    "Rs 20,000 crore",
+    "Rs 1,50,000 crore"
+   ],
+   "answerIndex": 0,
+   "explanation": "In FY26 around Rs 68,000 crore of the Rs 1.5 lakh crore is untied assistance, while Rs 80,000 crore is earmarked for reform-linked and sector-specific investments.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41030,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "The weighted average coupon of fresh G-sec issuances in FY26 (as on 19 January 2026) declined to:",
+   "options": [
+    "5.10 per cent",
+    "6.65 per cent",
+    "7.11 per cent",
+    "7.85 per cent"
+   ],
+   "answerIndex": 1,
+   "explanation": "The WAC of fresh issuances fell to 6.65 per cent in FY26 from 7.11 per cent in FY25.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41031,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Which one of the following measures of 2025 was highlighted in the Preface of the Economic Survey 2025-26?",
+   "options": [
+    "Opening nuclear power generation to the private sector and 100 per cent FDI in insurance",
+    "Abolishing the Finance Commission",
+    "Privatisation of the RBI",
+    "Merging all States into regions"
+   ],
+   "answerIndex": 0,
+   "explanation": "Budget announcements on opening up nuclear power generation to the private sector and allowing 100 per cent FDI in insurance were implemented in 2025.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41032,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "As per the Economic Survey 2025-26, the Ministry of Environment relaxed the uniform green-cover norm of how much for industries, based on polluting potential?",
+   "options": [
+    "10 per cent",
+    "25 per cent",
+    "33 per cent",
+    "50 per cent"
+   ],
+   "answerIndex": 2,
+   "explanation": "The ministry relaxed green cover norms for industries according to their polluting potential, from the uniform 33 per cent mandate.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41033,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "The current account deficit of India in the first half of FY26 was about:",
+   "options": [
+    "0.8 per cent of GDP",
+    "2.5 per cent of GDP",
+    "3.4 per cent of GDP",
+    "4.8 per cent of GDP"
+   ],
+   "answerIndex": 0,
+   "explanation": "The Survey says remittances and a services surplus offset the goods trade deficit, keeping the current account deficit moderate at 0.8 per cent of GDP in H1 FY26.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41034,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "As of 16 January 2026, India's foreign exchange reserves covered imports for over:",
+   "options": [
+    "3 months",
+    "6 months",
+    "11 months",
+    "18 months"
+   ],
+   "answerIndex": 2,
+   "explanation": "Forex reserves cover over 11 months of imports and about 94 per cent of the external debt outstanding at end-September 2025.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41035,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Gross FDI inflows to India in April–November 2025 grew year-on-year by:",
+   "options": [
+    "4.2 per cent",
+    "16.1 per cent",
+    "31 per cent",
+    "52 per cent"
+   ],
+   "answerIndex": 1,
+   "explanation": "Gross FDI inflows grew by 16.1 per cent YoY in April–November 2025; the Survey also notes remittances have exceeded gross FDI inflows in most years.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41036,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Remittance inflows to India (provisional) in FY25 were about:",
+   "options": [
+    "USD 55.6 billion",
+    "USD 95 billion",
+    "USD 135.4 billion",
+    "USD 210 billion"
+   ],
+   "answerIndex": 2,
+   "explanation": "Remittances rose from USD 55.6 billion in FY11 to USD 135.4 billion (provisional) in FY25, about 3.5 per cent of GDP.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41037,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Since 2020, the compounded annual growth rate of India's total exports and of merchandise exports respectively, as per the Preface, is:",
+   "options": [
+    "9.4 per cent and 6.4 per cent",
+    "6.4 per cent and 9.4 per cent",
+    "12 per cent and 8 per cent",
+    "5 per cent and 5 per cent"
+   ],
+   "answerIndex": 0,
+   "explanation": "Total exports (goods plus services) grew at 9.4 per cent CAGR over five years since 2020, while merchandise exports grew only 6.4 per cent — services have carried the export performance.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41038,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "India's merchandise exports grew at a CAGR of about how much during FY20–FY25?",
+   "options": [
+    "2.1 per cent",
+    "6.9 per cent",
+    "11.5 per cent",
+    "15 per cent"
+   ],
+   "answerIndex": 1,
+   "explanation": "During FY20–FY25 India's merchandise exports grew at a compounded annual rate of 6.9 per cent.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41039,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Which merchandise segment is highlighted for rapid growth of 35.1 per cent year-on-year in the Economic Survey 2025-26?",
+   "options": [
+    "Petroleum products",
+    "Gems and jewellery",
+    "Electronic goods",
+    "Cotton textiles"
+   ],
+   "answerIndex": 2,
+   "explanation": "The rise in exports was driven by electronic goods, which grew 35.1 per cent YoY; non-petroleum, non-gems-and-jewellery exports (78.7 per cent of merchandise exports) grew 7.5 per cent.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41040,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "The recently concluded free trade agreement mentioned in the Economic Survey 2025-26, which awaits ratification by the European Parliament, is between India and:",
+   "options": [
+    "Australia",
+    "The United Kingdom",
+    "The European Union",
+    "ASEAN"
+   ],
+   "answerIndex": 2,
+   "explanation": "The FTA with the European Union, concluded after three years of negotiations, expands market access for India's labour-intensive manufactured exports and still needs ratification by the European Parliament.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41041,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "In April 2025 the United States announced a reciprocal tariff on India of 25 per cent; the Survey records that in August an additional penal tariff of what size was announced on most Indian merchandise exports?",
+   "options": [
+    "10 per cent",
+    "25 per cent",
+    "50 per cent",
+    "75 per cent"
+   ],
+   "answerIndex": 1,
+   "explanation": "The Survey notes the additional 25 per cent penal tariff announced in August on top of the 25 per cent reciprocal tariff of April, which surprised many observers.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41042,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "The Economic Survey states that India's population is about:",
+   "options": [
+    "120 crore",
+    "132 crore",
+    "145 crore",
+    "160 crore"
+   ],
+   "answerIndex": 2,
+   "explanation": "The Preface describes India as a country of 145 crore people aspiring to become richer within a generation, within a democratic framework.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41043,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Which of the following is correct about India's contract research and manufacturing services (CRAMS) hub as per the Survey?",
+   "options": [
+    "Production costs are double those of other countries",
+    "It is a service of the RBI",
+    "CRAMS is limited to textiles",
+    "Production costs are 30–40 per cent lower than in other nations"
+   ],
+   "answerIndex": 3,
+   "explanation": "India's emergence as a global CRAMS hub is attributed to strong scientific talent and production costs 30–40 per cent lower than other nations.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41044,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "India's foodgrain production in Agriculture Year 2024–25 is estimated at:",
+   "options": [
+    "2,850 lakh tonnes",
+    "3,577.3 lakh tonnes",
+    "4,100 lakh tonnes",
+    "3,100 lakh tonnes"
+   ],
+   "answerIndex": 1,
+   "explanation": "Foodgrain output reached an estimated 3,577.3 lakh metric tonnes in AY 2024–25, an increase of 254.3 LMT over the previous year.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41045,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Under the Mission for Integrated Development of Horticulture (MIDH), the additional area brought under horticulture crops as of July 2025 was:",
+   "options": [
+    "2.5 lakh hectares",
+    "15.66 lakh hectares",
+    "45 lakh hectares",
+    "80 lakh hectares"
+   ],
+   "answerIndex": 1,
+   "explanation": "MIDH has brought an additional 15.66 lakh hectares under horticulture, supporting planting material and micro-irrigation.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41046,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Which of the following is a feature of e-NAM as given in the Survey (31 December 2025)?",
+   "options": [
+    "About 1.79 crore farmers and 1,522 mandis registered across 23 States and 4 UTs",
+    "Only 5,000 farmers registered",
+    "It operates only in Punjab",
+    "It sells fertiliser"
+   ],
+   "answerIndex": 0,
+   "explanation": "By 31 December 2025, e-NAM had about 1.79 crore farmers, 4,698 FPOs and 1,522 mandis registered across 23 States and 4 UTs.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41047,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "The Kisan Call Centres answer farmers' queries in how many languages?",
+   "options": [
+    "10",
+    "15",
+    "22",
+    "36"
+   ],
+   "answerIndex": 2,
+   "explanation": "Kisan Call Centres address queries in 22 languages; 30.65 lakh calls were answered in 2024–25.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41048,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Since 2016–17 the Pradhan Mantri Fasal Bima Yojana (PMFBY) has disbursed claims of over:",
+   "options": [
+    "Rs 25,000 crore",
+    "Rs 90,000 crore",
+    "Rs 1.90 lakh crore",
+    "Rs 5 lakh crore"
+   ],
+   "answerIndex": 2,
+   "explanation": "PMFBY has processed 86 crore applications since 2016–17 and disbursed over Rs 1.90 lakh crore in claims.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41049,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "The Government has increased MSPs for mandated crops with a return of at least how much over the all-India weighted average cost of production?",
+   "options": [
+    "20 per cent",
+    "30 per cent",
+    "50 per cent",
+    "75 per cent"
+   ],
+   "answerIndex": 2,
+   "explanation": "MSPs for all mandated Kharif, Rabi and other commercial crops give a return of at least 50 per cent over the all-India weighted average cost of production.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41050,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Under the National Food Security Act, coverage of rural and urban populations is respectively:",
+   "options": [
+    "50 per cent and 75 per cent",
+    "75 per cent and 50 per cent",
+    "60 per cent and 40 per cent",
+    "90 per cent and 70 per cent"
+   ],
+   "answerIndex": 1,
+   "explanation": "NFSA covers 75 per cent of the rural and 50 per cent of the urban population, about 81.35 crore beneficiaries (2011 Census basis).",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41051,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "What proportion of fair price shops are equipped with ePoS devices linked to Aadhaar-based biometric authentication?",
+   "options": [
+    "45 per cent",
+    "78 per cent",
+    "99.6 per cent",
+    "100 per cent in Delhi only"
+   ],
+   "answerIndex": 2,
+   "explanation": "99.6 per cent of the 5.43 lakh Fair Price Shops have ePoS devices; the 'Anna Chakra' tool improves logistics and reduces emissions.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41052,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "The Pradhan Mantri Garib Kalyan Anna Yojana (PMGKAY), as described in the Survey:",
+   "options": [
+    "Began as Covid relief and continues, giving free foodgrains to all NFSA beneficiaries, fully funded by the Centre",
+    "Was withdrawn in 2020",
+    "Is funded by the States",
+    "Supplies pulses only"
+   ],
+   "answerIndex": 0,
+   "explanation": "PMGKAY began as a COVID-19 relief measure and continues; foodgrains are free for all NFSA beneficiaries and fully funded by the Central Government.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41053,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "The share of processed food in India's agri-exports rose from 14.9 per cent in FY18 to how much in FY25?",
+   "options": [
+    "16.0 per cent",
+    "20.4 per cent",
+    "28.6 per cent",
+    "35 per cent"
+   ],
+   "answerIndex": 1,
+   "explanation": "The Survey notes the share of processed food exports rose steadily from 14.9 per cent in FY18 to 20.4 per cent in FY25.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41054,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Which scheme has onboarded over 28 lakh stakeholders on the National Fisheries Digital Platform?",
+   "options": [
+    "PMAY-G",
+    "PM-KISAN",
+    "PM-MKSSY",
+    "MGNREGS"
+   ],
+   "answerIndex": 2,
+   "explanation": "PM-MKSSY promotes formalisation of fisheries through performance-linked incentives and the National Fisheries Digital Platform, which has onboarded over 28 lakh stakeholders.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41055,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "The share of services in India's GDP in H1 FY26 was about:",
+   "options": [
+    "40.2 per cent",
+    "46.0 per cent",
+    "53.6 per cent",
+    "62.4 per cent"
+   ],
+   "answerIndex": 2,
+   "explanation": "Services' share in GDP rose to 53.6 per cent in H1 FY26, higher than in H1 FY25 and the pre-pandemic period.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41056,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Nasscom estimates the IT and ITeS industry revenue (including hardware) in FY25 at:",
+   "options": [
+    "USD 150 billion",
+    "USD 283 billion",
+    "USD 410 billion",
+    "USD 520 billion"
+   ],
+   "answerIndex": 1,
+   "explanation": "Nasscom puts IT and ITeS revenues at USD 283 billion in FY25, up 5.1 per cent against 3.9 per cent in FY24.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41057,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Total telephone connections in India rose from about 933 million in 2014 to over 1.2 billion by November 2025, with tele-density increasing to:",
+   "options": [
+    "60.2 per cent",
+    "75.0 per cent",
+    "86.8 per cent",
+    "98.5 per cent"
+   ],
+   "answerIndex": 2,
+   "explanation": "Tele-density rose from 75 per cent to 86.8 per cent, with rural areas growing faster.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41058,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Outstanding individual housing loans rose from about Rs 10 lakh crore (March 2015) to over:",
+   "options": [
+    "Rs 15 lakh crore",
+    "Rs 23 lakh crore",
+    "Rs 37 lakh crore",
+    "Rs 60 lakh crore"
+   ],
+   "answerIndex": 2,
+   "explanation": "Housing loans more than tripled to over Rs 37 lakh crore by March 2025, raising them from 8 per cent to over 11 per cent of GDP.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41059,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "India's space economy is valued at about USD 8.4 billion and is projected to expand to what level over the next decade?",
+   "options": [
+    "USD 12 billion",
+    "USD 20 billion",
+    "USD 44 billion",
+    "USD 100 billion"
+   ],
+   "answerIndex": 2,
+   "explanation": "Valued at about USD 8.4 billion (around 2 per cent of the global space market), the sector is projected to reach USD 44 billion over the next decade.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41060,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Industry GVA growth in the first half of FY2025-26 in real terms, as against 5.9 per cent in FY2024-25, was:",
+   "options": [
+    "3.1 per cent",
+    "7.0 per cent",
+    "9.8 per cent",
+    "11.0 per cent"
+   ],
+   "answerIndex": 1,
+   "explanation": "Industry GVA grew 7.0 per cent in H1 FY26, a clear pickup after easing to 5.9 per cent in FY25.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41061,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "India's share in global manufacturing GVA and in global merchandise exports in 2024 was about:",
+   "options": [
+    "2.9 per cent and 1.8 per cent",
+    "12 per cent and 10 per cent",
+    "5 per cent and 7 per cent",
+    "0.5 per cent and 0.2 per cent"
+   ],
+   "answerIndex": 0,
+   "explanation": "India accounted for an estimated 2.9 per cent of global manufacturing GVA and 1.8 per cent of global merchandise exports in 2024 — large room for expansion.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41062,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "India's Gross Expenditure on R&D is stagnant at about:",
+   "options": [
+    "0.64 per cent of GDP",
+    "1.8 per cent of GDP",
+    "2.5 per cent of GDP",
+    "4.0 per cent of GDP"
+   ],
+   "answerIndex": 0,
+   "explanation": "GERD stays at about 0.64 per cent of GDP, well below the 2.5–5 per cent of innovation-led economies such as the US, China and Israel.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41063,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "The Government's capital expenditure rose by 92 per cent between FY19 and FY22, from Rs 3.07 lakh crore to:",
+   "options": [
+    "Rs 4.10 lakh crore",
+    "Rs 5.92 lakh crore",
+    "Rs 7.50 lakh crore",
+    "Rs 9.00 lakh crore"
+   ],
+   "answerIndex": 1,
+   "explanation": "Central capex rose 92 per cent from Rs 3.07 lakh crore (FY19) to Rs 5.92 lakh crore (FY22).",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41064,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "As of 31 December 2025, the Pradhan Mantri Gram Sadak Yojana had connected what proportion of eligible habitations?",
+   "options": [
+    "60 per cent",
+    "85 per cent",
+    "Over 99.7 per cent",
+    "Exactly 100 per cent"
+   ],
+   "answerIndex": 2,
+   "explanation": "PMGSY achieved near-universal rural connectivity: over 99.7 per cent of eligible habitations were connected as of 31 December 2025.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41065,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Railway network electrification had reached what level by October 2025?",
+   "options": [
+    "45 per cent",
+    "72 per cent",
+    "99.1 per cent",
+    "Complete 100 per cent"
+   ],
+   "answerIndex": 2,
+   "explanation": "Electrification had reached 99.1 per cent of the railway network by October 2025.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41066,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "The number of PPP projects awarded rose from 37 in FY15 to how many in FY25?",
+   "options": [
+    "52",
+    "87",
+    "150",
+    "210"
+   ],
+   "answerIndex": 1,
+   "explanation": "PPP awards rose from 37 to 87, and their total value from Rs 16,180 crore to Rs 61,029 crore — a 377 per cent rise.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41067,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "In FY25 power distribution utilities recorded for the first time a positive profit after tax of:",
+   "options": [
+    "Rs 2,701 crore",
+    "Rs 27,010 crore",
+    "Rs 67,962 crore",
+    "Rs 1.4 lakh crore"
+   ],
+   "answerIndex": 0,
+   "explanation": "DISCOMs and power departments recorded a positive PAT of Rs 2,701 crore in FY25, a turnaround from a loss of Rs 67,962 crore in FY14.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41068,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Which of the following describes the Late Payment Surcharge (LPS) Rules outcome as per the Survey?",
+   "options": [
+    "The Rules were repealed",
+    "Dues remained unchanged",
+    "Outstanding dues fell from Rs 1.4 lakh crore (June 2022) to Rs 4,927 crore (January 2026)",
+    "Dues doubled"
+   ],
+   "answerIndex": 2,
+   "explanation": "Streamlined payment discipline under the LPS Rules sharply reduced outstanding dues from Rs 1.4 lakh crore to Rs 4,927 crore.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41069,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "The gap between energy demand and supply declined from 4.2 per cent in FY14 to what by November 2025?",
+   "options": [
+    "6.0 per cent",
+    "1.5 per cent",
+    "Nil",
+    "3.0 per cent"
+   ],
+   "answerIndex": 2,
+   "explanation": "The energy deficit declined from 4.2 per cent in FY14 to nil by November 2025.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41070,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "What share of installed power capacity came from non-fossil sources at the end of December 2025?",
+   "options": [
+    "38.12 per cent",
+    "44.50 per cent",
+    "51.93 per cent",
+    "66.80 per cent"
+   ],
+   "answerIndex": 2,
+   "explanation": "India surpassed the goal of 50 per cent installed capacity from non-fossil sources — it stood at 51.93 per cent at the end of December 2025.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41071,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "As of December 2025 India had about how many mobile Base Transceiver Stations?",
+   "options": [
+    "4.1 lakh",
+    "8.5 lakh",
+    "31.87 lakh",
+    "75 lakh"
+   ],
+   "answerIndex": 2,
+   "explanation": "Network infrastructure was strengthened to 31.87 lakh mobile BTS and 8.48 lakh mobile towers as of December 2025.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41072,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "The NITI Aayog Multidimensional Poverty Index (MPI) declined from 55.3 per cent in 2005-06 to 14.96 per cent in 2019-21 and was estimated at what in 2022-23?",
+   "options": [
+    "19.5 per cent",
+    "14.0 per cent",
+    "11.28 per cent",
+    "6.5 per cent"
+   ],
+   "answerIndex": 2,
+   "explanation": "The MPI is estimated to have decreased further to 11.28 per cent in 2022-23; the World Bank's own multidimensional measure for India stood at 15.5 per cent.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41073,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "According to the World Bank estimates cited in the Survey, extreme poverty in India in 2022-23 was:",
+   "options": [
+    "5.3 per cent",
+    "12.6 per cent",
+    "18.9 per cent",
+    "25.0 per cent"
+   ],
+   "answerIndex": 0,
+   "explanation": "The poverty rate for India in 2022-23 is 5.3 per cent for extreme poverty and 23.9 per cent for lower-middle-income poverty.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41074,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "The Pradhan Mantri Jan Dhan Yojana had opened how many accounts by March 2025?",
+   "options": [
+    "20.4 crore",
+    "37.8 crore",
+    "55.02 crore",
+    "80.6 crore"
+   ],
+   "answerIndex": 2,
+   "explanation": "PMJDY, launched in 2014, had opened 55.02 crore accounts as of March 2025, 36.63 crore of them in rural and semi-urban areas.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41075,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "The Economic Survey 2025-26 notes that digital payment layers such as UPI help bridge the gap between:",
+   "options": [
+    "States and the Centre",
+    "Imports and exports",
+    "Account ownership and access to formal credit",
+    "Wages and prices"
+   ],
+   "answerIndex": 2,
+   "explanation": "UPI generates verifiable transaction histories and cuts transaction costs, helping to convert account ownership into access to formal credit.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41076,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Consider the following statements about the Economic Survey 2025-26:\n1. It states real GDP growth for FY26 at 7.4 per cent in the First Advance Estimates.\n2. It revises India's potential growth rate to 7.0 per cent.\n3. It projects FY27 growth at 8.5 to 9.0 per cent.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answerIndex": 0,
+   "explanation": "Statements 1 and 2 are correct. The Survey projects FY27 growth in the range of 6.8 to 7.2 per cent, so statement 3 is wrong.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41077,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Consider the following statements about India's external sector in the Economic Survey 2025-26:\n1. The current account deficit was 0.8 per cent of GDP in H1 FY26.\n2. Remittances have exceeded gross FDI inflows in most years.\n3. Forex reserves cover less than 3 months of imports.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "answerIndex": 1,
+   "explanation": "Statements 1 and 2 are correct. Reserves cover over 11 months of imports (as of 16 January 2026), so statement 3 is incorrect.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41078,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Consider the following statements about the National Food Security Act and PDS in the Survey:\n1. Coverage is 75 per cent in rural and 50 per cent in urban areas.\n2. Nearly all fair price shops have ePoS devices.\n3. PMGKAY is funded entirely by the States.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "1 and 2 only",
+    "2 only",
+    "1, 2 and 3"
+   ],
+   "answerIndex": 1,
+   "explanation": "Statements 1 and 2 are correct. Under PMGKAY foodgrains are free for all NFSA beneficiaries and fully funded by the Central Government, so statement 3 is wrong.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41079,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Which of the following statements about inflation and monetary policy in the Economic Survey 2025-26 is NOT correct?",
+   "options": [
+    "Headline CPI inflation eased to 1.7 per cent in April–December FY26",
+    "The repo rate was cut by a cumulative 125 basis points since February 2025",
+    "The MPC changed its stance to neutral in June 2025",
+    "Inflation remained above 6 per cent throughout FY26"
+   ],
+   "answerIndex": 3,
+   "explanation": "Inflation was low, not above 6 per cent: CPI inflation fell to 1.7 per cent on a sharp fall in food prices; the repo rate was cut and the stance was changed to neutral in June 2025.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41080,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Which of the following is a correct pairing of scheme and the feature highlighted in the Economic Survey 2025-26?",
+   "options": [
+    "PMFBY – 86 crore applications processed since 2016-17",
+    "e-NAM – operates only for sugar mills",
+    "PMGSY – urban metro connectivity",
+    "SASCI – subsidy on LPG"
+   ],
+   "answerIndex": 0,
+   "explanation": "PMFBY has processed 86 crore applications and disbursed over Rs 1.90 lakh crore in claims; e-NAM is a digital mandi platform, PMGSY connects rural habitations and SASCI gives special assistance to States for capital expenditure.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41081,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "Consider the following statements about power-sector reforms noted in the Survey:\n1. DISCOMs recorded a positive PAT in FY25.\n2. Late Payment Surcharge Rules reduced outstanding dues sharply.\n3. The energy deficit remained 4.2 per cent in November 2025.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "3 only"
+   ],
+   "answerIndex": 1,
+   "explanation": "Statements 1 and 2 are correct. The energy demand–supply gap fell from 4.2 per cent in FY14 to nil by November 2025, so statement 3 is wrong.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41082,
+   "topic": "Current affairs economy",
+   "subtopic": "Economic Survey 2025-26",
+   "unit": 7,
+   "question": "The Survey observes that the dip in manufacturing's share of nominal GVA mainly reflects:",
+   "options": [
+    "Relative price effects, with the share stable in real terms",
+    "A fall in the number of factories",
+    "A ban on exports",
+    "A rise in agricultural output only"
+   ],
+   "answerIndex": 0,
+   "explanation": "The compression in manufacturing's GVA share stems from relative price effects (deflators) rather than a decline in manufacturing activity; in real terms its share remains stable.",
+   "source": "Economic Survey 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41083,
+   "topic": "Current affairs economy",
+   "subtopic": "Union Budget 2026-27",
+   "unit": 7,
+   "question": "The Union Budget 2026-27 was presented in Parliament on:",
+   "options": [
+    "1 February 2026",
+    "28 February 2026",
+    "15 January 2026",
+    "1 March 2026"
+   ],
+   "answerIndex": 0,
+   "explanation": "Budget 2026-27 was presented on 1 February 2026 and continues fiscal consolidation while raising capital spending.",
+   "source": "Union Budget 2026-27 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41084,
+   "topic": "Current affairs economy",
+   "subtopic": "Union Budget 2026-27",
+   "unit": 7,
+   "question": "The fiscal deficit target for 2026-27 is:",
+   "options": [
+    "3.5 per cent of GDP",
+    "4.3 per cent of GDP",
+    "4.8 per cent of GDP",
+    "5.1 per cent of GDP"
+   ],
+   "answerIndex": 1,
+   "explanation": "The Budget targets a fiscal deficit of 4.3 per cent of GDP in 2026-27, against 4.4 per cent in the 2025-26 revised estimate.",
+   "source": "Union Budget 2026-27 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41085,
+   "topic": "Current affairs economy",
+   "subtopic": "Union Budget 2026-27",
+   "unit": 7,
+   "question": "The revenue deficit estimated for 2026-27 is about:",
+   "options": [
+    "0.5 per cent of GDP",
+    "1.5 per cent of GDP",
+    "3.0 per cent of GDP",
+    "4.2 per cent of GDP"
+   ],
+   "answerIndex": 1,
+   "explanation": "The Budget estimates the revenue deficit at 1.5 per cent of GDP.",
+   "source": "Union Budget 2026-27 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41086,
+   "topic": "Current affairs economy",
+   "subtopic": "Union Budget 2026-27",
+   "unit": 7,
+   "question": "The Budget 2026-27 aims to bring Central debt to about what level of GDP by March 2031?",
+   "options": [
+    "30 per cent",
+    "40 per cent",
+    "50 per cent",
+    "60 per cent"
+   ],
+   "answerIndex": 2,
+   "explanation": "The government aims to bring debt to about 50 per cent of GDP by March 2031 (55.6 per cent estimated in 2026-27).",
+   "source": "Union Budget 2026-27 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41087,
+   "topic": "Current affairs economy",
+   "subtopic": "Union Budget 2026-27",
+   "unit": 7,
+   "question": "Total expenditure proposed in the Budget 2026-27 is about:",
+   "options": [
+    "Rs 38.2 lakh crore",
+    "Rs 45.0 lakh crore",
+    "Rs 53.47 lakh crore",
+    "Rs 62.8 lakh crore"
+   ],
+   "answerIndex": 2,
+   "explanation": "Total expenditure is about Rs 53.47 lakh crore, 7.7 per cent higher than the 2025-26 revised estimate; interest payments are about 26 per cent of it.",
+   "source": "Union Budget 2026-27 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41088,
+   "topic": "Current affairs economy",
+   "subtopic": "Union Budget 2026-27",
+   "unit": 7,
+   "question": "Capital expenditure in the Budget 2026-27 is about:",
+   "options": [
+    "Rs 6.8 lakh crore",
+    "Rs 9.5 lakh crore",
+    "Rs 12.2 lakh crore",
+    "Rs 18.0 lakh crore"
+   ],
+   "answerIndex": 2,
+   "explanation": "Capital expenditure is raised to about Rs 12.2 lakh crore, an increase of 11.5 per cent.",
+   "source": "Union Budget 2026-27 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41089,
+   "topic": "Current affairs economy",
+   "subtopic": "Union Budget 2026-27",
+   "unit": 7,
+   "question": "The disinvestment target in the Budget 2026-27 is:",
+   "options": [
+    "Rs 10,000 crore",
+    "Rs 40,000 crore",
+    "Rs 80,000 crore",
+    "Rs 1,50,000 crore"
+   ],
+   "answerIndex": 2,
+   "explanation": "The Budget sets a disinvestment target of Rs 80,000 crore.",
+   "source": "Union Budget 2026-27 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41090,
+   "topic": "Current affairs economy",
+   "subtopic": "Union Budget 2026-27",
+   "unit": 7,
+   "question": "Tax devolution to States in the Budget 2026-27 is about:",
+   "options": [
+    "Rs 6.5 lakh crore",
+    "Rs 10.2 lakh crore",
+    "Rs 15.26 lakh crore",
+    "Rs 21.8 lakh crore"
+   ],
+   "answerIndex": 2,
+   "explanation": "Transfers to States total about Rs 26.2 lakh crore, including tax devolution of about Rs 15.26 lakh crore.",
+   "source": "Union Budget 2026-27 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41091,
+   "topic": "Current affairs economy",
+   "subtopic": "Union Budget 2026-27",
+   "unit": 7,
+   "question": "The nominal GDP growth assumed in the Budget 2026-27 is:",
+   "options": [
+    "8 per cent",
+    "10 per cent",
+    "12 per cent",
+    "14 per cent"
+   ],
+   "answerIndex": 1,
+   "explanation": "The Budget assumes nominal GDP growth of 10 per cent.",
+   "source": "Union Budget 2026-27 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41092,
+   "topic": "Current affairs economy",
+   "subtopic": "Union Budget 2026-27",
+   "unit": 7,
+   "question": "Which of the following was announced in the Budget 2026-27?",
+   "options": [
+    "No change in income-tax slabs; a Rs 10,000 crore SME Growth Fund",
+    "Abolition of income tax",
+    "Removal of GST",
+    "A new wealth tax"
+   ],
+   "answerIndex": 0,
+   "explanation": "Income-tax slabs were left unchanged; the Budget announced an SME Growth Fund of Rs 10,000 crore, Biopharma SHAKTI of Rs 10,000 crore and rare-earth corridors including Andhra Pradesh.",
+   "source": "Union Budget 2026-27 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41093,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Socio-Economic Survey 2024-25",
+   "unit": 7,
+   "question": "Gross State Domestic Product of Andhra Pradesh for 2024-25 (FAE) at current prices is estimated at:",
+   "options": [
+    "Rs 11.2 lakh crore",
+    "Rs 14.22 lakh crore",
+    "Rs 16.06 lakh crore",
+    "Rs 20.4 lakh crore"
+   ],
+   "answerIndex": 2,
+   "explanation": "GSDP at current prices for 2024-25 (FAE) is Rs 16,06,109 crore, against Rs 14.22 lakh crore in 2023-24.",
+   "source": "AP Socio-Economic Survey 2024-25 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41094,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Socio-Economic Survey 2024-25",
+   "unit": 7,
+   "question": "The growth rate of AP's GSDP in 2024-25 (FAE) at constant (2011-12) prices is:",
+   "options": [
+    "6.18 per cent",
+    "9.24 per cent",
+    "12.94 per cent",
+    "15 per cent"
+   ],
+   "answerIndex": 1,
+   "explanation": "At constant prices GSDP grew 9.24 per cent (Rs 8.73 lakh crore) against 6.18 per cent in 2023-24; at current prices the growth was 12.94 per cent.",
+   "source": "AP Socio-Economic Survey 2024-25 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41095,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Socio-Economic Survey 2024-25",
+   "unit": 7,
+   "question": "All-India GDP for 2024-25 (FAE) cited in the AP Survey grew by:",
+   "options": [
+    "6.5 per cent",
+    "9.7 per cent",
+    "12.0 per cent",
+    "4.2 per cent"
+   ],
+   "answerIndex": 1,
+   "explanation": "All India GDP was Rs 324.11 lakh crore against Rs 295.36 lakh crore, registering 9.7 per cent growth at current prices.",
+   "source": "AP Socio-Economic Survey 2024-25 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41096,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Socio-Economic Survey 2024-25",
+   "unit": 7,
+   "question": "The per capita income of Andhra Pradesh for 2024-25 (FAE) is estimated at:",
+   "options": [
+    "Rs 1,50,000",
+    "Rs 2,00,162",
+    "Rs 2,68,653",
+    "Rs 3,25,000"
+   ],
+   "answerIndex": 2,
+   "explanation": "AP's per capita income is Rs 2,68,653 (Rs 2,37,951 in 2023-24), higher than the all-India figure of Rs 2,00,162.",
+   "source": "AP Socio-Economic Survey 2024-25 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41097,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Socio-Economic Survey 2024-25",
+   "unit": 7,
+   "question": "Which sector has the largest share in AP's GVA at current prices in 2024-25 (FAE)?",
+   "options": [
+    "Services",
+    "Agriculture and allied",
+    "Mining and quarrying",
+    "Industry"
+   ],
+   "answerIndex": 0,
+   "explanation": "Services contribute 41.53 per cent, agriculture and allied 35.29 per cent and industry 23.18 per cent of GVA.",
+   "source": "AP Socio-Economic Survey 2024-25 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41098,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Socio-Economic Survey 2024-25",
+   "unit": 7,
+   "question": "The Agriculture and Allied sector's GVA in AP for 2024-25 (FAE) is estimated at Rs 2,32,296 crore with a growth rate of:",
+   "options": [
+    "2.10 per cent",
+    "5.55 per cent",
+    "10.70 per cent",
+    "18.4 per cent"
+   ],
+   "answerIndex": 2,
+   "explanation": "Agriculture and allied GVA grew 10.70 per cent at constant prices; fishing and aquaculture grew 16.0 per cent.",
+   "source": "AP Socio-Economic Survey 2024-25 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41099,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Socio-Economic Survey 2024-25",
+   "unit": 7,
+   "question": "Which of the following sectors recorded the highest growth rate in Andhra Pradesh in 2024-25 (FAE)?",
+   "options": [
+    "Manufacturing",
+    "Communications",
+    "Construction",
+    "Fishing and aquaculture"
+   ],
+   "answerIndex": 3,
+   "explanation": "Fishing and aquaculture achieved 16.0 per cent growth; manufacturing grew 6.57 per cent, construction 10.47 per cent, communications 15.28 per cent and banking and insurance 14.61 per cent.",
+   "source": "AP Socio-Economic Survey 2024-25 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41100,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Socio-Economic Survey 2024-25",
+   "unit": 7,
+   "question": "The Andhra Pradesh Survey records manufacturing growth and construction growth in 2024-25 respectively as:",
+   "options": [
+    "6.57 per cent and 10.47 per cent",
+    "10.47 per cent and 6.57 per cent",
+    "3 per cent and 4 per cent",
+    "15 per cent and 20 per cent"
+   ],
+   "answerIndex": 0,
+   "explanation": "The industry sector saw manufacturing grow 6.57 per cent and construction 10.47 per cent.",
+   "source": "AP Socio-Economic Survey 2024-25 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41101,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Socio-Economic Survey 2024-25",
+   "unit": 7,
+   "question": "As per the AP Survey, the total debt of the State at the end of 2024-25 (RE) is expected to be about:",
+   "options": [
+    "Rs 2.1 lakh crore",
+    "Rs 3.4 lakh crore",
+    "Rs 5.64 lakh crore",
+    "Rs 9.0 lakh crore"
+   ],
+   "answerIndex": 2,
+   "explanation": "Total debt rose from Rs 4,91,734 crore (2023-24) to an expected Rs 5,64,488 crore at the end of 2024-25 (RE).",
+   "source": "AP Socio-Economic Survey 2024-25 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41102,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Socio-Economic Survey 2024-25",
+   "unit": 7,
+   "question": "AP's fiscal deficit in 2024-25 (RE), as per the Survey, is estimated at:",
+   "options": [
+    "Rs 38,683 crore",
+    "Rs 48,311 crore",
+    "Rs 62,720 crore",
+    "Rs 73,362 crore"
+   ],
+   "answerIndex": 3,
+   "explanation": "The fiscal deficit is estimated at Rs 73,362 crore (Rs 62,720 crore in 2023-24); the revenue deficit is Rs 48,311 crore (Rs 38,683 crore in 2023-24).",
+   "source": "AP Socio-Economic Survey 2024-25 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41103,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Socio-Economic Survey 2024-25",
+   "unit": 7,
+   "question": "Among AP's revenue in 2024-25 (RE), which is the correct figure for Own Tax revenue?",
+   "options": [
+    "Rs 7,018 crore",
+    "Rs 89,157 crore",
+    "Rs 94,967 crore",
+    "Rs 2,49,418 crore"
+   ],
+   "answerIndex": 2,
+   "explanation": "Own tax was Rs 94,967 crore, own non-tax Rs 7,018 crore and central transfers Rs 89,157 crore; total expenditure is expected at Rs 2,49,418 crore.",
+   "source": "AP Socio-Economic Survey 2024-25 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41104,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Socio-Economic Survey 2024-25",
+   "unit": 7,
+   "question": "Andhra Pradesh, according to the Survey, has what area under horticulture and contributes what share of national output?",
+   "options": [
+    "18.23 lakh hectares and 15.6 per cent",
+    "5 lakh hectares and 3 per cent",
+    "30 lakh hectares and 40 per cent",
+    "18.23 lakh hectares and 50 per cent"
+   ],
+   "answerIndex": 0,
+   "explanation": "AP, the largest fruit producer in India, has 18.23 lakh hectares under horticulture producing 365.92 lakh MT, 15.6 per cent of national output.",
+   "source": "AP Socio-Economic Survey 2024-25 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41105,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Socio-Economic Survey 2024-25",
+   "unit": 7,
+   "question": "Andhra Pradesh ranks second in India in the production of:",
+   "options": [
+    "Tea and coffee",
+    "Apple and saffron",
+    "Jute and rubber",
+    "Mango, sweet orange and turmeric"
+   ],
+   "answerIndex": 3,
+   "explanation": "The Survey says AP excels in oil palm, papaya, lime, cocoa, tomato and chillies productivity and ranks 2nd in mango, sweet orange and turmeric.",
+   "source": "AP Socio-Economic Survey 2024-25 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41106,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Socio-Economic Survey 2024-25",
+   "unit": 7,
+   "question": "The Deepam-2 Scheme provides eligible families with:",
+   "options": [
+    "Three free LPG cylinders per year",
+    "Free electricity",
+    "Free housing",
+    "Cash of Rs 4,000 per month"
+   ],
+   "answerIndex": 0,
+   "explanation": "Deepam-2 (launched in 2024) provides three free LPG cylinders per year to about 83 lakh eligible families.",
+   "source": "AP Socio-Economic Survey 2024-25 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41107,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Socio-Economic Survey 2024-25",
+   "unit": 7,
+   "question": "The NTR Bharosa Pension Scheme provides how much per month to elderly, widows, transgender persons and others as per the AP Survey?",
+   "options": [
+    "Rs 1,000",
+    "Rs 2,000",
+    "Rs 3,000",
+    "Rs 4,000"
+   ],
+   "answerIndex": 3,
+   "explanation": "The NTR Bharosa Pension Scheme provides Rs 4,000 per month to the elderly, widows, transgender persons and persons with disabilities.",
+   "source": "AP Socio-Economic Survey 2024-25 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41108,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Socio-Economic Survey 2024-25",
+   "unit": 7,
+   "question": "The monthly rice allocation under PDS in AP in 2024-25 is stated as:",
+   "options": [
+    "2.35 lakh metric tonnes",
+    "5.0 lakh metric tonnes",
+    "0.85 lakh metric tonnes",
+    "10 lakh metric tonnes"
+   ],
+   "answerIndex": 0,
+   "explanation": "The monthly rice allocation under PDS increased to 2.35 lakh MT in 2024-25; mobile dispensing units reach remote tribal and rural areas.",
+   "source": "AP Socio-Economic Survey 2024-25 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41109,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Socio-Economic Survey 2024-25",
+   "unit": 7,
+   "question": "The installed power capacity of Andhra Pradesh mentioned in the Socio-Economic Survey 2024-25 is:",
+   "options": [
+    "12,500 MW",
+    "27,392 MW",
+    "45,000 MW",
+    "60,000 MW"
+   ],
+   "answerIndex": 1,
+   "explanation": "AP has an installed capacity of 27,392 MW using thermal, hydel, gas and renewable sources, with significant wind and solar potential.",
+   "source": "AP Socio-Economic Survey 2024-25 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41110,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Socio-Economic Survey 2024-25",
+   "unit": 7,
+   "question": "The Swarna Andhra Vision 2047 aims to raise AP's GSDP to over:",
+   "options": [
+    "USD 500 billion",
+    "USD 1 trillion",
+    "USD 2.4 trillion",
+    "USD 10 trillion"
+   ],
+   "answerIndex": 2,
+   "explanation": "Key targets include GSDP over USD 2.4 trillion, per capita income over USD 42,000, unemployment below 2 per cent, women's workforce participation over 80 per cent and over 95 per cent of the workforce skilled.",
+   "source": "AP Socio-Economic Survey 2024-25 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41111,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Socio-Economic Survey 2024-25",
+   "unit": 7,
+   "question": "Swarna Andhra Vision 2047 aims to make Andhra Pradesh:",
+   "options": [
+    "A single-crop State",
+    "A wealthy, healthy and happy State by 2047",
+    "A landlocked State",
+    "A Union Territory"
+   ],
+   "answerIndex": 1,
+   "explanation": "The Vision aims to transform Andhra Pradesh into a Wealthy, Healthy and Happy State by 2047, in line with Viksit Bharat 2047.",
+   "source": "AP Socio-Economic Survey 2024-25 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41112,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Socio-Economic Survey 2024-25",
+   "unit": 7,
+   "question": "Which of the following targets is part of the Swarna Andhra Vision 2047?",
+   "options": [
+    "Per capita income of over USD 42,000",
+    "Per capita income of USD 5,000",
+    "GSDP of USD 50 billion",
+    "Unemployment above 10 per cent"
+   ],
+   "answerIndex": 0,
+   "explanation": "The Vision lists per capita income of over USD 42,000 (against about USD 3,400 now), unemployment below 2 per cent and women's workforce participation above 80 per cent.",
+   "source": "AP Socio-Economic Survey 2024-25 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41113,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Socio-Economic Survey 2024-25",
+   "unit": 7,
+   "question": "The onion price rise of 40.24 per cent in AP in 2024-25 was managed through:",
+   "options": [
+    "Cutting wages",
+    "Closing mandis",
+    "Banning onion farming",
+    "Direct procurement from farmers and investment in cold storage"
+   ],
+   "answerIndex": 3,
+   "explanation": "The Survey notes price stabilisation measures such as direct procurement from farmers and cold-storage investment.",
+   "source": "AP Socio-Economic Survey 2024-25 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41114,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Socio-Economic Survey 2024-25",
+   "unit": 7,
+   "question": "The AP Socio-Economic Survey is presented in the State Legislature:",
+   "options": [
+    "Along with the Budget documents",
+    "After the Assembly elections only",
+    "Before the Governor's address to Parliament",
+    "At the end of the financial year"
+   ],
+   "answerIndex": 0,
+   "explanation": "As the Preface says, the Government of AP presents the Socio-Economic Survey each year in both Houses of the State Legislature alongside the Budget documents.",
+   "source": "AP Socio-Economic Survey 2024-25 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41115,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Budget 2025-26",
+   "unit": 7,
+   "question": "The Andhra Pradesh Budget 2025-26 was presented on:",
+   "options": [
+    "28 February 2025",
+    "1 February 2025",
+    "15 March 2025",
+    "1 April 2025"
+   ],
+   "answerIndex": 0,
+   "explanation": "The Andhra Pradesh Budget 2025-26 was presented on 28 February 2025, with GSDP projected at about Rs 18.3 lakh crore.",
+   "source": "AP Budget 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41116,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Budget 2025-26",
+   "unit": 7,
+   "question": "The fiscal deficit in the AP Budget 2025-26 is estimated at:",
+   "options": [
+    "4.4 per cent of GSDP (about Rs 79,927 crore)",
+    "2.0 per cent of GSDP",
+    "6.1 per cent of GSDP",
+    "3.0 per cent of GSDP"
+   ],
+   "answerIndex": 0,
+   "explanation": "The fiscal deficit is estimated at 4.4 per cent of GSDP (Rs 79,927 crore), down from 4.6 per cent in the 2024-25 revised estimate.",
+   "source": "AP Budget 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41117,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Budget 2025-26",
+   "unit": 7,
+   "question": "The revenue deficit in the AP Budget 2025-26 is about:",
+   "options": [
+    "1.8 per cent of GSDP",
+    "0.2 per cent of GSDP",
+    "3.0 per cent of GSDP",
+    "4.5 per cent of GSDP"
+   ],
+   "answerIndex": 0,
+   "explanation": "The revenue deficit is 1.8 per cent of GSDP (Rs 33,186 crore), against 3.0 per cent in 2024-25.",
+   "source": "AP Budget 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41118,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Budget 2025-26",
+   "unit": 7,
+   "question": "Under the Talliki Vandanam scheme announced in the AP Budget 2025-26, each school-going child (Class 1 to 12) is given:",
+   "options": [
+    "Rs 5,000 per year",
+    "Rs 10,000 per year",
+    "Rs 15,000 per year",
+    "Rs 25,000 per year"
+   ],
+   "answerIndex": 2,
+   "explanation": "Talliki Vandanam gives Rs 15,000 per year for each school-going child from Class 1 to 12.",
+   "source": "AP Budget 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41119,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Budget 2025-26",
+   "unit": 7,
+   "question": "The relief for fishermen during the fishing-ban period was raised in the AP Budget 2025-26 from Rs 10,000 to:",
+   "options": [
+    "Rs 15,000",
+    "Rs 20,000",
+    "Rs 30,000",
+    "Rs 50,000"
+   ],
+   "answerIndex": 1,
+   "explanation": "Fishing-ban relief was raised from Rs 10,000 to Rs 20,000.",
+   "source": "AP Budget 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  },
+  {
+   "id": 41120,
+   "topic": "Current affairs economy",
+   "subtopic": "AP Budget 2025-26",
+   "unit": 7,
+   "question": "The AP Budget 2025-26 projected GSDP at about Rs 18.3 lakh crore, an increase over the revised estimate of 2024-25 of:",
+   "options": [
+    "About 14 per cent",
+    "About 2 per cent",
+    "About 30 per cent",
+    "About 45 per cent"
+   ],
+   "answerIndex": 0,
+   "explanation": "GSDP was projected at about Rs 18.3 lakh crore, 14 per cent higher than the 2024-25 revised estimate.",
+   "source": "AP Budget 2025-26 · Current affairs economy",
+   "difficulty": "medium"
+  }
+ ]
+}

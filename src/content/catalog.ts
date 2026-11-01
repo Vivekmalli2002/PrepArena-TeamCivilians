@@ -120,6 +120,7 @@ export const SUBJECTS: Record<string, Subject> = {
       { title: "AP economy, GSDP, public finance & bifurcation", exams: ["group2", "group1"] },
       { title: "AP agriculture, allied sectors, industry & services", exams: ["group2", "group1"] },
       { title: "Infrastructure (India & AP)", exams: ["group1", ...ALL_GS, "draughtsman"] },
+      { title: "Current affairs economy", exams: ["group2", "group1", ...ALL_GS, "draughtsman"] },
     ],
   },
   geography: {
