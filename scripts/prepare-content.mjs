@@ -221,6 +221,16 @@ subjects.set("mech-thermo", { id: "mech-thermo", name: "Process Calculations & T
 subjects.set("civil-other", { id: "civil-other", name: "Other Civil & General (not in chapter list)" });
 subjects.set("current", { id: "current", name: "Current Affairs" });
 const HOLD = new Set(["source-only", "conflict-trusted-explanation", "key-overridden-by-science", "time-sensitive", "source-key-as-printed"]);
+// Symbol-font glyphs come through PDF text as private-use code points (U+F0xx/U+F8xx) that browsers draw as boxes.
+const GREEK_LO = "αβχδεφγηιϕκλμνοπθρστυϖωξψζ";
+const GREEK_UP = "ΑΒΧΔΕΦΓΗΙϑΚΛΜΝΟΠΘΡΣΤΥςΩΞΨΖ";
+const SYMBOL_MAP = { 0x20: " ", 0x2b: "+", 0x2d: "−", 0x2e: ".", 0x3d: "=", 0x7c: "|", 0xa3: "≤", 0xb3: "≥", 0xb1: "±", 0xb4: "×", 0xb8: "÷", 0xb0: "°", 0xb5: "∝", 0xa5: "∞", 0xd6: "√", 0xd7: "⋅", 0xde: "⇒", 0xae: "→", 0xbb: "≈", 0xb9: "≠", 0xba: "≡", 0xd1: "∇", 0xb6: "∂", 0xf2: "∫", 0xe5: "Σ", 0xd5: "∏", 0x22: "∀", 0x40: "≅", 0xa2: "′" };
+for (let i = 0; i < 26; i++) { SYMBOL_MAP[0x61 + i] = GREEK_LO[i]; SYMBOL_MAP[0x41 + i] = GREEK_UP[i]; }
+const cleanGlyphs = (t) => typeof t !== "string" ? t : t.replace(/[\uF000-\uF8FF]/g, (c) => {
+  const code = c.charCodeAt(0);
+  return code >= 0xf000 && code <= 0xf0ff ? (SYMBOL_MAP[code - 0xf000] ?? "") : "";
+}).replace(/ {2,}/g, " ");
+const inlineMarker = /\s\(?[b-d]\)\s/;
 const idsFile = join(DATA, "_ids.json");
 const idMap = existsSync(idsFile) ? JSON.parse(readFileSync(idsFile, "utf8")) : {};
 let nextId = Math.max(100000, ...Object.values(idMap)) + 1;
@@ -244,8 +254,11 @@ if (existsSync(DATA)) {
       if (!idMap[d.id]) idMap[d.id] = nextId++;
       const q = {
         id: idMap[d.id], topic: d.topic, question: d.question, options: d.options, answerIndex: d.answerIndex,
-        explanation: d.explanation ?? "", source: d.source,
+        explanation: d.explanation ?? "", source: cleanGlyphs(d.source),
       };
+      q.question = cleanGlyphs(q.question);
+      q.options = q.options.map(cleanGlyphs);
+      q.explanation = cleanGlyphs(q.explanation);
       if (d.subtopic) q.subtopic = d.subtopic;
       if (d.explanationImage?.length) q.explanationImage = d.explanationImage.map((x) => `/qimg/${slugName}/${x}`);
       if (d.keyCheck === "unverified-extract") q.unverified = true;
@@ -254,7 +267,11 @@ if (existsSync(DATA)) {
       structured.push(q);
       subjectOf.set(q.id, d.subjectId ?? subj);
       unitOf.set(q.id, Number.isInteger(d.unit) ? d.unit : (TOPIC_UNIT[q.topic] ?? null));
-      if (HOLD.has(d.keyCheck)) {
+      const garbled = d.keyCheck === "unverified-extract" && (q.options.some((o) => inlineMarker.test(o) || o.length > 120) || /\bmerged\b/.test(d.flag ?? ""));
+      if (garbled) {
+        quarantine[q.id] = "Withdrawn: the auto-extracted options were garbled (merged with neighbouring text) and could not be repaired reliably.";
+        structuredHeld++;
+      } else if (HOLD.has(d.keyCheck)) {
         quarantine[q.id] = `Answer key not confirmed (${d.keyCheck}): ${d.flag ?? ""}`.trim();
         structuredHeld++;
       } else if (knownQ.has(qKey(q))) {
