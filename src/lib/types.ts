@@ -24,7 +24,7 @@ export interface Question {
 
 export type Mode = "practice" | "exam";
 
-export type TestKind = "topic" | "subtopic" | "topic-mock" | "mock" | "daily" | "custom" | "revision";
+export type TestKind = "topic" | "subtopic" | "topic-mock" | "mock" | "daily" | "slot" | "custom" | "revision";
 
 export interface TestConfig {
   kind: TestKind;

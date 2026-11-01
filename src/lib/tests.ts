@@ -5,6 +5,7 @@ import type { Mode, QStat, TestConfig } from "./types";
 
 export const SET_SIZE = 25;
 export const DAILY_SIZE = 10;
+export const SLOT_SIZE = 10;
 export const FULL_MOCK = { count: 50, minutes: 50 };
 export const TOPIC_MOCK = { count: 25, minutes: 25 };
 
