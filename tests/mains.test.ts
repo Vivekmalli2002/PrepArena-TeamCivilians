@@ -29,6 +29,12 @@ describe("checklist data", () => {
     expect(importance({ pdfn: 4 }).label).toBe("Medium");
     expect(importance({ pdfn: 7 }).label).toBe("High");
   });
+  it("keeps questions asked only by other exams apart from APPSC ones", () => {
+    const only = THEMES.flatMap((t) => t.asked).filter((a) => a.boards.length > 0 && !a.boards.includes("APPSC"));
+    expect(only.length).toBeGreaterThan(100);
+    expect(only.every((a) => a.boards.includes("TGPSC"))).toBe(true);
+    expect(THEMES.filter((t) => t.asked.some((a) => a.boards.length > 0 && !a.boards.includes("APPSC"))).length).toBeGreaterThan(50);
+  });
   it("lists the past questions with their years and boards", () => {
     const tg = THEMES.flatMap((t) => t.asked).filter((a) => a.boards.includes("TGPSC"));
     expect(tg.length).toBeGreaterThan(50);
