@@ -4,7 +4,7 @@ import { bySubject, importance, nextTheme, studyOrder, sumProgress, themeDone, t
 import { emptyLearn, readKey, toggleRead, unreadItems } from "@/lib/mainsLearn";
 
 const J = (f: string) => JSON.parse(readFileSync(`src/content/${f}`, "utf8"));
-const MODEL_FILES = ["p5", "p4", "p3p2", "f1", "f2", "f3", "f4", "f5", "g23", "g45", "s1", "s2"].map((n) => J(`mains-model-${n}.json`));
+const MODEL_FILES = ["p5", "p4", "p3p2", "f1", "f2", "f3", "f4", "f5", "g23", "g45", "s1", "s2", "s3"].map((n) => J(`mains-model-${n}.json`));
 const THEMES = J("mains-checklist.json") as Theme[];
 
 describe("checklist data", () => {
