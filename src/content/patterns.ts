@@ -35,6 +35,8 @@ function civilSections(ids: string[], total: number, labels: Record<string, stri
 }
 
 type Sec = PatternSpec["sections"][number];
+/** Topics about Andhra Pradesh history (topic names start with "AP" or mention Andhra). */
+const AP_HISTORY = "(^|\\W)AP(\\W|$)|Andhra";
 const sec = (label: string, subjects: string[], seats: number, more: Partial<Sec> = {}): Sec => ({ label, subjects, seats, ...more });
 
 /** General Studies & Mental Ability paper shared by AEE PCB and AEE Civil (150 Q). */
@@ -72,7 +74,7 @@ export const PATTERNS: ExamPattern[] = [
     sections: [sec("Indian History", ["history"], 30), sec("Indian & AP Geography", ["geography"], 30), sec("Indian Society", ["society"], 30), sec("Current Affairs", ["current"], 30), sec("Mental Ability", ["mental"], 30)] }),
   P({ id: "g2-mains-1", exams: ["group2"], paper: "Mains Paper-I", title: "Group-2 · Mains Paper-I (AP History & Constitution)", minutes: 150, basis: "notification",
     note: "150 Q · 150 min · −⅓ — AP social & cultural history 75, Indian Constitution & Polity 75.",
-    sections: [sec("AP Social & Cultural History", ["history"], 75), sec("Indian Constitution & Polity", ["polity"], 75)] }),
+    sections: [sec("AP Social & Cultural History", ["history"], 75, { topicMatch: AP_HISTORY }), sec("Indian Constitution & Polity", ["polity"], 75)] }),
   P({ id: "g2-mains-2", exams: ["group2"], paper: "Mains Paper-II", title: "Group-2 · Mains Paper-II (Economy, Science & Technology)", minutes: 150, basis: "notification",
     note: "150 Q · 150 min · −⅓ — Economy 75, Science & Technology 75 (General S&T 50 + Environment & Ecology 25).",
     sections: [sec("Indian & AP Economy", ["economy"], 75), sec("General Science & Technology", ["scitech"], 50), sec("Environment & Ecology", ["env"], 25)] }),
@@ -84,12 +86,12 @@ export const PATTERNS: ExamPattern[] = [
     note: "150 Q · 150 min · −⅓. Ten syllabus units × 15 questions.",
     sections: Array.from({ length: 10 }, (_, i) => sec(`Unit ${i + 1}`, ["env"], 15, { units: [i + 1] })) }),
   // ---- AEE Civil (R&B / Irrigation / Panchayat Raj / Tribal Welfare)
-  P({ id: "aee-civil-p1", exams: ["aee-rbi", "aee-prtw"], paper: "Paper-I · GS & Mental Ability", title: "AEE Civil · Paper-I (GS & Mental Ability)", minutes: 150, basis: "notification",
+  P({ id: "aee-civil-p1", exams: ["aee-rbi", "aee-prtw"], paper: "Paper-I · GS & Mental Ability", title: "AEE · Paper-I (GS & Mental Ability)", minutes: 150, basis: "notification",
     note: "150 Q · 150 min · −⅓. Same distribution as AEE PCB Paper-I.", sections: AEE_GS }),
-  P({ id: "aee-civil-p2", exams: ["aee-rbi", "aee-prtw"], paper: "Paper-II · Common Engineering", title: "AEE Civil · Paper-II (Strength of Materials, Fluid Mechanics)", minutes: 150, basis: "notification",
+  P({ id: "aee-civil-p2", exams: ["aee-rbi", "aee-prtw"], paper: "Paper-II · Common Engineering", title: "AEE · Paper-II (Strength of Materials, Fluid Mechanics)", minutes: 150, basis: "notification",
     note: "150 Q · 150 min · −⅓. Strength of Materials 75 + Fluid Mechanics 75.",
     sections: [sec("Strength of Materials", ["civil-som"], 75), sec("Fluid Mechanics & Machinery", ["civil-fm", "civil-hm"], 75)] }),
-  P({ id: "aee-civil-p3", exams: ["aee-rbi", "aee-prtw"], paper: "Paper-III · Civil Engineering", title: "AEE Civil · Paper-III (Civil Engineering)", minutes: 150, basis: "notification",
+  P({ id: "aee-civil-p3", exams: ["aee-rbi"], paper: "Paper-III · Civil Engineering", title: "AEE R&B / Irrigation · Paper-III (Civil Engineering)", minutes: 150, basis: "notification",
     note: "150 Q · 150 min · −⅓. Chapter mix inside each subject follows past AEE papers.",
     sections: [
       sec("Strength of Materials", ["civil-som"], 15), sec("Structural Analysis", ["civil-sa"], 15), sec("Reinforced Cement Concrete", ["civil-rcc"], 15),
@@ -98,12 +100,27 @@ export const PATTERNS: ExamPattern[] = [
       sec("Engineering Mechanics", ["civil-em"], 10), sec("Design of Steel Structures", ["civil-ss"], 10), sec("Surveying", ["civil-sur"], 5),
       sec("Construction Materials & Management", ["civil-bm", "civil-cpm"], 5),
     ] }),
+  P({ id: "aee-prtw-p3", exams: ["aee-prtw"], paper: "Paper-III · Drawing, Environment, Electrical & Computers", title: "AEE PR & TW · Paper-III (Drawing, Environmental Science, Electrical, Computers)", minutes: 150, basis: "notification",
+    note: "150 Q · 150 min · −⅓. Disaster Management 15, Engineering Drawing 15, Basic Electrical 15, Computing 15, and 90 on Environmental Science (six areas × 15). Paper-II is common with R&B / Irrigation.",
+    sections: [
+      sec("Disaster Management", ["env", "geography", "current"], 15, { topicMatch: "disaster" }),
+      sec("Engineering Drawing", ["drawing-survey"], 15), sec("Basic Electrical Engineering", ["electrical"], 15), sec("Computing (computer fundamentals)", ["computers"], 15),
+      sec("Env. Science · Natural resources", ["env"], 15, { topicMatch: "resource|energy|coal|petroleum|biofuel|hydropower|nuclear|forest|water" }),
+      sec("Env. Science · Ecosystems", ["env"], 15, { topicMatch: "ecolog|ecosystem" }),
+      sec("Env. Science · Biodiversity & conservation", ["env"], 15, { topicMatch: "biodivers|sanctuary|biosphere|conservation|wildlife" }),
+      sec("Env. Science · Pollution & solid waste", ["env"], 15, { topicMatch: "pollution|waste" }),
+      sec("Env. Science · Social issues & environmental Acts", ["env"], 15, { topicMatch: "legislation|convention|sustainable|climate|ozone|impact|policy|social|general environment" }),
+      sec("Env. Science · Human population & environment", ["env"], 15, { topicMatch: "population|health|human|issues|urban|general environment" }),
+    ] }),
   // ---- ASWO / ATWO
   P({ id: "aswo-p1", exams: ["aswo"], paper: "Paper-I · GS & Mental Ability", title: "ASWO / ATWO · Paper-I (GS & Mental Ability)", minutes: 150, basis: "notification",
     note: "150 Q · 150 min · −⅓. History 20, Geography 15, Polity 20, Economy 15, General Science 20, Environment 15, Current Affairs 20, Mental Ability 25.", sections: WELFARE_GS }),
-  P({ id: "aswo-p2", exams: ["aswo"], paper: "Paper-II / III · Welfare modules", title: "ASWO / ATWO · Paper-II & III (welfare modules)", minutes: 150, basis: "assumed",
-    note: "150 Q · 150 min · −⅓. The modules are named but not sized, so seats are shared equally.",
-    sections: [sec("Welfare schemes", ["society"], 38), sec("Social legislation", ["polity"], 37), sec("SC / ST / BC welfare", ["society"], 38), sec("Tribal administration", ["society"], 37)] }),
+  P({ id: "aswo-p2", exams: ["aswo"], paper: "Paper-II · Social & Cultural History of AP and Welfare Mechanisms", title: "ASWO / ATWO · Paper-II (AP History & Welfare mechanisms)", minutes: 150, basis: "notification",
+    note: "150 Q · 150 min · −⅓. AP social & cultural history 135 + welfare mechanisms 15.",
+    sections: [sec("AP Social & Cultural History", ["history"], 135, { topicMatch: AP_HISTORY }), sec("Welfare mechanisms", ["society", "polity"], 15, { topicMatch: "welfare" })] }),
+  P({ id: "aswo-p3", exams: ["aswo"], paper: "Paper-III · Constitution, Polity & Welfare Mechanisms", title: "ASWO / ATWO · Paper-III (Polity & Welfare mechanisms)", minutes: 150, basis: "notification",
+    note: "150 Q · 150 min · −⅓. Indian Constitution & Polity 135 + welfare mechanisms 15.",
+    sections: [sec("Indian Constitution & Polity", ["polity"], 135), sec("Welfare mechanisms", ["society", "polity"], 15, { topicMatch: "welfare" })] }),
   // ---- Endowment EO Grade-III
   P({ id: "eo-p1", exams: ["eo"], paper: "Paper-I · GS & Mental Ability", title: "Endowment EO · Paper-I (GS & Mental Ability)", minutes: 150, basis: "notification",
     note: "150 Q · 150 min · −⅓. Same distribution as ASWO / ATWO Paper-I.", sections: WELFARE_GS }),
@@ -111,12 +128,13 @@ export const PATTERNS: ExamPattern[] = [
     note: "150 Q · 150 min · −⅓. Needs a Hindu-philosophy question bank, which is not loaded yet.",
     sections: [sec("Vedas, Upanishads, Puranas, Agamas, temple architecture & legislation", ["hindu"], 150)] }),
   // ---- Draughtsman Grade-II
-  P({ id: "draughtsman", exams: ["draughtsman"], paper: "Draughtsman Grade-II", title: "Draughtsman Grade-II · Full paper", minutes: 150, basis: "notification",
-    note: "150 Q · 150 min · −⅓. Drawing 30, Building Construction 25, Surveying 20, Estimation 20, Materials 15, RCC & Steel 15, Civil Fundamentals 15, GK 10.",
+  P({ id: "draughtsman-p1", exams: ["draughtsman"], paper: "Paper-I · General Studies & Mental Ability", title: "Draughtsman Grade-II · Paper-I (GS & Mental Ability)", minutes: 150, basis: "notification",
+    note: "150 Q · 150 min · −⅓. The same GS distribution as the other technical exams (AEE).", sections: AEE_GS }),
+  P({ id: "draughtsman-p2", exams: ["draughtsman"], paper: "Paper-II · Surveying, Drawing & ITI Basic Maths", title: "Draughtsman Grade-II · Paper-II (Surveying, Drawing, ITI Maths)", minutes: 150, basis: "notification",
+    note: "150 Q · 150 min · −⅓. Surveying 90, Engineering Drawing 15, ITI basic mathematics 45.",
     sections: [
-      sec("Engineering Drawing", ["drawing-survey"], 30), sec("Building Construction", ["civil-other"], 25, { topicMatch: "Building Construction" }),
-      sec("Surveying", ["civil-sur"], 20), sec("Estimation & Costing", ["civil-est"], 20), sec("Building Materials", ["civil-bm"], 15),
-      sec("RCC & Steel", ["civil-rcc", "civil-ss"], 15), sec("Civil Fundamentals", ["civil-som", "civil-em"], 15), sec("General Knowledge", ["current"], 10),
+      sec("Surveying", ["civil-sur"], 90), sec("Engineering Drawing", ["drawing-survey"], 15),
+      sec("ITI Basic Mathematics", ["mental"], 45, { topicMatch: "quantitative|percent|ratio|time|average|interest|number|maths|aptitude" }),
     ] }),
   // ---- SSC JE Civil (not an exam in the app's picker; shown under "Other exams")
   P({ id: "ssc-je-p1", exams: [], paper: "Paper-I", title: "SSC JE Civil · Paper-I", minutes: 120, schemeId: "1-025", basis: "notification",

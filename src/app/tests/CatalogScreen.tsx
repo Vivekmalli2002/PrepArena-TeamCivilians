@@ -20,7 +20,7 @@ type Tab = "topics" | "mocks" | "custom";
 
 export function CatalogScreen() {
   const hydrated = useHydrated();
-  const { bank: examBank, error } = useExamBank();
+  const { bank: examBank, fullBank, error } = useExamBank();
   const [subjectId, setSubjectId] = useState<string>("all");
   const [tab, setTab] = useState<Tab>("topics");
   const [query, setQuery] = useState("");
@@ -130,7 +130,7 @@ export function CatalogScreen() {
 
       {tab === "mocks" && (
         <motion.div variants={enter.container} initial="hidden" animate="show">
-          <PatternMocks bank={examBank} examId={examId} onStart={start} />
+          <PatternMocks bank={fullBank ?? examBank} examId={examId} onStart={start} />
           <motion.div variants={enter.item}>
             <Card strong className="relative mt-5 overflow-hidden p-5">
               <div className="absolute -right-12 -top-12 size-44 rounded-full bg-primary/20 blur-2xl" />

@@ -78,12 +78,25 @@ describe("exam-pattern mocks", () => {
 
 describe("exam blueprints", () => {
   it("add up to the question counts of the papers", () => {
-    const want: Record<string, number> = { "g1-p1": 120, "g1-p2": 120, "g2-screening": 150, "g2-mains-1": 150, "g2-mains-2": 150, "aee-pcb-p1": 150, "aee-pcb-p3": 150, "aee-civil-p1": 150, "aee-civil-p2": 150, "aee-civil-p3": 150, "aswo-p1": 150, "aswo-p2": 150, "eo-p1": 150, "eo-p2": 150, draughtsman: 150, "ssc-je-p1": 200, "ssc-je-p2": 300 };
+    const want: Record<string, number> = { "g1-p1": 120, "g1-p2": 120, "g2-screening": 150, "g2-mains-1": 150, "g2-mains-2": 150, "aee-pcb-p1": 150, "aee-pcb-p3": 150, "aee-civil-p1": 150, "aee-civil-p2": 150, "aee-civil-p3": 150, "aswo-p1": 150, "aswo-p2": 150, "aswo-p3": 150, "eo-p1": 150, "eo-p2": 150, "aee-prtw-p3": 150, "draughtsman-p1": 150, "draughtsman-p2": 150, "ssc-je-p1": 200, "ssc-je-p2": 300 };
     for (const [id, n] of Object.entries(want)) {
       const p = PATTERNS.find((x) => x.id === id)!;
       expect(p, id).toBeTruthy();
       expect(p.sections.reduce((k, x) => k + x.seats, 0), id).toBe(n);
     }
+  });
+  it("gives AEE PR & TW its own Paper-III (not civil), ASWO three papers and Draughtsman two", () => {
+    const prtw = PATTERNS.find((x) => x.id === "aee-prtw-p3")!;
+    expect(prtw.exams).toEqual(["aee-prtw"]);
+    expect(prtw.sections.some((x) => x.subjects.some((id) => id.startsWith("civil-")))).toBe(false);
+    expect(prtw.sections.filter((x) => x.label.startsWith("Env. Science")).reduce((n, x) => n + x.seats, 0)).toBe(90);
+    expect(PATTERNS.find((x) => x.id === "aee-civil-p3")!.exams).toEqual(["aee-rbi"]);
+    expect(PATTERNS.find((x) => x.id === "aee-civil-p2")!.exams).toEqual(["aee-rbi", "aee-prtw"]);
+    expect(PATTERNS.filter((x) => x.exams.includes("aswo")).map((x) => x.id)).toEqual(["aswo-p1", "aswo-p2", "aswo-p3"]);
+    expect(PATTERNS.find((x) => x.id === "aswo-p2")!.sections.map((x) => x.seats)).toEqual([135, 15]);
+    expect(PATTERNS.find((x) => x.id === "aswo-p3")!.sections.map((x) => x.seats)).toEqual([135, 15]);
+    expect(PATTERNS.filter((x) => x.exams.includes("draughtsman")).map((x) => x.id)).toEqual(["draughtsman-p1", "draughtsman-p2"]);
+    expect(PATTERNS.find((x) => x.id === "draughtsman-p2")!.sections.map((x) => x.seats)).toEqual([90, 15, 45]);
   });
   it("scales proportionally to a smaller test and keeps every part represented", () => {
     const p = PATTERNS.find((x) => x.id === "g2-screening")!;
