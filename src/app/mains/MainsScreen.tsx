@@ -8,6 +8,11 @@ import insights from "@/content/mains-insights.json";
 import modelP2P3 from "@/content/mains-model-p3p2.json";
 import modelP4 from "@/content/mains-model-p4.json";
 import modelP5 from "@/content/mains-model-p5.json";
+import modelF1 from "@/content/mains-model-f1.json";
+import modelF2 from "@/content/mains-model-f2.json";
+import modelF3 from "@/content/mains-model-f3.json";
+import modelF4 from "@/content/mains-model-f4.json";
+import modelF5 from "@/content/mains-model-f5.json";
 import { dayKey } from "@/lib/random";
 import { buildQueue, CORE_DIMS, DIMS, frameFor, learnStreak, readKey, themeStats, unreadItems, type DimId, type MainsQ } from "@/lib/mainsLearn";
 import { useApp, useHydrated } from "@/lib/store";
@@ -23,11 +28,11 @@ const INS = new Map((insights as unknown as Insight[]).map((r) => [`${r.paper}-$
 const INSIGHTS = (insights as unknown as Insight[]).slice(0, 30);
 const SITTINGS = ["2008", "2011", "2012", "2016", "2017", "2020", "2023", "2025"];
 type Model = Omit<MainsQ, "year" | "theme" | "dims" | "ap" | "paperName" | "marks"> & { theme: string; dim: DimId };
-const PAPER_NAMES: Record<number, string> = { 2: "Paper II — History, Culture & Geography", 3: "Paper III — Polity, Governance & Ethics", 4: "Paper IV — Indian & Andhra Pradesh Economy", 5: "Paper V — Science, Technology & Environment" };
-/** Expected questions written for the tool, best-ranked sub-topic first (score of the sub-topic in the sitting matrix). */
-const MODELS: MainsQ[] = ([...modelP5, ...modelP4, ...modelP2P3] as unknown as Model[])
+const PAPER_NAMES: Record<number, string> = { 1: "Paper I — General Essay", 2: "Paper II — History, Culture & Geography", 3: "Paper III — Polity, Governance & Ethics", 4: "Paper IV — Indian & Andhra Pradesh Economy", 5: "Paper V — Science, Technology & Environment" };
+/** Expected questions: factual, repeating themes first (no current-affairs checklist), then dynamic ones; best-ranked sub-topic first within each. */
+const MODELS: MainsQ[] = ([...modelF1, ...modelF2, ...modelF3, ...modelF4, ...modelF5, ...modelP5, ...modelP4, ...modelP2P3] as unknown as Model[])
   .map((m) => ({ ...m, year: 2026, paperName: PAPER_NAMES[m.paper], marks: 10, dims: [m.dim], ap: /andhra|\bap\b/i.test(m.question), model: true, dimension: m.dim }) as MainsQ)
-  .sort((a, b) => (INS.get(`${b.paper}-${b.code}`)?.score ?? 0) - (INS.get(`${a.paper}-${a.code}`)?.score ?? 0));
+  .sort((a, b) => Number(!!a.updates?.length) - Number(!!b.updates?.length) || (INS.get(`${b.paper}-${b.code}`)?.score ?? 6) - (INS.get(`${a.paper}-${a.code}`)?.score ?? 6));
 const ANSWERS = answers as Record<string, { answer: string; source?: string }>;
 const STATS = themeStats(QS);
 /** Expected (predicted) questions first, then the past questions by theme recurrence. */
@@ -372,7 +377,10 @@ function ModelAnswer({ q }: { q: MainsQ }) {
       ))}
       <p className="text-xs font-bold uppercase tracking-wider text-faint">Conclusion</p>
       <p className="leading-relaxed">{q.conclusion}</p>
-      <p className="text-xs text-muted">Written for this app as a study aid in about 10-mark length; verify figures against the latest sources before the exam.</p>
+      <p className="text-xs text-muted">
+        Written for this app as a study aid in about 10-mark length; verify figures against the latest sources before the exam.
+        {q.src ? ` Figures from: ${q.src}.` : ""}
+      </p>
     </div>
   );
 }

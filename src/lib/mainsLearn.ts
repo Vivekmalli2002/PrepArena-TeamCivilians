@@ -39,6 +39,8 @@ export interface MainsQ {
   conclusion?: string;
   /** Current-affairs items to read up before the exam; ticked items are kept in `LearnState.read`. */
   updates?: string[];
+  /** Source of the figures used in the answer. */
+  src?: string;
   marks: number | null;
   question: string;
   theme: string;

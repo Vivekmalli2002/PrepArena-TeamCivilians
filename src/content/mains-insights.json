@@ -340,43 +340,6 @@
 ]
 },
 {
-"paper": 5,
-"code": "7.8",
-"title": "Legacy (pre-2018 syllabus): general botany, zoology, nutrition and physiology:…",
-"chapter": "Biotechnology & Nanotechnology: scope, ethics, genetic engineering, biodiversity…",
-"years": {
-"2008": 2,
-"2011": 1,
-"2012": 0,
-"2016": 6,
-"2017": 3,
-"2020": 0,
-"2023": 0,
-"2025": 0
-},
-"total": 12,
-"score": 14.7,
-"due": true,
-"rising": false,
-"dims": {
-"concept": 4,
-"mechanism": 4,
-"impact": 4
-},
-"unseen": [
-"policy",
-"issues",
-"measures"
-],
-"dynamic": true,
-"pyqs": [
-"g1p5-2025-28",
-"g1p5-2008-25",
-"g1p5-2016-49",
-"g1p5-2016-9"
-]
-},
-{
 "paper": 4,
 "code": "7.3",
 "title": "Issues of finance, production, marketing",
@@ -3634,43 +3597,6 @@
 "g1p3-2023-13",
 "g1p3-2020-11",
 "g1p3-2025-13"
-]
-},
-{
-"paper": 3,
-"code": "6.4",
-"title": "Legacy of British rule",
-"chapter": "Public Administration: meaning and evolution in India",
-"years": {
-"2008": 0,
-"2011": 0,
-"2012": 0,
-"2016": 0,
-"2017": 0,
-"2020": 0,
-"2023": 1,
-"2025": 1
-},
-"total": 2,
-"score": 5.5,
-"due": false,
-"rising": true,
-"dims": {
-"impact": 1,
-"mechanism": 2,
-"concept": 2
-},
-"unseen": [
-"policy",
-"issues",
-"measures"
-],
-"dynamic": false,
-"pyqs": [
-"g1p3-2025-14",
-"g1p3-2020-11",
-"g1p3-2023-14",
-"g1p3-2020-12"
 ]
 },
 {

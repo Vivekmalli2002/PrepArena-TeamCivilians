@@ -145,3 +145,7 @@ Anything not marked completed that day goes to the **backlog** at the end.
   "read the latest" checklist for current-affairs topics). They are served first in the daily queue (1–4 a day). Unticked checklist
   items keep a question in **Backlog → Pending reading**. Add more by appending items of the same shape.
 - The CivicCentre "Mission 1000" workbooks are scanned answer sheets (no extractable question text) and were not used.
+- The 2026 notification (No. 07/2026, 06-10-2026) is the syllabus anchor: Mains Papers I–V of 150 marks each (Paper I = three ~800-word
+  essays, one per section), Paper IV's "highlights of the current year's Union Budget" and AP Budget, and Paper III's new
+  "basic knowledge of laws" block. Expected questions for **factual, repeating themes** (no checklist) are served before the
+  current-affairs ones. Budget answers use the PRS analyses of Union Budget 2026-27 and AP Budget 2025-26 (`src` field).

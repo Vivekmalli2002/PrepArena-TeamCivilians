@@ -35,6 +35,7 @@ for p in (2, 3, 4, 5):
                         rising=(y["2025"] > 0 and y["2023"] > 0) or y["2025"] >= 2,
                         dims=dims, unseen=[d for d in CORE if d not in dims] if idx else CORE,
                         dynamic=bool(DYN.search(s["title"] + " " + s["chapter"])), pyqs=[qs[i]["id"] for i in idx[:4]]))
+out = [r for r in out if "Legacy" not in r["title"]]  # topics dropped from the 2026 syllabus
 out.sort(key=lambda r: (-(r["score"] + (4 if r["due"] else 0) + (2 if r["rising"] else 0))))
 json.dump(out, open(sys.argv[2], "w"), ensure_ascii=False, indent=0)
 for r in out[:40]:
