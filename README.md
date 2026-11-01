@@ -146,3 +146,7 @@ Build: `python3 -I scripts/analysis/build_checklist.py` (merge, de-duplicate, fi
   relations, security, ethics case studies — are left out, 294 questions). Inside the subject a question joins the theme it is most
   similar to; otherwise it is kept in that subject's "Miscellaneous · UPSC questions" list. They appear on the theme page under
   "Asked by other exams, not by APPSC" and never count towards APPSC recurrence, importance or the "not asked yet" angles.
+
+- **APPSC-style model answers** (`style: "appsc"` in `src/content/mains-model-s1.json`): 12 minutes and about 2.5–3 booklet pages per answer
+  (45 pages / 15 questions) → 250–350 words, many short points, one example per point, new facts about 20%, underlined sub-headings,
+  a forward-looking conclusion that names the ministry or body and the citizen's right. The card shows the word count.

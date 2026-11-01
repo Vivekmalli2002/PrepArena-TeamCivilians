@@ -10,6 +10,7 @@ import modelF4 from "@/content/mains-model-f4.json";
 import modelF5 from "@/content/mains-model-f5.json";
 import modelG23 from "@/content/mains-model-g23.json";
 import modelG45 from "@/content/mains-model-g45.json";
+import modelS1 from "@/content/mains-model-s1.json";
 import modelP2P3 from "@/content/mains-model-p3p2.json";
 import modelP4 from "@/content/mains-model-p4.json";
 import modelP5 from "@/content/mains-model-p5.json";
@@ -32,9 +33,11 @@ interface Model {
   conclusion: string;
   updates?: string[];
   src?: string;
+  /** "appsc": written to the APPSC Mains pattern — many short points, about 12 minutes to write. */
+  style?: "appsc";
 }
 const MODELS = new Map(
-  ([...modelF1, ...modelF2, ...modelF3, ...modelF4, ...modelF5, ...modelG23, ...modelG45, ...modelP5, ...modelP4, ...modelP2P3] as unknown as Model[]).map((m) => [m.id, m]),
+  ([...modelF1, ...modelF2, ...modelF3, ...modelF4, ...modelF5, ...modelG23, ...modelG45, ...modelS1, ...modelP5, ...modelP4, ...modelP2P3] as unknown as Model[]).map((m) => [m.id, m]),
 );
 const otherCount = (t: Theme) => t.asked.filter((a) => a.boards.length > 0 && !a.boards.includes("APPSC")).length;
 const dimLabel = (d: string) => DIM_LABEL[d] ?? d;
@@ -531,18 +534,43 @@ function Structure({ e }: { e: Expected }) {
   );
 }
 
+const CIRCLED = ["①", "②", "③", "④", "⑤", "⑥", "⑦", "⑧", "⑨", "⑩", "⑪", "⑫"];
+const wordsOf = (m: Model) => (m.intro + " " + m.body.map((b) => b.pts.join(" ")).join(" ") + " " + m.conclusion).split(/\s+/).filter(Boolean).length;
+/** "Ex: …" parts stand out, like the example lines of a topper's answer. */
+function Point({ text }: { text: string }) {
+  const i = text.indexOf("Ex:");
+  return i < 0 ? <>{text}</> : (
+    <>
+      {text.slice(0, i)}
+      <b className="text-primary">Ex:</b>
+      {text.slice(i + 3)}
+    </>
+  );
+}
+
 function ModelAnswer({ m }: { m: Model }) {
+  const words = wordsOf(m);
   return (
     <div className="space-y-3">
+      <div className="flex flex-wrap gap-2 text-[11px] font-semibold">
+        <span className="rounded-full bg-primary-soft px-2 py-0.5 text-primary">{words} words</span>
+        <span className="rounded-full bg-primary-soft px-2 py-0.5 text-primary">about {Math.max(1, Math.round(words / 30))} min to write at 30 words a minute</span>
+        {m.style === "appsc" && <span className="rounded-full bg-good-soft px-2 py-0.5 text-good">APPSC style · 12 min per answer</span>}
+      </div>
       <p className="text-xs font-bold uppercase tracking-wider text-faint">Introduction</p>
       <p className="leading-relaxed">{m.intro}</p>
       <p className="text-xs font-bold uppercase tracking-wider text-faint">Body</p>
       {m.body.map((b) => (
         <div key={b.h}>
-          <h4 className="font-display text-base font-bold">{b.h}</h4>
-          <ul className="mt-1 list-disc space-y-1 pl-5 leading-relaxed">
-            {b.pts.map((p) => (
-              <li key={p}>{p}</li>
+          <h4 className="font-display text-base font-bold underline decoration-primary/50 underline-offset-4">{b.h}</h4>
+          <ul className="mt-1 space-y-1 leading-relaxed">
+            {b.pts.map((p, i) => (
+              <li key={p} className="flex gap-2">
+                <span className="shrink-0 text-primary">{CIRCLED[i] ?? "•"}</span>
+                <span>
+                  <Point text={p} />
+                </span>
+              </li>
             ))}
           </ul>
         </div>
@@ -550,7 +578,7 @@ function ModelAnswer({ m }: { m: Model }) {
       <p className="text-xs font-bold uppercase tracking-wider text-faint">Conclusion</p>
       <p className="leading-relaxed">{m.conclusion}</p>
       <p className="text-xs text-muted">
-        Written for this app as a study aid in about 10-mark length; verify figures against the latest sources before the exam.
+        Written for this app as a study aid; verify figures against the latest sources before the exam.
         {m.src ? ` Figures from: ${m.src}.` : ""}
       </p>
     </div>
