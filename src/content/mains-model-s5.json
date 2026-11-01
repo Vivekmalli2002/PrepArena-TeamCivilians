@@ -1,0 +1,965 @@
+[
+ {
+  "id": "m-p5-02",
+  "paper": 5,
+  "code": "3.3",
+  "theme": "Satellite programmes of India",
+  "dim": "issues",
+  "question": "Space is now opening to private players in India. Discuss the opportunities and challenges before the Indian space sector after the creation of IN-SPACe.",
+  "why": "Space and satellites are among the top recurring themes (23 questions, asked in every sitting). Questions so far were on uses of satellites and ISRO achievements; the 'private participation and challenges' dimension is new.",
+  "intro": "The space economy covers launch, satellite manufacturing, communication, navigation and data services built on outer-space activity. In 2020 India opened space activities to private players. IN-SPACe became the single-window regulator and NewSpace India Ltd (NSIL) the commercial arm of ISRO. The Indian Space Policy 2023 guides the sector; India launched Chandrayaan-3 and Aditya-L1 in 2023; private firms Skyroot (Vikram-S 2022) and Agnikul (2024) launched rockets.",
+  "body": [
+   {
+    "h": "Opportunities",
+    "pts": [
+     "Cost advantage – Chandrayaan and Mangalyaan were low-cost missions.",
+     "Ex: Start-ups Skyroot and Agnikul building private launch vehicles; Sriharikota is the launch base.",
+     "Applications – communication, remote sensing, NavIC navigation, agriculture, disaster warning.",
+     "Defence and strategic uses.",
+     "Export of small-satellite launches by PSLV and SSLV.",
+     "Jobs and high-tech manufacturing; global space-economy share can grow from a small base."
+    ]
+   },
+   {
+    "h": "Challenges",
+    "pts": [
+     "Small private capital and long gestation.",
+     "Limited insurance and liability law.",
+     "No comprehensive space activities law yet; spectrum and licensing clarity evolving.",
+     "Dependence on foreign components; shortage of launch slots.",
+     "Space debris and sustainability.",
+     "Ex: Competition from SpaceX-like players with reusable rockets."
+    ]
+   },
+   {
+    "h": "Way forward",
+    "pts": [
+     "Pass a clear Space Activities Bill.",
+     "Venture fund and test facilities for start-ups.",
+     "Public–private model for launch; ISRO to focus on research and human spaceflight (Gaganyaan).",
+     "Ex: Andhra Pradesh's Sriharikota and space city proposals can help local jobs."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: Chandrayaan-3 (2023) landed near the lunar south pole – a first for any country.",
+     "Ex: Aditya-L1 and Gaganyaan show widening goals.",
+     "Ex: Space sector FDI liberalised in 2024 – up to 100% in components and 49% in launch.",
+     "Space applications serve governance: PM Gati Shakti, crop insurance, weather."
+    ]
+   }
+  ],
+  "conclusion": "The sector can move from state-led to state-enabled. The Department of Space and IN-SPACe should provide a predictable law and steady funding, so citizens gain from space data for farming, safety and jobs.",
+  "updates": [
+   "Recent ISRO launches and the Gaganyaan schedule",
+   "Space-sector FDI limits and the Space Activities Bill status",
+   "Chandrayaan / Aditya-L1 / NISAR follow-ups and any 2026 missions"
+  ],
+  "style": "appsc"
+ },
+ {
+  "id": "m-p5-04",
+  "paper": 5,
+  "code": "7.5",
+  "theme": "Biodiversity",
+  "dim": "measures",
+  "question": "Biodiversity loss is a development challenge as much as an ecological one. Discuss the measures taken by India to conserve biodiversity and suggest a way forward.",
+  "why": "Biodiversity has 22 questions, mostly 'importance, threats, hotspots'. Policy and community-led measures (Biological Diversity Act, 30x30, BMCs) are not yet asked.",
+  "intro": "Biodiversity is the variety of life at the level of genes, species and ecosystems. India has about 8% of the world's species on 2.4% of the land and four biodiversity hotspots – Himalaya, Indo-Burma, Western Ghats and Sundaland (Nicobar). Habitat loss, invasive species, pollution and climate change shrink this base. It has 106 national parks and over 560 wildlife sanctuaries; Biological Diversity Act 2002 created the National Biodiversity Authority at Chennai; India has 85 Ramsar sites by 2024.",
+  "body": [
+   {
+    "h": "In-situ measures",
+    "pts": [
+     "National parks, sanctuaries, biosphere reserves, community reserves.",
+     "Ex: Project Tiger (1973), Project Elephant, Project Cheetah (2022).",
+     "Ex: Sundarbans, Nilgiri and Nallamala are protected areas."
+    ]
+   },
+   {
+    "h": "Ex-situ",
+    "pts": [
+     "Botanical and zoological gardens, gene banks (NBPGR), seed banks.",
+     "Ex: National Gene Bank at Delhi."
+    ]
+   },
+   {
+    "h": "Laws",
+    "pts": [
+     "Wildlife Protection Act 1972, Forest Conservation Act 1980, Biological Diversity Act 2002.",
+     "Biodiversity Management Committees and access-and-benefit-sharing."
+    ]
+   },
+   {
+    "h": "International",
+    "pts": [
+     "CBD, CITES, Ramsar, Nagoya Protocol.",
+     "Kunming–Montreal Framework – 30 by 30."
+    ]
+   },
+   {
+    "h": "Community and tech",
+    "pts": [
+     "People's biodiversity registers, Joint Forest Management.",
+     "Camera traps, satellite monitoring."
+    ]
+   },
+   {
+    "h": "Way forward",
+    "pts": [
+     "Wildlife corridors and restoration of degraded land.",
+     "Biodiversity in project clearance; strong BMC funds.",
+     "Payments for ecosystem services and protection of traditional knowledge.",
+     "Ex: Andhra Pradesh – Eastern Ghats, Kolleru lake, Coringa mangroves and Pulicat need special management."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: Biosphere reserves such as Nallamala and Seshachalam belong to Eastern Ghats region.",
+     "Ex: India has 4 hotspots, over 100 national parks and 500+ sanctuaries.",
+     "Ex: Human–wildlife conflict and compensation need attention.",
+     "Ex: Biodiversity Heritage Sites and Ramsar sites such as Kolleru."
+    ]
+   }
+  ],
+  "conclusion": "Conservation works when people near the resource benefit from it. The Ministry of Environment and the State Forest Departments should give local communities a stake, so that citizens inherit a living natural base.",
+  "updates": [
+   "Latest tiger/elephant census data and new Ramsar sites",
+   "Biological Diversity (Amendment) Act 2023 changes and rules",
+   "India's updated National Biodiversity Strategy and Action Plan"
+  ],
+  "style": "appsc"
+ },
+ {
+  "id": "m-p5-05",
+  "paper": 5,
+  "code": "6.4",
+  "theme": "Solid waste management",
+  "dim": "policy",
+  "question": "Evaluate the Solid Waste Management Rules, 2016 and the Swachh Bharat Mission (Urban) 2.0 in the light of the waste hierarchy. What more is needed to make Indian cities 'garbage free'?",
+  "why": "Waste management is a recurring theme (types, impacts, recycling). The policy-evaluation framing (SWM Rules 2016, EPR, SBM-U 2.0) is a likely new dimension.",
+  "intro": "Solid waste management is the collection, segregation, transport, processing and safe disposal of waste, guided by the waste hierarchy – reduce, reuse, recycle, recover, dispose. Indian cities generate huge municipal solid waste daily. Legacy dumpsites like Deonar and Ghazipur show failure; the rules and missions aim at a shift from dumping to a circular economy. India generates about 1.5 lakh tonnes of municipal solid waste per day; the SWM Rules 2016 replaced the 2000 Rules; Swachh Bharat Mission (Urban) 2.0 runs 2021–26 with a target of 'garbage-free cities'.",
+  "body": [
+   {
+    "h": "Waste hierarchy",
+    "pts": [
+     "Reduce → reuse → recycle → recover → dispose.",
+     "Landfill is the last resort."
+    ]
+   },
+   {
+    "h": "SWM Rules 2016",
+    "pts": [
+     "Segregation at source into wet, dry and hazardous waste.",
+     "User charges and spot fines.",
+     "Extended producer responsibility.",
+     "Waste-to-energy and bio-mining of legacy waste.",
+     "Ex: Plastic Waste, E-waste and Battery rules with EPR certificates."
+    ]
+   },
+   {
+    "h": "SBM-Urban 2.0 (2021–26)",
+    "pts": [
+     "Garbage-free cities; remediation of legacy dumpsites.",
+     "Source segregation and 100% processing.",
+     "Ex: Swachh Survekshan rankings raised awareness."
+    ]
+   },
+   {
+    "h": "Evaluation",
+    "pts": [
+     "Gains – door-to-door collection, more processing, awareness.",
+     "Gaps – low segregation, weak ULB finances, informal waste-pickers excluded, limited landfill capacity, quality of mixed incineration."
+    ]
+   },
+   {
+    "h": "Way forward",
+    "pts": [
+     "Decentralised composting and biogas – Indore model.",
+     "Incentives for segregation, integration of waste-pickers.",
+     "Enforce EPR; promote reuse and repair.",
+     "Scientific landfills with leachate treatment.",
+     "Ex: Alappuzha and Surat practices can be replicated."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: India produces about 1.5 lakh tonnes of municipal solid waste per day.",
+     "Ex: Scientific disposal and sanitary landfill sites are in short supply.",
+     "Ex: Bio-methanation plants and compressed biogas under GOBARdhan.",
+     "Ex: Andhra Pradesh's Clap (Clean Andhra Pradesh) programme for waste collection."
+    ]
+   }
+  ],
+  "conclusion": "A garbage-free city starts with segregation at the doorstep. The Ministry of Housing and Urban Affairs, urban local bodies and citizens should follow the waste hierarchy, so that all people have a clean and healthy environment.",
+  "updates": [
+   "SBM-U 2.0 progress dashboard and legacy-waste remediation numbers",
+   "Recent amendments to Plastic Waste / E-waste / Battery rules and EPR targets",
+   "Andhra Pradesh Swachh Andhra initiatives and city ranking"
+  ],
+  "style": "appsc"
+ },
+ {
+  "id": "m-p5-06",
+  "paper": 5,
+  "code": "2.3",
+  "theme": "Cyber crime and security",
+  "dim": "mechanism",
+  "question": "With the rise of AI-generated deepfakes and online financial fraud, discuss the cyber-security framework in India. How adequate is it, and what changes are needed?",
+  "why": "ICT questions are asked every sitting (24), and cyber crime has appeared in 2020, 2023 and 2025. Questions have been about types of cyber crime; the 'framework adequacy and AI-enabled threats' angle is next.",
+  "intro": "Cyber security is the protection of computers, networks, data and digital services from attack, damage or misuse. India has a very large digital population and a real-time payment system, which makes it a target for ransomware, phishing and AI-enabled fraud such as deepfakes and voice cloning. CERT-In was established in 2004 under the IT Act; the National Cyber Crime Reporting Portal handles lakhs of complaints; India lost thousands of crores to online fraud in recent years; the DPDP Act 2023 sets data duties.",
+  "body": [
+   {
+    "h": "Present framework",
+    "pts": [
+     "Information Technology Act 2000 – hacking, identity theft, obscene content.",
+     "Digital Personal Data Protection Act 2023.",
+     "CERT-In for incident response; NCIIPC for critical infrastructure.",
+     "National Cyber Security Policy 2013 (pending update).",
+     "I4C and the National Cyber Crime Reporting Portal – helpline 1930.",
+     "Sanchar Saathi for telecom fraud.",
+     "BNS provisions for fraud and impersonation."
+    ]
+   },
+   {
+    "h": "Adequacy",
+    "pts": [
+     "Law older than current threats; nothing specific on deepfakes or AI harms.",
+     "Low reporting, slow forensic labs, shortage of trained police.",
+     "Cross-border crime needs data access treaties.",
+     "Limited platform accountability.",
+     "Ex: Digital arrest scams, UPI frauds and deepfake videos of public figures."
+    ]
+   },
+   {
+    "h": "Changes needed",
+    "pts": [
+     "Update the IT Act; AI labelling and watermarking rules; platform liability.",
+     "Cyber forensics and State cyber cells.",
+     "Digital literacy and awareness.",
+     "International cooperation – UN cybercrime convention, Budapest Convention debate.",
+     "Critical-infrastructure audits."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: Digital India has crossed 800 million internet users.",
+     "Ex: Ransomware on hospitals (AIIMS 2022) shows risk to critical infrastructure.",
+     "Ex: Reporting cybercrime early can freeze fraudulent transactions.",
+     "Ex: Aadhaar-based and UPI safeguards, two-factor authentication, RBI directions on digital lending."
+    ]
+   }
+  ],
+  "conclusion": "Technology that brings inclusion must be matched by trust. The Ministry of Electronics and IT and the Ministry of Home Affairs should modernise law and strengthen enforcement, so that citizens' money and identity remain safe.",
+  "updates": [
+   "Status of the Digital India Act and the DPDP Rules",
+   "Latest CERT-In / I4C numbers on cyber fraud",
+   "Government rules or advisories on deepfakes and AI labelling"
+  ],
+  "style": "appsc"
+ },
+ {
+  "id": "m-p5-07",
+  "paper": 5,
+  "code": "5.6",
+  "theme": "Climate change and climate justice",
+  "dim": "policy",
+  "question": "Discuss India's climate commitments under the Paris Agreement and its updated NDC. Is the principle of 'common but differentiated responsibilities' under pressure?",
+  "why": "Climate has appeared 16 times (COP summits, global warming effects). Questions on CBDR-RC, climate finance and India's NDC delivery have not been asked.",
+  "intro": "Climate change is the long-term shift in temperature and weather caused mainly by greenhouse gas emissions; the Paris Agreement (2015) seeks to hold warming well below 2°C. India has low per-capita and small historical emissions but is a large emitter in absolute terms and highly vulnerable. At COP26 (2021) it announced the Panchamrit and net zero by 2070. India ratified the Paris Agreement in 2016; its updated NDC (2022) targets 45% lower emission intensity and 50% non-fossil power by 2030; the 'Panchamrit' includes 500 GW non-fossil capacity.",
+  "body": [
+   {
+    "h": "India's commitments",
+    "pts": [
+     "500 GW non-fossil capacity and 50% non-fossil power by 2030.",
+     "45% reduction in emissions intensity of GDP from 2005 level by 2030.",
+     "Carbon sink of 2.5–3 billion tonnes through forests.",
+     "Net zero by 2070; reduce projected emissions by 1 billion tonnes by 2030.",
+     "Ex: Mission LiFE, National Green Hydrogen Mission, International Solar Alliance.",
+     "Ex: Indian Carbon Market under the Energy Conservation (Amendment) Act 2022."
+    ]
+   },
+   {
+    "h": "CBDR-RC under pressure",
+    "pts": [
+     "Developed countries missed the 100 billion dollar promise; the new collective goal for finance is contested.",
+     "EU CBAM taxes exports from developing countries.",
+     "Pressure to phase down coal without finance and technology.",
+     "Ex: Differentiation between developed and developing blurred in the Paris text."
+    ]
+   },
+   {
+    "h": "Way forward",
+    "pts": [
+     "Insist on finance, adaptation funding and loss and damage.",
+     "Build domestic carbon markets and green industry.",
+     "Adaptation in agriculture and cities.",
+     "Ex: Cooling action plan, EV push, and rooftop solar (Surya Ghar)."
+    ]
+   },
+   {
+    "h": "Extra",
+    "pts": [
+     "Ex: India's per capita emissions are about one-third of the world average.",
+     "Ex: Adaptation needs: heat action plans, climate-resilient crops, early warning.",
+     "Ex: India hosts the International Solar Alliance and leads the Coalition for Disaster Resilient Infrastructure."
+    ]
+   }
+  ],
+  "conclusion": "India's stand that development must not be sacrificed for climate action is legitimate, but its own interest lies in a cleaner path. The Ministry of Environment and the MEA should push for equity with ambition, so citizens enjoy both growth and a safe climate.",
+  "updates": [
+   "Outcomes of the latest COP and India's submitted NDC",
+   "Status of the Indian Carbon Credit Trading Scheme",
+   "Latest climate finance goal (NCQG) and EU CBAM rollout"
+  ],
+  "style": "appsc"
+ },
+ {
+  "id": "m-p5-08",
+  "paper": 5,
+  "code": "8.7",
+  "theme": "Vaccines and immunity",
+  "dim": "impact",
+  "question": "India is called the 'pharmacy of the world' and a major vaccine producer. Discuss the evolution of vaccine technology and the issues in India's universal immunisation programme.",
+  "why": "Vaccines were asked 15 times, always as concept (immunity, how a vaccine is made). The delivery-system dimension (UIP, Mission Indradhanush, mRNA, cold chain) is unseen.",
+  "intro": "A vaccine is a biological preparation that trains the immune system to recognise a disease-causing agent without causing the disease. Vaccination prevents millions of deaths each year. India runs one of the world's largest immunisation programmes and supplies a large share of the world's vaccines. UIP started in 1985; Mission Indradhanush began in 2014; India produces over 60% of the world's vaccines; Serum Institute of India is the largest vaccine maker by number of doses; polio-free certification came in 2014.",
+  "body": [
+   {
+    "h": "Evolution of vaccine technology",
+    "pts": [
+     "Live-attenuated and inactivated – BCG, polio, DPT.",
+     "Subunit, conjugate and toxoid – hepatitis B, pneumococcal.",
+     "Recombinant DNA and viral-vector vaccines.",
+     "mRNA and nucleic-acid platforms – rapid design.",
+     "Nasal and needle-free delivery.",
+     "Ex: Covaxin, ZyCoV-D (DNA) and HPV vaccine Cervavac."
+    ]
+   },
+   {
+    "h": "Universal Immunisation Programme",
+    "pts": [
+     "UIP covers vaccines against 12 diseases.",
+     "Mission Indradhanush and intensified drives for left-out children.",
+     "Ex: U-WIN digital registry tracks doses."
+    ]
+   },
+   {
+    "h": "Issues",
+    "pts": [
+     "Dropouts and zero-dose children.",
+     "Cold-chain gaps.",
+     "Hesitancy and misinformation.",
+     "Urban slums, migrants, remote tribal areas.",
+     "Regulatory approvals and pharmacovigilance."
+    ]
+   },
+   {
+    "h": "Way forward",
+    "pts": [
+     "Digital tracking; ASHA-led mobilisation; local manufacturing of new platforms; stronger adverse-event monitoring.",
+     "Ex: Serum Institute and Bharat Biotech as global suppliers."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: Smallpox eradicated 1980; polio-free certificate for India in 2014.",
+     "Ex: Mission Indradhanush and Intensified Mission Indradhanush reached millions of children.",
+     "Ex: Covid-19 vaccination drive: CoWIN platform, Covishield and Covaxin.",
+     "Ex: Maternal and neonatal tetanus eliminated in 2015.",
+     "Ex: Cold chain monitored through eVIN."
+    ]
+   },
+   {
+    "h": "Extra",
+    "pts": [
+     "Ex: Pneumococcal and rotavirus vaccines are in UIP; HPV vaccination for girls is being scaled."
+    ]
+   }
+  ],
+  "conclusion": "Vaccines are among the most cost-effective public health tools. The Ministry of Health and State health departments should reach the last child with a safe, cold-chained dose, so that every citizen enjoys the right to health.",
+  "updates": [
+   "Newly added vaccines in UIP (HPV, others) and coverage data from NFHS",
+   "Any new indigenous vaccine approvals",
+   "Current status of mRNA vaccine research in India"
+  ],
+  "style": "appsc"
+ },
+ {
+  "id": "m-p5-09",
+  "paper": 5,
+  "code": "9.1",
+  "theme": "Intellectual property rights",
+  "dim": "issues",
+  "question": "Discuss the issues of patenting in agriculture and pharmaceuticals in India. How does the Indian patent regime balance innovation and public interest?",
+  "why": "IPR is a small but constant theme (6 questions). Evergreening, compulsory licensing and seed patents are classic issue-angles not yet asked in the AP series.",
+  "intro": "A patent is an exclusive right granted for an invention for 20 years in return for public disclosure. After TRIPS, India amended its Patents Act in 2005 to restore product patents. The law tries to reward innovation while keeping medicines affordable and farmers' rights intact. The Patents Act 1970 was amended in 1999, 2002 and 2005 to meet TRIPS; the PPV&FR Act 2001 and the Biological Diversity Act 2002 protect farmers and bioresources; patents last 20 years.",
+  "body": [
+   {
+    "h": "Balancing provisions",
+    "pts": [
+     "Section 3(d) – no patent for new forms of known substances without enhanced efficacy.",
+     "Ex: Novartis v. Union of India (2013) – Glivec patent refused.",
+     "Compulsory licensing – Section 84; Ex: Natco–Bayer (2012) for sorafenib.",
+     "Section 92 – national emergencies; Doha Declaration flexibilities.",
+     "Plants and animals excluded; PPV&FR Act 2001 protects farmers' and breeders' rights."
+    ]
+   },
+   {
+    "h": "Issues – pharmaceuticals",
+    "pts": [
+     "Evergreening, pay-for-delay, pressure in free trade agreements to dilute safeguards.",
+     "Ex: India as 'pharmacy of the world' for generics."
+    ]
+   },
+   {
+    "h": "Issues – agriculture",
+    "pts": [
+     "Biopiracy – neem, turmeric, basmati.",
+     "Ex: Traditional Knowledge Digital Library (TKDL) blocks wrong patents.",
+     "Seed industry control, GM traits and patent claims; small farmers' access.",
+     "Ex: PepsiCo potato variety case (FL-2027) under PPV&FR Act."
+    ]
+   },
+   {
+    "h": "Way forward",
+    "pts": [
+     "Use TRIPS flexibilities; improve patent examination; protect traditional knowledge; support public-funded research."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: Patent term is 20 years; examination by Patent Office; opposition proceedings pre- and post-grant.",
+     "Ex: Section 3(j) excludes plants and animals; Section 3(h) excludes agricultural methods.",
+     "Ex: Farmers' rights to save, use, exchange and sell seed under PPV&FR Act 2001.",
+     "Ex: Generic drugs make India supplier of affordable HIV medicines (Cipla)."
+    ]
+   }
+  ],
+  "conclusion": "A patent system is a bargain between inventor and society. The Department for Promotion of Industry and Internal Trade should defend India's safeguards, so that citizens get both innovation and affordable medicines.",
+  "updates": [
+   "India's IPR policy updates and any FTA IPR chapters (UK, EU, EFTA)",
+   "Recent compulsory licensing or patent opposition cases",
+   "GI tag registrations from Andhra Pradesh"
+  ],
+  "style": "appsc"
+ },
+ {
+  "id": "m-p5-10",
+  "paper": 5,
+  "code": "5.5",
+  "theme": "Disaster management",
+  "dim": "mechanism",
+  "question": "Coastal Andhra Pradesh faces repeated cyclones and floods. Describe the institutional framework for disaster management in India and suggest a resilience strategy for the state's coast.",
+  "why": "Disaster management has 13 questions. The institutional (NDMA, SDMA, Sendai) framework and a state-specific resilience strategy for AP's 974 km coast fit the AP-focus of recent papers.",
+  "intro": "A disaster is a sudden event that causes serious loss of life, property or livelihood beyond a community's ability to cope; disaster management covers prevention, mitigation, preparedness, response and recovery. Andhra Pradesh has a long coastline exposed to cyclones, storm surges and river floods. The Disaster Management Act 2005 moved India from relief to preparedness and mitigation. Cyclones strike the AP coast most often in October–December; the DM Act 2005 created NDMA, SDMAs and DDMAs; the NDRF has 16 battalions; India signed the Sendai Framework in 2015.",
+  "body": [
+   {
+    "h": "Institutional framework",
+    "pts": [
+     "NDMA at the national level under the Prime Minister; SDMA under the Chief Minister; DDMA under the District Collector.",
+     "NDRF and SDRF for response; NIDM for training.",
+     "National Disaster Management Plan 2019 aligned with the Sendai Framework (2015–2030).",
+     "Funding – NDRF/SDRF, mitigation funds; Finance Commission recommendations.",
+     "Ex: IMD for warnings; INCOIS for tsunami alerts."
+    ]
+   },
+   {
+    "h": "Coastal AP strategy",
+    "pts": [
+     "Early warning by IMD and alerts via mobile phones.",
+     "Cyclone shelters and evacuation roads.",
+     "CRZ enforcement; mangrove and shelterbelt restoration at Coringa; saline embankments.",
+     "Resilient housing, power and telecom lines.",
+     "Flood forecasting for Godavari and Krishna with reservoir operation.",
+     "Community training, local bodies' role, insurance and livelihood recovery.",
+     "Ex: Hudhud 2014 – lives saved because of warning and evacuation."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: Odisha's Phailin response is a national model for evacuation.",
+     "Ex: Cyclones Fani, Titli and Michaung show repeated risk; early warning saves lives.",
+     "Ex: National Cyclone Risk Mitigation Project covers AP and Odisha.",
+     "Ex: Community volunteers (Aapda Mitra), school drills and mock exercises build readiness.",
+     "Ex: Insurance and cash support restore livelihoods."
+    ]
+   }
+  ],
+  "conclusion": "Early warning and evacuation have saved lives in each cyclone. The State Disaster Management Authority should now protect livelihoods and infrastructure through resilient design and mangrove buffers, so that coastal citizens are safer.",
+  "updates": [
+   "Recent cyclone/flood events affecting AP and the response",
+   "Latest NDMA guidelines and the Disaster Management (Amendment) Act 2025",
+   "AP State Disaster Management Plan updates and the National Cyclone Risk Mitigation Project"
+  ],
+  "style": "appsc"
+ },
+ {
+  "id": "m-p5-11",
+  "paper": 5,
+  "code": "4.4",
+  "theme": "Nuclear policy of India",
+  "dim": "policy",
+  "question": "Discuss the salient features of India's nuclear policy and the three-stage nuclear power programme. How does India's stand on international non-proliferation regimes reflect its policy?",
+  "why": "Nuclear policy is a named syllabus item (4.x) and a classic factual question; the three-stage programme and India's NPT/CTBT stand are stable points.",
+  "intro": "India's nuclear policy is its set of principles for the civil use of atomic energy and the role of nuclear weapons. India's nuclear policy rests on peaceful use of atomic energy for development and a credible minimum deterrent with no first use. It rests on the Atomic Energy Act 1962 and the tests of 1974 and 1998. India's first test was 'Smiling Buddha' (1974) and the Pokhran-II tests (1998) gave it the status of a nuclear weapon state; nuclear power is about 3% of electricity from about 8 GW of capacity.",
+  "body": [
+   {
+    "h": "Civil programme",
+    "pts": [
+     "Three-stage programme by Homi Bhabha.",
+     "Stage I – pressurised heavy water reactors using natural uranium.",
+     "Stage II – fast breeder reactors using plutonium.",
+     "Stage III – thorium-based reactors using U-233, using India's large thorium reserves (monazite sands of Kerala and the Andhra coast).",
+     "Ex: Kudankulam, Jaitapur plan, PFBR at Kalpakkam.",
+     "Nuclear energy is a small share of electricity today."
+    ]
+   },
+   {
+    "h": "Strategic doctrine",
+    "pts": [
+     "Credible minimum deterrence; no first use; no use against non-nuclear states.",
+     "Civilian political control through the Nuclear Command Authority."
+    ]
+   },
+   {
+    "h": "International stand",
+    "pts": [
+     "Opposes NPT and CTBT as discriminatory but keeps a voluntary testing moratorium.",
+     "Ex: 2008 India–US civil nuclear agreement, NSG waiver and IAEA safeguards.",
+     "Seeks NSG membership; supports a non-discriminatory Fissile Material Cut-off Treaty."
+    ]
+   },
+   {
+    "h": "Issues",
+    "pts": [
+     "Public safety concerns; Civil Liability for Nuclear Damage Act 2010; waste management; cost; land acquisition.",
+     "Ex: Fukushima raised safety debate; Kovvada in Andhra Pradesh is a proposed site."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: Smiling Buddha test 1974 at Pokhran; Shakti series in 1998.",
+     "Ex: Nuclear Command Authority has Political Council led by Prime Minister.",
+     "Ex: Agni and Arihant strengthen the triad of nuclear delivery."
+    ]
+   }
+  ],
+  "conclusion": "India's nuclear policy pairs civil energy ambition with restrained deterrence. The Department of Atomic Energy should expand safe capacity with public trust, so that citizens benefit from clean power.",
+  "updates": [],
+  "style": "appsc"
+ },
+ {
+  "id": "m-p5-12",
+  "paper": 5,
+  "code": "7.5",
+  "theme": "Biotechnology: genetic engineering, tissue culture and GM crops",
+  "dim": "issues",
+  "question": "What is genetic engineering? Discuss the applications, benefits and ethical, social and legal concerns of genetically modified crops in India.",
+  "why": "GM crops (20 questions across themes) and genetic engineering are the most-asked biotech block; the regulatory (GEAC) and concerns angle appears again and again.",
+  "intro": "Biotechnology uses living organisms or their parts to make products or improve plants and animals. Genetic engineering is the deliberate change of an organism's genes by recombinant DNA technology. GM crops carry foreign genes for traits like pest resistance. Bt cotton was approved in 2002; GEAC under the Environment (Protection) Act regulates GM crops; GM mustard DMH-11 was cleared by GEAC in 2022 but is under Supreme Court review.",
+  "body": [
+   {
+    "h": "Technique",
+    "pts": [
+     "Gene isolation, vector (Agrobacterium), transformation and selection.",
+     "Tissue culture to regenerate plants."
+    ]
+   },
+   {
+    "h": "Applications",
+    "pts": [
+     "Ex: Bt cotton – the only GM crop approved for commercial cultivation in India.",
+     "Ex: Golden Rice; Bt brinjal (moratorium); GM mustard DMH-11 (court).",
+     "Insulin and vaccines from recombinant organisms; transgenic animals."
+    ]
+   },
+   {
+    "h": "Benefits",
+    "pts": [
+     "Higher yield; reduced pesticide use; nutrition; drought and pest resistance; cost savings."
+    ]
+   },
+   {
+    "h": "Concerns",
+    "pts": [
+     "Biosafety: gene flow, effect on non-target species, resistance in pests.",
+     "Ex: Pink bollworm on Bt cotton.",
+     "Socio-economic: seed monopoly, farmer debt, patents.",
+     "Ethical: labelling and consumers' right to know.",
+     "Ex: GEAC under EP Act 1989 Rules; FSSAI rules for GM food; Supreme Court's technical committee."
+    ]
+   },
+   {
+    "h": "Way forward",
+    "pts": [
+     "Science-based and transparent regulation; public-sector research; trials with safeguards; labelling and farmer protection."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: Bt cotton accounts for over 90% of India's cotton area.",
+     "Ex: Tissue culture produces disease-free banana and sugarcane plantlets.",
+     "Ex: Gene editing (SDN-1, SDN-2) crops exempted from GM rules in 2022.",
+     "Ex: Genome-edited rice varieties were released in 2025."
+    ]
+   },
+   {
+    "h": "Extra",
+    "pts": [
+     "Ex: Labelling of GM foods and traceability protect consumer choice.",
+     "Ex: Bt brinjal opposition showed public trust deficit."
+    ]
+   }
+  ],
+  "conclusion": "GM technology can raise productivity but needs scientific caution and public trust. The Ministry of Environment and the Ministry of Agriculture should balance food security and biosafety, so that citizens get safe food and farmers get fair seed.",
+  "updates": [],
+  "style": "appsc"
+ },
+ {
+  "id": "m-p5-14",
+  "paper": 5,
+  "code": "8.5",
+  "theme": "Biofertilisers, biopesticides and biofuels",
+  "dim": "concept",
+  "question": "Define biofertilisers and biopesticides. Explain their types, methods of production and role in sustainable agriculture.",
+  "why": "Biotechnology in agriculture (bio-pesticides, bio-fertilisers, bio-fuels, GM crops) is a named syllabus item; the 'define-types-production-role' pattern appeared in 2011 and later.",
+  "intro": "Biofertilisers are living microorganisms that enrich the soil when applied to seed, plant or soil, while biopesticides are natural organisms or substances that control pests. Both reduce dependence on chemicals. India's Fertiliser (Control) Order 1985 now covers biofertilisers; the National Project on Organic Farming promotes them; ICAR and KVKs spread bio-inputs; the Insecticides Act 1968 governs biopesticides.",
+  "body": [
+   {
+    "h": "Biofertilisers – types",
+    "pts": [
+     "Nitrogen fixers: Rhizobium (legumes), Azotobacter and Azospirillum, blue-green algae and Azolla (paddy).",
+     "Phosphate solubilisers: Bacillus, Pseudomonas; mycorrhiza (VAM); potash mobilisers."
+    ]
+   },
+   {
+    "h": "Production",
+    "pts": [
+     "Isolate efficient strain → mass culture in fermenters → mix with carrier (lignite, charcoal) → quality check → packing.",
+     "Application – seed treatment, soil application, seedling-root dip."
+    ]
+   },
+   {
+    "h": "Biopesticides",
+    "pts": [
+     "Microbial: Bacillus thuringiensis, Trichoderma, NPV.",
+     "Botanical: neem.",
+     "Biological control: Trichogramma."
+    ]
+   },
+   {
+    "h": "Role in sustainable agriculture",
+    "pts": [
+     "Lower cost; soil health; safe for environment and food.",
+     "Supports organic and natural farming; reduces residues.",
+     "Ex: Azolla in paddy fields; Neem oil in pest management.",
+     "Ex: Andhra Pradesh's natural farming programme (APCNF) promotes bio-inputs."
+    ]
+   },
+   {
+    "h": "Limits",
+    "pts": [
+     "Short shelf life; low awareness; quality control (Fertiliser Control Order and Insecticides Act)."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: Blue-green algae and Azolla add nitrogen in rice fields, good for Godavari-Krishna delta.",
+     "Ex: National Mission for Sustainable Agriculture and Paramparagat Krishi Vikas Yojana encourage bio-inputs.",
+     "Ex: Biofuels also relate: ethanol from sugarcane and biodiesel from jatropha/Pongamia.",
+     "Ex: Bio-inputs resource centres in Andhra Pradesh.",
+     "Ex: Use of Vermicompost and FYM complements them."
+    ]
+   },
+   {
+    "h": "Extra",
+    "pts": [
+     "Ex: Quality testing labs and farmer training by KVKs spread usage."
+    ]
+   }
+  ],
+  "conclusion": "Biological inputs are a pillar of sustainable agriculture. The Ministry of Agriculture and State departments should assure quality and extension, so that small farmers have safe and affordable inputs.",
+  "updates": [],
+  "style": "appsc"
+ },
+ {
+  "id": "m-p5-15",
+  "paper": 5,
+  "code": "4.2",
+  "theme": "Energy security and energy policy",
+  "dim": "concept",
+  "question": "What is energy security? Discuss India's energy mix and the policy measures to achieve energy security and clean energy transition.",
+  "why": "Energy needs, resources, policy and security are listed in the 2026 syllabus; energy is the second-most asked theme (24 questions).",
+  "intro": "Energy security is uninterrupted availability of energy at affordable prices with acceptable environmental impact. India imports about four-fifths of its oil and a large part of its gas. Coal gives about 70% of electricity; India imports over 85% of crude oil; the Energy Conservation Act 2001 and Electricity Act 2003 are the base; India targets net zero by 2070 and energy independence by 2047.",
+  "body": [
+   {
+    "h": "Energy mix",
+    "pts": [
+     "Coal is the main source of electricity.",
+     "Oil and gas for transport and industry.",
+     "Growing solar, wind, small hydro, biomass and nuclear.",
+     "Per capita energy use is low, demand will rise with growth."
+    ]
+   },
+   {
+    "h": "Policy measures – supply",
+    "pts": [
+     "500 GW non-fossil capacity by 2030.",
+     "Ex: National Solar Mission, wind-solar hybrid policy, PM-KUSUM, Surya Ghar rooftops.",
+     "Ex: National Green Hydrogen Mission, ethanol blending (E20)."
+    ]
+   },
+   {
+    "h": "Efficiency",
+    "pts": [
+     "Ex: PAT scheme, BEE star labelling, UJALA LED, Energy Conservation Act."
+    ]
+   },
+   {
+    "h": "Diversification",
+    "pts": [
+     "Strategic petroleum reserves; overseas assets; International Solar Alliance; cross-border grids; nuclear expansion."
+    ]
+   },
+   {
+    "h": "Challenges",
+    "pts": [
+     "Import dependence; discom finances; storage and transmission gaps; price volatility; just transition for coal regions."
+    ]
+   },
+   {
+    "h": "Way forward",
+    "pts": [
+     "Battery storage, pumped hydro, green corridors, EVs, and gas grid.",
+     "Ex: Andhra Pradesh's renewable parks and pumped storage."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: India's installed power capacity is about 480 GW; non-fossil share is around half of capacity.",
+     "Ex: Oil import bill is a major drain on foreign exchange.",
+     "Ex: Nuclear target of 100 GW by 2047 (Nuclear Energy Mission).",
+     "Ex: National Hydrogen Mission and Green Energy Corridors.",
+     "Ex: Energy independence target 2047."
+    ]
+   }
+  ],
+  "conclusion": "Energy security today means a diversified and cleaner mix with efficient use. The Ministry of Power and the Ministry of New and Renewable Energy should promote domestic renewables and storage, so that citizens get reliable, clean and affordable power.",
+  "updates": [],
+  "style": "appsc"
+ },
+ {
+  "id": "m-p5-16",
+  "paper": 5,
+  "code": "5.1",
+  "theme": "Environment Impact Assessment and environmental legislation",
+  "dim": "mechanism",
+  "question": "Explain the process of Environment Impact Assessment in India and evaluate its effectiveness. Mention the main environmental laws that govern it.",
+  "why": "EIA is a named syllabus item in two places (item 5 and environmental legislation in item 6); asked repeatedly in the compilation.",
+  "intro": "Environment Impact Assessment (EIA) predicts the environmental effects of a project before approval. In India it is governed by the EIA Notification 2006 under the Environment (Protection) Act 1986. EIA was first made mandatory in 1994; the 2006 Notification classifies projects as Category A (centre) and B (state); the Draft EIA 2020 raised wide objections.",
+  "body": [
+   {
+    "h": "Process",
+    "pts": [
+     "Screening – Category A and B projects.",
+     "Scoping with terms of reference.",
+     "Baseline data and impact prediction.",
+     "Public consultation and hearing.",
+     "Appraisal by expert committees.",
+     "Environmental clearance with conditions.",
+     "Monitoring."
+    ]
+   },
+   {
+    "h": "Legal framework",
+    "pts": [
+     "Environment (Protection) Act 1986; Air Act and Water Act.",
+     "Forest (Conservation) Act 1980; Wildlife Protection Act 1972; Biological Diversity Act 2002.",
+     "National Green Tribunal Act 2010; CRZ rules.",
+     "Conventions – Montreal, Kyoto, CITES, UNFCCC."
+    ]
+   },
+   {
+    "h": "Effectiveness – strengths",
+    "pts": [
+     "Public participation; conditions on projects; NGT review."
+    ]
+   },
+   {
+    "h": "Weaknesses",
+    "pts": [
+     "Poor quality of consultants' reports; weak monitoring.",
+     "Ex: Ex-post clearances and exemptions in draft notifications.",
+     "Limited cumulative impact assessment.",
+     "Ex: Vizag LG Polymers gas leak (2020) raised questions of compliance."
+    ]
+   },
+   {
+    "h": "Reforms",
+    "pts": [
+     "Independent accredited assessors; stronger public hearings; digital compliance monitoring; strategic and cumulative assessments."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: Category A projects need central clearance; Category B at State SEIAA.",
+     "Ex: Public hearing is mandatory for most projects, with 30 days for comments.",
+     "Ex: Environmental Management Plan and six-monthly compliance reports.",
+     "Ex: Polavaram and Amaravati projects have gone through EIA and NGT cases.",
+     "Ex: Environmental clearance can be revoked for violations."
+    ]
+   }
+  ],
+  "conclusion": "EIA balances development and conservation only if it is credible. The Ministry of Environment and the State Pollution Control Boards should ensure independent assessment and strict follow-up, so that citizens' right to a healthy environment under Article 21 is protected.",
+  "updates": [],
+  "style": "appsc"
+ },
+ {
+  "id": "m-p5-17",
+  "paper": 5,
+  "code": "5.5",
+  "theme": "Water resources, watershed management and soil conservation",
+  "dim": "measures",
+  "question": "Discuss the importance of watershed management for water and soil conservation in India with special reference to the drought-prone areas of Andhra Pradesh.",
+  "why": "Water resources, watershed management, soil reclamation, coastal and soil erosion are separate syllabus lines; Rayalaseema gives the AP context.",
+  "intro": "A watershed is the area from which rainfall drains to a common point. Its management conserves soil and water, recharges groundwater and supports rain-fed agriculture, which covers over half of India's cropped area. About half of India's net sown area is rain-fed; the Integrated Watershed Management Programme is under PMKSY; Anantapur receives only about 550 mm rain a year; the Atal Bhujal Yojana focuses on groundwater.",
+  "body": [
+   {
+    "h": "Components",
+    "pts": [
+     "Soil and moisture conservation: contour bunds, terraces, check dams, farm ponds, gully plugging.",
+     "Vegetative measures: agroforestry, grass cover.",
+     "Water harvesting and groundwater recharge.",
+     "Community participation through user groups."
+    ]
+   },
+   {
+    "h": "Programmes",
+    "pts": [
+     "Ex: Watershed Development component of PMKSY and Integrated Watershed Management Programme.",
+     "Ex: National Watershed Development Project for Rainfed Areas.",
+     "Ex: Neeru-Chettu in Andhra Pradesh.",
+     "Ex: MGNREGS works for farm ponds and bunds."
+    ]
+   },
+   {
+    "h": "Andhra Pradesh relevance",
+    "pts": [
+     "Rayalaseema has low and erratic rainfall.",
+     "Red and black soils prone to erosion; falling groundwater.",
+     "Drought-prone districts – Anantapur, Kurnool, Kadapa, Chittoor, Prakasam.",
+     "Ex: Farm ponds (Panta Kunta) and watershed works improve drought-proofing."
+    ]
+   },
+   {
+    "h": "Issues",
+    "pts": [
+     "Poor maintenance; unequal benefits; weak convergence.",
+     "Need for scientific planning with remote sensing."
+    ]
+   },
+   {
+    "h": "Way forward",
+    "pts": [
+     "Convergence of schemes, user-group ownership, water budgeting, crop planning, micro-irrigation."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: Anantapur is the second-driest district after Jaisalmer in annual rainfall.",
+     "Ex: Ridge-to-valley approach treats upper, middle and lower catchments.",
+     "Ex: Participatory Rural Appraisal and Gram Panchayat planning.",
+     "Ex: Andhra Pradesh Drought Mitigation Project and Watershed schemes cover many Mandals."
+    ]
+   },
+   {
+    "h": "Extra",
+    "pts": [
+     "Ex: Jalshakti Abhiyan and Atal Bhujal Yojana focus on groundwater.",
+     "Ex: Participatory management reduces siltation of tanks and reservoirs."
+    ]
+   }
+  ],
+  "conclusion": "Watershed management is the base of drought-proofing. The Department of Land Resources, the Rural Development Department and local communities should maintain the structures, so that drought-prone farmers have secure livelihoods.",
+  "updates": [],
+  "style": "appsc"
+ },
+ {
+  "id": "m-p5-18",
+  "paper": 5,
+  "code": "8.1",
+  "theme": "Human diseases: tuberculosis, malaria and HIV",
+  "dim": "mechanism",
+  "question": "Describe the causative agents, transmission, symptoms and preventive measures of tuberculosis and malaria. Mention the national programmes to control them.",
+  "why": "Infectious diseases are asked 23 times, mostly as the 'agent, transmission, symptoms and control' form; TB, malaria, HIV and cholera are named in the syllabus.",
+  "intro": "Tuberculosis (TB) and malaria are major infectious diseases of India. TB is caused by a bacterium and malaria by a protozoan parasite; both are preventable and curable. India has about a quarter of the global TB burden; the National TB Elimination Programme aims to end TB by 2025; malaria cases have fallen by over 80% since 2015; Odisha and Chhattisgarh report high shares.",
+  "body": [
+   {
+    "h": "Tuberculosis – agent, spread, symptoms",
+    "pts": [
+     "Agent – Mycobacterium tuberculosis.",
+     "Spread by droplets from pulmonary cases.",
+     "Symptoms – cough over two weeks, fever, weight loss, night sweats."
+    ]
+   },
+   {
+    "h": "TB – diagnosis and control",
+    "pts": [
+     "Sputum smear, CBNAAT/Truenat.",
+     "DOTS with multi-drug regimen; MDR-TB and XDR-TB are concerns.",
+     "Prevention – BCG, early detection, nutrition support under Ni-kshay Poshan Yojana.",
+     "National TB Elimination Programme."
+    ]
+   },
+   {
+    "h": "Malaria – agent, spread, symptoms",
+    "pts": [
+     "Plasmodium (P. vivax, P. falciparum); female Anopheles mosquito.",
+     "Life cycle in mosquito and human liver and red blood cells.",
+     "Symptoms – fever with chills, anaemia."
+    ]
+   },
+   {
+    "h": "Malaria – prevention",
+    "pts": [
+     "Bed nets, indoor spraying, larvicides.",
+     "Rapid tests and ACT drugs.",
+     "Vaccine R21 in some places.",
+     "National Framework for Malaria Elimination (2016–30)."
+    ]
+   },
+   {
+    "h": "Common measures",
+    "pts": [
+     "Surveillance, early treatment, ASHA-led community participation, sanitation and vector control.",
+     "Antimicrobial resistance monitoring and research."
+    ]
+   },
+   {
+    "h": "More points",
+    "pts": [
+     "Ex: India accounts for about a quarter of global TB burden.",
+     "Ex: Target: end TB by 2025 (national goal), ahead of the global date of 2030.",
+     "Ex: Test–treat–track under TB Mukt Bharat and Pradhan Mantri TB Mukt Bharat Abhiyan.",
+     "Ex: Malaria cases fell significantly; Odisha and Chhattisgarh remain high.",
+     "Ex: Dengue and filariasis programmes also use vector control."
+    ]
+   }
+  ],
+  "conclusion": "Both diseases are controllable by early diagnosis, full treatment and community prevention. The Ministry of Health and State health departments should sustain funding and focus on the poorest, so every citizen can access free care.",
+  "updates": [],
+  "style": "appsc"
+ }
+]

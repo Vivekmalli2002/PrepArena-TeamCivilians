@@ -11,6 +11,10 @@ import modelF5 from "@/content/mains-model-f5.json";
 import modelG23 from "@/content/mains-model-g23.json";
 import modelG45 from "@/content/mains-model-g45.json";
 import modelS1 from "@/content/mains-model-s1.json";
+import modelS2 from "@/content/mains-model-s2.json";
+import modelS3 from "@/content/mains-model-s3.json";
+import modelS4 from "@/content/mains-model-s4.json";
+import modelS5 from "@/content/mains-model-s5.json";
 import modelP2P3 from "@/content/mains-model-p3p2.json";
 import modelP4 from "@/content/mains-model-p4.json";
 import modelP5 from "@/content/mains-model-p5.json";
@@ -37,7 +41,7 @@ interface Model {
   style?: "appsc";
 }
 const MODELS = new Map(
-  ([...modelF1, ...modelF2, ...modelF3, ...modelF4, ...modelF5, ...modelG23, ...modelG45, ...modelS1, ...modelP5, ...modelP4, ...modelP2P3] as unknown as Model[]).map((m) => [m.id, m]),
+  ([...modelF1, ...modelF2, ...modelF3, ...modelF4, ...modelF5, ...modelG23, ...modelG45, ...modelS1, ...modelS2, ...modelS3, ...modelS4, ...modelS5, ...modelP5, ...modelP4, ...modelP2P3] as unknown as Model[]).map((m) => [m.id, m]),
 );
 const otherCount = (t: Theme) => t.asked.filter((a) => a.boards.length > 0 && !a.boards.includes("APPSC")).length;
 const dimLabel = (d: string) => DIM_LABEL[d] ?? d;
@@ -334,11 +338,18 @@ function ThemeView({ theme, onBack, onNext }: { theme: Theme; onBack: () => void
         </div>
       </Card>
 
+      <AskedGroup
+        title="Previous year questions · APPSC"
+        note="Every question the commission has set on this theme."
+        items={asked.appsc}
+        open={showAsked}
+        toggle={() => setShowAsked((s) => !s)}
+      />
       <SectionTitle>
         Expected questions · {p.done}/{p.total} learned
       </SectionTitle>
       {theme.expected.length === 0 ? (
-        <Card className="p-4 text-sm text-muted">No expected questions for this theme yet — read the past questions below.</Card>
+        <Card className="p-4 text-sm text-muted">No expected questions for this theme yet — read the past questions above.</Card>
       ) : (
         <div className="grid gap-3">
           {theme.expected.map((e, i) => (
@@ -356,16 +367,9 @@ function ThemeView({ theme, onBack, onNext }: { theme: Theme; onBack: () => void
         </Card>
       )}
 
-      <AskedGroup
-        title="Asked by APPSC"
-        note="Every question the commission has set on this theme."
-        items={asked.appsc}
-        open={showAsked}
-        toggle={() => setShowAsked((s) => !s)}
-      />
       {asked.other.length > 0 && (
         <AskedGroup
-          title="Asked by other exams, not by APPSC"
+          title="Other state PSC and UPSC questions (not asked by APPSC)"
           note="UPSC (2013–2026) and TGPSC questions on this theme that APPSC has not set. They show angles the commission could take next."
           items={asked.other}
           open={showOther}
