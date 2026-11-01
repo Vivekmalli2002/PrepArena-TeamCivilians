@@ -1,4 +1,4 @@
-/** Types for the study planner, mistake notebook and Mains answer practice (kept in the same local store as attempts). */
+/** Types for the countdowns, mistake notebook and Mains answer practice (kept in the same local store as attempts). */
 
 export type MistakeReason = "concept" | "silly" | "guess" | "time" | "revise";
 
@@ -10,15 +10,20 @@ export const MISTAKE_REASONS: { id: MistakeReason; label: string; hint: string }
   { id: "revise", label: "Need to memorise", hint: "A fact I must revise" },
 ];
 
-export interface StudyPlan {
-  /** Exam date, YYYY-MM-DD. */
-  examDate: string;
-  minutesPerDay: number;
-  /** Days of the week (0 = Sunday) kept free of study. */
-  restDays: number[];
+export interface Countdown {
+  id: string;
+  title: string;
+  /** "exam" = a confirmed date set by the commission; "target" = your own deadline to finish a subject or task. */
+  kind: "exam" | "target";
+  /** Local date-time, `YYYY-MM-DDTHH:mm`. */
+  at: string;
+  /** Optional subject this target is about (shows how much of it you have practised). */
+  subjectId?: string;
+  note?: string;
+  pinned?: boolean;
+  /** Targets only: finished early / on time. */
+  done?: boolean;
   createdAt: number;
-  /** Task keys `YYYY-MM-DD:<n>` marked done. */
-  done: Record<string, true>;
 }
 
 export interface MainsEntry {

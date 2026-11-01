@@ -5,7 +5,7 @@ import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
 import { dayKey, uid } from "./random";
 import { graduate, review } from "./srs";
-import type { MainsEntry, MistakeReason, StudyPlan } from "./extras";
+import type { Countdown, MainsEntry, MistakeReason } from "./extras";
 import type { Attempt, PaletteStatus, QStat, Question, Session, TestConfig } from "./types";
 
 const MAX_ATTEMPTS = 300;
@@ -29,13 +29,16 @@ interface AppState {
   installPrompt: "pending" | "eligible" | "dismissed";
   /** Why the student got a question wrong (their own tag, set in the mistake notebook). */
   mistakeTags: Record<number, MistakeReason>;
-  plan: StudyPlan | null;
+  countdowns: Countdown[];
   /** Mains answers written in the answer-writing practice, keyed by question id. */
   mains: Record<string, MainsEntry>;
 
   setMistakeTag: (id: number, tag: MistakeReason | null) => void;
-  setPlan: (plan: StudyPlan | null) => void;
-  toggleTask: (key: string) => void;
+  addCountdown: (c: Omit<Countdown, "id" | "createdAt">) => void;
+  updateCountdown: (id: string, patch: Partial<Omit<Countdown, "id" | "createdAt">>) => void;
+  removeCountdown: (id: string) => void;
+  /** Only one countdown is pinned to the top; pinning another unpins the first. */
+  pinCountdown: (id: string) => void;
   saveMains: (id: string, entry: Partial<MainsEntry> & { text: string }) => void;
   setProfile: (p: Profile) => void;
   setTheme: (t: Theme) => void;
@@ -46,7 +49,7 @@ interface AppState {
   /** "I've learnt this": take the question out of the revision set. */
   clearFromRevision: (id: number) => void;
   /** Replace everything with an imported backup. */
-  restore: (s: Pick<AppState, "profile" | "theme" | "attempts" | "qstats" | "bookmarks" | "activeDays"> & Partial<Pick<AppState, "mistakeTags" | "plan" | "mains">>) => void;
+  restore: (s: Pick<AppState, "profile" | "theme" | "attempts" | "qstats" | "bookmarks" | "activeDays"> & Partial<Pick<AppState, "mistakeTags" | "countdowns" | "mains">>) => void;
   setInstallPrompt: (s: AppState["installPrompt"]) => void;
   resetAll: () => void;
 }
@@ -60,7 +63,7 @@ const initial = {
   activeDays: [],
   installPrompt: "pending" as const,
   mistakeTags: {} as Record<number, MistakeReason>,
-  plan: null as StudyPlan | null,
+  countdowns: [] as Countdown[],
   mains: {} as Record<string, MainsEntry>,
 };
 
@@ -75,15 +78,14 @@ export const useApp = create<AppState>()(
           else delete next[id];
           return { mistakeTags: next };
         }),
-      setPlan: (plan) => set({ plan }),
-      toggleTask: (key) =>
-        set((s) => {
-          if (!s.plan) return s;
-          const done = { ...s.plan.done };
-          if (done[key]) delete done[key];
-          else done[key] = true;
-          return { plan: { ...s.plan, done } };
-        }),
+      addCountdown: (c) =>
+        set((s) => ({
+          countdowns: [...s.countdowns.map((x) => (c.pinned ? { ...x, pinned: false } : x)), { ...c, id: uid(), createdAt: Date.now() }],
+        })),
+      updateCountdown: (id, patch) =>
+        set((s) => ({ countdowns: s.countdowns.map((x) => (x.id === id ? { ...x, ...patch } : patch.pinned ? { ...x, pinned: false } : x)) })),
+      removeCountdown: (id) => set((s) => ({ countdowns: s.countdowns.filter((x) => x.id !== id) })),
+      pinCountdown: (id) => set((s) => ({ countdowns: s.countdowns.map((x) => ({ ...x, pinned: x.id === id ? !x.pinned : false })) })),
       saveMains: (id, entry) =>
         set((s) => ({ mains: { ...s.mains, [id]: { ...s.mains[id], ...entry, updatedAt: Date.now() } } })),
       setProfile: (profile) => set({ profile }),
