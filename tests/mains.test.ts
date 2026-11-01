@@ -1,108 +1,66 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import { buildQueue, complete, emptyLearn, learnMore, learnStreak, readKey, rollDay, themeStats, toggleRead, topUp, uncomplete, unreadItems, type MainsQ } from "@/lib/mainsLearn";
+import { bySubject, nextTheme, studyOrder, sumProgress, themeDone, themeProgress, type Theme } from "@/lib/checklist";
+import { emptyLearn, readKey, toggleRead, unreadItems } from "@/lib/mainsLearn";
 
-const QS = JSON.parse(readFileSync("src/content/mains.json", "utf8")) as MainsQ[];
 const J = (f: string) => JSON.parse(readFileSync(`src/content/${f}`, "utf8"));
 const MODEL_FILES = ["p5", "p4", "p3p2", "f1", "f2", "f3", "f4", "f5", "g23", "g45"].map((n) => J(`mains-model-${n}.json`));
-const answers = JSON.parse(readFileSync("src/content/mains-answers.json", "utf8")) as Record<string, { answer: string }>;
+const THEMES = J("mains-checklist.json") as Theme[];
 
-describe("theme ranking", () => {
-  const stats = themeStats(QS);
-  it("puts the most recurring theme first and 'Other' last", () => {
-    expect(stats[0].count).toBeGreaterThanOrEqual(stats[1].count);
-    for (let i = 1; i < stats.length - 1; i++) {
-      if (stats[i].theme.startsWith("Other") || stats[i + 1].theme.startsWith("Other")) continue;
-      expect(stats[i - 1].count).toBeGreaterThanOrEqual(stats[i].count);
-    }
-    expect(stats.reduce((n, t) => n + t.count, 0)).toBe(QS.length);
+describe("checklist data", () => {
+  it("covers all five papers with unique theme and question ids", () => {
+    expect([...new Set(THEMES.map((t) => t.paper))].sort()).toEqual([1, 2, 3, 4, 5]);
+    expect(new Set(THEMES.map((t) => t.id)).size).toBe(THEMES.length);
+    const ids = THEMES.flatMap((t) => t.expected.map((e) => e.id));
+    expect(new Set(ids).size).toBe(ids.length);
+    expect(THEMES.reduce((n, t) => n + t.n, 0)).toBeGreaterThan(1100);
   });
-  it("lists angles a theme has never been asked from", () => {
-    const top = stats[0];
-    expect(top.count).toBeGreaterThan(15);
-    for (const d of top.unseen) expect(top.dims[d]).toBeUndefined();
-  });
-  it("tags every question with a theme and at least one angle", () => {
-    for (const q of QS) {
-      expect(q.theme, q.id).toBeTruthy();
-      expect(q.dims.length, q.id).toBeGreaterThan(0);
+  it("never expects more than 10 questions in a theme, and fewer for small themes", () => {
+    for (const t of THEMES) {
+      expect(t.expected.length, t.label).toBeLessThanOrEqual(10);
+      if (t.n <= 2 && !t.legacy) expect(t.expected.length, t.label).toBeLessThanOrEqual(Math.max(2, t.expected.filter((e) => e.model).length));
     }
   });
-});
-
-describe("learning queue", () => {
-  const queue = buildQueue(QS);
-  const byId = new Map(QS.map((q) => [q.id, q]));
-  it("serves every question exactly once, most recurring theme first", () => {
-    expect(queue).toHaveLength(QS.length);
-    expect(new Set(queue).size).toBe(QS.length);
-    expect(byId.get(queue[0])!.theme).toBe(themeStats(QS)[0].theme);
+  it("lists the past questions with their years and boards", () => {
+    const tg = THEMES.flatMap((t) => t.asked).filter((a) => a.boards.includes("TGPSC"));
+    expect(tg.length).toBeGreaterThan(50);
+    for (const t of THEMES) for (const a of t.asked) expect(a.q.length, t.label).toBeGreaterThan(10);
   });
-  it("meets a theme from different angles before repeating one", () => {
-    const first = themeStats(QS)[0];
-    const firstFive = queue.slice(0, 5).map((id) => byId.get(id)!);
-    expect(firstFive.every((q) => q.theme === first.theme)).toBe(true);
-    const covered = new Set(firstFive.flatMap((q) => q.dims));
-    expect(covered.size).toBeGreaterThanOrEqual(Math.min(4, new Set(QS.filter((q) => q.theme === first.theme).flatMap((q) => q.dims)).size));
-  });
-  it("answers, when supplied, belong to known questions", () => {
-    for (const id of Object.keys(answers)) expect(byId.has(id), id).toBe(true);
+  it("attaches every hand-written model answer to an expected question", () => {
+    const attached = new Set(THEMES.flatMap((t) => t.expected.filter((e) => e.model).map((e) => e.id)));
+    for (const m of MODEL_FILES.flat() as { id: string }[]) expect(attached.has(m.id), m.id).toBe(true);
   });
 });
 
-describe("daily rollover and backlog", () => {
-  const queue = ["a", "b", "c", "d", "e", "f"];
-  it("serves one to three questions a day", () => {
-    let s = rollDay({ ...emptyLearn(), perDay: 2 }, "2026-11-02", queue);
-    expect(s.today).toEqual(["a", "b"]);
-    s = rollDay(s, "2026-11-02", queue);
-    expect(s.today).toEqual(["a", "b"]); // same day: nothing changes
-    s = topUp({ ...s, perDay: 3 }, queue);
-    expect(s.today).toEqual(["a", "b", "c"]);
+describe("progress and the next theme", () => {
+  const order = studyOrder(THEMES);
+  it("studies paper by paper, most-asked theme first, and skips themes with nothing to tick", () => {
+    expect(order.every((t) => t.expected.length > 0 && !t.legacy)).toBe(true);
+    const papers = order.map((t) => t.paper);
+    expect([...papers].sort()).toEqual(papers);
+    const g = bySubject(THEMES, 5)[0].themes.filter((t) => !t.label.startsWith("Misc"));
+    for (let i = 1; i < g.length; i++) expect(g[i - 1].n).toBeGreaterThanOrEqual(g[i].n);
   });
-  it("sends what was not completed to the end of the line the next day", () => {
-    let s = rollDay({ ...emptyLearn(), perDay: 2 }, "2026-11-02", queue);
-    s = complete(s, "a");
-    s = rollDay(s, "2026-11-03", queue);
-    expect(s.today).toEqual(["c", "d"]); // next fresh questions, not 'b'
-    expect(s.backlog).toEqual(["b"]);
+  it("a theme is finished when all its expected questions are ticked, then the next unfinished theme is offered", () => {
+    const first = order[0], second = order[1];
+    const done: Record<string, number> = {};
+    expect(themeDone(first, done)).toBe(false);
+    first.expected.forEach((e, i) => {
+      done[e.id] = 1;
+      expect(themeProgress(first, done).done).toBe(i + 1);
+    });
+    expect(themeDone(first, done)).toBe(true);
+    expect(nextTheme(order, first.id, done)?.id).toBe(second.id);
+    expect(nextTheme(order, null, done)?.id).toBe(second.id);
+    second.expected.forEach((e) => (done[e.id] = 1));
+    expect(nextTheme(order, first.id, done)?.id).toBe(order[2].id);
   });
-  it("serves the backlog once the fresh questions run out, and completing clears it", () => {
-    let s = rollDay({ ...emptyLearn(), perDay: 3 }, "d1", ["a", "b", "c", "d"]);
-    s = complete(s, "a");
-    s = rollDay(s, "d2", ["a", "b", "c", "d"]);
-    expect(s.today).toEqual(["d", "b", "c"]); // d is fresh, then the backlog in order
-    expect(s.backlog).toEqual([]);
-    s = complete(s, "b");
-    expect(s.done.b).toBeTruthy();
-    s = uncomplete(s, "b");
-    expect(s.done.b).toBeUndefined();
-  });
-  it("'learn one more' adds a question beyond the daily number", () => {
-    let s = rollDay({ ...emptyLearn(), perDay: 1 }, "d1", queue);
-    s = learnMore(complete(s, "a"), queue);
-    expect(s.today).toEqual(["a", "b"]);
-  });
-  it("counts a streak of consecutive days with something completed", () => {
-    const at = (k: string) => new Date(k + "T10:00").getTime();
-    const dayOf = (t: number) => {
-      const d = new Date(t);
-      return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
-    };
-    const done = { a: at("2026-11-01"), b: at("2026-11-02"), c: at("2026-11-03"), x: at("2026-10-28") };
-    expect(learnStreak(done, "2026-11-03", dayOf)).toBe(3);
-    expect(learnStreak(done, "2026-11-04", dayOf)).toBe(3); // today not started yet: yesterday still counts
-    expect(learnStreak(done, "2026-11-06", dayOf)).toBe(0);
-  });
-});
-
-describe("question set", () => {
-  it("is the Group-I Mains compilation (Papers I–V, 2008–2025) with unique ids", () => {
-    expect(QS.length).toBeGreaterThan(800);
-    expect(new Set(QS.map((q) => q.id)).size).toBe(QS.length);
-    expect([...new Set(QS.map((q) => q.paper))].sort()).toEqual([1, 2, 3, 4, 5]);
-    for (const q of QS) expect(q.theme, q.id).toBeTruthy();
-    for (const q of QS) expect(q.question, q.id).not.toMatch(/^\d+\s*\([a-z]\)|\s\d{1,2}\([a-d]\)(\s|$)/);
+  it("returns null when every theme is done and sums progress", () => {
+    const done: Record<string, number> = {};
+    for (const t of order) for (const e of t.expected) done[e.id] = 1;
+    expect(nextTheme(order, order[0].id, done)).toBeNull();
+    const p = sumProgress(order, done);
+    expect(p.done).toBe(p.total);
   });
 });
 

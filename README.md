@@ -118,34 +118,24 @@ Stored attempts keep only question ids, responses and a snapshot of the answer k
   basis stated on screen; "Customise" lets the student pick the number of questions per section. The Custom builder takes
   any number up to what is available and can follow the weightage.
 
-## Group-I Mains learning tool
+## Group-I Mains checklist
 
-`/mains` replaces the answer-evaluation page. Questions are tagged with a fine **theme** and the **angles** they ask about
-(`scripts/extract/mains_themes.py` → `src/content/mains.json`), themes are ranked by how often the commission returns to
-them, and the daily queue serves 1–3 questions a day, most recurring theme first and a different angle each time.
-Anything not marked completed that day goes to the **backlog** at the end.
+`/mains` is a **progress checklist**, not a daily quota: Paper → subject → theme. A theme shows how often it was asked (and in which
+sittings), the angles ("dimensions") asked so far and the ones never asked, **every past question** (APPSC and TGPSC, with years), and
+the **expected questions** (at most 10 for a big theme, fewer for a small one). Tick an expected question when learned; when the whole
+theme is ticked the next theme is offered. No backlog.
 
-- **Question source**: `APPSC_Group1_Mains_PYQ_Compilation.pdf` (Papers I–V, 2008–2025, arranged by syllabus topic and
-  "microtheme"). `python3 -I scripts/extract/mains_compilation.py <pdf> all.json` parses its tables, then
-  `python3 -I scripts/extract/mains_themes.py all.json` writes `src/content/mains.json` (theme = the compilation's microtheme,
-  recurrence = questions and sittings per theme, plus the angles asked). The PDF headers claim 857 questions; 815 distinct
-  rows are actually listed and imported. Ids are `g1p<paper>-<year>-<n>`, so answers keyed by id stay stable.
-- **Add model answers**: put them in `src/content/mains-answers.json` as `{ "<question id>": { "answer": "…markdown…", "source": "…" } }`
-  (`##` headings, `-` bullets and `**bold**` are rendered). Until an answer is present the card shows an answer frame and a
-  notes box. Only text you have the right to publish should go in.
+Sources (all Group-I): the APPSC Mains PYQ compilation (`scripts/data/compilation.json`, from `scripts/extract/mains_compilation.py`),
+the Ghissu model-answer books' indexes (`scripts/extract/ghissu_index.py`), the CivicCentre PYQ books incl. TGPSC
+(`scripts/extract/civiccentre_pyq.py`) and, by OCR, the CivicCentre "Mission 1000" workbooks (`scripts/extract/ocr_workbooks.py`,
+`workbooks_parse.py`, needs `pip install rapidocr-onnxruntime wordsegment`).
 
-### Expected questions and the prediction table (Mains learning)
+Build: `python3 -I scripts/analysis/build_checklist.py` (merge, de-duplicate, file under themes) then
+`python3 -I scripts/analysis/build_expected.py` (expected questions) → `src/content/mains-checklist.json`.
 
-- `scripts/analysis/ghissu_matrix.py` reads the "latest syllabus sub-topic × sitting" matrices printed in the Ghissu model-answer books
-  (Papers II–V, sittings 2008/11/12/16/17/20/23/25) into `src/content/mains-matrix.json`.
-- `scripts/analysis/insights.py` scores each sub-topic (recent sittings weigh more), flags **Due** (asked ≥3× but absent in 2023 and 2025)
-  and **Rising**, lists the angles the closest past questions never took (**Not asked yet**) and marks current-affairs topics →
-  `src/content/mains-insights.json`, shown on the **Expected** tab.
-- `src/content/mains-model-p*.json` are expected questions written for this app (why expected, introduction, body, conclusion, and a
-  "read the latest" checklist for current-affairs topics). They are served first in the daily queue (1–4 a day). Unticked checklist
-  items keep a question in **Backlog → Pending reading**. Add more by appending items of the same shape.
-- The CivicCentre "Mission 1000" workbooks are scanned answer sheets (no extractable question text) and were not used.
-- The 2026 notification (No. 07/2026, 06-10-2026) is the syllabus anchor: Mains Papers I–V of 150 marks each (Paper I = three ~800-word
-  essays, one per section), Paper IV's "highlights of the current year's Union Budget" and AP Budget, and Paper III's new
-  "basic knowledge of laws" block. Expected questions for **factual, repeating themes** (no checklist) are served before the
-  current-affairs ones. Budget answers use the PRS analyses of Union Budget 2026-27 and AP Budget 2025-26 (`src` field).
+- Expected questions: dimensions never asked on a theme first, then dimensions asked recently (2020+); stems are drafted from templates per
+  subject area (history, geography, polity, administration, ethics, economy, science, essay) with an answer **structure**; "recent
+  developments" stems are ranked last. Where a hand-written model answer exists (`src/content/mains-model-*.json`: intro, body,
+  conclusion, optional "read the latest" checklist) it is attached to the nearest theme and shown as **Full answer**.
+- Topics the commission has removed from the 2026 syllabus (Notification 07/2026) are hidden.
+- Progress is stored in the app's `learn.done` (question id → time), so it is included in backup/restore.
