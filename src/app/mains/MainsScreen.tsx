@@ -189,8 +189,9 @@ function ThemeView({ theme, onBack, onNext }: { theme: Theme; onBack: () => void
 
       <Card className="mt-4 p-4">
         <div className="text-sm">
-          Asked <b>{theme.n}×</b> in {theme.years.length} of {SITTINGS.length} sittings
-          {theme.years.length ? ` (last ${theme.years.at(-1)})` : ""}.
+          Asked <b>{theme.n}×</b> · {theme.years.filter((y) => SITTINGS.includes(y)).length} of {SITTINGS.length} APPSC sittings
+          {theme.years.some((y) => !SITTINGS.includes(y)) ? " + TGPSC" : ""}
+          {theme.years.length ? ` · last ${theme.years.at(-1)}` : ""}.
         </div>
         <div className="mt-2 flex gap-1" aria-label={`Sittings: ${theme.years.join(", ")}`}>
           {SITTINGS.map((y) => (
