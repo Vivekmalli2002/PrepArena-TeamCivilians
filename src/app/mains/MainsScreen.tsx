@@ -13,6 +13,8 @@ import modelF2 from "@/content/mains-model-f2.json";
 import modelF3 from "@/content/mains-model-f3.json";
 import modelF4 from "@/content/mains-model-f4.json";
 import modelF5 from "@/content/mains-model-f5.json";
+import modelG23 from "@/content/mains-model-g23.json";
+import modelG45 from "@/content/mains-model-g45.json";
 import { dayKey } from "@/lib/random";
 import { buildQueue, CORE_DIMS, DIMS, frameFor, learnStreak, readKey, themeStats, unreadItems, type DimId, type MainsQ } from "@/lib/mainsLearn";
 import { useApp, useHydrated } from "@/lib/store";
@@ -30,7 +32,7 @@ const SITTINGS = ["2008", "2011", "2012", "2016", "2017", "2020", "2023", "2025"
 type Model = Omit<MainsQ, "year" | "theme" | "dims" | "ap" | "paperName" | "marks"> & { theme: string; dim: DimId };
 const PAPER_NAMES: Record<number, string> = { 1: "Paper I — General Essay", 2: "Paper II — History, Culture & Geography", 3: "Paper III — Polity, Governance & Ethics", 4: "Paper IV — Indian & Andhra Pradesh Economy", 5: "Paper V — Science, Technology & Environment" };
 /** Expected questions: factual, repeating themes first (no current-affairs checklist), then dynamic ones; best-ranked sub-topic first within each. */
-const MODELS: MainsQ[] = ([...modelF1, ...modelF2, ...modelF3, ...modelF4, ...modelF5, ...modelP5, ...modelP4, ...modelP2P3] as unknown as Model[])
+const MODELS: MainsQ[] = ([...modelF1, ...modelF2, ...modelF3, ...modelF4, ...modelF5, ...modelG23, ...modelG45, ...modelP5, ...modelP4, ...modelP2P3] as unknown as Model[])
   .map((m) => ({ ...m, year: 2026, paperName: PAPER_NAMES[m.paper], marks: 10, dims: [m.dim], ap: /andhra|\bap\b/i.test(m.question), model: true, dimension: m.dim }) as MainsQ)
   .sort((a, b) => Number(!!a.updates?.length) - Number(!!b.updates?.length) || (INS.get(`${b.paper}-${b.code}`)?.score ?? 6) - (INS.get(`${a.paper}-${a.code}`)?.score ?? 6));
 const ANSWERS = answers as Record<string, { answer: string; source?: string }>;

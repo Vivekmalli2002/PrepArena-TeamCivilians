@@ -4,7 +4,7 @@ import { buildQueue, complete, emptyLearn, learnMore, learnStreak, readKey, roll
 
 const QS = JSON.parse(readFileSync("src/content/mains.json", "utf8")) as MainsQ[];
 const J = (f: string) => JSON.parse(readFileSync(`src/content/${f}`, "utf8"));
-const MODEL_FILES = ["p5", "p4", "p3p2", "f1", "f2", "f3", "f4", "f5"].map((n) => J(`mains-model-${n}.json`));
+const MODEL_FILES = ["p5", "p4", "p3p2", "f1", "f2", "f3", "f4", "f5", "g23", "g45"].map((n) => J(`mains-model-${n}.json`));
 const answers = JSON.parse(readFileSync("src/content/mains-answers.json", "utf8")) as Record<string, { answer: string }>;
 
 describe("theme ranking", () => {
@@ -109,7 +109,7 @@ describe("question set", () => {
 describe("expected questions and reading checklist", () => {
   const files = MODEL_FILES.flat() as { id: string; paper: number; question: string; intro: string; body: { h: string; pts: string[] }[]; conclusion: string; updates?: string[] }[];
   it("every expected question has an intro, a body and a conclusion; ids are unique", () => {
-    expect(files.length).toBeGreaterThanOrEqual(45);
+    expect(files.length).toBeGreaterThanOrEqual(70);
     expect(new Set(files.map((m) => m.id)).size).toBe(files.length);
     for (const m of files) {
       expect(m.intro.length, m.id).toBeGreaterThan(60);
