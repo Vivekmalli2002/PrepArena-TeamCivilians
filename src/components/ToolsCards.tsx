@@ -5,7 +5,7 @@ import { SectionTitle } from "./ui";
 const TOOLS = [
   { href: "/countdown", icon: Timer, title: "Countdowns", text: "Confirmed exam dates and your own deadlines — days, hours, minutes" },
   { href: "/mistakes", icon: BookX, title: "Mistake notebook", text: "Every wrong answer, why it happened, and a retry test" },
-  { href: "/mains", icon: PenLine, title: "Group-I Mains learning", text: "Most-recurring themes first, 1–3 model answers a day, backlog" },
+  { href: "/mains", icon: PenLine, title: "Group-I Mains checklist", text: "Paper → subject → theme: past questions, expected questions, tick as you learn" },
 ];
 
 export function ToolsCards() {

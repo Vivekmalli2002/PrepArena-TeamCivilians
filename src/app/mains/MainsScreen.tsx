@@ -1,13 +1,8 @@
 "use client";
 
-import { Check, ChevronDown, Flame, Plus } from "lucide-react";
+import { ArrowRight, Check, ChevronDown, ChevronLeft } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
-import answers from "@/content/mains-answers.json";
-import mains from "@/content/mains.json";
-import insights from "@/content/mains-insights.json";
-import modelP2P3 from "@/content/mains-model-p3p2.json";
-import modelP4 from "@/content/mains-model-p4.json";
-import modelP5 from "@/content/mains-model-p5.json";
+import checklist from "@/content/mains-checklist.json";
 import modelF1 from "@/content/mains-model-f1.json";
 import modelF2 from "@/content/mains-model-f2.json";
 import modelF3 from "@/content/mains-model-f3.json";
@@ -15,466 +10,331 @@ import modelF4 from "@/content/mains-model-f4.json";
 import modelF5 from "@/content/mains-model-f5.json";
 import modelG23 from "@/content/mains-model-g23.json";
 import modelG45 from "@/content/mains-model-g45.json";
-import { dayKey } from "@/lib/random";
-import { buildQueue, CORE_DIMS, DIMS, frameFor, learnStreak, readKey, themeStats, unreadItems, type DimId, type MainsQ } from "@/lib/mainsLearn";
+import modelP2P3 from "@/content/mains-model-p3p2.json";
+import modelP4 from "@/content/mains-model-p4.json";
+import modelP5 from "@/content/mains-model-p5.json";
+import { bySubject, DIM_LABEL, nextTheme, PAPER_TITLES, studyOrder, sumProgress, themeDone, themeProgress, type Expected, type Theme } from "@/lib/checklist";
+import { readKey } from "@/lib/mainsLearn";
 import { useApp, useHydrated } from "@/lib/store";
-import { AnswerView } from "@/components/AnswerView";
-import { Button, Card, Chip, PageSkeleton, Segmented, SectionTitle, cx } from "@/components/ui";
+import { Button, Card, Chip, PageSkeleton, SectionTitle, cx } from "@/components/ui";
 
-const QS = mains as unknown as MainsQ[];
-interface Insight {
-  paper: number; code: string; title: string; chapter: string; years: Record<string, number>; total: number; score: number;
-  due: boolean; rising: boolean; unseen: DimId[]; dynamic: boolean;
+const THEMES = checklist as unknown as Theme[];
+const ORDER = studyOrder(THEMES);
+const BY_ID = new Map(THEMES.map((t) => [t.id, t]));
+const SITTINGS = [2008, 2011, 2012, 2016, 2017, 2020, 2023, 2025];
+
+interface Model {
+  id: string;
+  question: string;
+  why?: string;
+  intro: string;
+  body: { h: string; pts: string[] }[];
+  conclusion: string;
+  updates?: string[];
+  src?: string;
 }
-const INS = new Map((insights as unknown as Insight[]).map((r) => [`${r.paper}-${r.code}`, r]));
-const INSIGHTS = (insights as unknown as Insight[]).slice(0, 30);
-const SITTINGS = ["2008", "2011", "2012", "2016", "2017", "2020", "2023", "2025"];
-type Model = Omit<MainsQ, "year" | "theme" | "dims" | "ap" | "paperName" | "marks"> & { theme: string; dim: DimId };
-const PAPER_NAMES: Record<number, string> = { 1: "Paper I — General Essay", 2: "Paper II — History, Culture & Geography", 3: "Paper III — Polity, Governance & Ethics", 4: "Paper IV — Indian & Andhra Pradesh Economy", 5: "Paper V — Science, Technology & Environment" };
-/** Expected questions: factual, repeating themes first (no current-affairs checklist), then dynamic ones; best-ranked sub-topic first within each. */
-const MODELS: MainsQ[] = ([...modelF1, ...modelF2, ...modelF3, ...modelF4, ...modelF5, ...modelG23, ...modelG45, ...modelP5, ...modelP4, ...modelP2P3] as unknown as Model[])
-  .map((m) => ({ ...m, year: 2026, paperName: PAPER_NAMES[m.paper], marks: 10, dims: [m.dim], ap: /andhra|\bap\b/i.test(m.question), model: true, dimension: m.dim }) as MainsQ)
-  .sort((a, b) => Number(!!a.updates?.length) - Number(!!b.updates?.length) || (INS.get(`${b.paper}-${b.code}`)?.score ?? 6) - (INS.get(`${a.paper}-${a.code}`)?.score ?? 6));
-const ANSWERS = answers as Record<string, { answer: string; source?: string }>;
-const STATS = themeStats(QS);
-/** Expected (predicted) questions first, then the past questions by theme recurrence. */
-const QUEUE = [...MODELS.map((q) => q.id), ...buildQueue(QS)];
-const BY_ID = new Map([...MODELS, ...QS].map((q) => [q.id, q]));
-const RANK = new Map(STATS.map((t, i) => [t.theme, i + 1]));
-const STAT = new Map(STATS.map((t) => [t.theme, t]));
-const dimLabel = (d: string) => DIMS.find((x) => x.id === d)?.label ?? d;
-
-type Tab = "today" | "expected" | "themes" | "backlog" | "all";
+const MODELS = new Map(
+  ([...modelF1, ...modelF2, ...modelF3, ...modelF4, ...modelF5, ...modelG23, ...modelG45, ...modelP5, ...modelP4, ...modelP2P3] as unknown as Model[]).map((m) => [m.id, m]),
+);
+const dimLabel = (d: string) => DIM_LABEL[d] ?? d;
 
 export function MainsScreen() {
   const hydrated = useHydrated();
-  const learn = useApp((s) => s.learn);
-  const sync = useApp((s) => s.syncLearn);
-  const setPerDay = useApp((s) => s.setPerDay);
-  const more = useApp((s) => s.learnOneMore);
-  const [tab, setTab] = useState<Tab>("today");
-  const [theme, setTheme] = useState<string | null>(null);
+  const done = useApp((s) => s.learn.done);
+  const [themeId, setThemeId] = useState<string | null>(null);
+  const [paper, setPaper] = useState(1);
 
-  const today = dayKey(new Date());
-  useEffect(() => {
-    if (hydrated) sync(QUEUE, today);
-  }, [hydrated, today, sync]);
-
-  const doneN = Object.keys(learn.done).filter((id) => BY_ID.has(id)).length;
-  const streak = useMemo(() => learnStreak(learn.done, today, (t) => dayKey(new Date(t))), [learn.done, today]);
-  const backlog = learn.backlog.filter((id) => BY_ID.has(id) && !learn.done[id]);
-  /** Expected questions already served whose current-affairs reading is not finished. */
-  const pending = MODELS.filter((q) => unreadItems(q, learn.read).length && (learn.assigned.includes(q.id) || learn.done[q.id]));
-
+  const total = useMemo(() => sumProgress(ORDER, done), [done]);
   if (!hydrated) return <PageSkeleton />;
-  const todayList = learn.today.filter((id) => BY_ID.has(id));
-  const todayDone = todayList.filter((id) => learn.done[id]).length;
 
+  const theme = themeId ? BY_ID.get(themeId) : null;
+  if (theme) {
+    return (
+      <ThemeView
+        theme={theme}
+        onBack={() => setThemeId(null)}
+        onNext={() => {
+          const n = nextTheme(ORDER, theme.id, done);
+          if (n) {
+            setPaper(n.paper);
+            setThemeId(n.id);
+            window.scrollTo({ top: 0 });
+          } else setThemeId(null);
+        }}
+      />
+    );
+  }
+
+  const resume = nextTheme(ORDER, null, done);
   return (
     <div>
-      <h1 className="font-display text-[28px] font-extrabold sm:text-4xl">Group-I Mains learning</h1>
+      <h1 className="font-display text-[28px] font-extrabold sm:text-4xl">Group-I Mains checklist</h1>
       <p className="mt-1 text-sm text-muted">
-        Questions come in the order the commission keeps returning to them. Learn the model answer, mark it completed, and the next
-        one arrives. Anything you leave undone goes to the backlog at the end.
+        Pick a paper, then a subject and a theme. Every theme shows the questions already asked and the questions we expect next. Learn the expected
+        ones, tick them off, and move on to the next theme.
       </p>
 
-      <div className="mt-4 grid grid-cols-3 gap-3">
-        <Card className="p-3 text-center">
-          <div className="font-display text-2xl font-bold tabular">{doneN}</div>
-          <div className="text-xs text-muted">of {QS.length + MODELS.length} learned</div>
-        </Card>
-        <Card className="p-3 text-center">
-          <div className="flex items-center justify-center gap-1 font-display text-2xl font-bold tabular">
-            <Flame size={20} className={streak ? "text-amber-500" : "text-faint"} />
-            {streak}
+      <Card className="mt-4 p-4">
+        <div className="flex items-end justify-between gap-3">
+          <div>
+            <div className="font-display text-3xl font-bold tabular">
+              {total.done}
+              <span className="text-lg font-semibold text-muted"> / {total.total}</span>
+            </div>
+            <div className="text-xs text-muted">expected questions learned · {THEMES.reduce((n, t) => n + t.n, 0)} past questions covered</div>
           </div>
-          <div className="text-xs text-muted">day streak</div>
-        </Card>
-        <Card className="p-3 text-center">
-          <div className={cx("font-display text-2xl font-bold tabular", backlog.length > 0 && "text-bad")}>{backlog.length}</div>
-          <div className="text-xs text-muted">in backlog</div>
-        </Card>
-      </div>
-
-      <Segmented
-        label="Learning sections"
-        className="mt-5"
-        value={tab}
-        onChange={setTab}
-        options={[
-          { value: "today", label: "Today" },
-          { value: "expected", label: "Expected" },
-          { value: "themes", label: "Themes" },
-          { value: "backlog", label: backlog.length + pending.length ? `Backlog ${backlog.length + pending.length}` : "Backlog" },
-          { value: "all", label: "All" },
-        ]}
-      />
-
-      {tab === "today" && (
-        <>
-          <div className="mt-4 flex flex-wrap items-center gap-2 text-sm">
-            <span className="font-semibold">Questions a day</span>
-            {([1, 2, 3, 4] as const).map((n) => (
-              <Chip key={n} on={learn.perDay === n} onClick={() => setPerDay(n, QUEUE)}>
-                {n}
-              </Chip>
-            ))}
-          </div>
-          <SectionTitle>
-            {todayList.length ? `Today · ${todayDone} of ${todayList.length} completed` : "Today"}
-          </SectionTitle>
-          {todayList.length === 0 ? (
-            <Card className="p-6 text-center">
-              <p className="font-semibold">Everything has been learned. 🎉</p>
-              <p className="mt-1 text-sm text-muted">Add the next Group-I papers to the question bank and new ones will appear here.</p>
-            </Card>
-          ) : (
-            <div className="grid gap-4">
-              {todayList.map((id, i) => (
-                <StudyCard key={id} q={BY_ID.get(id)!} defaultOpen={i === 0 || !learn.done[id]} />
-              ))}
-            </div>
+          {resume && (
+            <Button size="sm" onClick={() => (setPaper(resume.paper), setThemeId(resume.id))}>
+              {total.done ? "Continue" : "Start"} <ArrowRight size={15} />
+            </Button>
           )}
-          {todayList.length > 0 && todayDone === todayList.length && (
-            <Card className="mt-4 flex flex-wrap items-center justify-between gap-3 p-4">
-              <span className="font-semibold">Done for today — nicely done.</span>
-              <Button size="sm" variant="soft" onClick={() => more(QUEUE)}>
-                <Plus size={15} /> Learn one more
-              </Button>
-            </Card>
-          )}
-        </>
-      )}
+        </div>
+        <Bar value={total.done} max={total.total} className="mt-3" />
+      </Card>
 
-      {tab === "expected" && <Expected />}
-
-      {tab === "themes" && <Themes onPick={(t) => (setTheme(t), setTab("all"))} />}
-
-      {tab === "backlog" && (
-        <>
-          <SectionTitle>{backlog.length ? `${backlog.length} to catch up on` : "Backlog is empty"}</SectionTitle>
-          <p className="-mt-1 mb-3 text-sm text-muted">Questions that were served on an earlier day and not marked completed. They are served again once the new ones run out — or finish them here any time.</p>
-          <div className="grid gap-4">
-            {backlog.map((id) => (
-              <StudyCard key={id} q={BY_ID.get(id)!} defaultOpen={false} />
-            ))}
-          </div>
-          <SectionTitle>{pending.length ? `Pending reading · ${pending.length}` : "Pending reading"}</SectionTitle>
-          <p className="-mt-1 mb-3 text-sm text-muted">
-            Current-affairs topics from questions you have already met. Tick each update when you have read it — the question stays here until every item is ticked.
-          </p>
-          {pending.length === 0 ? (
-            <Card className="p-4 text-sm text-muted">Nothing pending. Items appear here when a question has a “Read the latest” checklist you have not finished.</Card>
-          ) : (
-            <div className="grid gap-4">
-              {pending.map((q) => (
-                <StudyCard key={q.id} q={q} defaultOpen={false} />
-              ))}
-            </div>
-          )}
-        </>
-      )}
-
-      {tab === "all" && <AllQuestions theme={theme} setTheme={setTheme} />}
-    </div>
-  );
-}
-
-function Expected() {
-  const [paper, setPaper] = useState(0);
-  const list = INSIGHTS.filter((r) => !paper || r.paper === paper);
-  return (
-    <>
-      <SectionTitle>What the examiner is likely to ask next</SectionTitle>
-      <p className="-mt-1 mb-3 text-sm text-muted">
-        Ranked from the eight sittings (2008–2025) of the latest syllabus, weighting recent papers more (2025 ×3, 2023 ×2.5, 2020 ×2).
-        “Due” = asked often but missing from the last two sittings; “Rising” = asked in both 2023 and 2025. “Not asked yet” angles are where a
-        repeat theme can return with a new dimension. This is an informed forecast, not a guarantee.
-      </p>
-      <PaperChips paper={paper} setPaper={setPaper} />
-      <div className="mt-3 grid gap-3">
-        {list.map((r, i) => (
-          <Card key={`${r.paper}-${r.code}`} className="p-4">
-            <div className="flex items-start gap-3">
-              <span className="grid size-8 shrink-0 place-items-center rounded-xl bg-primary-soft text-sm font-bold tabular text-primary">{i + 1}</span>
-              <div className="min-w-0 flex-1">
-                <div className="font-semibold leading-snug">{r.title}</div>
-                <div className="text-[11px] text-muted">
-                  Paper {r.paper} · {r.chapter}
-                </div>
-                <div className="mt-1 flex flex-wrap gap-1.5 text-[11px] font-semibold">
-                  {r.due && <span className="rounded-full bg-amber-100 px-2 py-0.5 text-amber-800">Due</span>}
-                  {r.rising && <span className="rounded-full bg-good-soft px-2 py-0.5 text-good">Rising</span>}
-                  {r.dynamic && <span className="rounded-full bg-primary-soft px-2 py-0.5 text-primary">Current affairs</span>}
-                  <span className="text-muted">asked {r.total}×</span>
-                </div>
-              </div>
-            </div>
-            <div className="mt-3 flex gap-1" aria-label={`Asked per sitting: ${SITTINGS.map((y) => `${y}: ${r.years[y]}`).join(", ")}`}>
-              {SITTINGS.map((y) => (
-                <span key={y} title={`${y}: ${r.years[y]}`} className={cx("h-2 flex-1 rounded-full", r.years[y] ? "bg-primary" : "bg-hairline")} style={{ opacity: r.years[y] ? Math.min(1, 0.45 + r.years[y] * 0.2) : 1 }} />
-              ))}
-            </div>
-            {r.unseen.length > 0 && (
-              <div className="mt-3 flex flex-wrap gap-1.5 text-[11px] font-semibold">
-                {r.unseen.map((d) => (
-                  <span key={d} className="rounded-full border border-dashed border-amber-400 px-2 py-0.5 text-amber-700 dark:text-amber-300">
-                    Not asked yet: {dimLabel(d)}
-                  </span>
-                ))}
-              </div>
-            )}
-          </Card>
-        ))}
-      </div>
-      <SectionTitle>Expected questions with ready answers · {MODELS.filter((q) => !paper || q.paper === paper).length}</SectionTitle>
-      <div className="grid gap-3">
-        {MODELS.filter((q) => !paper || q.paper === paper).map((q) => (
-          <StudyCard key={q.id} q={q} defaultOpen={false} compact />
-        ))}
-      </div>
-    </>
-  );
-}
-
-const PAPER_NUMS = [1, 2, 3, 4, 5];
-function PaperChips({ paper, setPaper }: { paper: number | 0; setPaper: (p: number) => void }) {
-  return (
-    <div className="no-scrollbar -mx-4 mt-3 flex gap-2 overflow-x-auto px-4 sm:mx-0 sm:flex-wrap sm:px-0" role="group" aria-label="Paper">
-      <Chip on={paper === 0} onClick={() => setPaper(0)}>
-        All papers
-      </Chip>
-      {PAPER_NUMS.map((n) => (
-        <Chip key={n} on={paper === n} onClick={() => setPaper(n)}>
-          Paper {n}
-        </Chip>
-      ))}
-    </div>
-  );
-}
-
-function Themes({ onPick }: { onPick: (t: string) => void }) {
-  const done = useApp((s) => s.learn.done);
-  const years = [...new Set(QS.map((q) => q.year))].sort((a, b) => a - b);
-  const [paper, setPaper] = useState(0);
-  return (
-    <>
-      <SectionTitle>Themes, most recurring first</SectionTitle>
-      <PaperChips paper={paper} setPaper={setPaper} />
-      <p className="-mt-1 mb-3 text-sm text-muted">
-        Counted over {years.length} sittings ({years[0]}–{years.at(-1)}). “Not asked yet” lists angles of the theme that have never come as a
-        question — a likely way a repeat theme could return, based on past patterns, not a guarantee.
-      </p>
-      <div className="grid gap-3">
-        {STATS.filter((t) => !paper || t.paper === paper).slice(0, 60).map((t) => {
-          const i = RANK.get(t.theme)! - 1;
-          const learned = t.ids.filter((id) => done[id]).length;
+      <div className="no-scrollbar -mx-4 mt-4 flex gap-2 overflow-x-auto px-4 sm:mx-0 sm:flex-wrap sm:px-0" role="group" aria-label="Paper">
+        {[1, 2, 3, 4, 5].map((n) => {
+          const p = sumProgress(ORDER.filter((t) => t.paper === n), done);
           return (
-            <button key={t.theme} onClick={() => onPick(t.theme)} className="glass rounded-3xl p-4 text-left transition hover:-translate-y-0.5">
-              <div className="flex items-start gap-3">
-                <span className="grid size-8 shrink-0 place-items-center rounded-xl bg-primary-soft text-sm font-bold tabular text-primary">{i + 1}</span>
-                <div className="min-w-0 flex-1">
-                  <div className="font-semibold leading-snug">{t.theme}</div>
-                  <div className="text-[11px] text-muted">Paper {t.paper}</div>
-                  <div className="mt-0.5 text-xs text-muted">
-                    Asked <b className="text-fg">{t.count}×</b> in {t.years.length} of {years.length} sittings · last {t.last} · {learned}/{t.count} learned
-                  </div>
-                </div>
-              </div>
-              <div className="mt-3 flex gap-1" aria-label={`Sittings: ${t.years.join(", ")}`}>
-                {years.map((y) => (
-                  <span key={y} title={String(y)} className={cx("h-2 flex-1 rounded-full", t.years.includes(y) ? "bg-primary" : "bg-hairline")} />
-                ))}
-              </div>
-              <div className="mt-3 flex flex-wrap gap-1.5 text-[11px] font-semibold">
-                {CORE_DIMS.filter((d) => t.dims[d]).map((d) => (
-                  <span key={d} className="rounded-full bg-good-soft px-2 py-0.5 text-good">
-                    {dimLabel(d)} · {t.dims[d]}
-                  </span>
-                ))}
-                {t.unseen.map((d) => (
-                  <span key={d} className="rounded-full border border-dashed border-amber-400 px-2 py-0.5 text-amber-700 dark:text-amber-300">
-                    Not asked yet: {dimLabel(d)}
-                  </span>
-                ))}
-              </div>
-            </button>
+            <Chip key={n} on={paper === n} onClick={() => setPaper(n)}>
+              Paper {n} · {p.done}/{p.total}
+            </Chip>
           );
         })}
       </div>
-    </>
-  );
-}
+      <p className="mt-2 text-sm font-semibold">{PAPER_TITLES[paper]}</p>
 
-function AllQuestions({ theme, setTheme }: { theme: string | null; setTheme: (t: string | null) => void }) {
-  const done = useApp((s) => s.learn.done);
-  const [status, setStatus] = useState<"all" | "todo" | "done">("all");
-  const [year, setYear] = useState<number | "all">("all");
-  const [paper, setPaper] = useState(0);
-  const years = [...new Set(QS.map((q) => q.year))].sort((a, b) => b - a);
-  const list = QS.filter((q) => (!paper || q.paper === paper) && (!theme || q.theme === theme) && (year === "all" || q.year === year) && (status === "all" || (status === "done") === !!done[q.id]));
-  return (
-    <>
-      <PaperChips paper={paper} setPaper={(p) => (setPaper(p), setTheme(null))} />
-      <select
-        aria-label="Theme"
-        value={theme ?? ""}
-        onChange={(e) => setTheme(e.target.value || null)}
-        className="mt-2 w-full rounded-2xl border border-hairline bg-transparent px-3 py-2.5 text-sm"
-      >
-        <option value="">All themes</option>
-        {STATS.filter((t) => !paper || t.paper === paper).map((t) => (
-          <option key={t.theme} value={t.theme}>
-            {t.theme} ({t.count})
-          </option>
-        ))}
-      </select>
-      <div className="no-scrollbar -mx-4 mt-2 flex gap-2 overflow-x-auto px-4 sm:mx-0 sm:flex-wrap sm:px-0">
-        {(["all", "todo", "done"] as const).map((s) => (
-          <Chip key={s} on={status === s} onClick={() => setStatus(s)}>
-            {s === "all" ? "Any status" : s === "todo" ? "To learn" : "Completed"}
-          </Chip>
-        ))}
-        <Chip on={year === "all"} onClick={() => setYear("all")}>
-          All years
-        </Chip>
-        {years.map((y) => (
-          <Chip key={y} on={year === y} onClick={() => setYear(y)}>
-            {y}
-          </Chip>
+      <div className="mt-3 grid gap-3">
+        {bySubject(THEMES, paper).map((g) => (
+          <Subject key={g.subject} subject={g.subject} themes={g.themes} done={done} onPick={setThemeId} />
         ))}
       </div>
-      <SectionTitle>{list.length} questions</SectionTitle>
-      <div className="grid gap-3">
-        {list.map((q) => (
-          <StudyCard key={q.id} q={q} defaultOpen={false} compact />
-        ))}
-      </div>
-    </>
-  );
-}
-
-/** One question: theme and recurrence, the model answer (or an answer frame while it is not loaded), notes and the completed button. */
-function ModelAnswer({ q }: { q: MainsQ }) {
-  return (
-    <div className="space-y-3">
-      {q.why && (
-        <div className="rounded-2xl bg-primary-soft p-3 text-sm">
-          <b className="text-primary">Why this is expected · {dimLabel(q.dimension ?? "")}</b>
-          <p className="mt-1 text-fg">{q.why}</p>
-        </div>
+      {THEMES.some((t) => t.paper === paper && t.legacy) && (
+        <p className="mt-4 text-xs text-muted">
+          Hidden: {THEMES.filter((t) => t.paper === paper && t.legacy).map((t) => t.label).join(", ")} — topics the commission removed from the 2026 syllabus.
+        </p>
       )}
-      <p className="text-xs font-bold uppercase tracking-wider text-faint">Introduction</p>
-      <p className="leading-relaxed">{q.intro}</p>
-      <p className="text-xs font-bold uppercase tracking-wider text-faint">Body</p>
-      {q.body?.map((b) => (
-        <div key={b.h}>
-          <h4 className="font-display text-base font-bold">{b.h}</h4>
-          <ul className="mt-1 list-disc space-y-1 pl-5 leading-relaxed">
-            {b.pts.map((p) => (
-              <li key={p}>{p}</li>
-            ))}
-          </ul>
-        </div>
-      ))}
-      <p className="text-xs font-bold uppercase tracking-wider text-faint">Conclusion</p>
-      <p className="leading-relaxed">{q.conclusion}</p>
-      <p className="text-xs text-muted">
-        Written for this app as a study aid in about 10-mark length; verify figures against the latest sources before the exam.
-        {q.src ? ` Figures from: ${q.src}.` : ""}
-      </p>
     </div>
   );
 }
 
-function StudyCard({ q, defaultOpen, compact }: { q: MainsQ; defaultOpen: boolean; compact?: boolean }) {
-  const done = useApp((s) => s.learn.done[q.id]);
+function Bar({ value, max, className }: { value: number; max: number; className?: string }) {
+  return (
+    <div className={cx("h-2 overflow-hidden rounded-full bg-hairline", className)} role="progressbar" aria-valuenow={value} aria-valuemax={max}>
+      <div className="h-full rounded-full bg-primary transition-all" style={{ width: `${max ? (value / max) * 100 : 0}%` }} />
+    </div>
+  );
+}
+
+function Subject({ subject, themes, done, onPick }: { subject: string; themes: Theme[]; done: Record<string, number>; onPick: (id: string) => void }) {
+  const [open, setOpen] = useState(false);
+  const p = sumProgress(themes.filter((t) => t.expected.length), done);
+  return (
+    <Card className="p-0">
+      <button className="flex w-full items-center gap-3 p-4 text-left" onClick={() => setOpen((o) => !o)} aria-expanded={open}>
+        <div className="min-w-0 flex-1">
+          <div className="font-semibold leading-snug">{subject}</div>
+          <div className="mt-0.5 text-xs text-muted">
+            {themes.length} themes · {p.done}/{p.total} expected questions learned
+          </div>
+          <Bar value={p.done} max={p.total} className="mt-2" />
+        </div>
+        <ChevronDown size={18} className={cx("shrink-0 text-muted transition", open && "rotate-180")} />
+      </button>
+      {open && (
+        <ul className="divide-y divide-hairline border-t border-hairline">
+          {themes.map((t) => {
+            const tp = themeProgress(t, done);
+            const fin = themeDone(t, done);
+            return (
+              <li key={t.id}>
+                <button className="flex w-full items-start gap-3 px-4 py-3 text-left transition hover:bg-primary-soft/40" onClick={() => onPick(t.id)}>
+                  <span className={cx("mt-0.5 grid size-5 shrink-0 place-items-center rounded-full border-2", fin ? "border-good bg-good text-white" : "border-hairline")}>
+                    {fin && <Check size={12} />}
+                  </span>
+                  <span className="min-w-0 flex-1">
+                    <span className="block text-sm font-semibold leading-snug">{t.label}</span>
+                    <span className="block text-xs text-muted">
+                      asked {t.n}× · {t.years.length} sittings{t.years.length ? ` · last ${t.years.at(-1)}` : ""} · {tp.done}/{tp.total} learned
+                    </span>
+                  </span>
+                  <ArrowRight size={15} className="mt-1 shrink-0 text-faint" />
+                </button>
+              </li>
+            );
+          })}
+        </ul>
+      )}
+    </Card>
+  );
+}
+
+function ThemeView({ theme, onBack, onNext }: { theme: Theme; onBack: () => void; onNext: () => void }) {
+  const done = useApp((s) => s.learn.done);
+  const p = themeProgress(theme, done);
+  const fin = themeDone(theme, done);
+  const [showAsked, setShowAsked] = useState(false);
+  useEffect(() => window.scrollTo({ top: 0 }), [theme.id]);
+
+  return (
+    <div>
+      <button onClick={onBack} className="mb-3 inline-flex items-center gap-1 text-sm font-semibold text-primary">
+        <ChevronLeft size={16} /> All themes
+      </button>
+      <div className="text-xs text-muted">
+        {PAPER_TITLES[theme.paper]} · {theme.subject}
+      </div>
+      <h1 className="mt-1 font-display text-2xl font-extrabold leading-tight sm:text-3xl">{theme.label}</h1>
+      {theme.full !== theme.label && <p className="mt-1 text-xs text-muted">{theme.full}</p>}
+
+      <Card className="mt-4 p-4">
+        <div className="text-sm">
+          Asked <b>{theme.n}×</b> in {theme.years.length} of {SITTINGS.length} sittings
+          {theme.years.length ? ` (last ${theme.years.at(-1)})` : ""}.
+        </div>
+        <div className="mt-2 flex gap-1" aria-label={`Sittings: ${theme.years.join(", ")}`}>
+          {SITTINGS.map((y) => (
+            <span key={y} title={String(y)} className={cx("h-2 flex-1 rounded-full", theme.years.includes(y) ? "bg-primary" : "bg-hairline")} />
+          ))}
+        </div>
+        <div className="mt-1 flex justify-between text-[10px] text-faint">
+          <span>2008</span>
+          <span>2025</span>
+        </div>
+        <div className="mt-3 flex flex-wrap gap-1.5 text-[11px] font-semibold">
+          {Object.entries(theme.dims)
+            .sort((a, b) => b[1] - a[1])
+            .map(([d, n]) => (
+              <span key={d} className="rounded-full bg-good-soft px-2 py-0.5 text-good">
+                {dimLabel(d)} · {n}
+              </span>
+            ))}
+          {theme.unseen.map((d) => (
+            <span key={d} className="rounded-full border border-dashed border-amber-400 px-2 py-0.5 text-amber-700 dark:text-amber-300">
+              Not asked yet: {dimLabel(d)}
+            </span>
+          ))}
+        </div>
+      </Card>
+
+      <SectionTitle>
+        Expected questions · {p.done}/{p.total} learned
+      </SectionTitle>
+      {theme.expected.length === 0 ? (
+        <Card className="p-4 text-sm text-muted">No expected questions for this theme yet — read the past questions below.</Card>
+      ) : (
+        <div className="grid gap-3">
+          {theme.expected.map((e, i) => (
+            <ExpectedCard key={e.id} e={e} index={i + 1} />
+          ))}
+        </div>
+      )}
+
+      {fin && (
+        <Card strong className="mt-4 flex flex-wrap items-center justify-between gap-3 p-4">
+          <span className="font-semibold">Theme completed — well done.</span>
+          <Button onClick={onNext}>
+            Next theme <ArrowRight size={16} />
+          </Button>
+        </Card>
+      )}
+
+      <button onClick={() => setShowAsked((s) => !s)} className="mt-6 flex w-full items-center justify-between text-left" aria-expanded={showAsked}>
+        <SectionTitle>Already asked · {theme.asked.length}</SectionTitle>
+        <ChevronDown size={18} className={cx("text-muted transition", showAsked && "rotate-180")} />
+      </button>
+      {showAsked && (
+        <ul className="grid gap-2">
+          {theme.asked.map((a) => (
+            <li key={a.q} className="glass rounded-2xl p-3 text-sm leading-snug">
+              <div className="mb-1 flex flex-wrap gap-1.5 text-[11px] font-semibold text-muted">
+                {a.boards.map((b) => (
+                  <span key={b} className="rounded-full bg-primary-soft px-2 py-0.5 text-primary">
+                    {b}
+                  </span>
+                ))}
+                {a.years.length > 0 && <span>{a.years.join(" · ")}</span>}
+                {a.dims.map((d) => (
+                  <span key={d} className="rounded-full bg-good-soft px-2 py-0.5 text-good">
+                    {dimLabel(d)}
+                  </span>
+                ))}
+              </div>
+              {a.q}
+            </li>
+          ))}
+        </ul>
+      )}
+
+      {!fin && (
+        <div className="mt-6 text-center">
+          <Button variant="outline" onClick={onNext}>
+            Skip to next theme <ArrowRight size={15} />
+          </Button>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function ExpectedCard({ e, index }: { e: Expected; index: number }) {
+  const done = useApp((s) => s.learn.done[e.id]);
   const complete = useApp((s) => s.completeQ);
   const uncomplete = useApp((s) => s.uncompleteQ);
-  const note = useApp((s) => s.mains[q.id]?.text ?? "");
-  const saveNote = useApp((s) => s.saveMains);
-  const [open, setOpen] = useState(defaultOpen);
-  const [text, setText] = useState(note);
-  const stat = STAT.get(q.theme);
-  const ans = ANSWERS[q.id];
   const read = useApp((s) => s.learn.read);
   const toggleRead = useApp((s) => s.toggleRead);
-  const left = unreadItems(q, read).length;
+  const note = useApp((s) => s.mains[e.id]?.text ?? "");
+  const saveNote = useApp((s) => s.saveMains);
+  const [open, setOpen] = useState(false);
+  const [text, setText] = useState(note);
+  const model = e.model ? MODELS.get(e.id) : undefined;
+  const left = (model?.updates ?? []).filter((_, i) => !read?.[readKey(e.id, i)]).length;
 
   useEffect(() => {
     if (text === note) return;
-    const t = setTimeout(() => saveNote(q.id, { text }), 600);
+    const t = setTimeout(() => saveNote(e.id, { text }), 600);
     return () => clearTimeout(t);
-  }, [text, note, q.id, saveNote]);
+  }, [text, note, e.id, saveNote]);
 
   return (
-    <Card strong={!compact} className={cx("p-4", !!done && "opacity-90")}>
-      <button className="flex w-full items-start gap-3 text-left" onClick={() => setOpen((o) => !o)} aria-expanded={open}>
-        <span className={cx("mt-0.5 grid size-6 shrink-0 place-items-center rounded-full border-2", done ? "border-good bg-good text-white" : "border-hairline")}>
-          {done && <Check size={14} />}
-        </span>
-        <span className="min-w-0 flex-1">
-          <span className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-muted">
-            <b className="text-fg">
-              {q.model ? "Expected" : q.year} · Paper {q.paper}
-            </b>
-            <span className="rounded-full bg-primary-soft px-2 py-0.5 font-semibold text-primary">
-              {q.model ? q.theme : `#${RANK.get(q.theme)} ${q.theme}`}
-            </span>
-            {!!q.updates?.length && (
-              <span className={cx("rounded-full px-2 py-0.5 font-semibold", left ? "bg-amber-100 text-amber-800" : "bg-good-soft text-good")}>
-                {left ? `Read ${left} update${left > 1 ? "s" : ""}` : "Reading done"}
-              </span>
-            )}
-            {stat && (
-              <span>
-                asked {stat.count}× · {stat.years.length} sittings
-              </span>
-            )}
+    <Card className={cx("p-4", !!done && "opacity-90")}>
+      <div className="flex items-start gap-3">
+        <button
+          onClick={() => (done ? uncomplete(e.id) : complete(e.id))}
+          aria-label={done ? "Mark as not learned" : "Mark as learned"}
+          className={cx("mt-0.5 grid size-7 shrink-0 place-items-center rounded-full border-2 transition", done ? "border-good bg-good text-white" : "border-hairline hover:border-primary")}
+        >
+          {done && <Check size={15} />}
+        </button>
+        <button className="min-w-0 flex-1 text-left" onClick={() => setOpen((o) => !o)} aria-expanded={open}>
+          <span className="flex flex-wrap items-center gap-x-2 gap-y-1 text-[11px] font-semibold">
+            <span className="text-muted">Q{index}</span>
+            <span className="rounded-full bg-primary-soft px-2 py-0.5 text-primary">{dimLabel(e.dim)}</span>
+            {model && <span className="rounded-full bg-good-soft px-2 py-0.5 text-good">Full answer</span>}
+            {e.dynamic && <span className="rounded-full bg-amber-100 px-2 py-0.5 text-amber-800">Current affairs</span>}
+            {!!model?.updates?.length && left > 0 && <span className="rounded-full bg-amber-100 px-2 py-0.5 text-amber-800">Read {left} update{left > 1 ? "s" : ""}</span>}
           </span>
-          <span className={cx("mt-1.5 block leading-snug", !open && "line-clamp-2")}>{q.question}</span>
-        </span>
+          <span className={cx("mt-1.5 block leading-snug", !open && "line-clamp-3")}>{e.q}</span>
+        </button>
         <ChevronDown size={18} className={cx("mt-1 shrink-0 text-muted transition", open && "rotate-180")} />
-      </button>
+      </div>
 
       {open && (
         <div className="mt-4 space-y-4 border-t border-hairline pt-4">
-          <div className="flex flex-wrap gap-1.5 text-[11px] font-semibold">
-            {q.dims.map((d: DimId) => (
-              <span key={d} className="rounded-full bg-good-soft px-2 py-0.5 text-good">
-                {dimLabel(d)}
-              </span>
-            ))}
-            {q.ap && <span className="rounded-full bg-amber-100 px-2 py-0.5 text-amber-800">Andhra Pradesh</span>}
-          </div>
-
-          {q.model ? (
-            <ModelAnswer q={q} />
-          ) : ans ? (
-            <div>
-              <p className="mb-2 text-xs font-bold uppercase tracking-wider text-faint">Model answer</p>
-              <AnswerView text={ans.answer} />
-              {ans.source && <p className="mt-2 text-xs text-muted">{ans.source}</p>}
-            </div>
-          ) : (
-            <div className="rounded-2xl border border-dashed border-hairline p-3">
-              <p className="text-sm font-semibold">The model answer for this question is not loaded yet.</p>
-              <p className="mt-1 text-xs text-muted">Until it is, use this frame and write your own key points below.</p>
-              <ol className="mt-2 list-decimal space-y-1 pl-5 text-sm">
-                {frameFor(q).map((s) => (
-                  <li key={s}>{s}</li>
-                ))}
-              </ol>
+          {e.why && (
+            <div className="rounded-2xl bg-primary-soft p-3 text-sm">
+              <b className="text-primary">Why this is expected</b>
+              <p className="mt-1">{e.why}</p>
             </div>
           )}
+          {model ? <ModelAnswer m={model} /> : <Structure e={e} />}
 
-          {!!q.updates?.length && (
+          {!!model?.updates?.length && (
             <div className="rounded-2xl border border-amber-300/70 bg-amber-50/60 p-3 dark:bg-amber-400/10">
               <p className="text-sm font-bold">Current affairs — read the latest before writing this answer</p>
-              <p className="mt-0.5 text-xs text-muted">Tick each item when read. Anything unticked stays in Backlog → Pending reading.</p>
               <ul className="mt-2 space-y-2">
-                {q.updates.map((u, i) => {
-                  const k = readKey(q.id, i);
+                {model.updates.map((u, i) => {
+                  const k = readKey(e.id, i);
                   return (
                     <li key={k}>
                       <label className="flex cursor-pointer items-start gap-2 text-sm">
@@ -492,17 +352,56 @@ function StudyCard({ q, defaultOpen, compact }: { q: MainsQ; defaultOpen: boolea
             My key points
             <textarea
               value={text}
-              onChange={(e) => setText(e.target.value)}
+              onChange={(ev) => setText(ev.target.value)}
               placeholder="Facts, data and examples you want to remember for this answer."
               className="mt-2 block min-h-24 w-full rounded-2xl border border-hairline bg-transparent p-3 font-normal leading-relaxed outline-none focus:border-primary"
             />
           </label>
-
-          <Button className="w-full" variant={done ? "outline" : "primary"} onClick={() => (done ? uncomplete(q.id) : complete(q.id))}>
-            <Check size={17} /> {done ? "Completed — tap to undo" : "Mark as completed"}
+          <Button className="w-full" variant={done ? "outline" : "primary"} onClick={() => (done ? uncomplete(e.id) : complete(e.id))}>
+            <Check size={17} /> {done ? "Learned — tap to undo" : "Mark as learned"}
           </Button>
         </div>
       )}
     </Card>
+  );
+}
+
+function Structure({ e }: { e: Expected }) {
+  return (
+    <div className="rounded-2xl border border-dashed border-hairline p-3">
+      <p className="text-sm font-semibold">Answer structure</p>
+      <p className="mt-1 text-xs text-muted">Auto-drafted outline for this expected question. Fill it with facts and data from your own notes below.</p>
+      <ol className="mt-2 list-decimal space-y-1 pl-5 text-sm">
+        {(e.structure ?? []).map((s) => (
+          <li key={s}>{s}</li>
+        ))}
+      </ol>
+    </div>
+  );
+}
+
+function ModelAnswer({ m }: { m: Model }) {
+  return (
+    <div className="space-y-3">
+      <p className="text-xs font-bold uppercase tracking-wider text-faint">Introduction</p>
+      <p className="leading-relaxed">{m.intro}</p>
+      <p className="text-xs font-bold uppercase tracking-wider text-faint">Body</p>
+      {m.body.map((b) => (
+        <div key={b.h}>
+          <h4 className="font-display text-base font-bold">{b.h}</h4>
+          <ul className="mt-1 list-disc space-y-1 pl-5 leading-relaxed">
+            {b.pts.map((p) => (
+              <li key={p}>{p}</li>
+            ))}
+          </ul>
+        </div>
+      ))}
+      <p className="text-xs font-bold uppercase tracking-wider text-faint">Conclusion</p>
+      <p className="leading-relaxed">{m.conclusion}</p>
+      <p className="text-xs text-muted">
+        Written for this app as a study aid in about 10-mark length; verify figures against the latest sources before the exam.
+        {m.src ? ` Figures from: ${m.src}.` : ""}
+      </p>
+    </div>
   );
 }
