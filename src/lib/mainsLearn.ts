@@ -28,6 +28,17 @@ export interface MainsQ {
   /** The compilation's full syllabus line the theme was shortened from. */
   themeFull?: string;
   no?: string;
+  /** Predicted ("expected") question written for the learning tool, with a ready-made answer. */
+  model?: boolean;
+  /** Syllabus sub-topic code in the Ghissu latest-syllabus matrix (e.g. "4.2"). */
+  code?: string;
+  dimension?: DimId;
+  why?: string;
+  intro?: string;
+  body?: { h: string; pts: string[] }[];
+  conclusion?: string;
+  /** Current-affairs items to read up before the exam; ticked items are kept in `LearnState.read`. */
+  updates?: string[];
   marks: number | null;
   question: string;
   theme: string;
@@ -110,7 +121,7 @@ export function frameFor(q: Pick<MainsQ, "dims" | "marks" | "ap">): string[] {
 /* ---------------- the daily queue ---------------- */
 
 export interface LearnState {
-  perDay: 1 | 2 | 3;
+  perDay: 1 | 2 | 3 | 4;
   /** Date (YYYY-MM-DD) the `today` list belongs to. */
   todayKey: string;
   today: string[];
@@ -120,9 +131,22 @@ export interface LearnState {
   assigned: string[];
   /** Completed questions → completion time. */
   done: Record<string, number>;
+  /** Current-affairs reading ticked off, keyed `<question id>#<item index>` → time. */
+  read?: Record<string, number>;
 }
 
-export const emptyLearn = (): LearnState => ({ perDay: 1, todayKey: "", today: [], backlog: [], assigned: [], done: {} });
+export const emptyLearn = (): LearnState => ({ perDay: 1, todayKey: "", today: [], backlog: [], assigned: [], done: {}, read: {} });
+
+export const readKey = (id: string, i: number) => `${id}#${i}`;
+export function toggleRead(s: LearnState, key: string, at = Date.now()): LearnState {
+  const read = { ...(s.read ?? {}) };
+  if (read[key]) delete read[key];
+  else read[key] = at;
+  return { ...s, read };
+}
+/** Current-affairs reading still to do for a question (indexes of unticked items). */
+export const unreadItems = (q: Pick<MainsQ, "id" | "updates">, read: Record<string, number> = {}) =>
+  (q.updates ?? []).map((_, i) => i).filter((i) => !read[readKey(q.id, i)]);
 
 function pullOne(s: LearnState, queue: string[]): LearnState {
   const seen = new Set(s.assigned);

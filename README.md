@@ -133,3 +133,15 @@ Anything not marked completed that day goes to the **backlog** at the end.
 - **Add model answers**: put them in `src/content/mains-answers.json` as `{ "<question id>": { "answer": "…markdown…", "source": "…" } }`
   (`##` headings, `-` bullets and `**bold**` are rendered). Until an answer is present the card shows an answer frame and a
   notes box. Only text you have the right to publish should go in.
+
+### Expected questions and the prediction table (Mains learning)
+
+- `scripts/analysis/ghissu_matrix.py` reads the "latest syllabus sub-topic × sitting" matrices printed in the Ghissu model-answer books
+  (Papers II–V, sittings 2008/11/12/16/17/20/23/25) into `src/content/mains-matrix.json`.
+- `scripts/analysis/insights.py` scores each sub-topic (recent sittings weigh more), flags **Due** (asked ≥3× but absent in 2023 and 2025)
+  and **Rising**, lists the angles the closest past questions never took (**Not asked yet**) and marks current-affairs topics →
+  `src/content/mains-insights.json`, shown on the **Expected** tab.
+- `src/content/mains-model-p*.json` are expected questions written for this app (why expected, introduction, body, conclusion, and a
+  "read the latest" checklist for current-affairs topics). They are served first in the daily queue (1–4 a day). Unticked checklist
+  items keep a question in **Backlog → Pending reading**. Add more by appending items of the same shape.
+- The CivicCentre "Mission 1000" workbooks are scanned answer sheets (no extractable question text) and were not used.

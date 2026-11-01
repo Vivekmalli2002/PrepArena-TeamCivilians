@@ -6,7 +6,7 @@ import { createJSONStorage, persist } from "zustand/middleware";
 import { dayKey, uid } from "./random";
 import { graduate, review } from "./srs";
 import type { Countdown, MainsEntry, MistakeReason } from "./extras";
-import { complete, emptyLearn, learnMore, rollDay, topUp, uncomplete, type LearnState } from "./mainsLearn";
+import { complete, emptyLearn, learnMore, rollDay, toggleRead, topUp, uncomplete, type LearnState } from "./mainsLearn";
 import type { Attempt, PaletteStatus, QStat, Question, Session, TestConfig } from "./types";
 
 const MAX_ATTEMPTS = 300;
@@ -38,8 +38,9 @@ interface AppState {
 
   setMistakeTag: (id: number, tag: MistakeReason | null) => void;
   syncLearn: (queue: string[], todayKey: string) => void;
-  setPerDay: (n: 1 | 2 | 3, queue: string[]) => void;
+  setPerDay: (n: 1 | 2 | 3 | 4, queue: string[]) => void;
   learnOneMore: (queue: string[]) => void;
+  toggleRead: (key: string) => void;
   completeQ: (id: string) => void;
   uncompleteQ: (id: string) => void;
   addCountdown: (c: Omit<Countdown, "id" | "createdAt">) => void;
@@ -90,6 +91,7 @@ export const useApp = create<AppState>()(
       syncLearn: (queue, todayKey) => set((s) => ({ learn: rollDay(s.learn, todayKey, queue) })),
       setPerDay: (n, queue) => set((s) => ({ learn: topUp({ ...s.learn, perDay: n }, queue) })),
       learnOneMore: (queue) => set((s) => ({ learn: learnMore(s.learn, queue) })),
+      toggleRead: (key) => set((s) => ({ learn: toggleRead(s.learn, key) })),
       completeQ: (id) => set((s) => ({ learn: complete(s.learn, id) })),
       uncompleteQ: (id) => set((s) => ({ learn: uncomplete(s.learn, id) })),
       addCountdown: (c) =>

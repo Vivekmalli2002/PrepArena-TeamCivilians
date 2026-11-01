@@ -1,8 +1,10 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import { buildQueue, complete, emptyLearn, learnMore, learnStreak, rollDay, themeStats, topUp, uncomplete, type MainsQ } from "@/lib/mainsLearn";
+import { buildQueue, complete, emptyLearn, learnMore, learnStreak, readKey, rollDay, themeStats, toggleRead, topUp, uncomplete, unreadItems, type MainsQ } from "@/lib/mainsLearn";
 
 const QS = JSON.parse(readFileSync("src/content/mains.json", "utf8")) as MainsQ[];
+const J = (f: string) => JSON.parse(readFileSync(`src/content/${f}`, "utf8"));
+const p5 = J("mains-model-p5.json"), p4 = J("mains-model-p4.json"), p3p2 = J("mains-model-p3p2.json");
 const answers = JSON.parse(readFileSync("src/content/mains-answers.json", "utf8")) as Record<string, { answer: string }>;
 
 describe("theme ranking", () => {
@@ -101,5 +103,29 @@ describe("question set", () => {
     expect([...new Set(QS.map((q) => q.paper))].sort()).toEqual([1, 2, 3, 4, 5]);
     for (const q of QS) expect(q.theme, q.id).toBeTruthy();
     for (const q of QS) expect(q.question, q.id).not.toMatch(/^\d+\s*\([a-z]\)|\s\d{1,2}\([a-d]\)(\s|$)/);
+  });
+});
+
+describe("expected questions and reading checklist", () => {
+  const files = [...p5, ...p4, ...p3p2] as { id: string; paper: number; question: string; intro: string; body: { h: string; pts: string[] }[]; conclusion: string; updates?: string[] }[];
+  it("every expected question has an intro, a body and a conclusion; ids are unique", () => {
+    expect(files.length).toBeGreaterThanOrEqual(25);
+    expect(new Set(files.map((m) => m.id)).size).toBe(files.length);
+    for (const m of files) {
+      expect(m.intro.length, m.id).toBeGreaterThan(60);
+      expect(m.body.length, m.id).toBeGreaterThan(0);
+      expect(m.conclusion.length, m.id).toBeGreaterThan(40);
+    }
+  });
+  it("keeps a question pending until every current-affairs item is ticked", () => {
+    const q = { id: "m-x", updates: ["a", "b", "c"] };
+    let s = emptyLearn();
+    expect(unreadItems(q, s.read)).toEqual([0, 1, 2]);
+    s = toggleRead(s, readKey("m-x", 1));
+    expect(unreadItems(q, s.read)).toEqual([0, 2]);
+    s = toggleRead(toggleRead(s, readKey("m-x", 0)), readKey("m-x", 2));
+    expect(unreadItems(q, s.read)).toEqual([]);
+    s = toggleRead(s, readKey("m-x", 1)); // untick again
+    expect(unreadItems(q, s.read)).toEqual([1]);
   });
 });
