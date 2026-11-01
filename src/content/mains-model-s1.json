@@ -89,7 +89,7 @@
   "dim": "issues",
   "question": "India has reported a sharp fall in multidimensional poverty, yet inequality and jobless growth persist. Critically examine the effectiveness of poverty-alleviation and employment programmes and the gaps that remain.",
   "why": "The most repeated Paper IV theme (20 questions, 8 sittings). Past questions asked for schemes; outcome gaps and quality of jobs is the open angle.",
-  "intro": "Poverty is more than low income; it also means poor health, schooling and living standards. NITI Aayog's multidimensional poverty index shows a large fall since 2013-14, but jobs and inequality still hold back inclusive growth.",
+  "intro": "Poverty is more than low income; it also means poor health, schooling and living standards. NITI Aayog's multidimensional poverty index shows a large fall since 2013-14, but jobs and inequality still hold back inclusive growth. Key facts: poverty lines come from the Tendulkar and Rangarajan committees; NITI Aayog's MPI (2023) found about 24.8 crore people exited multidimensional poverty between 2013-14 and 2022-23; schemes such as MGNREGA, PMGKAY and PM Awas target the poor.",
   "body": [
    {
     "h": "Programmes and results",
@@ -149,7 +149,7 @@
   "dim": "issues",
   "question": "Despite many schemes for farmers, agrarian distress and tenant-farmer exclusion continue in Andhra Pradesh. Examine the issues and suggest reforms for a climate-resilient and market-linked agriculture.",
   "why": "AP agriculture schemes are the second most repeated AP theme (15 questions). Issues, tenant farmers and climate resilience are not yet asked.",
-  "intro": "Agriculture and allied sectors are the backbone of Andhra Pradesh's economy, with rice, chilli, mango, oil palm and aquaculture as strengths. Yet small and tenant farmers face debt, price risk and climate shocks.",
+  "intro": "Agriculture and allied sectors are the backbone of Andhra Pradesh's economy, with rice, chilli, mango, oil palm and aquaculture as strengths. Yet small and tenant farmers face debt, price risk and climate shocks. Key facts: Most holdings in Andhra Pradesh are small and marginal; major crops are paddy, groundnut, cotton, chilli and tobacco; schemes include Rythu Bharosa–PM Kisan, free crop insurance and the Licensed Cultivators Act 2011 for tenants.",
   "body": [
    {
     "h": "Schemes",
@@ -213,7 +213,7 @@
   "dim": "measures",
   "question": "Services contribute the largest share to Andhra Pradesh's GSDP while agriculture employs the largest share of workers. Discuss this structural mismatch and suggest a strategy for balanced regional growth.",
   "why": "Sector contribution to SGDP was asked 13 times; the structural-mismatch and regional-balance framing is the likely upgrade.",
-  "intro": "Andhra Pradesh's GSDP is led by services, while agriculture and allied sectors still support most livelihoods. This gap keeps farm incomes low and growth uneven across regions.",
+  "intro": "Andhra Pradesh's GSDP is led by services, while agriculture and allied sectors still support most livelihoods. This gap keeps farm incomes low and growth uneven across regions. Key facts: services contribute roughly 40–45% of GSDP, agriculture and allied about a third and industry about a fifth, while agriculture employs around half of the workers; output has shifted to services faster than jobs have.",
   "body": [
    {
     "h": "Structure (2023-24, current prices – PRS)",
@@ -281,7 +281,7 @@
   "dim": "impact",
   "question": "Evaluate the effects of the Reserve Bank's shift to a flexible inflation-targeting framework and its recent monetary policy stance on growth and inflation in India.",
   "why": "Monetary and fiscal policy appears 10 times (7 sittings). The impact of inflation targeting (2016) has not been asked.",
-  "intro": "Since 2016, India follows flexible inflation targeting: the Monetary Policy Committee aims at CPI inflation of 4% within a 2–6% band. The aim is to anchor expectations and still support growth.",
+  "intro": "Since 2016, India follows flexible inflation targeting: the Monetary Policy Committee aims at CPI inflation of 4% within a 2–6% band. The aim is to anchor expectations and still support growth. Key facts: the target was set by the RBI Act amendment 2016 with a six-member MPC; the repo rate is its main tool alongside CRR, SLR and open market operations; failure to meet the band for three quarters requires a report to the government.",
   "body": [
    {
     "h": "Tools and stance",
@@ -345,7 +345,7 @@
   "dim": "issues",
   "question": "Disruptions and shrinking committee scrutiny have weakened Parliament's law-making function. Discuss the reasons and the reforms needed to improve its effectiveness.",
   "why": "Parliament is the most repeated Paper III theme (11 questions). Functioning and decline in scrutiny is the next angle after structure and privileges.",
-  "intro": "Parliament represents the people, makes laws and holds the executive to account (Articles 79–122). In recent years fewer sittings, hurried Bills and disruptions have reduced real debate.",
+  "intro": "Parliament represents the people, makes laws and holds the executive to account (Articles 79–122). In recent years fewer sittings, hurried Bills and disruptions have reduced real debate. Key facts: Parliament's work is done mostly through 24 department-related standing committees; the Anti-defection law (10th Schedule) and the Speaker's powers shape debate; PRS data show productivity of Lok Sabha sessions has often fallen below 60%.",
   "body": [
    {
     "h": "Functions",
@@ -418,7 +418,7 @@
   "dim": "concept",
   "question": "Discuss the main features of the art and architecture of the Kakatiyas and the Vijayanagara rulers, citing important monuments.",
   "why": "Fine arts and architecture of the medieval Andhra dynasties are a Very high theme (10 questions). Comparing two dynasties is a likely variant.",
-  "intro": "Medieval Andhra saw two great traditions of temple art: the Kakatiya style of the Telangana plateau (12th–14th century) and the Vijayanagara style (14th–16th century) that spread across the Telugu country and the South.",
+  "intro": "Medieval Andhra saw two great traditions of temple art: the Kakatiya style of the Telangana plateau (12th–14th century) and the Vijayanagara style (14th–16th century) that spread across the Telugu country and the South. Key facts: Kakatiyas (c. 1163–1323) ruled from Warangal under Ganapati Deva and Rudrama Devi; Vijayanagara (1336–1646) built Hampi under Krishnadevaraya; both used granite or sandstone and built large stone gateways.",
   "body": [
    {
     "h": "Kakatiya",
@@ -487,7 +487,7 @@
   "dim": "policy",
   "question": "Antimicrobial resistance is called a silent pandemic. Explain how it arises and discuss the policy measures needed to contain it in India.",
   "why": "Infectious diseases were asked 23 times, mostly as description and prevention. The policy angle (AMR, One Health, surveillance) is new.",
-  "intro": "Antimicrobial resistance (AMR) is when bacteria, viruses, fungi and parasites stop responding to medicines. India is a large antibiotic consumer, and misuse in humans, animals and farms speeds up resistance.",
+  "intro": "Antimicrobial resistance (AMR) is when bacteria, viruses, fungi and parasites stop responding to medicines. India is a large antibiotic consumer, and misuse in humans, animals and farms speeds up resistance. Key facts: WHO calls AMR one of the top global public health threats; India has a National Action Plan on AMR (2017) and Kerala's KARSAP; the Schedule H1 drugs rule and ICMR surveillance are the main tools.",
   "body": [
    {
     "h": "How it arises",
@@ -548,7 +548,7 @@
   "dim": "issues",
   "question": "Andhra Pradesh has announced new industrial and MSME policies to attract investment. Evaluate the effectiveness of industrial incentives and suggest what is needed beyond subsidies.",
   "why": "Industry incentives were asked 8 times and are rising in 2025. Effectiveness and non-fiscal drivers are the new dimension.",
-  "intro": "Andhra Pradesh offers capital subsidy, power and SGST reimbursement, land and single-window clearance to attract industry. Experience shows that incentives alone seldom decide where firms locate.",
+  "intro": "Andhra Pradesh offers capital subsidy, power and SGST reimbursement, land and single-window clearance to attract industry. Experience shows that incentives alone seldom decide where firms locate. Key facts: Andhra Pradesh has announced policies on industrial development, MSME and food processing for 2024–29; sectors in focus include electronics, pharma, textiles and ports; land is provided through APIIC parks and the single desk portal.",
   "body": [
    {
     "h": "Incentive tools",
@@ -616,7 +616,7 @@
   "dim": "measures",
   "question": "India's installed non-fossil capacity is growing fast, yet the grid is struggling to absorb it. Examine the challenges of integrating renewable energy and suggest measures to make the transition reliable and just.",
   "why": "Energy is asked in every sitting since 2008 (24 questions). Grid integration, storage and just transition are not yet asked.",
-  "intro": "India aims at 500 GW of non-fossil capacity by 2030 and net zero by 2070. Solar and wind vary with weather, so a fast rise in their share stresses a grid designed for steady coal power.",
+  "intro": "India aims at 500 GW of non-fossil capacity by 2030 and net zero by 2070. Solar and wind vary with weather, so a fast rise in their share stresses a grid designed for steady coal power. Key facts: India's non-fossil capacity crossed about half of installed power capacity in 2025; challenges include curtailment, transmission, storage and discom finances; instruments are Green Energy Corridors, battery storage tenders and pumped hydro.",
   "body": [
    {
     "h": "Challenges",
