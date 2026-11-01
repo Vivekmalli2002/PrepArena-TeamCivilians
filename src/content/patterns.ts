@@ -86,12 +86,12 @@ export const PATTERNS: ExamPattern[] = [
     note: "150 Q · 150 min · −⅓. Ten syllabus units × 15 questions.",
     sections: Array.from({ length: 10 }, (_, i) => sec(`Unit ${i + 1}`, ["env"], 15, { units: [i + 1] })) }),
   // ---- AEE Civil (R&B / Irrigation / Panchayat Raj / Tribal Welfare)
-  P({ id: "aee-civil-p1", exams: ["aee-rbi", "aee-prtw"], paper: "Paper-I · GS & Mental Ability", title: "AEE Civil · Paper-I (GS & Mental Ability)", minutes: 150, basis: "notification",
+  P({ id: "aee-civil-p1", exams: ["aee-rbi", "aee-prtw"], paper: "Paper-I · GS & Mental Ability", title: "AEE · Paper-I (GS & Mental Ability)", minutes: 150, basis: "notification",
     note: "150 Q · 150 min · −⅓. Same distribution as AEE PCB Paper-I.", sections: AEE_GS }),
-  P({ id: "aee-civil-p2", exams: ["aee-rbi", "aee-prtw"], paper: "Paper-II · Common Engineering", title: "AEE Civil · Paper-II (Strength of Materials, Fluid Mechanics)", minutes: 150, basis: "notification",
+  P({ id: "aee-civil-p2", exams: ["aee-rbi", "aee-prtw"], paper: "Paper-II · Common Engineering", title: "AEE · Paper-II (Strength of Materials, Fluid Mechanics)", minutes: 150, basis: "notification",
     note: "150 Q · 150 min · −⅓. Strength of Materials 75 + Fluid Mechanics 75.",
     sections: [sec("Strength of Materials", ["civil-som"], 75), sec("Fluid Mechanics & Machinery", ["civil-fm", "civil-hm"], 75)] }),
-  P({ id: "aee-civil-p3", exams: ["aee-rbi"], paper: "Paper-III · Civil Engineering", title: "AEE Civil · Paper-III (Civil Engineering)", minutes: 150, basis: "notification",
+  P({ id: "aee-civil-p3", exams: ["aee-rbi"], paper: "Paper-III · Civil Engineering", title: "AEE R&B / Irrigation · Paper-III (Civil Engineering)", minutes: 150, basis: "notification",
     note: "150 Q · 150 min · −⅓. Chapter mix inside each subject follows past AEE papers.",
     sections: [
       sec("Strength of Materials", ["civil-som"], 15), sec("Structural Analysis", ["civil-sa"], 15), sec("Reinforced Cement Concrete", ["civil-rcc"], 15),
