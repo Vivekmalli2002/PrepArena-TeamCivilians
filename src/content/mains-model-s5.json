@@ -7,7 +7,7 @@
   "dim": "issues",
   "question": "Space is now opening to private players in India. Discuss the opportunities and challenges before the Indian space sector after the creation of IN-SPACe.",
   "why": "Space and satellites are among the top recurring themes (23 questions, asked in every sitting). Questions so far were on uses of satellites and ISRO achievements; the 'private participation and challenges' dimension is new.",
-  "intro": "In 2020 India opened space activities to private players. IN-SPACe became the single-window regulator and NewSpace India Ltd (NSIL) the commercial arm of ISRO. Key facts: India launched Chandrayaan-3 in 2023 and Aditya-L1 in 2023; the Department of Space announced the Indian Space Policy 2023; IN-SPACe was created in 2020; private firms Skyroot (Vikram-S 2022) and Agnikul (2024) launched rockets.",
+  "intro": "The space economy covers launch, satellite manufacturing, communication, navigation and data services built on outer-space activity. In 2020 India opened space activities to private players. IN-SPACe became the single-window regulator and NewSpace India Ltd (NSIL) the commercial arm of ISRO. The Indian Space Policy 2023 guides the sector; India launched Chandrayaan-3 and Aditya-L1 in 2023; private firms Skyroot (Vikram-S 2022) and Agnikul (2024) launched rockets.",
   "body": [
    {
     "h": "Opportunities",
@@ -66,7 +66,7 @@
   "dim": "measures",
   "question": "Biodiversity loss is a development challenge as much as an ecological one. Discuss the measures taken by India to conserve biodiversity and suggest a way forward.",
   "why": "Biodiversity has 22 questions, mostly 'importance, threats, hotspots'. Policy and community-led measures (Biological Diversity Act, 30x30, BMCs) are not yet asked.",
-  "intro": "India has about 8% of the world's species on 2.4% of the land and four biodiversity hotspots – Himalaya, Indo-Burma, Western Ghats and Sundaland (Nicobar). Habitat loss, invasive species, pollution and climate change shrink this base. Key facts: India has 4 hotspots, 106 national parks and over 560 wildlife sanctuaries; Biological Diversity Act 2002 created the National Biodiversity Authority at Chennai; India has 85 Ramsar sites by 2024.",
+  "intro": "Biodiversity is the variety of life at the level of genes, species and ecosystems. India has about 8% of the world's species on 2.4% of the land and four biodiversity hotspots – Himalaya, Indo-Burma, Western Ghats and Sundaland (Nicobar). Habitat loss, invasive species, pollution and climate change shrink this base. It has 106 national parks and over 560 wildlife sanctuaries; Biological Diversity Act 2002 created the National Biodiversity Authority at Chennai; India has 85 Ramsar sites by 2024.",
   "body": [
    {
     "h": "In-situ measures",
@@ -139,7 +139,7 @@
   "dim": "policy",
   "question": "Evaluate the Solid Waste Management Rules, 2016 and the Swachh Bharat Mission (Urban) 2.0 in the light of the waste hierarchy. What more is needed to make Indian cities 'garbage free'?",
   "why": "Waste management is a recurring theme (types, impacts, recycling). The policy-evaluation framing (SWM Rules 2016, EPR, SBM-U 2.0) is a likely new dimension.",
-  "intro": "Indian cities generate huge municipal solid waste daily. Legacy dumpsites like Deonar and Ghazipur show failure; the rules and missions aim at a shift from dumping to a circular economy. Key facts: India generates about 1.5 lakh tonnes of municipal solid waste per day; the SWM Rules 2016 replaced the 2000 Rules; Swachh Bharat Mission (Urban) 2.0 runs 2021–26 with a target of 'garbage-free cities'.",
+  "intro": "Solid waste management is the collection, segregation, transport, processing and safe disposal of waste, guided by the waste hierarchy – reduce, reuse, recycle, recover, dispose. Indian cities generate huge municipal solid waste daily. Legacy dumpsites like Deonar and Ghazipur show failure; the rules and missions aim at a shift from dumping to a circular economy. India generates about 1.5 lakh tonnes of municipal solid waste per day; the SWM Rules 2016 replaced the 2000 Rules; Swachh Bharat Mission (Urban) 2.0 runs 2021–26 with a target of 'garbage-free cities'.",
   "body": [
    {
     "h": "Waste hierarchy",
@@ -209,7 +209,7 @@
   "dim": "mechanism",
   "question": "With the rise of AI-generated deepfakes and online financial fraud, discuss the cyber-security framework in India. How adequate is it, and what changes are needed?",
   "why": "ICT questions are asked every sitting (24), and cyber crime has appeared in 2020, 2023 and 2025. Questions have been about types of cyber crime; the 'framework adequacy and AI-enabled threats' angle is next.",
-  "intro": "India has a very large digital population and a real-time payment system, which makes it a target for ransomware, phishing and AI-enabled fraud such as deepfakes and voice cloning. Key facts: CERT-In was established in 2004 under the IT Act; the National Cyber Crime Reporting Portal handles lakhs of complaints; India lost thousands of crores to online fraud in recent years; the DPDP Act 2023 sets data duties.",
+  "intro": "Cyber security is the protection of computers, networks, data and digital services from attack, damage or misuse. India has a very large digital population and a real-time payment system, which makes it a target for ransomware, phishing and AI-enabled fraud such as deepfakes and voice cloning. CERT-In was established in 2004 under the IT Act; the National Cyber Crime Reporting Portal handles lakhs of complaints; India lost thousands of crores to online fraud in recent years; the DPDP Act 2023 sets data duties.",
   "body": [
    {
     "h": "Present framework",
@@ -269,7 +269,7 @@
   "dim": "policy",
   "question": "Discuss India's climate commitments under the Paris Agreement and its updated NDC. Is the principle of 'common but differentiated responsibilities' under pressure?",
   "why": "Climate has appeared 16 times (COP summits, global warming effects). Questions on CBDR-RC, climate finance and India's NDC delivery have not been asked.",
-  "intro": "India has low per-capita and small historical emissions but is a large emitter in absolute terms and highly vulnerable. At COP26 (2021) it announced the Panchamrit and net zero by 2070. Key facts: India ratified the Paris Agreement in 2016; its updated NDC (2022) targets 45% lower emission intensity and 50% non-fossil power by 2030; the 'Panchamrit' includes 500 GW non-fossil capacity.",
+  "intro": "Climate change is the long-term shift in temperature and weather caused mainly by greenhouse gas emissions; the Paris Agreement (2015) seeks to hold warming well below 2°C. India has low per-capita and small historical emissions but is a large emitter in absolute terms and highly vulnerable. At COP26 (2021) it announced the Panchamrit and net zero by 2070. India ratified the Paris Agreement in 2016; its updated NDC (2022) targets 45% lower emission intensity and 50% non-fossil power by 2030; the 'Panchamrit' includes 500 GW non-fossil capacity.",
   "body": [
    {
     "h": "India's commitments",
@@ -325,7 +325,7 @@
   "dim": "impact",
   "question": "India is called the 'pharmacy of the world' and a major vaccine producer. Discuss the evolution of vaccine technology and the issues in India's universal immunisation programme.",
   "why": "Vaccines were asked 15 times, always as concept (immunity, how a vaccine is made). The delivery-system dimension (UIP, Mission Indradhanush, mRNA, cold chain) is unseen.",
-  "intro": "Vaccination prevents millions of deaths each year. India runs one of the world's largest immunisation programmes and supplies a large share of the world's vaccines. Key facts: UIP started in 1985; Mission Indradhanush began in 2014; India produces over 60% of the world's vaccines; Serum Institute of India is the largest vaccine maker by number of doses; polio-free certification came in 2014.",
+  "intro": "A vaccine is a biological preparation that trains the immune system to recognise a disease-causing agent without causing the disease. Vaccination prevents millions of deaths each year. India runs one of the world's largest immunisation programmes and supplies a large share of the world's vaccines. UIP started in 1985; Mission Indradhanush began in 2014; India produces over 60% of the world's vaccines; Serum Institute of India is the largest vaccine maker by number of doses; polio-free certification came in 2014.",
   "body": [
    {
     "h": "Evolution of vaccine technology",
@@ -396,7 +396,7 @@
   "dim": "issues",
   "question": "Discuss the issues of patenting in agriculture and pharmaceuticals in India. How does the Indian patent regime balance innovation and public interest?",
   "why": "IPR is a small but constant theme (6 questions). Evergreening, compulsory licensing and seed patents are classic issue-angles not yet asked in the AP series.",
-  "intro": "After TRIPS, India amended its Patents Act in 2005 to restore product patents. The law tries to reward innovation while keeping medicines affordable and farmers' rights intact. Key facts: the Patents Act 1970 was amended in 1999, 2002 and 2005 to meet TRIPS; the PPV&FR Act 2001 and the Biological Diversity Act 2002 protect farmers and bioresources; patents last 20 years.",
+  "intro": "A patent is an exclusive right granted for an invention for 20 years in return for public disclosure. After TRIPS, India amended its Patents Act in 2005 to restore product patents. The law tries to reward innovation while keeping medicines affordable and farmers' rights intact. The Patents Act 1970 was amended in 1999, 2002 and 2005 to meet TRIPS; the PPV&FR Act 2001 and the Biological Diversity Act 2002 protect farmers and bioresources; patents last 20 years.",
   "body": [
    {
     "h": "Balancing provisions",
@@ -456,7 +456,7 @@
   "dim": "mechanism",
   "question": "Coastal Andhra Pradesh faces repeated cyclones and floods. Describe the institutional framework for disaster management in India and suggest a resilience strategy for the state's coast.",
   "why": "Disaster management has 13 questions. The institutional (NDMA, SDMA, Sendai) framework and a state-specific resilience strategy for AP's 974 km coast fit the AP-focus of recent papers.",
-  "intro": "Andhra Pradesh has a long coastline exposed to cyclones, storm surges and river floods. The Disaster Management Act 2005 moved India from relief to preparedness and mitigation. Key facts: Cyclones strike the AP coast most often in October–December; the DM Act 2005 created NDMA, SDMAs and DDMAs; the NDRF has 16 battalions; India signed the Sendai Framework in 2015.",
+  "intro": "A disaster is a sudden event that causes serious loss of life, property or livelihood beyond a community's ability to cope; disaster management covers prevention, mitigation, preparedness, response and recovery. Andhra Pradesh has a long coastline exposed to cyclones, storm surges and river floods. The Disaster Management Act 2005 moved India from relief to preparedness and mitigation. Cyclones strike the AP coast most often in October–December; the DM Act 2005 created NDMA, SDMAs and DDMAs; the NDRF has 16 battalions; India signed the Sendai Framework in 2015.",
   "body": [
    {
     "h": "Institutional framework",
@@ -507,7 +507,7 @@
   "dim": "policy",
   "question": "Discuss the salient features of India's nuclear policy and the three-stage nuclear power programme. How does India's stand on international non-proliferation regimes reflect its policy?",
   "why": "Nuclear policy is a named syllabus item (4.x) and a classic factual question; the three-stage programme and India's NPT/CTBT stand are stable points.",
-  "intro": "India's nuclear policy rests on peaceful use of atomic energy for development and a credible minimum deterrent with no first use. It rests on the Atomic Energy Act 1962 and the tests of 1974 and 1998. Key facts: India's first test was 'Smiling Buddha' (1974) and the Pokhran-II tests (1998) gave it the status of a nuclear weapon state; nuclear power is about 3% of electricity from about 8 GW of capacity.",
+  "intro": "India's nuclear policy is its set of principles for the civil use of atomic energy and the role of nuclear weapons. India's nuclear policy rests on peaceful use of atomic energy for development and a credible minimum deterrent with no first use. It rests on the Atomic Energy Act 1962 and the tests of 1974 and 1998. India's first test was 'Smiling Buddha' (1974) and the Pokhran-II tests (1998) gave it the status of a nuclear weapon state; nuclear power is about 3% of electricity from about 8 GW of capacity.",
   "body": [
    {
     "h": "Civil programme",
@@ -563,7 +563,7 @@
   "dim": "issues",
   "question": "What is genetic engineering? Discuss the applications, benefits and ethical, social and legal concerns of genetically modified crops in India.",
   "why": "GM crops (20 questions across themes) and genetic engineering are the most-asked biotech block; the regulatory (GEAC) and concerns angle appears again and again.",
-  "intro": "Genetic engineering is the deliberate change of an organism's genes by recombinant DNA technology. GM crops carry foreign genes for traits like pest resistance. Key facts: Bt cotton was approved in 2002; GEAC under the Environment (Protection) Act regulates GM crops; GM mustard DMH-11 was cleared by GEAC in 2022 but is under Supreme Court review.",
+  "intro": "Biotechnology uses living organisms or their parts to make products or improve plants and animals. Genetic engineering is the deliberate change of an organism's genes by recombinant DNA technology. GM crops carry foreign genes for traits like pest resistance. Bt cotton was approved in 2002; GEAC under the Environment (Protection) Act regulates GM crops; GM mustard DMH-11 was cleared by GEAC in 2022 but is under Supreme Court review.",
   "body": [
    {
     "h": "Technique",
@@ -631,7 +631,7 @@
   "dim": "concept",
   "question": "Define biofertilisers and biopesticides. Explain their types, methods of production and role in sustainable agriculture.",
   "why": "Biotechnology in agriculture (bio-pesticides, bio-fertilisers, bio-fuels, GM crops) is a named syllabus item; the 'define-types-production-role' pattern appeared in 2011 and later.",
-  "intro": "Biofertilisers are living microorganisms that enrich the soil when applied to seed, plant or soil, while biopesticides are natural organisms or substances that control pests. Both reduce dependence on chemicals. Key facts: India's Fertiliser (Control) Order 1985 now covers biofertilisers; the National Project on Organic Farming promotes them; ICAR and KVKs spread bio-inputs; the Insecticides Act 1968 governs biopesticides.",
+  "intro": "Biofertilisers are living microorganisms that enrich the soil when applied to seed, plant or soil, while biopesticides are natural organisms or substances that control pests. Both reduce dependence on chemicals. India's Fertiliser (Control) Order 1985 now covers biofertilisers; the National Project on Organic Farming promotes them; ICAR and KVKs spread bio-inputs; the Insecticides Act 1968 governs biopesticides.",
   "body": [
    {
     "h": "Biofertilisers – types",
@@ -699,7 +699,7 @@
   "dim": "concept",
   "question": "What is energy security? Discuss India's energy mix and the policy measures to achieve energy security and clean energy transition.",
   "why": "Energy needs, resources, policy and security are listed in the 2026 syllabus; energy is the second-most asked theme (24 questions).",
-  "intro": "Energy security is uninterrupted availability of energy at affordable prices with acceptable environmental impact. India imports about four-fifths of its oil and a large part of its gas. Key facts: coal gives about 70% of electricity; India imports over 85% of crude oil; the Energy Conservation Act 2001 and Electricity Act 2003 are the base; India targets net zero by 2070 and energy independence by 2047.",
+  "intro": "Energy security is uninterrupted availability of energy at affordable prices with acceptable environmental impact. India imports about four-fifths of its oil and a large part of its gas. Coal gives about 70% of electricity; India imports over 85% of crude oil; the Energy Conservation Act 2001 and Electricity Act 2003 are the base; India targets net zero by 2070 and energy independence by 2047.",
   "body": [
    {
     "h": "Energy mix",
@@ -766,7 +766,7 @@
   "dim": "mechanism",
   "question": "Explain the process of Environment Impact Assessment in India and evaluate its effectiveness. Mention the main environmental laws that govern it.",
   "why": "EIA is a named syllabus item in two places (item 5 and environmental legislation in item 6); asked repeatedly in the compilation.",
-  "intro": "Environment Impact Assessment (EIA) predicts the environmental effects of a project before approval. In India it is governed by the EIA Notification 2006 under the Environment (Protection) Act 1986. Key facts: EIA was first made mandatory in 1994; the 2006 Notification classifies projects as Category A (centre) and B (state); the Draft EIA 2020 raised wide objections.",
+  "intro": "Environment Impact Assessment (EIA) predicts the environmental effects of a project before approval. In India it is governed by the EIA Notification 2006 under the Environment (Protection) Act 1986. EIA was first made mandatory in 1994; the 2006 Notification classifies projects as Category A (centre) and B (state); the Draft EIA 2020 raised wide objections.",
   "body": [
    {
     "h": "Process",
@@ -833,7 +833,7 @@
   "dim": "measures",
   "question": "Discuss the importance of watershed management for water and soil conservation in India with special reference to the drought-prone areas of Andhra Pradesh.",
   "why": "Water resources, watershed management, soil reclamation, coastal and soil erosion are separate syllabus lines; Rayalaseema gives the AP context.",
-  "intro": "A watershed is the area from which rainfall drains to a common point. Its management conserves soil and water, recharges groundwater and supports rain-fed agriculture, which covers over half of India's cropped area. Key facts: About half of India's net sown area is rain-fed; the Integrated Watershed Management Programme is under PMKSY; Anantapur receives only about 550 mm rain a year; the Atal Bhujal Yojana focuses on groundwater.",
+  "intro": "A watershed is the area from which rainfall drains to a common point. Its management conserves soil and water, recharges groundwater and supports rain-fed agriculture, which covers over half of India's cropped area. About half of India's net sown area is rain-fed; the Integrated Watershed Management Programme is under PMKSY; Anantapur receives only about 550 mm rain a year; the Atal Bhujal Yojana focuses on groundwater.",
   "body": [
    {
     "h": "Components",
@@ -904,7 +904,7 @@
   "dim": "mechanism",
   "question": "Describe the causative agents, transmission, symptoms and preventive measures of tuberculosis and malaria. Mention the national programmes to control them.",
   "why": "Infectious diseases are asked 23 times, mostly as the 'agent, transmission, symptoms and control' form; TB, malaria, HIV and cholera are named in the syllabus.",
-  "intro": "Tuberculosis (TB) and malaria are major infectious diseases of India. TB is caused by a bacterium and malaria by a protozoan parasite; both are preventable and curable. Key facts: India has about a quarter of the global TB burden; the National TB Elimination Programme aims to end TB by 2025; malaria cases have fallen by over 80% since 2015; Odisha and Chhattisgarh report high shares.",
+  "intro": "Tuberculosis (TB) and malaria are major infectious diseases of India. TB is caused by a bacterium and malaria by a protozoan parasite; both are preventable and curable. India has about a quarter of the global TB burden; the National TB Elimination Programme aims to end TB by 2025; malaria cases have fallen by over 80% since 2015; Odisha and Chhattisgarh report high shares.",
   "body": [
    {
     "h": "Tuberculosis – agent, spread, symptoms",

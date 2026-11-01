@@ -7,7 +7,7 @@
   "dim": "concept",
   "question": "Explain the structure of the Union Budget and the different types of deficits. Analyse the major highlights of the Union Budget 2026-27 in the light of fiscal consolidation.",
   "why": "The 2026 syllabus lists 'Highlights of current year's Union Budget and its analysis' and 'types of deficits, their impact and management'. Both are certain to be tested in some form.",
-  "intro": "The Union Budget is the annual financial statement under Article 112. Budget 2026-27, presented on 1 February 2026, continues fiscal consolidation while raising capital spending. Key facts: the Budget includes the Annual Financial Statement, Appropriation Bill and Finance Bill; FRBM Act 2003 set fiscal deficit targets; the fiscal deficit in 2020-21 reached about 9.2% of GDP due to Covid before declining steadily.",
+  "intro": "A deficit is a gap between spending and receipts; the Budget reports revenue, fiscal and primary deficits. The Union Budget is the annual financial statement under Article 112. Budget 2026-27, presented on 1 February 2026, continues fiscal consolidation while raising capital spending. The Budget includes the Annual Financial Statement, Appropriation Bill and Finance Bill; FRBM Act 2003 set fiscal deficit targets; the fiscal deficit in 2020-21 reached about 9.2% of GDP due to Covid before declining steadily.",
   "body": [
    {
     "h": "Structure",
@@ -70,7 +70,7 @@
   "dim": "issues",
   "question": "Analyse the Andhra Pradesh Budget 2025-26 with reference to fiscal deficit, revenue deficit and the constraints on the state's finances after bifurcation.",
   "why": "Syllabus item 5 explicitly lists 'budget constraints, central assistance and issues of conflict after bifurcation, management of deficits, highlights and analysis of current year's budget, State Finance Commission and local finance'.",
-  "intro": "Andhra Pradesh presented its 2025-26 budget on 28 February 2025, with GSDP projected at about Rs 18.3 lakh crore, up 14% over the revised estimate of 2024-25. Key facts: AP's FRBM Act sets a fiscal deficit limit of 3% of GSDP, but the State borrows within limits allowed by the Centre; major expenditures are salaries, pensions, interest and welfare transfers; the State's outstanding debt runs to several lakh crore rupees.",
+  "intro": "A State budget is the annual estimate of receipts and expenditure of a State government under Article 202. Andhra Pradesh presented its 2025-26 budget on 28 February 2025, with GSDP projected at about Rs 18.3 lakh crore, up 14% over the revised estimate of 2024-25. AP's FRBM Act sets a fiscal deficit limit of 3% of GSDP, but the State borrows within limits allowed by the Centre; major expenditures are salaries, pensions, interest and welfare transfers; the State's outstanding debt runs to several lakh crore rupees.",
   "body": [
    {
     "h": "Key numbers (2025-26 BE)",
@@ -134,7 +134,7 @@
   "dim": "mechanism",
   "question": "Examine the role of minimum support prices in Indian agriculture. What were the main recommendations of the Swaminathan Commission and how far have they been implemented?",
   "why": "Agriculture development (7.x) is a syllabus block asked 6–7 times; MSP, Swaminathan Commission and Green Revolution are named syllabus items and are factual and stable.",
-  "intro": "The Minimum Support Price (MSP) is the price at which the government buys crops, announced by the Union Cabinet on the CACP's recommendation. It protects farmers from price falls and supports food security. Key facts: MSP began in 1966-67 for wheat; CACP was set up in 1965 and recommends MSP for 22 crops; the National Commission on Farmers (2004–06) under M.S. Swaminathan recommended C2+50%.",
+  "intro": "The Minimum Support Price (MSP) is the price at which the government buys crops, announced by the Union Cabinet on the CACP's recommendation. It protects farmers from price falls and supports food security. MSP began in 1966-67 for wheat; CACP was set up in 1965 and recommends MSP for 22 crops; the National Commission on Farmers (2004–06) under M.S. Swaminathan recommended C2+50%.",
   "body": [
    {
     "h": "Role of MSP",
@@ -196,7 +196,7 @@
   "dim": "impact",
   "question": "Discuss the Industrial Policy of 1991 and its impact on Indian industry. How have MSME policy and Make in India tried to address the problems of industrial sickness and low manufacturing share?",
   "why": "Industrial development (9.x) and MSME problems are named in the syllabus; Make in India, startups, SEZs and NIMZs come as a bundle.",
-  "intro": "The New Industrial Policy 1991 ended the licence-permit raj through liberalisation, privatisation and globalisation. It opened Indian industry to competition and investment. Key facts: the 1991 crisis followed a balance of payments shock; reforms were led by P.V. Narasimha Rao and Manmohan Singh; public sector reservation fell from 17 industries to a few, and licensing remained for about 5 sectors.",
+  "intro": "The New Industrial Policy 1991 ended the licence-permit raj through liberalisation, privatisation and globalisation. It opened Indian industry to competition and investment. The 1991 crisis followed a balance of payments shock; reforms were led by P.V. Narasimha Rao and Manmohan Singh; public sector reservation fell from 17 industries to a few, and licensing remained for about 5 sectors.",
   "body": [
    {
     "h": "Key reforms (1991)",
@@ -271,7 +271,7 @@
   "dim": "issues",
   "question": "Discuss the issues in the working of GST and the recommendations of the latest Finance Commission on the devolution of resources between the Union and the States.",
   "why": "Resource mobilisation (2.x) and federal finance (4) are heavily represented; GST and Finance Commission are named in the syllabus and tie in with Andhra Pradesh's fiscal concerns.",
-  "intro": "The Goods and Services Tax (101st Amendment, 2017) is a unified indirect tax managed by the GST Council. Finance Commissions under Article 280 recommend the distribution of Union taxes to States. Key facts: GST came into force on 1 July 2017 with 5%, 12%, 18% and 28% slabs earlier; the GST Council is chaired by the Union Finance Minister; the 15th Finance Commission (2021–26) was chaired by N.K. Singh.",
+  "intro": "The Goods and Services Tax (101st Amendment, 2017) is a unified indirect tax managed by the GST Council. Finance Commissions under Article 280 recommend the distribution of Union taxes to States. GST came into force on 1 July 2017 with 5%, 12%, 18% and 28% slabs earlier; the GST Council is chaired by the Union Finance Minister; the 15th Finance Commission (2021–26) was chaired by N.K. Singh.",
   "body": [
    {
     "h": "GST – achievements",
@@ -330,7 +330,7 @@
   "dim": "measures",
   "question": "Evaluate the working of the Public Distribution System in India and Andhra Pradesh under the National Food Security Act and suggest reforms.",
   "why": "Food security and PDS are named in the syllabus twice (all-India and AP's PDS and DWCRA). Reforms and leakage are classic points.",
-  "intro": "The Public Distribution System (PDS) provides subsidised food grains through fair price shops. The National Food Security Act 2013 made it a legal right for about two-thirds of the population. Key facts: NFSA 2013 covers up to 75% rural and 50% urban population; PDS is run jointly by the Centre (procurement and allocation) and States (distribution); FCI was set up in 1965; about 80 crore people receive free grain.",
+  "intro": "The Public Distribution System (PDS) provides subsidised food grains through fair price shops. The National Food Security Act 2013 made it a legal right for about two-thirds of the population. NFSA 2013 covers up to 75% rural and 50% urban population; PDS is run jointly by the Centre (procurement and allocation) and States (distribution); FCI was set up in 1965; about 80 crore people receive free grain.",
   "body": [
    {
     "h": "Features of NFSA",
@@ -391,7 +391,7 @@
   "dim": "mechanism",
   "question": "Explain the causes and consequences of the current account deficit and a falling rupee. Suggest measures to correct an unfavourable balance of payments.",
   "why": "Major challenges (inflation, CAD, BoP, falling rupee, NPAs, black money) are listed together in the first Paper IV syllabus item; each is a factual, repeatable question.",
-  "intro": "The current account deficit (CAD) arises when imports of goods, services and transfers exceed exports. A falling rupee reflects weak external balances, capital outflows or a strong dollar. Key facts: CAD is the gap in the current account of the balance of payments; India's CAD was about 4.8% of GDP in 2012-13 but under 1% in 2023-24; the rupee fell from about 45 per dollar in 2011 to above 80 by 2022.",
+  "intro": "The current account deficit (CAD) arises when imports of goods, services and transfers exceed exports. A falling rupee reflects weak external balances, capital outflows or a strong dollar. CAD is the gap in the current account of the balance of payments; India's CAD was about 4.8% of GDP in 2012-13 but under 1% in 2023-24; the rupee fell from about 45 per dollar in 2011 to above 80 by 2022.",
   "body": [
    {
     "h": "Causes of CAD",
@@ -450,7 +450,7 @@
   "dim": "concept",
   "question": "Distinguish between FDI and FII. Discuss the desirability and consequences of utilising different sources of external finance for India's development.",
   "why": "The syllabus lists sources of resources: public debt, external debt from multilateral agencies, FII and FDI with 'desirability and consequences' — a direct question pattern.",
-  "intro": "Foreign Direct Investment (FDI) is long-term investment with control in an enterprise, while Foreign Institutional Investment (FII, now FPI) is portfolio investment in shares and bonds. Key facts: FDI is regulated under FEMA 1999 and the FDI policy of DPIIT; FPI is regulated by SEBI; FDI inflows crossed 80 billion dollars in 2021-22; Mauritius, Singapore and the USA are leading sources.",
+  "intro": "Foreign Direct Investment (FDI) is long-term investment with control in an enterprise, while Foreign Institutional Investment (FII, now FPI) is portfolio investment in shares and bonds. FDI is regulated under FEMA 1999 and the FDI policy of DPIIT; FPI is regulated by SEBI; FDI inflows crossed 80 billion dollars in 2021-22; Mauritius, Singapore and the USA are leading sources.",
   "body": [
    {
     "h": "Distinction",
@@ -518,7 +518,7 @@
   "dim": "impact",
   "question": "Discuss the changing cropping pattern in Andhra Pradesh and the role of horticulture, fisheries and dairying in diversifying the agricultural economy.",
   "why": "AP agriculture (8.x) is a named syllabus item; changing cropping pattern, horticulture, fisheries and dairy are explicitly listed.",
-  "intro": "Andhra Pradesh's agriculture is shifting from foodgrain to commercial and allied activity. Horticulture, fisheries and dairying raise incomes and diversify risks. Key facts: AP leads India in aquaculture and is among the top producers of mango, chilli, tobacco and oil palm; the State has eight agro-climatic zones; horticulture is a large and growing share of farm output.",
+  "intro": "Crop diversification is the shift from a single staple crop towards a mix of crops and allied activities such as horticulture, fisheries and dairy. Andhra Pradesh's agriculture is shifting from foodgrain to commercial and allied activity. Horticulture, fisheries and dairying raise incomes and diversify risks. AP leads India in aquaculture and is among the top producers of mango, chilli, tobacco and oil palm; the State has eight agro-climatic zones; horticulture is a large and growing share of farm output.",
   "body": [
    {
     "h": "Changing cropping pattern",
@@ -592,7 +592,7 @@
   "dim": "issues",
   "question": "Public-private partnership has been widely used for infrastructure in India. Discuss its advantages, problems and the pricing of public utilities.",
   "why": "Infrastructure in India (item 11) lists PPP, pricing of public utilities and environmental impacts explicitly; PPP is a perennial analytic question.",
-  "intro": "Public-private partnership (PPP) combines private capital and efficiency with public responsibility in infrastructure. India has used it widely in roads, ports, airports and energy. Key facts: India's PPP policy dates to the 2000s; the National Infrastructure Pipeline planned about Rs 111 lakh crore; Viability Gap Funding was introduced in 2004; the National Monetisation Pipeline (2021) targets Rs 6 lakh crore of assets.",
+  "intro": "Public-private partnership (PPP) combines private capital and efficiency with public responsibility in infrastructure. India has used it widely in roads, ports, airports and energy. India's PPP policy dates to the 2000s; the National Infrastructure Pipeline planned about Rs 111 lakh crore; Viability Gap Funding was introduced in 2004; the National Monetisation Pipeline (2021) targets Rs 6 lakh crore of assets.",
   "body": [
    {
     "h": "Advantages",
@@ -661,7 +661,7 @@
   "dim": "measures",
   "question": "Discuss the ongoing infrastructure projects of Andhra Pradesh in transport, energy and ICT, and the bottlenecks in their implementation.",
   "why": "AP infrastructure (item 12) lists transport, energy, ICT, bottlenecks, policy and ongoing projects; projects can change, but the structure of the answer is stable.",
-  "intro": "Andhra Pradesh is building infrastructure in transport, energy and ICT to lift growth after bifurcation, but implementation is slowed by funds and approvals. Key facts: AP has 974 km of coast, several ports, and plans an 'Amaravati' capital region; renewable energy parks in Anantapur and Kurnool; AP FiberNet provides rural broadband; Polavaram is a national project.",
+  "intro": "Infrastructure means the basic physical systems – transport, power and communication – on which economic activity depends. Andhra Pradesh is building infrastructure in transport, energy and ICT to lift growth after bifurcation, but implementation is slowed by funds and approvals. AP has 974 km of coast, several ports, and plans an 'Amaravati' capital region; renewable energy parks in Anantapur and Kurnool; AP FiberNet provides rural broadband; Polavaram is a national project.",
   "body": [
    {
     "h": "Transport",
@@ -730,7 +730,7 @@
   "dim": "measures",
   "question": "Andhra Pradesh faces a high debt burden and a revenue gap after bifurcation. Analyse the state's fiscal position and suggest measures for sustainable resource mobilisation.",
   "why": "Budgetary resources were asked 9 times across 4 sittings (2008–2017). The shift to fiscal sustainability and FRBM compliance post-2014 fits the recent AP emphasis in 2023 and 2025 papers.",
-  "intro": "After the 2014 reorganisation, Andhra Pradesh lost Hyderabad's revenue base while inheriting a large share of liabilities. High debt and committed expenditure restrict capital spending. Key facts: AP's outstanding debt is around a third of GSDP; interest payments take a significant share of revenue receipts; the 15th Finance Commission recommended revenue deficit grants for AP for the first years after bifurcation.",
+  "intro": "Fiscal sustainability is a State's ability to meet its spending and debt obligations over time without distress borrowing. After the 2014 reorganisation, Andhra Pradesh lost Hyderabad's revenue base while inheriting a large share of liabilities. High debt and committed expenditure restrict capital spending. AP's outstanding debt is around a third of GSDP; interest payments take a significant share of revenue receipts; the 15th Finance Commission recommended revenue deficit grants for AP for the first years after bifurcation.",
   "body": [
    {
     "h": "Fiscal position",
@@ -801,7 +801,7 @@
   "dim": "concept",
   "question": "What is premature deindustrialisation? Discuss why manufacturing has stagnated at around 15–17 per cent of India's GDP and examine the measures taken under Make in India and PLI to revive it.",
   "why": "Manufacturing and growth-structure questions recur (8 times). The 'concept + diagnosis + PLI policy evaluation' package is predictable for the next paper.",
-  "intro": "Premature deindustrialisation is when a country's manufacturing share of GDP and jobs starts falling at a lower income level than in developed countries. India's manufacturing has stayed at 15–17% of GDP for years. Key facts: manufacturing's share of India's GDP was around 15–17% against 25% target in the National Manufacturing Policy 2011; China's share was about 27%; PLI schemes worth about Rs 1.97 lakh crore cover 14 sectors.",
+  "intro": "Premature deindustrialisation is when a country's manufacturing share of GDP and jobs starts falling at a lower income level than in developed countries. India's manufacturing has stayed at 15–17% of GDP for years. Manufacturing's share of India's GDP was around 15–17% against 25% target in the National Manufacturing Policy 2011; China's share was about 27%; PLI schemes worth about Rs 1.97 lakh crore cover 14 sectors.",
   "body": [
    {
     "h": "Why manufacturing is stagnant",
@@ -870,7 +870,7 @@
   "dim": "measures",
   "question": "Infrastructure bottlenecks raise the cost of doing business in India. Discuss the major bottlenecks in transport, energy and ICT and evaluate the National Infrastructure Pipeline and PM Gati Shakti in addressing them.",
   "why": "Infrastructure bottlenecks appeared 8 times. The evaluation of PM Gati Shakti and the National Infrastructure Pipeline is a natural new dimension.",
-  "intro": "Infrastructure bottlenecks raise the cost of business. India's logistics costs are about 13–14% of GDP, higher than in advanced countries. Key facts: India ranked 38th in the World Bank's Logistics Performance Index 2023; the National Logistics Policy was launched in 2022 and PM Gati Shakti in 2021; dedicated freight corridors are partly operational.",
+  "intro": "Infrastructure bottlenecks raise the cost of business. India's logistics costs are about 13–14% of GDP, higher than in advanced countries. India ranked 38th in the World Bank's Logistics Performance Index 2023; the National Logistics Policy was launched in 2022 and PM Gati Shakti in 2021; dedicated freight corridors are partly operational.",
   "body": [
    {
     "h": "Transport",
@@ -944,7 +944,7 @@
   "dim": "issues",
   "question": "Jan Dhan accounts, UPI and microfinance have widened formal finance. Assess the challenges that remain in financial inclusion, with reference to women, small farmers and digital frauds.",
   "why": "Financial inclusion has appeared repeatedly under inclusive growth. The shift from access to usage and consumer-protection issues is the likely new dimension.",
-  "intro": "Financial inclusion means access to affordable financial services for every person. Jan Dhan, UPI and microfinance widened formal finance, but challenges remain. Key facts: Jan Dhan was launched on 28 August 2014; UPI launched in 2016 now handles over 15 billion transactions a month; the RBI has a Financial Inclusion Index; SHG-Bank linkage is the world's largest microfinance model.",
+  "intro": "Financial inclusion means access to affordable financial services for every person. Jan Dhan, UPI and microfinance widened formal finance, but challenges remain. Jan Dhan was launched on 28 August 2014; UPI launched in 2016 now handles over 15 billion transactions a month; the RBI has a Financial Inclusion Index; SHG-Bank linkage is the world's largest microfinance model.",
   "body": [
    {
     "h": "Achievements",
