@@ -128,7 +128,7 @@ theme is ticked the next theme is offered. No backlog.
 Sources (all Group-I): the APPSC Mains PYQ compilation (`scripts/data/compilation.json`, from `scripts/extract/mains_compilation.py`),
 the Ghissu model-answer books' indexes (`scripts/extract/ghissu_index.py`), the CivicCentre PYQ books incl. TGPSC
 (`scripts/extract/civiccentre_pyq.py`) and, by OCR, the CivicCentre "Mission 1000" workbooks (`scripts/extract/ocr_workbooks.py`,
-`workbooks_parse.py`, needs `pip install rapidocr-onnxruntime wordsegment`).
+`workbooks_parse.py`, needs `pip install rapidocr-onnxruntime wordsegment`; 13 workbooks, 340 questions read, 56 not in the other sources — questions without an exam tag are shown as "Practice question").
 
 Build: `python3 -I scripts/analysis/build_checklist.py` (merge, de-duplicate, file under themes) then
 `python3 -I scripts/analysis/build_expected.py` (expected questions) → `src/content/mains-checklist.json`.

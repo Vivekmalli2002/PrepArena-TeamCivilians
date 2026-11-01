@@ -324,6 +324,7 @@ function ThemeView({ theme, onBack, onNext }: { theme: Theme; onBack: () => void
           {theme.asked.map((a) => (
             <li key={a.q} className="glass rounded-2xl p-3 text-sm leading-snug">
               <div className="mb-1 flex flex-wrap gap-1.5 text-[11px] font-semibold text-muted">
+                {a.boards.length === 0 && <span className="rounded-full bg-amber-100 px-2 py-0.5 text-amber-800">Practice question</span>}
                 {a.boards.map((b) => (
                   <span key={b} className="rounded-full bg-primary-soft px-2 py-0.5 text-primary">
                     {b}
