@@ -40,6 +40,8 @@ export interface Unit {
 export interface Subject {
   id: string;
   name: string;
+  /** Show a student only the topics whose syllabus unit lists their exam (units carry an `exams` list). */
+  filterByExam?: boolean;
   /** Whether practice questions exist yet. */
   hasContent: boolean;
   units: Unit[];
@@ -558,9 +560,23 @@ export const SUBJECTS: Record<string, Subject> = {
   "drawing-survey": {
     id: "drawing-survey",
     name: "Drawing, Surveying & Computers",
-    hasContent: false,
+    filterByExam: true,
+    hasContent: true,
     units: [
-      { title: "Engineering drawing, projections & AutoCAD", exams: ["aee-prtw", "draughtsman"] },
+      { title: "Sheet Layout and Types of Drawing (IS 962 layout of drawing)", exams: ["draughtsman"] },
+      { title: "Types of Lines", exams: ["draughtsman"] },
+      { title: "Dimensioning", exams: ["draughtsman"] },
+      { title: "Scales (plain, diagonal, vernier)", exams: ["aee-prtw", "draughtsman"] },
+      { title: "Conic Sections including the Rectangular Hyperbola", exams: ["aee-prtw"] },
+      { title: "Cycloid, Epicycloid, Hypocycloid and Involute", exams: ["aee-prtw"] },
+      { title: "Orthographic Projection: Principles, Conventions and BIS Code", exams: ["aee-prtw", "draughtsman"] },
+      { title: "Projection of Points and Lines", exams: ["aee-prtw"] },
+      { title: "Projection of Planes", exams: ["aee-prtw"] },
+      { title: "Projection of Solids and Auxiliary Views", exams: ["aee-prtw"] },
+      { title: "Sections of Solids", exams: ["aee-prtw"] },
+      { title: "Development of Surfaces", exams: ["aee-prtw"] },
+      { title: "Isometric Projection", exams: ["aee-prtw"] },
+      { title: "Computer Aided Drawing (AutoCAD basics)", exams: ["aee-prtw"] },
       { title: "Surveying fundamentals, levelling & contouring", exams: ["aee-rbi", "draughtsman"] },
       { title: "Theodolite, traversing, total station & GPS", exams: ["aee-rbi", "draughtsman"] },
       { title: "Principles of electrical engineering", exams: ["aee-prtw"] },
