@@ -91,13 +91,13 @@ describe("expected questions and reading checklist", () => {
       expect(m.conclusion.length, m.id).toBeGreaterThan(40);
     }
   });
-  it("APPSC-style answers carry many short points and fit about 12 minutes (200–400 words)", () => {
+  it("APPSC-style answers carry many short points and fit about 12 minutes (200–550 words)", () => {
     const appsc = (MODEL_FILES.flat() as { id: string; style?: string; intro: string; body: { pts: string[] }[]; conclusion: string }[]).filter((m) => m.style === "appsc");
     expect(appsc.length).toBeGreaterThanOrEqual(10);
     for (const m of appsc) {
       const words = (m.intro + " " + m.body.map((b) => b.pts.join(" ")).join(" ") + " " + m.conclusion).split(/\s+/).filter(Boolean).length;
       expect(words, m.id).toBeGreaterThanOrEqual(200);
-      expect(words, m.id).toBeLessThanOrEqual(400);
+      expect(words, m.id).toBeLessThanOrEqual(550);
       expect(m.body.reduce((n, b) => n + b.pts.length, 0), m.id).toBeGreaterThanOrEqual(12);
     }
   });

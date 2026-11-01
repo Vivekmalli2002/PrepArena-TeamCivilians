@@ -1,3 +1,4 @@
+import re
 """Builds src/content/mains-checklist.json for the Group-I Mains progress checklist.
 
 Sources merged (every Group-I question we have):
@@ -168,7 +169,19 @@ UMAP = {
 }
 for h in ("Aptitude & Foundational Values", "Attitude", "Civil Service Values & Ethics in Administration", "Emotional Intelligence", "Ethics & Human Interface", "Human Values", "Moral Thinkers & Philosophers", "Probity in Governance"):
     UMAP[(4, h)] = [(3, ETH)]
-MIN_SIM = float(os.environ.get("UPSC_MIN_SIM", "0.12"))
+MIN_SIM = float(os.environ.get("UPSC_MIN_SIM", "0.07"))
+EXPAND = {"aqg": "air pollution", "aqi": "air pollution", "ncap": "national clean air programme air pollution", "pm2": "air pollution particulate", "smog": "air pollution", "stubble": "air pollution crop residue",
+          "gst": "goods services tax", "mgnrega": "employment guarantee rural", "nrega": "employment guarantee rural", "rti": "right to information transparency",
+          "pil": "public interest litigation", "mnc": "multinational corporations", "fdi": "foreign direct investment", "msp": "minimum support price",
+          "sez": "special economic zones", "ppp": "public private partnership", "ngo": "non governmental organisations civil society", "cag": "comptroller auditor general"}
+def _stem(w):
+    for suf in ("ations", "ation", "ings", "ing", "ies", "es", "ed", "al", "s"):
+        if len(w) > len(suf) + 3 and w.endswith(suf): return w[: -len(suf)]
+    return w
+def prep(text):
+    words = re.findall(r"[a-z0-9]+", text.lower())
+    extra = [EXPAND[w] for w in words if w in EXPAND]
+    return " ".join(_stem(w) for w in words + " ".join(extra).split())
 if os.path.exists(D + "upsc.json"):
     UP = json.load(open(D + "upsc.json"))
     by_subject = collections.defaultdict(list)
@@ -180,9 +193,9 @@ if os.path.exists(D + "upsc.json"):
         for q in qs:
             targets = [t for key in UMAP[(gs, q["subject"])] for t in by_subject.get(key, []) if not t["label"].startswith("Misc")]
             if not targets: continue
-            docs = [t["label"] + " " + t["full"] + " " + " ".join(a["q"] for a in t["asked"][:15]) for t in targets]
-            v = TfidfVectorizer(stop_words="english", ngram_range=(1, 2), sublinear_tf=True).fit(docs + [q["question"]])
-            sims = cosine_similarity(v.transform([q["question"]]), v.transform(docs))[0]
+            docs = [prep(t["label"] + " " + t["full"] + " " + " ".join(a["q"] for a in t["asked"][:15])) for t in targets]
+            v = TfidfVectorizer(stop_words="english", ngram_range=(1, 2), sublinear_tf=True).fit(docs + [prep(q["question"])])
+            sims = cosine_similarity(v.transform([prep(q["question"])]), v.transform(docs))[0]
             j = int(sims.argmax())
             entry = dict(q=q["question"], years=[q["year"]], boards=["UPSC"], dims=dims_of(q["question"]))
             if sims[j] >= MIN_SIM:

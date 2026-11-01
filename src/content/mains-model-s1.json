@@ -17,7 +17,9 @@
      "Crop residue burning – paddy stubble in NW India.",
      "Dust – unpaved roads, construction. Ex: port and capital works in AP.",
      "Households – firewood, dung cakes → indoor smoke.",
-     "Waste burning, DG sets, fireworks."
+     "Waste burning, DG sets, fireworks.",
+     "Secondary pollutants – ozone and secondary particles from NOx and SO2 reactions.",
+     "Ex: Winter temperature inversion traps pollutants over the Indo-Gangetic plain."
     ]
    },
    {
@@ -37,7 +39,19 @@
      "Vehicles – BS-VI norms, EV push, vehicle scrapping, ethanol blending.",
      "Industry – CEMS, flue-gas desulphurisation, biomass co-firing, PNG.",
      "Households and farms – PM Ujjwala (LPG); Happy Seeder subsidy.",
-     "Courts – GRAP in Delhi; Article 21 includes the right to clean air."
+     "Courts – GRAP in Delhi; Article 21 includes the right to clean air.",
+     "Ex: National Air Quality Index (2014) and SAFAR give public alerts.",
+     "Ex: Graded Response Action Plan stages – Poor, Very poor, Severe, Severe+.",
+     "Ex: Surat emissions trading scheme (2019) is the first particulate market in the world."
+    ]
+   },
+   {
+    "h": "NCAP – features",
+    "pts": [
+     "Launched in January 2019 by MoEFCC; five-year, city-specific and non-statutory.",
+     "Original target 20–30% cut in PM10 and PM2.5 by 2024 over 2017; revised to 40% cut by 2025-26.",
+     "Covers about 130 non-attainment cities that missed NAAQS for five years.",
+     "Funding – NCAP funds and 15th Finance Commission air-quality grants for million-plus cities linked to performance."
     ]
    },
    {
@@ -45,7 +59,10 @@
     "pts": [
      "Target: 40% cut in PM10 by 2025-26 in 130 non-attainment cities, including AP's Visakhapatnam, Vijayawada, Guntur, Nellore, Tirupati.",
      "Gains: city action plans, more monitoring stations, PM10 falling in many cities, Swachh Vayu Survekshan ranking.",
-     "Gaps: PM10 focus, not PM2.5; not legally binding; funds spent mostly on road-dust sprinklers; city-wise approach ignores regional airsheds; weak State Pollution Control Boards."
+     "Gaps: PM10 focus, not PM2.5; not legally binding; funds spent mostly on road-dust sprinklers; city-wise approach ignores regional airsheds; weak State Pollution Control Boards.",
+     "Gaps: no legal accountability of officials, and slow fund utilisation.",
+     "Ex: Cities such as Delhi still show PM2.5 several times above the NAAQS and WHO limits.",
+     "Ex: Funds were used for road sweeping and dust sprinklers instead of source control."
     ]
    },
    {
@@ -55,7 +72,9 @@
      "Binding PM2.5 targets with penalties.",
      "Public transport, EVs, scrapping of old vehicles.",
      "Scale up emissions trading; support farmers with stubble machines.",
-     "Strengthen SPCBs; publish real-time AQI and health alerts for citizens."
+     "Strengthen SPCBs; publish real-time AQI and health alerts for citizens.",
+     "Make clean-air plans with fixed responsibility for municipal commissioners.",
+     "Ex: Cross-state airshed coordination in the Indo-Gangetic Plain through CAQM-like bodies."
     ]
    }
   ],
