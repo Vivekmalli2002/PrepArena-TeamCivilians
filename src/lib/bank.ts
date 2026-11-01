@@ -45,12 +45,12 @@ export interface LoadedBank extends BankIndex {
 }
 
 /**
- * Restricts a bank to some subjects (e.g. those in the student's exam). Question lookups
+ * Restricts a bank to some subjects (e.g. those in the student's exam) and, optionally, to the topics `keepTopic` accepts. Question lookups
  * (`topicOf`) stay global so results and revision of other subjects still resolve.
  */
-export function scopeBank(bank: LoadedBank, subjectIds: string[]): LoadedBank {
+export function scopeBank(bank: LoadedBank, subjectIds: string[], keepTopic: (t: TopicInfo) => boolean = () => true): LoadedBank {
   const keep = new Set(subjectIds);
-  const topics = bank.topics.filter((t) => keep.has(t.subject));
+  const topics = bank.topics.filter((t) => keep.has(t.subject) && keepTopic(t));
   const subjects = bank.subjects.filter((s) => keep.has(s.id) && s.total > 0);
   // Never scope down to nothing: fall back to the full bank.
   if (!topics.length) return bank;

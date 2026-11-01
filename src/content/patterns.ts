@@ -84,7 +84,10 @@ export const PATTERNS: ExamPattern[] = [
     sections: AEE_GS }),
   P({ id: "aee-pcb-p3", exams: ["aee-pcb"], paper: "Paper-III · Environmental Science & Technology", title: "AEE PCB · Paper-III (Environmental Science & Technology)", minutes: 150, basis: "notification",
     note: "150 Q · 150 min · −⅓. Ten syllabus units × 15 questions.",
-    sections: Array.from({ length: 10 }, (_, i) => sec(`Unit ${i + 1}`, ["env"], 15, { units: [i + 1] })) }),
+    sections: Array.from({ length: 10 }, (_, i) =>
+      i === 3 ? sec("Unit 4 · Engineering Materials", ["mech-mat"], 15)
+      : i === 5 ? sec("Unit 6 · Process Calculations & Thermodynamics", ["mech-thermo"], 15)
+      : sec(`Unit ${i + 1}`, ["env"], 15, { units: [i + 1] })) }),
   // ---- AEE Civil (R&B / Irrigation / Panchayat Raj / Tribal Welfare)
   P({ id: "aee-civil-p1", exams: ["aee-rbi", "aee-prtw"], paper: "Paper-I · GS & Mental Ability", title: "AEE · Paper-I (GS & Mental Ability)", minutes: 150, basis: "notification",
     note: "150 Q · 150 min · −⅓. Same distribution as AEE PCB Paper-I.", sections: AEE_GS }),
@@ -104,7 +107,7 @@ export const PATTERNS: ExamPattern[] = [
     note: "150 Q · 150 min · −⅓. Disaster Management 15, Engineering Drawing 15, Basic Electrical 15, Computing 15, and 90 on Environmental Science (six areas × 15). Paper-II is common with R&B / Irrigation.",
     sections: [
       sec("Disaster Management", ["env", "geography", "current"], 15, { topicMatch: "disaster" }),
-      sec("Engineering Drawing", ["drawing-survey"], 15), sec("Basic Electrical Engineering", ["electrical"], 15), sec("Computing (computer fundamentals)", ["computers"], 15),
+      sec("Engineering Drawing", ["drawing-survey"], 15, { units: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14] }), sec("Basic Electrical Engineering", ["electrical"], 15), sec("Computing (computer fundamentals)", ["computers"], 15),
       sec("Env. Science · Natural resources", ["env"], 15, { topicMatch: "resource|energy|coal|petroleum|biofuel|hydropower|nuclear|forest|water" }),
       sec("Env. Science · Ecosystems", ["env"], 15, { topicMatch: "ecolog|ecosystem" }),
       sec("Env. Science · Biodiversity & conservation", ["env"], 15, { topicMatch: "biodivers|sanctuary|biosphere|conservation|wildlife" }),
@@ -133,7 +136,7 @@ export const PATTERNS: ExamPattern[] = [
   P({ id: "draughtsman-p2", exams: ["draughtsman"], paper: "Paper-II · Surveying, Drawing & ITI Basic Maths", title: "Draughtsman Grade-II · Paper-II (Surveying, Drawing, ITI Maths)", minutes: 150, basis: "notification",
     note: "150 Q · 150 min · −⅓. Surveying 90, Engineering Drawing 15, ITI basic mathematics 45.",
     sections: [
-      sec("Surveying", ["civil-sur"], 90), sec("Engineering Drawing", ["drawing-survey"], 15),
+      sec("Surveying", ["civil-sur"], 90), sec("Engineering Drawing", ["drawing-survey"], 15, { units: [1, 2, 3, 4, 7] }),
       sec("ITI Basic Mathematics", ["mental"], 45, { topicMatch: "quantitative|percent|ratio|time|average|interest|number|maths|aptitude" }),
     ] }),
   // ---- SSC JE Civil (not an exam in the app's picker; shown under "Other exams")
