@@ -33,9 +33,9 @@ describe("Technical Subjects Numericals", () => {
       const q = qs.get(id)!;
       expect(q.numerical).toBe(true);
       expect(q.explanation).toMatch(/Formula family:/);
-      if (/not recovered cleanly/.test(q.explanation)) {
+      if (/Open the book for the answer/.test(q.explanation)) {
         unsolved++;
-        expect(q.explanation, `#${id}`).toMatch(/Refer to the book: .*p\.\d+/);
+        expect(q.explanation, `#${id}`).toMatch(/PDF page \d+/);
       }
     }
     expect(unsolved).toBeGreaterThan(0);
@@ -44,12 +44,12 @@ describe("Technical Subjects Numericals", () => {
 
 describe("mock composition with numericals", () => {
   const count = (qids: number[]) => qids.filter((id) => numIds().has(id)).length;
-  it("AEE Paper-II: 35 numericals each in SOM and FM, 150 questions", () => {
+  it("AEE Paper-II: 27 SOM and 33 FM numericals (25–35 each, by AP weightage), 150 questions", () => {
     const p = PATTERNS.find((x) => x.id === "aee-civil-p2")!;
-    expect(p.sections.map((s) => s.seats)).toEqual([40, 35, 40, 35]);
+    expect(p.sections.map((s) => s.seats)).toEqual([48, 27, 42, 33]);
     const t = build("aee-civil-p2");
     expect(t.qids).toHaveLength(150);
-    expect(count(t.qids)).toBe(70);
+    expect(count(t.qids)).toBe(60);
   });
   it("AEE Paper-III keeps its 150-seat composition with about 30 numericals", () => {
     const p = PATTERNS.find((x) => x.id === "aee-civil-p3")!;

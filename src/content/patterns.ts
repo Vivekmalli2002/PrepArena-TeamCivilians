@@ -112,10 +112,10 @@ export const PATTERNS: ExamPattern[] = [
   P({ id: "aee-civil-p1", exams: ["aee-rbi", "aee-prtw"], paper: "Paper-I · GS & Mental Ability", title: "AEE · Paper-I (GS & Mental Ability)", minutes: 150, basis: "notification",
     note: "150 Q · 150 min · −⅓. Same distribution as AEE PCB Paper-I.", sections: AEE_GS }),
   P({ id: "aee-civil-p2", exams: ["aee-rbi", "aee-prtw"], paper: "Paper-II · Common Engineering", title: "AEE · Paper-II (Strength of Materials, Fluid Mechanics)", minutes: 150, basis: "notification",
-    note: "150 Q · 150 min · −⅓. Strength of Materials 75 + Fluid Mechanics 75; each subject carries 35 numericals and 40 theory questions.",
+    note: "150 Q · 150 min · −⅓. Strength of Materials 75 + Fluid Mechanics 75; numericals are 27 in Strength of Materials and 33 in Fluid Mechanics (60 of 150), split in the ratio of past AP Paper-II weightage (SOM 59–75, FM 75–91 of 150); the rest are theory.",
     sections: [
-      ...withNumericals("Strength of Materials", ["civil-som"], 75, 35, "Strength of Materials|Engineering Mechanics"),
-      ...withNumericals("Fluid Mechanics & Machinery", ["civil-fm", "civil-hm"], 75, 35, "Fluid Mechanics|Hydraulic Machines"),
+      ...withNumericals("Strength of Materials", ["civil-som"], 75, 27, "Strength of Materials|Engineering Mechanics"),
+      ...withNumericals("Fluid Mechanics & Machinery", ["civil-fm", "civil-hm"], 75, 33, "Fluid Mechanics|Hydraulic Machines"),
     ] }),
   P({ id: "aee-civil-p3", exams: ["aee-rbi"], paper: "Paper-III · Civil Engineering", title: "AEE R&B / Irrigation · Paper-III (Civil Engineering)", minutes: 150, basis: "notification",
     note: "150 Q · 150 min · −⅓. Chapter mix inside each subject follows past AEE papers; 30 of the 150 are numericals spread over the subjects (more in geotechnics and environmental engineering, none in building materials / management).",

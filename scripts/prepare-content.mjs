@@ -275,14 +275,13 @@ if (existsSync(DATA)) {
       unitOf.set(q.id, Number.isInteger(d.unit) ? d.unit : (TOPIC_UNIT[q.topic] ?? null));
       const nm = NUMERICALS[d.id];
       if (nm) {
-        const where = q.source.split(" · ").pop();
-        const ref = `${where}${nm.qno ? `, question no. ${nm.qno}` : ""}`;
+        const pageNo = nm.qno ? `page ${nm.page}, question no. ${nm.qno}` : `page ${nm.page}`;
         q.topic = `${nm.subjectName} · ${nm.family}`;
         q.numerical = true;
-        q.source = nm.qno ? `${q.source} · Q.${nm.qno}` : q.source;
+        if (nm.qno) q.source = `${q.source} · Q.${nm.qno}`;
         q.explanation = nm.solved
           ? `Formula family: ${nm.formula}.\n${q.explanation}`
-          : `Worked solution not recovered cleanly from the source. Formula family: ${nm.formula}. Refer to the book: ${ref}.`;
+          : `Open the book for the answer and worked solution: ${nm.book}, PDF ${pageNo}.\nThis question was copied automatically and its marked answer may be out of order, so if your answer differs, check that page rather than trusting this screen.\nFormula family: ${nm.formula}.`;
         delete q.subtopic;
         subjectOf.set(q.id, "numericals");
         unitOf.set(q.id, NUM_ORDER.indexOf(nm.subjectName) + 1);
