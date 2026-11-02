@@ -46,10 +46,13 @@ describe("mock composition with numericals", () => {
   const count = (qids: number[]) => qids.filter((id) => numIds().has(id)).length;
   it("AEE Paper-II: 75 SOM + 75 FM questions, 20 numericals in each", () => {
     const p = PATTERNS.find((x) => x.id === "aee-civil-p2")!;
-    expect(p.sections.map((s) => s.seats)).toEqual([55, 20, 55, 20]);
+    expect(p.sections.map((s) => s.seats)).toEqual([50, 5, 20, 40, 15, 20]);
     const t = build("aee-civil-p2");
     expect(t.qids).toHaveLength(150);
     expect(count(t.qids)).toBe(40);
+    const subj = new Map(bank.topics.flatMap((x) => x.qids.map((id) => [id, x.subject] as const)));
+    expect(t.qids.filter((id) => subj.get(id) === "civil-hm")).toHaveLength(15);
+    expect(t.qids.filter((id) => subj.get(id) === "civil-em")).toHaveLength(5);
   });
   it("AEE Paper-III keeps its 150-seat composition with about 30 numericals", () => {
     const p = PATTERNS.find((x) => x.id === "aee-civil-p3")!;
