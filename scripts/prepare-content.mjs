@@ -305,8 +305,10 @@ if (existsSync(DATA)) {
   writeFileSync(idsFile, JSON.stringify(idMap, null, 1) + "\n");
 }
 const all = [...corrected, ...authored, ...structured];
+// "… The correct answer is-" left at the end of a stem by the PDF extraction is not part of the question
+for (const q of all) q.question = q.question.replace(/\s*(?:The\s+)?correct answer is\s*[-–:]?\s*$/i, "");
 
-const version = createHash("sha256").update(rawText).update(fixText).update(authoredText.join("")).update(structuredText.join("")).update(JSON.stringify(NUMERICALS)).digest("hex").slice(0, 12);
+const version = createHash("sha256").update(rawText).update(fixText).update(authoredText.join("")).update(structuredText.join("")).update(JSON.stringify(NUMERICALS)).update("stem-cleanup-v1").digest("hex").slice(0, 12);
 const slug = (s) => s.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const byTopic = new Map();
 for (const q of all) {

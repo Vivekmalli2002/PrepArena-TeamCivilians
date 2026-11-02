@@ -381,3 +381,29 @@ describe("syllabus overlap registers", () => {
     expect(stageComparison("eo")).toBeNull();
   });
 });
+
+describe("statement questions keep the closing question on its own line", () => {
+  const closing = async (text: string) => {
+    const { splitStatements } = await import("@/lib/format");
+    const b = splitStatements(text);
+    return { items: b.filter((x) => x.kind === "item").map((x) => x.text), tail: b.at(-1)!.text };
+  };
+  it("splits 'In which of the following …?' off the last statement", async () => {
+    const r = await closing("Consider the following States: 1. Arunachal Pradesh 2. Himachal Pradesh 3. Mizoram In which of the following states do “Tropical Wet Evergreen Forests” occur?");
+    expect(r.items).toEqual(["Arunachal Pradesh", "Himachal Pradesh", "Mizoram"]);
+    expect(r.tail).toBe("In which of the following states do “Tropical Wet Evergreen Forests” occur?");
+  });
+  it("splits a trailing 'Correct answer is-' off the last statement and not at a later 'Code:'", async () => {
+    const a = await closing("The concept of environment is based on which of the following? 1. Environmental degradation 2. Dimensions of totality of environment 3. Shift in the interest 4. Globality Correct answer is-");
+    expect(a.items.at(-1)).toBe("Globality");
+    const b = await closing("Which factors have shifted the industry? 1. Higher yield 2. Longer season 3. Cheap Labour Select the correct answer from the code given below: Code:");
+    expect(b.items.at(-1)).toBe("Cheap Labour");
+  });
+  it("published stems do not end with 'The correct answer is'", async () => {
+    const { readFileSync, readdirSync } = await import("node:fs");
+    for (const f of readdirSync("public/data/q", { recursive: true }) as string[]) {
+      if (!f.endsWith(".json")) continue;
+      for (const q of JSON.parse(readFileSync(`public/data/q/${f}`, "utf8"))) expect(q.question, `#${q.id}`).not.toMatch(/correct answer is\s*[-–:]?\s*$/i);
+    }
+  });
+});

@@ -32,7 +32,9 @@ const FAMILIES: { re: RegExp; label: (idx: number) => string }[] = [
 
 const TAIL =
   /(?<=[.?!:)])\s+(?=(?:Which|How many|Select|Choose|Identify|Find|What|Pick|Mark|Match|Arrange|Using|Based|On the basis|From the above|In the light|Of the above|Codes?\s*:|The correct|Give|Examine|Decide)\b)|\s(?=Of the above|Codes?\s*:)/;
-const TAIL_LOOSE = /\s(?=(?:Which|How many|Select|Choose|Of the above|Codes?\s*:|Identify the|Find the|Using the code)\b)/;
+const TAIL_LOOSE = /\s(?=(?:Which|How many|Select|Choose|Of the above|Codes?\s*:|Identify the|Identify which|Find the|Using the code|Arrange the following|Correct answer|The correct answer|Based on the|With respect to the above|With reference to the above|In the context of the|In context of the|Consider the above|According to the above|From the above|Among the above|Who (?:among|of)|With reference to|In above context|On how many|The above|Decide which|Identify correct|Arrange (?:these|them|the above)|What is the correct|What are the|Mark the correct|Excess of which|In the context of economic|In the context of global|Identify them|For the horizontal tax|The Cabinet Committee|Green hydrogen is|India is presently|The phenomenon of|With reference of|Keshab Chandra Sen is|Decide which)\b)/;
+/** Question sentences that start with a common word ("In which of the following states …?", "What is the correct sequence …?"). */
+const TAIL_QUESTION = /\s(?=(?:In which|In what|In the recent past|What)\b[^?]{6,}[?:]\s*$)/;
 const HEADING = /\s+((?:List|Column|Group)[\s-]*(?:I{1,3}|[1-3A-C])\b[^.?!]{0,30})$/i;
 
 /**
@@ -81,8 +83,11 @@ export function splitStatements(text: string): QuestionBlock[] {
     }
     // pull a trailing instruction ("Identify the incorrect statement(s):") off the last item
     if (i === marks.length - 1) {
-      const t = body.match(TAIL) ?? body.match(TAIL_LOOSE);
-      if (t && t.index! > 0) {
+      // the instruction starts at the earliest of the patterns ("… Select the correct answer from the code given below: Code:" must not stop at "Code:")
+      const t = [body.match(TAIL), body.match(TAIL_LOOSE), body.match(TAIL_QUESTION)]
+        .filter((m): m is RegExpMatchArray => !!m && m.index! > 0)
+        .sort((a, b) => a.index! - b.index!)[0];
+      if (t) {
         tail = body.slice(t.index!).trim();
         body = body.slice(0, t.index!).trim();
       }
@@ -105,7 +110,7 @@ function splitLabelled(text: string): QuestionBlock[] {
   starts.forEach((at, i) => {
     let body = text.slice(at, i + 1 < starts.length ? starts[i + 1] : text.length).trim();
     if (i === starts.length - 1) {
-      const q = body.search(/\s(In the light of|Which|Select|Choose|Codes?\s*:)/);
+      const q = body.search(/\s(In the light of|In the context of|In context of|With respect to|With reference to|Which|Select|Choose|Codes?\s*:|Identify|Consider the above|Based on the|According to the|Correct answer|The correct answer|Arrange the following|How many)\b/);
       if (q > 0) {
         blocks.push({ kind: "item", text: body.slice(0, q).trim() });
         body = body.slice(q).trim();
