@@ -44,12 +44,12 @@ describe("Technical Subjects Numericals", () => {
 
 describe("mock composition with numericals", () => {
   const count = (qids: number[]) => qids.filter((id) => numIds().has(id)).length;
-  it("AEE Paper-II: 27 SOM and 33 FM numericals (25–35 each, by AP weightage), 150 questions", () => {
+  it("AEE Paper-II: 75 SOM + 75 FM questions, 20 numericals in each", () => {
     const p = PATTERNS.find((x) => x.id === "aee-civil-p2")!;
-    expect(p.sections.map((s) => s.seats)).toEqual([48, 27, 42, 33]);
+    expect(p.sections.map((s) => s.seats)).toEqual([55, 20, 55, 20]);
     const t = build("aee-civil-p2");
     expect(t.qids).toHaveLength(150);
-    expect(count(t.qids)).toBe(60);
+    expect(count(t.qids)).toBe(40);
   });
   it("AEE Paper-III keeps its 150-seat composition with about 30 numericals", () => {
     const p = PATTERNS.find((x) => x.id === "aee-civil-p3")!;
