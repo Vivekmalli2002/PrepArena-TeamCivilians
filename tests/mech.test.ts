@@ -39,3 +39,17 @@ describe("AEE PCB Paper-II Mechanical banks", () => {
     expect(papersForExam("aee-pcb").some((p) => p.subjects.includes("mech-thermo"))).toBe(true);
   });
 });
+
+describe("published text has no private-use glyphs", () => {
+  it("no box-drawing Symbol-font code points in live questions", async () => {
+    const { readFileSync, readdirSync } = await import("node:fs");
+    const dir = "public/data/q";
+    let bad = 0;
+    for (const f of readdirSync(dir, { recursive: true }) as string[]) {
+      if (!f.endsWith(".json")) continue;
+      const t = readFileSync(`${dir}/${f}`, "utf8");
+      if (/[-]/.test(t)) bad++;
+    }
+    expect(bad).toBe(0);
+  });
+});

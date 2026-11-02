@@ -246,7 +246,10 @@ describe("authored questions", () => {
     const { SUBJECTS } = await import("@/content/catalog");
     for (const t of bank.topics) {
       expect(SUBJECTS[t.subject], `subject ${t.subject}`).toBeTruthy();
-      if (t.subject !== "env" && t.unit != null) {
+      if (t.subject === "numericals") {
+        // one unit per source subject; each topic is "<Subject> · <formula family>"
+        expect(t.name.startsWith(`${SUBJECTS.numericals.units[(t.unit ?? 1) - 1].title} · `), `numericals unit ${t.unit}`).toBe(true);
+      } else if (t.subject !== "env" && t.unit != null) {
         expect(SUBJECTS[t.subject].units[t.unit - 1]?.title, `${t.subject} unit ${t.unit}`).toBe(t.name);
       }
     }

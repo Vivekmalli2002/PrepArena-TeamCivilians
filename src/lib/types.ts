@@ -16,6 +16,8 @@ export interface Question {
   revised?: string;
   /** Auto-extracted from a source book and not yet proof-read; the key comes from the source as printed. */
   unverified?: boolean;
+  /** A calculation question, kept in "Technical Subjects Numericals" rather than its theory chapter. */
+  numerical?: boolean;
   /** Figures that belong to the explanation (public URLs). */
   explanationImage?: string[];
   /** Figure the question itself refers to (public URL). */
