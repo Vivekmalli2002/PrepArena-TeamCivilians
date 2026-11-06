@@ -308,7 +308,33 @@ const all = [...corrected, ...authored, ...structured];
 // "… The correct answer is-" left at the end of a stem by the PDF extraction is not part of the question
 for (const q of all) q.question = q.question.replace(/\s*(?:The\s+)?correct answer is\s*[-–:]?\s*$/i, "");
 
-const version = createHash("sha256").update(rawText).update(fixText).update(authoredText.join("")).update(structuredText.join("")).update(JSON.stringify(NUMERICALS)).update("stem-cleanup-v1").digest("hex").slice(0, 12);
+// The printed question number of a neighbouring column sometimes lands in the middle of a general-studies stem
+// ("features of Indian 81. Constitution are borrowed …"). Remove such strays; real sentence-final numbers are kept
+// (years, "Article 368.", "… rank is 99. Identify …").
+const GS_SUBJECTS = new Set(["polity", "scitech", "economy", "history", "current", "society", "env", "geography"]);
+const STRAY_SKIP = new Set(["and", "to", "or", "from", "between", "than", "upto", "till", "until", "rs", "article", "section", "no", "amendment", "act", "schedule", "part", "fig", "figure", "chapter", "page", "class"]);
+const STARTERS = new Set("Which Identify Select Choose What Where Who Whom How Similarly Find The In It This These Those Consider Match Arrange Assertion Reason Statement Read Study An A On At After Before During As If Is Are Both Only None All Among Of For With By From To I II III IV V Also Hence Thus There That Their They He She His Her Its Then When While Although However But And Or So".split(" "));
+const LIST_MARK = /^(?:\(?[IVX]{1,4}[.)]|\(?[A-Da-d][.)]|\(?\d{1,2}[.)]|List|\()/;
+function stripStrayNumbers(t) {
+  const cuts = [];
+  for (const m of t.matchAll(/(\S+)\s+(\d{2,4})\.(?=\s+\S)/g)) {
+    const prev = m[1], n = Number(m[2]);
+    if (n >= 1200 && n <= 2100) continue;
+    const nxt = t.slice(m.index + m[0].length).trimStart().split(" ")[0];
+    // "… articles 23 and 24. Which …", "… 30 to 65. 3. Under …": a real number that ends a sentence
+    if (STRAY_SKIP.has(prev.toLowerCase().replace(/[.:,;?)]+$/g, "")) && (LIST_MARK.test(nxt) || STARTERS.has(nxt.replace(/[^A-Za-z]/g, "")))) continue;
+    const lowerOrMark = /^[a-z‘“"']/.test(nxt) || LIST_MARK.test(nxt);
+    const properPair = /^[A-Z]/.test(prev) && /^[A-Z]/.test(nxt) && !/[.?:]$/.test(prev);
+    const contentWord = /^[A-Z]/.test(nxt) && !STARTERS.has(nxt.replace(/[^A-Za-z]/g, ""));
+    if (lowerOrMark || properPair || contentWord) cuts.push([m.index + m[1].length, m.index + m[0].length]);
+  }
+  let out = t;
+  for (const [a, b] of cuts.reverse()) out = out.slice(0, a) + out.slice(b);
+  return out;
+}
+for (const q of all) if (GS_SUBJECTS.has(subjectOf.get(q.id))) q.question = stripStrayNumbers(q.question);
+
+const version = createHash("sha256").update(rawText).update(fixText).update(authoredText.join("")).update(structuredText.join("")).update(JSON.stringify(NUMERICALS)).update("stem-cleanup-v2").digest("hex").slice(0, 12);
 const slug = (s) => s.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const byTopic = new Map();
 for (const q of all) {

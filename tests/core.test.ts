@@ -407,3 +407,18 @@ describe("statement questions keep the closing question on its own line", () => 
     }
   });
 });
+
+describe("stray question numbers inside general-studies stems", () => {
+  it("are removed, while real numbers that end a sentence stay", async () => {
+    const { readFileSync, readdirSync } = await import("node:fs");
+    const stems = new Map<number, string>();
+    for (const f of readdirSync("public/data/q", { recursive: true }) as string[]) {
+      if (!f.endsWith(".json")) continue;
+      for (const q of JSON.parse(readFileSync(`public/data/q/${f}`, "utf8"))) stems.set(q.id, q.question);
+    }
+    expect(stems.get(132395)).toMatch(/features of Indian Constitution are borrowed/);
+    expect(stems.get(130930)).toBe("Albert's Landing Beach is situated in which country?");
+    expect(stems.get(132524)).toMatch(/articles 23 and 24\. Which of the above/);
+    expect(stems.get(133873)).toMatch(/rank in 2025 is 99\. Identify/);
+  });
+});
