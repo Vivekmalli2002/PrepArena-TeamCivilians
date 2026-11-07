@@ -7,6 +7,7 @@ import { dayKey, uid } from "./random";
 import { graduate, review } from "./srs";
 import type { MainsEntry, MistakeReason } from "./extras";
 import { complete, emptyLearn, learnMore, rollDay, toggleRead, topUp, uncomplete, type LearnState } from "./mainsLearn";
+import { toggleDrill, type DrillState } from "./drill";
 import type { Attempt, PaletteStatus, QStat, Question, Session, TestConfig } from "./types";
 
 const MAX_ATTEMPTS = 300;
@@ -37,7 +38,11 @@ interface AppState {
   learn: LearnState;
   /** Mains answers written in the answer-writing practice, keyed by question id. */
   mains: Record<string, MainsEntry>;
+  /** 60-day drill sheet: the date Day 1 started and the expected questions written (key "d<day>-<n>" → time). */
+  drill: DrillState;
 
+  setDrillStart: (key: string | null) => void;
+  toggleDrillQ: (key: string) => void;
   setMistakeTag: (id: number, tag: MistakeReason | null) => void;
   /** Your own note on a mistake (what to remember); empty text removes it. */
   setMistakeNote: (id: number, note: string) => void;
@@ -58,7 +63,7 @@ interface AppState {
   /** "I've learnt this": take the question out of the revision set. */
   clearFromRevision: (id: number) => void;
   /** Replace everything with an imported backup. */
-  restore: (s: Pick<AppState, "profile" | "theme" | "attempts" | "qstats" | "bookmarks" | "activeDays"> & Partial<Pick<AppState, "mistakeTags" | "mistakeNotes" | "mistakeDone" | "mains" | "learn">>) => void;
+  restore: (s: Pick<AppState, "profile" | "theme" | "attempts" | "qstats" | "bookmarks" | "activeDays"> & Partial<Pick<AppState, "mistakeTags" | "mistakeNotes" | "mistakeDone" | "mains" | "learn" | "drill">>) => void;
   setInstallPrompt: (s: AppState["installPrompt"]) => void;
   resetAll: () => void;
 }
@@ -76,6 +81,7 @@ const initial = {
   mistakeDone: {} as Record<number, number>,
   learn: emptyLearn(),
   mains: {} as Record<string, MainsEntry>,
+  drill: { start: null, done: {} } as DrillState,
 };
 
 export const useApp = create<AppState>()(
@@ -89,6 +95,8 @@ export const useApp = create<AppState>()(
           else delete next[id];
           return { mistakeTags: next };
         }),
+      setDrillStart: (start) => set((s) => ({ drill: { ...s.drill, start } })),
+      toggleDrillQ: (key) => set((s) => ({ drill: toggleDrill(s.drill, key) })),
       syncLearn: (queue, todayKey) => set((s) => ({ learn: rollDay(s.learn, todayKey, queue) })),
       setPerDay: (n, queue) => set((s) => ({ learn: topUp({ ...s.learn, perDay: n }, queue) })),
       learnOneMore: (queue) => set((s) => ({ learn: learnMore(s.learn, queue) })),

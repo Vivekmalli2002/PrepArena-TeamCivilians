@@ -1,0 +1,4410 @@
+[
+ {
+  "day": 1,
+  "paper": 2,
+  "rank": 1,
+  "theme": "Indus Valley / Vedic / Early India",
+  "recurrence": "Ancient-India Q1 slot in all 8 cycles",
+  "slot": "Q1(a)/(b)",
+  "ab": "Take the Harappan/Vedic side over the Chinese-travellers or Buddhism side unless the Buddhism part asks plain 'teachings'. Fixed facts, easy 3 pages.",
+  "reading": [
+   {
+    "years": "2025 1(a)",
+    "q": "Discuss the origin and expansion of the Indus Valley Civilization."
+   },
+   {
+    "years": "2012 1(a); 2020 1(a)",
+    "q": "Give a detailed account of Harappan town planning and evaluate the reasons for its decline."
+   },
+   {
+    "years": "2023 1(a)",
+    "q": "Examine the survival and continuity of Harappan culture in the present times."
+   },
+   {
+    "years": "2011 1(a); 2017 1(a); 2008 1(a)",
+    "q": "Compare the salient features of the Indus and Vedic civilisations. In what respects did the Harappan civilisation differ from the Later Vedic?"
+   }
+  ],
+  "other": "Origin and expansion (2025); town planning (2020, 2012); decline (2012); survival and continuity (2023); Harappan vs Later Vedic (2017); Indus vs Vedic (2011); Early vs Later Vedic (2008); Magadhan imperialism (2008); Chinese travellers (2023)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Decline theories",
+    "q": "Critically evaluate the competing theories on the decline of the Harappan civilisation: climate change, drying of the Ghaggar-Hakra, floods and Aryan invasion."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Religion and society",
+    "q": "Describe the religious beliefs, social organisation and gender roles of the Harappan people as reconstructed from archaeological evidence."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Examine the trade, seals and external contacts of the Harappans with Mesopotamia and the Gulf. What do they reveal about the Harappan economy?"
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Regional sites",
+    "q": "Discuss the significance of Dholavira, Lothal and Rakhigarhi in understanding Harappan urbanism, water management and maritime trade."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Vedic polity",
+    "q": "Examine the political institutions of the Vedic period (sabha, samiti, vidatha) and the evolution of kingship from the Early to the Later Vedic age."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Later Vedic economy",
+    "q": "Trace the transition from a pastoral to an agrarian economy in the Later Vedic period and its social consequences, including varna formation and the use of iron."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Mahajanapadas",
+    "q": "Discuss the rise of the sixteen Mahajanapadas and the second urbanisation of the Gangetic plains."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Craft and technology",
+    "q": "Evaluate Harappan achievements in craft technology, metallurgy, standardised weights and measures and the undeciphered script."
+   },
+   {
+    "n": 9,
+    "tier": "reserve",
+    "tag": "Mauryan state",
+    "q": "Assess the Mauryan administration under Chandragupta and Ashoka with reference to the Arthashastra and the Ashokan edicts."
+   },
+   {
+    "n": 10,
+    "tier": "reserve",
+    "tag": "Gupta age",
+    "q": "Why is the Gupta period called the classical age? Examine its achievements in science, art and literature."
+   }
+  ]
+ },
+ {
+  "day": 2,
+  "paper": 3,
+  "rank": 1,
+  "theme": "Federalism and Centre-State Relations",
+  "recurrence": "Appeared in all 8 cycles",
+  "slot": "Q1-2, Q11-12",
+  "ab": "Always take a federalism option when offered, even over Parliament procedure.",
+  "reading": [
+   {
+    "years": "2020 2(a)",
+    "q": "Why did we adopt federalism with a strong central government? Explain the provisions that create a strong Centre."
+   },
+   {
+    "years": "2016 12(a)",
+    "q": "What is the concept of cooperative federalism? Does it exist in Indian polity?"
+   },
+   {
+    "years": "2023 1(b)",
+    "q": "Explain the genesis of the Inter-State Council and discuss its relevance for Centre-State coordination."
+   },
+   {
+    "years": "2017 11(b); 2016 11(a)",
+    "q": "'In spite of unitary features of the Constitution, federalism survived in India.' Comment."
+   }
+  ],
+  "other": "Strong Centre reasons (2020); duties on States (2025); cooperative federalism (2016); Inter-State Council (2023, 2017); federal in form, unitary in spirit (2016); federalism survived (2017); is India a federation (2008); functions with States, resources with Centre (2008); financial relations (2016); administrative relations and water disputes (2012); Union control over States (2011); conflict between Union and State law (2011)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Legislative relations",
+    "q": "Examine the distribution of legislative powers under the Seventh Schedule and Parliament's power to legislate on the State List."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Water disputes",
+    "q": "Discuss the constitutional and statutory mechanisms for resolving inter-State water disputes (Article 262, tribunals) with reference to the Krishna and Godavari."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Examine the role of NITI Aayog and the GST Council as instruments of cooperative federalism. Do they strengthen or dilute State autonomy?"
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Sarkaria and Punchhi",
+    "q": "Evaluate the recommendations of the Sarkaria and Punchhi Commissions on Centre-State relations."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Asymmetric federalism",
+    "q": "Examine asymmetric federalism in India with reference to Article 371 and the Sixth Schedule."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Delimitation",
+    "q": "Discuss the delimitation issue and the federal concerns of the southern States."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "All India Services",
+    "q": "Discuss the role of the All India Services in the federal structure."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Zonal councils",
+    "q": "Evaluate the role of Zonal Councils and the Inter-State Council in resolving federal disputes."
+   }
+  ]
+ },
+ {
+  "day": 3,
+  "paper": 4,
+  "rank": 1,
+  "theme": "Deficits, FRBM and Public Debt",
+  "recurrence": "Appeared in all 8 cycles",
+  "slot": "Q2, Q4-5",
+  "ab": "Always pick deficits/public debt: formula-based, value-addition rich.",
+  "reading": [
+   {
+    "years": "2025 4(b); 2020 4(b)",
+    "q": "Define the term 'deficit' in government finance. Explain the types of deficits and their economic implications."
+   },
+   {
+    "years": "2023 14(a); 2020 2(b)",
+    "q": "Explain the reasons for higher public debt in India and discuss the scope of public debt sustainability."
+   },
+   {
+    "years": "2016 5(a); 2016 5(b)",
+    "q": "Describe the highlights of the FRBM Act 2003; explain revenue and effective revenue deficit."
+   },
+   {
+    "years": "2025 2(b)",
+    "q": "Differentiate between internal and external public debt, with advantages and risks for a developing country."
+   }
+  ],
+  "other": "Types of deficits (2025, 2020); public debt trends (2020); causes of higher public debt and sustainability (2023); FRBM (2016); effective revenue deficit (2016); internal vs external debt (2025); causes and consequences of public debt since 1991 (2017); types of public expenditure and budget (2025); public debt for development (2012)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Glide path",
+    "q": "Discuss the fiscal glide path and the quality of expenditure (capital versus revenue)."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Financing",
+    "q": "Explain the instruments of deficit financing: market borrowings, monetisation and Ways and Means Advances."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Examine the shift from deficit targets to a debt-to-GDP anchor in the fiscal roadmap and its implications for the States."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "State debt",
+    "q": "Examine the debt-GSDP position of the States and the problem of guarantees."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Crowding out",
+    "q": "Does public debt crowd out private investment? Discuss the Ricardian equivalence."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Off-budget",
+    "q": "Discuss off-budget borrowings and contingent liabilities and their implications for transparency."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Budget types",
+    "q": "Explain zero-based budgeting and outcome budgeting."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Debt anchor",
+    "q": "Evaluate the proposal to replace deficit targets with a debt-to-GDP anchor."
+   }
+  ]
+ },
+ {
+  "day": 4,
+  "paper": 5,
+  "rank": 1,
+  "theme": "Space Technology and ISRO",
+  "recurrence": "Appeared in all 8 cycles",
+  "slot": "Q2-3, Q5, Q10",
+  "ab": "ISRO options carry facts you already know from newspapers. Always pick them.",
+  "reading": [
+   {
+    "years": "2020 3(b); 2017 3(b)",
+    "q": "Explain GEO, LEO, MEO and SSO orbits with diagrams. Distinguish GSLV from PSLV."
+   },
+   {
+    "years": "2023 3(a)",
+    "q": "What is Space Junk? Discuss its challenges and risks. What do you know about Project NETRA?"
+   },
+   {
+    "years": "2023 3(b)",
+    "q": "Why is India's space industry seeking private investment even though ISRO is a successful PSU?"
+   },
+   {
+    "years": "2025 5(a); 2020 3(a)",
+    "q": "Describe the role of the IRS satellite programme in natural resource management; give a brief history of ISRO and its missions."
+   }
+  ],
+  "other": "ISRO history, centres, Mangalyaan and Chandrayaan (2020, 2011); GEO, LEO, MEO, SSO (2020); GSLV vs PSLV (2017, 2020); space junk and NETRA (2023); private investment (2023); weather and disaster (2023); IRS satellites (2025, 2011); GPS and India's own system (2017, 2012); space for education (2020); satellites and rural India (2011, 2008); CARTOSAT, INSAT bands (2012); Mars Orbiter Mission (2016); FSS and MSS (2016)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "NavIC",
+    "q": "Discuss NavIC and its applications and compare it with GPS."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Commercialisatio n",
+    "q": "Examine IN-SPACe, NSIL and the Space Policy for private participation."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Explain the scientific objectives and strategic significance of Chandrayaan-3 and Gaganyaan, and the plan for an Indian space station."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Launch vehicles",
+    "q": "Discuss the cryogenic engine and the reusable launch vehicle programme."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Aditya L1",
+    "q": "Discuss the scientific objectives of Aditya-L1 and the significance of the Sun-Earth L1 point."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Space and security",
+    "q": "Discuss Mission Shakti (ASAT) and the Outer Space Treaty."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Sriharikota",
+    "q": "Discuss the importance of Sriharikota for India's space programme and the scope for a space park in AP."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Space start-ups",
+    "q": "Discuss India's space start-ups and the economics of small satellite launches."
+   },
+   {
+    "n": 9,
+    "tier": "reserve",
+    "tag": "Telemedicine",
+    "q": "Discuss the role of satellite technology in telemedicine and tele-education."
+   }
+  ]
+ },
+ {
+  "day": 5,
+  "paper": 2,
+  "rank": 2,
+  "theme": "Ancient Andhra: Satavahana, Ikshvaku, Eastern Chalukya",
+  "recurrence": "Q6 slot in 7 of 8 cycles (absent only in 2025)",
+  "slot": "Q6(a)/(b)",
+  "ab": "Pick the Satavahana option whenever offered (asked 2023, 2020, 2017, 2012, 2011, 2008). Chalukya is the fallback.",
+  "reading": [
+   {
+    "years": "2023 6(a); 2012 6(a)",
+    "q": "Discuss the socio-religious conditions during the Satavahana period with special reference to the prominence given to women."
+   },
+   {
+    "years": "2020 6(a)",
+    "q": "Discuss the salient features of the agrarian system under the Satavahanas."
+   },
+   {
+    "years": "2023 6(b); 2016 6(b)",
+    "q": "Explain the restructuring of socio-religious life under the Eastern Chalukyas with reference to immigration, caste mobility and social awakening."
+   },
+   {
+    "years": "2016 6(a)",
+    "q": "Briefly describe the political fortunes and cultural contribution of the Ikshvakus."
+   }
+  ],
+  "other": "Satavahana social structure (2012); socio-economic and religious conditions (2011); religion and literature (2017); origin and expansion (2017); agrarian system (2020); women (2023); Telugu language under Satavahanas (2008); post-Satavahana conditions (2012); Ikshvakus (2016); Eastern Chalukya society, culture and political significance (2020, 2017, 2016, 2008); Pallava art (2020); Buddhism in ancient Andhra (2011)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Origin and chronology",
+    "q": "Examine the controversy over the origin and chronology of the Satavahanas and the role of Gautamiputra Satakarni in restoring their power."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Administration",
+    "q": "Discuss the administrative and military organisation of the Satavahanas, including the Ahara and Gaulmika systems."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Assess the maritime trade of the Satavahanas (Ghantasala, Kottapatnam, Roman contacts) and its effect on the economy and urbanisation of Andhra."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Coinage",
+    "q": "Assess Satavahana coinage (lead, potin, silver) as a source of history and as evidence of trade."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Amaravati art",
+    "q": "Discuss the Amaravati school of art and the Buddhist chaityas and stupas of the Satavahana-Ikshvaku period."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Prakrit literature",
+    "q": "Evaluate Hala's Gathasaptasati and the Prakrit literary tradition under the Satavahanas."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Between dynasties",
+    "q": "Discuss the Salankayanas and Vishnukundins and their contribution to Andhra culture between the Ikshvakus and the Eastern Chalukyas."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Eastern Chalukya politics",
+    "q": "Examine the political history of the Vengi Chalukyas, the Chola-Chalukya relationship and the role of Rajaraja Narendra in the rise of Telugu literature."
+   },
+   {
+    "n": 9,
+    "tier": "reserve",
+    "tag": "Eastern Chalukya economy",
+    "q": "Examine agrarian expansion, irrigation and trade guilds under the Eastern Chalukyas."
+   }
+  ]
+ },
+ {
+  "day": 6,
+  "paper": 3,
+  "rank": 2,
+  "theme": "Judicial Review, Judicial Activism, PIL, Basic Structure",
+  "recurrence": "Appeared in all 8 cycles",
+  "slot": "Q5, Q13",
+  "ab": "Judicial review/PIL options carry case-law value additions. Take them over Parliament-procedure options.",
+  "reading": [
+   {
+    "years": "2023 5(a); 2020 1(b)",
+    "q": "Discuss the scope of Judicial Review over administrative action, legislation and judicial decisions."
+   },
+   {
+    "years": "2023 5(b)",
+    "q": "What is Public Interest Litigation? Describe the nature of court orders in PIL cases."
+   },
+   {
+    "years": "2020 5(a); 2016 13(a)",
+    "q": "Define judicial activism with reference to PIL and SAL. Justify its manifold impact on the political system."
+   },
+   {
+    "years": "2016 14(b); 2011 14(b)",
+    "q": "What does the Supreme Court hold to constitute the 'basic structure'? Name important judgments."
+   }
+  ],
+  "other": "Quadri classification (2020); scope of review (2023); PIL orders (2023); activism, PIL and SAL (2020); impact of activism (2016); review vs activism (2017); basic structure (2016, 2011); amendments affecting the judiciary (2025); review of administrative action (2012); novel trends (2008); Administrative Tribunals (2023)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Independence",
+    "q": "Examine the constitutional safeguards for the independence of the judiciary."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Contempt",
+    "q": "Discuss contempt of court and its relationship with free speech."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Judicial overreach versus judicial restraint: examine with reference to the NJAC verdict and the collegium system."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Judicial accountability",
+    "q": "Discuss judicial accountability, impeachment and the in-house mechanism."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Ninth Schedule",
+    "q": "Examine the Ninth Schedule and the I.R. Coelho (2007) judgment."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Tribunals",
+    "q": "Evaluate tribunal reforms with reference to L. Chandra Kumar and the Tribunals Reforms Act 2021."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Access to justice",
+    "q": "Discuss Lok Adalats, Nyaya Panchayats and NALSA in improving access to justice."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Writs",
+    "q": "Distinguish the writ jurisdictions under Articles 32 and 226 and explain the five writs with examples."
+   },
+   {
+    "n": 9,
+    "tier": "reserve",
+    "tag": "Pendency",
+    "q": "Examine the problem of case pendency in Indian courts and suggest reforms."
+   }
+  ]
+ },
+ {
+  "day": 7,
+  "paper": 4,
+  "rank": 2,
+  "theme": "Finance Commissions and Fiscal Relations",
+  "recurrence": "Appeared in 7 of 8 cycles",
+  "slot": "Q4-5, Q15",
+  "ab": "Finance Commission is the single most repeated Paper IV question. Pick it every time.",
+  "reading": [
+   {
+    "years": "2025 5(b); 2023 4(b)",
+    "q": "Discuss the key recommendations of the Fifteenth Finance Commission and the progress of fiscal consolidation."
+   },
+   {
+    "years": "2020 4(a); 2017 13(b)",
+    "q": "What are the recommendations of the Fourteenth Finance Commission on local government grants, fiscal deficit and FRBM?"
+   },
+   {
+    "years": "2025 5(a)",
+    "q": "Discuss the role of the State Finance Commission in AP and its significance for fiscal decentralisation."
+   },
+   {
+    "years": "2025 15(a); 2011 5(a)",
+    "q": "Discuss the significance of the latest Finance Commission's recommendations for Union-State fiscal relations."
+   }
+  ],
+  "other": "15th FC recommendations (2025, 2023); 14th FC grants, deficit and FRBM (2020); State Finance Commission AP (2025); latest FC (2025); role of FC (2011); tax devolution to AP (2012)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Horizontal devolution",
+    "q": "Examine the horizontal devolution criteria of the Fifteenth Finance Commission and the concerns of the southern States."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Grants",
+    "q": "Discuss the performance-based and sector-specific grants of the Fifteenth Finance Commission."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Evaluate the Sixteenth Finance Commission's terms of reference and the demand for special assistance for AP."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Revenue deficit grants",
+    "q": "Examine the rationale for revenue deficit grants after devolution and their phase-out."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Local grants",
+    "q": "Discuss the Finance Commission grants for health and local bodies."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Borrowing",
+    "q": "Discuss the borrowing limits for States recommended by the Finance Commission."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Terms of reference",
+    "q": "Evaluate the Sixteenth Finance Commission's terms of reference and the demands of Andhra Pradesh."
+   }
+  ]
+ },
+ {
+  "day": 8,
+  "paper": 5,
+  "rank": 2,
+  "theme": "ICT, E-Governance and Digital India",
+  "recurrence": "Appeared in all 8 cycles",
+  "slot": "Q2-4, Q11",
+  "ab": "Pick e-governance/Digital India: same facts feed Paper III.",
+  "reading": [
+   {
+    "years": "2025 3(a)",
+    "q": "Discuss the evolution of e-governance in India and how it has transformed public service delivery."
+   },
+   {
+    "years": "2025 4(a)",
+    "q": "Discuss the objectives and features of the National Policy on Information Technology, 2012."
+   },
+   {
+    "years": "2017 1(a)",
+    "q": "What is Big Data? Discuss India's initiatives, challenges and constraints."
+   },
+   {
+    "years": "2020 2(a)",
+    "q": "What is UIDAI? How has it used IT to improve targeted delivery of government benefits (DBT)?"
+   }
+  ],
+  "other": "Evolution of e-governance (2025); National IT Policy 2012 (2025); digital platforms and accountability (2023); Atmanirbhar IT sector (2023); UIDAI and DBT (2020); NeGP (2020); Big Data (2017); IoT (2017); PMGDISHA (2017); IT in rural development (2012); IT in rural India (2011, 2008); software industry (2012, 2008); Cloud and AP Fiber Grid (2016); NDSAP (2016)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Digital India",
+    "q": "Examine the nine pillars of the Digital India programme."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "5G",
+    "q": "Discuss the rollout of 5G and its implications for the economy."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Examine India Stack (Aadhaar, UPI, DigiLocker, ONDC) as digital public infrastructure and its global export."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Data localisation",
+    "q": "Discuss data localisation and the issues of cross-border data flow."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "BharatNet",
+    "q": "Discuss the digital divide and the role of BharatNet."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "E-governance models",
+    "q": "Explain the models of e-governance (G2C, G2B, G2G) with examples such as UMANG and DigiLocker."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "AP RTGS",
+    "q": "Evaluate AP's use of real-time governance and technology in service delivery."
+   }
+  ]
+ },
+ {
+  "day": 9,
+  "paper": 2,
+  "rank": 3,
+  "theme": "Medieval Andhra: Kakatiya, Reddi, Vijayanagara, Qutb Shahi",
+  "recurrence": "Q7 slot in all 8 cycles",
+  "slot": "Q7(a)/(b)",
+  "ab": "Choose Vijayanagara or Kakatiya over Reddi/Qutb Shahi. Telugu-literature options are safe only if you know the poets (Nannaya, Molla, Srinatha).",
+  "reading": [
+   {
+    "years": "2025 8(a)",
+    "q": "Discuss the growth of various Saivite sects during Kakatiya rule."
+   },
+   {
+    "years": "2025 8(b)",
+    "q": "Discuss the significance of the Warangal Fort complex as a historical monument."
+   },
+   {
+    "years": "2023 7(a); 2008 2(b)",
+    "q": "Examine the socio-religious and cultural life of the Vijayanagara kingdom with reference to the writings of foreign travellers."
+   },
+   {
+    "years": "2023 7(b); 2012 7(b)",
+    "q": "Examine the socio-cultural and religious conditions of the Reddi kingdoms with reference to the development of Telugu literature."
+   }
+  ],
+  "other": "Saivite sects (2025); Warangal Fort (2025); Vijayanagara foreign travellers (2023); Reddi kingdoms and Telugu literature (2023); Kakatiya architecture and irrigation (2012); socio-economic conditions of medieval Andhra (2011); Telugu literature 1000-1500 AD (2017); women poets (2012); Qutb Shahi contribution (2016, 2011); poet Molla (2016); Nannaya (2008); Vijayanagara architecture (2020, 2017); cultural contribution (2016); literary movement (2020); social and economic conditions (2008); Asaf Jahi dynasty (2008)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Kakatiya administration",
+    "q": "Discuss the Nayaka and Sthala system of Kakatiya administration and the status of women under Rudramadevi."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Kakatiya tanks",
+    "q": "Evaluate Kakatiya irrigation tanks (Ramappa, Pakhal, Laknavaram) and their relevance for water management today."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Discuss the Nayankara (Amaranayaka) system of Vijayanagara and its administrative and revenue impact in Andhra."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Kakatiya dance and sculpture",
+    "q": "Examine Kakatiya sculpture and the dance tradition (Perini Sivatandavam, Jayapasenani's Nritta Ratnavali)."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Krishnadevaraya",
+    "q": "Evaluate the political, military and cultural achievements of Krishnadevaraya and the Ashtadiggajas."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Talikota and decline",
+    "q": "Discuss the causes of the decline of Vijayanagara and the significance of the battle of Talikota (1565)."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Vijayanagara economy",
+    "q": "Discuss the urban centres, trade and maritime commerce of the Vijayanagara empire."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Qutb Shahi culture",
+    "q": "Examine the composite culture under the Qutb Shahis, with reference to Golconda, the founding of Hyderabad and Charminar."
+   },
+   {
+    "n": 9,
+    "tier": "reserve",
+    "tag": "Reddi literature",
+    "q": "Assess the contribution of the Reddi kings and of Srinatha to Telugu literature."
+   },
+   {
+    "n": 10,
+    "tier": "reserve",
+    "tag": "Lepakshi and Srisailam",
+    "q": "Discuss Lepakshi and Srisailam as expressions of Vijayanagara temple art in Andhra."
+   }
+  ]
+ },
+ {
+  "day": 10,
+  "paper": 3,
+  "rank": 3,
+  "theme": "Parliament and State Legislature: Procedure, Powers, Privileges",
+  "recurrence": "Appeared in 6 of 8 cycles",
+  "slot": "Q2, Q4, Q13",
+  "ab": "Procedure questions (Bill to Act) are structured and can score full marks. Pick them over opinion-type governance questions.",
+  "reading": [
+   {
+    "years": "2025 4(a)",
+    "q": "What are the steps followed by Parliament in transforming a Bill into an Act?"
+   },
+   {
+    "years": "2025 4(b); 2023 4(b)",
+    "q": "In what aspects does the Legislative Council differ from the Rajya Sabha? In which matters is it equal or unequal to the Assembly?"
+   },
+   {
+    "years": "2020 4(a); 2016 13(b)",
+    "q": "Differentiate between the powers of the Lok Sabha and the Rajya Sabha on functions and control over elections."
+   }
+  ],
+  "other": "Bill to Act (2025); Legislative Council vs Rajya Sabha (2025, 2023); motions (2023); Lok Sabha vs Rajya Sabha (2020); privileges (2020, 2012, 2011); Rajya Sabha position (2016); deadlock in State legislature (2011); immunity of parliamentary proceedings (2011); declining debates (2008)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Money Bill",
+    "q": "Distinguish Money Bills, Financial Bills and Ordinary Bills, with reference to the Aadhaar judgment."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Ordinances",
+    "q": "Examine the ordinance-making power of the President and the Governor and its misuse."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Evaluate the working of the Tenth Schedule (anti-defection law) and the role of the Speaker as adjudicator."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Budget passage",
+    "q": "Explain the passage of the Budget in Parliament: vote on account, demands for grants and the guillotine."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Committees",
+    "q": "Discuss the role of Parliamentary committees (PAC, Estimates, DRSCs) in executive accountability."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Joint sitting",
+    "q": "Discuss the joint sitting of Parliament under Article 108."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Parliamentary devices",
+    "q": "Explain parliamentary devices: question hour, zero hour and the adjournment motion."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Delegated legislation",
+    "q": "Discuss delegated legislation and its judicial and parliamentary control."
+   }
+  ]
+ },
+ {
+  "day": 11,
+  "paper": 4,
+  "rank": 3,
+  "theme": "AP State Finances and Budget",
+  "recurrence": "Appeared in all 8 cycles",
+  "slot": "Q3, Q5, Q9",
+  "ab": "AP-specific data questions: pick them over national ones only if you have the latest Economic Survey / Budget numbers.",
+  "reading": [
+   {
+    "years": "2025 3(b)",
+    "q": "Explain the major sources of budgetary resources for AP. What challenges does it face?"
+   },
+   {
+    "years": "2020 3(a); 2016 9(a)",
+    "q": "Give an account of revenue and fiscal deficits and the debt position of AP, and the reasons for them."
+   },
+   {
+    "years": "2023 3(b); 2017 9(a)",
+    "q": "Discuss the impact of bifurcation on the economy of AP and the Central assistance provided."
+   },
+   {
+    "years": "2023 5(b)",
+    "q": "What is gender and child budgeting? Does AP follow it? Evaluate."
+   }
+  ],
+  "other": "Budgetary resources (2025); revenue and fiscal deficit and debt of AP (2020); AP budget 2020-21 (2020); central assistance (2020, 2017); bifurcation impact (2023); gender and child budgeting (2023); AP revenue trends (2017); budget 2016-17 (2016); tax devolution (2012); AP taxes (2008)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "GSDP",
+    "q": "Analyse the GSDP composition of AP and its per capita income relative to the national average."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Own tax revenue",
+    "q": "Examine AP's own tax revenue (SGST, excise, stamps) and non-tax revenue."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Examine AP's outstanding debt, off-budget borrowings and guarantees under FRBM, and suggest a consolidation roadmap."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Committed expenditure",
+    "q": "Examine committed expenditure (salaries, pensions, interest) and the sustainability of welfare transfers."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Central transfers",
+    "q": "Compare AP's share in central taxes and grants and the role of centrally sponsored schemes."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Capital expenditure",
+    "q": "Discuss capital expenditure and externally aided financing of AP's infrastructure, including the capital project."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Debt roadmap",
+    "q": "Examine AP's outstanding debt, off-budget borrowings and guarantees and suggest a consolidation roadmap."
+   }
+  ]
+ },
+ {
+  "day": 12,
+  "paper": 5,
+  "rank": 3,
+  "theme": "Energy: Renewable, Nuclear, Biofuels, Hydrogen",
+  "recurrence": "Appeared in all 8 cycles",
+  "slot": "Q4, Q9-11",
+  "ab": "Pick renewable/solar/nuclear. They are data-rich and recur.",
+  "reading": [
+   {
+    "years": "2023 11(b)",
+    "q": "What is the current scenario of renewable power generation in India? What factors drive the shift?"
+   },
+   {
+    "years": "2020 4(a); 2023 14(a)",
+    "q": "What is nuclear energy? What are its advantages? Why did India oppose the NPT?"
+   },
+   {
+    "years": "2020 11(b)",
+    "q": "What are biofuels and why are they important to India? What is the National Policy on Biofuels?"
+   },
+   {
+    "years": "2017 4(b)",
+    "q": "What are the benefits of Smart Grid? Examine the challenges and strategies for its operation in India."
+   }
+  ],
+  "other": "Conventional vs non-conventional energy (2025); Green Energy Corridors (2023); renewable power scenario (2023); nuclear energy (2020); No First Use and NPT (2023); clean energy (2020); solar (2020, 2017); biofuels (2020); energy mix (2017); Smart Grid (2017); renewable energy barriers (2016); shale gas (2016); nuclear power growth (2016); energy resources and challenges (2008)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Rooftop solar",
+    "q": "Evaluate PM Surya Ghar and PM-KUSUM in expanding solar adoption."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Offshore wind",
+    "q": "Discuss the potential of offshore wind and the national offshore wind policy."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Discuss the National Green Hydrogen Mission: objectives, challenges and the scope for AP as a hub."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Nuclear programme",
+    "q": "Explain India's three-stage nuclear programme and the role of thorium."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Private nuclear",
+    "q": "Evaluate private participation in nuclear power and the nuclear liability law."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Storage",
+    "q": "Discuss battery storage and pumped hydro for renewable integration."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "EVs",
+    "q": "Evaluate EV policy and the charging infrastructure in India."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Coal",
+    "q": "Discuss coal's role in India's energy security and the just transition."
+   }
+  ]
+ },
+ {
+  "day": 13,
+  "paper": 2,
+  "rank": 4,
+  "theme": "Formation of Andhra Pradesh, Telangana and Hyderabad Integration",
+  "recurrence": "Q9-10 slot in all 8 cycles",
+  "slot": "Q9/Q10",
+  "ab": "Pick the option with named events and dates (Gentlemen's Agreement, Sri Bagh, 1956 formation) over open 'role of X' questions.",
+  "reading": [
+   {
+    "years": "2025 10(a)",
+    "q": "What were the provisions of the Gentlemen's Agreement of 1956? How far could they satisfy the apprehensions of Telangana?"
+   },
+   {
+    "years": "2020 9(b); 2017 9(b); 2008 10(b)",
+    "q": "Critically explain the circumstances that led to the formation of Andhra Pradesh in the 1950s."
+   },
+   {
+    "years": "2016 10(a); 2012 10(b)",
+    "q": "Trace the reasons for the success and subsequent failure of the Telangana people's armed struggle. How was Hyderabad integrated into the Indian Union?"
+   }
+  ],
+  "other": "Gentlemen's Agreement (2025); students in 1969 agitation (2025); formation of AP in 1950s (2020, 2017, 2011, 2008); Telangana armed struggle (2016); Razakars (2016); integration of Hyderabad (2012); Ittehadul Muslimeen (2008); Asaf Jahi dynasty (2008); Andhra Mahasabha (2016); financial problems of reorganisation (2017); Schedule IX and X assets (2017)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Dar and JVP committees",
+    "q": "Examine the role of the Dar Commission and the JVP Committee in the Andhra State demand."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "SRC 1955",
+    "q": "Evaluate the recommendations of the States Reorganisation Commission (1955) on Hyderabad State and the Telangana region."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Evaluate the role of the Sri Bagh Pact (1937) and Potti Sriramulu's fast in the creation of Andhra State in 1953."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Mulki rules",
+    "q": "Discuss the Mulki Rules, the Six-Point Formula (1973) and the Presidential Order (1975) in the context of regional grievances."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Jai Andhra",
+    "q": "Assess the causes and consequences of the Jai Andhra Movement of 1972."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Operation Polo",
+    "q": "Examine the circumstances and consequences of Operation Polo (1948) for Hyderabad State."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "2009-2014",
+    "q": "Trace the events from the 2009 announcement to the passage of the AP Reorganisation Act 2014, with reference to the Srikrishna Committee."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Comparative movements",
+    "q": "Compare the 1969 and 2009-14 Telangana movements in leadership, demands and outcomes."
+   }
+  ]
+ },
+ {
+  "day": 14,
+  "paper": 3,
+  "rank": 4,
+  "theme": "NGOs, Civil Society and Statutory / Quasi-Judicial Bodies",
+  "recurrence": "Appeared in 7 of 8 cycles",
+  "slot": "Q8-9, Q15",
+  "ab": "NCW, HRC, NCSC and similar commission questions repeat across years. Take them if offered.",
+  "reading": [
+   {
+    "years": "2025 8(a); 2020 8(a)",
+    "q": "What do you understand by civil society in the Indian context? Discuss its features and limitations."
+   },
+   {
+    "years": "2023 8(b); 2025 8(b)",
+    "q": "Comment on the role of NGOs in promoting human rights and women's empowerment in India."
+   },
+   {
+    "years": "2025 9(a); 2012 15(b); 2017 15(b)",
+    "q": "Under which Act was the National Commission for Women established? Describe its features and limitations."
+   }
+  ],
+  "other": "Civil society (2025, 2020); NGOs and women (2025); NCW (2025, 2017, 2012); quasi-judicial bodies (2025, 2020); statutory bodies (2020); tribunals (2023); NGOs and human rights (2023); UN and civil society (2020); Human Rights Commission (2011); NCSC (2008); SC/ST Atrocities Act (2012); RTI and civil society (2023)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "NHRC",
+    "q": "Evaluate the National Human Rights Commission: composition, powers and limitations."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "SC/ST commissions",
+    "q": "Discuss the constitutional commissions for SCs, STs and backward classes under Articles 338, 338A and 338B."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Analyse the Foreign Contribution (Regulation) Act and its effect on the functioning of NGOs."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Minorities",
+    "q": "Examine the role of the National Commission for Minorities."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Constitutional vs statutory",
+    "q": "Distinguish constitutional and statutory bodies with examples."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "SHGs",
+    "q": "Discuss the role of Self-Help Groups as civil-society institutions."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "NGO accountability",
+    "q": "Examine the regulation, transparency and accountability of NGOs in India."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "SDGs",
+    "q": "How can civil society contribute to the implementation of the SDGs?"
+   }
+  ]
+ },
+ {
+  "day": 15,
+  "paper": 4,
+  "rank": 4,
+  "theme": "Monetary Policy, RBI and Inflation",
+  "recurrence": "Appeared in 6 of 8 cycles",
+  "slot": "Q2, Q4, Q13",
+  "ab": "Take monetary policy over fiscal-tool or exchange-rate options in the same pair.",
+  "reading": [
+   {
+    "years": "2025 2(a)",
+    "q": "Discuss the key instruments of Monetary Policy and Fiscal Policy and their role in inflation management."
+   },
+   {
+    "years": "2023 2(a)",
+    "q": "What is Monetary Policy Transmission? Explain the issues experienced and steps to overcome them."
+   },
+   {
+    "years": "2023 13(a); 2012 4(a)",
+    "q": "Explain the effects of low global growth and high global inflation on India. Discuss methods to control inflation."
+   }
+  ],
+  "other": "Key instruments (2025); monetary policy transmission (2023); global growth and inflation (2023); exchange rate and RBI (2023); policy framework committee (2016); RBI and rising prices (2012); NBFC regulation (2012); RBI credit control (2011); objectives of monetary policy (2008)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Regulator",
+    "q": "Discuss the role of the RBI as bank regulator: CRR, SLR, Basel norms and Prompt Corrective Action."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "MCLR to EBLR",
+    "q": "Explain the shift from MCLR to the External Benchmark Lending Rate and the improvement in transmission."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Explain the Monetary Policy Committee and flexible inflation targeting (4 percent +/- 2) and evaluate its performance."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Inflation measures",
+    "q": "Compare CPI and WPI as measures of inflation and discuss the revision of the CPI base."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Liquidity tools",
+    "q": "Explain liquidity management tools: LAF, MSF, OMO and VRRR."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Forex reserves",
+    "q": "Discuss India's foreign exchange reserves and the RBI's intervention."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "CBDC",
+    "q": "Discuss the e-Rupee (CBDC): objectives, design and risks."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Shadow banking",
+    "q": "Examine the NBFC sector and lessons from the IL&FS crisis."
+   }
+  ]
+ },
+ {
+  "day": 16,
+  "paper": 5,
+  "rank": 4,
+  "theme": "Climate Change and Global Agreements",
+  "recurrence": "Appeared in all 8 cycles",
+  "slot": "Q5-6, Q11, Q13, Q15",
+  "ab": "Pick the global-warming or Paris/COP option: easy to link to Paper I.",
+  "reading": [
+   {
+    "years": "2025 11(a); 2023 5(a)",
+    "q": "Define global warming and differentiate it from climate change. Explain causes and the role of climate-smart agriculture."
+   },
+   {
+    "years": "2023 13(a)",
+    "q": "What happens if the world passes the 1.5 degree Celsius climate threshold?"
+   },
+   {
+    "years": "2023 6(a); 2023 15(a)",
+    "q": "What mitigation activities has India taken under the Paris Agreement? Why did India not sign the COP26 pledge on deforestation?"
+   }
+  ],
+  "other": "Global warming vs climate change (2025); climate-smart agriculture (2023); 1.5 degree threshold (2023); Paris mitigation and carbon credits (2023); COP26 pledge (2023); climate justice (2020); COP21 (2016); causes and effects of climate change (2012); NAPCC (2011); impact of climate change in India (2008)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "NDCs",
+    "q": "Evaluate India's updated NDC targets and progress toward them."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Net zero",
+    "q": "Discuss India's net zero 2070 goal and the Panchamrit commitments."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Explain the Carbon Credit Trading Scheme and the EU's CBAM and their implications for Indian exports."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Climate finance",
+    "q": "Discuss climate finance, loss and damage and the outcomes of recent COPs."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Glaciers",
+    "q": "Discuss glacier melt in the Himalaya and its consequences."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Sea level",
+    "q": "Examine the impact of sea-level rise on the coast of Andhra Pradesh."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Heatwaves",
+    "q": "Examine rising heatwaves in India and the role of Heat Action Plans."
+   }
+  ]
+ },
+ {
+  "day": 17,
+  "paper": 2,
+  "rank": 5,
+  "theme": "Social Reform and Caste / Dalit Movements",
+  "recurrence": "Q4 slot in 7 of 8 cycles (absent in 2025)",
+  "slot": "Q4(a)/(b)",
+  "ab": "Pick Ambedkar or a named reformer over a generic 'reform movements' question only if you can quote one work or date for each.",
+  "reading": [
+   {
+    "years": "2012 4(a); 2011 4(a)",
+    "q": "Explain the main features of the religious and social reform movements and evaluate their role in the making of modern India."
+   },
+   {
+    "years": "2020 4(b); 2016 4(b)",
+    "q": "Delineate the contribution of Dr B.R. Ambedkar to the upliftment of untouchables and labourers in colonial India."
+   },
+   {
+    "years": "2023 4(b)",
+    "q": "Assess the socio-religious reform movements in the Muslim community in the 19th century. Discuss the contribution of Sayyid Ahmad Khan."
+   },
+   {
+    "years": "2008 4(b); 2012 4(b)",
+    "q": "Bring out the nature and features of the anti-Brahmin and oppressed-caste movements in modern India."
+   }
+  ],
+  "other": "Features of reform movements (2012, 2011); Ambedkar and untouchables (2020); Ambedkar's constitutional methods (2016); Gandhi vs Ambedkar (2011); Muslim reform and Sayyid Ahmad Khan (2023); Vivekananda (2017); Narayana Guru (2017, 2011); Phule and Rammohan Roy (2011); anti-Brahmin movements (2008); oppressed-caste movements (2012); reform and women (2008); Justice Party (2020); Adi-Andhra (2011)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Rammohan Roy",
+    "q": "Evaluate the contribution of Raja Rammohan Roy to social and religious reform and the abolition of sati."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Samaj comparison",
+    "q": "Compare the Brahmo Samaj, Prarthana Samaj and Arya Samaj in ideology and methods."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Assess the contribution of Savitribai Phule and Pandita Ramabai to women's emancipation in 19th-century India."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Periyar",
+    "q": "Examine the Self-Respect Movement of Periyar E.V. Ramasamy and its impact on caste and gender in South India."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Deoband",
+    "q": "Discuss the Deoband and Wahabi movements and their responses to colonial rule."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Women's legislation",
+    "q": "Trace the legislative measures for women (Sati Regulation 1829, Widow Remarriage Act 1856, Age of Consent 1891, Sarda Act 1929) and assess their effectiveness."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Temple entry",
+    "q": "Assess the Vaikom Satyagraha and the temple-entry movement in the emancipation of the depressed classes."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Poona Pact",
+    "q": "Examine the Communal Award and the Poona Pact (1932) and the Gandhi-Ambedkar differences over them."
+   }
+  ]
+ },
+ {
+  "day": 18,
+  "paper": 3,
+  "rank": 5,
+  "theme": "Finance Commission and Fiscal Federalism",
+  "recurrence": "",
+  "slot": "",
+  "ab": "This is a cross-paper gift: the same answer works in Paper IV.",
+  "reading": [
+   {
+    "years": "2025 3(a)",
+    "q": "The Finance Commission is the backbone of fiscal federalism. Examine its role in maintaining financial balance between the Union and States."
+   },
+   {
+    "years": "2023 3(b)",
+    "q": "'The Finance Commission, though not permanent, maintains credibility by promoting fiscal democracy.' Comment."
+   },
+   {
+    "years": "2016 12(b); 2008 12(a)",
+    "q": "Comment on financial relations between the Union and States. What irritants are encountered?"
+   }
+  ],
+  "other": "Role and significance (2025); credibility (2023); 14th FC and rural local bodies (2017); financial relations and irritants (2016); functions with States, resources with Centre (2008)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Article 280",
+    "q": "Explain the constitutional provisions on the Finance Commission (Articles 268-293)."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Devolution formula",
+    "q": "Examine the vertical and horizontal devolution formula of the Fifteenth Finance Commission."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Sixteenth Finance Commission: examine the southern States' concern on devolution criteria (population versus performance)."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Cess and surcharge",
+    "q": "Discuss the rise of cesses and surcharges outside the divisible pool and their impact on States."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "GST Council",
+    "q": "Examine the GST Council and the fiscal autonomy of States."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Centrally sponsored schemes",
+    "q": "Evaluate the rationalisation of centrally sponsored schemes and conditional grants."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Local bodies",
+    "q": "Discuss the role of State Finance Commissions in strengthening local governments."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Borrowing",
+    "q": "Discuss Article 293 and State borrowing limits under the FRBM framework."
+   }
+  ]
+ },
+ {
+  "day": 19,
+  "paper": 4,
+  "rank": 5,
+  "theme": "Agriculture: Productivity, Markets, Credit, MSP",
+  "recurrence": "Appeared in all 8 cycles",
+  "slot": "Q1, Q7-9, Q15",
+  "ab": "Pick APMC/e-NAM/MSP over theory questions like rainbow revolution: current-affairs value.",
+  "reading": [
+   {
+    "years": "2020 1(b)",
+    "q": "Highlight the major factors leading to low agricultural productivity in India."
+   },
+   {
+    "years": "2025 9(a)",
+    "q": "Explain the role of the APMC Act in agricultural price policy and market regulation."
+   },
+   {
+    "years": "2023 15(b); 2020 7(a)",
+    "q": "Explain the regulation of agricultural markets and the scope of the e-National Agriculture Market."
+   },
+   {
+    "years": "2025 9(b); 2023 7(a)",
+    "q": "Examine agriculture finance, production and marketing and the types and sources of agricultural credit."
+   }
+  ],
+  "other": "Low productivity (2020); APMC Act (2025); agricultural markets and e-NAM (2023, 2020); agri finance, production, marketing (2025); agricultural credit (2023); rainbow revolution (2023, 2020); sustainable agriculture (2025, 2023); Green Revolution (2020, 2008); Vision 2020 agriculture (2020); evergreen revolution (2012); price administration (2008)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Land reforms",
+    "q": "Examine tenancy reforms and consolidation of holdings, with reference to the Model Land Leasing Act."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Irrigation",
+    "q": "Evaluate PMKSY and micro-irrigation in improving water-use efficiency."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Evaluate the legal-guarantee demand for MSP after the repeal of the 2020 farm laws and suggest a farmer-friendly price policy."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Income support",
+    "q": "Evaluate PM-KISAN and direct income support to farmers."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Crop insurance",
+    "q": "Evaluate the Pradhan Mantri Fasal Bima Yojana: design, claims and gaps."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Food security",
+    "q": "Discuss the National Food Security Act, buffer stocks and the One Nation One Ration Card."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "WTO",
+    "q": "Discuss public stockholding, MSP and India's position at the WTO."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Digital agriculture",
+    "q": "Discuss the use of drones, Agristack and digital agriculture."
+   },
+   {
+    "n": 9,
+    "tier": "reserve",
+    "tag": "Doubling income",
+    "q": "Evaluate the Dalwai Committee strategy to double farmers' income."
+   }
+  ]
+ },
+ {
+  "day": 20,
+  "paper": 5,
+  "rank": 5,
+  "theme": "Biotechnology: GMO, CRISPR, Genetic Engineering",
+  "recurrence": "Appeared in all 8 cycles",
+  "slot": "Q7-8, Q12-13",
+  "ab": "Pick GMO regulation or CRISPR: both repeat with policy hooks.",
+  "reading": [
+   {
+    "years": "2025 12(a); 2011 8(a)",
+    "q": "Explain the regulatory framework governing GMOs in India and assess its adequacy."
+   },
+   {
+    "years": "2020 7(b); 2020 8(b)",
+    "q": "Explain how CRISPR functions in nature and how it has been adapted; explain recombinant DNA technology."
+   },
+   {
+    "years": "2023 7(a); 2023 10(a)",
+    "q": "Biotechnology's blessing and curse: discuss with reference to GM crops and food security."
+   }
+  ],
+  "other": "GMO regulation (2025, 2011); NBDS (2025); genetic engineering (2025); CRISPR (2020); rDNA (2020); gene therapy and genome editing ethics (2020); biotech blessing and curse (2023); GM crops and food shortage (2023); gene transfer in GM crops (2017); stem cells and cloning (2012); transgenic animals (2012); GM crops arguments (2012); biofertilisers (2016, 2011); tissue culture and Golden Rice (2016); DNA fingerprinting (2016); LVHV products (2011, 2008)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "BioE3",
+    "q": "Discuss the BioE3 policy and the bioeconomy."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Gene therapy",
+    "q": "Discuss gene therapy and CAR-T cell therapy and India's progress."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Discuss India's first genome-edited crop varieties and the SDN-1/SDN-2 regulatory exemption."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Bt cotton",
+    "q": "Evaluate Bt cotton in India: success and pest resistance."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Biopiracy",
+    "q": "Discuss biopiracy, the Nagoya Protocol and access and benefit sharing."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Genome India",
+    "q": "Discuss the Genome India Project and personalised medicine."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Synthetic biology",
+    "q": "Discuss synthetic biology: promise and biosafety concerns."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Genome-edited crops",
+    "q": "Discuss India's first genome-edited crop varieties and the SDN-1 and SDN-2 regulatory exemption."
+   }
+  ]
+ },
+ {
+  "day": 21,
+  "paper": 2,
+  "rank": 6,
+  "theme": "British Economic Policy, Land Revenue and the 1857 Revolt",
+  "recurrence": "Q3-4 slot in all 8 cycles",
+  "slot": "Q3/Q4",
+  "ab": "Land revenue (Permanent Settlement, Ryotwari, Mahalwari) is data-rich: take it over missionary or EIC-founding options.",
+  "reading": [
+   {
+    "years": "2025 4(a)",
+    "q": "What do you understand by the Permanent Settlement? What impact did it have on Indian society?"
+   },
+   {
+    "years": "2023 4(a)",
+    "q": "Explain the land revenue systems introduced by the British and assess their impact on the Indian economy."
+   },
+   {
+    "years": "2016 3(b); 2017 3(b)",
+    "q": "Describe the nature and significance of the Revolt of 1857. Can it be called the First War of Independence?"
+   },
+   {
+    "years": "2008 3(a); 2012 3(a)",
+    "q": "Critically examine the impact of British colonial rule on the Indian economy."
+   }
+  ],
+  "other": "Permanent Settlement (2025); land revenue systems (2023); Revolt of 1857 nature (2016); impact of 1857 on British policy (2017); colonial impact on economy (2008); stages of colonialism (2012); British reforms (2011); Subsidiary Alliance (2020); EIC establishment (2025); missionaries (2025); EIC officials Munro, Cotton, Brown (2023); peasant movements (2023, 2016, 2011, 2008)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Deindustrialisatio n",
+    "q": "Examine the decline of Indian handicrafts and traditional industries under colonial rule."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Commercialisatio n",
+    "q": "Discuss the commercialisation of agriculture under the British and its link to famines."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Explain the 'drain of wealth' theory of Dadabhai Naoroji and its role in shaping the nationalist critique of colonial rule."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Railways",
+    "q": "Assess the economic and political impact of the railways introduced by the British."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Famines",
+    "q": "Examine British famine policy and the role of the Famine Commissions."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Constitutional development",
+    "q": "Trace constitutional development from the Regulating Act 1773 to the Government of India Act 1935."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Doctrine of Lapse",
+    "q": "Discuss the Doctrine of Lapse and the annexation policy of Dalhousie as causes of the Revolt of 1857."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Peasant revolts",
+    "q": "Examine the Indigo Revolt, the Deccan Riots and Bardoli as examples of peasant resistance."
+   },
+   {
+    "n": 9,
+    "tier": "reserve",
+    "tag": "Education policy",
+    "q": "Evaluate Macaulay's Minute (1835) and Wood's Despatch (1854) on Indian education."
+   }
+  ]
+ },
+ {
+  "day": 22,
+  "paper": 3,
+  "rank": 6,
+  "theme": "Fundamental Rights and DPSP",
+  "recurrence": "Appeared in 6 of 8 cycles",
+  "slot": "Q1, Q5, Q11",
+  "ab": "Article 19 and equality questions are definitional. Pick them over amendment-history questions.",
+  "reading": [
+   {
+    "years": "2023 1(a)",
+    "q": "Examine the scope of 'reasonable restrictions' and the test of reasonableness under Article 19."
+   },
+   {
+    "years": "2025 5(a)",
+    "q": "What constitutional arrangements protect and safeguard citizens' rights?"
+   },
+   {
+    "years": "2012 11(a); 2011 14(a)",
+    "q": "Explain the Right to Equality in light of the doctrine of reasonable classification; explain the right to property after the 44th Amendment."
+   }
+  ],
+  "other": "Article 19 reasonable restrictions (2023); constitutional protection of rights (2025); right to equality and reasonable classification (2012); right to property (2011); DPSP implementation (2016); relationship of FR and DPSP (2012); constitutional amendments on FR (2012)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Article 21",
+    "q": "Examine the expanding scope of Article 21 (privacy, dignity, clean environment)."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Reservation",
+    "q": "Discuss the validity of reservations with reference to Indra Sawhney and the EWS quota."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Examine the right to privacy (Puttaswamy) and its implications for data protection and Aadhaar."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Fundamental duties",
+    "q": "Discuss the significance and enforceability of Fundamental Duties."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Preventive detention",
+    "q": "Examine the safeguards under Article 22 against preventive detention."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Free speech",
+    "q": "Discuss freedom of speech and its limits: hate speech, sedition and defamation."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Education right",
+    "q": "Discuss Article 21A and the Right to Education Act 2009."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "UCC",
+    "q": "Examine the Uniform Civil Code debate in the light of recent developments."
+   }
+  ]
+ },
+ {
+  "day": 23,
+  "paper": 4,
+  "rank": 6,
+  "theme": "AP Agriculture, Fisheries and Allied Sectors",
+  "recurrence": "Appeared in all 8 cycles",
+  "slot": "Q8, Q10",
+  "ab": "Pick AP agriculture/SGDP over fisheries unless you know the schemes (PMMSY, AP Fisheries policy).",
+  "reading": [
+   {
+    "years": "2025 10(b); 2020 8(a)",
+    "q": "Discuss the role of agriculture in AP's development and its contribution to SGDP."
+   },
+   {
+    "years": "2025 10(a); 2023 8(b)",
+    "q": "What are the key drivers of fisheries growth? What schemes support it?"
+   },
+   {
+    "years": "2020 8(b); 2023 8(a)",
+    "q": "Give an account of the schemes implemented by AP to promote agriculture and farm mechanisation."
+   }
+  ],
+  "other": "Agriculture and SGDP (2025); fisheries drivers and schemes (2025); farm mechanisation (2023); marine fisheries (2023); AP agriculture schemes (2020); farmers' income (2020); AP crop trends (2017); Handri-Neeva (2017); farmers' debt redemption (2016); agriculture extension (2016); Polavaram (2016); irrigation disparities (2012)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Irrigation projects",
+    "q": "Evaluate Polavaram, Pattiseema and Handri-Neeva in AP's irrigation potential."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Horticulture",
+    "q": "Discuss AP as a horticulture hub: mango, citrus, oil palm, cashew."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Discuss natural farming (APCNF) in AP: objectives, achievements and scalability."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Aquaculture",
+    "q": "Discuss AP as the shrimp hub of India and the issues of disease and exports."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "RBKs",
+    "q": "Evaluate Rythu Bharosa Kendras in agricultural extension."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Tenant farmers",
+    "q": "Examine the credit access of tenant farmers and the Land Licensed Cultivators Act."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Livestock",
+    "q": "Discuss dairy and poultry as a source of income in AP."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Food processing",
+    "q": "Discuss mega food parks and the agro-processing industry in AP."
+   }
+  ]
+ },
+ {
+  "day": 24,
+  "paper": 5,
+  "rank": 6,
+  "theme": "Pollution, Solid Waste and E-Waste",
+  "recurrence": "Appeared in all 8 cycles",
+  "slot": "Q6, Q8, Q14",
+  "ab": "Cross-over with your AEE PCB prep: pick waste management every time.",
+  "reading": [
+   {
+    "years": "2025 8(b)",
+    "q": "What are the key principles of Integrated Solid Waste Management? Discuss the waste hierarchy."
+   },
+   {
+    "years": "2023 14(b)",
+    "q": "What are e-waste recycling practices in India? Discuss the E-Waste Management Rules 2022."
+   },
+   {
+    "years": "2020 14(a)",
+    "q": "What are the common and hazardous air pollutants? What is AQI?"
+   }
+  ],
+  "other": "ISWM and waste hierarchy (2025); e-waste (2023); AQI and pollutants (2020); MSW (2023, 2017); solid waste classification and landfills (2020); air and water legislation (2025); waste management in towns (2017); solid waste types (2016); pyrolysis and incineration (2016); noise pollution (2016); soil pollution (2016); air pollution control (2012, 2008); BOD and COD (2012); marine pollution (2011); urban governance and MSW (2011); PM2.5 (2017)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "NCAP",
+    "q": "Evaluate the National Clean Air Programme and the issue of stubble burning."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "River pollution",
+    "q": "Evaluate Namami Gange and the regulation of river pollution."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Discuss the Plastic Waste Management Rules and Extended Producer Responsibility (EPR) in India."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Waste to energy",
+    "q": "Discuss waste-to-energy plants and Swachh Bharat 2.0."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Microplastics",
+    "q": "Discuss microplastics and their impact on coastal and marine ecosystems."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Biomedical waste",
+    "q": "Discuss the Bio-Medical Waste Management Rules and the lessons of the pandemic."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Industrial effluents",
+    "q": "Discuss industrial effluents and the pollution control challenges at pharma clusters."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "EPR",
+    "q": "Discuss the Plastic Waste Management Rules and Extended Producer Responsibility."
+   }
+  ]
+ },
+ {
+  "day": 25,
+  "paper": 2,
+  "rank": 7,
+  "theme": "Gandhian Era, Quit India and Partition",
+  "recurrence": "Q5 nationalist-phase slot in all 8 cycles",
+  "slot": "Q5(a)/(b)",
+  "ab": "Pick Gandhi/Quit India over the Moderates question in the same pair: more points, better recall.",
+  "reading": [
+   {
+    "years": "2025 5(b)",
+    "q": "Describe the major movements led by Mahatma Gandhi between 1920 and 1947."
+   },
+   {
+    "years": "2020 5(b)",
+    "q": "Critically evaluate the impact of the Quit India Movement of 1942."
+   },
+   {
+    "years": "2020 5(a); 2011 5(b)",
+    "q": "Examine the recommendations of the Cabinet Mission Plan and trace the events leading to the Partition of India."
+   },
+   {
+    "years": "2016 4(a)",
+    "q": "Comment on the effectiveness of the methods employed by Mahatma Gandhi to mobilise the masses."
+   }
+  ],
+  "other": "Gandhian movements 1920-47 (2025); Gandhi's methods (2016); Quit India (2020); Cabinet Mission (2020); Partition (2011); communalism (2016, 2023); peasant movements; Gandhi as saint-politician (2017); Gandhi vs Ambedkar (2011); women in the national movement (2012); impact of the World Wars (2012); socialists (2012, 2011); Andhras in the National Movement (2012)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Early satyagrahas",
+    "q": "Discuss Gandhi's experiments at Champaran, Kheda and Ahmedabad and what they revealed about his method."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Non-Cooperation",
+    "q": "Evaluate the Non-Cooperation and Khilafat Movements: causes, programme and reasons for withdrawal."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Assess the significance of the Civil Disobedience Movement and the Salt Satyagraha (1930), with special reference to the participation of women."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Round Tables",
+    "q": "Examine the Gandhi-Irwin Pact and the Round Table Conferences."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "1937 elections",
+    "q": "Assess the Government of India Act 1935 and the Congress ministries of 1937-39."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "INA and RIN",
+    "q": "Assess the role of Subhas Chandra Bose, the INA and the Royal Indian Navy Mutiny (1946) in hastening independence."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Mountbatten Plan",
+    "q": "Examine the Mountbatten Plan and the transfer of power. Why was Partition accepted?"
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Constructive programme",
+    "q": "Evaluate Gandhi's constructive programme and the idea of trusteeship."
+   },
+   {
+    "n": 9,
+    "tier": "reserve",
+    "tag": "Women",
+    "q": "Examine the participation of women in the Gandhian movements."
+   }
+  ]
+ },
+ {
+  "day": 26,
+  "paper": 3,
+  "rank": 7,
+  "theme": "Panchayati Raj and Local Governance",
+  "recurrence": "Appeared in 5 cycles (2008, 2017, 2020, 2023, 2025)",
+  "slot": "Q3, Q5, Q14",
+  "ab": "Your AEE-PR&TW prep covers this fully: pick it every time it appears.",
+  "reading": [
+   {
+    "years": "2025 3(b)",
+    "q": "Discuss the significance of the 73rd Amendment in strengthening grassroots democracy."
+   },
+   {
+    "years": "2020 3(a); 2020 5(b)",
+    "q": "Describe the main features of the 73rd and 74th Amendments for rural and urban local governance."
+   },
+   {
+    "years": "2023 3(a)",
+    "q": "Discuss the scope and challenges of political empowerment of women through Panchayat Raj."
+   }
+  ],
+  "other": "73rd Amendment significance (2025); 73rd and 74th features (2020); women in Panchayat Raj (2023); Panchayati Raj as 'God that failed' (2008); 14th FC and rural local bodies (2017)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Evolution",
+    "q": "Trace the evolution of Panchayati Raj from the Balwant Rai Mehta to the Ashok Mehta Committee."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Gram Sabha and PESA",
+    "q": "Discuss the role of the Gram Sabha and the PESA Act 1996 in tribal areas."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Examine the devolution of funds, functions and functionaries (3Fs) to PRIs and the role of the State Election Commission and SFC."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Own revenue",
+    "q": "Examine the own-source revenue of PRIs and the role of State Finance Commissions."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Sarpanch-pati",
+    "q": "Discuss the 'sarpanch-pati' problem and the effective participation of elected women representatives."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "AP sachivalayam",
+    "q": "Evaluate the Grama and Ward Sachivalayam system and decentralised governance in AP."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Urban local bodies",
+    "q": "Discuss the weaknesses of urban local bodies after the 74th Amendment."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "GPDP",
+    "q": "Discuss the Gram Panchayat Development Plan and the localisation of the SDGs."
+   }
+  ]
+ },
+ {
+  "day": 27,
+  "paper": 4,
+  "rank": 7,
+  "theme": "Poverty, Employment and Welfare Schemes",
+  "recurrence": "Appeared in all 8 cycles",
+  "slot": "Q6-7, Q15",
+  "ab": "Scheme-based answers use a ready structure (objective, funding, coverage, gaps). Pick them.",
+  "reading": [
+   {
+    "years": "2025 6(a)",
+    "q": "Examine the major poverty alleviation and employment generation programmes in India. How effective have they been?"
+   },
+   {
+    "years": "2025 7(b)",
+    "q": "Discuss the significance of social welfare schemes in promoting inclusive growth."
+   },
+   {
+    "years": "2020 6(a); 2017 7(b)",
+    "q": "Analyse trends in rural-urban poverty in AP. Discuss SERP's role in reducing rural poverty."
+   }
+  ],
+  "other": "Poverty and employment programmes (2025); social welfare schemes (2025); rural-urban poverty in AP (2020); PDS in AP (2020); PMEGP (2020); SERP (2017); UBI (2017); relative poverty and Gini (2017); AePDS (2017); rural unemployment (2016); poverty strategy limits (2016); MGNREGS (2012); poverty controversies (2012); NSSO unemployment concepts (2011)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Measurement",
+    "q": "Compare poverty-line methodologies (Tendulkar, Rangarajan) and discuss the trend in extreme poverty."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Urban schemes",
+    "q": "Discuss urban livelihood schemes: DAY-NULM and PM SVANidhi."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Evaluate trends in the Multidimensional Poverty Index and AP's performance."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Unorganised workers",
+    "q": "Discuss social security for unorganised workers: e-Shram and the Code on Social Security."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Cash transfers",
+    "q": "Compare cash transfers with in-kind subsidies and discuss the role of DBT."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Rural development",
+    "q": "Evaluate PMAY, PMGSY and DAY-NRLM in rural development."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Nutrition",
+    "q": "Evaluate POSHAN Abhiyaan, ICDS and the mid-day meal scheme."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Skilling",
+    "q": "Evaluate Skill India and PMKVY in the context of the demographic dividend."
+   },
+   {
+    "n": 9,
+    "tier": "reserve",
+    "tag": "MPI",
+    "q": "Evaluate trends in the Multidimensional Poverty Index and the performance of AP."
+   }
+  ]
+ },
+ {
+  "day": 28,
+  "paper": 5,
+  "rank": 7,
+  "theme": "Biodiversity, Forests and Conservation",
+  "recurrence": "Appeared in all 8 cycles",
+  "slot": "Q5, Q7-8, Q11-15",
+  "ab": "Pick forest/biodiversity: it overlaps with Paper II Q14.",
+  "reading": [
+   {
+    "years": "2025 5(b)",
+    "q": "Provide an overview of the primary reasons for deforestation in AP in the past two decades."
+   },
+   {
+    "years": "2017 11(a)",
+    "q": "Invasive alien species are the second largest threat to biodiversity. Discuss the causes with examples."
+   },
+   {
+    "years": "2023 7(b); 2023 15(b)",
+    "q": "Why is ecotourism a tool for conservation of natural heritage? What are gene sanctuaries?"
+   }
+  ],
+  "other": "Natural resources (2025); deforestation in AP (2025); deforestation and infectious diseases (2025); gene sanctuaries (2023); ecotourism (2023); forest cover vs forest area (2020); invasive alien species (2017); biodiversity threats (2016, 2012, 2011, 2008); NBPGR and sanctuaries (2016); Project Tiger (2012); Forest Act 1980 (2012)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Protected areas",
+    "q": "Discuss national parks, sanctuaries, biosphere reserves and Ramsar sites, with reference to the Seshachalam Biosphere Reserve."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Wildlife law",
+    "q": "Evaluate the Wildlife (Protection) Act 1972 and its 2022 amendment."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Evaluate the Forest (Conservation) Amendment Act 2023 and the concern over 'deemed forests'."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Human-wildlife conflict",
+    "q": "Examine elephant-human conflict in Chittoor and Parvathipuram."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Biological Diversity Act",
+    "q": "Discuss the Biological Diversity Act 2002 and the role of Biodiversity Management Committees."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Community forestry",
+    "q": "Discuss Joint Forest Management and the Forest Rights Act 2006."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Global framework",
+    "q": "Discuss the Kunming-Montreal Global Biodiversity Framework and the 30 by 30 target."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Cheetah",
+    "q": "Evaluate the cheetah reintroduction project."
+   },
+   {
+    "n": 9,
+    "tier": "reserve",
+    "tag": "FCA 2023",
+    "q": "Evaluate the Forest (Conservation) Amendment Act 2023 and the concerns over deemed forests."
+   }
+  ]
+ },
+ {
+  "day": 29,
+  "paper": 2,
+  "rank": 8,
+  "theme": "Moderates, Extremists, Safety Valve and Revolutionaries",
+  "recurrence": "Appeared in 7 of 8 cycles",
+  "slot": "Q4-5",
+  "ab": "Pair this with Gandhi in your head: if Q5 offers Gandhi vs Moderates, take Gandhi; keep this theme as the fallback.",
+  "reading": [
+   {
+    "years": "2025 5(a); 2016 3(a)",
+    "q": "Discuss the role and contributions of the Moderate leaders of Congress from 1885 to 1905."
+   },
+   {
+    "years": "2008 3(b)",
+    "q": "Examine the objectives, methods and impact of the Moderates vis-a-vis the Extremists, 1885 to 1920."
+   },
+   {
+    "years": "2017 5(a)",
+    "q": "Discuss the contribution of the Revolutionary Nationalists to the freedom movement and their impact on British rule."
+   },
+   {
+    "years": "2025 4(b)",
+    "q": "What is the 'safety valve' theory? Explain it in the context of the Indian National Congress."
+   }
+  ],
+  "other": "Moderate leaders (2025, 2016); Moderates vs Extremists (2008); Revolutionary Nationalists (2017); safety valve theory (2025); three phases of nationalism (2011)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Partition of Bengal",
+    "q": "Discuss the Partition of Bengal (1905) and the Swadeshi and Boycott movements."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Surat Split",
+    "q": "Examine the causes and consequences of the Surat Split (1907)."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Evaluate the Home Rule Movement and the Lucknow Pact of 1916 in the evolution of Indian nationalism."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Morley-Minto",
+    "q": "Assess the Morley-Minto Reforms (1909) and their communal implications."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Ghadar",
+    "q": "Discuss the role of the Ghadar Party and Indian revolutionaries abroad."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Bhagat Singh",
+    "q": "Evaluate the contribution of the HSRA and Bhagat Singh to the revolutionary movement."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "British response",
+    "q": "Examine the Indian Councils Act 1892 and the Montagu-Chelmsford Reforms as British responses to nationalism."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Tilak",
+    "q": "Assess Tilak's contribution to mass mobilisation through the Ganapati and Shivaji festivals."
+   },
+   {
+    "n": 9,
+    "tier": "reserve",
+    "tag": "Early associations",
+    "q": "Discuss the political associations before the Congress (British Indian Association, Indian Association, Madras Mahajana Sabha)."
+   }
+  ]
+ },
+ {
+  "day": 30,
+  "paper": 3,
+  "rank": 8,
+  "theme": "Governor, President, Emergency, Article 356",
+  "recurrence": "Appeared in 5 cycles",
+  "slot": "Q1, Q2, Q3, Q14",
+  "ab": "Governor questions need S.R. Bommai and Rameshwar Prasad. Take them if you have both cases ready.",
+  "reading": [
+   {
+    "years": "2023 2(a); 2020 3(b)",
+    "q": "Discuss the Governor's discretionary functions and special responsibilities."
+   },
+   {
+    "years": "2025 1(a); 2012 14(b)",
+    "q": "What are the emergency functions of the Union Government and how do they affect legislative powers?"
+   },
+   {
+    "years": "2008 14(a)",
+    "q": "'Article 356 is more misused than used.' Comment."
+   }
+  ],
+  "other": "Governor's discretionary functions (2023); Governor's powers (2020); emergency functions (2025); Article 356 (2008); emergency powers misuse (2012)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "President's powers",
+    "q": "Discuss the President's ordinance, pardoning and veto powers."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Governor's appointment",
+    "q": "Examine the controversies over the appointment and removal of Governors."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Discuss recent Supreme Court judgments on gubernatorial assent to State Bills and the timelines for decisions."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "National Emergency",
+    "q": "Discuss the grounds for a National Emergency, the 44th Amendment safeguards and the experience of 1975."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Financial Emergency",
+    "q": "Examine the provisions on Financial Emergency under Article 360."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Collective responsibility",
+    "q": "Explain the collective responsibility of the Council of Ministers."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Delhi LG",
+    "q": "Examine the relationship between the Lieutenant Governor and the elected government in Delhi."
+   }
+  ]
+ },
+ {
+  "day": 31,
+  "paper": 4,
+  "rank": 8,
+  "theme": "AP Industrial Policy, MSMEs and Corridors",
+  "recurrence": "Appeared in all 8 cycles",
+  "slot": "Q10-13",
+  "ab": "Pick the current industrial policy question over historical comparisons (1980 vs 1991).",
+  "reading": [
+   {
+    "years": "2025 12(a)",
+    "q": "Critically examine the industrial policy of the AP Government: initiatives, support measures and bottlenecks."
+   },
+   {
+    "years": "2023 10(a)",
+    "q": "Discuss the importance, scope and challenges of MSMEs in AP."
+   },
+   {
+    "years": "2023 10(b)",
+    "q": "Explain the Visakhapatnam-Chennai Industrial Corridor Development Programme and its socio-economic impact."
+   },
+   {
+    "years": "2020 13(b)",
+    "q": "Discuss the Industrial Policy Statement 2015-20 of AP."
+   }
+  ],
+  "other": "Industrial policy (2025); MSMEs in AP (2023); VCICDP (2023); PUSH export strategy (2023); civil aviation (2023); Industrial Policy 2015-20 (2020); challenges of industry in AP (2020); agro-food processing (2020); four pillars of IT (2020); AP Industrial Investment Policy 2015-20 (2016); East Coast Economic Corridor (2017); AP Mineral Policy (2017); small and tiny sector (2017)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Corridors",
+    "q": "Discuss the Chennai-Bengaluru and Hyderabad-Bengaluru corridors and their nodes in AP."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "SEZs",
+    "q": "Evaluate SEZs in AP: Sri City, Kakinada and APSEZ."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Evaluate the latest AP industrial policy (2024-29): incentives, single-window clearance and employment targets."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Electronics and EV",
+    "q": "Discuss electronics manufacturing clusters and EV and battery manufacturing in AP."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Pharma and textiles",
+    "q": "Discuss the pharma cluster at Visakhapatnam and the textile sector in AP."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Ease of business",
+    "q": "Evaluate AP's performance in the Business Reform Action Plan."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Land banks",
+    "q": "Discuss land pooling and land banks for industrialisation."
+   }
+  ]
+ },
+ {
+  "day": 32,
+  "paper": 5,
+  "rank": 8,
+  "theme": "Disaster Management",
+  "recurrence": "Appeared in 7 of 8 cycles",
+  "slot": "Q5, Q10, Q12, Q15",
+  "ab": "Pick DM Act / cyclones for AP-specific value additions.",
+  "reading": [
+   {
+    "years": "2025 10(a)",
+    "q": "Critically assess the effectiveness of disaster management initiatives since the DM Act, 2005."
+   },
+   {
+    "years": "2023 12(a)",
+    "q": "What is coastal erosion? Why is erosion dominant on the eastern coast?"
+   },
+   {
+    "years": "2017 5(a); 2017 15(a)",
+    "q": "Why are urban floods recurrent in India? Describe the Sendai Framework and its adoption in India."
+   }
+  ],
+  "other": "DM Act effectiveness (2025); coastal erosion (2023); earthquakes (2020); urban floods (2017); Sendai Framework (2017); hazard vs disaster, coastal hazards (2016); tsunami warning (2016); disaster plan challenges (2016); NDMA (2012); declaring a national disaster (2012); DM programmes (2011)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Structure",
+    "q": "Explain the structure of NDMA, SDMAs and DDMAs and their coordination."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Lightning",
+    "q": "Examine the causes of deaths from lightning in AP and the preventive measures."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Examine cyclone early warning and the National Cyclone Risk Mitigation Project in reducing casualties in AP and Odisha."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Cyclone warning",
+    "q": "Discuss the IMD cyclone warning system and colour codes."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Floods",
+    "q": "Discuss flood forecasting and management in the Krishna and Godavari deltas."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Landslides",
+    "q": "Discuss landslides in the Western Ghats and the Himalaya and the scope for early warning."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Community DRR",
+    "q": "Evaluate community-based disaster risk reduction and the role of Aapda Mitra."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Industrial disasters",
+    "q": "Discuss industrial disasters such as the Visakhapatnam gas leak of 2020 and the lessons for safety regulation."
+   },
+   {
+    "n": 9,
+    "tier": "reserve",
+    "tag": "Cyclone mitigation",
+    "q": "Examine the National Cyclone Risk Mitigation Project and early warning in AP and Odisha."
+   }
+  ]
+ },
+ {
+  "day": 33,
+  "paper": 2,
+  "rank": 9,
+  "theme": "Medieval India: Bhakti, Sufi, Mughal, Maratha, Chola",
+  "recurrence": "Q2-3 slot in all 8 cycles",
+  "slot": "Q2/Q3",
+  "ab": "Bhakti/Sufi are fixed-structure answers. Pick them over Alauddin/Chola administration questions.",
+  "reading": [
+   {
+    "years": "2020 2(b); 2008 2(a)",
+    "q": "Vividly examine the impact of the Bhakti Movement during medieval India."
+   },
+   {
+    "years": "2025 2(b); 2017 2(b)",
+    "q": "Describe the characteristics of the Sufi movement and assess its impact on Indian culture."
+   },
+   {
+    "years": "2020 3(a)",
+    "q": "Critically evaluate the central administration under Akbar."
+   },
+   {
+    "years": "2023 3(a); 2016 2(a)",
+    "q": "Discuss the features of Mughal architecture and the influence of Hindu elements on it."
+   }
+  ],
+  "other": "Bhakti (2020, 2011, 2008); Sufi (2025, 2017); Mughal architecture (2023, 2016, 2011); Akbar's administration (2020); Shivaji and Marathas (2023, 2020, 2017, 2012); Alauddin Khilji's markets (2023); Chola village administration and cultural contribution (2023, 2017); temple styles (2012); Islam and Indian culture (2011); Chalukyas of Kalyani (2025)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Delhi Sultanate",
+    "q": "Evaluate the administrative and revenue system of the Delhi Sultanate."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Tughlaq",
+    "q": "Examine the experiments of Muhammad bin Tughlaq and why they failed."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Assess the administrative reforms of Sher Shah Suri and how Akbar built on them."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Mansabdari crisis",
+    "q": "Discuss the mansabdari and jagirdari system and the jagirdari crisis in the decline of the Mughal empire."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Aurangzeb",
+    "q": "Assess Aurangzeb's religious policy and its role in the decline of the Mughal empire."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Chola maritime",
+    "q": "Examine the Chola naval expeditions and overseas trade."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Bahmani and Vijayanagara",
+    "q": "Discuss the Bahmani-Vijayanagara conflict and its impact on the Deccan."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Kabir and Nanak",
+    "q": "Compare the teachings of Kabir and Guru Nanak and their social impact."
+   },
+   {
+    "n": 9,
+    "tier": "reserve",
+    "tag": "Painting and music",
+    "q": "Discuss Mughal painting and music and their contribution to a composite culture."
+   }
+  ]
+ },
+ {
+  "day": 34,
+  "paper": 3,
+  "rank": 9,
+  "theme": "RTI, Good Governance, Social Audit, Citizen Charter",
+  "recurrence": "Appeared in 4 cycles (2017, 2020, 2023, 2025)",
+  "slot": "Q8, Q10",
+  "ab": "RTI is the surest scorer here. Pick it over any open governance-dimension question.",
+  "reading": [
+   {
+    "years": "2025 10(b)",
+    "q": "Define good governance. How does the RTI Act promote its principles?"
+   },
+   {
+    "years": "2020 8(b); 2017 15(a)",
+    "q": "What rights does the RTI Act give? If RTI is a fundamental right, why do we need an Act?"
+   },
+   {
+    "years": "2025 10(a); 2020 9(b)",
+    "q": "Social audit narrows gaps between vision and reality. Examine this and the impediments to institutionalisation."
+   }
+  ],
+  "other": "Good governance and RTI (2025); social audit (2025, 2020); RTI rights, Act vs Fundamental Right (2020); Citizen Charter (2023); RTI and civil society (2023); RTI not for grievance redressal (2017); e-governance (2020)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Exemptions",
+    "q": "Discuss the exemptions under Sections 8 and 24 of the RTI Act and their misuse."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Information Commissions",
+    "q": "Examine the independence of Information Commissions after the 2019 amendment."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Examine the effect of the RTI amendments (2019) and the Digital Personal Data Protection Act 2023 on transparency."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Whistleblowers",
+    "q": "Evaluate the Whistle Blowers Protection Act 2014."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Sevottam",
+    "q": "Evaluate the Sevottam model and the Citizens' Charter in improving service delivery."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Social audit in AP",
+    "q": "Discuss social audit of MGNREGS in AP and the Society for Social Audit, Accountability and Transparency."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Proactive disclosure",
+    "q": "Examine Section 4 and proactive disclosure of information."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "OSA and RTI",
+    "q": "Examine the conflict between the Official Secrets Act and the RTI Act."
+   }
+  ]
+ },
+ {
+  "day": 35,
+  "paper": 4,
+  "rank": 9,
+  "theme": "Industry, Manufacturing, PSU and Disinvestment",
+  "recurrence": "Appeared in all 8 cycles",
+  "slot": "Q1, Q9, Q11",
+  "ab": "Pick Startup India / Industry 4.0 / disinvestment (new-age) over 1980-vs-1991 policy history.",
+  "reading": [
+   {
+    "years": "2023 9(a); 2020 10(a)",
+    "q": "What is strategic disinvestment? Explain the methods used. What critical issues arise before implementation?"
+   },
+   {
+    "years": "2025 11(b)",
+    "q": "Examine the role of the Startup India programme in promoting entrepreneurial development."
+   },
+   {
+    "years": "2020 9(b)",
+    "q": "Critically examine the performance of the public sector in the Indian economy."
+   }
+  ],
+  "other": "Strategic disinvestment (2023); Industry 4.0 (2023); Startup India (2025); role of industrial sector (2025); DIPP (2025); infrastructure bottlenecks (2025); manufacturing initiatives (2020); 1980 vs 1991 policy (2020); public sector performance (2020); marginal cost pricing (2020); National Manufacturing Policy (2017); reforms and competitiveness (2017); private sector after reforms (2008)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "LPG reforms",
+    "q": "Evaluate the impact of the 1991 reforms on Indian industry."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Labour flexibility",
+    "q": "Examine labour-market flexibility and the Labour Codes' impact on manufacturing."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Examine the performance of PLI schemes and the Make in India target of raising manufacturing's share of GDP."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "MSME",
+    "q": "Discuss Udyam registration, TReDS and credit guarantees for MSMEs."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Asset monetisation",
+    "q": "Evaluate the National Monetisation Pipeline."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Semiconductors",
+    "q": "Discuss the India Semiconductor Mission and the challenge of building a chip industry."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "PLI",
+    "q": "Examine the performance of PLI schemes and the Make in India target for manufacturing."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Single window",
+    "q": "Discuss ease of doing business reforms and single-window clearance."
+   }
+  ]
+ },
+ {
+  "day": 36,
+  "paper": 5,
+  "rank": 9,
+  "theme": "Health: Vaccines, Antimicrobial Resistance, Infectious Disease",
+  "recurrence": "Appeared in all 8 cycles",
+  "slot": "Q8, Q13-15",
+  "ab": "Vaccine questions repeat every cycle: always pick them.",
+  "reading": [
+   {
+    "years": "2025 13(a); 2020 15(a)",
+    "q": "Describe the components and functioning of a vaccine; explain the mechanism of action of vaccines."
+   },
+   {
+    "years": "2023 8(a)",
+    "q": "Why is antibiotic resistance getting worse in India? Discuss strategies and action plans."
+   },
+   {
+    "years": "2025 15(a); 2020 14(b)",
+    "q": "Discuss the transmission dynamics of respiratory infections in dense urban settings and propose public health strategies."
+   }
+  ],
+  "other": "Vaccine components (2025); vaccine mechanism and GVAP (2020); AMR (2023); respiratory infections (2025); bacterial outbreaks in poultry (2025); COVID immunodiagnostics (2020); HCV (2020); disease notes (2020); immunisation history, edible vaccines (2016); disease outbreak patterns, Chikungunya, malaria (2016, 2011); vaccination biotech (2016); adverse vaccination effects (2012); immune system (2012); HIV (2011); vaccines (2011, 2008); diarrhoea and TB (2008)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Immunisation",
+    "q": "Discuss the Universal Immunisation Programme and Mission Indradhanush."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "TB",
+    "q": "Evaluate the TB elimination programme and the Ni-kshay Mitra initiative."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Explain mRNA vaccine technology, its advantages and India's preparedness."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Vector-borne",
+    "q": "Discuss the strategies to control dengue and malaria."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "One Health",
+    "q": "Explain the One Health approach with reference to zoonoses such as Nipah and avian influenza."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "NCDs",
+    "q": "Discuss the burden of non-communicable diseases and lifestyle."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Digital health",
+    "q": "Discuss the Ayushman Bharat Digital Mission."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Drug regulation",
+    "q": "Examine the regulation of spurious drugs and the role of CDSCO."
+   },
+   {
+    "n": 9,
+    "tier": "reserve",
+    "tag": "mRNA",
+    "q": "Explain mRNA vaccine technology and its advantages and India's preparedness."
+   }
+  ]
+ },
+ {
+  "day": 37,
+  "paper": 2,
+  "rank": 10,
+  "theme": "Buddhism, Jainism and Ashoka",
+  "recurrence": "Appeared in 6 of 8 cycles",
+  "slot": "Q1(b)",
+  "ab": "Take the Buddhism 'causes/spread/decline' version; avoid it if it is paired with an equally fixed IVC option.",
+  "reading": [
+   {
+    "years": "2025 1(b)",
+    "q": "Briefly analyse the teachings of Buddha and Mahavira."
+   },
+   {
+    "years": "2020 1(b); 2011 1(b)",
+    "q": "Critically explain the causes of the emergence of Buddhism in ancient India."
+   },
+   {
+    "years": "2016 1(a); 2012 1(b)",
+    "q": "Compare Hinayana and Mahayana Buddhism. Why did Buddhism become popular and later decline? Compare Buddhism with Ashoka's Dhamma."
+   }
+  ],
+  "other": "Teachings of Buddha and Mahavira (2025); causes of emergence (2020, 2011); Hinayana vs Mahayana, popularity and decline (2016); Ashoka's Dhamma (2012); Buddhism in Andhra (2011, 2025); post-Mauryan art (2016); Magadhan imperialism (2008); Sangam age (2017)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Buddhist councils",
+    "q": "Discuss the four Buddhist councils and their role in the spread and division of Buddhism."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Ashokan edicts",
+    "q": "Assess Ashoka's rock edicts as a source of his administration and Dhamma policy."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Compare Jain and Buddhist positions on ahimsa, karma and social order. Why did Jainism survive in India while Buddhism declined?"
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Schools of art",
+    "q": "Compare the Gandhara, Mathura and Amaravati schools of art."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Universities",
+    "q": "Discuss Nalanda and Vikramashila as centres of learning and their decline."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Jain contribution",
+    "q": "Discuss Jain contributions to literature and art and the Digambara-Svetambara split."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Contemporary relevance",
+    "q": "Examine the relevance of the Buddha's Middle Path for contemporary society."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Sangam age",
+    "q": "Discuss Sangam literature as a source of the political and cultural life of South India."
+   }
+  ]
+ },
+ {
+  "day": 38,
+  "paper": 3,
+  "rank": 10,
+  "theme": "Civil Services and Administrative Reforms",
+  "recurrence": "Appeared in 3 cycles (2020, 2023, 2025)",
+  "slot": "Q6-7, Q9",
+  "ab": "Pick Mission Karmayogi and integrity questions over 'evolution of public administration': currency matters.",
+  "reading": [
+   {
+    "years": "2023 6(b); 2025 6(b)",
+    "q": "Explain the evolution of civil service in India. What features of British administration still influence it?"
+   },
+   {
+    "years": "2023 7(b)",
+    "q": "Explain the scope of civil service reforms with a note on Mission Karmayogi."
+   },
+   {
+    "years": "2023 9(b)",
+    "q": "What are the reasons for the decline of integrity in civil services? Discuss the institutional mechanisms to check corruption."
+   }
+  ],
+  "other": "Evolution of civil service (2023, 2025); civil service reforms and Karmayogi (2023); evolution of public administration (2020); decline of integrity and anti-corruption mechanisms (2023); British administrative legacy (2025)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Constitutional provisions",
+    "q": "Explain the constitutional provisions on civil services (Articles 308-323)."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Generalist and specialist",
+    "q": "Discuss the generalist versus specialist debate in civil services."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Evaluate lateral entry and the Second ARC recommendations on civil service reform."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Neutrality",
+    "q": "Examine political neutrality and commitment in the relationship between politicians and civil servants."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Appraisal",
+    "q": "Evaluate performance appraisal (APAR, 360 degree) in civil services."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Tenure and transfers",
+    "q": "Examine stability of tenure and the Civil Services Board in the light of T.S.R. Subramanian."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Corruption law",
+    "q": "Discuss the Prevention of Corruption Act and its 2018 amendments."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Capacity building",
+    "q": "Discuss capacity building of civil servants through e-learning and iGOT."
+   }
+  ]
+ },
+ {
+  "day": 39,
+  "paper": 4,
+  "rank": 10,
+  "theme": "Infrastructure: Transport, Energy, Smart Cities, PPP",
+  "recurrence": "Appeared in 6 of 8 cycles",
+  "slot": "Q12-15",
+  "ab": "Pick Smart Cities or PPP (cross-paper themes) over AP corridor-specific questions.",
+  "reading": [
+   {
+    "years": "2025 13(a)",
+    "q": "Discuss the state of transport infrastructure in India and its contribution to economic development."
+   },
+   {
+    "years": "2025 14(b); 2020 12(b)",
+    "q": "Critically explain the development of Transport, Energy and ICT infrastructure in AP."
+   },
+   {
+    "years": "2025 15(b); 2020 12(a)",
+    "q": "What are the flaws in the existing PPP model of infrastructure development? What should restructuring focus on?"
+   }
+  ],
+  "other": "Transport infrastructure (2025); solar (2025); Smart Cities (2025, 2023, 2020); AP transport, energy and ICT (2025); PPP flaws (2025, 2020); externally aided projects (2023); AP energy challenges (2020); AP infrastructure agenda (2020); Infrastructure Mission AP (2017); power sector in AP (2017); smart village-ward (2016)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Discoms",
+    "q": "Discuss DISCOM losses and the UDAY scheme."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Inland waterways",
+    "q": "Evaluate the potential of inland waterways and coastal shipping."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Discuss PM Gati Shakti and the National Logistics Policy as tools to cut logistics cost."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Freight corridors",
+    "q": "Discuss the Dedicated Freight Corridors and their economic impact."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "UDAN",
+    "q": "Evaluate the UDAN scheme in regional air connectivity."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "AMRUT",
+    "q": "Evaluate AMRUT and urban municipal finance."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "BharatNet",
+    "q": "Discuss BharatNet in bridging the rural digital divide."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Jal Jeevan",
+    "q": "Evaluate the Jal Jeevan Mission."
+   },
+   {
+    "n": 9,
+    "tier": "reserve",
+    "tag": "Gati Shakti",
+    "q": "Discuss PM Gati Shakti and the National Logistics Policy."
+   }
+  ]
+ },
+ {
+  "day": 40,
+  "paper": 5,
+  "rank": 10,
+  "theme": "Intellectual Property Rights",
+  "recurrence": "Appeared in 6 of 8 cycles",
+  "slot": "Q9, Q15",
+  "ab": "IPR is definition-heavy: pick it as a safe 10 marks.",
+  "reading": [
+   {
+    "years": "2023 9(a)",
+    "q": "Why is the number of patents granted in India a fraction of China and the US?"
+   },
+   {
+    "years": "2020 9(b)",
+    "q": "What is a patent? Distinguish process and product patents. How are GI tags related?"
+   },
+   {
+    "years": "2025 15(b); 2023 9(b)",
+    "q": "Importance of IPR in academic-industrial research collaboration; role of CIPAM in commercialisation."
+   }
+  ],
+  "other": "Patents granted vs China and US (2023); commercialisation tools and CIPAM (2023); IP types, copyright, patents, trademarks (2020); patents and GI (2020); IPR in research collaboration (2025); national IP policy (2008); IPR (2011)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Traditional knowledge",
+    "q": "Discuss the Traditional Knowledge Digital Library and the Basmati and turmeric patent cases."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "AI and copyright",
+    "q": "Discuss copyright issues in AI-generated content."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Discuss compulsory licensing and TRIPS flexibilities with reference to access to medicines in India."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "GI of AP",
+    "q": "Discuss the Geographical Indications of AP (Tirupati laddu, Kondapalli toys, Banganapalle mango, Machilipatnam Kalamkari)."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "IPR policy",
+    "q": "Evaluate the National IPR Policy 2016."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Evergreening",
+    "q": "Explain Section 3(d) of the Patents Act and evergreening."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Compulsory licensing",
+    "q": "Discuss compulsory licensing and TRIPS flexibilities with reference to access to medicines."
+   }
+  ]
+ },
+ {
+  "day": 41,
+  "paper": 2,
+  "rank": 11,
+  "theme": "Andhra Renaissance and Freedom Struggle in Andhra",
+  "recurrence": "Q8-9 slot in all 8 cycles",
+  "slot": "Q8/Q9",
+  "ab": "Name-based questions (Veeresalingam, Gurujada, Jashuva) are safe only if you can cite one literary work for each.",
+  "reading": [
+   {
+    "years": "2020 8(b); 2017 8(a)",
+    "q": "Critically evaluate the contribution of Kandukuri Veeresalingam to the social reform movement in Andhra."
+   },
+   {
+    "years": "2023 8(a)",
+    "q": "Write short notes on Gurujada Apparao's literary social reform and Gidugu Ramamurthy's Vyavaharika Bhasha movement."
+   },
+   {
+    "years": "2020 8(a); 2008 9(b)",
+    "q": "Write a brief account of the library movement in Andhra Pradesh."
+   },
+   {
+    "years": "2016 9(b); 2008 8(b)",
+    "q": "Describe the Vandemataram Movement and its impact on the freedom struggle in Andhra."
+   }
+  ],
+  "other": "Veeresalingam (2020); Gurujada and Gidugu (2023); library movement (2020, 2008); Vandemataram (2016, 2008); Andhra Mahasabha (2016); Brahmo Samaj in Andhra (2017); missionaries and education (2025, 2017); social awakening (2025, 2008); Tripuraneni (2017); Jashuva and Boyi Bhimanna (2016, 2011); Adi-Andhra (2011); Alluri Sitarama Raju (2023); Telugu Dalit literature (2023); Justice Party (2020); Sri Sri and communism (2012); Andhras in the National Movement (2012)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Prakasam",
+    "q": "Evaluate the role of Tanguturi Prakasam in Andhra politics and the Simon Commission boycott of 1928."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Women in Andhra",
+    "q": "Examine the role of women in Andhra's freedom and reform movements (Durgabai Deshmukh, Kanuparti Varalakshmamma)."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Discuss the role of the Telugu press (Krishna Patrika, Andhra Patrika) in the Andhra national awakening."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Theosophy",
+    "q": "Assess the Theosophical Society at Adyar and Madanapalle in Andhra's cultural awakening."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Modern Telugu literature",
+    "q": "Trace the evolution of modern Telugu literature from Navya Sahiti to the Abhyudaya Rachayitala Sangham."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Quit India in Andhra",
+    "q": "Discuss the Quit India movement in Andhra, including the Chirala-Perala movement."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Peasant politics",
+    "q": "Examine the role of N.G. Ranga and ryot associations in peasant politics in Andhra."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Kanyasulkam",
+    "q": "Discuss Gurajada Apparao's Kanyasulkam as a social document of its time."
+   }
+  ]
+ },
+ {
+  "day": 42,
+  "paper": 3,
+  "rank": 11,
+  "theme": "Ethics in Public Service, Integrity and Accountability",
+  "recurrence": "Appeared in 3 cycles, 4 questions each time",
+  "slot": "Q11, Q14",
+  "ab": "Ethics is the same pool each year. Pick whichever has a concrete example you can narrate.",
+  "reading": [
+   {
+    "years": "2025 11(a)",
+    "q": "Public servants face conflict between personal values and public responsibilities. How can an ethical foundation resolve this?"
+   },
+   {
+    "years": "2025 11(b)",
+    "q": "Discuss the ethical and institutional importance of whistleblower protection."
+   },
+   {
+    "years": "2023 11(b)",
+    "q": "Define accountability and discuss the factors that weaken accountability in civil services."
+   }
+  ],
+  "other": "Personal values vs public responsibility (2025); whistleblower protection (2025); Naitik Bharat (2023); code of ethics (2025); integrity, transparency and accountability in leadership (2025); accountability (2023); ethics in Indian tradition (2020); time and space in ethics (2020)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Ethical dilemma",
+    "q": "Distinguish an ethical dilemma from an ethical issue and discuss steps to resolve a dilemma."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Gandhi's social sins",
+    "q": "Examine Gandhi's seven social sins and their relevance to public life."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Differentiate between ethics, morality and law. How should civil servants manage conflicts of interest? Give examples."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Code of conduct",
+    "q": "Distinguish between a code of ethics and a code of conduct."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Corruption",
+    "q": "Discuss the ethical dimensions of corruption and the role of civil society and RTI."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Probity",
+    "q": "Explain probity in governance and the Nolan principles of public life."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Corporate ethics",
+    "q": "Discuss CSR and corporate governance as ethical responsibilities."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Technology ethics",
+    "q": "Examine the ethical issues of using AI and surveillance in governance."
+   }
+  ]
+ },
+ {
+  "day": 43,
+  "paper": 4,
+  "rank": 11,
+  "theme": "Financial Inclusion, Banking and Credit",
+  "recurrence": "Appeared in 6 of 8 cycles",
+  "slot": "Q6, Q8, Q11, Q14",
+  "ab": "Financial inclusion is a Paper I and Group-2 cross-over. Pick it.",
+  "reading": [
+   {
+    "years": "2025 8(a)",
+    "q": "Examine the concept of Financial Inclusion and its role in inclusive growth. Discuss key initiatives."
+   },
+   {
+    "years": "2023 6(a)",
+    "q": "Describe the scope of Differentiated Banking Policy and the potential of Digital Banking for financial inclusion."
+   },
+   {
+    "years": "2023 11(a)",
+    "q": "Explain the impact of Digital Public Infrastructure on socio-economic development in India."
+   }
+  ],
+  "other": "Financial inclusion (2025); Differentiated Banking Policy and digital banking (2023); DPI (2023); RRBs (2016); microfinance (2017, 2011); SHGs and credit (2008); institutional and non-institutional credit (2012, 2011); agricultural credit (2023); credit for farmers (2016); cooperatives and credit (2012)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "MFI regulation",
+    "q": "Discuss the regulation of microfinance institutions after the RBI norms of 2022."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Small finance banks",
+    "q": "Examine small finance banks and payments banks as differentiated banks."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Discuss the NPA problem in Indian banking and the role of the IBC in resolution."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "JAM",
+    "q": "Discuss the JAM trinity in welfare delivery."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Insurance and pension",
+    "q": "Discuss PMJJBY, PMSBY and Atal Pension Yojana."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Fintech",
+    "q": "Discuss UPI, ONDC and the Account Aggregator framework."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "PACS",
+    "q": "Discuss the role of PACS and cooperative banks in rural credit."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "NPA and IBC",
+    "q": "Discuss the NPA problem and the role of the IBC in resolution."
+   }
+  ]
+ },
+ {
+  "day": 44,
+  "paper": 5,
+  "rank": 11,
+  "theme": "Cyber Crime, AI and Emerging Technologies",
+  "recurrence": "Appeared in 5 cycles",
+  "slot": "Q1, Q3, Q11, Q13",
+  "ab": "Pick AI or cybercrime for current-affairs value.",
+  "reading": [
+   {
+    "years": "2025 3(b); 2020 2(b)",
+    "q": "Define cybercrime. Discuss the major types of cybercrimes prevalent in India."
+   },
+   {
+    "years": "2023 11(a)",
+    "q": "How can AI-manipulated digital media affect privacy, democracy and national security? Suggest solutions."
+   },
+   {
+    "years": "2023 13(b); 2025 1(b)",
+    "q": "Blockchain in agriculture; impact of IoT on automation of household systems."
+   }
+  ],
+  "other": "Cybercrime (2025, 2020); AI-manipulated media (2023); blockchain (2023); IoT (2025, 2017); cyberstalking and phishing (2020); IT in environmental conservation (2017); Big Data (2017)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Cyber security",
+    "q": "Discuss CERT-In, NCIIPC and the National Cyber Security Policy."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Deepfakes",
+    "q": "Discuss deepfakes and misinformation and the regulatory response."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Discuss the IndiaAI Mission: compute, foundation models and India's approach to AI governance."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Quantum",
+    "q": "Discuss quantum technologies and their strategic importance."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Financial frauds",
+    "q": "Discuss digital financial frauds and phishing and the remedies."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "AI in governance",
+    "q": "Discuss the use of AI in governance and healthcare."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Drones",
+    "q": "Discuss the Drone Rules 2021 and applications of drones."
+   }
+  ]
+ },
+ {
+  "day": 45,
+  "paper": 2,
+  "rank": 12,
+  "theme": "AP Reorganisation Act 2014",
+  "recurrence": "Appeared in 5 cycles (2017, 2020, 2023, 2025 twice)",
+  "slot": "Q6, Q10",
+  "ab": "Take the Reorganisation Act option whenever it is offered: ten years on, it is the examiner's favourite current-affairs history link.",
+  "reading": [
+   {
+    "years": "2025 6(a)",
+    "q": "Examine the impact of the loss of Hyderabad as capital on post-bifurcation Andhra Pradesh."
+   },
+   {
+    "years": "2025 6(b)",
+    "q": "Discuss the vision behind a new capital after the 2014 bifurcation and assess the financial implications."
+   },
+   {
+    "years": "2023 10(a); 2020 10(a)",
+    "q": "Explain the inconsistencies of the AP Reorganisation Act 2014 that adversely affected the residuary State. Discuss revenue and infrastructure challenges."
+   }
+  ],
+  "other": "Loss of Hyderabad (2025); new capital vision and finance (2025); inconsistencies of the Act (2023); Schedule XI river management (2023); revenue and infrastructure challenges (2020); impact on trade and commerce (2020); financial position (2017); Schedule IX and X assets (2017)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Polavaram",
+    "q": "Discuss the status of Polavaram as a national project under Section 90 of the Act and the funding disputes."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Water boards",
+    "q": "Examine the Krishna and Godavari River Management Boards and the Krishna Water Disputes Tribunal."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Examine the unfulfilled provisions of the Act (special category status, Polavaram, institutions in Schedule XIII) and suggest a way forward."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Schedule XIII institutions",
+    "q": "Assess progress on the institutions promised in Schedule XIII (IIT Tirupati, IIM Visakhapatnam, central universities)."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Special status",
+    "q": "Examine the demand for Special Category Status versus a special package."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Railway zone",
+    "q": "Discuss the South Coast Railway Zone at Visakhapatnam and the delay in its operationalisation."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Amaravati",
+    "q": "Evaluate the issues of capital planning, land pooling and the three-capitals proposal for Amaravati."
+   },
+   {
+    "n": 8,
+    "tier": "reserve",
+    "tag": "Power sector",
+    "q": "Examine the bifurcation of power assets (APGENCO, TSGENCO) and its impact on AP's power sector."
+   },
+   {
+    "n": 9,
+    "tier": "reserve",
+    "tag": "Employees and education",
+    "q": "Discuss the impact of bifurcation on government employees and higher-education admissions (Section 95)."
+   }
+  ]
+ },
+ {
+  "day": 46,
+  "paper": 3,
+  "rank": 12,
+  "theme": "Attitude, Emotional Intelligence, Values",
+  "recurrence": "Appeared in 3 cycles, 3 questions each time",
+  "slot": "Q12-13",
+  "ab": "Take definitional questions (components of attitude, EI models) over case-based ones.",
+  "reading": [
+   {
+    "years": "2025 13(a); 2025 13(b)",
+    "q": "Define attitude. Explain its cognitive, affective and behavioural components with public-service examples."
+   },
+   {
+    "years": "2020 13(b)",
+    "q": "Explain emotional intelligence with reference to the three main models. How is it applied in public service?"
+   },
+   {
+    "years": "2023 13(b)",
+    "q": "Define persuasion and its constructs. Can civil servants use persuasion to realise the aims of a 'New India'?"
+   }
+  ],
+  "other": "Attitude and public servant behaviour (2025); cognitive, affective and behavioural components (2025); EI models (2020); persuasion (2023); moral attitude and political attitude (2020); polarisation of attitudes (2023); values (2025, 2023, 2020)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Attitude change",
+    "q": "Explain how attitudes are formed and changed, with reference to persuasion and cognitive dissonance."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Foundational values",
+    "q": "Discuss integrity, impartiality, objectivity, empathy, tolerance and compassion as foundational values of civil service."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Explain how empathy and compassion help field-level officers in grievance redressal. Use examples."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Media and attitude",
+    "q": "Discuss the role of media and social media in forming public attitudes."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Prejudice",
+    "q": "How can civil servants overcome caste and gender bias in their work?"
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Goleman's EI",
+    "q": "Explain the components of emotional intelligence according to Goleman."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Leadership",
+    "q": "Discuss the qualities of a good leader with reference to role models."
+   }
+  ]
+ },
+ {
+  "day": 47,
+  "paper": 4,
+  "rank": 12,
+  "theme": "Women Empowerment and Gender Budgeting",
+  "recurrence": "Appeared in 6 of 8 cycles",
+  "slot": "Q5-6, Q8, Q14",
+  "ab": "Scheme-heavy: pick it if you have Mission Shakti, DAY-NRLM and AP schemes ready.",
+  "reading": [
+   {
+    "years": "2023 6(b)",
+    "q": "Explain the challenges faced by women entrepreneurs in India and the schemes to facilitate them."
+   },
+   {
+    "years": "2023 14(b)",
+    "q": "'The focus has shifted from women development to women-led development.' Examine in education, skilling and employment."
+   },
+   {
+    "years": "2017 8(a); 2012 8(b)",
+    "q": "Evaluate the AP programmes to achieve women empowerment and the socio-economic issues retarding it."
+   }
+  ],
+  "other": "Challenges of women (2025); women entrepreneurs (2023); women-led development (2023); gender budgeting (2023); AP women empowerment (2017, 2011, 2008); women empowerment issues in AP (2012)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Participation",
+    "q": "Why is female labour force participation low in India? Suggest measures."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Safety",
+    "q": "Evaluate the Nirbhaya Fund and Mission Shakti for women's safety."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Evaluate the SHG movement (DAY-NRLM, Lakhpati Didi) as a vehicle of women empowerment."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Girl child",
+    "q": "Evaluate Beti Bachao Beti Padhao."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Maternal health",
+    "q": "Evaluate the Janani Suraksha Yojana and maternal health outcomes."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Property rights",
+    "q": "Discuss women's property rights and their effect on empowerment."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Entrepreneurship",
+    "q": "Evaluate Stand-Up India and Mudra for women entrepreneurs."
+   }
+  ]
+ },
+ {
+  "day": 48,
+  "paper": 5,
+  "rank": 12,
+  "theme": "Environmental Law, EIA and NGT",
+  "recurrence": "Appeared in 6 of 8 cycles",
+  "slot": "Q7, Q10-11, Q15",
+  "ab": "Cross-over with AEE PCB Paper-3: pick every time.",
+  "reading": [
+   {
+    "years": "2025 7(b); 2016 11(b)",
+    "q": "What is Environmental Impact Assessment? Describe its key stages and the clearance procedure."
+   },
+   {
+    "years": "2025 10(b); 2011 11(b)",
+    "q": "Discuss the legislative framework for controlling air and water pollution, with provisions and limitations."
+   },
+   {
+    "years": "2017 15(b)",
+    "q": "Examine the role of the NGT in providing speedy environmental justice, quoting recent decisions."
+   }
+  ],
+  "other": "EIA stages (2025); air and water legislation (2025); NGT (2017); State Pollution Control Board functions (2016); EC procedure under EIA 2006 (2016); activities exempt from public consultation (2016); Forest Act 1980 (2012); Water Act and Cess Act (2011); Water Act enforcement issues (2008); environmentalism (2016); NAPCC (2011)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "EPA 1986",
+    "q": "Discuss the Environment (Protection) Act 1986 and its enforcement powers."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Principles",
+    "q": "Explain the polluter pays and precautionary principles with reference to M.C. Mehta cases."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Compare the draft EIA 2020 with EIA 2006, especially post-facto clearance and public consultation."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "CRZ",
+    "q": "Discuss the CRZ Notification 2019 and its provisions."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Mining clearance",
+    "q": "Discuss environmental clearance for mining and the issue of cumulative impact."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Green credit",
+    "q": "Discuss the Green Credit Programme."
+   }
+  ]
+ },
+ {
+  "day": 49,
+  "paper": 2,
+  "rank": 13,
+  "theme": "AP Physical Geography: Landforms, Drainage, Soils, Climate",
+  "recurrence": "Geography slot in last 3 cycles (2020, 2023, 2025)",
+  "slot": "Q11",
+  "ab": "Pick AP-specific landforms/drainage over 'India climatic controls'. Draw a map: it earns extra marks.",
+  "reading": [
+   {
+    "years": "2025 11(b)",
+    "q": "Examine the features and importance of the major landforms of AP: Coastal Plains, Eastern Ghats and Deccan Plateau."
+   },
+   {
+    "years": "2020 11(b)",
+    "q": "Give a brief account of the drainage system of Andhra Pradesh."
+   }
+  ],
+  "other": "Physical features of India and AP (2025); landforms (2025); drainage (2020); geographical features (2020); climatic controls (2023); black and alluvial soils (2023); rural settlements (2023)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "River basins",
+    "q": "Describe the Krishna, Godavari and Pennar basins and their hydrology and irrigation."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Eastern Ghats",
+    "q": "Discuss the geology and mineral resources of the Eastern Ghats in Andhra Pradesh."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Explain the climatic regions of AP and the role of the south-west and north-east monsoons, with reference to the Rayalaseema rain shadow."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Coastline",
+    "q": "Examine the features of Andhra Pradesh's 974-km coastline: deltas, lagoons (Pulicat) and beaches."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Natural regions",
+    "q": "Divide AP into physiographic regions (Coastal Andhra, Rayalaseema, North Andhra) and discuss each."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Rainfall",
+    "q": "Analyse rainfall distribution and aridity in AP and identify the drought-prone districts."
+   }
+  ]
+ },
+ {
+  "day": 50,
+  "paper": 3,
+  "rank": 13,
+  "theme": "Education, Health and Development Policy",
+  "recurrence": "Appeared in 3 cycles (2020, 2023, 2025)",
+  "slot": "Q2, Q7, Q10",
+  "ab": "Prefer NEP 2020 because it also feeds Paper I essays.",
+  "reading": [
+   {
+    "years": "2025 7(a)",
+    "q": "Highlight the recent developments in the education policy of the Government of India."
+   },
+   {
+    "years": "2023 2(b)",
+    "q": "NEP 2020 has been criticised for denuding the autonomy of States. Examine the rationale for the transfer of subjects."
+   },
+   {
+    "years": "2025 7(b)",
+    "q": "Policies are prepared by experts yet results fall short. What issues cause the gap?"
+   }
+  ],
+  "other": "Education policy (2025); NEP and State autonomy (2023); policy-result gap (2025); Atmanirbhar Bharat (2023); Sen's development (2020); health and education interventions (2020)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Three languages",
+    "q": "Examine the three-language formula and the objections of States."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Health policy",
+    "q": "Evaluate the National Health Policy 2017 and Ayushman Bharat PM-JAY."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Evaluate the role of DBT and Aadhaar in welfare delivery: gains, exclusion errors and safeguards."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Capability approach",
+    "q": "Explain Amartya Sen's capability approach to development."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Right to Education",
+    "q": "Evaluate the implementation of the Right to Education Act."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Policy cycle",
+    "q": "Explain the policy cycle: formulation, implementation and evaluation."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Evaluation",
+    "q": "Discuss the role of third-party evaluation and outcome budgeting in welfare delivery."
+   }
+  ]
+ },
+ {
+  "day": 51,
+  "paper": 4,
+  "rank": 13,
+  "theme": "External Sector: CAD, BoP, FDI, Exchange Rate",
+  "recurrence": "Appeared in the last two cycles (2023, 2025)",
+  "slot": "Q1, Q13",
+  "ab": "Pick CAD/BoP if offered: definitions plus graph-style reasoning.",
+  "reading": [
+   {
+    "years": "2025 1(a)",
+    "q": "Analyse the factors behind India's Current Account Deficit and unfavourable BoP and discuss their implications."
+   },
+   {
+    "years": "2023 1(b)",
+    "q": "Is the exchange rate of the Rupee fully market-determined? Explain the effects of depreciation."
+   }
+  ],
+  "other": "CAD and BoP (2025); exchange rate and depreciation (2023); FDI policy (2023); export promotion PUSH (2023)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Trade policy",
+    "q": "Evaluate the Foreign Trade Policy and export promotion schemes such as RoDTEP."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "WTO",
+    "q": "Discuss India's stand on agricultural subsidies and public stockholding at the WTO."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Evaluate India's recent free trade agreements and their implications for exports and domestic industry."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "1991 crisis",
+    "q": "Discuss the 1991 BoP crisis and its lessons."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "FPI vs FDI",
+    "q": "Distinguish FPI and FDI and discuss their volatility."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "FTAs",
+    "q": "Evaluate India's recent free trade agreements and their implications for exports."
+   }
+  ]
+ },
+ {
+  "day": 52,
+  "paper": 5,
+  "rank": 13,
+  "theme": "Sustainable Development and SDGs",
+  "recurrence": "Appeared in 5 cycles",
+  "slot": "Q5-6, Q15",
+  "ab": "Short, flexible answers: pick when the paired option is technical.",
+  "reading": [
+   {
+    "years": "2025 6(b); 2020 15(d)",
+    "q": "Define sustainable development and evaluate its relevance for modern industrialisation."
+   },
+   {
+    "years": "2020 5(a)",
+    "q": "Name any four of the 17 SDGs and explain how India can reach them."
+   }
+  ],
+  "other": "Sustainable development and industrialisation (2025); 17 SDGs (2020); Brundtland Report (2012); sustainable agriculture (2016); SDG strategy for AP (2017)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Consumption",
+    "q": "Discuss sustainable consumption and production."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "ESG",
+    "q": "Discuss ESG and green finance in India."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Explain Mission LiFE and the circular economy as strategies; evaluate India's progress on the SDG India Index."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "AP SDG",
+    "q": "Evaluate AP's SDG strategy and its performance on the SDG India Index."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Footprint",
+    "q": "Explain the ecological footprint and carrying capacity."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Mission LiFE",
+    "q": "Explain Mission LiFE and the circular economy and evaluate India's SDG progress."
+   }
+  ]
+ },
+ {
+  "day": 53,
+  "paper": 2,
+  "rank": 14,
+  "theme": "AP Agriculture, Industry, Ports and Population",
+  "recurrence": "Q12-13 slot in last 3 cycles",
+  "slot": "Q12/Q13",
+  "ab": "Take agriculture or ports (data-rich, scheme-rich) over census-composition questions.",
+  "reading": [
+   {
+    "years": "2025 12(a)",
+    "q": "Discuss the background of agriculture in AP and examine how rainfall, temperature, irrigation and power influence it."
+   },
+   {
+    "years": "2023 12(b); 2025 13(a)",
+    "q": "Discuss the role of seaports in the economic development of AP; discuss spatial patterns of population and urbanisation."
+   }
+  ],
+  "other": "Agriculture inputs (2025); industrial importance (2025); population distribution and urbanisation (2025); SC/ST/religion Census 2011 (2025); tribal population (2020); seaports (2023); Sagarmala (2023); demographic dividend (2023); rural and urban population (2020); Green Revolution (2020); fisheries (2020)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Irrigation",
+    "q": "Discuss the major and medium irrigation projects of AP (Nagarjuna Sagar, Srisailam, Handri-Neeva, Polavaram)."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Cropping pattern",
+    "q": "Discuss the cropping pattern of AP with reference to rice, tobacco, chilli and cotton."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Discuss the mineral wealth of AP (limestone, barytes, beryl, bauxite) and its role in industrial development."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Urban hierarchy",
+    "q": "Analyse the urban hierarchy of AP and the role of Visakhapatnam, Vijayawada and Tirupati."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Transport",
+    "q": "Discuss the road, rail and port networks of AP and the Visakhapatnam-Chennai Industrial Corridor."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Tribal communities",
+    "q": "Discuss the tribal communities of AP and the role of ITDAs in their development."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Power",
+    "q": "Discuss power generation in AP: thermal, solar and wind."
+   }
+  ]
+ },
+ {
+  "day": 54,
+  "paper": 3,
+  "rank": 14,
+  "theme": "Constitution Basics: Preamble, Amendment, SC/ST and Minorities",
+  "recurrence": "Appeared in 5 cycles",
+  "slot": "Q1, Q14-15",
+  "ab": "Fallback theme: pick it only when the paired option is a topic you have not prepared.",
+  "reading": [
+   {
+    "years": "2020 1(a)",
+    "q": "How was the Constituent Assembly formed? Critically evaluate the Constitution it framed."
+   },
+   {
+    "years": "2016 14(a)",
+    "q": "Describe the procedure for amending the Constitution. What is the criticism against it?"
+   },
+   {
+    "years": "2016 15(b)",
+    "q": "Explain the concept of minorities in the Constitution and the safeguards for their rights."
+   },
+   {
+    "years": "2008 15(a) + NEW",
+    "q": "Bring out the politics of women's reservation. Evaluate the Nari Shakti Vandan Adhiniyam (2023) and its link to delimitation."
+   }
+  ],
+  "other": "Constituent Assembly (2020); salient features (2020); amendment procedure (2016); minorities (2016); SC/ST special provisions (2016); Preamble (2008); women's reservation politics (2008); secularism (2011); basic structure (2016, 2011)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Drafting",
+    "q": "Discuss the role of Dr Ambedkar and the Drafting Committee in the framing of the Constitution."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Borrowed features",
+    "q": "Examine the features borrowed from other constitutions and their Indianisation."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Important amendments",
+    "q": "Evaluate the 42nd, 44th, 73rd, 74th, 101st and 103rd amendments."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Citizenship",
+    "q": "Examine the constitutional issues in the Citizenship Amendment Act 2019."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Scheduled Areas",
+    "q": "Discuss the Fifth and Sixth Schedules and the administration of tribal areas."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Election Commission",
+    "q": "Examine the role of the Election Commission and electoral reforms."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "One nation one election",
+    "q": "Examine the constitutional issues in simultaneous elections."
+   }
+  ]
+ },
+ {
+  "day": 55,
+  "paper": 4,
+  "rank": 14,
+  "theme": "Taxation: GST, Direct Tax, Tax Base",
+  "recurrence": "Appeared in 5 cycles",
+  "slot": "Q2, Q4-5",
+  "ab": "Pick GST (also asked in Paper III) over direct tax reform.",
+  "reading": [
+   {
+    "years": "2023 4(a)",
+    "q": "What is GST? Explain the steps taken to facilitate trade and ease of doing business under it."
+   },
+   {
+    "years": "2020 2(a); 2012 5(a)",
+    "q": "What factors are responsible for the narrow tax base in India?"
+   }
+  ],
+  "other": "GST and ease of business (2023); narrow tax base (2020); direct vs indirect tax shares (2012); tax reforms since 1991 (2011); revenue collection pattern (2008); direct tax reforms (2023); customs and excise (2023)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Tax buoyancy",
+    "q": "Discuss tax buoyancy and the tax-to-GDP ratio of India."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Tax evasion",
+    "q": "Discuss black money and tax evasion and the measures taken against them."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Evaluate the recent GST rate rationalisation and the end of the compensation cess."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Income tax",
+    "q": "Discuss the recent overhaul of the income tax law and its objectives."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "GST design",
+    "q": "Explain dual GST, IGST and input tax credit."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Digital tax",
+    "q": "Discuss the taxation of the digital economy."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "State taxes",
+    "q": "Examine the impact of the shift from VAT to GST on the revenues of AP."
+   }
+  ]
+ },
+ {
+  "day": 56,
+  "paper": 5,
+  "rank": 14,
+  "theme": "Science and Technology Institutions and Policy",
+  "recurrence": "Appeared in 6 of 8 cycles",
+  "slot": "Q1-2, Q4",
+  "ab": "Pick DRDO / policy questions if you know acronyms and dates; skip otherwise.",
+  "reading": [
+   {
+    "years": "2025 4(b); 2025 2(b)",
+    "q": "Discuss the vision and mission of DRDO; major scientific institutes in AP and the role of IISER Tirupati."
+   },
+   {
+    "years": "2023 1(a)",
+    "q": "Is India's problem 'not so much knowledge creation as knowledge consumption'? Can Scientific Social Responsibility remedy this?"
+   }
+  ],
+  "other": "DRDO (2025); Raman effect (2025); IISER Tirupati and institutes in AP (2025); NIRCA (2025); SSR (2023); research institutes (2020); science publications (2020); STI Policy 2013 (2016); ISCA and CSIR (2016); technology missions and S&T policy (2012, 2011, 2008)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "STI policy",
+    "q": "Discuss the STI Policy 2013 and the draft STIP."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "R&D spend",
+    "q": "Examine the low R&D spending in India and suggest remedies."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Discuss the Anusandhan National Research Foundation Act 2023 and its role in improving R&D funding."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Defence tech",
+    "q": "Discuss indigenous defence technology: Agni, Astra and iDEX."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "AP institutions",
+    "q": "Discuss the role of IIT Tirupati, IISER Tirupati and agricultural research centres in AP."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "ANRF",
+    "q": "Discuss the Anusandhan National Research Foundation Act 2023 and its role in R&D funding."
+   }
+  ]
+ },
+ {
+  "day": 57,
+  "paper": 2,
+  "rank": 15,
+  "theme": "Biodiversity, Forests, Drought and Disaster in AP",
+  "recurrence": "Q14-15 slot in last 3 cycles",
+  "slot": "Q14/Q15",
+  "ab": "Take wildlife/biodiversity over cyclones when unsure: more content in Paper V overlaps.",
+  "reading": [
+   {
+    "years": "2025 14(a); 2023 14(b)",
+    "q": "Discuss the key aspects of wildlife conservation and biodiversity in Andhra Pradesh."
+   },
+   {
+    "years": "2025 15(a); 2023 15(b)",
+    "q": "Analyse the vulnerability of Rayalaseema to droughts and discuss the socio-economic consequences."
+   }
+  ],
+  "other": "Wildlife conservation (2025); cyclones and floods (2025); Rayalaseema drought (2025); APPCB (2025); forest conservation programmes (2023); in-situ conservation (2023); EIA (2023); drought types (2023); Project Tiger (2020); national parks (2020); pollution (2020); sustainable development (2020)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Tiger reserve",
+    "q": "Examine the status of Project Tiger and the Nagarjunasagar-Srisailam Tiger Reserve."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "CRZ",
+    "q": "Discuss the Coastal Regulation Zone and its relevance for the AP coast."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Assess the role of mangroves (Coringa, Krishna sanctuary) in the coastal protection and livelihoods of Andhra Pradesh."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Wetlands",
+    "q": "Discuss Kolleru Lake and Pulicat as wetlands: threats and conservation."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Red sanders",
+    "q": "Discuss Red Sanders conservation and smuggling in the Seshachalam hills."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Cyclones",
+    "q": "Examine major cyclones on the AP coast (Hudhud, Titli, Michaung) and preparedness."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Urban floods Paper III: Polity, Governance, Law and Ethics",
+    "q": "Examine urban flood risk in Vijayawada and Visakhapatnam."
+   }
+  ]
+ },
+ {
+  "day": 58,
+  "paper": 3,
+  "rank": 15,
+  "theme": "Cyber Law, Tax Law and Labour Law",
+  "recurrence": "Appeared in 3 cycles (Q15 slot)",
+  "slot": "Q15",
+  "ab": "Cyber-law answers can be reused in Paper V. Pick cyber over GST/direct tax if you have not revised tax.",
+  "reading": [
+   {
+    "years": "2025 15(a)",
+    "q": "What is cyberstalking? What other cyber offences are recognised under the IT Act, 2000?"
+   },
+   {
+    "years": "2025 15(b); 2023 15(b)",
+    "q": "What is GST? Discuss its regulatory framework and constitutional provisions."
+   }
+  ],
+  "other": "Cyberstalking and IT Act offences (2025); GST framework (2025); direct tax reforms (2023); substantive vs procedural law (2023); labour laws (2020); Lokpal and Lokayukta (2020); cybercrimes and cyber laws (2020)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "DPDP Act",
+    "q": "Discuss the Digital Personal Data Protection Act 2023: key provisions and concerns."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Section 66A",
+    "q": "Examine Shreya Singhal and the liability of intermediaries under the IT Act."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Examine the salient features of the Bharatiya Nyaya Sanhita 2023 and BNSS and how they differ from the IPC and CrPC."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Consumer law",
+    "q": "Examine the Consumer Protection Act 2019 and the CCPA."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Labour codes",
+    "q": "Examine the four Labour Codes and their implications for workers."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Separation of powers Paper IV: Economy and Development",
+    "q": "Explain the doctrine of separation of powers in the Indian context."
+   }
+  ]
+ },
+ {
+  "day": 59,
+  "paper": 4,
+  "rank": 15,
+  "theme": "Growth, Development Measurement and Vision 2047",
+  "recurrence": "Q1 macro slot in most cycles",
+  "slot": "Q1(a)/(b)",
+  "ab": "Q1 is often a macro question: pick the one with data you have memorised.",
+  "reading": [
+   {
+    "years": "2023 1(a)",
+    "q": "Discuss the impact of 'New Age' reforms on the Indian economy and the growth potential for this decade."
+   },
+   {
+    "years": "2016 1(b); 2017 1(a)",
+    "q": "Discuss the revision in the base year and method of national income accounting, and sectoral shifts in national income."
+   }
+  ],
+  "other": "New age reforms (2023); sectoral contribution (2017); GNH and human development (2017); base year revision (2016); difficulties in measuring development (2016); five-year plan objectives (2016, 2012, 2011, 2008); NITI Aayog (2016); national income methods (2008); SDG strategy for AP (2017)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "Kuznets",
+    "q": "Explain the Kuznets curve and inequality in India."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Planning",
+    "q": "Evaluate the Mahalanobis model and lessons from planning."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Examine the Viksit Bharat 2047 goals: required growth rates, sectoral shifts and AP's Swarnandhra Vision 2047 targets."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Deindustrialisatio n",
+    "q": "Discuss premature deindustrialisation and the services-led growth of India."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Informal economy",
+    "q": "Examine the informal economy and its contribution to GDP and employment."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Regional disparity",
+    "q": "Discuss regional disparities in AP and the Backward Regions Grant Fund."
+   },
+   {
+    "n": 7,
+    "tier": "reserve",
+    "tag": "Green GDP Paper V: Science, Technology and Environment",
+    "q": "Explain environmental accounting and green GDP."
+   }
+  ]
+ },
+ {
+  "day": 60,
+  "paper": 5,
+  "rank": 15,
+  "theme": "Water, Mining and Land Degradation",
+  "recurrence": "Appeared in 5 cycles",
+  "slot": "Q5-6, Q12",
+  "ab": "Pick mining or water-conservation options with AP examples.",
+  "reading": [
+   {
+    "years": "2023 5(b)",
+    "q": "What is open cast mining? Discuss its environmental impact and solutions, with a note on post-closure plans."
+   },
+   {
+    "years": "2017 5(b)",
+    "q": "Critically examine how illegal river sand mining affects river ecology and local lives."
+   }
+  ],
+  "other": "Mining and earthquakes (2025); open cast mining (2023); soil erosion (2020); river sand mining (2017); traditional water management (2017); dams (2016); AP Sand Policy 2016 (2016); mineral resources (2016, 2011, 2008); IWRM and water user associations (2011); watershed (2012); wasteland reclamation (2011, 2008); impact on water resources (2016)",
+  "expected": [
+   {
+    "n": 1,
+    "tier": "must",
+    "tag": "River linking",
+    "q": "Discuss the National River Linking Project and the Godavari-Penna link."
+   },
+   {
+    "n": 2,
+    "tier": "must",
+    "tag": "Groundwater",
+    "q": "Discuss groundwater depletion and the regulation of its use."
+   },
+   {
+    "n": 3,
+    "tier": "must",
+    "tag": "Gap angle",
+    "q": "Evaluate Atal Bhujal Yojana and Jal Shakti Abhiyan in community-based groundwater management."
+   },
+   {
+    "n": 4,
+    "tier": "must",
+    "tag": "Desertification",
+    "q": "Discuss land degradation and desertification in Rayalaseema."
+   },
+   {
+    "n": 5,
+    "tier": "stretch",
+    "tag": "Mining regulation",
+    "q": "Discuss the MMDR Act amendments and the District Mineral Foundation."
+   },
+   {
+    "n": 6,
+    "tier": "stretch",
+    "tag": "Soil health",
+    "q": "Evaluate the Soil Health Card scheme."
+   }
+  ]
+ }
+]
