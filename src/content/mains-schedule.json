@@ -1,0 +1,4985 @@
+{
+ "source": "Team Civilians · APPSC Group-1 Mains theme dossiers (PYQ cycles 2008-2025)",
+ "phases": {
+  "A": "Phase A · Days 1-24 · the most-repeated themes first · 4 answers a day",
+  "B": "Phase B · Days 25-48 · 3 answers a day",
+  "R": "Rewrite sprints · Days 49-54",
+  "D": "Phase D · Days 55-60 · two themes a day, 1 answer each"
+ },
+ "days": [
+  {
+   "day": 1,
+   "date": "2026-11-07",
+   "label": "Sat 07 Nov",
+   "phase": "A",
+   "themes": [
+    {
+     "title": "Inclusive Growth, Poverty, Education and Healthcare",
+     "paper": "Paper IV · Economy of India & Andhra Pradesh",
+     "pyqs": 26,
+     "cycles": "8/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Poverty measurement and MPI",
+       "q": "Examine the trends in poverty in India using the Multidimensional Poverty Index. What are the limitations of poverty measurement?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Education and health for inclusive growth",
+       "q": "Evaluate the National Education Policy, 2020 and the Ayushman Bharat scheme as instruments of inclusive growth.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Employment programmes",
+       "q": "Critically examine the effectiveness of MGNREGS and other employment generation programmes in reducing rural unemployment.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Women-led development",
+       "q": "Examine the schemes for women empowerment in Andhra Pradesh and the shift from women development to women-led development.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Welfare schemes in AP and delivery",
+       "q": "Evaluate the role of direct benefit transfer and welfare pensions in reducing poverty in Andhra Pradesh.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Explain the concept of inclusive growth and its indicators.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss relative poverty, the Lorenz curve and the Gini coefficient.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss rural-urban poverty trends in Andhra Pradesh.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "What is the Universal Basic Income? Examine its feasibility in India.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the demographic dividend and the challenge of jobs in India.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the role of PPP in health and education.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Examine the Public Distribution System and food security in AP.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 2,
+   "date": "2026-11-08",
+   "label": "Sun 08 Nov",
+   "phase": "A",
+   "themes": [
+    {
+     "title": "State Budget, Revenue and Deficits",
+     "paper": "Paper IV · Economy of India & Andhra Pradesh",
+     "pyqs": 28,
+     "cycles": "8/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Deficits and fiscal health",
+       "q": "Differentiate between revenue deficit, fiscal deficit and primary deficit. Examine the fiscal position of Andhra Pradesh in the last five years.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Latest AP budget",
+       "q": "Examine the major features and priorities of the Andhra Pradesh State Budget for 2025-26. What are the fiscal challenges?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Sources of state revenue",
+       "q": "Explain the major sources of revenue of the Andhra Pradesh government. Discuss the role of GST and central transfers.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Gender and child budgeting",
+       "q": "Explain the concept of outcome budgeting and gender budgeting. How far has Andhra Pradesh adopted them?",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Quality of public expenditure",
+       "q": "Discuss the principles of public expenditure and the need to improve the quality of state spending on capital formation.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Examine the narrow tax base in India and measures to widen it.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Explain the role of the State Finance Commission in Andhra Pradesh.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the impact of bifurcation on the finances of Andhra Pradesh.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the FRBM framework and state borrowing limits.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the debt composition of Andhra Pradesh.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "What are off-budget borrowings? Discuss their risks.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Explain direct and indirect taxes and their relative shares in India.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 3,
+   "date": "2026-11-09",
+   "label": "Mon 09 Nov",
+   "phase": "A",
+   "themes": [
+    {
+     "title": "Genetic Engineering, GM Crops and Biotech Ethics",
+     "paper": "Paper V · Science, Technology & Environment",
+     "pyqs": 23,
+     "cycles": "7/7",
+     "top": [
+      {
+       "n": 1,
+       "topic": "BioE3 and biotech policy",
+       "q": "Examine the objectives of the BioE3 (Biotechnology for Economy, Environment and Employment) Policy and discuss how it builds on the National Biotechnology Development Strategy to promote bio-manufacturing in India.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Genome editing in agriculture",
+       "q": "What is genome editing? How does it differ from genetic modification? Discuss the regulatory approach in India towards genome-edited crops and the ethical concerns.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "GM crops: debate and regulation",
+       "q": "Critically examine the role of the Genetic Engineering Appraisal Committee in regulating GM crops in India. Should India permit GM food crops such as GM mustard?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Bioethics of gene therapy",
+       "q": "Discuss the ethical, legal and social issues associated with gene therapy and stem cell research. Suggest a regulatory framework for India.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Biotechnology in healthcare",
+       "q": "Discuss the applications of biotechnology in healthcare, with reference to biosimilars, monoclonal antibodies and mRNA technology.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Explain the Cartagena Protocol on Biosafety and India's biosafety regulatory system.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the Biological Diversity Act, 2002 and the issue of biopiracy and access and benefit sharing.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Describe DNA technology and its applications in forensics and the concerns about privacy and regulation.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "What is synthetic biology? Discuss its promise and risks.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Examine the role of biotechnology in environmental clean-up (bioremediation) with examples.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the role of biotechnology in improving crop productivity and food security in India.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Evaluate the role of biotechnology parks and incubators in promoting the bio-economy in India.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 4,
+   "date": "2026-11-10",
+   "label": "Tue 10 Nov",
+   "phase": "A",
+   "themes": [
+    {
+     "title": "Pollution and Waste Management",
+     "paper": "Paper V · Science, Technology & Environment",
+     "pyqs": 23,
+     "cycles": "7/7",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Solid waste: plastics and EPR",
+       "q": "Discuss the Plastic Waste Management Rules and the concept of Extended Producer Responsibility. How effective has the ban on single-use plastics been in India?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Air quality policy",
+       "q": "Critically evaluate the National Clean Air Programme and the Graded Response Action Plan in tackling air pollution in Indian cities.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "River and water pollution",
+       "q": "Examine the causes of river pollution in India and assess the success of the Namami Gange Programme.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Municipal solid waste and circular economy",
+       "q": "Discuss the Solid Waste Management Rules, 2016 and the scope for waste-to-energy and a circular economy in Indian cities.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Biomedical and hazardous waste",
+       "q": "What are the rules governing biomedical waste and hazardous waste in India? Discuss the issues in their management.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the functions of the Central and State Pollution Control Boards and the limitations in enforcing environmental law.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Explain the sources, impacts and control of noise pollution in urban areas.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the problem of stubble burning and its impact on air quality, with possible solutions.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "Examine the causes and effects of marine and coastal pollution along the Indian coast.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "What is the polluter pays principle? Discuss its application in India with reference to the NGT.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the sources and effects of soil pollution and remedial measures.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss pollution problems in Visakhapatnam and the industrial corridors of Andhra Pradesh.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 5,
+   "date": "2026-11-11",
+   "label": "Wed 11 Nov",
+   "phase": "A",
+   "themes": [
+    {
+     "title": "Medieval Andhra: Kakatiyas, Reddis, Vijayanagara, Qutb Shahis and Asaf Jahis",
+     "paper": "Paper II · History, Culture & Geography",
+     "pyqs": 22,
+     "cycles": "8/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Kakatiya contribution",
+       "q": "Discuss the contribution of the Kakatiya rulers to administration, irrigation, art and architecture. Why is the Ramappa temple considered a masterpiece?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Vijayanagara culture",
+       "q": "Evaluate the cultural contribution of Krishnadevaraya and the Vijayanagara rulers to Telugu literature, art and architecture.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Telugu language and literature",
+       "q": "Trace the growth of Telugu language and literature from the age of Nannaya to the Prabandha period.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Society and economy in medieval Andhra",
+       "q": "Discuss the socio-economic conditions of Andhra Desha under the Kakatiyas and the Reddis.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Qutb Shahis and Asaf Jahis",
+       "q": "Discuss the contribution of the Qutb Shahis to the cultural and architectural heritage of Telangana and Andhra.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Examine the socio-religious and cultural conditions of the Reddi kingdoms.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Describe Vijayanagara architecture.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the growth of Saivite sects under the Kakatiyas.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the stories on the origin of Andhra people and language.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Estimate the contribution of Nannaya.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the role of the Majlis-e-Ittehadul Muslimeen in Hyderabad State.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the Chalukyas of Kalyani and their contribution to art.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 6,
+   "date": "2026-11-12",
+   "label": "Thu 12 Nov",
+   "phase": "A",
+   "themes": [
+    {
+     "title": "Infectious Diseases and Public Health",
+     "paper": "Paper V · Science, Technology & Environment",
+     "pyqs": 21,
+     "cycles": "7/7",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Antimicrobial resistance (follow-up)",
+       "q": "What is One Health? Discuss how zoonotic diseases and antimicrobial resistance can be tackled through the One Health approach in India.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "TB elimination",
+       "q": "Discuss the strategies under the National TB Elimination Programme. What are the challenges of drug-resistant tuberculosis in India?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Vector-borne diseases",
+       "q": "Discuss the causes and prevention of vector-borne diseases such as malaria, dengue and Chikungunya, with reference to government programmes.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Pandemic preparedness",
+       "q": "Discuss the lessons of the Covid-19 pandemic for India's public health system and disease surveillance.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Water-borne diseases and sanitation",
+       "q": "Examine the relationship between sanitation, safe drinking water and the burden of water-borne diseases in India.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the epidemiology and control of HIV/AIDS in India.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Differentiate between epidemic, endemic and pandemic with examples and discuss the response framework.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the role of diagnostics such as ELISA and PCR in the control of infectious diseases.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "Describe the types of fungal and protozoal infections and their prevention.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss emerging and re-emerging infectious diseases and why they are increasing.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Examine the role of the Integrated Disease Surveillance Programme.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the challenges of controlling respiratory infections in dense cities.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 7,
+   "date": "2026-11-13",
+   "label": "Fri 13 Nov",
+   "phase": "A",
+   "themes": [
+    {
+     "title": "ICT, E-Governance and Cyber Security",
+     "paper": "Paper V · Science, Technology & Environment",
+     "pyqs": 18,
+     "cycles": "7/7",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Data protection law",
+       "q": "Discuss the main provisions of the Digital Personal Data Protection Act, 2023. How does it balance privacy with innovation and governance?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Digital public infrastructure",
+       "q": "What is Digital Public Infrastructure? Discuss how Aadhaar, UPI and other platforms have transformed service delivery in India.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Cyber security framework",
+       "q": "Discuss India's institutional and legal framework for cyber security. What are the gaps?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "AI governance",
+       "q": "Discuss the opportunities and risks of Artificial Intelligence for India and the need for a regulatory framework.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Semiconductors and IT manufacturing",
+       "q": "Discuss the India Semiconductor Mission and its significance for self-reliance in the technology sector.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Evaluate the Digital India programme after a decade.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the challenges to e-governance in India: technical, economic and social bottlenecks.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Explain the Internet of Things and its likely impact on India.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "What is Big Data? Discuss India's initiatives and the challenges.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss e-governance initiatives of Andhra Pradesh and their impact on citizen services.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Explain BharatNet and rural broadband.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss cyber bullying, phishing and ransomware and the legal remedies available.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 8,
+   "date": "2026-11-14",
+   "label": "Sat 14 Nov",
+   "phase": "A",
+   "themes": [
+    {
+     "title": "Industry, Services and Infrastructure Policy of Andhra Pradesh",
+     "paper": "Paper IV · Economy of India & Andhra Pradesh",
+     "pyqs": 20,
+     "cycles": "8/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Current industrial policy",
+       "q": "Critically examine the Andhra Pradesh Industrial Development Policy 2024-29. How does it differ from earlier policies?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Industrial corridors and ports",
+       "q": "Discuss the role of industrial corridors and ports in the industrial development of Andhra Pradesh.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "MSMEs of AP",
+       "q": "Discuss the problems of MSMEs in Andhra Pradesh and the policy measures taken to address them.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Service sector",
+       "q": "Discuss the changing composition of the service sector of Andhra Pradesh and the scope for tourism and IT services.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Infrastructure mission",
+       "q": "Discuss the infrastructure development agenda of Andhra Pradesh with reference to power, roads and logistics.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Examine the export promotion policy of Andhra Pradesh.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the challenges faced by the industrial sector of Andhra Pradesh.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Evaluate the performance of the industrial sector of Andhra Pradesh since bifurcation.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the State Mineral Policy of Andhra Pradesh.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the Visakhapatnam-Chennai Industrial Corridor.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the role of SEZs in the industrial development of AP.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Evaluate the role of private sector in the development of services in AP.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 9,
+   "date": "2026-11-15",
+   "label": "Sun 15 Nov",
+   "phase": "A",
+   "themes": [
+    {
+     "title": "Energy: Conventional, Renewable and Nuclear",
+     "paper": "Paper V · Science, Technology & Environment",
+     "pyqs": 19,
+     "cycles": "7/7",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Green hydrogen",
+       "q": "What is green hydrogen? Discuss the objectives of the National Green Hydrogen Mission and the challenges in making India a global hub.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Solar schemes",
+       "q": "Discuss the role of rooftop solar and schemes such as PM Surya Ghar and PM-KUSUM in India's energy transition. What are the constraints?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Energy transition and net zero",
+       "q": "India has committed to net zero by 2070. Examine the challenges in shifting from coal to clean energy and suggest a just transition path.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Nuclear power and the three-stage programme",
+       "q": "Explain India's three-stage nuclear power programme and the role of thorium. What are the concerns regarding nuclear energy?",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Energy storage and the grid",
+       "q": "Discuss the role of energy storage and smart grids in integrating renewable energy into India's power system.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the status of renewable energy generation in India and the barriers to its growth.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "What are the merits and demerits of nuclear energy as a source of power for India?",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Explain the Bureau of Energy Efficiency and the PAT scheme.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the potential of offshore wind and ocean energy in India.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Examine the role of biofuels and ethanol blending in India's energy security.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the potential of solar, wind and pumped storage in Andhra Pradesh.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the role of natural gas and shale gas in India's energy mix.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 10,
+   "date": "2026-11-16",
+   "label": "Mon 16 Nov",
+   "phase": "A",
+   "themes": [
+    {
+     "title": "Space Technology, ISRO and DRDO",
+     "paper": "Paper V · Science, Technology & Environment",
+     "pyqs": 17,
+     "cycles": "7/7",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Space policy and private sector",
+       "q": "Discuss the Indian Space Policy, 2023 and the role of IN-SPACe in promoting private participation in the space sector.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Lunar missions",
+       "q": "Discuss the significance of the Chandrayaan-3 mission. How do India's lunar and solar missions advance space science?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Satellite applications in governance",
+       "q": "Discuss how remote sensing and satellite communication are used in agriculture, disaster management and rural development.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "DRDO and defence technology",
+       "q": "Discuss the role of DRDO in building India's missile and defence technology and the challenge of indigenisation.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Gaganyaan and space debris",
+       "q": "What is the Gaganyaan programme? Discuss the issue of space debris and the need for a space law.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Explain the difference between PSLV, GSLV and SSLV and the types of orbits.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Describe the NavIC navigation system and its applications.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss ISRO's role in weather forecasting and disaster management.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "Explain the role of Sriharikota in India's space programme.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss ISRO's commercial arm and the satellite launch market.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the role of space technology in education and telemedicine.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Briefly trace India's space programme from Aryabhata to the present.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 11,
+   "date": "2026-11-17",
+   "label": "Tue 17 Nov",
+   "phase": "A",
+   "themes": [
+    {
+     "title": "Parliament and State Legislatures",
+     "paper": "Paper III · Polity, Governance, Law & Ethics",
+     "pyqs": 14,
+     "cycles": "8/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Parliamentary committees",
+       "q": "Discuss the role of parliamentary committees in ensuring executive accountability. Why have fewer Bills been referred to them recently?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Anti-defection law",
+       "q": "Examine the provisions of the Tenth Schedule and the role of the Speaker in the disqualification of legislators. Suggest reforms.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Women's Reservation",
+       "q": "Discuss the Constitution (106th Amendment) Act, 2023 on women's reservation. What are the issues in its implementation?",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Financial control",
+       "q": "Discuss the role of Parliament in the budgetary process and its control over public expenditure.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Legislative Councils and State legislatures",
+       "q": "Evaluate the role of Legislative Councils in the states. Should they be abolished?",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Distinguish between the powers of the Lok Sabha and the Rajya Sabha.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Explain the legislative procedure for ordinary, money and financial bills.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "What are parliamentary privileges and immunities? How far are they justiciable?",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the decline of legislative debates and ways to improve them.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the issue of office of profit.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Explain the various kinds of parliamentary motions.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the arguments for and against simultaneous elections.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 12,
+   "date": "2026-11-18",
+   "label": "Wed 18 Nov",
+   "phase": "A",
+   "themes": [
+    {
+     "title": "Andhra Renaissance: Social Reform, Literature and Popular Movements",
+     "paper": "Paper II · History, Culture & Geography",
+     "pyqs": 14,
+     "cycles": "8/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Factors of social awakening",
+       "q": "Discuss the factors that led to the social awakening in the Andhra region in the nineteenth and twentieth centuries.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Veeresalingam and reform",
+       "q": "Evaluate the contribution of Kandukuri Veeresalingam to social reform and the Telugu renaissance.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Library Movement and literary renaissance",
+       "q": "Discuss the role of the Library Movement and literature in the awakening of Andhra.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Dalit and Adi-Andhra movements",
+       "q": "Trace the growth of the Adi-Andhra movement and Telugu Dalit literature against caste discrimination.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Tribal and peasant resistance",
+       "q": "Examine the causes and significance of the Rampa Rebellion led by Alluri Sitarama Raju.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the influence of the Brahmo Samaj on Andhra reformers.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the contributions of Gurazada Apparao.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the role of Tripuraneni Ramaswamy Chowdary.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the contributions of Colin Mackenzie and Arthur Cotton.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the literary works of Jashuva and Boyi Bhimanna.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the Communist ideology and literary figures of Andhra.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the role of women in social reform in Andhra.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 13,
+   "date": "2026-11-19",
+   "label": "Thu 19 Nov",
+   "phase": "A",
+   "themes": [
+    {
+     "title": "Federalism and Union-State Relations",
+     "paper": "Paper III · Polity, Governance, Law & Ethics",
+     "pyqs": 14,
+     "cycles": "8/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Cooperative and competitive federalism",
+       "q": "Examine the evolution of cooperative federalism in India. How have the GST Council and NITI Aayog altered Union-State relations?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Legislative and administrative relations",
+       "q": "Explain the distribution of legislative powers between the Union and the States. How does the Constitution ensure Union supremacy?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Federal tensions today",
+       "q": "Discuss the growing tensions in Centre-State relations over Governors, central agencies and education policy.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Commissions on Centre-State relations",
+       "q": "Discuss the recommendations of the Sarkaria and Punchhi Commissions. How far have they been implemented?",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Federal features of the Constitution",
+       "q": "India is federal in form but unitary in spirit. Discuss with reference to recent developments.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the financial relations between the Union and the States and their irritants.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the inter-state water disputes and the mechanisms for resolution.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Explain the doctrine of pith and substance and the doctrine of repugnancy.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the emergency provisions and their effect on federalism.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Explain the role of the Inter-State Council and Zonal Councils.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the issue of delimitation and the federal balance.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the concept of asymmetric federalism in India.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 14,
+   "date": "2026-11-20",
+   "label": "Fri 20 Nov",
+   "phase": "A",
+   "themes": [
+    {
+     "title": "Nationalism: Moderates, Extremists, Revolutionaries and Mass Movements",
+     "paper": "Paper II · History, Culture & Geography",
+     "pyqs": 14,
+     "cycles": "8/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Moderates and Extremists",
+       "q": "Examine the objectives, methods and impact of the Moderates and the Extremists in the Indian National Movement.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Peasant and workers' movements",
+       "q": "Examine the factors that led to the peasant movements in India and their impact on the national movement.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Revolutionary nationalism",
+       "q": "Discuss the contribution of the revolutionary nationalists to the freedom movement.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Partition of Bengal and Swadeshi",
+       "q": "Discuss the Swadeshi movement and the partition of Bengal.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Constitutional developments",
+       "q": "Discuss the constitutional developments from 1909 to 1935 and the nationalist response.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "What is the safety valve theory? Discuss it in the Indian context.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the impact of the World Wars on the national movement.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the role of women in the national movement.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the role of the Socialists in the national movement.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the Cabinet Mission Plan.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the working-class movement.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Trace the three phases of the national movement.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 15,
+   "date": "2026-11-21",
+   "label": "Sat 21 Nov",
+   "phase": "A",
+   "themes": [
+    {
+     "title": "Colonial Rule: Land Revenue, Administration, Missionaries and 1857",
+     "paper": "Paper II · History, Culture & Geography",
+     "pyqs": 11,
+     "cycles": "8/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Land revenue systems",
+       "q": "Explain the Permanent, Ryotwari and Mahalwari land revenue systems. What was their impact on Indian agriculture and society?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Colonial economic impact",
+       "q": "Critically examine the impact of British colonial rule on the Indian economy, with reference to the drain of wealth and deindustrialisation.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Missionaries and education",
+       "q": "Assess the role of Christian missionaries and Western education in the socio-cultural transformation of India and Andhra.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Colonial expansion",
+       "q": "Examine the methods of British expansion in India, including the Subsidiary Alliance and the Doctrine of Lapse.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Revolt of 1857",
+       "q": "Describe the causes, nature and consequences of the Revolt of 1857. Was it the First War of Independence?",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the stages of British colonialism and their impact on society.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the economic, political and administrative reforms of the British.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the commercialisation of agriculture and famines.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the land revenue system in the Madras Presidency.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the role of railways in colonial India.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the changes in British policy after 1857.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the contributions of missionaries to education in Andhra.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 16,
+   "date": "2026-11-22",
+   "label": "Sun 22 Nov",
+   "phase": "A",
+   "themes": [
+    {
+     "title": "Natural Resources: Minerals, Forests, Water and Land",
+     "paper": "Paper V · Science, Technology & Environment",
+     "pyqs": 14,
+     "cycles": "7/7",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Critical minerals",
+       "q": "Discuss the strategic importance of critical minerals for India. What are the objectives of the National Critical Mineral Mission?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Forest laws and tribal rights",
+       "q": "Examine the Forest Rights Act, 2006 and the Forest (Conservation) Amendment Act, 2023. How do they balance conservation and livelihood?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Groundwater and watershed management",
+       "q": "Discuss the causes of groundwater depletion in India and the measures under the Atal Bhujal Yojana and watershed management.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Mining regulation",
+       "q": "Discuss the MMDR Act and the role of the District Mineral Foundation in addressing the social and environmental impacts of mining.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Forests and mangroves of AP",
+       "q": "Discuss the status of forests and mangroves in Andhra Pradesh and the measures taken for their conservation.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Distinguish between forest cover and forest area and discuss the findings of the India State of Forest Report.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the impact of illegal sand mining on rivers and the Andhra Pradesh sand policy.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Explain integrated water resource management and water user associations.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss social forestry and afforestation programmes in India.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss wasteland reclamation strategies.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Explain the mineral resources of Andhra Pradesh.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the National Forest Policy and the 33 per cent forest cover target.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 17,
+   "date": "2026-11-23",
+   "label": "Mon 23 Nov",
+   "phase": "A",
+   "themes": [
+    {
+     "title": "Ancient Andhra: Satavahanas, Ikshvakus, Pallavas and Buddhism",
+     "paper": "Paper II · History, Culture & Geography",
+     "pyqs": 11,
+     "cycles": "8/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Satavahanas: society and economy",
+       "q": "Discuss the socio-economic and religious conditions during the Satavahana period.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Satavahana trade",
+       "q": "Discuss the role of trade and urban centres in the economy of the Satavahanas.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Buddhism in Andhra",
+       "q": "Discuss the growth of Buddhism in ancient Andhra with reference to Amaravati and Nagarjunakonda.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Ikshvakus and Pallavas",
+       "q": "Discuss the contribution of the Ikshvakus and Pallavas to art and architecture in Andhra.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Satavahana administration and culture",
+       "q": "Discuss the administration, art and literature under the Satavahanas.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Trace the origin and expansion of the Satavahana power.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the agrarian system under the Satavahanas.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the social structure of Andhra after the Satavahanas.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the Telugu language in the early period.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the art and architecture of the Pallavas.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the role of Nagarjuna in Buddhism.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the Vishnukundins.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 18,
+   "date": "2026-11-24",
+   "label": "Tue 24 Nov",
+   "phase": "A",
+   "themes": [
+    {
+     "title": "Indus Valley, Vedic Culture, Magadha and the Mauryas",
+     "paper": "Paper II · History, Culture & Geography",
+     "pyqs": 10,
+     "cycles": "8/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Harappan civilization",
+       "q": "Discuss the salient features of the Harappan civilization with reference to town planning, economy and decline.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Indus and Vedic compared",
+       "q": "Compare the Harappan civilization with the Vedic civilization.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Mauryan administration",
+       "q": "Discuss the administration and economy of the Mauryan Empire.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Early India through Chinese travellers",
+       "q": "Discuss the socio-religious life of early India with reference to the accounts of foreign travellers.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Post-Mauryan art",
+       "q": "Discuss the major schools of art in the post-Mauryan period.",
+       "chance": "MED"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the origin and expansion of the Indus Valley Civilization.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the continuity of Harappan culture in modern India.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the later Vedic political, social and religious life.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the factors for the growth of Magadhan imperialism.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the foreign invasions and the Kushanas.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the trade of the Harappans.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the Gupta age as a classical age.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 19,
+   "date": "2026-11-25",
+   "label": "Wed 25 Nov",
+   "phase": "A",
+   "themes": [
+    {
+     "title": "Public Debt, Finance Commissions and Federal Finance",
+     "paper": "Paper IV · Economy of India & Andhra Pradesh",
+     "pyqs": 19,
+     "cycles": "7/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Finance Commission recommendations",
+       "q": "Discuss the main recommendations of the Sixteenth Finance Commission and their implications for the finances of Andhra Pradesh.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Centre-state assistance to AP",
+       "q": "Examine the central assistance promised under the AP Reorganisation Act, 2014. How far has it been implemented?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Public debt sustainability",
+       "q": "Examine the trends and sustainability of public debt in India and in Andhra Pradesh.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "GST and federalism",
+       "q": "Discuss the working of the GST Council and the impact of GST on the finances of states.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Special category status",
+       "q": "Discuss the demand for special category status for Andhra Pradesh in the light of the Finance Commission's approach.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Differentiate between internal and external public debt.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the FRBM Act and fiscal consolidation.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the role of externally aided projects in Andhra Pradesh.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "Describe the AP Capital Region Development Authority Act.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the issues in Centre-state financial relations in India.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Examine the role of World Bank loans in the development of AP.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the 14th Finance Commission and the grants to local governments.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 20,
+   "date": "2026-11-26",
+   "label": "Thu 26 Nov",
+   "phase": "A",
+   "themes": [
+    {
+     "title": "AP Welfare, SERP, SHGs and Rural Development",
+     "paper": "Paper IV · Economy of India & Andhra Pradesh",
+     "pyqs": 30,
+     "cycles": "7/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "SHGs and microfinance",
+       "q": "Examine the role of Self-Help Groups and SERP in reducing rural poverty and meeting credit needs in Andhra Pradesh.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Women empowerment schemes",
+       "q": "Evaluate the programmes of the Andhra Pradesh government to achieve women empowerment.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Regional disparities",
+       "q": "Examine the causes of inter-regional disparities in Andhra Pradesh and measures to reduce them.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Financial inclusion",
+       "q": "Discuss the progress of financial inclusion in India and the role of Jan Dhan, differentiated banks and microfinance.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Health and education trends in AP",
+       "q": "Evaluate the trends in public expenditure and outcomes in health and education in Andhra Pradesh.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the demographic features of Andhra Pradesh and the scope for a demographic dividend.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Evaluate the occupational structure of Andhra Pradesh.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Explain the Targeted Public Distribution System in Andhra Pradesh.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss land reforms in Andhra Pradesh and the computerisation of land records.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss rural indebtedness among farmers.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Evaluate the PPP model of health services in Andhra Pradesh.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the flagship central schemes implemented in Andhra Pradesh.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 21,
+   "date": "2026-11-27",
+   "label": "Fri 27 Nov",
+   "phase": "A",
+   "themes": [
+    {
+     "title": "Medieval India: Cholas, Sultanate, Mughals, Marathas and Bhakti-Sufi",
+     "paper": "Paper II · History, Culture & Geography",
+     "pyqs": 15,
+     "cycles": "7/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Mughal administration and economy",
+       "q": "Critically evaluate the central administration and land revenue system under Akbar.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Bhakti and Sufi movements",
+       "q": "Discuss the principles of the Bhakti and Sufi movements and their influence on Indian society.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Chola administration and art",
+       "q": "Discuss the village administration and cultural contribution of the Cholas.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Delhi Sultanate",
+       "q": "Discuss the administrative and economic reforms of the Delhi Sultanate, with reference to Alauddin Khilji.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Shivaji and Maratha state",
+       "q": "Discuss the administration of Shivaji. Was the Maratha state welfare oriented?",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the Mughal contribution to art and architecture.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the medieval temple architecture styles.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the literature and society of the Sangam age.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the causes of the decline of the Mughal empire.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the policies of Aurangzeb.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the impact of Islam on Indian culture.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the Maratha Peshwas.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 22,
+   "date": "2026-11-28",
+   "label": "Sat 28 Nov",
+   "phase": "A",
+   "themes": [
+    {
+     "title": "AP Agriculture: Structure, Land and Allied Sectors",
+     "paper": "Paper IV · Economy of India & Andhra Pradesh",
+     "pyqs": 15,
+     "cycles": "7/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Agriculture and the AP economy",
+       "q": "Discuss the role of agriculture and allied sectors in the economic development of Andhra Pradesh.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Allied sectors: fisheries, horticulture, dairy",
+       "q": "Discuss the potential and challenges of fisheries, horticulture and dairying in Andhra Pradesh.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Land reforms and tenancy",
+       "q": "Evaluate the land reforms and tenancy laws in Andhra Pradesh. How have they protected cultivators?",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Cropping pattern and diversification",
+       "q": "Analyse the changing cropping pattern in Andhra Pradesh and the need for diversification.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Natural farming",
+       "q": "Discuss the Community Managed Natural Farming programme in Andhra Pradesh and its prospects.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the performance of the agriculture sector in AP in recent years.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Examine the changing structure of landholdings in AP.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the marine fishery resources of AP and government measures.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "Is the AP economy still dominated by agriculture? Discuss.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Explain the Green Revolution and its impact on AP agriculture.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the Koneru Ranga Rao Committee on land.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the sectoral composition of AP's GSDP.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 23,
+   "date": "2026-11-29",
+   "label": "Sun 29 Nov",
+   "phase": "A",
+   "themes": [
+    {
+     "title": "Judicial Review, Judicial Activism and PIL",
+     "paper": "Paper III · Polity, Governance, Law & Ethics",
+     "pyqs": 10,
+     "cycles": "7/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Collegium and judicial appointments",
+       "q": "Critically examine the collegium system of appointing judges and the reasons for the striking down of the National Judicial Appointments Commission.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Judicial review and basic structure",
+       "q": "Discuss the doctrine of basic structure and its role in limiting the amending power of Parliament.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "PIL and activism",
+       "q": "Examine the evolution of Public Interest Litigation in India. Has it led to judicial overreach?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Judicial reform and pendency",
+       "q": "Discuss the reasons for pendency of cases in Indian courts and suggest reforms.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Judicial accountability and contempt",
+       "q": "Discuss the issue of judicial accountability and the law of contempt of court.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the grounds of judicial review of administrative action.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Distinguish between judicial review and judicial activism with decisions.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the novel trends in judicial review.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the right to privacy and its development.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the role of tribunals in the Indian judicial system.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the scope of the Supreme Court's writ jurisdiction.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the principle of separation of powers in India.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 24,
+   "date": "2026-11-30",
+   "label": "Mon 30 Nov",
+   "phase": "A",
+   "themes": [
+    {
+     "title": "Monetary Policy, Fiscal Policy and Economic Reforms",
+     "paper": "Paper IV · Economy of India & Andhra Pradesh",
+     "pyqs": 12,
+     "cycles": "7/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Monetary policy and inflation targeting",
+       "q": "Explain the monetary policy framework in India. How does the Monetary Policy Committee use the repo rate to achieve inflation targeting?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Fiscal policy tools",
+       "q": "Discuss the objectives and instruments of fiscal policy in India. How can it support growth and equity?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Banking and NPAs",
+       "q": "Discuss the problem of non-performing assets in Indian banks and the measures taken, including the Insolvency and Bankruptcy Code.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "RBI and financial stability",
+       "q": "Discuss the role of the RBI in credit control and financial regulation, including NBFCs.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Economic reforms",
+       "q": "Evaluate the impact of the economic reforms since 1991 on the Indian economy.",
+       "chance": "MED"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the objectives and measures of the demonetisation policy of 2016.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "What is monetary policy transmission? Discuss the problems.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the structure of the Indian banking system.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the role of regional rural banks and their problems.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the role of customs and excise as fiscal tools.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the role of digital payments and the RBI.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Evaluate the impact of reforms on the banking sector.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 25,
+   "date": "2026-12-01",
+   "label": "Tue 01 Dec",
+   "phase": "B",
+   "themes": [
+    {
+     "title": "Gandhian Era: Satyagraha, Quit India, Communalism and Partition",
+     "paper": "Paper II · History, Culture & Geography",
+     "pyqs": 9,
+     "cycles": "7/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Gandhian movements",
+       "q": "Describe the major movements led by Mahatma Gandhi between 1920 and 1947 and assess their impact.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Quit India",
+       "q": "Critically evaluate the impact of the Quit India Movement of 1942, with reference to Andhra.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Communalism and Partition",
+       "q": "Examine the role of communalism in the Partition of India.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Gandhi and Ambedkar",
+       "q": "Compare the views of Gandhi and Ambedkar on the abolition of untouchability and the Poona Pact.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Civil Disobedience",
+       "q": "Discuss the Civil Disobedience Movement and the Gandhi-Irwin Pact.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Gandhi was a politician among saints and a saint among politicians. Discuss.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Comment on the effectiveness of Gandhi's methods of mass mobilisation.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Trace the events that led to the Partition.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the Non-Cooperation and Khilafat movements.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the role of Subhas Chandra Bose and the INA.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the Round Table Conferences.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss India's foreign policy in the post-independence period.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 26,
+   "date": "2026-12-02",
+   "label": "Wed 02 Dec",
+   "phase": "B",
+   "themes": [
+    {
+     "title": "Social Reform and Anti-Caste Movements: Phule, Periyar, Ambedkar",
+     "paper": "Paper II · History, Culture & Geography",
+     "pyqs": 9,
+     "cycles": "7/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Anti-caste movements",
+       "q": "Discuss the contribution of Jyotirao Phule and Periyar to the anti-caste movement in India.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Ambedkar",
+       "q": "Evaluate the contribution of Dr B.R. Ambedkar to social justice and constitutional democracy.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Socio-religious reform movements",
+       "q": "Discuss the socio-religious reform movements of the nineteenth century and their role in social change.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Women and social reform",
+       "q": "Discuss the efforts for women's emancipation in the nineteenth century, including the abolition of sati and widow remarriage.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Narayana Guru and regional reform",
+       "q": "Discuss the social reform movements in South India, with reference to Narayana Guru.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the socio-religious reform movements in the Muslim community.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the role of the Brahmo Samaj and Arya Samaj.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the Self-Respect Movement.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss temple entry movements.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the Aligarh movement.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the Justice Party and non-Brahmin movement.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the role of the missionaries in social reform.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 27,
+   "date": "2026-12-03",
+   "label": "Thu 03 Dec",
+   "phase": "B",
+   "themes": [
+    {
+     "title": "Formation of Andhra State, AP (1956) and the Telangana Struggle",
+     "paper": "Paper II · History, Culture & Geography",
+     "pyqs": 11,
+     "cycles": "7/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Formation of Andhra Pradesh",
+       "q": "Examine the circumstances that led to the formation of Andhra State in 1953 and Andhra Pradesh in 1956.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Gentlemen's Agreement and 1969",
+       "q": "Discuss the provisions of the Gentlemen's Agreement, 1956 and the causes of the 1969 Telangana agitation.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Telangana armed struggle",
+       "q": "Assess the role of the Communists in the Telangana People's Armed Struggle and the reasons for its decline.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Integration of Hyderabad",
+       "q": "Discuss the circumstances that led to the integration of Hyderabad State into the Indian Union.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Potti Sriramulu and the Andhra movement",
+       "q": "Discuss the role of Potti Sriramulu and the agitation for a separate Andhra State.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the role of the States Reorganisation Commission in the formation of Andhra Pradesh.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Who were the Razakars?",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the role of the Hyderabad State Congress.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the role of students in the 1969 Telangana agitation.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the Six-Point Formula.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the Sri Bagh Pact.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the role of the Majlis-e-Ittehadul Muslimeen.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 28,
+   "date": "2026-12-04",
+   "label": "Fri 04 Dec",
+   "phase": "B",
+   "themes": [
+    {
+     "title": "Science and Technology Policy and Institutions",
+     "paper": "Paper V · Science, Technology & Environment",
+     "pyqs": 19,
+     "cycles": "6/7",
+     "top": [
+      {
+       "n": 1,
+       "topic": "ANRF and research funding",
+       "q": "Discuss the objectives of the Anusandhan National Research Foundation. Why is India's spending on research and development low, and how can it be improved?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Institutions of AP",
+       "q": "Discuss the contribution of major scientific and technical institutions in Andhra Pradesh to research and regional development.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "STI Policy and innovation",
+       "q": "Examine the key features of India's Science, Technology and Innovation policy. How can innovation be encouraged in the private sector?",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Scientific social responsibility",
+       "q": "Explain the concept of Scientific Social Responsibility and its role in connecting science with society.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Indian scientists and achievements",
+       "q": "Discuss the contributions of Indian scientists to science and technology and their impact on nation building.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the role of CSIR and DRDO as national research institutions.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "How can technology help in transforming the healthcare sector in India?",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss strategies for the transfer and diffusion of technology in India.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Evaluate the Atal Innovation Mission and start-up ecosystem in India.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Explain the National Data Sharing and Accessibility Policy and open data.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the role of the Indian Science Congress and other science promotion bodies.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss AP initiatives such as the Cloud Initiative and fibre grid in promoting science and technology.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 29,
+   "date": "2026-12-05",
+   "label": "Sat 05 Dec",
+   "phase": "B",
+   "themes": [
+    {
+     "title": "Climate Change, Ozone and Global Agreements",
+     "paper": "Paper V · Science, Technology & Environment",
+     "pyqs": 13,
+     "cycles": "6/7",
+     "top": [
+      {
+       "n": 1,
+       "topic": "India's NDCs and net zero",
+       "q": "Examine India's Nationally Determined Contributions and its net-zero 2070 target. How do they fit with the principle of common but differentiated responsibilities?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Climate finance and COP outcomes",
+       "q": "Discuss the issues of climate finance and loss and damage in international climate negotiations and India's position.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Carbon markets",
+       "q": "Discuss the Carbon Credit Trading Scheme in India and the EU Carbon Border Adjustment Mechanism. What are the implications for Indian industry?",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Climate change and the coastal region of AP",
+       "q": "Discuss the impact of sea-level rise and extreme weather on the coastal region of Andhra Pradesh and measures for adaptation.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Climate-smart agriculture and adaptation",
+       "q": "Discuss adaptation strategies for Indian agriculture in the face of climate change.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Distinguish between global warming and climate change and explain the greenhouse effect.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Explain the Montreal Protocol and the Kigali Amendment.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Explain the National Action Plan on Climate Change and its missions.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "What is El Nino and La Nina? Discuss their impact on the Indian monsoon.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the retreat of Himalayan glaciers and its consequences.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Evaluate the role of India in the International Solar Alliance as a climate leader.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the Paris Agreement and its implementation challenges.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 30,
+   "date": "2026-12-06",
+   "label": "Sun 06 Dec",
+   "phase": "B",
+   "themes": [
+    {
+     "title": "Sustainable Development, EIA and Environmental Law",
+     "paper": "Paper V · Science, Technology & Environment",
+     "pyqs": 10,
+     "cycles": "6/7",
+     "top": [
+      {
+       "n": 1,
+       "topic": "EIA and its reform",
+       "q": "Critically examine the EIA process in India. What are the criticisms of the EIA Notification, 2006 and the draft 2020 notification?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "NGT and environmental principles",
+       "q": "Discuss the role of the National Green Tribunal and the principles of polluter pays and precaution in Indian environmental jurisprudence.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "SDGs in India",
+       "q": "Discuss India's progress in achieving the Sustainable Development Goals and the role of NITI Aayog's SDG India Index.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Coastal regulation",
+       "q": "Discuss the Coastal Regulation Zone Notification and its significance for the coastal environment of Andhra Pradesh.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Sustainable development and industrialisation",
+       "q": "Discuss how Andhra Pradesh can pursue industrial growth with environmental sustainability.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Define sustainable development and explain the three pillars.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the Environment (Protection) Act, 1986 and its provisions.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Explain the objectives of the National Action Plan on Climate Change.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss ecotourism as a tool for conservation.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss Mission LiFE and the Green Credit Programme.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Examine the Wildlife (Protection) Act and the role of protected areas.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the role of environmental education and awareness.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 31,
+   "date": "2026-12-07",
+   "label": "Mon 07 Dec",
+   "phase": "B",
+   "themes": [
+    {
+     "title": "Infrastructure: Transport, Energy, ICT, Smart Cities and PPP",
+     "paper": "Paper IV · Economy of India & Andhra Pradesh",
+     "pyqs": 19,
+     "cycles": "6/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "PPP in infrastructure",
+       "q": "Examine the issues in the PPP model of infrastructure development in India and suggest reforms.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Smart cities and urban infrastructure",
+       "q": "Critically evaluate the Smart Cities Mission. What lessons does it hold for Visakhapatnam and Amaravati?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "AP transport, energy and ICT",
+       "q": "Critically discuss the development of transport, energy and digital infrastructure in Andhra Pradesh.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Ports and logistics",
+       "q": "Discuss the role of ports and logistics in the economic development of Andhra Pradesh and India.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Digital public infrastructure",
+       "q": "Discuss how digital public infrastructure can transform governance and the economy.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the development of civil aviation in Andhra Pradesh.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the significance of solar energy in India's energy strategy.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Describe the challenges of the energy sector in Andhra Pradesh.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the long-term infrastructure agenda of Andhra Pradesh.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the growth of the IT industry in Andhra Pradesh.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the National Infrastructure Pipeline.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the importance of transport and communication for AP.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 32,
+   "date": "2026-12-08",
+   "label": "Tue 08 Dec",
+   "phase": "B",
+   "themes": [
+    {
+     "title": "Industry: Policy, PSUs, Disinvestment and MSMEs",
+     "paper": "Paper IV · Economy of India & Andhra Pradesh",
+     "pyqs": 14,
+     "cycles": "6/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Manufacturing policy: PLI and Make in India",
+       "q": "Evaluate the Make in India initiative and the Production Linked Incentive schemes in boosting manufacturing in India.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Disinvestment and public sector",
+       "q": "Critically examine the performance of public sector undertakings and the policy of disinvestment and strategic sale.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "MSMEs",
+       "q": "Discuss the role of MSMEs in India's economy and the challenges they face, with reference to Andhra Pradesh.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Startups and entrepreneurship",
+       "q": "Examine the role of Startup India and the Atal Innovation Mission in promoting entrepreneurship.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Industry 4.0",
+       "q": "Assess the impact of Industry 4.0 on employment and manufacturing in India.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Contrast the industrial policies of 1980 and 1991.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Explain the role of the industrial sector in economic development.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the Visakhapatnam-Chennai Industrial Corridor.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the National Manufacturing Policy.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss public-private partnership in the post-reform period.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Explain marginal cost pricing for public utilities.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss labour reforms and industrial growth.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 33,
+   "date": "2026-12-09",
+   "label": "Wed 09 Dec",
+   "phase": "B",
+   "themes": [
+    {
+     "title": "Constitutional and Statutory Bodies and Quasi-Judicial Authorities",
+     "paper": "Paper III · Polity, Governance, Law & Ethics",
+     "pyqs": 11,
+     "cycles": "6/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Election Commission",
+       "q": "Discuss the powers and independence of the Election Commission of India. What reforms are needed in the appointment of Election Commissioners?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "CAG and accountability",
+       "q": "Discuss the role of the Comptroller and Auditor General in ensuring financial accountability of the executive.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Quasi-judicial bodies and tribunals",
+       "q": "Examine the role of tribunals and quasi-judicial authorities in India and the concerns about their independence.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Finance Commission",
+       "q": "Discuss the constitutional status and role of the Finance Commission in fiscal federalism.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "National commissions",
+       "q": "Evaluate the role of the National Human Rights Commission and the national commissions for women and minorities.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the role of UPSC in recruitment to the civil services.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Describe the formation and functions of the Inter-State Council.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the role of the State Public Service Commission.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the statutory regulators in the Indian economy.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the Central Vigilance Commission and its limits.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Explain the difference between constitutional and statutory bodies.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the powers of the National Commission for Scheduled Castes.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 34,
+   "date": "2026-12-10",
+   "label": "Thu 10 Dec",
+   "phase": "B",
+   "themes": [
+    {
+     "title": "AP Agriculture: Government Schemes, Credit and PDS",
+     "paper": "Paper IV · Economy of India & Andhra Pradesh",
+     "pyqs": 15,
+     "cycles": "6/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Farmer income support",
+       "q": "Evaluate the schemes of the Andhra Pradesh government for income support to farmers, such as Rythu Bharosa and its successor schemes.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Public Distribution System in AP",
+       "q": "Discuss the major issues concerning the public distribution system in Andhra Pradesh and the reforms through technology.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Institutional credit in agriculture",
+       "q": "Discuss the inadequacy of institutional credit in rural Andhra Pradesh and the role of cooperatives.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Crop insurance",
+       "q": "Discuss crop insurance in India and its working in Andhra Pradesh.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Farm mechanisation and technology",
+       "q": "Discuss the scope of farm mechanisation and digital agriculture in Andhra Pradesh.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Critically examine the procurement price policy of the Government of India and Andhra Pradesh.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the agricultural extension strategy of AP.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the problems of cooperatives in agricultural credit.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss farmers' debt and relief schemes.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the need to administer agricultural commodity prices.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss e-PDS and fair-price shop automation.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the use of agricultural inputs and technology.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 35,
+   "date": "2026-12-11",
+   "label": "Fri 11 Dec",
+   "phase": "B",
+   "themes": [
+    {
+     "title": "Constitution: Features, Preamble, Fundamental Rights and DPSP",
+     "paper": "Paper III · Polity, Governance, Law & Ethics",
+     "pyqs": 10,
+     "cycles": "6/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Reasonable restrictions and free speech",
+       "q": "Discuss the scope of reasonable restrictions on the freedom of speech and expression. Is the test of reasonableness adequate?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Right to life, Article 21",
+       "q": "Discuss how the Supreme Court has expanded the meaning of the right to life under Article 21.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Directive Principles",
+       "q": "Analyse the relationship between Fundamental Rights and Directive Principles of State Policy.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Uniform Civil Code",
+       "q": "Discuss the constitutional status of the Uniform Civil Code and the arguments for and against its implementation.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Fundamental Duties and the Preamble",
+       "q": "Discuss the significance of Fundamental Duties. Do they impose legal obligations on citizens?",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Explain the salient features of the Constitution of India.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the formation of the Constituent Assembly.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the right to equality and the doctrine of reasonable classification.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "Is the Preamble a part of the Constitution?",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the constitutional guarantee of the right to property after the 44th Amendment.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the constitutional position of secularism in India.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss cultural and educational rights of minorities.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 36,
+   "date": "2026-12-12",
+   "label": "Sat 12 Dec",
+   "phase": "B",
+   "themes": [
+    {
+     "title": "Disasters and Disaster Management",
+     "paper": "Paper V · Science, Technology & Environment",
+     "pyqs": 11,
+     "cycles": "5/7",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Cyclones and the AP coast",
+       "q": "Discuss the cyclone risk of the Andhra Pradesh coast and the effectiveness of early warning and preparedness measures.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Urban and riverine floods",
+       "q": "Examine the causes of urban and riverine floods in India and the measures for flood management and forecasting.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Disaster Management Act framework",
+       "q": "Discuss the institutional framework under the Disaster Management Act, 2005 and the role of NDMA, SDMA and NDRF.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Heat waves and climate-linked hazards",
+       "q": "Discuss the increasing incidence of heat waves in India and the role of heat action plans.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Disaster risk reduction and the Sendai Framework",
+       "q": "Discuss India's approach to disaster risk reduction in the light of the Sendai Framework and the National Disaster Management Plan.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Distinguish between hazard and disaster; classify natural disasters in India.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Explain the tsunami early warning system of India.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the causes and management of earthquakes in India.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss traditional water harvesting methods and their relevance for drought management.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the role of technology, such as GIS and remote sensing, in disaster management.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the challenges common to disaster management plans in India.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the role of community participation in disaster preparedness.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 37,
+   "date": "2026-12-13",
+   "label": "Sun 13 Dec",
+   "phase": "B",
+   "themes": [
+    {
+     "title": "Intellectual Property Rights",
+     "paper": "Paper V · Science, Technology & Environment",
+     "pyqs": 7,
+     "cycles": "5/7",
+     "top": [
+      {
+       "n": 1,
+       "topic": "GI tags of Andhra Pradesh",
+       "q": "What is a Geographical Indication? Discuss the significance of GI protection for the traditional products of Andhra Pradesh.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Pharma patents",
+       "q": "Discuss Section 3(d) of the Patents Act and the issue of evergreening. How does India balance innovation and access to medicines?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Traditional knowledge and biopiracy",
+       "q": "Discuss the protection of traditional knowledge in India and the role of the Traditional Knowledge Digital Library.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Plant variety protection",
+       "q": "Discuss the Protection of Plant Varieties and Farmers' Rights Act, 2001 and the rights of farmers over seeds.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "National IPR Policy",
+       "q": "Discuss the National IPR Policy, 2016 and the steps needed to improve India's patent filings and innovation rank.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Differentiate between patents, copyrights and trademarks.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the role of CIPAM in commercialising intellectual property.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Explain the TRIPS Agreement and its impact on India.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss IPR in academic and industrial research collaborations.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Explain process patents and product patents in India.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss copyright in the digital era and the issue of piracy.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the role of IPR in start-ups and innovation.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 38,
+   "date": "2026-12-14",
+   "label": "Mon 14 Dec",
+   "phase": "B",
+   "themes": [
+    {
+     "title": "Vaccines and Immunology",
+     "paper": "Paper V · Science, Technology & Environment",
+     "pyqs": 10,
+     "cycles": "5/7",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Universal immunisation",
+       "q": "Discuss the Universal Immunisation Programme and Mission Indradhanush. What are the challenges in achieving full immunisation coverage in India?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "mRNA and modern vaccines",
+       "q": "Explain the different types of vaccines, including mRNA and viral-vector vaccines. How are modern vaccines better than conventional ones?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Covid vaccines and India",
+       "q": "Discuss India's role in the development and global supply of Covid-19 vaccines.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Vaccine hesitancy and cold chain",
+       "q": "What are the reasons for vaccine hesitancy? Discuss the importance of the cold chain in immunisation.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Disease eradication through vaccination",
+       "q": "How have vaccines helped in the eradication of smallpox and polio? What lessons can be applied to other diseases?",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Define immunity and explain innate and adaptive immunity.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "What are recombinant vaccines? Explain their production.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the compulsory vaccines for children.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the role of biotechnology in vaccine development.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "What are monoclonal antibodies and how are they used?",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the role of Indian companies in vaccine and biologics manufacturing.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss herd immunity and its limitations.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 39,
+   "date": "2026-12-15",
+   "label": "Tue 15 Dec",
+   "phase": "B",
+   "themes": [
+    {
+     "title": "Indian Agriculture: Markets, Credit, Sustainability and Rainbow Revolution",
+     "paper": "Paper IV · Economy of India & Andhra Pradesh",
+     "pyqs": 18,
+     "cycles": "5/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Agricultural marketing and APMC",
+       "q": "Examine the reforms in agricultural marketing in India, including APMC, e-NAM and FPOs. What are the remaining gaps?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Sustainable agriculture",
+       "q": "Discuss sustainable agriculture and the practices, including natural farming, suited to Indian conditions.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Agricultural credit and finance",
+       "q": "Discuss the types and sources of agricultural credit and the role of Kisan Credit Cards and institutional reforms.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Low productivity and income",
+       "q": "Discuss the factors responsible for low agricultural productivity and the measures to double farmers' income.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Fisheries and the Blue Revolution",
+       "q": "Discuss the growth of the fisheries sector in India and the schemes to support it.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Explain the rainbow revolution and its objectives.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the role of agriculture in national income and the declining share.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the effect of reforms on Indian agriculture in recent years.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the role of FPOs in agricultural development.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss infrastructure bottlenecks for manufacturing and agriculture.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss agricultural exports and policy.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Explain the importance of food processing industries.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 40,
+   "date": "2026-12-16",
+   "label": "Wed 16 Dec",
+   "phase": "B",
+   "themes": [
+    {
+     "title": "AP Irrigation and Regional Disparities in Agriculture",
+     "paper": "Paper IV · Economy of India & Andhra Pradesh",
+     "pyqs": 7,
+     "cycles": "5/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Polavaram project",
+       "q": "Discuss the significance of the Polavaram project for Andhra Pradesh. What are the issues in its completion?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Irrigation projects and disparity",
+       "q": "Discuss the regional disparities in irrigation in Andhra Pradesh and the role of major irrigation projects.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Water management and micro-irrigation",
+       "q": "Discuss water-use efficiency and micro-irrigation in Andhra Pradesh agriculture.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "River linking",
+       "q": "Discuss the river-linking projects of Andhra Pradesh, including the Godavari-Krishna link.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Tenancy and land reforms",
+       "q": "Do the land reforms of Andhra Pradesh protect tenants adequately?",
+       "chance": "MED"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the agricultural promotion schemes of the Andhra Pradesh government.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss output and productivity of crops in Andhra Pradesh.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the Rayalaseema region and drought-proofing.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss water disputes between Andhra Pradesh and neighbouring states.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss participatory irrigation management.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the role of groundwater in AP agriculture.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the agro-climatic zones of Andhra Pradesh.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 41,
+   "date": "2026-12-17",
+   "label": "Thu 17 Dec",
+   "phase": "B",
+   "themes": [
+    {
+     "title": "Andhra Freedom Movement, Andhra Mahasabhas and Justice Party",
+     "paper": "Paper II · History, Culture & Geography",
+     "pyqs": 8,
+     "cycles": "5/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Vande Mataram Movement",
+       "q": "Describe the Vande Mataram Movement in Andhra and its impact on the freedom struggle.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Gandhian movements in Andhra",
+       "q": "Discuss the role of Andhra in the Non-Cooperation, Civil Disobedience and Quit India Movements.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Andhra Mahasabha",
+       "q": "Discuss the role of the Andhra Mahasabha in the socio-cultural and political awakening of Telangana.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Justice Party",
+       "q": "Examine the circumstances that led to the formation of the Justice Party and its impact.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Left movements",
+       "q": "Discuss the role of the Socialists and Communists in the freedom movement in Andhra.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the Chirala-Perala movement.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the role of the Andhras in different phases of the national movement.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the Dalit movements in Telangana.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the socio-cultural awakening in Telangana.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the role of women in the freedom struggle of Andhra.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the Salt Satyagraha in Andhra.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the role of the Andhra press in the freedom movement.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 42,
+   "date": "2026-12-18",
+   "label": "Fri 18 Dec",
+   "phase": "B",
+   "themes": [
+    {
+     "title": "Eastern Chalukyas of Vengi",
+     "paper": "Paper II · History, Culture & Geography",
+     "pyqs": 6,
+     "cycles": "5/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Political history",
+       "q": "Explain the political significance of the Eastern Chalukyas of Vengi in the history of Andhra.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Society and religion",
+       "q": "Discuss the socio-religious and cultural conditions under the Eastern Chalukyas.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Literature and Nannaya",
+       "q": "Discuss the role of the Eastern Chalukyas in the growth of Telugu literature, with reference to Nannaya.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Art and architecture",
+       "q": "Describe the contribution of the Eastern Chalukyas to art and architecture.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Chalukya-Chola relations",
+       "q": "Discuss the relations between the Eastern Chalukyas and the Cholas.",
+       "chance": "MED"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the administration of the Eastern Chalukyas.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the economy and trade of Vengi.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the Jain and Buddhist influence in Andhra after the Satavahanas.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss Kubja Vishnuvardhana.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the temple architecture of the Eastern Chalukyas.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the role of women under the Eastern Chalukyas.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the education system in ancient Andhra.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 43,
+   "date": "2026-12-19",
+   "label": "Sat 19 Dec",
+   "phase": "B",
+   "themes": [
+    {
+     "title": "Governor, Emergency and Constitutional Amendments",
+     "paper": "Paper III · Polity, Governance, Law & Ethics",
+     "pyqs": 6,
+     "cycles": "5/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Governor's discretion",
+       "q": "Discuss the discretionary powers of the Governor. How far can the Governor delay assent to Bills passed by the State Legislature?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Article 356",
+       "q": "Examine the use and misuse of Article 356 in the light of the S.R. Bommai judgment.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Amendment procedure",
+       "q": "Describe the procedure for amending the Constitution. Discuss the limitations on the amending power.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Emergency provisions",
+       "q": "Discuss the emergency provisions of the Constitution and the safeguards introduced by the 44th Amendment.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Appointment and removal of Governors",
+       "q": "Discuss the role of Governors in a federal system and suggest reforms in their appointment.",
+       "chance": "MED"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss amendments relating to Fundamental Rights.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Is Article 356 more misused than used? Comment.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Explain the powers of the Governor in the appointment of the Chief Minister in a hung assembly.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Explain the legislative powers of the Governor.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the ordinance-making power of the President and the Governor.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the Sarkaria Commission's recommendations on the Governor.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the role of the President in constitutional amendments.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 44,
+   "date": "2026-12-20",
+   "label": "Sun 20 Dec",
+   "phase": "B",
+   "themes": [
+    {
+     "title": "Buddhism, Jainism and Ashoka's Dhamma",
+     "paper": "Paper II · History, Culture & Geography",
+     "pyqs": 5,
+     "cycles": "5/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Rise of Buddhism and Jainism",
+       "q": "Examine the causes of the rise of Buddhism and Jainism in ancient India.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Teachings",
+       "q": "Compare the teachings of the Buddha and Mahavira.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Ashoka's Dhamma",
+       "q": "Discuss Ashoka's Dhamma and its impact on ancient Indian society.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Buddhist sects and decline",
+       "q": "Compare Hinayana and Mahayana Buddhism. Why did Buddhism decline in India?",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Buddhist art",
+       "q": "Discuss the contribution of Buddhism to Indian art and architecture.",
+       "chance": "MED"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the Buddhist councils.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the philosophy of Jainism.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss Ashoka's edicts.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the Ajivika sect.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the spread of Buddhism outside India.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss Buddhist centres of learning.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the Buddhist heritage of Andhra.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 45,
+   "date": "2026-12-21",
+   "label": "Mon 21 Dec",
+   "phase": "B",
+   "themes": [
+    {
+     "title": "Health, Environment and IT",
+     "paper": "Paper V · Science, Technology & Environment",
+     "pyqs": 5,
+     "cycles": "4/7",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Digital health",
+       "q": "Discuss the role of digital technologies such as telemedicine and the Ayushman Bharat Digital Mission in improving healthcare access in India.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Pollution and health",
+       "q": "Discuss the impact of environmental pollution on human health in India and the role of technology in monitoring it.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Environment and emerging infections",
+       "q": "Examine the link between environmental degradation, climate change and the emergence of infectious diseases.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Technology for conservation",
+       "q": "Discuss the role of GIS, remote sensing and AI in environmental conservation.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Water quality and health",
+       "q": "Discuss the health effects of groundwater contamination such as fluoride and arsenic in India.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the role of IoT in monitoring air and water quality.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "How does climate change affect human health?",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the role of big data in public health surveillance.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the One Health approach.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Examine the e-waste problem and its health effects.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the role of mobile technology in rural healthcare.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the environmental costs of the digital economy.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 46,
+   "date": "2026-12-22",
+   "label": "Tue 22 Dec",
+   "phase": "B",
+   "themes": [
+    {
+     "title": "AP Bifurcation, the Reorganisation Act 2014 and the New Capital",
+     "paper": "Paper II · History, Culture & Geography",
+     "pyqs": 8,
+     "cycles": "4/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Provisions of the Reorganisation Act",
+       "q": "Examine the provisions of the Andhra Pradesh Reorganisation Act, 2014 and the extent of their implementation.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Special status and central assistance",
+       "q": "Discuss the demand for special status for Andhra Pradesh. How far has central assistance under the Act been provided?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "New capital",
+       "q": "Discuss the vision and the challenges in building a new capital for Andhra Pradesh at Amaravati.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Polavaram and water",
+       "q": "Discuss the significance of the Polavaram project and the water-sharing issues after bifurcation.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Economic impact of bifurcation",
+       "q": "Discuss the economic impact of bifurcation on Andhra Pradesh.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the problems in the division of assets and institutions.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the revenue and infrastructure challenges of the new state.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the impact of bifurcation on trade and commerce.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the inconsistencies of the Reorganisation Act.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the Eleventh Schedule principles.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the three-capitals controversy.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the role of central institutions promised to Andhra Pradesh.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 47,
+   "date": "2026-12-23",
+   "label": "Wed 23 Dec",
+   "phase": "B",
+   "themes": [
+    {
+     "title": "Elections, Political Parties and Statutory Law (Cyber, Tax, Criminal)",
+     "paper": "Paper III · Polity, Governance, Law & Ethics",
+     "pyqs": 7,
+     "cycles": "4/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "New criminal laws",
+       "q": "Discuss the salient features of the Bharatiya Nyaya Sanhita, the Bharatiya Nagarik Suraksha Sanhita and the Bharatiya Sakshya Adhiniyam. How do they differ from the laws they replaced?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Electoral reforms and funding",
+       "q": "Discuss the issue of electoral bonds and political funding. What reforms are needed in electoral financing?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Cyber law",
+       "q": "Discuss the legal framework for cybercrime in India, including the IT Act and data protection law.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "GST and tax law",
+       "q": "Discuss the constitutional and regulatory framework of GST and recent changes in tax administration.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Criminalisation of politics",
+       "q": "Examine the issue of criminalisation of politics and the steps taken by the Election Commission and the courts.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Differentiate between a national party and a regional party.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the use of EVMs and VVPATs in Indian elections.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Explain the difference between substantive and procedural law.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the direct tax reforms in India.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss cyberstalking and offences under the IT Act.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the Representation of the People Act, 1951.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the Model Code of Conduct.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 48,
+   "date": "2026-12-24",
+   "label": "Thu 24 Dec",
+   "phase": "B",
+   "themes": [
+    {
+     "title": "Panchayati Raj and Urban Local Government (73rd and 74th)",
+     "paper": "Paper III · Polity, Governance, Law & Ethics",
+     "pyqs": 5,
+     "cycles": "4/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Local finance",
+       "q": "Despite the 73rd Amendment, Panchayats remain financially weak. Examine the role of the Finance Commissions and State Finance Commissions.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Gram Sabha and PESA",
+       "q": "Discuss the role of the Gram Sabha and the PESA Act, 1996 in self-governance in Scheduled Areas.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Panchayati Raj in AP",
+       "q": "Evaluate the working of Panchayati Raj Institutions in Andhra Pradesh with reference to the devolution of funds, functions and functionaries.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Evolution and committees",
+       "q": "Trace the evolution of Panchayati Raj in India from the Balwant Rai Mehta Committee to the 73rd Amendment.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Urban local bodies",
+       "q": "Despite the 74th Amendment, urban local bodies remain weak. Discuss the issues and suggest reforms.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Explain the salient features of the 73rd and 74th Amendments.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the political empowerment of women through Panchayati Raj.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Examine the sarpanch-pati phenomenon.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss reservation in Panchayats for SC, ST and OBC.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the role of the State Election Commission in local elections.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss Grama Sachivalayam as a governance model.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss e-Gram Swaraj and SVAMITVA.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 49,
+   "date": "2026-12-25",
+   "label": "Fri 25 Dec",
+   "phase": "R",
+   "themes": []
+  },
+  {
+   "day": 50,
+   "date": "2026-12-26",
+   "label": "Sat 26 Dec",
+   "phase": "R",
+   "themes": []
+  },
+  {
+   "day": 51,
+   "date": "2026-12-27",
+   "label": "Sun 27 Dec",
+   "phase": "R",
+   "themes": []
+  },
+  {
+   "day": 52,
+   "date": "2026-12-28",
+   "label": "Mon 28 Dec",
+   "phase": "R",
+   "themes": []
+  },
+  {
+   "day": 53,
+   "date": "2026-12-29",
+   "label": "Tue 29 Dec",
+   "phase": "R",
+   "themes": []
+  },
+  {
+   "day": 54,
+   "date": "2026-12-30",
+   "label": "Wed 30 Dec",
+   "phase": "R",
+   "themes": []
+  },
+  {
+   "day": 55,
+   "date": "2026-12-31",
+   "label": "Thu 31 Dec",
+   "phase": "D",
+   "themes": [
+    {
+     "title": "National Income, HDI and Planning",
+     "paper": "Paper IV · Economy of India & Andhra Pradesh",
+     "pyqs": 9,
+     "cycles": "4/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "National income measurement",
+       "q": "Explain the approaches and problems in measuring national income in India. What changed in the new series?",
+       "chance": "MED"
+      },
+      {
+       "n": 2,
+       "topic": "HDI versus national income",
+       "q": "Is the Human Development Index a better measure of development than national income?",
+       "chance": "MED"
+      },
+      {
+       "n": 3,
+       "topic": "NITI Aayog",
+       "q": "Discuss the role of NITI Aayog in cooperative federalism and planning.",
+       "chance": "MED"
+      },
+      {
+       "n": 4,
+       "topic": "Planning to NITI transition",
+       "q": "Discuss the achievements of the Five-Year Plans and the reasons for their replacement by NITI Aayog.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 5,
+       "topic": "GDP and well-being",
+       "q": "Discuss the limitations of GDP as a measure of well-being.",
+       "chance": "LOW-MED"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the difficulties in measuring the level of development.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss employment under the Eleventh Five-Year Plan.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the Tenth Five-Year Plan.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the base-year revision of national accounts.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the SDG India Index.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Explain GDP, GNP and NNP.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss per capita income trends in Andhra Pradesh.",
+       "chance": "LOW-MED"
+      }
+     ]
+    },
+    {
+     "title": "Agri-Biotechnology: Tissue Culture, Green Pharmacy, Research",
+     "paper": "Paper V · Science, Technology & Environment",
+     "pyqs": 4,
+     "cycles": "3/7",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Tissue culture",
+       "q": "What is plant tissue culture? Discuss its applications in agriculture and horticulture, with examples.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Biofortification",
+       "q": "What is biofortification? Discuss the potential and limitations of crops such as Golden Rice in tackling malnutrition.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Green pharmacy",
+       "q": "Discuss the potential of plant-derived biopharmaceuticals in sustainable healthcare.",
+       "chance": "MED"
+      },
+      {
+       "n": 4,
+       "topic": "Natural farming and bio-inputs",
+       "q": "Discuss natural farming and the role of bio-inputs in sustainable agriculture, with reference to Andhra Pradesh.",
+       "chance": "MED"
+      },
+      {
+       "n": 5,
+       "topic": "Animal biotechnology",
+       "q": "Discuss the applications of biotechnology in animal husbandry and dairy.",
+       "chance": "MED"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the agricultural research and education system in India.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Explain micropropagation and its commercial importance.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss nano-fertilisers and their role in agriculture.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss precision agriculture using drones and sensors.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "What are biofertilisers and biopesticides? Discuss their advantages.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the role of biotechnology in improving crop productivity.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the role of Krishi Vigyan Kendras in technology transfer.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 56,
+   "date": "2027-01-01",
+   "label": "Fri 01 Jan",
+   "phase": "D",
+   "themes": [
+    {
+     "title": "Economic and Social Geography of AP",
+     "paper": "Paper II · History, Culture & Geography",
+     "pyqs": 12,
+     "cycles": "3/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Population and urbanisation",
+       "q": "Discuss the spatial patterns of population distribution and urbanisation in Andhra Pradesh with reference to Census 2011.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Ports and Sagarmala",
+       "q": "Discuss the role of sea-ports and the Sagarmala Project in the economic development of Andhra Pradesh.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Agriculture and allied sectors",
+       "q": "Discuss the agricultural regions and the major crops of Andhra Pradesh.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Industries and manufacturing regions",
+       "q": "Discuss the major manufacturing regions and industrial importance of Andhra Pradesh.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Tribal and Scheduled populations",
+       "q": "Discuss the distribution and the development issues of the Scheduled Castes and Scheduled Tribes of Andhra Pradesh.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss fisheries management and development in India and Andhra Pradesh.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the Green Revolution and its impact.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the demographic dividend in India.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss rural settlements and factors affecting them.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the mineral resources of Andhra Pradesh.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the tourism potential of Andhra Pradesh.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the migration pattern in Andhra Pradesh.",
+       "chance": "LOW-MED"
+      }
+     ]
+    },
+    {
+     "title": "Civil Services, Administrative Ideas and Public Service Ethics",
+     "paper": "Paper III · Polity, Governance, Law & Ethics",
+     "pyqs": 15,
+     "cycles": "3/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Civil service reforms",
+       "q": "Examine the scope of civil service reforms in India. How can Mission Karmayogi improve capacity and accountability?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Ethics and accountability in public service",
+       "q": "Discuss the factors that weaken accountability in civil services and the institutional mechanisms to strengthen it.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Ancient and medieval administration",
+       "q": "Compare the administrative systems of the Mauryas, the Mughals and the British and their legacy for the modern state.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Whistleblowers and anti-corruption institutions",
+       "q": "Evaluate the Whistle Blowers Protection Act, 2014 and the Lokpal and Lokayuktas Act, 2013 as accountability tools.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Civil service neutrality",
+       "q": "Discuss the issue of political neutrality and impartiality of civil servants.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Describe the features of British administration that shaped the Indian civil service.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss Kautilya's ideas of administration and the welfare state.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Public servants face conflicts between personal values and public duty. Examine.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss lateral entry in the civil services.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the recommendations of the Second Administrative Reforms Commission.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Define ethics and explain principles to manage ethics in public service.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the concept of public service values.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 57,
+   "date": "2027-01-02",
+   "label": "Sat 02 Jan",
+   "phase": "D",
+   "themes": [
+    {
+     "title": "Civil Society, NGOs and Development Policy",
+     "paper": "Paper III · Polity, Governance, Law & Ethics",
+     "pyqs": 10,
+     "cycles": "3/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Civil society in India",
+       "q": "What is civil society? Discuss its key features, its role in democracy and its limitations in India.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "NGOs and regulation",
+       "q": "Discuss the role of NGOs in development and the concerns relating to their regulation, including FCRA.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Development: concept and critique",
+       "q": "Discuss Amartya Sen's concept of development as freedom and its relevance to India.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Policy implementation",
+       "q": "Why do well-designed policies often fall short in implementation? Suggest ways to close the gap.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Women's empowerment and civil society",
+       "q": "Examine the role of NGOs and SHGs in promoting women's empowerment.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the role of NGOs in human rights and justice.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the role of civil society in the making of the RTI Act.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the role of the state in development in India.",
+       "chance": "MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the role of the UN and civil society partnerships.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss recent developments in education policy.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss corporate social responsibility in India.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the role of self-help groups in development.",
+       "chance": "LOW-MED"
+      }
+     ]
+    },
+    {
+     "title": "Good Governance, E-Governance, RTI and Social Audit",
+     "paper": "Paper III · Polity, Governance, Law & Ethics",
+     "pyqs": 10,
+     "cycles": "3/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "RTI and good governance",
+       "q": "Define good governance. How does the Right to Information Act promote it? Discuss the issues in its implementation.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Social audit",
+       "q": "What is social audit? Examine its role in strengthening accountability in welfare schemes such as MGNREGS.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "E-governance",
+       "q": "Discuss the e-governance initiatives of the Government of India and Andhra Pradesh and the challenges in their implementation.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Citizen Charter and grievance redressal",
+       "q": "Evaluate the Citizen's Charter and grievance redressal mechanisms in India.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Village and ward secretariats",
+       "q": "Discuss the Grama and Ward Sachivalayam system as a model of decentralised governance.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Explain the dimensions of good governance.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the characteristics of good governance.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Why do RTI rights lag if RTI is a fundamental right? Discuss.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the role of family and educational institutions in value education.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the role of ICT in improving transparency.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the Public Services Guarantee Acts.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss people's participation in governance.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 58,
+   "date": "2027-01-03",
+   "label": "Sun 03 Jan",
+   "phase": "D",
+   "themes": [
+    {
+     "title": "Natural Hazards, EIA and Pollution (AP Geography)",
+     "paper": "Paper II · History, Culture & Geography",
+     "pyqs": 7,
+     "cycles": "3/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Cyclones and floods in AP",
+       "q": "Discuss the vulnerability of Andhra Pradesh to cyclones and floods and the measures for mitigation.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Drought and Rayalaseema",
+       "q": "Define drought and discuss its types. Analyse the drought-proofing needs of Rayalaseema.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "EIA",
+       "q": "Evaluate the EIA process in India and suggest improvements.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Pollution control in AP",
+       "q": "Discuss the role of the Andhra Pradesh Pollution Control Board in managing industrial pollution.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Sustainable development",
+       "q": "Discuss the concept and importance of sustainable development.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the factors responsible for environmental pollution.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss coastal hazards of Andhra Pradesh.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss industrial disasters in Andhra Pradesh.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the role of NDRF and SDRF in AP.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss climate change and the coastal region of AP.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss flood management in the Godavari basin.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the water scarcity of Rayalaseema.",
+       "chance": "LOW-MED"
+      }
+     ]
+    },
+    {
+     "title": "Attitude, Values and Emotional Intelligence",
+     "paper": "Paper III · Polity, Governance, Law & Ethics",
+     "pyqs": 8,
+     "cycles": "3/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Attitude and behaviour",
+       "q": "Define attitude. Explain its components and how attitudes of public servants influence their behaviour.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Emotional intelligence",
+       "q": "Explain emotional intelligence and its relevance for civil servants, with reference to its models.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Attitude change and persuasion",
+       "q": "Discuss the methods of attitude change and the role of persuasion in public administration.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Values and personality",
+       "q": "Discuss the role of values in personality development and in a pluralistic society.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Moral attitude",
+       "q": "What is moral attitude? Explain the factors that shape it.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Explain cognitive dissonance with examples.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the functions of attitudes.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss political attitude polarisation in India.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Explain the role of family and society in attitude formation.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss prejudice and stereotypes and their effect on administration.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the role of emotional intelligence in decision-making.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the concept of social influence.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 59,
+   "date": "2027-01-04",
+   "label": "Mon 04 Jan",
+   "phase": "D",
+   "themes": [
+    {
+     "title": "Physical Geography of India and Andhra Pradesh",
+     "paper": "Paper II · History, Culture & Geography",
+     "pyqs": 6,
+     "cycles": "3/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Landforms of AP",
+       "q": "Examine the features and importance of the major landforms of Andhra Pradesh.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Climate and monsoon of AP",
+       "q": "Discuss the climate of Andhra Pradesh and the influence of the monsoon.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Soils of AP",
+       "q": "Describe the soils of Andhra Pradesh and their distribution.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Rivers and drainage",
+       "q": "Discuss the major rivers and drainage basins of Andhra Pradesh.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Coastal landforms",
+       "q": "Discuss the coastal features and deltas of Andhra Pradesh.",
+       "chance": "MED-HIGH"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the physical features of India.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the climatic controls of India.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the regional geography of Rayalaseema.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the Eastern Ghats.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the natural vegetation of AP.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss red soils of AP.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss the Krishna and Godavari deltas.",
+       "chance": "LOW-MED"
+      }
+     ]
+    },
+    {
+     "title": "Ethics, Integrity, Accountability and Leadership",
+     "paper": "Paper III · Polity, Governance, Law & Ethics",
+     "pyqs": 6,
+     "cycles": "3/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Codes of ethics and conduct",
+       "q": "Discuss how a code of ethics and a code of conduct can resolve conflicts of interest in public administration.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Integrity, transparency, accountability",
+       "q": "Discuss the significance of integrity, transparency and accountability in public leadership.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Ethical thinkers",
+       "q": "Discuss the ethical teachings of Mahatma Gandhi and their relevance to public administration today.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Ethics and democracy",
+       "q": "Does popular democracy breed distrust of representatives? Discuss the role of ethics in restoring trust.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Ethics in international relations",
+       "q": "Discuss the role of ethics in international relations and dispute resolution.",
+       "chance": "MED"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Explain the seven principles of public life.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss the role of time and space in ethics.",
+       "chance": "MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss ethics in the context of artificial intelligence.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the concept of probity in governance.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss the ethics of Kautilya.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the role of ethics in private and public relationships.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss ethical issues in corporate governance.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 60,
+   "date": "2027-01-05",
+   "label": "Tue 05 Jan",
+   "phase": "D",
+   "themes": [
+    {
+     "title": "Wildlife, Forests and Biodiversity of AP",
+     "paper": "Paper II · History, Culture & Geography",
+     "pyqs": 5,
+     "cycles": "3/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Wildlife conservation in AP",
+       "q": "Discuss the key aspects of wildlife conservation in Andhra Pradesh, including protected areas.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Tiger conservation",
+       "q": "Evaluate Project Tiger in the light of the All-India Tiger Estimation Report. How is the Nagarjunasagar-Srisailam Reserve placed?",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Forest conservation strategies",
+       "q": "Discuss the forest conservation strategies in India.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Wetlands and mangroves",
+       "q": "Discuss the importance of the wetlands and mangroves of Andhra Pradesh, such as Kolleru and Coringa.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Human-wildlife conflict",
+       "q": "Discuss the human-elephant conflict and measures to address it.",
+       "chance": "MED"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss in situ conservation strategies for biodiversity in AP.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Describe the national parks of Andhra Pradesh.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss the Wildlife Protection Act, 1972.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss community-based conservation.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss Joint Forest Management.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the Eastern Ghats biodiversity.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Discuss ex situ conservation.",
+       "chance": "LOW-MED"
+      }
+     ]
+    },
+    {
+     "title": "External Sector: CAD, BoP, Exchange Rate and FDI",
+     "paper": "Paper IV · Economy of India & Andhra Pradesh",
+     "pyqs": 4,
+     "cycles": "2/8",
+     "top": [
+      {
+       "n": 1,
+       "topic": "Current account deficit and BoP",
+       "q": "Examine the factors behind India's current account deficit and the measures to address it.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 2,
+       "topic": "Exchange rate",
+       "q": "Is the Indian rupee fully market determined? Discuss the effects of depreciation on the economy.",
+       "chance": "HIGH"
+      },
+      {
+       "n": 3,
+       "topic": "Foreign investment",
+       "q": "Discuss the factors that attract foreign investment into India and the FDI policy.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 4,
+       "topic": "Trade policy",
+       "q": "Discuss India's trade policy and free trade agreements.",
+       "chance": "MED-HIGH"
+      },
+      {
+       "n": 5,
+       "topic": "Global shocks",
+       "q": "Discuss the impact of global slowdown and inflation on the Indian economy.",
+       "chance": "MED"
+      }
+     ],
+     "more": [
+      {
+       "n": 6,
+       "q": "Discuss the role of ports in the foreign trade of Andhra Pradesh.",
+       "chance": "MED"
+      },
+      {
+       "n": 7,
+       "q": "Discuss external debt and foreign exchange reserves.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 8,
+       "q": "Discuss remittances and the services trade surplus.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 9,
+       "q": "Discuss the role of the WTO for India.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 10,
+       "q": "Discuss foreign portfolio investment.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 11,
+       "q": "Discuss the internationalisation of the rupee.",
+       "chance": "LOW-MED"
+      },
+      {
+       "n": 12,
+       "q": "Explain the components of the balance of payments.",
+       "chance": "LOW-MED"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -125,32 +125,15 @@ Stored attempts keep only question ids, responses and a snapshot of the answer k
 
 ## Group-I Mains checklist
 
-`/mains` is a **progress checklist**, not a daily quota: Paper → subject → theme. A theme shows how often it was asked (and in which
-sittings), the angles ("dimensions") asked so far and the ones never asked, **every past question** (APPSC and TGPSC, with years), and
-the **expected questions** (at most 10 for a big theme, fewer for a small one). Tick an expected question when learned; when the whole
-theme is ticked the next theme is offered. No backlog.
+`/mains` is the **60-day PYQ-recurrence checklist**: one theme a day (two a day on days 55-60; days 49-54 are rewrite sprints), from
+Sat 7 Nov 2026 to Tue 5 Jan 2027. The learner reads the day's past questions and expected questions in the offline theme-dossier booklet and
+ticks them here. A day has one "read the past questions" item and the **top 5 expected questions** (with the dossier's HIGH / MED chance
+rating); the "next 7" reserve questions can also be ticked but do not count. Today's day is highlighted, earlier unfinished days show as
+pending, and "Continue" jumps to the first unfinished day.
 
-Sources (all Group-I): the APPSC Mains PYQ compilation (`scripts/data/compilation.json`, from `scripts/extract/mains_compilation.py`),
-the Ghissu model-answer books' indexes (`scripts/extract/ghissu_index.py`), the CivicCentre PYQ books incl. TGPSC
-(`scripts/extract/civiccentre_pyq.py`) and, by OCR, the CivicCentre "Mission 1000" workbooks (`scripts/extract/ocr_workbooks.py`,
-`workbooks_parse.py`, needs `pip install rapidocr-onnxruntime wordsegment`; 13 workbooks, 340 questions read, 56 not in the other sources — questions without an exam tag are shown as "Practice question").
-
-Build: `python3 -I scripts/analysis/build_checklist.py` (merge, de-duplicate, file under themes) then
-`python3 -I scripts/analysis/build_expected.py` (expected questions) → `src/content/mains-checklist.json`.
-
-- Expected questions: dimensions never asked on a theme first, then dimensions asked recently (2020+); stems are drafted from templates per
-  subject area (history, geography, polity, administration, ethics, economy, science, essay) with an answer **structure**; "recent
-  developments" stems are ranked last. Where a hand-written model answer exists (`src/content/mains-model-*.json`: intro, body,
-  conclusion, optional "read the latest" checklist) it is attached to the nearest theme and shown as **Full answer**.
-- Topics the commission has removed from the 2026 syllabus (Notification 07/2026) are hidden.
-- Progress is stored in the app's `learn.done` (question id → time), so it is included in backup/restore.
-
-- **UPSC questions** (`scripts/extract/upsc_pyq.py` → `scripts/data/upsc.json`; GS-I…IV 2013–2026, 1,118 questions from the UnlockIAS compilations):
-  each UPSC heading is mapped to the Mains subject it belongs to (headings with no APPSC counterpart — world history, international
-  relations, security, ethics case studies — are left out, 294 questions). Inside the subject a question joins the theme it is most
-  similar to; otherwise it is kept in that subject's "Miscellaneous · UPSC questions" list. They appear on the theme page under
-  "Asked by other exams, not by APPSC" and never count towards APPSC recurrence, importance or the "not asked yet" angles.
-
-- **APPSC-style model answers** (`style: "appsc"` in `src/content/mains-model-s1.json`): 12 minutes and about 2.5–3 booklet pages per answer
-  (45 pages / 15 questions) → 250–350 words, many short points, one example per point, new facts about 20%, underlined sub-headings,
-  a forward-looking conclusion that names the ministry or body and the citizen's right. The card shows the word count.
+- Data: `src/content/mains-schedule.json`, built from the three booklets with
+  `python3 -I scripts/extract/mains_schedule.py <Booklet_1.pdf> <Booklet_2.pdf> <Booklet_3.pdf>` (contents table → days and themes,
+  "Top 5" and "Next 7" tables → questions; the script asserts 24 + 24 + 12 themes with 5 + 7 questions each).
+- Logic: `src/lib/schedule.ts` (progress, today's plan day). Progress is stored in the app's `sched` (item key → time ticked), which
+  is part of backup/restore.
+- The earlier Paper → subject → theme checklist, the UPSC mapping and the hand-written model answers were removed.

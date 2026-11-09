@@ -37,6 +37,8 @@ interface AppState {
   learn: LearnState;
   /** Mains answers written in the answer-writing practice, keyed by question id. */
   mains: Record<string, MainsEntry>;
+  /** Group-I Mains day-wise checklist: item key → time it was ticked. */
+  sched: Record<string, number>;
 
   setMistakeTag: (id: number, tag: MistakeReason | null) => void;
   /** Your own note on a mistake (what to remember); empty text removes it. */
@@ -49,6 +51,10 @@ interface AppState {
   completeQ: (id: string) => void;
   uncompleteQ: (id: string) => void;
   saveMains: (id: string, entry: Partial<MainsEntry> & { text: string }) => void;
+  /** Tick / untick one checklist item. */
+  toggleSched: (key: string) => void;
+  /** Tick (or clear) several items at once, e.g. a whole day. */
+  setSched: (keys: string[], on: boolean) => void;
   setProfile: (p: Profile) => void;
   setTheme: (t: Theme) => void;
   toggleBookmark: (id: number) => void;
@@ -58,7 +64,7 @@ interface AppState {
   /** "I've learnt this": take the question out of the revision set. */
   clearFromRevision: (id: number) => void;
   /** Replace everything with an imported backup. */
-  restore: (s: Pick<AppState, "profile" | "theme" | "attempts" | "qstats" | "bookmarks" | "activeDays"> & Partial<Pick<AppState, "mistakeTags" | "mistakeNotes" | "mistakeDone" | "mains" | "learn">>) => void;
+  restore: (s: Pick<AppState, "profile" | "theme" | "attempts" | "qstats" | "bookmarks" | "activeDays"> & Partial<Pick<AppState, "mistakeTags" | "mistakeNotes" | "mistakeDone" | "mains" | "learn" | "sched">>) => void;
   setInstallPrompt: (s: AppState["installPrompt"]) => void;
   resetAll: () => void;
 }
@@ -76,6 +82,7 @@ const initial = {
   mistakeDone: {} as Record<number, number>,
   learn: emptyLearn(),
   mains: {} as Record<string, MainsEntry>,
+  sched: {} as Record<string, number>,
 };
 
 export const useApp = create<AppState>()(
@@ -109,6 +116,23 @@ export const useApp = create<AppState>()(
           if (next[id]) delete next[id];
           else next[id] = Date.now();
           return { mistakeDone: next };
+        }),
+      toggleSched: (key) =>
+        set((s) => {
+          const next = { ...s.sched };
+          if (next[key]) delete next[key];
+          else next[key] = Date.now();
+          return { sched: next };
+        }),
+      setSched: (keys, on) =>
+        set((s) => {
+          const next = { ...s.sched };
+          const at = Date.now();
+          for (const k of keys) {
+            if (on) next[k] ??= at;
+            else delete next[k];
+          }
+          return { sched: next };
         }),
       saveMains: (id, entry) =>
         set((s) => ({ mains: { ...s.mains, [id]: { ...s.mains[id], ...entry, updatedAt: Date.now() } } })),
