@@ -15,7 +15,8 @@ PAPERS = {"II": "Paper II · History, Culture & Geography", "III": "Paper III ·
           "IV": "Paper IV · Economy of India & Andhra Pradesh", "V": "Paper V · Science, Technology & Environment"}
 DATES = {}  # day -> ISO date
 import datetime
-d0 = datetime.date(2026, 11, 7)
+START = datetime.date(2026, 11, 11)  # Day 1: the plan starts the day after it was approved (Wed 11 Nov 2026)
+d0 = START
 for day in range(1, 61):
     DATES[day] = (d0 + datetime.timedelta(days=day - 1)).isoformat()
 

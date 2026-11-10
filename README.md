@@ -126,8 +126,8 @@ Stored attempts keep only question ids, responses and a snapshot of the answer k
 ## Group-I Mains checklist
 
 `/mains` is the **60-day PYQ-recurrence checklist**: one theme a day (two a day on days 55-60; days 49-54 are rewrite sprints), from
-Sat 7 Nov 2026 to Tue 5 Jan 2027. The learner reads the day's past questions and expected questions in the offline theme-dossier booklet and
-ticks them here. A day has one "read the past questions" item and the **top 5 expected questions** (with the dossier's HIGH / MED chance
+Wed 11 Nov 2026 (the day after the plan was set up) to Sat 9 Jan 2027. The learner reads the day's past questions and expected questions in the offline theme-dossier booklet and
+ticks them here; a ticked question is struck through. The start date is `START` in `scripts/extract/mains_schedule.py`. A day has one "read the past questions" item and the **top 5 expected questions** (with the dossier's HIGH / MED chance
 rating); the "next 7" reserve questions can also be ticked but do not count. Today's day is highlighted, earlier unfinished days show as
 pending, and "Continue" jumps to the first unfinished day.
 

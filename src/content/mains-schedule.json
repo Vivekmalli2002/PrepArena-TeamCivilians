@@ -9,8 +9,8 @@
  "days": [
   {
    "day": 1,
-   "date": "2026-11-07",
-   "label": "Sat 07 Nov",
+   "date": "2026-11-11",
+   "label": "Wed 11 Nov",
    "phase": "A",
    "themes": [
     {
@@ -92,8 +92,8 @@
   },
   {
    "day": 2,
-   "date": "2026-11-08",
-   "label": "Sun 08 Nov",
+   "date": "2026-11-12",
+   "label": "Thu 12 Nov",
    "phase": "A",
    "themes": [
     {
@@ -175,8 +175,8 @@
   },
   {
    "day": 3,
-   "date": "2026-11-09",
-   "label": "Mon 09 Nov",
+   "date": "2026-11-13",
+   "label": "Fri 13 Nov",
    "phase": "A",
    "themes": [
     {
@@ -258,8 +258,8 @@
   },
   {
    "day": 4,
-   "date": "2026-11-10",
-   "label": "Tue 10 Nov",
+   "date": "2026-11-14",
+   "label": "Sat 14 Nov",
    "phase": "A",
    "themes": [
     {
@@ -341,8 +341,8 @@
   },
   {
    "day": 5,
-   "date": "2026-11-11",
-   "label": "Wed 11 Nov",
+   "date": "2026-11-15",
+   "label": "Sun 15 Nov",
    "phase": "A",
    "themes": [
     {
@@ -424,8 +424,8 @@
   },
   {
    "day": 6,
-   "date": "2026-11-12",
-   "label": "Thu 12 Nov",
+   "date": "2026-11-16",
+   "label": "Mon 16 Nov",
    "phase": "A",
    "themes": [
     {
@@ -507,8 +507,8 @@
   },
   {
    "day": 7,
-   "date": "2026-11-13",
-   "label": "Fri 13 Nov",
+   "date": "2026-11-17",
+   "label": "Tue 17 Nov",
    "phase": "A",
    "themes": [
     {
@@ -590,8 +590,8 @@
   },
   {
    "day": 8,
-   "date": "2026-11-14",
-   "label": "Sat 14 Nov",
+   "date": "2026-11-18",
+   "label": "Wed 18 Nov",
    "phase": "A",
    "themes": [
     {
@@ -673,8 +673,8 @@
   },
   {
    "day": 9,
-   "date": "2026-11-15",
-   "label": "Sun 15 Nov",
+   "date": "2026-11-19",
+   "label": "Thu 19 Nov",
    "phase": "A",
    "themes": [
     {
@@ -756,8 +756,8 @@
   },
   {
    "day": 10,
-   "date": "2026-11-16",
-   "label": "Mon 16 Nov",
+   "date": "2026-11-20",
+   "label": "Fri 20 Nov",
    "phase": "A",
    "themes": [
     {
@@ -839,8 +839,8 @@
   },
   {
    "day": 11,
-   "date": "2026-11-17",
-   "label": "Tue 17 Nov",
+   "date": "2026-11-21",
+   "label": "Sat 21 Nov",
    "phase": "A",
    "themes": [
     {
@@ -922,8 +922,8 @@
   },
   {
    "day": 12,
-   "date": "2026-11-18",
-   "label": "Wed 18 Nov",
+   "date": "2026-11-22",
+   "label": "Sun 22 Nov",
    "phase": "A",
    "themes": [
     {
@@ -1005,8 +1005,8 @@
   },
   {
    "day": 13,
-   "date": "2026-11-19",
-   "label": "Thu 19 Nov",
+   "date": "2026-11-23",
+   "label": "Mon 23 Nov",
    "phase": "A",
    "themes": [
     {
@@ -1088,8 +1088,8 @@
   },
   {
    "day": 14,
-   "date": "2026-11-20",
-   "label": "Fri 20 Nov",
+   "date": "2026-11-24",
+   "label": "Tue 24 Nov",
    "phase": "A",
    "themes": [
     {
@@ -1171,8 +1171,8 @@
   },
   {
    "day": 15,
-   "date": "2026-11-21",
-   "label": "Sat 21 Nov",
+   "date": "2026-11-25",
+   "label": "Wed 25 Nov",
    "phase": "A",
    "themes": [
     {
@@ -1254,8 +1254,8 @@
   },
   {
    "day": 16,
-   "date": "2026-11-22",
-   "label": "Sun 22 Nov",
+   "date": "2026-11-26",
+   "label": "Thu 26 Nov",
    "phase": "A",
    "themes": [
     {
@@ -1337,8 +1337,8 @@
   },
   {
    "day": 17,
-   "date": "2026-11-23",
-   "label": "Mon 23 Nov",
+   "date": "2026-11-27",
+   "label": "Fri 27 Nov",
    "phase": "A",
    "themes": [
     {
@@ -1420,8 +1420,8 @@
   },
   {
    "day": 18,
-   "date": "2026-11-24",
-   "label": "Tue 24 Nov",
+   "date": "2026-11-28",
+   "label": "Sat 28 Nov",
    "phase": "A",
    "themes": [
     {
@@ -1503,8 +1503,8 @@
   },
   {
    "day": 19,
-   "date": "2026-11-25",
-   "label": "Wed 25 Nov",
+   "date": "2026-11-29",
+   "label": "Sun 29 Nov",
    "phase": "A",
    "themes": [
     {
@@ -1586,8 +1586,8 @@
   },
   {
    "day": 20,
-   "date": "2026-11-26",
-   "label": "Thu 26 Nov",
+   "date": "2026-11-30",
+   "label": "Mon 30 Nov",
    "phase": "A",
    "themes": [
     {
@@ -1669,8 +1669,8 @@
   },
   {
    "day": 21,
-   "date": "2026-11-27",
-   "label": "Fri 27 Nov",
+   "date": "2026-12-01",
+   "label": "Tue 01 Dec",
    "phase": "A",
    "themes": [
     {
@@ -1752,8 +1752,8 @@
   },
   {
    "day": 22,
-   "date": "2026-11-28",
-   "label": "Sat 28 Nov",
+   "date": "2026-12-02",
+   "label": "Wed 02 Dec",
    "phase": "A",
    "themes": [
     {
@@ -1835,8 +1835,8 @@
   },
   {
    "day": 23,
-   "date": "2026-11-29",
-   "label": "Sun 29 Nov",
+   "date": "2026-12-03",
+   "label": "Thu 03 Dec",
    "phase": "A",
    "themes": [
     {
@@ -1918,8 +1918,8 @@
   },
   {
    "day": 24,
-   "date": "2026-11-30",
-   "label": "Mon 30 Nov",
+   "date": "2026-12-04",
+   "label": "Fri 04 Dec",
    "phase": "A",
    "themes": [
     {
@@ -2001,8 +2001,8 @@
   },
   {
    "day": 25,
-   "date": "2026-12-01",
-   "label": "Tue 01 Dec",
+   "date": "2026-12-05",
+   "label": "Sat 05 Dec",
    "phase": "B",
    "themes": [
     {
@@ -2084,8 +2084,8 @@
   },
   {
    "day": 26,
-   "date": "2026-12-02",
-   "label": "Wed 02 Dec",
+   "date": "2026-12-06",
+   "label": "Sun 06 Dec",
    "phase": "B",
    "themes": [
     {
@@ -2167,8 +2167,8 @@
   },
   {
    "day": 27,
-   "date": "2026-12-03",
-   "label": "Thu 03 Dec",
+   "date": "2026-12-07",
+   "label": "Mon 07 Dec",
    "phase": "B",
    "themes": [
     {
@@ -2250,8 +2250,8 @@
   },
   {
    "day": 28,
-   "date": "2026-12-04",
-   "label": "Fri 04 Dec",
+   "date": "2026-12-08",
+   "label": "Tue 08 Dec",
    "phase": "B",
    "themes": [
     {
@@ -2333,8 +2333,8 @@
   },
   {
    "day": 29,
-   "date": "2026-12-05",
-   "label": "Sat 05 Dec",
+   "date": "2026-12-09",
+   "label": "Wed 09 Dec",
    "phase": "B",
    "themes": [
     {
@@ -2416,8 +2416,8 @@
   },
   {
    "day": 30,
-   "date": "2026-12-06",
-   "label": "Sun 06 Dec",
+   "date": "2026-12-10",
+   "label": "Thu 10 Dec",
    "phase": "B",
    "themes": [
     {
@@ -2499,8 +2499,8 @@
   },
   {
    "day": 31,
-   "date": "2026-12-07",
-   "label": "Mon 07 Dec",
+   "date": "2026-12-11",
+   "label": "Fri 11 Dec",
    "phase": "B",
    "themes": [
     {
@@ -2582,8 +2582,8 @@
   },
   {
    "day": 32,
-   "date": "2026-12-08",
-   "label": "Tue 08 Dec",
+   "date": "2026-12-12",
+   "label": "Sat 12 Dec",
    "phase": "B",
    "themes": [
     {
@@ -2665,8 +2665,8 @@
   },
   {
    "day": 33,
-   "date": "2026-12-09",
-   "label": "Wed 09 Dec",
+   "date": "2026-12-13",
+   "label": "Sun 13 Dec",
    "phase": "B",
    "themes": [
     {
@@ -2748,8 +2748,8 @@
   },
   {
    "day": 34,
-   "date": "2026-12-10",
-   "label": "Thu 10 Dec",
+   "date": "2026-12-14",
+   "label": "Mon 14 Dec",
    "phase": "B",
    "themes": [
     {
@@ -2831,8 +2831,8 @@
   },
   {
    "day": 35,
-   "date": "2026-12-11",
-   "label": "Fri 11 Dec",
+   "date": "2026-12-15",
+   "label": "Tue 15 Dec",
    "phase": "B",
    "themes": [
     {
@@ -2914,8 +2914,8 @@
   },
   {
    "day": 36,
-   "date": "2026-12-12",
-   "label": "Sat 12 Dec",
+   "date": "2026-12-16",
+   "label": "Wed 16 Dec",
    "phase": "B",
    "themes": [
     {
@@ -2997,8 +2997,8 @@
   },
   {
    "day": 37,
-   "date": "2026-12-13",
-   "label": "Sun 13 Dec",
+   "date": "2026-12-17",
+   "label": "Thu 17 Dec",
    "phase": "B",
    "themes": [
     {
@@ -3080,8 +3080,8 @@
   },
   {
    "day": 38,
-   "date": "2026-12-14",
-   "label": "Mon 14 Dec",
+   "date": "2026-12-18",
+   "label": "Fri 18 Dec",
    "phase": "B",
    "themes": [
     {
@@ -3163,8 +3163,8 @@
   },
   {
    "day": 39,
-   "date": "2026-12-15",
-   "label": "Tue 15 Dec",
+   "date": "2026-12-19",
+   "label": "Sat 19 Dec",
    "phase": "B",
    "themes": [
     {
@@ -3246,8 +3246,8 @@
   },
   {
    "day": 40,
-   "date": "2026-12-16",
-   "label": "Wed 16 Dec",
+   "date": "2026-12-20",
+   "label": "Sun 20 Dec",
    "phase": "B",
    "themes": [
     {
@@ -3329,8 +3329,8 @@
   },
   {
    "day": 41,
-   "date": "2026-12-17",
-   "label": "Thu 17 Dec",
+   "date": "2026-12-21",
+   "label": "Mon 21 Dec",
    "phase": "B",
    "themes": [
     {
@@ -3412,8 +3412,8 @@
   },
   {
    "day": 42,
-   "date": "2026-12-18",
-   "label": "Fri 18 Dec",
+   "date": "2026-12-22",
+   "label": "Tue 22 Dec",
    "phase": "B",
    "themes": [
     {
@@ -3495,8 +3495,8 @@
   },
   {
    "day": 43,
-   "date": "2026-12-19",
-   "label": "Sat 19 Dec",
+   "date": "2026-12-23",
+   "label": "Wed 23 Dec",
    "phase": "B",
    "themes": [
     {
@@ -3578,8 +3578,8 @@
   },
   {
    "day": 44,
-   "date": "2026-12-20",
-   "label": "Sun 20 Dec",
+   "date": "2026-12-24",
+   "label": "Thu 24 Dec",
    "phase": "B",
    "themes": [
     {
@@ -3661,8 +3661,8 @@
   },
   {
    "day": 45,
-   "date": "2026-12-21",
-   "label": "Mon 21 Dec",
+   "date": "2026-12-25",
+   "label": "Fri 25 Dec",
    "phase": "B",
    "themes": [
     {
@@ -3744,8 +3744,8 @@
   },
   {
    "day": 46,
-   "date": "2026-12-22",
-   "label": "Tue 22 Dec",
+   "date": "2026-12-26",
+   "label": "Sat 26 Dec",
    "phase": "B",
    "themes": [
     {
@@ -3827,8 +3827,8 @@
   },
   {
    "day": 47,
-   "date": "2026-12-23",
-   "label": "Wed 23 Dec",
+   "date": "2026-12-27",
+   "label": "Sun 27 Dec",
    "phase": "B",
    "themes": [
     {
@@ -3910,8 +3910,8 @@
   },
   {
    "day": 48,
-   "date": "2026-12-24",
-   "label": "Thu 24 Dec",
+   "date": "2026-12-28",
+   "label": "Mon 28 Dec",
    "phase": "B",
    "themes": [
     {
@@ -3993,50 +3993,50 @@
   },
   {
    "day": 49,
-   "date": "2026-12-25",
-   "label": "Fri 25 Dec",
-   "phase": "R",
-   "themes": []
-  },
-  {
-   "day": 50,
-   "date": "2026-12-26",
-   "label": "Sat 26 Dec",
-   "phase": "R",
-   "themes": []
-  },
-  {
-   "day": 51,
-   "date": "2026-12-27",
-   "label": "Sun 27 Dec",
-   "phase": "R",
-   "themes": []
-  },
-  {
-   "day": 52,
-   "date": "2026-12-28",
-   "label": "Mon 28 Dec",
-   "phase": "R",
-   "themes": []
-  },
-  {
-   "day": 53,
    "date": "2026-12-29",
    "label": "Tue 29 Dec",
    "phase": "R",
    "themes": []
   },
   {
-   "day": 54,
+   "day": 50,
    "date": "2026-12-30",
    "label": "Wed 30 Dec",
    "phase": "R",
    "themes": []
   },
   {
-   "day": 55,
+   "day": 51,
    "date": "2026-12-31",
    "label": "Thu 31 Dec",
+   "phase": "R",
+   "themes": []
+  },
+  {
+   "day": 52,
+   "date": "2027-01-01",
+   "label": "Fri 01 Jan",
+   "phase": "R",
+   "themes": []
+  },
+  {
+   "day": 53,
+   "date": "2027-01-02",
+   "label": "Sat 02 Jan",
+   "phase": "R",
+   "themes": []
+  },
+  {
+   "day": 54,
+   "date": "2027-01-03",
+   "label": "Sun 03 Jan",
+   "phase": "R",
+   "themes": []
+  },
+  {
+   "day": 55,
+   "date": "2027-01-04",
+   "label": "Mon 04 Jan",
    "phase": "D",
    "themes": [
     {
@@ -4193,8 +4193,8 @@
   },
   {
    "day": 56,
-   "date": "2027-01-01",
-   "label": "Fri 01 Jan",
+   "date": "2027-01-05",
+   "label": "Tue 05 Jan",
    "phase": "D",
    "themes": [
     {
@@ -4351,8 +4351,8 @@
   },
   {
    "day": 57,
-   "date": "2027-01-02",
-   "label": "Sat 02 Jan",
+   "date": "2027-01-06",
+   "label": "Wed 06 Jan",
    "phase": "D",
    "themes": [
     {
@@ -4509,8 +4509,8 @@
   },
   {
    "day": 58,
-   "date": "2027-01-03",
-   "label": "Sun 03 Jan",
+   "date": "2027-01-07",
+   "label": "Thu 07 Jan",
    "phase": "D",
    "themes": [
     {
@@ -4667,8 +4667,8 @@
   },
   {
    "day": 59,
-   "date": "2027-01-04",
-   "label": "Mon 04 Jan",
+   "date": "2027-01-08",
+   "label": "Fri 08 Jan",
    "phase": "D",
    "themes": [
     {
@@ -4825,8 +4825,8 @@
   },
   {
    "day": 60,
-   "date": "2027-01-05",
-   "label": "Tue 05 Jan",
+   "date": "2027-01-09",
+   "label": "Sat 09 Jan",
    "phase": "D",
    "themes": [
     {

@@ -188,7 +188,7 @@ function DayCard({
             {isToday && <span className="ml-1.5 rounded-full bg-primary px-2 py-0.5 text-[11px] font-semibold text-on-primary">Today</span>}
             {late && !fin && <span className="ml-1.5 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-semibold text-amber-800">Pending</span>}
           </span>
-          <span className="mt-0.5 block font-semibold leading-snug">{title}</span>
+          <span className={cx("mt-0.5 block font-semibold leading-snug", fin && "text-muted line-through decoration-good/70 decoration-2")}>{title}</span>
           <span className="mt-1 block text-xs text-muted tabular">
             {p.done}/{p.total} ticked
             {d.themes.length === 1 && ` · ${d.themes[0].pyqs} past questions · asked in ${d.themes[0].cycles} sittings`}
@@ -305,7 +305,7 @@ function Item({ k, children, className }: { k: string; children: React.ReactNode
       <span className={cx("mt-0.5 grid size-6 shrink-0 place-items-center rounded-lg border-2 transition", on ? "border-good bg-good text-white" : "border-hairline")}>
         {on && <Check size={14} />}
       </span>
-      <span className={cx("min-w-0 flex-1", on && "opacity-75")}>{children}</span>
+      <span className={cx("min-w-0 flex-1", on && "text-muted line-through decoration-good/70 decoration-2")}>{children}</span>
     </button>
   );
 }

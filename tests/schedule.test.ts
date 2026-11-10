@@ -3,10 +3,10 @@ import { makeBackup, parseBackup } from "@/lib/backup";
 import { DAYS, dayDone, dayProgress, firstUnfinished, itemKeys, pendingBefore, planDay, reserveKeys, totalProgress } from "@/lib/schedule";
 
 describe("Group-I Mains day-wise schedule", () => {
-  it("has 60 consecutive days from 7 Nov 2026 with 54+6 themes and rewrite sprints on 49-54", () => {
+  it("has 60 consecutive days from Wed 11 Nov 2026 with 54+6 themes and rewrite sprints on 49-54", () => {
     expect(DAYS).toHaveLength(60);
-    expect(DAYS[0]).toMatchObject({ day: 1, date: "2026-11-07", label: "Sat 07 Nov" });
-    expect(DAYS[59]).toMatchObject({ day: 60, date: "2027-01-05" });
+    expect(DAYS[0]).toMatchObject({ day: 1, date: "2026-11-11", label: "Wed 11 Nov" });
+    expect(DAYS[59]).toMatchObject({ day: 60, date: "2027-01-09" });
     DAYS.forEach((d, i) => expect(d.day).toBe(i + 1));
     expect(DAYS.flatMap((d) => d.themes)).toHaveLength(60);
     expect(DAYS.filter((d) => d.phase === "R").map((d) => d.day)).toEqual([49, 50, 51, 52, 53, 54]);
@@ -39,12 +39,12 @@ describe("Group-I Mains day-wise schedule", () => {
     expect(totalProgress(DAYS, {}).total).toBe(6 * 60 + 6);
   });
   it("finds today's plan day, the first unfinished day and the days left behind", () => {
-    expect(planDay("2026-11-06")).toBeNull();
-    expect(planDay("2026-11-09")?.day).toBe(3);
+    expect(planDay("2026-11-10")).toBeNull();
+    expect(planDay("2026-11-13")?.day).toBe(3);
     expect(planDay("2027-02-01")?.day).toBe(60);
     const sched = Object.fromEntries(itemKeys(DAYS[0]).map((k) => [k, 1]));
     expect(firstUnfinished(sched)?.day).toBe(2);
-    expect(pendingBefore("2026-11-09", sched).map((d) => d.day)).toEqual([2]);
+    expect(pendingBefore("2026-11-13", sched).map((d) => d.day)).toEqual([2]);
   });
   it("is part of the backup and survives a round trip", () => {
     const sched = { "d1.t0.pyq": 123, "d1.t0.q1": 456 };
