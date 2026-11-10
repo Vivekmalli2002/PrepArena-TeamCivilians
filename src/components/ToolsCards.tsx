@@ -4,7 +4,7 @@ import { SectionTitle } from "./ui";
 
 const TOOLS = [
   { href: "/mistakes", icon: BookX, title: "Error log book", text: "Every wrong answer, why it happened, your notes, retry and export" },
-  { href: "/mains", icon: PenLine, title: "Group-I Mains checklist", text: "Paper → subject → theme: past questions, expected questions, tick as you learn" },
+  { href: "/mains", icon: PenLine, title: "Group-I Mains checklist", text: "60-day PYQ-recurrence plan: read each day's past and expected questions, then tick them off" },
 ];
 
 export function ToolsCards() {
