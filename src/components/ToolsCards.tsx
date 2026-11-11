@@ -1,9 +1,10 @@
-import { BookX, PenLine } from "lucide-react";
+import { BookX, ListChecks, PenLine } from "lucide-react";
 import Link from "next/link";
 import { SectionTitle } from "./ui";
 
 const TOOLS = [
   { href: "/mistakes", icon: BookX, title: "Error log book", text: "Every wrong answer, why it happened, your notes, retry and export" },
+  { href: "/checklist", icon: ListChecks, title: "Syllabus checklist", text: "Every paper, subject and unit of your exam; tick a shared unit once and it counts in every exam" },
   { href: "/mains", icon: PenLine, title: "Group-I Mains checklist", text: "60-day PYQ-recurrence plan: read each day's past and expected questions, then tick them off" },
 ];
 

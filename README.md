@@ -123,6 +123,14 @@ Stored attempts keep only question ids, responses and a snapshot of the answer k
   basis stated on screen; "Customise" lets the student pick the number of questions per section. The Custom builder takes
   any number up to what is available and can follow the weightage.
 
+## Syllabus checklist
+
+`/checklist` lists every paper, subject and unit of the chosen exam (`src/lib/syllabus.ts`, from the catalog's units and each unit's `exams`
+list; practice buckets such as "Technical Subjects Numericals" are left out). A unit is identified by subject and number (`history:3`), not by
+exam, so **ticking it in one exam ticks it in every exam that lists it** (Disaster Management in the common GS paper and in AEE PR & TW Paper-3,
+AP History in ASWO and Group-2, …). Each exam's total counts a unit once even if two papers list it. Progress is stored in the app's `syll` and
+is part of backup/restore.
+
 ## Group-I Mains checklist
 
 `/mains` is the **60-day PYQ-recurrence checklist**: one theme a day (two a day on days 55-60; days 49-54 are rewrite sprints), from
