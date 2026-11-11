@@ -19,7 +19,7 @@ export default function Page() {
         Compare papers &amp; shared subjects, with source pages →
       </Link>
       <Link href="/checklist" className="mt-2 block text-sm font-semibold text-primary underline">
-        Syllabus checklist — tick units off; shared units count in every exam →
+        Subjects checklist — tick subjects off; shared subjects count in every exam →
       </Link>
       <div className="mt-5 grid gap-3 sm:grid-cols-2">
         {EXAMS.map((e) => {

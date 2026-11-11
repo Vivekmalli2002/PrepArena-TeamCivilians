@@ -5,7 +5,7 @@ import { SectionTitle } from "./ui";
 const TOOLS = [
   { href: "/mistakes", icon: BookX, title: "Error log book", text: "Every wrong answer, why it happened, your notes, retry and export" },
   { href: "/calendar", icon: CalendarDays, title: "Exam calendar", text: "Group-1 Prelims 24 Jan, Group-2 Prelims 21 Feb: days left, your plan day by day, ✅ on finished days" },
-  { href: "/checklist", icon: ListChecks, title: "Syllabus checklist", text: "Every paper, subject and unit of your exam; tick a shared unit once and it counts in every exam" },
+  { href: "/checklist", icon: ListChecks, title: "Subjects checklist", text: "Every subject of your exam; tick one off and it is struck off in every exam that carries it" },
   { href: "/mains", icon: PenLine, title: "Group-I Mains checklist", text: "60-day PYQ-recurrence plan: read each day's past and expected questions, then tick them off" },
 ];
 

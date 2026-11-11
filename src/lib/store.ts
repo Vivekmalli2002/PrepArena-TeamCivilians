@@ -39,7 +39,7 @@ interface AppState {
   mains: Record<string, MainsEntry>;
   /** Group-I Mains day-wise checklist: item key → time it was ticked. */
   sched: Record<string, number>;
-  /** Syllabus checklist: unit key ("history:3") → time it was ticked; shared by every exam that lists the unit. */
+  /** Subjects checklist: subject id ("history") → time it was ticked; shared by every exam that carries the subject. */
   syll: Record<string, number>;
   /** Calendar dates (YYYY-MM-DD) the learner marked as done themselves → time. */
   calDone: Record<string, number>;
