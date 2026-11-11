@@ -87,7 +87,7 @@ and AEE Paper-II (common to R&B, Irrigation, PR & TW, each with its own Paper-II
 
 - **Spaced repetition** (`src/lib/srs.ts`): a wrong answer puts a question in the revision set, due now. Each right answer
   (in a test or a flashcard "Got it") moves it up a box: due again in 1 → 3 → 7 → 16 days, then it graduates.
-- **Backup**: Progress → "Your data" downloads a JSON backup and restores it (validated, with a confirmation).
+- **Backup**: Home → Study tools → Progress → "Your data" downloads a JSON backup and restores it (validated, with a confirmation).
 - Statement questions ("1. … 2. …", "Statement-I : …", "Assertion (A) …") are laid out line by line at display time only. A test checks that no character of any question is lost.
 
 ## Code map
@@ -125,7 +125,7 @@ Stored attempts keep only question ids, responses and a snapshot of the answer k
 
 ## Exam calendar
 
-`/calendar` shows the announced exam dates (`src/content/exam-dates.ts`: Group-1 Prelims Sun 24 Jan 2027, Group-2 Prelims Sun 21 Feb 2027; every other exam
+`/calendar` (the "Calendar" tab in the bottom bar; the Progress page moved to Home → Study tools) shows the announced exam dates (`src/content/exam-dates.ts`: Group-1 Prelims Sun 24 Jan 2027, Group-2 Prelims Sun 21 Feb 2027; every other exam
 is listed as "date not announced yet" until its `date` is filled in), days remaining to each, and month grids from today to the last announced exam
 with the 60-day Mains plan laid onto its dates (Day 1 = Wed 11 Nov 2026). A date gets a ✅ when its plan day is fully ticked in the Group-I Mains
 checklist, or when the learner marks it done (any day that has started, including the free days before an exam). The summary at the top says how many
