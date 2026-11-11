@@ -25,7 +25,7 @@ export function SyllabusChecklist() {
     <div>
       <h1 className="font-display text-[28px] font-extrabold sm:text-4xl">Subjects checklist</h1>
       <p className="mt-1 text-sm text-muted">
-        Every paper of your exam with its subjects. Tick a subject when you have finished it and it is struck off with a red line. A subject that other exams
+        Every paper of your exam with its subjects. Tick a subject when you have finished it and it is struck off with a green line. A subject that other exams
         carry too (Environmental Science, AP &amp; Indian History, Polity …) is struck off <b>in every exam at once</b>.
       </p>
 
@@ -91,7 +91,7 @@ function Paper({ paper }: { paper: ChecklistPaper }) {
   );
 }
 
-/** One subject row; the whole row is the tap target. Done = struck off with a red line. */
+/** One subject row; the whole row is the tap target. Done = struck off with a green line. */
 function SubjectRow({ k, name, alsoIn }: { k: string; name: string; alsoIn: string[] }) {
   const on = useApp((s) => !!s.syll[k]);
   const toggle = useApp((s) => s.toggleSyll);
@@ -100,11 +100,11 @@ function SubjectRow({ k, name, alsoIn }: { k: string; name: string; alsoIn: stri
       onClick={() => toggle(k)}
       role="checkbox"
       aria-checked={on}
-      className={cx("flex w-full items-start gap-3 rounded-2xl border p-3.5 text-left transition", on ? "border-bad/40 bg-bad-soft" : "border-hairline hover:border-primary/40")}
+      className={cx("flex w-full items-start gap-3 rounded-2xl border p-3.5 text-left transition", on ? "border-good/40 bg-good-soft/60" : "border-hairline hover:border-primary/40")}
     >
-      <span className={cx("mt-0.5 grid size-6 shrink-0 place-items-center rounded-lg border-2 transition", on ? "border-bad bg-bad text-white" : "border-hairline")}>{on && <Check size={14} />}</span>
+      <span className={cx("mt-0.5 grid size-6 shrink-0 place-items-center rounded-lg border-2 transition", on ? "border-good bg-good text-white" : "border-hairline")}>{on && <Check size={14} />}</span>
       <span className="min-w-0 flex-1">
-        <span className={cx("block text-[16px] font-semibold leading-snug", on && "text-muted line-through decoration-bad decoration-[3px]")}>{name}</span>
+        <span className={cx("block text-[16px] font-semibold leading-snug", on && "text-muted line-through decoration-good decoration-[3px]")}>{name}</span>
         {alsoIn.length > 0 && (
           <span className="mt-1 block text-xs text-muted">
             {on ? "Struck off in every exam that carries it: " : "Also in: "}

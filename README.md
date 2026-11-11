@@ -135,7 +135,7 @@ plan days are done, ahead and behind. Logic: `src/lib/calendar.ts`; manual marks
 
 `/checklist` lists every paper of the chosen exam with its subjects (`src/lib/syllabus.ts`, from the catalog's papers; a subject is listed when
 at least one of its units belongs to the exam, and practice buckets such as "Technical Subjects Numericals" are left out). A subject is identified by
-its id (`history`, `env`, `civil-fm`), not by the exam, so **ticking it in one exam strikes it off (red line) in every exam whose papers carry it**
+its id (`history`, `env`, `civil-fm`), not by the exam, so **ticking it in one exam strikes it off (green line) in every exam whose papers carry it**
 (Environmental Science in the common GS paper and in AEE PR & TW Paper-3, AP & Indian History in ASWO and Group-2, …). Each exam's total counts a
 subject once even if two papers list it. Progress is stored in the app's `syll` and is part of backup/restore. A subject is ticked as a whole: an
 exam that studies only some of its units (ASWO takes only Disaster Management from Environmental Science) shares the same tick.
