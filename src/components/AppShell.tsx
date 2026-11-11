@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { BookOpen, ChartNoAxesColumn, House, Landmark, LayoutGrid } from "lucide-react";
+import { BookOpen, CalendarDays, House, Landmark, LayoutGrid } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useApp, useHydrated } from "@/lib/store";
@@ -12,7 +12,7 @@ const NAV = [
   { href: "/", label: "Home", icon: House },
   { href: "/tests", label: "Tests", icon: LayoutGrid },
   { href: "/learn", label: "Learn", icon: BookOpen },
-  { href: "/progress", label: "Progress", icon: ChartNoAxesColumn },
+  { href: "/calendar", label: "Calendar", icon: CalendarDays },
   { href: "/exams", label: "Exams", icon: Landmark },
 ];
 
