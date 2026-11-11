@@ -131,13 +131,14 @@ with the 60-day Mains plan laid onto its dates (Day 1 = Wed 11 Nov 2026). A date
 checklist, or when the learner marks it done (any day that has started, including the free days before an exam). The summary at the top says how many
 plan days are done, ahead and behind. Logic: `src/lib/calendar.ts`; manual marks are stored in `calDone` and are part of backup/restore.
 
-## Syllabus checklist
+## Subjects checklist
 
-`/checklist` lists every paper, subject and unit of the chosen exam (`src/lib/syllabus.ts`, from the catalog's units and each unit's `exams`
-list; practice buckets such as "Technical Subjects Numericals" are left out). A unit is identified by subject and number (`history:3`), not by
-exam, so **ticking it in one exam ticks it in every exam that lists it** (Disaster Management in the common GS paper and in AEE PR & TW Paper-3,
-AP History in ASWO and Group-2, …). Each exam's total counts a unit once even if two papers list it. Progress is stored in the app's `syll` and
-is part of backup/restore.
+`/checklist` lists every paper of the chosen exam with its subjects (`src/lib/syllabus.ts`, from the catalog's papers; a subject is listed when
+at least one of its units belongs to the exam, and practice buckets such as "Technical Subjects Numericals" are left out). A subject is identified by
+its id (`history`, `env`, `civil-fm`), not by the exam, so **ticking it in one exam strikes it off (green line) in every exam whose papers carry it**
+(Environmental Science in the common GS paper and in AEE PR & TW Paper-3, AP & Indian History in ASWO and Group-2, …). Each exam's total counts a
+subject once even if two papers list it. Progress is stored in the app's `syll` and is part of backup/restore. A subject is ticked as a whole: an
+exam that studies only some of its units (ASWO takes only Disaster Management from Environmental Science) shares the same tick.
 
 ## Group-I Mains checklist
 
