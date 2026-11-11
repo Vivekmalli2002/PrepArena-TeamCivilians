@@ -41,6 +41,8 @@ interface AppState {
   sched: Record<string, number>;
   /** Syllabus checklist: unit key ("history:3") → time it was ticked; shared by every exam that lists the unit. */
   syll: Record<string, number>;
+  /** Calendar dates (YYYY-MM-DD) the learner marked as done themselves → time. */
+  calDone: Record<string, number>;
 
   setMistakeTag: (id: number, tag: MistakeReason | null) => void;
   /** Your own note on a mistake (what to remember); empty text removes it. */
@@ -57,6 +59,7 @@ interface AppState {
   toggleSched: (key: string) => void;
   /** Tick (or clear) several items at once, e.g. a whole day. */
   setSched: (keys: string[], on: boolean) => void;
+  toggleCalDay: (date: string) => void;
   toggleSyll: (key: string) => void;
   setSyll: (keys: string[], on: boolean) => void;
   setProfile: (p: Profile) => void;
@@ -68,7 +71,7 @@ interface AppState {
   /** "I've learnt this": take the question out of the revision set. */
   clearFromRevision: (id: number) => void;
   /** Replace everything with an imported backup. */
-  restore: (s: Pick<AppState, "profile" | "theme" | "attempts" | "qstats" | "bookmarks" | "activeDays"> & Partial<Pick<AppState, "mistakeTags" | "mistakeNotes" | "mistakeDone" | "mains" | "learn" | "sched" | "syll">>) => void;
+  restore: (s: Pick<AppState, "profile" | "theme" | "attempts" | "qstats" | "bookmarks" | "activeDays"> & Partial<Pick<AppState, "mistakeTags" | "mistakeNotes" | "mistakeDone" | "mains" | "learn" | "sched" | "syll" | "calDone">>) => void;
   setInstallPrompt: (s: AppState["installPrompt"]) => void;
   resetAll: () => void;
 }
@@ -88,6 +91,7 @@ const initial = {
   mains: {} as Record<string, MainsEntry>,
   sched: {} as Record<string, number>,
   syll: {} as Record<string, number>,
+  calDone: {} as Record<string, number>,
 };
 
 export const useApp = create<AppState>()(
@@ -138,6 +142,13 @@ export const useApp = create<AppState>()(
             else delete next[k];
           }
           return { sched: next };
+        }),
+      toggleCalDay: (date) =>
+        set((s) => {
+          const next = { ...s.calDone };
+          if (next[date]) delete next[date];
+          else next[date] = Date.now();
+          return { calDone: next };
         }),
       toggleSyll: (key) =>
         set((s) => {

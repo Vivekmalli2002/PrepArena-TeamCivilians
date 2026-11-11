@@ -123,6 +123,14 @@ Stored attempts keep only question ids, responses and a snapshot of the answer k
   basis stated on screen; "Customise" lets the student pick the number of questions per section. The Custom builder takes
   any number up to what is available and can follow the weightage.
 
+## Exam calendar
+
+`/calendar` shows the announced exam dates (`src/content/exam-dates.ts`: Group-1 Prelims Sun 24 Jan 2027, Group-2 Prelims Sun 21 Feb 2027; every other exam
+is listed as "date not announced yet" until its `date` is filled in), days remaining to each, and month grids from today to the last announced exam
+with the 60-day Mains plan laid onto its dates (Day 1 = Wed 11 Nov 2026). A date gets a ✅ when its plan day is fully ticked in the Group-I Mains
+checklist, or when the learner marks it done (any day that has started, including the free days before an exam). The summary at the top says how many
+plan days are done, ahead and behind. Logic: `src/lib/calendar.ts`; manual marks are stored in `calDone` and are part of backup/restore.
+
 ## Syllabus checklist
 
 `/checklist` lists every paper, subject and unit of the chosen exam (`src/lib/syllabus.ts`, from the catalog's units and each unit's `exams`

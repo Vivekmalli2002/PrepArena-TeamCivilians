@@ -45,11 +45,14 @@ export function MainsScreen() {
   // Open on today's phase and day (or on the start of the plan before it begins).
   useEffect(() => {
     if (!hydrated || phase !== null) return;
-    const d = today ?? DAYS[0];
+    // "/mains#day-12" (from the calendar) opens that day
+    const hash = Number(/^#day-(\d+)$/.exec(window.location.hash)?.[1]);
+    const linked = DAYS.find((x) => x.day === hash);
+    const d = linked ?? today ?? DAYS[0];
     setPhase(d.phase);
     setOpen(d.day);
     // bring today's card into view once the list has rendered
-    if (d.day > 3) setTimeout(() => document.getElementById(`day-${d.day}`)?.scrollIntoView({ block: "start" }), 50);
+    if (linked || d.day > 3) setTimeout(() => document.getElementById(`day-${d.day}`)?.scrollIntoView({ block: "start" }), 50);
   }, [hydrated, phase, today]);
 
   if (!hydrated || phase === null) return <PageSkeleton />;
