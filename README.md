@@ -154,3 +154,7 @@ pending, and "Continue" jumps to the first unfinished day.
 - Logic: `src/lib/schedule.ts` (progress, today's plan day). Progress is stored in the app's `sched` (item key → time ticked), which
   is part of backup/restore.
 - The earlier Paper → subject → theme checklist, the UPSC mapping and the hand-written model answers were removed.
+
+## YCT general-studies chapters
+
+The YCT history, geography, science and environment books used to sit in a few coarse topics. `scripts/extract/gs_topics.py` re-files each YCT question into a finer chapter (keyword scoring on question, options and explanation) and writes `data/gs-topics.json` (question id → chapter); `scripts/prepare-content.mjs` applies it. Only YCT books are touched: Shyam mock-test, TSPSC and other sources keep their own topics. Questions that match no chapter go to an "other questions" bucket. Re-run `python3 -I scripts/extract/gs_topics.py` after editing the patterns.
