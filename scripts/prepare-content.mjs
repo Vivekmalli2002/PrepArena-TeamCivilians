@@ -229,6 +229,10 @@ let numericalMoved = 0;
 // YCT General Studies questions (history, geography, science) filed under finer chapters by scripts/extract/gs_topics.py.
 const GS_TOPICS_FILE = join(root, "data/gs-topics.json");
 const GS_TOPICS = existsSync(GS_TOPICS_FILE) ? JSON.parse(readFileSync(GS_TOPICS_FILE, "utf8")) : {};
+// Environmental Science: every question is filed under a numbered chapter of the PCB AEE / consolidated syllabus
+// (scripts/extract/env_chapters.py -> data/env-topics.json: id -> [chapter, syllabus unit]).
+const ENV_TOPICS_FILE = join(root, "data/env-topics.json");
+const ENV_TOPICS = existsSync(ENV_TOPICS_FILE) ? JSON.parse(readFileSync(ENV_TOPICS_FILE, "utf8")) : {};
 const HOLD = new Set(["source-only", "conflict-trusted-explanation", "key-overridden-by-science", "time-sensitive", "source-key-as-printed"]);
 // Symbol-font glyphs come through PDF text as private-use code points (U+F0xx/U+F8xx) that browsers draw as boxes.
 const GREEK_LO = "αβχδεφγηιϕκλμνοπθρστυϖωξψζ";
@@ -338,7 +342,16 @@ function stripStrayNumbers(t) {
 }
 for (const q of all) if (GS_SUBJECTS.has(subjectOf.get(q.id))) q.question = stripStrayNumbers(q.question);
 
-const version = createHash("sha256").update(rawText).update(fixText).update(authoredText.join("")).update(structuredText.join("")).update(JSON.stringify(NUMERICALS)).update(JSON.stringify(GS_TOPICS)).update("stem-cleanup-v2").digest("hex").slice(0, 12);
+for (const q of all) {
+  const e = ENV_TOPICS[q.id];
+  if (e && subjectOf.get(q.id) === "env") {
+    q.srcTopic = q.topic;
+    q.topic = e[0];
+    unitOf.set(q.id, e[1]);
+  }
+}
+
+const version = createHash("sha256").update(rawText).update(fixText).update(authoredText.join("")).update(structuredText.join("")).update(JSON.stringify(NUMERICALS)).update(JSON.stringify(GS_TOPICS)).update(JSON.stringify(ENV_TOPICS)).update("stem-cleanup-v2").digest("hex").slice(0, 12);
 const slug = (s) => s.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const byTopic = new Map();
 for (const q of all) {
@@ -375,7 +388,8 @@ for (const [key, qs] of [...byTopic].sort((a, b) => b[1].length - a[1].length)) 
 }
 // Chapters follow the syllabus order inside each subject (unit = chapter number); other topics keep size order.
 const subjectRank = new Map([...new Set(topics.map((t) => t.subject))].map((id, i) => [id, i]));
-topics.sort((a, b) => subjectRank.get(a.subject) - subjectRank.get(b.subject) || (a.unit ?? 1e6) - (b.unit ?? 1e6));
+const chapterNo = (n) => { const m = /^(\d+)\.(\d+) /.exec(n); return m ? Number(m[1]) * 100 + Number(m[2]) : 1e6; };
+topics.sort((a, b) => subjectRank.get(a.subject) - subjectRank.get(b.subject) || (a.unit ?? 1e6) - (b.unit ?? 1e6) || chapterNo(a.name) - chapterNo(b.name));
 const active = topics.reduce((n, t) => n + t.qids.length, 0);
 const subjectList = [...subjects.values()].map((s) => ({
   ...s,

@@ -81,20 +81,6 @@ T = {
  ("Population, census, tribes & urbanisation", r"census|population|literacy|\bdensity|sex ratio|\burban|\bcity|migration|\btribe|language|religion|scheduled caste|growth rate|demograph|million plus|metropolitan|human development|life expectancy|birth rate|death rate|fertility"),
  ("Andhra Pradesh geography", r"andhra|\bap\b|rayalaseema|nallamala|visakhapatnam|vizag|tirupati|amaravati|srisailam|\bkrishna district|guntur|kurnool|anantapur|chittoor|nellore|prakasam|kadapa|east godavari|west godavari|srikakulam|vizianagaram|kolleru|kondapalli|araku|papikonda|horsley"),
 ],
-"gs-environment": [
- ("Ecology basics: ecosystem, food chain & energy flow", r"ecosystem|food chain|food web|trophic|ecological pyramid|energy flow|producer|consumer|decompos|biome|ecotone|niche|habitat|\bbiotic|abiotic|ecology|population|succession|symbiosis|mutualism|commensal|parasit|predat|keystone|biogeochemical|nitrogen cycle|carbon cycle"),
- ("Biodiversity, hotspots & species", r"biodiversity|hotspot|endemic|\bspecies|endangered|extinct|red data|\biucn|critically|vulnerable|flora|fauna|invasive|alien|megadiversity|genetic diversity|ex-?situ|in-?situ|gene bank|zoo\b"),
- ("Protected areas: national parks, sanctuaries & reserves", r"national park|sanctuary|biosphere reserve|tiger reserve|elephant reserve|ramsar|wetland|world heritage|conservation reserve|community reserve|project tiger|project elephant|mangrove|coral|protected area|\bunesco"),
- ("Forests, wildlife & conservation movements", r"\bforest|wildlife|chipko|appiko|silent valley|narmada bachao|joint forest|tree\b|deforest|afforest|social forestry|agroforestry|\bcites\b|poaching|\btiger|\bleopard|\blion\b|rhino|vulture|crocodile|elephant"),
- ("Air, water, soil & noise pollution", r"pollut|\bsmog|particulate|\bpm ?2\.5|\bpm ?10|\bsox\b|\bnox\b|aqi|air quality|\bbod\b|\bcod\b|eutrophic|algal bloom|acid rain|noise|decibel|\bsoil|erosion|salinity|heavy metal|arsenic|fluoride|groundwater|effluent|sewage"),
- ("Solid waste, e-waste & hazardous waste", r"\bwaste|e-?waste|plastic|landfill|incinerat|compost|recycl|hazardous|biomedical|radioactive waste|swachh|segregat|sanitation|microplastic"),
- ("Climate change, ozone & global warming", r"climate|global warming|greenhouse|\bozone|\bcfc|montreal|kyoto|paris agreement|carbon credit|carbon footprint|carbon neutral|net zero|\bunfccc|\bcop\b|\bipcc|el nino|la nina|sea level|glacier|\bndc\b|carbon sink|\bredd"),
- ("Energy: renewable & non-renewable", r"renewable|solar|\bwind\b|hydro|geothermal|biofuel|biogas|biomass|\bcoal\b|nuclear|tidal|\bethanol|green hydrogen|\bhydrogen|fossil|energy|\bfuel|electric vehicle|\bev\b"),
- ("Environmental laws, policies & institutions", r"\bact\b|\bngt\b|national green tribunal|\bmoef|\bcpcb|\bspcb|\bpolicy|\bnap\b|\beia\b|environment impact|notification|tribunal|legislation|article 48|article 51|\brules\b|\bcommittee|\bcommission"),
- ("International conventions, treaties & organisations", r"convention|protocol|treaty|\bcbd\b|cartagena|nagoya|basel|rotterdam|stockholm|minamata|\bcites\b|ramsar|\bunep|\bundp\b|\bgef\b|\bwwf\b|\bsdg|earth summit|world environment day|\bunccd|bonn|solar alliance"),
- ("Agriculture, sustainable development & resources", r"sustainable|organic farming|agricultur|\bcrop|pesticide|fertili[sz]er|biofertili|green revolution|irrigation|watershed|rainwater|water conservation|\bresource|zero budget|\bgm\b|genetically|bioremediation|permaculture"),
- ("Environmental issues, disasters & current affairs", r"disaster|flood|cyclone|earthquake|tsunami|drought|landslide|\bndma\b|oil spill|bhopal|chernobyl|fukushima|wildfire|\bindex\b|\breport\b|\bsurvey|initiative|mission|campaign|programme|scheme"),
-],
 "gs-science-tech": [
  ("Physics: units, motion & force", r"\bunit\b|measurement|velocity|\bspeed|acceleration|newton|inertia|momentum|friction|projectile|circular motion|vector|scalar|dimension|\bsi\b|distance|displacement|centripetal|centrifugal|equation of motion|physical quantit"),
  ("Physics: gravitation, pressure & fluids", r"gravit|escape velocity|satellite orbit|kepler|\bpressure|buoyan|archimedes|pascal|density|viscosity|surface tension|bernoulli|capillar|barometer|floating|sinks|relative density|hydrometer|hydraulic|\bg\b value"),
@@ -131,7 +117,7 @@ T = {
 # Broad catch-all chapters need more evidence than the specific ones, otherwise they swallow everything.
 BROAD = {"Books, journals, newspapers & organisations", "Personalities of the freedom struggle", "Medieval administration, economy & society", "Literature, inscriptions, coins & foreign travellers",
          "World geography: continents, countries & regions", "India: location, boundaries & states", "Inventions, discoveries, scientists & institutions", "Education, press, law & administration under the British",
-         "Art & architecture (ancient and medieval)", "Computers, IT & communication", "Ecology, environment & natural resources (science)", "Environmental laws, policies & institutions", "Environmental issues, disasters & current affairs", "Energy: renewable & non-renewable", "Agriculture, sustainable development & resources", "International conventions, treaties & organisations", "Minerals, power & energy resources", "Transport, ports & trade"}
+         "Art & architecture (ancient and medieval)", "Computers, IT & communication", "Ecology, environment & natural resources (science)", "Minerals, power & energy resources", "Transport, ports & trade"}
 
 def score(text_q, text_o, text_e, pats):
     out = []
@@ -142,9 +128,9 @@ def score(text_q, text_o, text_e, pats):
     return out
 
 FILES = {"gs-ancient-medieval": ["gs-ancient-medieval", "gs-ancient-medieval-unverified"], "gs-modern-india": ["gs-modern-india", "gs-modern-india-unverified"],
-         "gs-geography": ["gs-geography", "gs-geography-unverified"], "gs-science-tech": ["gs-science-tech", "gs-science-tech-unverified"], "gs-environment": ["gs-environment", "gs-environment-unverified"]}
+         "gs-geography": ["gs-geography", "gs-geography-unverified"], "gs-science-tech": ["gs-science-tech", "gs-science-tech-unverified"]}
 FALLBACK = {"gs-ancient-medieval": "Ancient & medieval India: other questions", "gs-modern-india": "Modern India: other questions",
-            "gs-geography": "Geography: other questions", "gs-science-tech": "General science: other questions", "gs-environment": "Environment: other questions"}
+            "gs-geography": "Geography: other questions", "gs-science-tech": "General science: other questions"}
 
 out, report = {}, {}
 for book, files in FILES.items():
