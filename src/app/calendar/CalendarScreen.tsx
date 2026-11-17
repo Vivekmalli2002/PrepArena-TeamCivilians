@@ -3,14 +3,16 @@
 import { CalendarClock, Check, Flag } from "lucide-react";
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { Button, Card, PageSkeleton, Sheet, cx } from "@/components/ui";
+import { Button, Card, PageSkeleton, Segmented, Sheet, cx } from "@/components/ui";
+import { TimetableView } from "./TimetableView";
+import { cellStatus, dayStats, defaultDate, inRange, ttComplete } from "@/lib/timetable";
 import { dayProgress, itemKeys } from "@/lib/schedule";
 import {
   WEEKDAYS,
   buildMonth,
   daysBetween,
-  dateDone,
   announced,
+  dateDone,
   fmtDay,
   monthsToShow,
   notAnnounced,
@@ -28,16 +30,32 @@ export function CalendarScreen() {
   const myExam = useApp((s) => s.profile?.examId);
   const [picked, setPicked] = useState<string | null>(null);
   const today = dayKey();
+  const [view, setView] = useState<"timetable" | "calendar">("timetable");
+  const [ttDate, setTtDate] = useState(() => defaultDate(dayKey()));
   const months = useMemo(() => monthsToShow(today).map((m) => buildMonth(m.year, m.month0)), [today]);
   const rem = useMemo(() => remaining(today, sched, marked), [today, sched, marked]);
   if (!hydrated) return <PageSkeleton />;
 
   return (
     <div>
-      <h1 className="font-display text-[28px] font-extrabold sm:text-4xl">Exam calendar</h1>
-      <p className="mt-1 text-sm text-muted">
-        Every day from today to the announced exam dates. A day gets a ✅ when its plan day is fully ticked in the Group-I Mains checklist, or when you mark it
-        done yourself.
+      <h1 className="font-display text-[28px] font-extrabold sm:text-4xl">{view === "timetable" ? "Daily timetable" : "Exam calendar"}</h1>
+      <Segmented
+        className="mt-3"
+        label="Calendar view"
+        value={view}
+        onChange={setView}
+        options={[
+          { value: "timetable", label: "Daily timetable" },
+          { value: "calendar", label: "Exam calendar" },
+        ]}
+      />
+      {view === "timetable" ? (
+        <TimetableView date={ttDate} setDate={setTtDate} />
+      ) : (
+        <>
+      <p className="mt-3 text-sm text-muted">
+        Every day from today to the announced exam dates. A day gets a ✅ when everything planned for it is done: its Group-I Mains plan day (ticked in the checklist, or
+        marked done by you) and its daily timetable (all seven study blocks ticked).
       </p>
 
       <div className="mt-4 grid gap-3 sm:grid-cols-2">
@@ -100,7 +118,7 @@ export function CalendarScreen() {
       </Card>
 
       <div className="mt-4 flex flex-wrap gap-x-4 gap-y-1 text-xs text-muted" aria-label="Legend">
-        <span>✅ day done</span>
+        <span>✅ day done (plan and timetable)</span>
         <span>
           <b className="text-primary">G1</b> exam day
         </span>
@@ -108,6 +126,7 @@ export function CalendarScreen() {
           <span className="inline-block size-2 rounded-full bg-amber-500" /> plan day not finished
         </span>
         <span>D5 = plan day 5</span>
+        <span>18 Nov – 31 Dec also has a daily timetable</span>
         <span>
           <span className="inline-block size-3 rounded border-2 border-primary align-middle" /> today
         </span>
@@ -141,7 +160,19 @@ export function CalendarScreen() {
         </div>
       </section>
 
-      <DaySheet date={picked} today={today} onClose={() => setPicked(null)} />
+        </>
+      )}
+
+      <DaySheet
+        date={picked}
+        today={today}
+        onClose={() => setPicked(null)}
+        openTimetable={(d) => {
+          setTtDate(d);
+          setPicked(null);
+          setView("timetable");
+        }}
+      />
     </div>
   );
 }
@@ -149,9 +180,9 @@ export function CalendarScreen() {
 function Day({ c, today, onPick }: { c: Cell; today: string; onPick: () => void }) {
   const sched = useApp((s) => s.sched);
   const marked = useApp((s) => s.calDone);
-  const done = dateDone(c.key, sched, marked);
+  const tt = useApp((s) => s.tt);
+  const { done, late } = cellStatus(c.key, today, sched, marked, tt);
   const isToday = c.key === today;
-  const late = !!c.plan && c.key < today && !done;
   return (
     <button
       onClick={onPick}
@@ -170,13 +201,13 @@ function Day({ c, today, onPick }: { c: Cell; today: string; onPick: () => void 
   );
 }
 
-function DaySheet({ date, today, onClose }: { date: string | null; today: string; onClose: () => void }) {
+function DaySheet({ date, today, onClose, openTimetable }: { date: string | null; today: string; onClose: () => void; openTimetable: (d: string) => void }) {
   const sched = useApp((s) => s.sched);
   const marked = useApp((s) => s.calDone);
   const toggle = useApp((s) => s.toggleCalDay);
   return (
     <Sheet open={!!date} onClose={onClose} title={date ? fmtDay(date) : ""}>
-      {date && <DayDetail date={date} today={today} sched={sched} marked={marked} toggle={toggle} />}
+      {date && <DayDetail date={date} today={today} sched={sched} marked={marked} toggle={toggle} openTimetable={openTimetable} />}
     </Sheet>
   );
 }
@@ -187,13 +218,16 @@ function DayDetail({
   sched,
   marked,
   toggle,
+  openTimetable,
 }: {
   date: string;
   today: string;
   sched: Record<string, number>;
   marked: Record<string, number>;
   toggle: (date: string) => void;
+  openTimetable: (d: string) => void;
 }) {
+  const tt = useApp((s) => s.tt);
   const plan = planDayOn(date);
   const exam = announced().find((x) => x.date === date);
   const days = exam ? daysBetween(today, date) : 0;
@@ -223,6 +257,17 @@ function DayDetail({
         </div>
       ) : (
         !exam && <p className="mt-1 text-sm text-muted">No plan day on this date{date > today ? " — free for revision and mock tests." : "."}</p>
+      )}
+      {inRange(date) && (
+        <div className="mt-3 rounded-2xl border border-hairline p-3">
+          <div className="text-xs font-semibold text-muted">Daily timetable</div>
+          <div className="mt-0.5 text-sm tabular">
+            {dayStats(date, tt).done}/{dayStats(date, tt).blocks} study blocks ticked{ttComplete(date, tt) ? " ✅" : ""}
+          </div>
+          <button onClick={() => openTimetable(date)} className="mt-1 text-sm font-semibold text-primary">
+            Open this day&apos;s timetable →
+          </button>
+        </div>
       )}
       <div className="mt-4">
         {auto ? (

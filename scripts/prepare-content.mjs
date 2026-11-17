@@ -226,6 +226,9 @@ const NUM_FILE = join(root, "data/numericals.json");
 const NUMERICALS = existsSync(NUM_FILE) ? JSON.parse(readFileSync(NUM_FILE, "utf8")) : {};
 const NUM_ORDER = ["Strength of Materials", "Fluid Mechanics", "Hydraulic Machines", "Engineering Mechanics", "Structural Analysis", "Reinforced Cement Concrete", "Design of Steel Structures", "Geotechnical Engineering", "Environmental Engineering", "Hydrology", "Irrigation Engineering", "Surveying", "Transportation Engineering", "Estimation & Costing", "Construction Planning & Management", "Building Materials", "Process Calculations & Thermodynamics", "Engineering Materials", "Other Civil"];
 let numericalMoved = 0;
+// YCT General Studies questions (history, geography, science) filed under finer chapters by scripts/extract/gs_topics.py.
+const GS_TOPICS_FILE = join(root, "data/gs-topics.json");
+const GS_TOPICS = existsSync(GS_TOPICS_FILE) ? JSON.parse(readFileSync(GS_TOPICS_FILE, "utf8")) : {};
 const HOLD = new Set(["source-only", "conflict-trusted-explanation", "key-overridden-by-science", "time-sensitive", "source-key-as-printed"]);
 // Symbol-font glyphs come through PDF text as private-use code points (U+F0xx/U+F8xx) that browsers draw as boxes.
 const GREEK_LO = "αβχδεφγηιϕκλμνοπθρστυϖωξψζ";
@@ -273,6 +276,7 @@ if (existsSync(DATA)) {
       structured.push(q);
       subjectOf.set(q.id, d.subjectId ?? subj);
       unitOf.set(q.id, Number.isInteger(d.unit) ? d.unit : (TOPIC_UNIT[q.topic] ?? null));
+      if (GS_TOPICS[d.id]) q.topic = GS_TOPICS[d.id];
       const nm = NUMERICALS[d.id];
       if (nm) {
         const pageNo = nm.qno ? `page ${nm.page}, question no. ${nm.qno}` : `page ${nm.page}`;
@@ -334,7 +338,7 @@ function stripStrayNumbers(t) {
 }
 for (const q of all) if (GS_SUBJECTS.has(subjectOf.get(q.id))) q.question = stripStrayNumbers(q.question);
 
-const version = createHash("sha256").update(rawText).update(fixText).update(authoredText.join("")).update(structuredText.join("")).update(JSON.stringify(NUMERICALS)).update("stem-cleanup-v2").digest("hex").slice(0, 12);
+const version = createHash("sha256").update(rawText).update(fixText).update(authoredText.join("")).update(structuredText.join("")).update(JSON.stringify(NUMERICALS)).update(JSON.stringify(GS_TOPICS)).update("stem-cleanup-v2").digest("hex").slice(0, 12);
 const slug = (s) => s.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const byTopic = new Map();
 for (const q of all) {

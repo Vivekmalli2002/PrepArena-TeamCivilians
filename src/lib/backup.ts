@@ -18,15 +18,17 @@ type Restorable = {
   sched?: Record<string, number>;
   syll?: Record<string, number>;
   calDone?: Record<string, number>;
+  tt?: Record<string, number>;
+  ttEarly?: Record<string, number>;
 };
 
 export function makeBackup(state: Restorable) {
-  const { profile, theme, attempts, qstats, bookmarks, activeDays, mistakeTags, mistakeNotes, mistakeDone, mains, learn, sched, syll, calDone } = state;
+  const { profile, theme, attempts, qstats, bookmarks, activeDays, mistakeTags, mistakeNotes, mistakeDone, mains, learn, sched, syll, calDone, tt, ttEarly } = state;
   return {
     kind: BACKUP_KIND,
     version: STORE_VERSION,
     exportedAt: new Date().toISOString(),
-    data: { profile, theme, attempts, qstats, bookmarks, activeDays, mistakeTags, mistakeNotes, mistakeDone, mains, learn, sched, syll, calDone },
+    data: { profile, theme, attempts, qstats, bookmarks, activeDays, mistakeTags, mistakeNotes, mistakeDone, mains, learn, sched, syll, calDone, tt, ttEarly },
   };
 }
 
@@ -62,6 +64,8 @@ export function parseBackup(text: string): Restorable {
     ...(d.learn && typeof d.learn === "object" ? { learn: d.learn } : {}),
     sched: d.sched && typeof d.sched === "object" ? Object.fromEntries(Object.entries(d.sched).filter(([, v]) => typeof v === "number")) : {},
     calDone: d.calDone && typeof d.calDone === "object" ? Object.fromEntries(Object.entries(d.calDone).filter(([, v]) => typeof v === "number")) : {},
+    tt: d.tt && typeof d.tt === "object" ? Object.fromEntries(Object.entries(d.tt).filter(([, v]) => typeof v === "number")) : {},
+    ttEarly: d.ttEarly && typeof d.ttEarly === "object" ? Object.fromEntries(Object.entries(d.ttEarly).filter(([, v]) => typeof v === "number")) : {},
     syll: d.syll && typeof d.syll === "object" ? Object.fromEntries(Object.entries(d.syll).filter(([, v]) => typeof v === "number")) : {},
   };
 }
