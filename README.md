@@ -162,3 +162,7 @@ The YCT history, geography, science and environment books used to sit in a few c
 ## Daily timetable
 
 The Calendar tab opens on a full-day study timetable for every date from 18 Nov to 31 Dec 2026 (`src/lib/timetable.ts`): seven study blocks (SOM, ASWO, Mental Ability, Environmental Science, Prelims Subjects, PCB & PR Extra, Current Affairs) plus meals and breaks, in a Normal (7:30 AM start) or Early (5:00 AM start) version chosen per day. Ticks are stored per date and block (`tt`) and the chosen day type in `ttEarly`; both are in the backup. Progress shows per day, per week, overall, by subject, and as a streak. Change the plan in `PLANS`; `BLOCK_MINUTES` must stay equal in both versions (a test checks it).
+
+## Environmental Science chapters
+
+Every Environmental Science question is filed under a numbered chapter of the PCB AEE Paper-II / consolidated syllabus (10 units, e.g. "4.7 Wastewater treatment: ASP, trickling filters, oxidation ponds, septic tanks, sludge"). `scripts/extract/env_chapters.py` scores each question's text against the chapter keyword lists and writes `data/env-topics.json` (question id → [chapter, unit]); `scripts/prepare-content.mjs` applies it and keeps the source's own topic as `srcTopic`. Chapters sort in syllabus order inside their unit, and the unit is what the exam filter uses. After adding a book run `node scripts/prepare-content.mjs`, then `python3 -I scripts/extract/env_chapters.py`, then `node scripts/prepare-content.mjs` again.

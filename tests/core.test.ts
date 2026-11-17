@@ -355,7 +355,7 @@ describe("anti-repeat selection and option shuffling", () => {
   it("publishes the structured question banks and withholds items with an unconfirmed key", () => {
     const idx = JSON.parse(readFileSync("public/data/index.json", "utf8"));
     const topics = idx.topics.filter((t: { subject: string }) => t.subject === "env");
-    expect(topics.some((t: { name: string }) => t.name === "Water treatment: coagulation & disinfection")).toBe(true);
+    expect(topics.some((t: { name: string }) => t.name.startsWith("4.6 Drinking water standards & water treatment"))).toBe(true);
     const held = JSON.parse(readFileSync("data/questions/air-pollution.json", "utf8")).filter((q: { keyCheck: string }) => q.keyCheck === "source-only");
     expect(held.length).toBeGreaterThan(0);
     const ids: Record<string, number> = JSON.parse(readFileSync("data/questions/_ids.json", "utf8"));

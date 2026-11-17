@@ -9,7 +9,7 @@ describe("YCT general-studies topics are segregated", () => {
     for (const [name, n] of topics) expect(n, name).toBeLessThan(500);
   });
   it("splits history, geography, science and environment into many chapters", () => {
-    for (const w of ["Ancient", "Modern", "Geography", "Physics", "Biology", "Protected areas", "Climate change"])
+    for (const w of ["Ancient", "Modern", "Geography", "Physics", "Biology"])
       expect([...topics.keys()].some((k) => k.includes(w)), w).toBe(true);
     expect(topics.size).toBeGreaterThanOrEqual(60);
   });
