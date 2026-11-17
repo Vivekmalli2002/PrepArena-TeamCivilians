@@ -43,6 +43,10 @@ interface AppState {
   syll: Record<string, number>;
   /** Calendar dates (YYYY-MM-DD) the learner marked as done themselves → time. */
   calDone: Record<string, number>;
+  /** Daily timetable: "YYYY-MM-DD.BLOCK" → time the study block was ticked. */
+  tt: Record<string, number>;
+  /** Dates on which the learner chose the early-start timetable (every other date is a normal day). */
+  ttEarly: Record<string, number>;
 
   setMistakeTag: (id: number, tag: MistakeReason | null) => void;
   /** Your own note on a mistake (what to remember); empty text removes it. */
@@ -60,6 +64,8 @@ interface AppState {
   /** Tick (or clear) several items at once, e.g. a whole day. */
   setSched: (keys: string[], on: boolean) => void;
   toggleCalDay: (date: string) => void;
+  toggleTT: (key: string) => void;
+  setTTEarly: (date: string, early: boolean) => void;
   toggleSyll: (key: string) => void;
   setSyll: (keys: string[], on: boolean) => void;
   setProfile: (p: Profile) => void;
@@ -71,7 +77,7 @@ interface AppState {
   /** "I've learnt this": take the question out of the revision set. */
   clearFromRevision: (id: number) => void;
   /** Replace everything with an imported backup. */
-  restore: (s: Pick<AppState, "profile" | "theme" | "attempts" | "qstats" | "bookmarks" | "activeDays"> & Partial<Pick<AppState, "mistakeTags" | "mistakeNotes" | "mistakeDone" | "mains" | "learn" | "sched" | "syll" | "calDone">>) => void;
+  restore: (s: Pick<AppState, "profile" | "theme" | "attempts" | "qstats" | "bookmarks" | "activeDays"> & Partial<Pick<AppState, "mistakeTags" | "mistakeNotes" | "mistakeDone" | "mains" | "learn" | "sched" | "syll" | "calDone" | "tt" | "ttEarly">>) => void;
   setInstallPrompt: (s: AppState["installPrompt"]) => void;
   resetAll: () => void;
 }
@@ -92,6 +98,8 @@ const initial = {
   sched: {} as Record<string, number>,
   syll: {} as Record<string, number>,
   calDone: {} as Record<string, number>,
+  tt: {} as Record<string, number>,
+  ttEarly: {} as Record<string, number>,
 };
 
 export const useApp = create<AppState>()(
@@ -142,6 +150,20 @@ export const useApp = create<AppState>()(
             else delete next[k];
           }
           return { sched: next };
+        }),
+      toggleTT: (key) =>
+        set((s) => {
+          const next = { ...s.tt };
+          if (next[key]) delete next[key];
+          else next[key] = Date.now();
+          return { tt: next };
+        }),
+      setTTEarly: (date, early) =>
+        set((s) => {
+          const next = { ...s.ttEarly };
+          if (early) next[date] = Date.now();
+          else delete next[date];
+          return { ttEarly: next };
         }),
       toggleCalDay: (date) =>
         set((s) => {
