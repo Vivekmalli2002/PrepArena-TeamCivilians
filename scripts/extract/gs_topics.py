@@ -132,21 +132,26 @@ FILES = {"gs-ancient-medieval": ["gs-ancient-medieval", "gs-ancient-medieval-unv
 FALLBACK = {"gs-ancient-medieval": "Ancient & medieval India: other questions", "gs-modern-india": "Modern India: other questions",
             "gs-geography": "Geography: other questions", "gs-science-tech": "General science: other questions"}
 
-out, report = {}, {}
-for book, files in FILES.items():
-    pats = T[book]
-    cnt = collections.Counter()
-    for f in files:
-        for q in json.loads((root / "data/questions" / f"{f}.json").read_text("utf8")):
-            sc = score(q["question"], " ".join(q["options"]), q.get("explanation") or "", pats)
-            best = max(sc)
-            topic = pats[sc.index(best)][0] if best >= 1.2 else FALLBACK[book]
-            out[q["id"]] = topic
-            cnt[topic] += 1
-    report[book] = cnt
-(root / "data/gs-topics.json").write_text(json.dumps(out, ensure_ascii=False, indent=0) + "\n", "utf8")
-for book, cnt in report.items():
-    tot = sum(cnt.values())
-    print(f"== {book}: {tot} questions in {len(cnt)} chapters")
-    for t, n in cnt.most_common():
-        print(f"   {n:4d}  {t}")
+def main():
+    out, report = {}, {}
+    for book, files in FILES.items():
+        pats = T[book]
+        cnt = collections.Counter()
+        for f in files:
+            for q in json.loads((root / "data/questions" / f"{f}.json").read_text("utf8")):
+                sc = score(q["question"], " ".join(q["options"]), q.get("explanation") or "", pats)
+                best = max(sc)
+                topic = pats[sc.index(best)][0] if best >= 1.2 else FALLBACK[book]
+                out[q["id"]] = topic
+                cnt[topic] += 1
+        report[book] = cnt
+    (root / "data/gs-topics.json").write_text(json.dumps(out, ensure_ascii=False, indent=0) + "\n", "utf8")
+    for book, cnt in report.items():
+        tot = sum(cnt.values())
+        print(f"== {book}: {tot} questions in {len(cnt)} chapters")
+        for t, n in cnt.most_common():
+            print(f"   {n:4d}  {t}")
+
+
+if __name__ == "__main__":
+    main()
