@@ -250,7 +250,12 @@ describe("authored questions", () => {
         // one unit per source subject; each topic is "<Subject> · <formula family>"
         expect(t.name.startsWith(`${SUBJECTS.numericals.units[(t.unit ?? 1) - 1].title} · `), `numericals unit ${t.unit}`).toBe(true);
       } else if (t.subject !== "env" && t.unit != null) {
-        expect(SUBJECTS[t.subject].units[t.unit - 1]?.title, `${t.subject} unit ${t.unit}`).toBe(t.name);
+        // a topic is either the unit itself or a numbered chapter "<unit>.<n> …" of it (the regrouped general-studies subjects)
+        const chapter = /^(\d+)\.(\d+) /.exec(t.name);
+        if (chapter) {
+          expect(Number(chapter[1]), `${t.subject} ${t.name}`).toBe(t.unit);
+          expect(SUBJECTS[t.subject].units[t.unit - 1], `${t.subject} unit ${t.unit}`).toBeTruthy();
+        } else expect(SUBJECTS[t.subject].units[t.unit - 1]?.title, `${t.subject} unit ${t.unit}`).toBe(t.name);
       }
     }
     const ids = bank.topics.flatMap((t) => t.all);

@@ -233,6 +233,10 @@ const GS_TOPICS = existsSync(GS_TOPICS_FILE) ? JSON.parse(readFileSync(GS_TOPICS
 // (scripts/extract/env_chapters.py -> data/env-topics.json: id -> [chapter, syllabus unit]).
 const ENV_TOPICS_FILE = join(root, "data/env-topics.json");
 const ENV_TOPICS = existsSync(ENV_TOPICS_FILE) ? JSON.parse(readFileSync(ENV_TOPICS_FILE, "utf8")) : {};
+// General-studies catch-all topics (Polity, History, Economy, Geography, Science & Technology, Society, Mental Ability, Current Affairs) are
+// re-filed under syllabus chapters (scripts/extract/subject_chapters.py -> data/subject-topics.json: id -> [chapter, unit|null]).
+const SUBJECT_TOPICS_FILE = join(root, "data/subject-topics.json");
+const SUBJECT_TOPICS = existsSync(SUBJECT_TOPICS_FILE) ? JSON.parse(readFileSync(SUBJECT_TOPICS_FILE, "utf8")) : {};
 const HOLD = new Set(["source-only", "conflict-trusted-explanation", "key-overridden-by-science", "time-sensitive", "source-key-as-printed"]);
 // Symbol-font glyphs come through PDF text as private-use code points (U+F0xx/U+F8xx) that browsers draw as boxes.
 const GREEK_LO = "αβχδεφγηιϕκλμνοπθρστυϖωξψζ";
@@ -351,7 +355,16 @@ for (const q of all) {
   }
 }
 
-const version = createHash("sha256").update(rawText).update(fixText).update(authoredText.join("")).update(structuredText.join("")).update(JSON.stringify(NUMERICALS)).update(JSON.stringify(GS_TOPICS)).update(JSON.stringify(ENV_TOPICS)).update("stem-cleanup-v2").digest("hex").slice(0, 12);
+for (const q of all) {
+  const e = SUBJECT_TOPICS[q.id];
+  if (e && subjectOf.get(q.id) !== "env") {
+    q.srcTopic = q.topic;
+    q.topic = e[0];
+    if (e[1] != null) unitOf.set(q.id, e[1]);
+  }
+}
+
+const version = createHash("sha256").update(rawText).update(fixText).update(authoredText.join("")).update(structuredText.join("")).update(JSON.stringify(NUMERICALS)).update(JSON.stringify(GS_TOPICS)).update(JSON.stringify(ENV_TOPICS)).update(JSON.stringify(SUBJECT_TOPICS)).update("stem-cleanup-v2").digest("hex").slice(0, 12);
 const slug = (s) => s.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const byTopic = new Map();
 for (const q of all) {
