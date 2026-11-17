@@ -54,8 +54,7 @@ export function CalendarScreen() {
       ) : (
         <>
       <p className="mt-3 text-sm text-muted">
-        Every day from today to the announced exam dates. A day gets a ✅ when everything planned for it is done: its Group-I Mains plan day (ticked in the checklist, or
-        marked done by you) and its daily timetable (all seven study blocks ticked).
+        Every day from today to the announced exam dates. From 18 Nov to 31 Dec a day gets a ✅ when all seven blocks of its daily timetable are ticked (a partly done day shows e.g. 3/7). On other dates it gets a ✅ when its Group-I Mains plan day is ticked in the checklist or marked done by you.
       </p>
 
       <div className="mt-4 grid gap-3 sm:grid-cols-2">
@@ -181,7 +180,7 @@ function Day({ c, today, onPick }: { c: Cell; today: string; onPick: () => void 
   const sched = useApp((s) => s.sched);
   const marked = useApp((s) => s.calDone);
   const tt = useApp((s) => s.tt);
-  const { done, late } = cellStatus(c.key, today, sched, marked, tt);
+  const { done, late, blocksDone, blocks } = cellStatus(c.key, today, sched, marked, tt);
   const isToday = c.key === today;
   return (
     <button
@@ -196,7 +195,7 @@ function Day({ c, today, onPick }: { c: Cell; today: string; onPick: () => void 
     >
       <span className="text-[13px] font-semibold leading-none tabular">{c.day}</span>
       <span className="flex h-4 items-center text-[13px] leading-none">{c.exam ? <b className="text-[10px]">{c.exam.mark}</b> : done ? <span aria-hidden>✅</span> : late ? <span className="size-1.5 rounded-full bg-amber-500" /> : null}</span>
-      <span className={cx("text-[9px] leading-none tabular", c.exam ? "opacity-80" : "text-faint")}>{c.plan ? `D${c.plan.day}` : " "}</span>
+      <span className={cx("text-[9px] leading-none tabular", c.exam ? "opacity-80" : "text-faint")}>{blocksDone > 0 && !done ? `${blocksDone}/${blocks}` : c.plan ? `D${c.plan.day}` : "\u00a0"}</span>
     </button>
   );
 }

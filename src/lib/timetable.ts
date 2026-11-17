@@ -191,12 +191,16 @@ export interface CellStatus {
   late: boolean;
   /** Share of the timetable's study time ticked (0 when the date has no timetable). */
   ttShare: number;
+  /** Ticked study blocks out of the day's blocks (0 / 0 when the date has no timetable). */
+  blocksDone: number;
+  blocks: number;
 }
 export function cellStatus(date: string, today: string, sched: Record<string, number>, marked: Record<string, number>, tt: Record<string, number>): CellStatus {
   const hasPlan = !!planDayOn(date);
   const hasTT = inRange(date);
   const applicable = hasPlan || hasTT;
-  const done = applicable && (!hasPlan || dateDone(date, sched, marked)) && (!hasTT || ttComplete(date, tt));
+  // On timetable dates the day is done when its seven blocks are ticked; before that, when its Mains plan day is done.
+  const done = hasTT ? ttComplete(date, tt) : hasPlan && dateDone(date, sched, marked);
   const st = hasTT ? dayStats(date, tt) : null;
-  return { applicable, done, late: applicable && date < today && !done, ttShare: st ? st.doneMin / st.planned : 0 };
+  return { applicable, done, late: applicable && date < today && !done, ttShare: st ? st.doneMin / st.planned : 0, blocksDone: st?.done ?? 0, blocks: st?.blocks ?? 0 };
 }
