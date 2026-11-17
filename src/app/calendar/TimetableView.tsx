@@ -41,7 +41,6 @@ export function TimetableView({ date, setDate }: { date: string; setDate: (d: st
   const mode: Mode = early[shown] ? "E" : "N";
   const st = dayStats(shown, tt);
   const all = overall(today, tt);
-  const started = shown <= today;
   const idx = TT_DATES.indexOf(shown);
   const week = (() => {
     // Monday-first week around the shown date, like the original timetable's header strip.
@@ -57,7 +56,7 @@ export function TimetableView({ date, setDate }: { date: string; setDate: (d: st
     <div>
       {all.state === "before" && (
         <p className="mt-3 rounded-2xl bg-primary-soft px-3 py-2 text-sm font-semibold text-primary">
-          The timetable starts tomorrow, {fmtDay(TT_START)}, and runs every day until {fmtDay(TT_END)} ({all.days} days). You can look ahead now; ticking opens on each day.
+          The timetable starts tomorrow, {fmtDay(TT_START)}, and runs every day until {fmtDay(TT_END)} ({all.days} days). You can tick blocks on any day.
         </p>
       )}
       {all.state === "over" && <p className="mt-3 rounded-2xl bg-good-soft px-3 py-2 text-sm font-semibold text-good">The timetable ended on {fmtDay(TT_END)}.</p>}
@@ -125,7 +124,6 @@ export function TimetableView({ date, setDate }: { date: string; setDate: (d: st
           <p className="mt-1 text-xs text-muted tabular">
             {fmtHours(st.doneMin)} of {fmtHours(st.planned)} ticked{st.complete ? " — day complete ✅" : ""}
           </p>
-          {!started && <p className="mt-2 text-xs text-muted">Ticking opens on {fmtDay(shown)}.</p>}
         </div>
       </Card>
 
@@ -151,15 +149,14 @@ export function TimetableView({ date, setDate }: { date: string; setDate: (d: st
               <li key={i} className="relative">
                 {time}
                 <button
-                  onClick={() => started && toggle(k)}
-                  disabled={!started}
+                  onClick={() => toggle(k)}
                   aria-pressed={done}
-                  className={cx("flex w-full items-center gap-3 rounded-2xl p-3.5 text-left text-white shadow-sm transition active:scale-[0.985] disabled:cursor-not-allowed", done && "opacity-60", !started && "opacity-80")}
+                  className={cx("flex w-full items-center gap-3 rounded-2xl p-3.5 text-left text-white shadow-sm transition active:scale-[0.985]", done && "opacity-60")}
                   style={{ background: `linear-gradient(135deg, ${p.color}, ${p.color}cc)` }}
                 >
                   <span className="grid size-6 flex-none place-items-center rounded-lg border-[2.5px] border-white text-sm font-black">{done ? "✓" : ""}</span>
                   <span>
-                    <span className={cx("block font-semibold leading-snug", done && "line-through decoration-2")}>
+                    <span className={cx("block font-semibold leading-snug", done && "line-through decoration-[3px]")}>
                       {p.icon} {p.name}
                     </span>
                     <small className="text-xs opacity-90">

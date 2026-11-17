@@ -77,14 +77,15 @@ describe("daily timetable", () => {
     expect(overall("2026-11-17", {}).daysLeft).toBe(44);
     expect(overall("2027-01-02", {}).state).toBe("over");
   });
-  it("the calendar cell shows a day as done only when everything planned for it is done", () => {
+  it("the calendar cell is done when the day's seven blocks are ticked, and shows partial progress", () => {
     const tt: Record<string, number> = {};
+    tickDay(tt, "2026-11-20", ["SOM", "CA"]);
+    const part = cellStatus("2026-11-20", "2026-11-25", {}, {}, tt);
+    expect(part).toMatchObject({ done: false, late: true, blocksDone: 2, blocks: 7 });
     tickDay(tt, "2026-11-20");
-    // 20 Nov is also a Mains plan day: the timetable alone is not enough until the plan day is done too
-    expect(cellStatus("2026-11-20", "2026-11-25", {}, {}, tt).done).toBe(false);
-    expect(cellStatus("2026-11-20", "2026-11-25", {}, {}, tt).late).toBe(true);
-    expect(cellStatus("2026-11-20", "2026-11-25", {}, {}, {}).late).toBe(true);
-    expect(cellStatus("2026-11-20", "2026-11-25", {}, { "2026-11-20": 1 }, tt).done).toBe(true);
+    expect(cellStatus("2026-11-20", "2026-11-25", {}, {}, tt)).toMatchObject({ done: true, late: false, blocksDone: 7 });
+    // outside the timetable a date is done through its Mains plan day, and a plain date is not applicable
+    expect(cellStatus("2026-11-12", "2026-11-25", {}, { "2026-11-12": 1 }, {}).done).toBe(true);
     expect(cellStatus("2027-01-20", "2027-01-25", {}, {}, {}).applicable).toBe(false);
   });
   it("ticks and day types are part of the backup", () => {
